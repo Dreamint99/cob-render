@@ -935,20 +935,20 @@
  "cues": [
   {
    "at": 0,
-   "music": "docs/chengis/audio/m_mystery.mp3"
+   "music": "docs/banks/audio/m_mystery.mp3"
   },
   {
    "at": 8,
-   "music": "docs/chengis/audio/m_majestic.mp3",
+   "music": "docs/banks/audio/m_majestic.mp3",
    "vol": 0.1
   },
   {
    "at": 17,
-   "music": "docs/chengis/audio/m_mystery.mp3"
+   "music": "docs/banks/audio/m_mystery.mp3"
   },
   {
    "at": 24,
-   "music": "docs/chengis/audio/m_majestic.mp3"
+   "music": "docs/banks/audio/m_majestic.mp3"
   }
  ]
 }

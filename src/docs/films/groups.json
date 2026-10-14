@@ -868,20 +868,20 @@
  "cues": [
   {
    "at": 0,
-   "music": "docs/chengis/audio/m_mystery.mp3"
+   "music": "docs/groups/audio/m_mystery.mp3"
   },
   {
    "at": 8,
-   "music": "docs/chengis/audio/m_majestic.mp3",
+   "music": "docs/groups/audio/m_majestic.mp3",
    "vol": 0.1
   },
   {
    "at": 16,
-   "music": "docs/chengis/audio/m_mystery.mp3"
+   "music": "docs/groups/audio/m_mystery.mp3"
   },
   {
    "at": 22,
-   "music": "docs/chengis/audio/m_majestic.mp3"
+   "music": "docs/groups/audio/m_majestic.mp3"
   }
  ]
 }
