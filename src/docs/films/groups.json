@@ -646,7 +646,7 @@
      "label": "ব্যাংক খাতে খেলাপি ঋণ",
      "sub": "মোট ঋণের প্রায় ৩৩%",
      "src": "বাংলাদেশ ব্যাংক",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/groups/bb.jpg"
     },
     {
      "k": "photo",
@@ -659,7 +659,7 @@
      "k": "text",
      "text": "খেলাপি ঋণের বড় অংশ অল্প কিছু বড় ঋণগ্রহীতার কাছে",
      "hl": "অল্প কিছু",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/groups/bb.jpg"
     }
    ]
   },
@@ -667,7 +667,7 @@
    "v": [
     {
      "k": "photo",
-     "img": "docs/destiny/highcourt.jpg",
+     "img": "docs/groups/highcourt.jpg",
      "credit": "ছবি: Wasiul Bahar / Wikimedia Commons (CC BY-SA 4.0)",
      "kb": "in",
      "cap": "বিচার হবে আদালতে"
@@ -676,7 +676,7 @@
      "k": "text",
      "text": "আদালতের রায়ের আগে কেউ দোষী নয়",
      "hl": "রায়ের আগে",
-     "bg": "docs/destiny/highcourt.jpg"
+     "bg": "docs/groups/highcourt.jpg"
     },
     {
      "k": "flow",
@@ -728,7 +728,7 @@
      "text": "দরকার শক্তিশালী প্রতিযোগিতা আইন ও তার প্রয়োগ",
      "hl": "প্রতিযোগিতা আইন",
      "src": "বাংলাদেশ প্রতিযোগিতা কমিশন",
-     "bg": "docs/destiny/court.jpg"
+     "bg": "docs/groups/court.jpg"
     }
    ]
   },
@@ -783,7 +783,7 @@
     },
     {
      "k": "clip",
-     "video": "docs/bkash/clips/jurain.mp4",
+     "video": "docs/groups/clips/jurain.mp4",
      "credit": "ভিডিও: Yahya / Wikimedia Commons (CC BY 4.0)",
      "cap": "আপনার রান্নাঘরে, প্রতিদিন",
      "w": 0.85

@@ -14,7 +14,7 @@
     },
     {
      "k": "clip",
-     "video": "docs/bkash/clips/taka-market.mp4",
+     "video": "docs/banks/clips/taka-market.mp4",
      "credit": "ভিডিও: Delwar Hossain / Wikimedia Commons (CC BY-SA 4.0)",
      "cap": "জমানো টাকা তুলতে এসেছেন সবাই",
      "w": 0.9
@@ -117,7 +117,7 @@
     },
     {
      "k": "clip",
-     "video": "docs/bkash/clips/taka-market2.mp4",
+     "video": "docs/banks/clips/taka-market2.mp4",
      "credit": "ভিডিও: Delwar Hossain / Wikimedia Commons (CC BY-SA 4.0)",
      "cap": "বড় অংশ যায় ঋণ হিসেবে"
     }
@@ -217,7 +217,7 @@
        "আসল নিয়ন্ত্রণ"
       ]
      ],
-     "bg": "docs/groups/dse.jpg"
+     "bg": "docs/banks/dse.jpg"
     },
     {
      "k": "photo",
@@ -250,7 +250,7 @@
      "k": "text",
      "text": "পরিচালকদের বড় অংশ ব্যবসায়ী গ্রুপের মালিক বা পরিবার",
      "hl": "ব্যবসায়ী গ্রুপের",
-     "bg": "docs/groups/skyline.jpg"
+     "bg": "docs/banks/skyline.jpg"
     }
    ]
   },
@@ -277,7 +277,7 @@
     },
     {
      "k": "photo",
-     "img": "docs/groups/skyline.jpg",
+     "img": "docs/banks/skyline.jpg",
      "credit": "ছবি: Tarunno / Wikimedia Commons (CC BY-SA 4.0)",
      "kb": "in",
      "cap": "ব্যাংকের মালিক, আবার ব্যবসায়ী গ্রুপেরও মালিক"
@@ -341,11 +341,11 @@
        "ডিএসই ও ব্যাংকের ওয়েবসাইট"
       ]
      ],
-     "bg": "docs/groups/dse.jpg"
+     "bg": "docs/banks/dse.jpg"
     },
     {
      "k": "photo",
-     "img": "docs/groups/dse.jpg",
+     "img": "docs/banks/dse.jpg",
      "credit": "ছবি: Ifteebd10 / Wikimedia Commons (CC BY-SA 4.0)",
      "kb": "in",
      "cap": "তালিকাভুক্ত ব্যাংকের প্রতিবেদন প্রকাশ্য",
@@ -395,7 +395,7 @@
     },
     {
      "k": "photo",
-     "img": "docs/destiny/court.jpg",
+     "img": "docs/banks/court.jpg",
      "cap": "মামলাগুলো আদালতে",
      "kb": "in",
      "credit": "ছবি: Rashed Ali / Wikimedia Commons (CC BY-SA 3.0)"
@@ -434,7 +434,7 @@
     },
     {
      "k": "clip",
-     "video": "docs/bkash/clips/taka-market2.mp4",
+     "video": "docs/banks/clips/taka-market2.mp4",
      "credit": "ভিডিও: Delwar Hossain / Wikimedia Commons (CC BY-SA 4.0)",
      "cap": "বিপুল ঋণ বের করে নেওয়ার অভিযোগ: বিচারাধীন",
      "w": 0.8
@@ -479,7 +479,7 @@
     },
     {
      "k": "photo",
-     "img": "docs/groups/news/fe-npl.jpg",
+     "img": "docs/banks/news/fe-npl.jpg",
      "credit": "স্ক্রিনশট: The Financial Express",
      "cap": "খেলাপি ঋণ বেড়েই চলেছে",
      "kb": "in"
@@ -814,11 +814,11 @@
       "খেলাপি ঋণের হার: কম হলে ভালো",
       "মূলধন পর্যাপ্ততার অনুপাত: শক্ত হলে ভালো"
      ],
-     "bg": "docs/groups/dse.jpg"
+     "bg": "docs/banks/dse.jpg"
     },
     {
      "k": "photo",
-     "img": "docs/bkash/bb-shapla.jpg",
+     "img": "docs/banks/bb-shapla.jpg",
      "credit": "ছবি: Abu Nayeem / Wikimedia Commons (CC BY 3.0)",
      "kb": "left",
      "cap": "তথ্য যাচাই করুন বাংলাদেশ ব্যাংকের সূত্রে"
@@ -887,7 +887,7 @@
     },
     {
      "k": "photo",
-     "img": "docs/bkash/kurigram.jpg",
+     "img": "docs/banks/kurigram.jpg",
      "credit": "ছবি: Tanvir Rahat / Wikimedia Commons (CC BY-SA 4.0)",
      "kb": "left",
      "cap": "একটি পরিবারের সন্তানের পড়াশোনার স্বপ্ন"
@@ -916,7 +916,7 @@
     },
     {
      "k": "photo",
-     "img": "docs/bkash/dhaka-night.jpg",
+     "img": "docs/banks/dhaka-night.jpg",
      "credit": "ছবি: Asm Dip / Wikimedia Commons (CC BY-SA 4.0)",
      "kb": "in",
      "w": 0.7

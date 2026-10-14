@@ -155,7 +155,7 @@
      ],
      "stamp": "নীতিমালা",
      "src": "বাংলাদেশ ব্যাংক",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     },
     {
      "k": "photo",
@@ -409,7 +409,7 @@
      ],
      "stamp": "অন্তর্বর্তী",
      "src": "গণমাধ্যমের প্রতিবেদন",
-     "bg": "docs/destiny/bb.jpg",
+     "bg": "docs/bkash/bb.jpg",
      "w": 1.3
     },
     {
@@ -447,7 +447,7 @@
      ],
      "stamp": "তদন্তাধীন",
      "src": "বাংলাদেশ ব্যাংক",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     },
     {
      "k": "photo",
@@ -465,7 +465,7 @@
      },
      "label": "চিহ্নিত অসংগতি (অভিযোগ)",
      "src": "বাংলাদেশ ব্যাংক",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     }
    ]
   },
@@ -511,7 +511,7 @@
       }
      ],
      "note": "পার্থক্য = কাগজের টাকা · সবাই তুলতে গেলে সংকট",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     }
    ]
   },
@@ -521,7 +521,7 @@
      "k": "text",
      "text": "চূড়ান্তভাবে প্রমাণের আগে কেউ দোষী নয়",
      "hl": "প্রমাণের",
-     "bg": "docs/destiny/highcourt.jpg"
+     "bg": "docs/bkash/highcourt.jpg"
     },
     {
      "k": "photo",
@@ -555,7 +555,7 @@
       ]
      ],
      "src": "হাইকোর্ট · বাংলাদেশ ব্যাংক",
-     "bg": "docs/destiny/highcourt.jpg"
+     "bg": "docs/bkash/highcourt.jpg"
     }
    ]
   },
@@ -671,7 +671,7 @@
      ],
      "stamp": "আনুমানিক",
      "src": "বাংলাদেশ ব্যাংক",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     },
     {
      "k": "photo",
@@ -691,7 +691,7 @@
      },
      "label": "এমএফএস লেনদেন, অক্টোবর ২০২৫ (নগদ বাদে)",
      "src": "বাংলাদেশ ব্যাংক",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     }
    ]
   },
@@ -722,7 +722,7 @@
       "চার্জ নিয়ন্ত্রণ",
       "আন্তঃপরিচালন ব্যবস্থা"
      ],
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     }
    ]
   },
@@ -797,7 +797,7 @@
       ]
      ],
      "note": "শুধু বড় হওয়া আর যথেষ্ট নয়",
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     }
    ]
   },
@@ -949,7 +949,7 @@
       "আদালতের সিদ্ধান্ত",
       "শীর্ষ অর্থনৈতিক সংবাদমাধ্যম"
      ],
-     "bg": "docs/destiny/bb.jpg"
+     "bg": "docs/bkash/bb.jpg"
     },
     {
      "k": "photo",

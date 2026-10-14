@@ -30,9 +30,11 @@ import { Gambling, GAMBLING_LEN } from "./investigation/Gambling";
 import { Doc, FILM_LIST, filmLen } from "./docs/DocEngine";
 import { Explainer, TOPIC_LIST, topicLen } from "./overnight/Explainer";
 import { AvatarTech, avTotal } from "./avatar/AvatarTech";
+import { AIUPromo, AIU_TOTAL } from "./AIUPromo";
 // Register each new video here.
 export const Root = () => (
   <>
+    <Composition id="AIUPromo" component={AIUPromo} durationInFrames={AIU_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="TestCard" component={TestCard} durationInFrames={90} fps={30} width={1920} height={1080} />
     <Composition id="StyleDemo" component={StyleDemo} durationInFrames={DEMO_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="EralBeel" component={EralBeel} durationInFrames={BEEL_TOTAL} fps={30} width={1920} height={1080} />
