@@ -1,0 +1,969 @@
+{
+ "id": "bkash",
+ "theme": "cob",
+ "title": "বিকাশ বনাম নগদ",
+ "paras": [
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/bkash/dhaka-night.jpg",
+     "cap": "রাত এগারোটা, ঢাকা",
+     "kb": "in",
+     "credit": "ছবি: Asm Dip / Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/garment-exit.jpg",
+     "cap": "শিফট শেষে এক তরুণী শ্রমিক",
+     "kb": "left",
+     "credit": "ছবি: This work was made by Nahid Sultan and released un / Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+     "k": "clip",
+     "video": "docs/bkash/clips/rickshaw-dhaka.mp4",
+     "credit": "ভিডিও: Lightdn / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "আগে: বাসের টিকিট আর পুরো একটা দিন"
+    },
+    {
+     "k": "compare",
+     "title": "গ্রামে মায়ের কাছে টাকা পাঠাতে",
+     "a": [
+      "১৫ বছর আগে",
+      {
+       "v": 1,
+       "suf": " দিন"
+      }
+     ],
+     "b": [
+      "আজ",
+      {
+       "v": 10,
+       "suf": " সেকেন্ড"
+      }
+     ],
+     "note": "কুড়িগ্রাম পর্যন্ত, এক পিন নম্বরে",
+     "bg": "docs/bkash/kurigram.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "logos",
+     "title": "নীরব বিপ্লবের নাম",
+     "items": [
+      {
+       "img": "logos/bkash.png"
+      }
+     ],
+     "bg": "docs/bkash/garment-exit.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bkash-stall.jpg",
+     "credit": "ছবি: Wasiul Bahar / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "left",
+     "cap": "বিকাশ: যে নাম মুখে মুখে"
+    },
+    {
+     "k": "quote",
+     "text": "টাকাটা বিকাশ করে দাও",
+     "by": "যে ব্র্যান্ড ক্রিয়াপদ হয়ে গেছে",
+     "bg": "docs/bkash/phoneshop.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/bkash/nagad-launch.jpg",
+     "cap": "২০১৯: ডাক বিভাগের সেবা হিসেবে নগদের লোগো উন্মোচন",
+     "kb": "in",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)"
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 10,
+      "pre": "> ",
+      "suf": " কোটি"
+     },
+     "label": "নিবন্ধিত গ্রাহকের দাবি নগদের",
+     "sub": "সাথে বড় বড় প্রশ্ন",
+     "src": "নগদ",
+     "bg": "docs/bkash/post-hq.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/nagad-digipost.jpg",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)",
+     "kb": "right",
+     "cap": "২০২০: ডিজিটাল ডাকঘরে নগদ সেবার উদ্বোধন"
+    },
+    {
+     "k": "title",
+     "kicker": "অর্থনীতি",
+     "title": "বিকাশের উত্থান",
+     "sub": "নগদ কি পারবে টক্কর দিতে?"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 1,
+     "title": "একটি ব্যাংকের ছোট্ট পরীক্ষা",
+     "sub": "২০১০",
+     "w": 0.8
+    },
+    {
+     "k": "list",
+     "title": "তখনকার বাংলাদেশ",
+     "items": [
+      "ব্যাংক অ্যাকাউন্ট: বেশিরভাগের নেই",
+      "মোবাইল ফোন: প্রায় সবার হাতে"
+     ],
+     "bg": "docs/bkash/phoneshop.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/mpesa-phone.jpg",
+     "credit": "ছবি: Rosenfeld Media / Wikimedia Commons (CC BY 2.0)",
+     "kb": "in",
+     "cap": "কেনিয়া: সাধারণ ফোনেই টাকা লেনদেন"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/mpesa-agent.jpg",
+     "cap": "কেনিয়ার এম-পেসা: মোবাইল মানির সাফল্য",
+     "kb": "in",
+     "credit": "ছবি: Fiona Graham / Wikimedia Commons (CC BY-SA 2.0)"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "doc",
+     "title": "বাংলাদেশ ব্যাংক · এমএফএস নীতিমালা, ২০১১",
+     "lines": [
+      "মডেল: ব্যাংকের নেতৃত্বে",
+      "মোবাইল অপারেটর নয়, ব্যাংক মূল দায়িত্বে"
+     ],
+     "stamp": "নীতিমালা",
+     "src": "বাংলাদেশ ব্যাংক",
+     "bg": "docs/destiny/bb.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bb-main.jpg",
+     "credit": "ছবি: Mrb Rafi / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "out",
+     "cap": "বাংলাদেশ ব্যাংক, মতিঝিল",
+     "pos": "center 35%"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/brac.jpg",
+     "cap": "২০১১: ব্র্যাক ব্যাংকের সহযোগী প্রতিষ্ঠান হিসেবে বিকাশ",
+     "kb": "left",
+     "credit": "ছবি: Wasiul Bahar / Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+     "k": "flow",
+     "title": "শুরুর ধারণা",
+     "steps": [
+      [
+       "শহর",
+       "টাকা পাঠান"
+      ],
+      [
+       "মোবাইল",
+       "কয়েক সেকেন্ড"
+      ],
+      [
+       "গ্রাম",
+       "টাকা পৌঁছায়"
+      ]
+     ],
+     "note": "অংশীদার: মানি ইন মোশন (যুক্তরাষ্ট্র)",
+     "bg": "docs/bkash/kurigram.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/bkash/phoneshop.jpg",
+     "cap": "মোড়ের দোকান হয়ে উঠল ব্যাংক শাখা",
+     "kb": "in",
+     "credit": "ছবি: Mahfujur Rahman Nahid / Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+     "k": "flow",
+     "title": "এজেন্ট মডেল",
+     "steps": [
+      [
+       "ক্যাশ ইন",
+       "দোকানে টাকা জমা"
+      ],
+      [
+       "অ্যাকাউন্টে",
+       "ই-মানি"
+      ],
+      [
+       "ক্যাশ আউট",
+       "দোকান থেকে টাকা তোলা"
+      ]
+     ],
+     "bg": "docs/bkash/phoneshop.jpg"
+    },
+    {
+     "k": "clip",
+     "video": "docs/bkash/clips/taka-market.mp4",
+     "credit": "ভিডিও: Delwar Hossain / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "ক্যাশ ইন, ক্যাশ আউট: হাতে হাতে নগদ টাকা"
+    },
+    {
+     "k": "text",
+     "text": "ব্যাংক এলো মানুষের দোরগোড়ায়",
+     "hl": "দোরগোড়ায়",
+     "bg": "docs/bkash/kurigram.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "timeline",
+     "title": "বিদেশি বিনিয়োগ",
+     "items": [
+      [
+       "২০১৩–১৪",
+       "আইএফসি (বিশ্বব্যাংক গ্রুপ)"
+      ],
+      [
+       "২০১৪",
+       "বিল অ্যান্ড মেলিন্ডা গেটস ফাউন্ডেশন"
+      ],
+      [
+       "২০১৮",
+       "অ্যান্ট ফিন্যান্সিয়াল (আলিপে)"
+      ],
+      [
+       "২০২১",
+       "সফটব্যাংক ভিশন ফান্ড ~$২৫ কোটি"
+      ]
+     ],
+     "src": "বিকাশের আনুষ্ঠানিক ঘোষণা",
+     "bg": "docs/bkash/gates.jpg",
+     "w": 1.4
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/gates.jpg",
+     "credit": "ছবি: Sea Cow / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "বিল অ্যান্ড মেলিন্ডা গেটস ফাউন্ডেশন",
+     "w": 0.8
+    },
+    {
+     "k": "logos",
+     "items": [
+      {
+       "img": "logos/alipay.png",
+       "name": "২০১৮"
+      },
+      {
+       "img": "logos/softbank.png",
+       "name": "২০২১"
+      }
+     ],
+     "title": "বিকাশে বিনিয়োগ",
+     "bg": "docs/bkash/phoneshop.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/bkash/news/tbs-softbank.jpg",
+     "credit": "স্ক্রিনশট: The Business Standard",
+     "cap": "সফটব্যাংকের বিনিয়োগে বিকাশের মূল্যমান ~২০০ কোটি ডলার",
+     "kb": "in"
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 2,
+      "pre": "~$",
+      "suf": " বিলিয়ন"
+     },
+     "label": "বিকাশের মূল্যমান (গণমাধ্যমের হিসাব)",
+     "sub": "বাংলাদেশের প্রথম দিকের ইউনিকর্ন",
+     "src": "গণমাধ্যমের প্রতিবেদন, ২০২১",
+     "bg": "docs/bkash/brac.jpg"
+    },
+    {
+     "k": "list",
+     "title": "টাকা পাঠানো থেকে সবকিছু",
+     "items": [
+      "বিল পরিশোধ ও কেনাকাটা",
+      "ঋণ ও সঞ্চয়",
+      "সরকারি ভাতা বিতরণ"
+     ],
+     "bg": "docs/bkash/phoneshop.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bkash-contract.jpg",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)",
+     "kb": "left",
+     "cap": "২০২২: বিকাশে বৃত্তি বিতরণের চুক্তি"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 2,
+     "title": "নগদের ঝড়",
+     "sub": "মার্চ ২০১৯"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/post-hq.jpg",
+     "cap": "বাংলাদেশ ডাক বিভাগ",
+     "kb": "in",
+     "credit": "ছবি: Maruf Hossain / Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/nagad-acct.jpg",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)",
+     "kb": "right",
+     "cap": "২০১৯: \"এক মিনিটে নগদ অ্যাকাউন্ট\" সেবার উদ্বোধন"
+    },
+    {
+     "k": "list",
+     "title": "নগদের আক্রমণাত্মক কৌশল",
+     "items": [
+      "পরিচালনা: থার্ড ওয়েভ টেকনোলজিস",
+      "কম খরচে ক্যাশ আউট",
+      "জাতীয় পরিচয়পত্রে দ্রুত নিবন্ধন"
+     ],
+     "bg": "docs/bkash/postbox.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "সরকারি ভাতা বিতরণের দায়িত্ব",
+     "items": [
+      "শিক্ষার্থীদের উপবৃত্তি",
+      "বয়স্ক ও বিধবা ভাতা",
+      "কোভিডকালীন নগদ সহায়তা"
+     ],
+     "bg": "docs/bkash/postbox.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/nagad-dpe.jpg",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)",
+     "kb": "in",
+     "cap": "২০২৩: প্রাথমিক উপবৃত্তি বিতরণে ডাক বিভাগ–নগদ চুক্তি"
+    },
+    {
+     "k": "text",
+     "text": "কয়েক বছরেই গ্রাহক কোটির ঘরে",
+     "hl": "কোটির",
+     "bg": "docs/bkash/kurigram.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/bkash/post-office.jpg",
+     "credit": "ছবি: Sarjil khan / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "নগদ: ডাক বিভাগের সেবা হিসেবে যাত্রা"
+    },
+    {
+     "k": "doc",
+     "title": "লাইসেন্স প্রশ্ন",
+     "lines": [
+      "নিয়ম: এমএফএস ব্যবসায় পূর্ণাঙ্গ লাইসেন্স",
+      "নগদ: দীর্ঘদিন অন্তর্বর্তীকালীন অনুমোদনে",
+      "শর্ত (ডাক বিভাগের সংখ্যাগরিষ্ঠ মালিকানা): পূরণ হয়নি",
+      "বাংলাদেশ ব্যাংক: বারবার সময় বাড়ানো"
+     ],
+     "stamp": "অন্তর্বর্তী",
+     "src": "গণমাধ্যমের প্রতিবেদন",
+     "bg": "docs/destiny/bb.jpg",
+     "w": 1.3
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bb-shapla.jpg",
+     "credit": "ছবি: Abu Nayeem / Wikimedia Commons (CC BY 3.0)",
+     "kb": "out",
+     "cap": "বাংলাদেশ ব্যাংক: বারবার সময় বাড়ানো",
+     "w": 0.9
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 3,
+     "title": "প্রশাসক",
+     "sub": "আগস্ট ২০২৪"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/news/dt-administrator.jpg",
+     "credit": "স্ক্রিনশট: Dhaka Tribune",
+     "cap": "আগস্ট ২০২৪: নগদে প্রশাসক নিয়োগ",
+     "kb": "in"
+    },
+    {
+     "k": "doc",
+     "title": "বাংলাদেশ ব্যাংকের পরিদর্শন (অভিযোগ)",
+     "lines": [
+      "ভুয়া পরিবেশক ও এজেন্ট তৈরি",
+      "টাকার সমর্থন ছাড়া অতিরিক্ত ই-মানি",
+      "চিহ্নিত অসংগতি: ~২,৩৫৬ কোটি টাকা"
+     ],
+     "stamp": "তদন্তাধীন",
+     "src": "বাংলাদেশ ব্যাংক",
+     "bg": "docs/destiny/bb.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/news/fe-23bn.jpg",
+     "credit": "স্ক্রিনশট: The Financial Express",
+     "cap": "পরিদর্শনের অভিযোগ: টাকার সমর্থন ছাড়া ই-মানি",
+     "kb": "in"
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 2356,
+      "pre": "~",
+      "suf": " কোটি টাকা"
+     },
+     "label": "চিহ্নিত অসংগতি (অভিযোগ)",
+     "src": "বাংলাদেশ ব্যাংক",
+     "bg": "docs/destiny/bb.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "flow",
+     "title": "ই-মানি যেভাবে কাজ করার কথা",
+     "steps": [
+      [
+       "আপনার ব্যালেন্স",
+       "১০০ টাকা"
+      ],
+      [
+       "ট্রাস্ট অ্যাকাউন্টে",
+       "১০০ টাকা আসল"
+      ]
+     ],
+     "bg": "docs/bkash/brac.jpg"
+    },
+    {
+     "k": "clip",
+     "video": "docs/bkash/clips/taka-market2.mp4",
+     "credit": "ভিডিও: Delwar Hossain / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "ব্যালেন্সের পেছনে থাকার কথা আসল টাকা",
+     "w": 0.85
+    },
+    {
+     "k": "compare",
+     "title": "যদি না মেলে (উদাহরণ)",
+     "a": [
+      "অ্যাকাউন্টে দেখানো",
+      {
+       "v": 100,
+       "suf": " টাকা"
+      }
+     ],
+     "b": [
+      "ব্যাংকে আসলে",
+      {
+       "v": 70,
+       "suf": " টাকা"
+      }
+     ],
+     "note": "পার্থক্য = কাগজের টাকা · সবাই তুলতে গেলে সংকট",
+     "bg": "docs/destiny/bb.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "text",
+     "text": "চূড়ান্তভাবে প্রমাণের আগে কেউ দোষী নয়",
+     "hl": "প্রমাণের",
+     "bg": "docs/destiny/highcourt.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/news/ds-645cr.jpg",
+     "credit": "স্ক্রিনশট: The Daily Star",
+     "cap": "বাংলাদেশ ব্যাংকের মামলা: অভিযোগ এখনো প্রমাণিত নয়",
+     "kb": "in"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/news/fe-hc.jpg",
+     "credit": "স্ক্রিনশট: The Financial Express",
+     "cap": "হাইকোর্ট: প্রশাসক নিয়োগ বৈধ",
+     "kb": "in"
+    },
+    {
+     "k": "timeline",
+     "title": "আইনি প্রক্রিয়া",
+     "items": [
+      [
+       "২০২৪",
+       "প্রশাসক নিয়োগ নিয়ে আদালতে প্রশ্ন"
+      ],
+      [
+       "রায়",
+       "হাইকোর্ট: বাংলাদেশ ব্যাংকের সিদ্ধান্ত বৈধ"
+      ],
+      [
+       "ফেব্রুয়ারি ২০২৫",
+       "কেন্দ্রীয় ব্যাংকের কর্মকর্তা প্রশাসক"
+      ]
+     ],
+     "src": "হাইকোর্ট · বাংলাদেশ ব্যাংক",
+     "bg": "docs/destiny/highcourt.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "bars",
+     "title": "নগদ · মে ২০২৬ (নিজস্ব তথ্য)",
+     "rows": [
+      [
+       "নিবন্ধিত গ্রাহক",
+       109.2
+      ],
+      [
+       "মাসিক সক্রিয়",
+       21.5
+      ]
+     ],
+     "unit": " মিলিয়ন",
+     "src": "নগদ",
+     "bg": "docs/bkash/postbox.jpg"
+    },
+    {
+     "k": "clip",
+     "video": "docs/bkash/clips/jurain.mp4",
+     "credit": "ভিডিও: Yahya / Wikimedia Commons (CC BY 4.0)",
+     "cap": "ঝড়ের মধ্যেও লেনদেন থামেনি",
+     "w": 0.85
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 111355,
+      "suf": " কোটি টাকা"
+     },
+     "label": "নগদের লেনদেন, জানুয়ারি–মার্চ ২০২৬",
+     "sub": "আগের বছরের চেয়ে ~২১% বেশি",
+     "src": "নগদ",
+     "bg": "docs/bkash/post-hq.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 4,
+     "title": "আসল লড়াই, সংখ্যায়"
+    },
+    {
+     "k": "clip",
+     "video": "docs/bkash/clips/rickshaw-bogra.mp4",
+     "credit": "ভিডিও: Ibrahim Husain Meraj / Wikimedia Commons (CC BY-SA 3.0)",
+     "cap": "নিবন্ধিত মানেই সক্রিয় নয়"
+    },
+    {
+     "k": "list",
+     "title": "সাবধান: নিবন্ধিত ≠ সক্রিয়",
+     "items": [
+      "নিবন্ধিত অ্যাকাউন্ট: ভাতার জন্য খোলা অনেক",
+      "সক্রিয় ব্যবহার: মাসে হয়তো একবার"
+     ],
+     "bg": "docs/bkash/phoneshop.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "bars",
+     "title": "দৈনিক লেনদেনের সংখ্যা (প্রকাশিত হিসাব)",
+     "rows": [
+      [
+       "বিকাশ",
+       100
+      ],
+      [
+       "নগদ",
+       70
+      ]
+     ],
+     "unit": " লাখ+",
+     "src": "গণমাধ্যমের প্রতিবেদন",
+     "bg": "docs/bkash/dhaka-night.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bkash-tower.jpg",
+     "credit": "ছবি: ASaber91 / Wikimedia Commons (CC BY 2.0)",
+     "kb": "left",
+     "cap": "বিকাশের সদর দপ্তর, ঢাকা"
+    },
+    {
+     "k": "list",
+     "title": "বাজারের অংশীদারত্ব (সূত্রভেদে)",
+     "items": [
+      "বিকাশ: ৬০–৭৫%",
+      "নগদ: ১৮–২৫%"
+     ],
+     "note": "বিভিন্ন সূত্রের আনুমানিক হিসাব",
+     "bg": "docs/bkash/dhaka-night.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "doc",
+     "title": "সতর্কতা",
+     "lines": [
+      "মার্চ ২০২৫ থেকে কিছু সময় নগদ বাংলাদেশ ব্যাংকে মাসিক তথ্য জমা দেয়নি",
+      "সব তুলনা তাই আনুমানিক"
+     ],
+     "stamp": "আনুমানিক",
+     "src": "বাংলাদেশ ব্যাংক",
+     "bg": "docs/destiny/bb.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bb-main.jpg",
+     "credit": "ছবি: Mrb Rafi / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "তথ্যের উৎস: বাংলাদেশ ব্যাংক",
+     "w": 0.8,
+     "pos": "center 30%"
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 158000,
+      "pre": "~",
+      "suf": " কোটি টাকা"
+     },
+     "label": "এমএফএস লেনদেন, অক্টোবর ২০২৫ (নগদ বাদে)",
+     "src": "বাংলাদেশ ব্যাংক",
+     "bg": "docs/destiny/bb.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 5,
+     "title": "বিকাশের দুর্বলতা"
+    },
+    {
+     "k": "text",
+     "text": "সবচেয়ে বড় অভিযোগ: ক্যাশ আউটের খরচ",
+     "hl": "খরচ",
+     "bg": "docs/bkash/phoneshop.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/rmg-work.jpg",
+     "credit": "ছবি: Fahad Faisal / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "মজুরির টাকা তুলতেও খরচ"
+    },
+    {
+     "k": "list",
+     "title": "নিয়ন্ত্রকের নজর",
+     "items": [
+      "চার্জ নিয়ন্ত্রণ",
+      "আন্তঃপরিচালন ব্যবস্থা"
+     ],
+     "bg": "docs/destiny/bb.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/bkash/news/ds-fraud.jpg",
+     "credit": "স্ক্রিনশট: The Daily Star",
+     "cap": "বাড়ছে মোবাইল আর্থিক সেবায় প্রতারণার ঝুঁকি",
+     "kb": "in"
+    },
+    {
+     "k": "list",
+     "title": "প্রচলিত প্রতারণা",
+     "items": [
+      "ওটিপি চেয়ে প্রতারণা",
+      "'ভুল করে টাকা গেছে, ফেরত দিন'",
+      "পুরস্কারের লোভ"
+     ],
+     "bg": "docs/bkash/phoneshop.jpg"
+    },
+    {
+     "k": "text",
+     "text": "আস্থা ধরে রাখাই সবচেয়ে বড় চ্যালেঞ্জ",
+     "hl": "আস্থা",
+     "bg": "docs/bkash/dhaka-night.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "নতুন প্রতিযোগী",
+     "items": [
+      "ব্যাংকগুলোর নিজস্ব অ্যাপ",
+      "ডাচ-বাংলা ব্যাংকের রকেট",
+      "ডিজিটাল ব্যাংকের নতুন লাইসেন্স"
+     ],
+     "bg": "docs/bkash/brac.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/dbbl-motijheel.jpg",
+     "credit": "ছবি: Wasiul Bahar / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "right",
+     "cap": "ডাচ-বাংলা ব্যাংক, মতিঝিল: রকেটের পেছনে"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/news/fe-binimoy.jpg",
+     "credit": "স্ক্রিনশট: The Financial Express",
+     "cap": "বিনিময়: এক সেবা থেকে আরেক সেবায়",
+     "kb": "in"
+    },
+    {
+     "k": "flow",
+     "title": "বিনিময়: আন্তঃপরিচালন প্ল্যাটফর্ম",
+     "steps": [
+      [
+       "যেকোনো সেবা",
+       "টাকা পাঠান"
+      ],
+      [
+       "বিনিময়",
+       "বাংলাদেশ ব্যাংক"
+      ],
+      [
+       "অন্য যেকোনো সেবা",
+       "টাকা পৌঁছায়"
+      ]
+     ],
+     "note": "শুধু বড় হওয়া আর যথেষ্ট নয়",
+     "bg": "docs/destiny/bb.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 6,
+     "title": "নগদের ভবিষ্যৎ"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/post-old.jpg",
+     "credit": "ছবি: M.parvage / Wikimedia Commons (CC0)",
+     "kb": "in",
+     "cap": "ডাক বিভাগ: নগদের মালিকানা কার হবে?",
+     "pos": "center 40%"
+    },
+    {
+     "k": "list",
+     "title": "নগদ কার হবে?",
+     "items": [
+      "সরকারের?",
+      "ডাক বিভাগের?",
+      "নতুন বেসরকারি বিনিয়োগকারীর?"
+     ],
+     "note": "গভর্নর: সিদ্ধান্ত নতুন সরকারের ওপর",
+     "bg": "docs/bkash/post-hq.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bb-shapla.jpg",
+     "credit": "ছবি: Abu Nayeem / Wikimedia Commons (CC BY 3.0)",
+     "kb": "left",
+     "cap": "সিদ্ধান্ত নতুন সরকারের ওপর",
+     "w": 0.8
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "নগদের শক্তি",
+     "items": [
+      "বিশাল গ্রাহকভিত্তি",
+      "গ্রামীণ পরিচিতি",
+      "ভাতা বিতরণের অভিজ্ঞতা"
+     ],
+     "bg": "docs/bkash/postbox.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/kurigram.jpg",
+     "credit": "ছবি: Tanvir Rahat / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "left",
+     "cap": "গ্রামীণ পরিচিতিই নগদের শক্তি"
+    },
+    {
+     "k": "flow",
+     "title": "যা দরকার",
+     "steps": [
+      [
+       "স্বচ্ছ মালিকানা",
+       ""
+      ],
+      [
+       "পূর্ণ লাইসেন্স",
+       ""
+      ],
+      [
+       "আর্থিক শৃঙ্খলা",
+       ""
+      ],
+      [
+       "লাভবান",
+       "গ্রাহক"
+      ]
+     ],
+     "bg": "docs/bkash/kurigram.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 7,
+     "title": "শেষ কথা"
+    },
+    {
+     "k": "list",
+     "title": "কে এগিয়ে?",
+     "items": [
+      "বিকাশ: সক্রিয় ব্যবহার ও লেনদেনে অনেক এগিয়ে",
+      "নগদ: দূরত্ব কমাচ্ছে"
+     ],
+     "bg": "docs/bkash/dhaka-night.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bkash-hq.jpg",
+     "credit": "ছবি: Sakib.mahboob / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "বিকাশ: এখনো অনেক এগিয়ে",
+     "pos": "center 30%"
+    },
+    {
+     "k": "list",
+     "title": "নগদের আসল লড়াই",
+     "items": [
+      "আস্থা",
+      "স্বচ্ছতা",
+      "সুশাসন"
+     ],
+     "bg": "docs/bkash/post-hq.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "গ্রাহকদের জন্য পরামর্শ",
+     "items": [
+      "কাউকে কখনো পিন বা ওটিপি দেবেন না",
+      "বড় অঙ্ক দীর্ঘদিন মোবাইল অ্যাকাউন্টে নয়",
+      "প্রতারণা হলে: হেল্পলাইন ও নিকটস্থ থানা"
+     ],
+     "bg": "docs/bkash/phoneshop.jpg",
+     "w": 1.6
+    },
+    {
+     "k": "clip",
+     "video": "docs/bkash/clips/metro.mp4",
+     "credit": "ভিডিও: Mehedi Abedin / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "যেকোনো সেবাই ব্যবহার করুন, সতর্ক থাকুন"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "তথ্যসূত্র",
+     "items": [
+      "বাংলাদেশ ব্যাংকের পরিসংখ্যান",
+      "প্রতিষ্ঠানগুলোর আনুষ্ঠানিক ঘোষণা",
+      "আদালতের সিদ্ধান্ত",
+      "শীর্ষ অর্থনৈতিক সংবাদমাধ্যম"
+     ],
+     "bg": "docs/destiny/bb.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/bkash/bkash-stall.jpg",
+     "credit": "ছবি: Wasiul Bahar / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "out",
+     "w": 0.6
+    },
+    {
+     "k": "close",
+     "text": "আপনি কোনটা ব্যবহার করেন, আর কেন? কমেন্টে জানান",
+     "cta": "সাবস্ক্রাইব করুন · কালারস অব বাংলাদেশ"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+# Cloud render of one DocEngine film (Colours of Bangladesh) split across parallel runners.
+# Started by video-studio/scripts/cloud_render.py, which uploads public/docs/<id> as release "docs-<id>"
+# and passes the film's total frame count. The finished MP4 is attached to release "out-<id>".
+name: render
+on:
+  workflow_dispatch:
+    inputs:
+      id: { description: "film id (Doc-<id>)", required: true }
+      frames: { description: "total frames of the composition", required: true }
+      chunks: { description: "parallel chunks", default: "8" }
+      scale: { description: "render scale (1 = 1080p, 1.3333 = 1440p)", default: "1.3333" }
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        run: |
+          python3 - <<'EOF' >> "$GITHUB_OUTPUT"
+          import json
+          n = int("${{ inputs.chunks }}"); t = int("${{ inputs.frames }}")
+          step = -(-t // n)
+          ch = [{"i": i, "a": i * step, "b": min(t, (i + 1) * step) - 1} for i in range(n) if i * step < t]
+          print("matrix=" + json.dumps({"include": ch}))
+          EOF
+
+  chunk:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci --no-audit --no-fund
+      - &fonts
+        name: fonts
+        run: mkdir -p ~/.local/share/fonts && cp assets/fonts/*.ttf ~/.local/share/fonts/ && fc-cache -f >/dev/null
+      - &assets
+        name: film assets
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh release download "docs-${{ inputs.id }}" -p "docs-${{ inputs.id }}.tar.gz" -D /tmp
+          mkdir -p public/docs && tar xzf "/tmp/docs-${{ inputs.id }}.tar.gz" -C public/docs
+      - name: render frames ${{ matrix.a }}-${{ matrix.b }}
+        run: npx remotion render src/index.ts "Doc-${{ inputs.id }}" "out/c${{ matrix.i }}.mp4" --frames=${{ matrix.a }}-${{ matrix.b }} --muted --scale=${{ inputs.scale }} --gl=swangle --concurrency=100% --crf=18 --log=error
+      - uses: actions/upload-artifact@v4
+        with: { name: "c${{ matrix.i }}", path: "out/c${{ matrix.i }}.mp4", retention-days: 2 }
+
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci --no-audit --no-fund
+      - *fonts
+      - *assets
+      - run: npx remotion render src/index.ts "Doc-${{ inputs.id }}" out/audio.aac --codec=aac --log=error
+      - uses: actions/upload-artifact@v4
+        with: { name: audio, path: out/audio.aac, retention-days: 2 }
+
+  merge:
+    needs: [chunk, audio]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: parts, merge-multiple: true }
+      - name: join + loudness
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
+          ls parts | grep -E '^c[0-9]+\.mp4$' | sort -V | sed 's#^#file parts/#' | sed "s#\$##" > list.txt
+          ffmpeg -v error -f concat -safe 0 -i list.txt -c copy video.mp4
+          ffmpeg -v error -i video.mp4 -i parts/audio.aac -map 0:v -map 1:a -c:v copy -af loudnorm=I=-14:TP=-1:LRA=11 -c:a aac -b:a 192k -movflags +faststart "${{ inputs.id }}.mp4"
+          ls -la "${{ inputs.id }}.mp4"
+      - name: publish
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh release delete "out-${{ inputs.id }}" -y --cleanup-tag 2>/dev/null || true
+          gh release create "out-${{ inputs.id }}" "${{ inputs.id }}.mp4" -t "render ${{ inputs.id }}" -n "run ${{ github.run_id }}"

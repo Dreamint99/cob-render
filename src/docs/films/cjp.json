@@ -1,0 +1,499 @@
+{
+ "id": "cjp",
+ "theme": "cob",
+ "title": "দিল্লি অচল করে দিল তেলাপোকারা",
+ "paras": [
+  {
+   "v": [
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/night_barricade.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "১০ অক্টোবর · নয়াদিল্লি",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/road_police.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "শহরজুড়ে ব্যারিকেড আর পুলিশ",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/riot_vehicle.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "দাঙ্গা দমন গাড়ি মোতায়েন",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/paramilitary.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "হাজার হাজার পুলিশ ও আধাসামরিক বাহিনী",
+     "w": 1
+    },
+    {
+     "k": "text",
+     "text": "ককরোচ জনতা পার্টি",
+     "sub": "Cockroach Janta Party",
+     "hl": "ককরোচ",
+     "src": "",
+     "w": 1.2
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/van_women.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "আটক বিক্ষোভকারীরা পুলিশের বাসে",
+     "w": 1
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 2000,
+      "pre": "",
+      "suf": "+"
+     },
+     "label": "দিল্লিতে আটক",
+     "sub": "মুম্বাইয়ে আরও প্রায় ৬০০",
+     "src": "Reuters · ANI",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/grille.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "",
+     "w": 1
+    },
+    {
+     "k": "person",
+     "img": "docs/cjp/rathee.jpg",
+     "credit": "ছবি: NewsClickin / Wikimedia Commons (CC BY 3.0)",
+     "name": "ধ্রুব রাঠি",
+     "en": "Dhruv Rathee",
+     "role": [
+      "ইউটিউবার",
+      "মোদি সরকারের কড়া সমালোচক"
+     ],
+     "w": 1.2
+    },
+    {
+     "k": "text",
+     "text": "একটা ব্যঙ্গের দল কীভাবে এত বড় আন্দোলন?",
+     "sub": "",
+     "hl": "কীভাবে",
+     "src": "",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 1,
+     "title": "একটা মন্তব্য থেকে শুরু",
+     "sub": "১৫ মে ২০২৬",
+     "w": 0.9
+    },
+    {
+     "k": "person",
+     "img": "docs/cjp/suryakant.jpg",
+     "credit": "ছবি: Supreme Court of India / Wikimedia Commons (GODL-India)",
+     "name": "সূর্য কান্ত",
+     "en": "Justice Surya Kant",
+     "role": [
+      "ভারতের প্রধান বিচারপতি"
+     ],
+     "w": 1.2
+    },
+    {
+     "k": "quote",
+     "text": "সব তেলাপোকা যদি একসাথে হয়?",
+     "by": "অভিজিৎ দীপকে, এক্স পোস্ট, ১৬ মে",
+     "src": "CNBC",
+     "w": 1.1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/cjp_stage.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "ককরোচ জনতা পার্টির নেতারা",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "big",
+     "num": {
+      "v": 1.3,
+      "pre": "",
+      "suf": " কোটি"
+     },
+     "label": "ইনস্টাগ্রাম ফলোয়ার, মাত্র ৪ দিনে",
+     "sub": "বিজেপি ও কংগ্রেসের অফিসিয়াল পেজকে ছাড়িয়ে",
+     "src": "Business Today, ২১ মে ২০২৬",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/news/bt_insta.jpg",
+     "credit": "স্ক্রিনশট: Business Today, ২১ মে ২০২৬",
+     "cap": "সবচেয়ে বেশি ফলো করা রাজনৈতিক দল",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/jm_protest.jpg",
+     "credit": "ছবি: Alnitak-Alnilam-Mintaka / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "জুন · যন্তর মন্তরে নিট প্রশ্নফাঁস বিরোধী অবস্থান",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/jm_evening.jpg",
+     "credit": "ছবি: Alnitak-Alnilam-Mintaka / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "অবস্থান চলেছে সপ্তাহের পর সপ্তাহ",
+     "kb": "left",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/cjp/la_protest.jpg",
+     "credit": "ছবি: Osparagus / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "জুলাই · আন্দোলনের সমর্থনে বিদেশেও বিক্ষোভ",
+     "kb": "right",
+     "w": 1
+    },
+    {
+     "k": "person",
+     "img": "docs/cjp/pradhan.jpg",
+     "credit": "ছবি: Ministry of Education / Wikimedia Commons (GODL-India)",
+     "name": "ধর্মেন্দ্র প্রধান",
+     "en": "Dharmendra Pradhan",
+     "role": [
+      "শিক্ষামন্ত্রী",
+      "পদত্যাগ: ২৫ জুলাই ২০২৬"
+     ],
+     "w": 1.2
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/news/outlook_pradhan.jpg",
+     "credit": "স্ক্রিনশট: Outlook India",
+     "cap": "আন্দোলনকারীদের বিজয়",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "text",
+     "text": "এবার নিশানা: নির্বাচন কমিশন",
+     "sub": "",
+     "hl": "নির্বাচন কমিশন",
+     "src": "",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 2,
+     "title": "ভোটার তালিকা থেকে কোটি নাম উধাও",
+     "sub": "এস আই আর",
+     "w": 0.9
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/eci.jpg",
+     "credit": "ছবি: Election Commission of India / Wikimedia Commons (GODL-India)",
+     "cap": "ভারতের নির্বাচন কমিশন · নির্বাচন সদন",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 13,
+      "pre": "",
+      "suf": " কোটি+"
+     },
+     "label": "ভোটার তালিকা থেকে বাদ পড়া নাম",
+     "sub": "মৃত, স্থানান্তরিত ও খুঁজে না পাওয়া, কমিশনের ভাষায়",
+     "src": "Dawn / AFP, গণমাধ্যমের হিসাব",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/news/dh_up.jpg",
+     "credit": "স্ক্রিনশট: Deccan Herald",
+     "cap": "শুধু উত্তর প্রদেশেই প্রায় ২.৮৯ কোটি",
+     "kb": "in",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/gyanesh_pc.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "প্রধান নির্বাচন কমিশনার",
+     "w": 1
+    },
+    {
+     "k": "person",
+     "img": "docs/cjp/gyanesh.jpg",
+     "credit": "ছবি: Zealaski / Wikimedia Commons (CC0)",
+     "name": "জ্ঞানেশ কুমার",
+     "en": "Gyanesh Kumar",
+     "role": [
+      "প্রধান নির্বাচন কমিশনার",
+      "বিক্ষোভকারীদের দাবি: পদত্যাগ"
+     ],
+     "w": 1.2
+    },
+    {
+     "k": "person",
+     "img": "docs/cjp/rahul.png",
+     "credit": "ছবি: Himanshu Khowal / Wikimedia Commons (CC0)",
+     "name": "রাহুল গান্ধী",
+     "en": "Rahul Gandhi",
+     "role": [
+      "বিরোধী নেতা",
+      "একই দাবিতে সরব"
+     ],
+     "w": 1.2
+    },
+    {
+     "k": "text",
+     "text": "কমিশন ও বিজেপি অভিযোগ অস্বীকার করেছে",
+     "sub": "",
+     "hl": "",
+     "src": "Al Jazeera",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 3,
+     "title": "অবরুদ্ধ দিল্লি",
+     "sub": "১০ অক্টোবর",
+     "w": 0.8
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/orange_barricade.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "সমাবেশের অনুমতি দেয়নি দিল্লি পুলিশ",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/bbc_night_car.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "বন্ধ রাস্তা, বাতিল ট্রেন",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/gurudwara.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "যন্তর মন্তরের আশপাশে নিরাপত্তা বাহিনী",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/aj_crowd.mp4",
+     "credit": "ফুটেজ: Al Jazeera English",
+     "cap": "যারা এগিয়েছে, তুলে নেওয়া হয়েছে",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/cjp/news/theweek.jpg",
+     "credit": "স্ক্রিনশট: The Week, ১০ অক্টোবর ২০২৬",
+     "cap": "গুরুগ্রামে ধ্রুব রাঠিকে তুলে নেওয়া হয়",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/rathee_selfie.mp4",
+     "credit": "ফুটেজ: Dhruv Rathee / YouTube",
+     "cap": "ছাড়া পেয়ে ধ্রুব রাঠি",
+     "w": 1
+    },
+    {
+     "k": "quote",
+     "text": "আমাকে আটক করা হয়নি, অপহরণ করা হয়েছিল",
+     "by": "ধ্রুব রাঠি",
+     "src": "Dhruv Rathee / YouTube",
+     "w": 1.1
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/news/dailystar.jpg",
+     "credit": "স্ক্রিনশট: The Daily Star",
+     "cap": "রাত তিনটায় মুক্তি",
+     "kb": "in",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/cjp/news/aljazeera.jpg",
+     "credit": "স্ক্রিনশট: Al Jazeera, ১০ অক্টোবর ২০২৬",
+     "cap": "১১ অক্টোবর · শর্তসাপেক্ষে মুক্তি",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "timeline",
+     "title": "তারপর",
+     "items": [
+      [
+       "১২ অক্টোবর",
+       "যন্তর মন্তর প্রতিবাদস্থলের তালিকা থেকে বাদ"
+      ],
+      [
+       "১৩ অক্টোবর",
+       "ব্যারিকেড টপকে পতাকা"
+      ],
+      [
+       "১৪ অক্টোবর",
+       "দুই নেতা ৫ দিনের রিমান্ডে"
+      ]
+     ],
+     "src": "Dawn / AFP",
+     "w": 1.3
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/flag_jm.mp4",
+     "credit": "ফুটেজ: Brut India",
+     "cap": "১৩ অক্টোবর · যন্তর মন্তরে আশুতোষ রাঙ্কা",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/news/dawn.jpg",
+     "credit": "স্ক্রিনশট: Dawn, ১৪ অক্টোবর ২০২৬",
+     "cap": "আশুতোষ রাঙ্কা ও সৌরভ দাস রিমান্ডে",
+     "kb": "in",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/aj_women.mp4",
+     "credit": "ফুটেজ: Al Jazeera English",
+     "cap": "",
+     "w": 1
+    },
+    {
+     "k": "text",
+     "text": "জাতিসংঘ · অ্যামনেস্টি · হিউম্যান রাইটস ওয়াচ",
+     "sub": "শান্তিপূর্ণ সমাবেশের অধিকার রক্ষার আহ্বান",
+     "hl": "",
+     "src": "Al Jazeera, Dawn",
+     "w": 1
+    },
+    {
+     "k": "chapter",
+     "n": 4,
+     "title": "গল্পে বাংলাদেশ",
+     "w": 0.7
+    },
+    {
+     "k": "person",
+     "img": "docs/cjp/shah.jpg",
+     "credit": "ছবি: Ministry of Home Affairs / Wikimedia Commons (GODL-India)",
+     "name": "অমিত শাহ",
+     "en": "Amit Shah",
+     "role": [
+      "ভারতের স্বরাষ্ট্রমন্ত্রী",
+      "অভিযোগ: অনুপ্রবেশকারীদের রক্ষার পরিকল্পনা"
+     ],
+     "w": 1.2
+    },
+    {
+     "k": "text",
+     "text": "বিজেপির দাবি: বাংলাদেশ থেকে যাওয়া অবৈধ অভিবাসীরা ভোটার তালিকায়",
+     "sub": "",
+     "hl": "বাংলাদেশ",
+     "src": "Dawn / AFP",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/march.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "২০২৭-এর শুরুতেই কয়েকটি রাজ্যে নির্বাচন",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/woman_shout.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/cjp/parliament.jpg",
+     "credit": "ছবি: Ministry of Parliamentary Affairs / Wikimedia Commons (GODL-India)",
+     "cap": "বিশ্বের সবচেয়ে বড় গণতন্ত্র",
+     "kb": "out",
+     "w": 1
+    },
+    {
+     "k": "clip",
+     "video": "docs/cjp/clips/slogan.mp4",
+     "credit": "ফুটেজ: BBC News",
+     "cap": "",
+     "w": 1
+    },
+    {
+     "k": "close",
+     "text": "আপনার কী মনে হয়? কমেন্টে জানান",
+     "cta": "সাবস্ক্রাইব করুন · Colours of Bangladesh",
+     "w": 1.2
+    }
+   ]
+  }
+ ]
+}

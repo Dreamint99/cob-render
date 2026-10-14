@@ -1,0 +1,365 @@
+{
+ "id": "behula",
+ "theme": "cob",
+ "style": "cine",
+ "title": "বেহুলা",
+ "sub": "লোহার ঘরে কালনাগিনী",
+ "musicVol": 0.16,
+ "paras": [
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/behula/gokul1.jpg",
+     "credit": "ছবি: Shafiqul Islam Shiplu / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "গোকুল মেধ · বগুড়া",
+     "kb": "left",
+     "w": 1.2,
+     "fx": "fog"
+    },
+    {
+     "k": "photo",
+     "img": "docs/behula/gokul3.jpg",
+     "credit": "ছবি: Rangan Datta Wiki / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "",
+     "kb": "right",
+     "w": 1,
+     "fx": "fog"
+    },
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/lamp_crack.jpg",
+     "cap": "",
+     "kb": "in",
+     "w": 0.8,
+     "fx": "flicker"
+    },
+    {
+     "k": "clip",
+     "video": "docs/behula/clips/snake.mp4",
+     "credit": "AI দৃশ্যায়ন (Google Veo)",
+     "cap": "",
+     "w": 1.1,
+     "rate": 0.8,
+     "fx": "flicker"
+    },
+    {
+     "k": "text",
+     "text": "বেহুলার বাসরঘর",
+     "sub": "বাংলার সবচেয়ে রহস্যময় প্রেমের গল্প",
+     "hl": "বেহুলার",
+     "src": "",
+     "w": 1.1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/chand_ships.jpg",
+     "cap": "চাঁদ সওদাগরের সপ্তডিঙা মধুকর",
+     "kb": "in",
+     "w": 1.2,
+     "fx": "fog"
+    },
+    {
+     "k": "photo",
+     "img": "docs/behula/padma1860.jpg",
+     "credit": "ছবি: Unknown authorUnknown author / Wikimedia Commons (Public domain)",
+     "cap": "নদীপথেই ছিল বাংলার বাণিজ্য",
+     "kb": "left",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/behula/manasa_kalighat.jpg",
+     "credit": "ছবি: anonymous / Wikimedia Commons (CC0)",
+     "cap": "সাপের দেবী মনসা · কালীঘাট পটচিত্র, ১৯ শতক",
+     "kb": "out",
+     "w": 1,
+     "pos": "center 30%"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/chand_ruin.jpg",
+     "cap": "ছয় ছেলে হারালেন, ডুবল সব ডিঙা",
+     "kb": "in",
+     "w": 1.3,
+     "fx": "rain"
+    },
+    {
+     "k": "text",
+     "text": "তবু মাথা নত করেননি",
+     "sub": "",
+     "hl": "নত",
+     "src": "",
+     "w": 1
+    },
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/river_dawn.jpg",
+     "cap": "বাকি রইল শুধু লখিন্দর",
+     "kb": "out",
+     "w": 1,
+     "fx": "fog"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/astrologer.jpg",
+     "cap": "ভবিষ্যদ্বাণী: বিয়ের রাতেই সাপের কামড়",
+     "kb": "in",
+     "w": 1.2,
+     "fx": "flicker"
+    },
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/iron_house.jpg",
+     "cap": "লোহার বাসরঘর",
+     "kb": "in",
+     "w": 1.2,
+     "fx": "moon"
+    },
+    {
+     "k": "text",
+     "text": "দেয়াল লোহার · ছাদ লোহার · দরজা লোহার",
+     "sub": "সাপের জন্য একটা ফাঁকও নেই",
+     "hl": "লোহার",
+     "src": "",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/wedding.jpg",
+     "cap": "বিয়ের রাত",
+     "kb": "in",
+     "w": 1,
+     "fx": "flicker"
+    },
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/lamp_crack.jpg",
+     "cap": "চুলের মতো সরু এক ছিদ্র",
+     "kb": "in",
+     "w": 1,
+     "fx": "flicker"
+    },
+    {
+     "k": "clip",
+     "video": "docs/behula/clips/snake.mp4",
+     "credit": "AI দৃশ্যায়ন (Google Veo)",
+     "cap": "মাঝরাতে ঢুকে পড়ে কালনাগিনী",
+     "w": 1.3,
+     "rate": 0.75,
+     "fx": "flicker"
+    },
+    {
+     "k": "text",
+     "text": "ভোরের আগেই সব শেষ",
+     "sub": "",
+     "hl": "শেষ",
+     "src": "",
+     "w": 0.8
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/ghats.jpg",
+     "cap": "সাপে কাটা মানুষকে ভাসিয়ে দেওয়া হতো নদীতে",
+     "kb": "left",
+     "w": 1,
+     "fx": "fog"
+    },
+    {
+     "k": "clip",
+     "video": "docs/behula/clips/raft.mp4",
+     "credit": "AI দৃশ্যায়ন (Google Veo)",
+     "cap": "কলার ভেলায় স্বামীর দেহ নিয়ে বেহুলা",
+     "w": 1.4,
+     "rate": 0.7,
+     "fx": "fog",
+     "zoom": 1.17
+    },
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/raft_night.jpg",
+     "cap": "",
+     "kb": "in",
+     "w": 1,
+     "fx": "moon"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/river_dawn.jpg",
+     "cap": "দিনের পর দিন, মাসের পর মাস",
+     "kb": "left",
+     "w": 1,
+     "fx": "fog"
+    },
+    {
+     "k": "photo",
+     "img": "docs/behula/stage_scene.jpg",
+     "credit": "ছবি: Arani Dasgupta / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "মনসামঙ্গলের মঞ্চায়নে বেহুলা-লখিন্দর",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/raft_night.jpg",
+     "cap": "",
+     "kb": "out",
+     "w": 1,
+     "fx": "moon"
+    },
+    {
+     "k": "quote",
+     "text": "এক নারী, এক ভেলা, আর মৃত্যুর বিরুদ্ধে এক অবিশ্বাস্য জেদ",
+     "by": "মনসামঙ্গলের বেহুলা",
+     "w": 1.2
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/dance.jpg",
+     "cap": "দেবপুরীতে বেহুলার নাচ",
+     "kb": "in",
+     "w": 1.3,
+     "fx": "embers"
+    },
+    {
+     "k": "text",
+     "text": "ফিরে এল লখিন্দরের প্রাণ",
+     "sub": "ছয় ভাসুর · সপ্তডিঙা মধুকর",
+     "hl": "প্রাণ",
+     "src": "",
+     "w": 1
+    },
+    {
+     "k": "ai",
+     "img": "docs/behula/ai/chand_ships.jpg",
+     "cap": "শর্ত: মনসার পূজা",
+     "kb": "out",
+     "w": 1,
+     "fx": "fog"
+    },
+    {
+     "k": "photo",
+     "img": "docs/behula/manasa_kalighat.jpg",
+     "credit": "ছবি: anonymous / Wikimedia Commons (CC0)",
+     "cap": "জেদি বণিক পূজা দিলেন বাঁ হাতে",
+     "kb": "in",
+     "w": 1,
+     "pos": "center 30%"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/behula/gokul2.jpg",
+     "credit": "ছবি: Azim Khan Ronnie / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "গোকুল মেধ · বহু কুঠুরির ইটের স্থাপনা",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "timeline",
+     "title": "যা জানা যায়",
+     "items": [
+      [
+       "৬–৭ শতক",
+       "গোকুল মেধ নির্মাণ (আনুমানিক)"
+      ],
+      [
+       "১৫ শতকের শেষ",
+       "মনসামঙ্গল কাব্য রচনা শুরু"
+      ],
+      [
+       "আজ",
+       "পরিচিত বেহুলার বাসরঘর নামে"
+      ]
+     ],
+     "src": "বাংলাপিডিয়া",
+     "w": 1.4
+    },
+    {
+     "k": "photo",
+     "img": "docs/behula/gokul4.jpg",
+     "credit": "ছবি: David Stanley from Nanaimo, Canada / Wikimedia Commons (CC BY 2.0)",
+     "cap": "দূর থেকে গোলকধাঁধার মতো",
+     "kb": "left",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/behula/mahasthan.jpg",
+     "credit": "ছবি: Zaheed Sarwer Khan / Wikimedia Commons (CC BY 4.0)",
+     "cap": "কাছেই প্রাচীন পুণ্ড্রনগর · মহাস্থানগড়",
+     "kb": "right",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/behula/patachitra.jpg",
+     "credit": "ছবি: Contact Base (WB) / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "পটচিত্রে আজও বেহুলা",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/behula/jatra.jpg",
+     "credit": "ছবি: TAPAS KUMAR HALDER / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "যাত্রাপালা ও লোকগানে",
+     "kb": "out",
+     "w": 1,
+     "pos": "center 45%"
+    },
+    {
+     "k": "clip",
+     "video": "docs/behula/clips/raft.mp4",
+     "credit": "AI দৃশ্যায়ন (Google Veo)",
+     "cap": "",
+     "w": 1.2,
+     "rate": 0.6,
+     "fx": "fog",
+     "zoom": 1.17
+    },
+    {
+     "k": "close",
+     "text": "আপনি কি কখনো গোকুল মেধে গেছেন?",
+     "cta": "সাবস্ক্রাইব করুন · Colours of Bangladesh",
+     "w": 1.3
+    }
+   ]
+  }
+ ]
+}

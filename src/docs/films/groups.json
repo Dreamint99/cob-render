@@ -1,0 +1,865 @@
+{
+ "id": "groups",
+ "theme": "cob",
+ "title": "বাংলাদেশের সবচেয়ে বড় গ্রুপ কারা?",
+ "paras": [
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/groups/grocery.jpg",
+     "cap": "টুথপেস্ট, পাউরুটি, চিনি, গুঁড়া দুধ, তেল",
+     "kb": "in",
+     "credit": "ছবি: Marufish from Alor Setar, Malaysia / Wikimedia Commons (CC BY-SA 2.0)"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/skyline.jpg",
+     "cap": "রড, সিমেন্ট, কাগজ, টেলিভিশন",
+     "kb": "left",
+     "credit": "ছবি: Tarunno / Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/kawran2.jpg",
+     "credit": "ছবি: Wasiul Bahar / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "right",
+     "cap": "কারওয়ান বাজার: নিত্যদিনের পণ্য"
+    },
+    {
+     "k": "text",
+     "text": "এর বেশিরভাগই আসে হাতে গোনা কয়েকটি গ্রুপের কারখানা থেকে",
+     "hl": "হাতে গোনা",
+     "bg": "docs/groups/grocery.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "বড় শিল্প গ্রুপ যা করে",
+     "items": [
+      "কোটি মানুষের কর্মসংস্থান",
+      "সরকারকে কর",
+      "বাজার নিয়ন্ত্রণ"
+     ],
+     "bg": "docs/groups/ctgport.jpg"
+    },
+    {
+     "k": "clip",
+     "video": "docs/groups/clips/cargo-ship.mp4",
+     "credit": "ভিডিও: Biswarup Ganguly / Wikimedia Commons (CC BY 3.0)",
+     "cap": "পণ্য, কর্মসংস্থান, কর: অর্থনীতির চাকা"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/ctgport.jpg",
+     "credit": "ছবি: Moheen Reeyad / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "চট্টগ্রাম বন্দর"
+    },
+    {
+     "k": "list",
+     "title": "সবচেয়ে বড় কে?",
+     "items": [
+      "বিজ্ঞাপনের চেনা নাম: বসুন্ধরা, আকিজ, স্কয়ার",
+      "আড়ালের সাম্রাজ্য: নীরব দৈত্যরা?"
+     ],
+     "bg": "docs/groups/bcity.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "title",
+     "kicker": "অর্থনীতি",
+     "title": "বাংলাদেশের সবচেয়ে বড় গ্রুপ কারা?",
+     "sub": "বসুন্ধরা, আকিজ, স্কয়ার, নাকি নীরব দৈত্যরা"
+    },
+    {
+     "k": "clip",
+     "video": "docs/groups/clips/night-rickshaw.mp4",
+     "credit": "ভিডিও: Aashaa / Wikimedia Commons (CC BY-SA 3.0)",
+     "cap": "কে কীভাবে শুরু করেছিল? কার হাতে কোন বাজার?"
+    },
+    {
+     "k": "text",
+     "text": "শুরুতেই এই গল্পের সবচেয়ে বড় রহস্য",
+     "hl": "রহস্য",
+     "bg": "docs/groups/skyline.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 1,
+     "title": "হিসাব কেন মেলে না"
+    },
+    {
+     "k": "flow",
+     "title": "একটি গ্রুপের কাঠামো",
+     "steps": [
+      [
+       "গ্রুপ",
+       "পারিবারিক মালিকানা"
+      ],
+      [
+       "কয়েক ডজন",
+       "কোম্পানি"
+      ],
+      [
+       "তালিকাভুক্ত",
+       "মাত্র অল্প কয়েকটি"
+      ],
+      [
+       "প্রকাশ্য হিসাব",
+       "শুধু সেগুলোর"
+      ]
+     ],
+     "bg": "docs/groups/dse.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/dse.jpg",
+     "cap": "ঢাকা স্টক এক্সচেঞ্জ",
+     "kb": "in",
+     "credit": "ছবি: Ifteebd10 / Wikimedia Commons (CC BY-SA 4.0)"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "অনলাইন র‍্যাঙ্কিংয়ের সমস্যা",
+     "items": [
+      "আলাদা আলাদা বছর",
+      "আলাদা মুদ্রা",
+      "প্রায়ই সূত্রবিহীন অনুমান"
+     ],
+     "bg": "docs/groups/skyline.jpg"
+    },
+    {
+     "k": "text",
+     "text": "আজ কাউকে এক নম্বর ঘোষণা করব না",
+     "hl": "এক নম্বর",
+     "bg": "docs/groups/skyline.jpg"
+    },
+    {
+     "k": "list",
+     "title": "আমরা দেখব যাচাইযোগ্য তথ্য",
+     "items": [
+      "কর্মী সংখ্যা",
+      "বড় চুক্তি",
+      "তালিকাভুক্ত কোম্পানির প্রতিবেদন",
+      "বাজারে উপস্থিতি"
+     ],
+     "note": "অনুমান হলে তা স্পষ্ট করে বলা হবে",
+     "bg": "docs/groups/dse.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 2,
+     "title": "ফেরিওয়ালা থেকে শিল্পপতি",
+     "sub": "আকিজ"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/jessore.jpg",
+     "cap": "যশোর: শেখ আকিজ উদ্দিনের শুরু",
+     "kb": "in",
+     "credit": "ছবি: Sakib8785 / Wikimedia Commons (CC BY 4.0)"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/kawran3.jpg",
+     "credit": "ছবি: Wasiul Bahar / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "left",
+     "cap": "ফেরি করে পণ্য বিক্রি দিয়ে শুরু"
+    },
+    {
+     "k": "flow",
+     "title": "আকিজের যাত্রা",
+     "steps": [
+      [
+       "ফেরিওয়ালা",
+       "কলকাতায় কমলা বিক্রির গল্প প্রচলিত"
+      ],
+      [
+       "ছোট ব্যবসা",
+       ""
+      ],
+      [
+       "বিড়ির কারখানা",
+       ""
+      ],
+      [
+       "শিল্প গোষ্ঠী",
+       "আকিজ গ্রুপ"
+      ]
+     ],
+     "bg": "docs/groups/jessore.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/groups/news/pa-jti.jpg",
+     "credit": "স্ক্রিনশট: Prothom Alo English",
+     "cap": "আগস্ট ২০১৮: আকিজের তামাক ব্যবসা কিনল জাপান টোব্যাকো",
+     "kb": "in"
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 1.47,
+      "dec": 2,
+      "pre": "$",
+      "suf": " বিলিয়ন"
+     },
+     "label": "আকিজের তামাক ব্যবসা কিনল জাপান টোব্যাকো",
+     "sub": "আগস্ট ২০১৮ · দেশে অন্যতম বড় একক বিদেশি বিনিয়োগ",
+     "src": "JTI ঘোষণা, আগস্ট ২০১৮",
+     "bg": "docs/groups/jti.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/akij.jpg",
+     "cap": "আকিজ সিরামিকস কারখানা",
+     "kb": "in",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)"
+    },
+    {
+     "k": "list",
+     "title": "আকিজের আজকের খাত",
+     "items": [
+      "সিমেন্ট ও সিরামিক",
+      "খাদ্য ও পানীয়",
+      "পাট ও কাগজ"
+     ],
+     "bg": "docs/groups/akij.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 3,
+     "title": "চার বন্ধুর ওষুধ কারখানা",
+     "sub": "স্কয়ার"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/pabna.jpg",
+     "credit": "ছবি: This work was made by Nafiur Rahman and released u / Wikimedia Commons (CC BY-SA 3.0)",
+     "kb": "in",
+     "cap": "পাবনা: স্কয়ারের শুরু, ১৯৫৮"
+    },
+    {
+     "k": "person",
+     "img": "docs/groups/samson.jpg",
+     "name": "স্যামসন এইচ চৌধুরী",
+     "en": "Samson H. Chowdhury",
+     "role": [
+      "১৯৫৮, পাবনা",
+      "তিন বন্ধুকে নিয়ে ছোট্ট ওষুধ কারখানা"
+     ],
+     "pos": "center 25%",
+     "credit": "ছবি: Sufe / Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+     "k": "text",
+     "text": "চার বন্ধু, চার সমান বাহু: স্কয়ার",
+     "hl": "স্কয়ার",
+     "bg": "docs/groups/pabna.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/groups/square.jpg",
+     "cap": "স্কয়ার ফার্মাসিউটিক্যালস, গাজীপুর",
+     "kb": "in",
+     "credit": "ছবি: মঈনুল / Wikimedia Commons (CC BY-SA 3.0)"
+    },
+    {
+     "k": "list",
+     "title": "স্কয়ার ফার্মা (তালিকাভুক্ত)",
+     "items": [
+      "ওষুধ বিক্রিতে দীর্ঘদিন শীর্ষে",
+      "দেশের সবচেয়ে লাভজনক কোম্পানিগুলোর একটি"
+     ],
+     "src": "বার্ষিক প্রতিবেদন · ডিএসই",
+     "bg": "docs/groups/square.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/sq-hospital.jpg",
+     "credit": "ছবি: Zzaman / Wikimedia Commons (CC BY 4.0)",
+     "kb": "left",
+     "cap": "স্কয়ার হাসপাতাল, ঢাকা"
+    },
+    {
+     "k": "list",
+     "title": "স্কয়ার গ্রুপ",
+     "items": [
+      "টয়লেট্রিজ ও খাদ্যপণ্য",
+      "টেক্সটাইল",
+      "হাসপাতাল ও টিভি চ্যানেল"
+     ],
+     "note": "পরিচিতি: সুশাসন ও পেশাদার ব্যবস্থাপনা",
+     "bg": "docs/groups/square.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 4,
+     "title": "আবাসন থেকে সাম্রাজ্য",
+     "sub": "বসুন্ধরা"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/bra.jpg",
+     "cap": "বসুন্ধরা আবাসিক এলাকা",
+     "kb": "in",
+     "credit": "ছবি: ASaber91 / Wikimedia Commons (CC BY 2.0)"
+    },
+    {
+     "k": "list",
+     "title": "আবাসনের পর",
+     "items": [
+      "সিমেন্ট, কাগজ, ইস্পাত",
+      "এলপি গ্যাস, টিস্যু, খাদ্যপণ্য",
+      "শপিং মল ও ফুটবল ক্লাব"
+     ],
+     "bg": "docs/groups/bra.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/kings-arena.jpg",
+     "credit": "ছবি: মোহাম্মদ জনি হোসেন / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "বসুন্ধরা কিংস অ্যারেনা"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/groups/bcity.jpg",
+     "cap": "বসুন্ধরা সিটি শপিং কমপ্লেক্স",
+     "kb": "left",
+     "credit": "ছবি: Adnan Islam / Wikimedia Commons (CC BY 2.0)"
+    },
+    {
+     "k": "list",
+     "title": "গণমাধ্যমেও",
+     "items": [
+      "একাধিক দৈনিক পত্রিকা",
+      "অনলাইন পোর্টাল",
+      "টেলিভিশন চ্যানেল"
+     ],
+     "note": "তালিকাভুক্ত: বসুন্ধরা পেপার মিলস",
+     "bg": "docs/groups/bcity.jpg"
+    },
+    {
+     "k": "text",
+     "text": "দৃশ্যমান হওয়া আর সবচেয়ে বড় হওয়া এক কথা নয়",
+     "hl": "দৃশ্যমান বড়",
+     "bg": "docs/groups/bcity.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 5,
+     "title": "নীরব দৈত্যরা"
+    },
+    {
+     "k": "logos",
+     "items": [
+      {
+       "img": "logos/meghna.png",
+       "name": "১৯৭৬ · মোস্তফা কামাল"
+      }
+     ],
+     "title": "মেঘনা গ্রুপ অব ইন্ডাস্ট্রিজ",
+     "bg": "docs/groups/bcity.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/grocery.jpg",
+     "credit": "ছবি: Marufish from Alor Setar, Malaysia / Wikimedia Commons (CC BY-SA 2.0)",
+     "kb": "out",
+     "cap": "নিত্যপণ্যের দোকান",
+     "w": 0.9
+    },
+    {
+     "k": "list",
+     "title": "মেঘনার ঘরে ঘরে",
+     "items": [
+      "ফ্রেশ: চিনি, তেল, আটা, লবণ, গুঁড়া দুধ, পানি",
+      "সিমেন্ট, কাগজ, জাহাজ",
+      "অর্থনৈতিক অঞ্চল"
+     ],
+     "note": "গ্রুপের দাবি: ৫০টির বেশি শিল্প ইউনিট",
+     "bg": "docs/groups/grocery.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/meghna-ship.jpg",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)",
+     "kb": "in",
+     "cap": "২০২১: চট্টগ্রামে \"মেঘনা প্রিন্সেস\" জাহাজের উদ্বোধন"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "logos",
+     "items": [
+      {
+       "img": "logos/citygroup.png",
+       "name": "স্বাধীনতার পরপর যাত্রা"
+      }
+     ],
+     "title": "সিটি গ্রুপ",
+     "bg": "docs/groups/abulkhair.jpg"
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 25000,
+      "pre": "~",
+      "suf": " কোটি টাকা"
+     },
+     "label": "বার্ষিক আয়, ২০২১",
+     "sub": "উইকিপিডিয়ায় উদ্ধৃত হিসাব",
+     "src": "Wikipedia (উদ্ধৃত সূত্র)",
+     "bg": "docs/groups/grocery.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/market-check.jpg",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)",
+     "kb": "in",
+     "cap": "দোকানের তাকে তেল, আটা, চিনি"
+    },
+    {
+     "k": "text",
+     "text": "নিত্যপণ্যের বাজারে সবচেয়ে বড় দুই খেলোয়াড়: মেঘনা আর সিটি",
+     "hl": "মেঘনা সিটি",
+     "bg": "docs/groups/grocery.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/groups/abulkhair.jpg",
+     "cap": "আবুল খায়ের গ্রুপের প্রধান কার্যালয়, চট্টগ্রাম",
+     "kb": "in",
+     "credit": "ছবি: User:Ujjal1972 / Wikimedia Commons (CC BY-SA 3.0)"
+    },
+    {
+     "k": "list",
+     "title": "আবুল খায়ের গ্রুপ",
+     "items": [
+      "পঞ্চাশের দশকে বিড়ি দিয়ে শুরু",
+      "একেএস রড: শীর্ষ ইস্পাত উৎপাদক",
+      "শাহ সিমেন্ট, স্টারশিপ ও মার্কস, সিলন চা"
+     ],
+     "bg": "docs/groups/cement.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/ctgport.jpg",
+     "credit": "ছবি: Moheen Reeyad / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "left",
+     "cap": "চট্টগ্রাম থেকে দেশজুড়ে"
+    },
+    {
+     "k": "text",
+     "text": "বিজ্ঞাপনে গ্রুপের নাম কম, বাজারে প্রথম সারিতে",
+     "hl": "প্রথম সারিতে",
+     "bg": "docs/groups/cement.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "person",
+     "img": "docs/groups/amjad.jpg",
+     "credit": "ছবি: PRAN-RFL Group / Wikimedia Commons (CC BY-SA 4.0)",
+     "name": "আমজাদ খান চৌধুরী",
+     "en": "Amjad Khan Chowdhury",
+     "role": [
+      "প্রাণ-আরএফএলের প্রতিষ্ঠাতা",
+      "১৯৮১"
+     ],
+     "pos": "center 20%"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/pran.jpg",
+     "cap": "প্রাণ কারখানা",
+     "kb": "in",
+     "credit": "ছবি: Suman / Wikimedia Commons (CC BY-SA 4.0)"
+    },
+    {
+     "k": "list",
+     "title": "প্রাণ-আরএফএল",
+     "items": [
+      "১৯৮১ · আমজাদ খান চৌধুরী",
+      "জুস, চানাচুর, বিস্কুট",
+      "প্লাস্টিক, বাইসাইকেল, ইলেকট্রনিক্স"
+     ],
+     "bg": "docs/groups/pran2.jpg"
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 140,
+      "suf": "+ দেশে"
+     },
+     "label": "রপ্তানি (গ্রুপের দাবি)",
+     "sub": "দেশের সবচেয়ে বড় বেসরকারি নিয়োগকর্তাদের একটি",
+     "src": "প্রাণ-আরএফএল",
+     "bg": "docs/groups/pran2.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 6,
+     "title": "শেয়ারবাজারের তারকারা"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/walton.jpg",
+     "cap": "ওয়ালটন হাই-টেক",
+     "kb": "in",
+     "credit": "ছবি: Masum-al-hasan / Wikimedia Commons (CC BY-SA 3.0)"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/walton-factory.jpg",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)",
+     "kb": "left",
+     "cap": "ওয়ালটনের কারখানা, চন্দ্রা, গাজীপুর"
+    },
+    {
+     "k": "list",
+     "title": "ওয়ালটন ও এসিআই",
+     "items": [
+      "ওয়ালটন: ফ্রিজ, টিভি, এসি, মোবাইল, দেশেই তৈরি",
+      "২০২০: তালিকাভুক্তির পর বাজার মূলধনে শীর্ষ সারিতে",
+      "এসিআই: ওষুধ, কৃষি, ভোগ্যপণ্য, সুপারশপ"
+     ],
+     "src": "ডিএসই",
+     "bg": "docs/groups/dse.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/groups/gpsim.jpg",
+     "cap": "বাজার মূলধনে দীর্ঘদিনের শীর্ষ: গ্রামীণফোন",
+     "kb": "in",
+     "credit": "ছবি: Auyon / Wikimedia Commons (CC BY-SA 3.0)"
+    },
+    {
+     "k": "list",
+     "title": "শীর্ষ করদাতাদের তালিকায় নিয়মিত",
+     "items": [
+      "বহুজাতিক তামাক কোম্পানি",
+      "টেলিকম অপারেটর"
+     ],
+     "note": "শীর্ষে বিদেশি মালিকানার প্রতিষ্ঠানও",
+     "src": "এনবিআর",
+     "bg": "docs/groups/dse.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/bat.jpg",
+     "credit": "ছবি: Press Information Department / Wikimedia Commons (Public domain)",
+     "kb": "in",
+     "cap": "ব্রিটিশ আমেরিকান টোব্যাকো বাংলাদেশ"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/jti.jpg",
+     "credit": "ছবি: Guilhem Vellut from Annecy, France / Wikimedia Commons (CC BY 2.0)",
+     "kb": "right",
+     "cap": "জাপান টোব্যাকো ইন্টারন্যাশনাল, জেনেভা",
+     "w": 0.8
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 7,
+     "title": "বড় হওয়ার অন্ধকার দিক"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/news/fe-npl.jpg",
+     "credit": "স্ক্রিনশট: The Financial Express",
+     "cap": "খেলাপি ঋণ বেড়েই চলেছে",
+     "kb": "in"
+    },
+    {
+     "k": "big",
+     "num": {
+      "v": 6,
+      "pre": "> ",
+      "suf": " লাখ কোটি টাকা"
+     },
+     "label": "ব্যাংক খাতে খেলাপি ঋণ",
+     "sub": "মোট ঋণের প্রায় ৩৩%",
+     "src": "বাংলাদেশ ব্যাংক",
+     "bg": "docs/destiny/bb.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/bb.jpg",
+     "credit": "ছবি: ASaber91 / Wikimedia Commons (CC BY 2.0)",
+     "kb": "out",
+     "cap": "বাংলাদেশ ব্যাংক, মতিঝিল"
+    },
+    {
+     "k": "text",
+     "text": "খেলাপি ঋণের বড় অংশ অল্প কিছু বড় ঋণগ্রহীতার কাছে",
+     "hl": "অল্প কিছু",
+     "bg": "docs/destiny/bb.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/destiny/highcourt.jpg",
+     "credit": "ছবি: Wasiul Bahar / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "বিচার হবে আদালতে"
+    },
+    {
+     "k": "text",
+     "text": "আদালতের রায়ের আগে কেউ দোষী নয়",
+     "hl": "রায়ের আগে",
+     "bg": "docs/destiny/highcourt.jpg"
+    },
+    {
+     "k": "flow",
+     "title": "একটি বড় গ্রুপ সংকটে পড়লে",
+     "steps": [
+      [
+       "ব্যাংকের",
+       "আমানতকারী"
+      ],
+      [
+       "হাজারো",
+       "কর্মী"
+      ],
+      [
+       "সরবরাহকারী",
+       "ঝুঁকিতে"
+      ]
+     ],
+     "bg": "docs/groups/ctgport.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "অল্প কয়েকটি প্রতিষ্ঠানের হাতে যে বাজার",
+     "items": [
+      "ভোজ্যতেল ও চিনি",
+      "সিমেন্ট ও রড"
+     ],
+     "bg": "docs/groups/grocery.jpg"
+    },
+    {
+     "k": "quote",
+     "text": "এটা কি স্বাভাবিক বাজার, নাকি কারসাজি?",
+     "by": "দাম বাড়লে সাধারণ মানুষের প্রশ্ন",
+     "bg": "docs/groups/grocery.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/news/pa-bcc.jpg",
+     "credit": "স্ক্রিনশট: Prothom Alo English",
+     "cap": "২০২২: ভোজ্যতেলের দামে কারসাজির অভিযোগে মামলা",
+     "kb": "in"
+    },
+    {
+     "k": "text",
+     "text": "দরকার শক্তিশালী প্রতিযোগিতা আইন ও তার প্রয়োগ",
+     "hl": "প্রতিযোগিতা আইন",
+     "src": "বাংলাদেশ প্রতিযোগিতা কমিশন",
+     "bg": "docs/destiny/court.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "chapter",
+     "n": 8,
+     "title": "তাহলে সবচেয়ে বড় কে?",
+     "w": 0.8
+    },
+    {
+     "k": "list",
+     "title": "মাপকাঠি বদলালে এক নম্বরও বদলায়",
+     "items": [
+      "দৃশ্যমানতা: বসুন্ধরা",
+      "সুশাসন ও প্রকাশ্য মুনাফা: স্কয়ার",
+      "সবচেয়ে বড় বিদেশি চুক্তি: আকিজ",
+      "নিত্যপণ্য: মেঘনা ও সিটি",
+      "ইস্পাত-সিমেন্ট: আবুল খায়ের",
+      "কর্মসংস্থান ও রপ্তানি: প্রাণ-আরএফএল"
+     ],
+     "bg": "docs/groups/skyline.jpg",
+     "w": 1.6
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/skyline.jpg",
+     "credit": "ছবি: Tarunno / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "right",
+     "cap": "মাপকাঠি বদলালে এক নম্বরও বদলায়",
+     "w": 0.8
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "logos",
+     "title": "নীরব দৈত্যরা আছে",
+     "items": [
+      {
+       "img": "logos/meghna.png",
+       "name": "মেঘনা"
+      },
+      {
+       "img": "logos/citygroup.png",
+       "name": "সিটি"
+      }
+     ],
+     "bg": "docs/groups/gpsim.jpg"
+    },
+    {
+     "k": "clip",
+     "video": "docs/bkash/clips/jurain.mp4",
+     "credit": "ভিডিও: Yahya / Wikimedia Commons (CC BY 4.0)",
+     "cap": "আপনার রান্নাঘরে, প্রতিদিন",
+     "w": 0.85
+    },
+    {
+     "k": "text",
+     "text": "টিভিতে কম, আপনার রান্নাঘরে আর দেয়ালে প্রতিদিন",
+     "hl": "রান্নাঘরে দেয়ালে",
+     "bg": "docs/groups/grocery.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "flow",
+     "title": "পাঁচ দশকের যাত্রা",
+     "steps": [
+      [
+       "একটি দোকান",
+       ""
+      ],
+      [
+       "একটি ছোট কারখানা",
+       ""
+      ],
+      [
+       "একজন ফেরিওয়ালা",
+       ""
+      ],
+      [
+       "দেশের শিল্প ভিত্তি",
+       ""
+      ]
+     ],
+     "bg": "docs/groups/ctgport.jpg"
+    },
+    {
+     "k": "photo",
+     "img": "docs/groups/pran2.jpg",
+     "credit": "ছবি: Suman / Wikimedia Commons (CC BY-SA 4.0)",
+     "kb": "in",
+     "cap": "ছোট কারখানা থেকে শিল্প ভিত্তি"
+    },
+    {
+     "k": "list",
+     "title": "পরবর্তী প্রজন্মের কাছে প্রশ্ন",
+     "items": [
+      "কতটা স্বচ্ছ?",
+      "কতটা পেশাদার?",
+      "কতটা জবাবদিহিমূলক?"
+     ],
+     "bg": "docs/groups/skyline.jpg"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "list",
+     "title": "তথ্যসূত্র",
+     "items": [
+      "তালিকাভুক্ত কোম্পানির বার্ষিক প্রতিবেদন",
+      "বাংলাদেশ ব্যাংকের পরিসংখ্যান",
+      "প্রতিষ্ঠানগুলোর আনুষ্ঠানিক তথ্য",
+      "সংবাদমাধ্যম"
+     ],
+     "note": "গ্রুপের দাবি করা সংখ্যা দাবি হিসেবেই উল্লেখ",
+     "bg": "docs/groups/dse.jpg"
+    },
+    {
+     "k": "close",
+     "text": "কোন গ্রুপের পুরো গল্প আলাদা করে শুনতে চান? কমেন্টে জানান",
+     "cta": "সাবস্ক্রাইব করুন · কালারস অব বাংলাদেশ"
+    }
+   ]
+  }
+ ]
+}
