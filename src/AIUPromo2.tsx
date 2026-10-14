@@ -167,7 +167,7 @@ const S02: React.FC<SP> = (p) => {
           </div>
         </div>
         <div style={{ marginTop: 90 }}>
-          <Line d={atf(p, 0.72)} size={84} weight={800}>জীবনের আসল দক্ষতা —</Line>
+          <Line d={atf(p, 0.72)} size={84} weight={800}>জীবনের আসল দক্ষতা</Line>
           <Line d={atf(p, 0.8)} size={84} weight={800} g={`linear-gradient(95deg, ${C.gold}, #FFDDA0)`}>শিখবো কোথায়?</Line>
         </div>
       </div>
@@ -302,7 +302,7 @@ const S06: React.FC<SP> = (p) => {
         })}
       </div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 860, display: "flex", justifyContent: "center" }}>
-        <Line d={atf(p, 0.82)} size={50} weight={600} color={C.gold}>যা আর কোথাও শেখানো হয় না</Line>
+        <Line d={atf(p, 0.82)} size={50} weight={600} color={C.gold}>{" "}</Line>
       </div>
     </AbsoluteFill>
   );
@@ -657,7 +657,7 @@ const CHUNKS = PARAS.flatMap((t, i) => {
 const Subs: React.FC = () => {
   const f = useCurrentFrame();
   const c = CHUNKS.find((x) => f >= x.from && f < x.to + 4);
-  if (!c) return null;
+  if (!c || f > STARTS[12] + LEAD[12] + VO[12] * 0.42) return null;
   const o = interpolate(f, [c.from, c.from + 5, c.to, c.to + 4], [0, 1, 1, 0], clamp);
   return (
     <div style={{ position: "absolute", left: 0, right: 0, bottom: 56, display: "flex", justifyContent: "center", opacity: o }}>
