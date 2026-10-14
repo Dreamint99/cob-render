@@ -1,0 +1,980 @@
+{
+ "id": "chengis",
+ "theme": "cob",
+ "style": "cine",
+ "title": "চেঙ্গিস খান",
+ "sub": "যে এতিম ছেলে অর্ধেক পৃথিবী জিতেছিল",
+ "musicVol": 0.15,
+ "cues": [
+  {
+   "at": 0,
+   "music": "docs/chengis/audio/m_mystery.mp3"
+  },
+  {
+   "at": 2,
+   "music": "docs/chengis/audio/m_sad.mp3"
+  },
+  {
+   "at": 4,
+   "music": "docs/chengis/audio/m_mystery.mp3"
+  },
+  {
+   "at": 6,
+   "music": "docs/chengis/audio/m_epic.mp3",
+   "vol": 0.12
+  },
+  {
+   "at": 11,
+   "music": "docs/chengis/audio/m_majestic.mp3"
+  },
+  {
+   "at": 14,
+   "music": "docs/chengis/audio/m_epic.mp3",
+   "vol": 0.12
+  },
+  {
+   "at": 23,
+   "music": "docs/chengis/audio/m_mystery.mp3"
+  },
+  {
+   "at": 25,
+   "music": "docs/chengis/audio/m_sad.mp3"
+  },
+  {
+   "at": 27,
+   "music": "docs/chengis/audio/m_majestic.mp3"
+  }
+ ],
+ "paras": [
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/winter_escape.jpg",
+     "cap": "",
+     "kb": "in",
+     "w": 1.3,
+     "fx": "moon",
+     "sfx": "docs/chengis/audio/sfx_wind.mp3",
+     "sfxVol": 0.5
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/river_hide.jpg",
+     "cap": "নিঃশ্বাস চেপে নদীর পানিতে",
+     "kb": "in",
+     "w": 1.1,
+     "fx": "moon",
+     "sfx": "docs/chengis/audio/sfx_splash.mp3",
+     "sfxVol": 0.35
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/steppe.jpg",
+     "credit": "ছবি: Shizhao / Wikimedia Commons (CC BY-SA 3.0)",
+     "cap": "",
+     "kb": "left",
+     "w": 1,
+     "fx": "fog"
+    },
+    {
+     "k": "text",
+     "text": "তেমুজিন",
+     "sub": "পৃথিবী যাকে চেনে চেঙ্গিস খান নামে",
+     "hl": "তেমুজিন",
+     "w": 1.1,
+     "cut": "black"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/onon.jpg",
+     "credit": "ছবি: Chinneeb / Wikimedia Commons (CC BY-SA 3.0)",
+     "cap": "ওনোন নদী · মঙ্গোলিয়া",
+     "kb": "right",
+     "w": 1,
+     "fx": "fog",
+     "card": [
+      "তেমুজিন",
+      "জন্ম আনুমানিক ১১৬২"
+     ]
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/birth.jpg",
+     "cap": "জন্মের সময় মুঠোয় জমাট রক্ত",
+     "kb": "in",
+     "w": 1,
+     "fx": "flicker"
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/ger.jpg",
+     "credit": "ছবি: Gary Todd / Wikimedia Commons (CC0)",
+     "cap": "স্তেপের যাযাবর জীবন · গের",
+     "kb": "left",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/poison.jpg",
+     "cap": "বাবা ইয়েসুগেই · তাতারদের বিষে মৃত্যু",
+     "kb": "in",
+     "w": 1.2,
+     "fx": "fog"
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/abandoned.jpg",
+     "cap": "গোত্র ফেলে চলে গেল এতিম পরিবারকে",
+     "kb": "out",
+     "w": 1.3,
+     "fx": "fog",
+     "sfx": "docs/chengis/audio/sfx_wind.mp3",
+     "sfxVol": 0.4
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/survival.jpg",
+     "cap": "শিকড়, বুনো ফল আর নদীর মাছ",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/mini_cooking.jpg",
+     "credit": "ছবি: 1420 artist / Wikimedia Commons (Public domain)",
+     "cap": "মঙ্গোল জীবন · ১৫ শতকের পারস্যের মিনিয়েচার",
+     "kb": "left",
+     "w": 1
+    },
+    {
+     "k": "text",
+     "text": "স্তেপে দুর্বলের জায়গা নেই",
+     "sub": "",
+     "hl": "দুর্বলের",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/winter_escape.jpg",
+     "cap": "তায়চিউদদের হাতে বন্দি",
+     "kb": "out",
+     "w": 1,
+     "fx": "moon"
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/river_hide.jpg",
+     "cap": "এক সহৃদয় পাহারাদারের দয়া",
+     "kb": "in",
+     "w": 1,
+     "fx": "moon"
+    },
+    {
+     "k": "quote",
+     "text": "আনুগত্য আর বিশ্বাসঘাতকতার পার্থক্য সে শিখেছিল জীবন দিয়ে",
+     "by": "তেমুজিনের কৈশোর",
+     "w": 1.1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/wedding.jpg",
+     "cap": "",
+     "kb": "in",
+     "w": 1,
+     "card": [
+      "বোর্তে",
+      "তেমুজিনের স্ত্রী"
+     ]
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/merkit_raid.jpg",
+     "cap": "মেরকিত হামলা · বোর্তে অপহৃত",
+     "kb": "in",
+     "w": 1.2,
+     "fx": "embers",
+     "cut": "flash",
+     "sfx": "docs/chengis/audio/sfx_gallop.mp3",
+     "sfxVol": 0.4
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/blood_brothers.jpg",
+     "cap": "সাহায্য চাইলেন রক্তের ভাই জামুখার কাছে",
+     "kb": "left",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/horde.jpg",
+     "cap": "তিন বাহিনীর হামলা, মুক্ত বোর্তে",
+     "kb": "in",
+     "w": 1.1,
+     "sfx": "docs/chengis/audio/sfx_gallop.mp3",
+     "sfxVol": 0.45
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/mini_tents.jpg",
+     "credit": "ছবি: Circa 1430 artist / Wikimedia Commons (Public domain)",
+     "cap": "মঙ্গোল শিবির · জামি আল-তাওয়ারিখ, ১৪৩০",
+     "kb": "left",
+     "w": 1,
+     "pos": "center 8%"
+    },
+    {
+     "k": "text",
+     "text": "বংশ নয়, যোগ্যতা",
+     "sub": "",
+     "hl": "যোগ্যতা",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/archer_turn.jpg",
+     "cap": "এক তীরে মারা গেল তেমুজিনের প্রিয় ঘোড়া",
+     "kb": "in",
+     "w": 1.1,
+     "cut": "flash",
+     "sfx": "docs/chengis/audio/sfx_arrows.mp3",
+     "sfxVol": 0.4
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/archer_photo.jpg",
+     "credit": "ছবি: Dr. Alexey Yakovlev / Wikimedia Commons (CC BY-SA 2.0)",
+     "cap": "মঙ্গোল তীরন্দাজের সাজ",
+     "kb": "right",
+     "w": 1
+    },
+    {
+     "k": "text",
+     "text": "জেবে",
+     "sub": "মানে তীর · পরে সেরা সেনাপতি",
+     "hl": "জেবে",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/horse_archer.jpg",
+     "credit": "ছবি: Muhammad ibn Mahmudshah al-Khayyam / Wikimedia Commons (Public domain)",
+     "cap": "",
+     "kb": "in",
+     "w": 1,
+     "card": [
+      "সুবুতাই",
+      "কামারের ছেলে থেকে সমরনায়ক"
+     ]
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/mini_hungary.jpg",
+     "credit": "ছবি: unknown / (of the reproduction) Széchényi National Library,  / Wikimedia Commons (Public domain)",
+     "cap": "মঙ্গোল অভিযান · মধ্যযুগের চিত্র",
+     "kb": "left",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/blood_brothers.jpg",
+     "cap": "রক্তের ভাই থেকে প্রতিদ্বন্দ্বী",
+     "kb": "out",
+     "w": 1
+    },
+    {
+     "k": "timeline",
+     "title": "লড়াইয়ের বছরগুলো",
+     "items": [
+      [
+       "১২০১",
+       "জামুখা ঘোষিত মহান খান"
+      ],
+      [
+       "১২০৩",
+       "কেরাইতদের পরাজয়"
+      ],
+      [
+       "১২০৫",
+       "জামুখা বন্দি"
+      ]
+     ],
+     "w": 1.4
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/merkit_raid.jpg",
+     "cap": "",
+     "kb": "in",
+     "w": 0.8,
+     "fx": "embers",
+     "sfx": "docs/chengis/audio/sfx_drum.mp3",
+     "sfxVol": 0.5
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/mini_tents.jpg",
+     "credit": "ছবি: Circa 1430 artist / Wikimedia Commons (Public domain)",
+     "cap": "জামুখার অনুসারীদের পরিণতি · পারস্যের মিনিয়েচার",
+     "kb": "in",
+     "w": 1,
+     "pos": "center 8%"
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/funeral.jpg",
+     "cap": "শৈশবের রক্তের ভাই হারিয়ে গেল ইতিহাস থেকে",
+     "kb": "left",
+     "w": 1,
+     "fx": "fog"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/kurultai.jpg",
+     "cap": "১২০৬ · ওনোন নদীর তীরে কুরুলতাই",
+     "kb": "in",
+     "w": 1.3,
+     "cut": "flash",
+     "sfx": "docs/chengis/audio/sfx_drum.mp3",
+     "sfxVol": 0.55
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/genghis.jpg",
+     "credit": "ছবি: Unknown authorUnknown author / Wikimedia Commons (Public domain)",
+     "cap": "",
+     "kb": "in",
+     "w": 1.3,
+     "pos": "center 25%",
+     "card": [
+      "চেঙ্গিস খান",
+      "সব মঙ্গোলের সম্রাট · ১২০৬"
+     ]
+    },
+    {
+     "k": "text",
+     "text": "চেঙ্গিস খান",
+     "sub": "বয়স তখন প্রায় চুয়াল্লিশ",
+     "hl": "চেঙ্গিস",
+     "w": 0.9
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "text",
+     "text": "ইয়াসা",
+     "sub": "চুরি, ব্যভিচার, দূতকে আঘাত: কঠিন অপরাধ",
+     "hl": "ইয়াসা",
+     "w": 1
+    },
+    {
+     "k": "timeline",
+     "title": "দশের হিসাবে বাহিনী",
+     "items": [
+      [
+       "১০",
+       "আরবান"
+      ],
+      [
+       "১,০০০",
+       "মিঙ্গান"
+      ],
+      [
+       "১০,০০০",
+       "তুমেন"
+      ]
+     ],
+     "w": 1.4
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/horde.jpg",
+     "cap": "গোত্র ভেঙে তৈরি হলো একটা জাতি",
+     "kb": "out",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/yam_rider.jpg",
+     "cap": "ইয়াম · ঘোড়ার ডাকব্যবস্থা",
+     "kb": "in",
+     "w": 1.2,
+     "sfx": "docs/chengis/audio/sfx_gallop.mp3",
+     "sfxVol": 0.4
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/paiza.jpg",
+     "credit": "ছবি: Unknown authorUnknown author / Wikimedia Commons (Public domain)",
+     "cap": "পাইজা · মঙ্গোল ডাকবাহকের ধাতব পরিচয়পত্র",
+     "kb": "in",
+     "w": 1,
+     "pos": "center"
+    },
+    {
+     "k": "text",
+     "text": "আটশো বছর আগের ইন্টারনেট",
+     "sub": "",
+     "hl": "ইন্টারনেট",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/horse_archer.jpg",
+     "credit": "ছবি: Muhammad ibn Mahmudshah al-Khayyam / Wikimedia Commons (Public domain)",
+     "cap": "ছুটন্ত ঘোড়া থেকে পেছনে ফিরে তীর",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/archer_turn.jpg",
+     "cap": "",
+     "kb": "in",
+     "w": 1,
+     "cut": "flash",
+     "sfx": "docs/chengis/audio/sfx_arrows.mp3",
+     "sfxVol": 0.45
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/mini_hungary.jpg",
+     "credit": "ছবি: unknown / (of the reproduction) Széchényi National Library,  / Wikimedia Commons (Public domain)",
+     "cap": "ভান করে পালানো, তারপর ঘেরাও",
+     "kb": "right",
+     "w": 1
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/horde.jpg",
+     "cap": "",
+     "kb": "out",
+     "w": 0.8,
+     "sfx": "docs/chengis/audio/sfx_gallop.mp3",
+     "sfxVol": 0.4
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/map1227.png",
+     "credit": "ছবি: MicBy67 / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "পশ্চিম শিয়া আর জিন সাম্রাজ্য",
+     "kb": "in",
+     "w": 1,
+     "pos": "center"
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/great_wall.jpg",
+     "cap": "১২১১ · মহাপ্রাচীরের সীমানা পেরিয়ে",
+     "kb": "in",
+     "w": 1.2,
+     "fx": "fog",
+     "sfx": "docs/chengis/audio/sfx_drum.mp3",
+     "sfxVol": 0.5
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/zhongdu_fire.jpg",
+     "cap": "১২১৫ · ঝংদু, আজকের বেইজিং",
+     "kb": "in",
+     "w": 1.3,
+     "fx": "embers",
+     "cut": "flash",
+     "sfx": "docs/chengis/audio/sfx_fire.mp3",
+     "sfxVol": 0.4
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/siege_engines.jpg",
+     "cap": "বন্দি চীনা প্রকৌশলীরা বানালেন দুর্গ ভাঙার যন্ত্র",
+     "kb": "left",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/genghis.jpg",
+     "credit": "ছবি: Unknown authorUnknown author / Wikimedia Commons (Public domain)",
+     "cap": "",
+     "kb": "out",
+     "w": 1,
+     "pos": "center 25%",
+     "card": [
+      "ইয়েলু চুসাই",
+      "লম্বা দাড়ির উপদেষ্টা"
+     ]
+    },
+    {
+     "k": "text",
+     "text": "হত্যার চেয়ে কর লাভজনক",
+     "sub": "একটা পরামর্শে বাঁচল লাখো প্রাণ",
+     "hl": "কর",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/caravan.jpg",
+     "cap": "পাঁচশো জনের বাণিজ্য কাফেলা",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/otrar.jpg",
+     "credit": "ছবি: Coopypasted / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "ওত্রার · আজকের কাজাখস্তানে ধ্বংসাবশেষ",
+     "kb": "in",
+     "w": 1,
+     "card": [
+      "ওত্রার",
+      "১২১৮ · কাফেলা হত্যা"
+     ]
+    },
+    {
+     "k": "text",
+     "text": "দূতদেরও হত্যা",
+     "sub": "ইতিহাসের সবচেয়ে ভয়ংকর ভুল",
+     "hl": "হত্যা",
+     "w": 0.9,
+     "cut": "black"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/horde.jpg",
+     "cap": "১২১৯ · তিন দিক থেকে খোয়ারিজমে",
+     "kb": "in",
+     "w": 1,
+     "cut": "flash",
+     "sfx": "docs/chengis/audio/sfx_gallop.mp3",
+     "sfxVol": 0.5
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/siege_engines.jpg",
+     "cap": "পাঁচ মাসের অবরোধে ওত্রার",
+     "kb": "right",
+     "w": 1,
+     "sfx": "docs/chengis/audio/sfx_drum.mp3",
+     "sfxVol": 0.45
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/bukhara.jpg",
+     "credit": "ছবি: Bgag / Wikimedia Commons (CC0)",
+     "cap": "বুখারার কালান মিনার · মঙ্গোল আক্রমণেও টিকে ছিল",
+     "kb": "up",
+     "w": 1
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/samarkand_fall.jpg",
+     "cap": "সমরকন্দের পতন",
+     "kb": "in",
+     "w": 1,
+     "fx": "embers"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/mini_siege.jpg",
+     "credit": "ছবি: Unknown author / Wikimedia Commons (Public domain)",
+     "cap": "পালিয়ে বেড়ালেন শাহ মুহাম্মদ",
+     "kb": "in",
+     "w": 1
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/indus_leap.jpg",
+     "cap": "১২২১ · সিন্ধু নদে জালালুদ্দিনের লাফ",
+     "kb": "in",
+     "w": 1.3,
+     "cut": "flash",
+     "sfx": "docs/chengis/audio/sfx_splash.mp3",
+     "sfxVol": 0.5
+    },
+    {
+     "k": "quote",
+     "text": "প্রত্যেক বাবার এমন একটা ছেলে থাকা উচিত",
+     "by": "চেঙ্গিস খান, কথিত উক্তি",
+     "w": 1.2
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/samarkand_fall.jpg",
+     "cap": "যে প্রতিরোধ করত, তার পরিণতি ধ্বংস",
+     "kb": "out",
+     "w": 1.2,
+     "fx": "embers",
+     "sfx": "docs/chengis/audio/sfx_fire.mp3",
+     "sfxVol": 0.35
+    },
+    {
+     "k": "timeline",
+     "title": "ধ্বংস হওয়া শহর",
+     "items": [
+      [
+       "মার্ভ",
+       "১২২১"
+      ],
+      [
+       "নিশাপুর",
+       "১২২১"
+      ],
+      [
+       "উরগেঞ্চ",
+       "১২২১"
+      ]
+     ],
+     "w": 1.4
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/mini_tents.jpg",
+     "credit": "ছবি: Circa 1430 artist / Wikimedia Commons (Public domain)",
+     "cap": "নিহতের সমসাময়িক হিসাব অতিরঞ্জিত, কিন্তু প্রাণ গেছে লাখো মানুষের",
+     "kb": "left",
+     "w": 1,
+     "pos": "center 8%"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/map_expansion.png",
+     "credit": "ছবি: User:Cattette / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "জেবে আর সুবুতাইয়ের পশ্চিম অভিযান",
+     "kb": "in",
+     "w": 1,
+     "pos": "center"
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/mini_hungary.jpg",
+     "credit": "ছবি: unknown / (of the reproduction) Széchényi National Library,  / Wikimedia Commons (Public domain)",
+     "cap": "১২২৩ · কালকা নদীর যুদ্ধ",
+     "kb": "right",
+     "w": 1,
+     "sfx": "docs/chengis/audio/sfx_drum.mp3",
+     "sfxVol": 0.45
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/caravan.jpg",
+     "cap": "সিল্ক রোড হলো আগের চেয়ে নিরাপদ",
+     "kb": "left",
+     "w": 1
+    },
+    {
+     "k": "text",
+     "text": "মুসলমান · বৌদ্ধ · খ্রিস্টান · শামান",
+     "sub": "সবাই নিজের মতো উপাসনা",
+     "hl": "",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/marco.png",
+     "credit": "ছবি: Unkown artist (later medieval) / Wikimedia Commons (Public domain)",
+     "cap": "কুবলাই খানের দরবারে মার্কো পোলো",
+     "kb": "in",
+     "w": 1,
+     "card": [
+      "মার্কো পোলো",
+      "ভেনিস থেকে চীনে"
+     ]
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/kublai.jpg",
+     "credit": "ছবি: Araniko / Wikimedia Commons (Public domain)",
+     "cap": "",
+     "kb": "in",
+     "w": 1,
+     "pos": "center 25%",
+     "card": [
+      "কুবলাই খান",
+      "চেঙ্গিসের নাতি"
+     ]
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/poison.jpg",
+     "cap": "১২২৬ · শেষ অভিযান",
+     "kb": "in",
+     "w": 1,
+     "fx": "fog"
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/genghis.jpg",
+     "credit": "ছবি: Unknown authorUnknown author / Wikimedia Commons (Public domain)",
+     "cap": "১৮ আগস্ট ১২২৭",
+     "kb": "out",
+     "w": 1.2,
+     "pos": "center 25%"
+    },
+    {
+     "k": "text",
+     "text": "মৃত্যুর কারণ আজও রহস্য",
+     "sub": "",
+     "hl": "রহস্য",
+     "w": 1,
+     "cut": "black"
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/funeral.jpg",
+     "cap": "গোপন শবযাত্রা",
+     "kb": "in",
+     "w": 1.2,
+     "fx": "fog"
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/horses_grave.jpg",
+     "cap": "হাজার ঘোড়ায় সমান করা মাটি",
+     "kb": "in",
+     "w": 1.2,
+     "fx": "fog",
+     "sfx": "docs/chengis/audio/sfx_gallop.mp3",
+     "sfxVol": 0.4
+    },
+    {
+     "k": "text",
+     "text": "কবর আজও খুঁজে পাওয়া যায়নি",
+     "sub": "আধুনিক স্যাটেলাইট দিয়েও",
+     "hl": "খুঁজে",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/map1227.png",
+     "credit": "ছবি: MicBy67 / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "চেঙ্গিসের মৃত্যুর সময় সাম্রাজ্য, ১২২৭",
+     "kb": "in",
+     "w": 1,
+     "pos": "center"
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/map_expansion.png",
+     "credit": "ছবি: User:Cattette / Wikimedia Commons (CC BY-SA 4.0)",
+     "cap": "১২০৬ থেকে ১২৯৪ · সাম্রাজ্যের বিস্তার",
+     "kb": "out",
+     "w": 1,
+     "pos": "center"
+    },
+    {
+     "k": "text",
+     "text": "২ কোটি ৪০ লাখ বর্গকিলোমিটার",
+     "sub": "গিনেস বুক: ইতিহাসের সবচেয়ে বড় সংযুক্ত স্থলসাম্রাজ্য",
+     "hl": "২",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/babur.jpg",
+     "credit": "ছবি: Probably, Aqa Riza, a Khurasani Persian migrant painter to I / Wikimedia Commons (Public domain)",
+     "cap": "",
+     "kb": "in",
+     "w": 1,
+     "pos": "center 20%",
+     "card": [
+      "বাবর",
+      "মোগল সাম্রাজ্যের প্রতিষ্ঠাতা · ১৫২৬"
+     ]
+    },
+    {
+     "k": "text",
+     "text": "মোগল = মঙ্গোল",
+     "sub": "বাবরের মা চেঙ্গিস খানের বংশধর",
+     "hl": "মঙ্গোল",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "text",
+     "text": "প্রায় ১ কোটি ৬০ লাখ",
+     "sub": "পুরুষ হয়তো চেঙ্গিসের বংশধর · ২০০৩ সালের গবেষণা",
+     "hl": "১",
+     "w": 1
+    },
+    {
+     "k": "photo",
+     "img": "docs/chengis/statue.jpg",
+     "credit": "ছবি: Martin Vorel / Wikimedia Commons (CC0)",
+     "cap": "পরে এই দাবি নিয়ে প্রশ্নও উঠেছে",
+     "kb": "up",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "photo",
+     "img": "docs/chengis/statue.jpg",
+     "credit": "ছবি: Martin Vorel / Wikimedia Commons (CC0)",
+     "cap": "মঙ্গোলিয়ায় চেঙ্গিস খানের বিশাল অশ্বারোহী মূর্তি",
+     "kb": "in",
+     "w": 1,
+     "card": [
+      "জাতির পিতা",
+      "মঙ্গোলিয়ার চোখে"
+     ]
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/samarkand_fall.jpg",
+     "cap": "অন্যদের চোখে এক ভয়ংকর বিজেতা",
+     "kb": "out",
+     "w": 1,
+     "fx": "embers"
+    },
+    {
+     "k": "text",
+     "text": "দুটোই সত্য",
+     "sub": "",
+     "hl": "সত্য",
+     "w": 1
+    }
+   ]
+  },
+  {
+   "v": [
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/winter_escape.jpg",
+     "cap": "এক এতিম ছেলে",
+     "kb": "in",
+     "w": 1,
+     "fx": "moon"
+    },
+    {
+     "k": "ai",
+     "img": "docs/chengis/ai/khan_army.jpg",
+     "cap": "যে বদলে দিয়েছিল অর্ধেক পৃথিবীর মানচিত্র",
+     "kb": "in",
+     "w": 1.3,
+     "sfx": "docs/chengis/audio/sfx_drum.mp3",
+     "sfxVol": 0.5
+    },
+    {
+     "k": "close",
+     "text": "চেঙ্গিস খান: মহান নেতা, নাকি নিষ্ঠুর বিজেতা?",
+     "cta": "সাবস্ক্রাইব করুন · Colours of Bangladesh",
+     "w": 1.4
+    }
+   ]
+  }
+ ]
+}

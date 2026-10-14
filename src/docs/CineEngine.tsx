@@ -7,7 +7,7 @@ import { AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, continueRender, del
 // brand fonts, loaded before the first frame renders
 if (typeof document !== "undefined") {
   const h = delayRender("cine fonts");
-  Promise.all([["Galada", "Galada-Regular.ttf"], ["Anek Bangla", "AnekBangla.ttf"], ["Tiro Bangla", "TiroBangla-Regular.ttf"]].map(([n, file]) => {
+  Promise.all([["Galada", "Galada-Regular.ttf"], ["Baloo Da 2", "BalooDa2.ttf"], ["Anek Bangla", "AnekBangla.ttf"], ["Tiro Bangla", "TiroBangla-Regular.ttf"]].map(([n, file]) => {
     const ff = new FontFace(n, `url(${staticFile("fonts/" + file)})`);
     return ff.load().then(() => document.fonts.add(ff)).catch(() => {});
   })).then(() => continueRender(h));
@@ -17,7 +17,7 @@ import { FxLayer, type Fx } from "./fx";
 type AnyShot = { k: string; [x: string]: any };
 export type CineShot = { s: AnyShot; from: number; len: number };
 const SERIF = '"Tiro Bangla", "Noto Serif Bengali", "Hind Siliguri", serif';
-const DISPLAY = '"Galada", "Tiro Bangla", serif';
+const DISPLAY = '"Baloo Da 2", "Anek Bangla", sans-serif';
 const SANS = '"Anek Bangla", "Hind Siliguri", sans-serif';
 const RED = "#d1102c";
 const goldText: React.CSSProperties = { background: "linear-gradient(180deg, #fff3d6 0%, #e9c77d 45%, #b8862f 100%)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" };
@@ -55,6 +55,19 @@ const Subtitle: React.FC<{ text?: string; len: number; delay?: number }> = ({ te
   );
 };
 
+const NameCard: React.FC<{ t: string; sub?: string; len: number }> = ({ t, sub, len }) => {
+  const f = useCurrentFrame();
+  const o = interpolate(f, [10, 28, len - 4, len + 12], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const w = interpolate(f, [10, 40], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <div style={{ position: "absolute", left: 90, top: BAR + 60, opacity: o }}>
+      <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 62, lineHeight: 1.15, ...goldText }}>{t}</div>
+      <div style={{ height: 3, width: 260 * w, background: `linear-gradient(90deg, ${RED}, transparent)`, margin: "10px 0 12px" }} />
+      {sub && <div style={{ fontFamily: SANS, fontWeight: 600, fontSize: 30, color: "#fff", textShadow: "0 2px 14px rgba(0,0,0,.9)" }}>{sub}</div>}
+    </div>
+  );
+};
+
 const Picture: React.FC<{ s: AnyShot; len: number; delay?: number }> = ({ s, len, delay }) => (
   <AbsoluteFill style={{ background: "#000" }}>
     <Drift kb={s.kb} len={len}>
@@ -67,13 +80,14 @@ const Picture: React.FC<{ s: AnyShot; len: number; delay?: number }> = ({ s, len
     </Drift>
     <FxLayer fx={s.fx as Fx | undefined} />
     <Subtitle text={s.cap} len={len} delay={delay} />
+    {s.card && <NameCard t={s.card[0]} sub={s.card[1]} len={len} />}
   </AbsoluteFill>
 );
 
 const TitleWords: React.FC<{ text: string; hl?: string; size: number; delay?: number; font?: string }> = ({ text, hl, size, delay = 0, font = DISPLAY }) => {
   const f = useCurrentFrame();
   return (
-    <div style={{ fontFamily: font, fontSize: size, lineHeight: 1.35, textAlign: "center", maxWidth: 1560, padding: "0 40px" }}>
+    <div style={{ fontFamily: font, fontWeight: 800, fontSize: size, lineHeight: 1.3, textAlign: "center", maxWidth: 1560, padding: "0 40px" }}>
       {text.split(" ").map((w, i) => {
         const o = interpolate(f, [delay + i * 5, delay + i * 5 + 18], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
         const isHl = hl && w.includes(hl);
@@ -116,7 +130,7 @@ const Timeline: React.FC<{ s: AnyShot }> = ({ s }) => {
   const line = interpolate(f, [6, 40], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <Dark>
-      {s.title && <div style={{ fontFamily: DISPLAY, fontSize: 70, marginBottom: 70, ...goldText }}>{s.title}</div>}
+      {s.title && <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 66, marginBottom: 70, ...goldText }}>{s.title}</div>}
       <div style={{ position: "relative", width: 1500 }}>
         <div style={{ position: "absolute", top: 98, left: 0, height: 2, width: `${line * 100}%`, background: `linear-gradient(90deg, transparent, ${GOLD}, transparent)` }} />
         <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -157,6 +171,13 @@ const ShotView: React.FC<{ s: AnyShot; len: number; delay?: number }> = ({ s, le
   if (s.k === "timeline") return <Timeline s={s} />;
   if (s.k === "close") return <Close s={s} />;
   return <Words s={s} />;
+};
+
+const CutFx: React.FC<{ cut?: string }> = ({ cut }) => {
+  const f = useCurrentFrame();
+  if (cut === "flash") return <AbsoluteFill style={{ background: "#fff", opacity: interpolate(f, [XF - 2, XF + 1, XF + 9], [0, 0.85, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), pointerEvents: "none" }} />;
+  if (cut === "black") return <AbsoluteFill style={{ background: "#000", opacity: interpolate(f, [0, XF, XF + 14], [1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }), pointerEvents: "none" }} />;
+  return null;
 };
 
 const Cross: React.FC<{ len: number; children: React.ReactNode }> = ({ len, children }) => {
@@ -200,7 +221,7 @@ const Opening: React.FC<{ title: string; sub?: string }> = ({ title, sub }) => {
         <div style={{ fontFamily: SANS, fontWeight: 500, fontSize: 30, color: "rgba(255,255,255,.75)", marginTop: 26 }}>পরিবেশিত</div>
       </AbsoluteFill>
       <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: to, background: `radial-gradient(ellipse at center, rgba(0,0,0,${0.45 * to}) 0%, rgba(0,0,0,${0.2 * to}) 70%)` }}>
-        <div style={{ fontFamily: DISPLAY, fontSize: 230, lineHeight: 1.1, ...goldText, transform: `scale(${1.05 - 0.05 * Math.max(0, (f - 96) / 154)})` }}>{title}</div>
+        <div style={{ fontFamily: DISPLAY, fontWeight: 800, fontSize: 210, lineHeight: 1.15, ...goldText, transform: `scale(${1.05 - 0.05 * Math.max(0, (f - 96) / 154)})` }}>{title}</div>
         <div style={{ marginTop: 6 }}><Ornament w={420} /></div>
         {sub && <div style={{ fontFamily: SANS, fontWeight: 600, fontSize: 50, color: "#fff", marginTop: 16, textShadow: "0 2px 20px rgba(0,0,0,.9)" }}>{sub}</div>}
       </AbsoluteFill>
@@ -208,14 +229,36 @@ const Opening: React.FC<{ title: string; sub?: string }> = ({ title, sub }) => {
   );
 };
 
-export const Cine: React.FC<{ film: { id: string; title: string; sub?: string; music?: string; musicVol?: number; paras: unknown[] }; shots: CineShot[]; starts: number[]; total: number }> = ({ film, shots, starts, total }) => {
+type Cue = { at: number; music: string; vol?: number };
+const MusicCues: React.FC<{ cues: Cue[]; starts: number[]; total: number; base: number }> = ({ cues, starts, total, base }) => {
+  const FADE = 75;
+  return (
+    <>
+      {cues.map((c, i) => {
+        const from = Math.max(0, (starts[c.at] ?? 0) - 30);
+        const to = i + 1 < cues.length ? (starts[cues[i + 1].at] ?? total) - 30 + FADE : total;
+        const len = Math.max(1, to - from);
+        const v = c.vol ?? base;
+        return (
+          <Sequence key={"m" + i} from={from} durationInFrames={len}>
+            <Audio src={staticFile(c.music)} loop volume={(fr) => v * interpolate(fr, [0, i ? FADE : 20, len - FADE, len], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
+          </Sequence>
+        );
+      })}
+    </>
+  );
+};
+
+export const Cine: React.FC<{ film: { id: string; title: string; sub?: string; music?: string; musicVol?: number; cues?: Cue[]; paras: unknown[] }; shots: CineShot[]; starts: number[]; total: number }> = ({ film, shots, starts, total }) => {
   const f = useCurrentFrame();
-  const cur = shots.find((x) => f >= x.from && f < x.from + x.len)?.s;
+  const cur = shots.find((x) => f >= x.from - XF / 2 && f < x.from + x.len - XF / 2)?.s ?? shots[shots.length - 1]?.s;
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       {shots.filter((x) => x.s.k !== "chapter").map((x, i) => (
         <Sequence key={i} from={Math.max(0, x.from - XF)} durationInFrames={x.len + XF * 2}>
           <Cross len={x.len}><ShotView s={x.s} len={x.len} delay={Math.max(0, 255 - x.from)} /></Cross>
+          <CutFx cut={x.s.cut} />
+          {x.s.sfx && <Sequence from={XF}><Audio src={staticFile(x.s.sfx)} volume={x.s.sfxVol ?? 0.5} /></Sequence>}
         </Sequence>
       ))}
       {/* warm grade + vignette + grain */}
@@ -227,7 +270,9 @@ export const Cine: React.FC<{ film: { id: string; title: string; sub?: string; m
       {film.paras.map((_, i) => (
         <Sequence key={"a" + i} from={starts[i] + 4}><Audio src={staticFile(`docs/${film.id}/vo/${String(i + 1).padStart(2, "0")}.mp3`)} /></Sequence>
       ))}
-      <Audio src={staticFile(film.music ?? "gambmusic.mp3")} loop volume={(fr) => (film.musicVol ?? 0.14) * interpolate(fr, [0, 20, total - 90, total], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
+      {film.cues ? <MusicCues cues={film.cues} starts={starts} total={total} base={film.musicVol ?? 0.14} /> : (
+        <Audio src={staticFile(film.music ?? "gambmusic.mp3")} loop volume={(fr) => (film.musicVol ?? 0.14) * interpolate(fr, [0, 20, total - 90, total], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })} />
+      )}
     </AbsoluteFill>
   );
 };

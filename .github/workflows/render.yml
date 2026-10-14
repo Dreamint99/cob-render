@@ -7,7 +7,7 @@ on:
     inputs:
       id: { description: "film id (Doc-<id>)", required: true }
       frames: { description: "total frames of the composition", required: true }
-      chunks: { description: "parallel chunks", default: "8" }
+      chunks: { description: "parallel chunks", default: "16" }
       scale: { description: "render scale (1 = 1080p, 1.3333 = 1440p)", default: "1.3333333333333333" }
 
 permissions:
@@ -50,25 +50,12 @@ jobs:
           gh release download "docs-${{ inputs.id }}" -p "docs-${{ inputs.id }}.tar.gz" -D /tmp
           mkdir -p public/docs && tar xzf "/tmp/docs-${{ inputs.id }}.tar.gz" -C public/docs
       - name: render frames ${{ matrix.a }}-${{ matrix.b }}
-        run: npx remotion render src/index.ts "Doc-${{ inputs.id }}" "out/c${{ matrix.i }}.mp4" --frames=${{ matrix.a }}-${{ matrix.b }} --muted --scale=${{ inputs.scale }} --gl=swangle --concurrency=100% --crf=18 --log=error
+        run: npx remotion render src/index.ts "Doc-${{ inputs.id }}" "out/c${{ matrix.i }}.mp4" --frames=${{ matrix.a }}-${{ matrix.b }} --scale=${{ inputs.scale }} --gl=swangle --concurrency=100% --crf=18 --log=error
       - uses: actions/upload-artifact@v4
         with: { name: "c${{ matrix.i }}", path: "out/c${{ matrix.i }}.mp4", retention-days: 2 }
 
-  audio:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 22, cache: npm }
-      - run: npm ci --no-audit --no-fund
-      - *fonts
-      - *assets
-      - run: npx remotion render src/index.ts "Doc-${{ inputs.id }}" out/audio.aac --codec=aac --log=error
-      - uses: actions/upload-artifact@v4
-        with: { name: audio, path: out/audio.aac, retention-days: 2 }
-
   merge:
-    needs: [chunk, audio]
+    needs: [chunk]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -78,8 +65,8 @@ jobs:
         run: |
           sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
           ls parts | grep -E '^c[0-9]+\.mp4$' | sort -V | sed 's#^#file parts/#' | sed "s#\$##" > list.txt
-          ffmpeg -v error -f concat -safe 0 -i list.txt -c copy video.mp4
-          ffmpeg -v error -i video.mp4 -i parts/audio.aac -map 0:v -map 1:a -c:v copy -af loudnorm=I=-14:TP=-1:LRA=11 -c:a aac -b:a 192k -movflags +faststart "${{ inputs.id }}.mp4"
+          ffmpeg -v error -f concat -safe 0 -i list.txt -c copy joined.mp4
+          ffmpeg -v error -i joined.mp4 -map 0:v -map 0:a -c:v copy -af loudnorm=I=-14:TP=-1:LRA=11 -c:a aac -b:a 192k -movflags +faststart "${{ inputs.id }}.mp4"
           ls -la "${{ inputs.id }}.mp4"
       - name: publish
         env: { GH_TOKEN: "${{ github.token }}" }

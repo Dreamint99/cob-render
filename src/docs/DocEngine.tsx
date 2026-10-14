@@ -28,7 +28,7 @@ type Shot =
   | { k: "deal"; buyer: string; target: string; buyerName: string; targetName: string; num: { v: number; dec?: number; pre?: string; suf?: string }; year: string; src?: string; bg?: string; w?: number }
   | { k: "mafia"; title: string; sub?: string; people: { img: string; name: string; pos?: string }[]; credit?: string; w?: number };
 // Any graphic shot may also carry `bg` (an image path): it is shown blurred and darkened behind the graphic.
-export type Film = { id: string; theme: "cob" | "dream"; title: string; sub?: string; style?: "cine"; music?: string; musicVol?: number; paras: { v: Shot[] }[] };
+export type Film = { id: string; theme: "cob" | "dream"; title: string; sub?: string; style?: "cine"; music?: string; musicVol?: number; cues?: { at: number; music: string; vol?: number }[]; paras: { v: Shot[] }[] };
 
 if (typeof document !== "undefined") {
   for (const [n, file] of [["Bebas Neue", "BebasNeue-Regular.ttf"], ["Anton", "Anton-Regular.ttf"]]) {

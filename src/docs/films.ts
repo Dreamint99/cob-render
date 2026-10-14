@@ -13,4 +13,5 @@ import finance from "./films/finance.json";
 import ai from "./films/ai.json";
 import cjp from "./films/cjp.json";
 import behula from "./films/behula.json";
-export default [bbheist, houthi, paypal, shahjalal, destiny, palashi, matiur, bkash, groups, banks, finance, ai, cjp, behula];
+import chengis from "./films/chengis.json";
+export default [bbheist, houthi, paypal, shahjalal, destiny, palashi, matiur, bkash, groups, banks, finance, ai, cjp, behula, chengis];
