@@ -166,8 +166,15 @@ const Close: React.FC<{ s: AnyShot }> = ({ s }) => {
   );
 };
 
+const CINE_KINDS = new Set(["photo", "ai", "clip", "timeline", "close", "text", "quote", "chapter", "title"]);
+export const isGraphic = (k?: string) => !!k && !CINE_KINDS.has(k);
+const OtherCtx = React.createContext<((s: AnyShot, len: number) => React.ReactNode) | null>(null);
 const ShotView: React.FC<{ s: AnyShot; len: number; delay?: number }> = ({ s, len, delay }) => {
+  const other = React.useContext(OtherCtx);
   if (s.k === "photo" || s.k === "ai" || s.k === "clip") return <Picture s={s} len={len} delay={delay} />;
+  if (s.k === "chapter") return <Words s={{ k: "text", text: s.title, sub: s.sub, hl: s.title?.split(" ")[0] }} />;
+  if (s.k === "title") return <Words s={{ k: "text", text: s.title, sub: s.sub || s.kicker }} />;
+  if (isGraphic(s.k) && other) return <AbsoluteFill style={{ background: "#0b0b0d" }}>{other(s, len)}</AbsoluteFill>;
   if (s.k === "timeline") return <Timeline s={s} />;
   if (s.k === "close") return <Close s={s} />;
   return <Words s={s} />;
@@ -190,6 +197,7 @@ const Bars: React.FC<{ cur?: AnyShot; total: number }> = ({ cur, total }) => {
   const credit = cur && (cur.k === "ai" ? "" : cur.credit);
   const isAi = cur && (cur.k === "ai" || (cur.k === "clip" && String(cur.credit).includes("AI")));
   const o = interpolate(f, [100, 130, total - 40, total], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  if (isGraphic(cur?.k)) return null; // data graphics use the full frame (they have their own header/margins)
   const small: React.CSSProperties = { position: "absolute", fontFamily: SANS, fontSize: 20, color: "rgba(243,232,212,.6)" };
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>
@@ -249,18 +257,20 @@ const MusicCues: React.FC<{ cues: Cue[]; starts: number[]; total: number; base: 
   );
 };
 
-export const Cine: React.FC<{ film: { id: string; title: string; sub?: string; music?: string; musicVol?: number; cues?: Cue[]; paras: unknown[] }; shots: CineShot[]; starts: number[]; total: number }> = ({ film, shots, starts, total }) => {
+export const Cine: React.FC<{ film: { id: string; title: string; sub?: string; music?: string; musicVol?: number; cues?: Cue[]; paras: unknown[] }; shots: CineShot[]; starts: number[]; total: number; other?: (s: AnyShot, len: number) => React.ReactNode }> = ({ film, shots, starts, total, other }) => {
   const f = useCurrentFrame();
   const cur = shots.find((x) => f >= x.from - XF / 2 && f < x.from + x.len - XF / 2)?.s ?? shots[shots.length - 1]?.s;
   return (
     <AbsoluteFill style={{ background: "#000" }}>
-      {shots.filter((x) => x.s.k !== "chapter").map((x, i) => (
+      <OtherCtx.Provider value={other ?? null}>
+      {shots.map((x, i) => (
         <Sequence key={i} from={Math.max(0, x.from - XF)} durationInFrames={x.len + XF * 2}>
           <Cross len={x.len}><ShotView s={x.s} len={x.len} delay={Math.max(0, 255 - x.from)} /></Cross>
           <CutFx cut={x.s.cut} />
           {x.s.sfx && <Sequence from={XF}><Audio src={staticFile(x.s.sfx)} volume={x.s.sfxVol ?? 0.5} /></Sequence>}
         </Sequence>
       ))}
+      </OtherCtx.Provider>
       {/* warm grade + vignette + grain */}
       <AbsoluteFill style={{ pointerEvents: "none", background: "linear-gradient(180deg, rgba(255,170,90,.05), rgba(40,20,0,.08))" }} />
       <AbsoluteFill style={{ pointerEvents: "none", background: "radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,.55))" }} />

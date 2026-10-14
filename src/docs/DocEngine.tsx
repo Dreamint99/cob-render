@@ -385,7 +385,7 @@ export const Doc: React.FC<{ id: string }> = ({ id }) => {
     });
   });
   const f = useCurrentFrame();
-  if (film.style === "cine") return <Cine film={film} shots={shots} starts={starts} total={total} />;
+  if (film.style === "cine") return <ThemeCtx.Provider value={th}><Cine film={film} shots={shots} starts={starts} total={total} other={(s, len) => <ShotBody s={s as Shot} len={len} />} /></ThemeCtx.Provider>;
   const cur = shots.find((x) => f >= x.from && f < x.from + x.len);
   const full = cur && ["photo", "ai", "clip", "chapter", "title", "close", "person", "mafia"].includes(cur.s.k);
   return (
