@@ -199,7 +199,12 @@ const S03: React.FC<SP> = (p) => {
       {[0, 1, 2].map((k) => { const r = interpolate(f, [k * 8, 80 + k * 8], [0, 1], { ...clamp, easing: ease }); return <div key={k} style={{ position: "absolute", left: 960 - 700, top: 330 - 700, width: 1400, height: 1400, borderRadius: "50%", border: `1px solid ${C.a2}`, opacity: (1 - r) * 0.5, transform: `scale(${0.1 + r * 0.9})` }} />; })}
       <AbsoluteFill style={{ opacity: interpolate(f, [0, 4, 30], [0, 0.55, 0], clamp), background: `radial-gradient(700px 500px at 50% 330px, #fff, transparent 70%)` }} />
       <div style={{ position: "absolute", top: 190, transform: `scale(${m})`, opacity: Math.min(1, m * 1.5) }}><Mark size={190} /></div>
-      <div style={{ position: "absolute", top: 430, clipPath: `inset(0 ${100 - wipe}% 0 0)`, fontFamily: EN, fontSize: 150, fontWeight: 800, letterSpacing: "0.02em", lineHeight: 1, ...gtext(`linear-gradient(100deg, #fff ${sheen - 25}%, ${C.a2} ${sheen}%, #fff ${sheen + 25}%)`) }}>AI UNIVERSITY</div>
+      <div style={{ position: "absolute", top: 430, clipPath: `inset(0 ${100 - wipe}% 0 0)` }}>
+        <div style={{ position: "relative", fontFamily: EN, fontSize: 150, fontWeight: 800, letterSpacing: "0.02em", lineHeight: 1.1, color: "#fff" }}>
+          AI UNIVERSITY
+          <div style={{ position: "absolute", inset: 0, color: C.a2, WebkitMaskImage: `linear-gradient(100deg, transparent ${sheen - 22}%, #000 ${sheen}%, transparent ${sheen + 22}%)`, maskImage: `linear-gradient(100deg, transparent ${sheen - 22}%, #000 ${sheen}%, transparent ${sheen + 22}%)` }}>AI UNIVERSITY</div>
+        </div>
+      </div>
       <div style={{ position: "absolute", top: 600, opacity: ent(f, fps, 40), fontFamily: EN, fontSize: 38, fontWeight: 500, letterSpacing: "0.62em", color: C.mute, marginRight: "-0.62em" }}>OF BANGLADESH</div>
       <div style={{ position: "absolute", top: 690, width: 760 * hair, height: 1.5, background: `linear-gradient(90deg, transparent, ${C.gold}, transparent)` }} />
       <div style={{ position: "absolute", top: 720 }}><Line d={atf(p, 0.34)} size={54} weight={600} color={C.gold}>দেশের প্রথম এআই-চালিত স্কিল ইউনিভার্সিটি</Line></div>
