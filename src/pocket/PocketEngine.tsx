@@ -2,14 +2,16 @@
 // Scenes: intro (Veo clip + title + trainer card) · need (animated checklist) · step (photo with camera move to the hotspot,
 // glowing ring, step number, title, tip) · outro (Veo clip + "আপনি তৈরি!" + CTA).  Music/SFX from public/aiu2, VO public/pocket/<id>/vo.
 import React from "react";
-import { AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
+import { AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing, delayRender, continueRender } from "remotion";
 import { icons, Sparkles, Lightbulb, Check, CircleCheck } from "lucide-react";
 
 const BN = "Anek", EN = "Montserrat";
 if (typeof document !== "undefined") {
   for (const [n, u] of [["Anek", "fonts/AnekBangla.ttf"], ["Montserrat", "fonts/Montserrat.ttf"]]) {
+    // hold the render until the font is in: cloud runners don't have Anek Bangla installed, so frames rendered before it loads fall back to another font
+    const h = delayRender(`font ${n}`);
     const f = new FontFace(n, `url(${staticFile(u)})`, { weight: "100 900" });
-    f.load().then(() => document.fonts.add(f)).catch(() => {});
+    f.load().then(() => { document.fonts.add(f); continueRender(h); }).catch(() => continueRender(h));
   }
 }
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;

@@ -2,7 +2,7 @@
 // One JSON spec per lesson (src/lessons/<id>.json, timed by scripts/lesson_make.py). Scene types:
 // title · myth · overview · focus · units · note · recap · quizQ · quizA · outro
 import React from "react";
-import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing } from "remotion";
+import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing, delayRender, continueRender } from "remotion";
 import {
   GraduationCap, Route, Brain, PlugZap, Binary, Type, Film, HardDrive, TriangleAlert, Timer, CircleCheck, Image as ImageIcon, FileText, BookOpen, Clapperboard, X, Target, ArrowRight, Check,
   Keyboard, Cpu, MemoryStick, Monitor, Printer, Speaker, BatteryCharging, Usb, Webcam, Mouse, Hand, Eye, Archive, Power, Wrench, ScanLine,
@@ -13,8 +13,10 @@ const GRAD = `linear-gradient(95deg, ${C.brand}, ${C.brand2})`;
 const BN = "Anek", EN = "Montserrat";
 if (typeof document !== "undefined") {
   for (const [n, u] of [["Anek", "fonts/AnekBangla.ttf"], ["Montserrat", "fonts/Montserrat.ttf"]]) {
+    // hold the render until the font is in: cloud runners don't have Anek Bangla installed, so frames rendered before it loads fall back to another font
+    const h = delayRender(`font ${n}`);
     const f = new FontFace(n, `url(${staticFile(u)})`, { weight: "100 900" });
-    f.load().then(() => document.fonts.add(f)).catch(() => {});
+    f.load().then(() => { document.fonts.add(f); continueRender(h); }).catch(() => continueRender(h));
   }
 }
 const ICONS: Record<string, React.FC<any>> = { route: Route, brain: Brain, "plug-zap": PlugZap, binary: Binary, type: Type, film: Film, "hard-drive": HardDrive, image: ImageIcon, "file-text": FileText, "book-open": BookOpen, clapperboard: Clapperboard, keyboard: Keyboard, cpu: Cpu, "memory-stick": MemoryStick, monitor: Monitor, printer: Printer, speaker: Speaker, "battery-charging": BatteryCharging, usb: Usb, webcam: Webcam, mouse: Mouse, hand: Hand, eye: Eye, archive: Archive, power: Power, wrench: Wrench, "scan-line": ScanLine };

@@ -2,7 +2,7 @@
 // Same dark brand system as CFEPromo (music/SFX public/aiu2, VO public/promos/<id>/vo). Scene types:
 // hook · intro · modules · points · steps · warn · cert · cta      (icons = lucide names in kebab-case)
 import React from "react";
-import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing, random } from "remotion";
+import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing, random, delayRender, continueRender } from "remotion";
 import { icons, GraduationCap, Sparkles, ShieldCheck, BookOpen, TriangleAlert, Check } from "lucide-react";
 
 const C = { ink: "#060913", line: "rgba(255,255,255,.09)", card: "rgba(255,255,255,.04)", text: "#F2F4FA", mute: "#8D95B5", dim: "#5A6285", a1: "#7C83FF", a2: "#38D3F5", gold: "#E7B95A", green: "#3DDC97", amber: "#F59E0B", red: "#FF6B6B" };
@@ -10,8 +10,10 @@ const ACC = ["#7C83FF", "#38D3F5", "#3DDC97", "#E7B95A", "#F178B6", "#FF9F5A", "
 const BN = "Anek", EN = "Montserrat";
 if (typeof document !== "undefined") {
   for (const [n, u] of [["Anek", "fonts/AnekBangla.ttf"], ["Montserrat", "fonts/Montserrat.ttf"]]) {
+    // hold the render until the font is in: cloud runners don't have Anek Bangla installed, so frames rendered before it loads fall back to another font
+    const h = delayRender(`font ${n}`);
     const f = new FontFace(n, `url(${staticFile(u)})`, { weight: "100 900" });
-    f.load().then(() => document.fonts.add(f)).catch(() => {});
+    f.load().then(() => { document.fonts.add(f); continueRender(h); }).catch(() => continueRender(h));
   }
 }
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
