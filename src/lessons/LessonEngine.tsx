@@ -6,6 +6,7 @@ import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, us
 import {
   GraduationCap, Route, Brain, PlugZap, Binary, Type, Film, HardDrive, TriangleAlert, Timer, CircleCheck, Image as ImageIcon, FileText, BookOpen, Clapperboard, X, Target, ArrowRight, Check,
   Keyboard, Cpu, MemoryStick, Monitor, Printer, Speaker, BatteryCharging, Usb, Webcam, Mouse, Hand, Eye, Archive, Power, Wrench, ScanLine,
+  Globe, Search, Mail, Lock, ShieldCheck, Wifi, Folder, FolderOpen, Download, Settings, Smartphone, Laptop, Users, Lightbulb, Briefcase, School, HeartPulse, Calculator, MessageCircle, Video, Music, Clock, Star, KeyRound, Bug, Link, Cable, Server, Cloud, PenLine, Gamepad2, Building2, Landmark, ShoppingCart, Banknote, Hospital, Sprout, History, Rocket, MousePointerClick, Command, Copy, ClipboardPaste, Undo2, Save, Trash2, AppWindow, LayoutGrid, PanelBottom, Package, Fingerprint, Paperclip, Send, Inbox, AtSign, Router, Plug, Bluetooth, Network, CircleAlert, ShieldAlert, Code, Calendar, Camera, Mic, Headphones, Tv, House, Zap, Sparkles, Puzzle, Layers, Car, Factory,
 } from "lucide-react";
 
 const C = { bg: "#F4F6FB", card: "#FFFFFF", ink: "#0B1430", txt: "#1C2440", mute: "#5B6382", faint: "#8B92AD", line: "#E4E8F1", brand: "#4F46E5", brand2: "#0E9FC6", soft: "#EEF0FF", green: "#12936A", gsoft: "#E7F8F0", amber: "#F59E0B", asoft: "#FDF3E1", red: "#D63C3C", rsoft: "#FDECEC" };
@@ -19,7 +20,7 @@ if (typeof document !== "undefined") {
     f.load().then(() => { document.fonts.add(f); continueRender(h); }).catch(() => continueRender(h));
   }
 }
-const ICONS: Record<string, React.FC<any>> = { route: Route, brain: Brain, "plug-zap": PlugZap, binary: Binary, type: Type, film: Film, "hard-drive": HardDrive, image: ImageIcon, "file-text": FileText, "book-open": BookOpen, clapperboard: Clapperboard, keyboard: Keyboard, cpu: Cpu, "memory-stick": MemoryStick, monitor: Monitor, printer: Printer, speaker: Speaker, "battery-charging": BatteryCharging, usb: Usb, webcam: Webcam, mouse: Mouse, hand: Hand, eye: Eye, archive: Archive, power: Power, wrench: Wrench, "scan-line": ScanLine };
+const ICONS: Record<string, React.FC<any>> = { route: Route, brain: Brain, "plug-zap": PlugZap, binary: Binary, type: Type, film: Film, "hard-drive": HardDrive, image: ImageIcon, "file-text": FileText, "book-open": BookOpen, clapperboard: Clapperboard, keyboard: Keyboard, cpu: Cpu, "memory-stick": MemoryStick, monitor: Monitor, printer: Printer, speaker: Speaker, "battery-charging": BatteryCharging, usb: Usb, webcam: Webcam, mouse: Mouse, hand: Hand, eye: Eye, archive: Archive, power: Power, wrench: Wrench, "scan-line": ScanLine, "globe": Globe, "search": Search, "mail": Mail, "lock": Lock, "shield-check": ShieldCheck, "wifi": Wifi, "folder": Folder, "folder-open": FolderOpen, "download": Download, "settings": Settings, "smartphone": Smartphone, "laptop": Laptop, "users": Users, "lightbulb": Lightbulb, "briefcase": Briefcase, "school": School, "heart-pulse": HeartPulse, "calculator": Calculator, "message-circle": MessageCircle, "video": Video, "music": Music, "clock": Clock, "star": Star, "key-round": KeyRound, "bug": Bug, "link": Link, "cable": Cable, "server": Server, "cloud": Cloud, "pen-line": PenLine, "gamepad-2": Gamepad2, "building-2": Building2, "landmark": Landmark, "shopping-cart": ShoppingCart, "banknote": Banknote, "hospital": Hospital, "sprout": Sprout, "history": History, "rocket": Rocket, "mouse-pointer-click": MousePointerClick, "command": Command, "copy": Copy, "clipboard-paste": ClipboardPaste, "undo-2": Undo2, "save": Save, "trash-2": Trash2, "app-window": AppWindow, "layout-grid": LayoutGrid, "panel-bottom": PanelBottom, "package": Package, "fingerprint": Fingerprint, "paperclip": Paperclip, "send": Send, "inbox": Inbox, "at-sign": AtSign, "router": Router, "plug": Plug, "bluetooth": Bluetooth, "network": Network, "circle-alert": CircleAlert, "shield-alert": ShieldAlert, "code": Code, "calendar": Calendar, "camera": Camera, "mic": Mic, "headphones": Headphones, "tv": Tv, "house": House, "zap": Zap, "sparkles": Sparkles, "puzzle": Puzzle, "layers": Layers, "car": Car, "factory": Factory };
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ease = Easing.bezier(0.16, 1, 0.3, 1);
 const bn = (n: number | string) => String(n).replace(/\d/g, (d) => "০১২৩৪৫৬৭৮৯"[+d]);
@@ -28,7 +29,7 @@ const pop = (f: number, fps: number, d: number) => spring({ frame: f - d, fps, c
 
 export type Point = { n: number; label: string; en: string; x: number; y: number };
 export type Scene = { type: string; vo: string; frames: number; [k: string]: any };
-export type Spec = { id: string; course: string; module: string; lessonNo: string; title: string; next: string; figure: { src: string; w: number; h: number; points: Point[] }; scenes: Scene[] };
+export type Spec = { id: string; course: string; module: string; lessonNo: string; title: string; next: string; figure?: { src: string; w: number; h: number; points: Point[] }; scenes: Scene[] };
 
 const LEAD = 12, TAIL = 16;
 const sceneLen = (s: Scene) => LEAD + s.frames + (s.hold || 0) + TAIL;
@@ -58,7 +59,7 @@ const Card: React.FC<{ children: React.ReactNode; style?: React.CSSProperties }>
 /* ---------- figure with camera ---------- */
 const Figure: React.FC<{ spec: Spec; W: number; focus?: number; zoom?: number; zoomAt?: number; reveal?: number[] }> = ({ spec, W, focus, zoom = 1, zoomAt = 0, reveal }) => {
   const f = useCurrentFrame(); const { fps } = useVideoConfig();
-  const { w, h, points, src } = spec.figure;
+  const { w, h, points, src } = spec.figure!;
   const Hh = Math.round((W * h) / w);
   const pt = points.find((q) => q.n === focus);
   const z = pt ? interpolate(ent(f, fps, zoomAt, 40), [0, 1], [1, zoom]) : 1;
@@ -121,13 +122,13 @@ const SMyth: React.FC<P> = (p) => {
           <div style={{ fontFamily: BN, fontSize: 32, color: C.mute, marginTop: 8 }}>{s.sub}</div>
         </Card>
       </Rise>
-      <div style={{ position: "absolute", right: 130, top: 250, opacity: ent(f, fps, 10, 40), transform: `scale(${0.94 + 0.06 * ent(f, fps, 10, 40)})` }}><Figure spec={spec} W={720} reveal={spec.figure.points.map(() => 99999)} /></div>
+      {spec.figure ? <div style={{ position: "absolute", right: 130, top: 250, opacity: ent(f, fps, 10, 40), transform: `scale(${0.94 + 0.06 * ent(f, fps, 10, 40)})` }}><Figure spec={spec} W={720} reveal={spec.figure.points.map(() => 99999)} /></div> : null}
     </AbsoluteFill>
   );
 };
 
 const SOverview: React.FC<P> = (p) => {
-  const { spec } = p; const pts = spec.figure.points;
+  const { spec } = p; const pts = spec.figure!.points;
   const reveal = pts.map((_, i) => at(p, 0.28 + i * 0.09));
   return (
     <AbsoluteFill>
@@ -146,7 +147,7 @@ const SOverview: React.FC<P> = (p) => {
 };
 
 const SFocus: React.FC<P> = (p) => {
-  const { s, spec } = p; const q = spec.figure.points.find((x) => x.n === s.n)!;
+  const { s, spec } = p; const q = spec.figure!.points.find((x) => x.n === s.n)!;
   const f = useCurrentFrame(); const { fps } = useVideoConfig();
   const A = s.analogy ? ICONS[s.analogy[0]] || BookOpen : null;
   return (
@@ -230,7 +231,7 @@ const SNote: React.FC<P> = (p) => {
 };
 
 const SRecap: React.FC<P> = (p) => {
-  const { spec } = p; const pts = spec.figure.points;
+  const { spec } = p; const pts = spec.figure ? spec.figure.points : [];
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 130, top: 150 }}><H d={4} size={56}>আজ যা <span style={{ color: C.green }}>শিখলাম</span></H></div>
