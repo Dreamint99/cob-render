@@ -1,0 +1,195 @@
+{
+  "id": "task2-band-criteria",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৭ · Writing Task 2",
+  "lessonNo": "মানদণ্ড",
+  "title": "চার মানদণ্ড: পরীক্ষক কী দেখেন",
+  "next": "প্রশ্ন বিশ্লেষণ: ৫ ধরনের প্রশ্ন",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Writing Task 2-এর চারটা মানদণ্ড",
+        "ব্যান্ড ৬ আর ৭–৮-এর আসল তফাত",
+        "বাংলাদেশিদের চেনা ভুল",
+        "এআই প্রশিক্ষকের সাথে অনুশীলন"
+      ],
+      "vo": "স্বাগতম! Writing Task 2-তে ভালো ব্যান্ড পেতে হলে আগে জানতে হবে, পরীক্ষক ঠিক কী দেখেন। আজ সেই চারটা মানদণ্ড সহজ বাংলায় বুঝব, আর দেখব ব্যান্ড ছয় থেকে সাত-আটে যেতে কী বদলাতে হয়।",
+      "frames": 415
+    },
+    {
+      "type": "myth",
+      "wrong": "কঠিন কঠিন শব্দ লিখলেই ব্যান্ড বাড়ে",
+      "right": "ঠিক জায়গায় ঠিক শব্দ, আর পরিষ্কার যুক্তি",
+      "sub": "ভুল জায়গায় বসানো কঠিন শব্দ উল্টো নম্বর কমায়",
+      "vo": "অনেকে ভাবেন, বড় বড় কঠিন শব্দ মুখস্থ করে লিখলেই ব্যান্ড বাড়বে। আসলে পরীক্ষক দেখেন, শব্দটা ঠিক জায়গায় বসেছে কি না, আর আপনার যুক্তি পরিষ্কার কি না। ভুল জায়গায় বসানো কঠিন শব্দ উল্টো নম্বর কমায়।",
+      "frames": 430
+    },
+    {
+      "type": "criteria",
+      "head": [
+        "চারটা মানদণ্ড, ",
+        "প্রতিটা সমান গুরুত্বের"
+      ],
+      "items": [
+        {
+          "k": "TR",
+          "en": "Task Response",
+          "bn": "প্রশ্নের সব অংশের উত্তর, আর শুরু থেকে শেষ পর্যন্ত স্পষ্ট মত",
+          "icon": "target"
+        },
+        {
+          "k": "CC",
+          "en": "Coherence & Cohesion",
+          "bn": "যৌক্তিক অনুচ্ছেদ আর বাক্যের স্বাভাবিক সংযোগ",
+          "icon": "link"
+        },
+        {
+          "k": "LR",
+          "en": "Lexical Resource",
+          "bn": "বিষয় অনুযায়ী সঠিক শব্দ, collocation আর বানান",
+          "icon": "book-open"
+        },
+        {
+          "k": "GRA",
+          "en": "Grammatical Range & Accuracy",
+          "bn": "সরল ও জটিল বাক্যের মিশ্রণ, কম ভুল",
+          "icon": "pen-line"
+        }
+      ],
+      "vo": "পরীক্ষক চারটা মানদণ্ডে নম্বর দেন, আর চারটারই গুরুত্ব সমান। প্রথম, Task Response: প্রশ্নের সব অংশের উত্তর দিয়েছেন কি না। দ্বিতীয়, Coherence and Cohesion: লেখাটা যৌক্তিকভাবে সাজানো কি না। তৃতীয়, Lexical Resource: সঠিক শব্দ আর শব্দজোড়। চতুর্থ, Grammatical Range and Accuracy: নানা ধরনের বাক্য, কম ভুলে।",
+      "frames": 730
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ব্যান্ড ৬ বনাম ৭–৮: ",
+        "তফাতটা কোথায়"
+      ],
+      "rows": [
+        {
+          "tag": "TR",
+          "bad": "Traffic is increasing because people buy cars and public transport is bad.",
+          "good": "Traffic is worsening mainly because rising incomes make cars affordable, while unreliable buses push commuters away.",
+          "why": "শুধু কারণ বলা নয় — কারণটা ব্যাখ্যা করা"
+        },
+        {
+          "tag": "CC",
+          "bad": "Firstly, it saves time. Moreover, it saves money. Furthermore, it is flexible.",
+          "good": "Online study cuts both travel time and cost. Beyond these savings, it also lets learners work at their own pace.",
+          "why": "প্রতি বাক্যে linking word নয় — ভাবনার স্বাভাবিক প্রবাহ"
+        }
+      ],
+      "vo": "উদাহরণ দেখুন। বাঁদিকের বাক্যে কারণ বলা আছে, কিন্তু ব্যাখ্যা নেই। ডানদিকে কারণটা খুলে বলা হয়েছে, এটাই ভালো Task Response। দ্বিতীয় সারিতে, প্রতি বাক্যে Firstly, Moreover, Furthermore লাগানো যান্ত্রিক শোনায়। ভালো লেখায় ভাবনাগুলো নিজে থেকেই জুড়ে যায়।",
+      "frames": 540
+    },
+    {
+      "type": "compare",
+      "head": [
+        "বাংলাভাষীর চেনা ভুল: ",
+        "article, plural, -s"
+      ],
+      "rows": [
+        {
+          "tag": "GRA",
+          "bad": "When child use smartphone for long time, it affect their mental health.",
+          "good": "When children use smartphones for long periods, their mental health can suffer.",
+          "why": "plural -s, article আর ক্রিয়ার -s — বাংলায় নেই বলেই বাদ পড়ে"
+        },
+        {
+          "tag": "LR",
+          "bad": "The government should make strict laws to stop bad air.",
+          "good": "The government should enforce stricter emission rules to reduce air pollution.",
+          "why": "stop bad air নয় — reduce air pollution: স্বাভাবিক শব্দজোড়"
+        }
+      ],
+      "vo": "এবার আমাদের চেনা ভুল। বাংলায় বহুবচনে s বা article নেই, তাই ইংরেজিতে লিখতে গিয়ে child use smartphone হয়ে যায়। ঠিক হবে children use smartphones। আর stop bad air না বলে বলুন reduce air pollution। এই স্বাভাবিক শব্দজোড়কেই বলে collocation।",
+      "frames": 535
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "২৫০ শব্দের কম লিখলে, বা বুলেট পয়েন্টে লিখলে নম্বর কমে",
+      "sub": "পুরো মুখস্থ রচনাও ধরা পড়ে — নিজের ভাষায়, অনুচ্ছেদে লিখুন",
+      "vo": "একটা সতর্কতা। আড়াইশো শব্দের কম লিখলে, অথবা বুলেট পয়েন্টে লিখলে নম্বর কমে যায়। আর পুরো মুখস্থ রচনা পরীক্ষক সহজেই ধরে ফেলেন। তাই নিজের ভাষায়, পূর্ণ অনুচ্ছেদে লিখুন।",
+      "frames": 358
+    },
+    {
+      "type": "points",
+      "head": [
+        "এআই প্রশিক্ষকের সাথে ",
+        "অনুশীলনের নিয়ম"
+      ],
+      "items": [
+        {
+          "icon": "clock",
+          "t": "৪০ মিনিটের টাইমার চালু করে লিখুন",
+          "s": "আসল পরীক্ষার মতো, বানান-সংশোধন ছাড়া"
+        },
+        {
+          "icon": "bot",
+          "t": "এআই প্রশিক্ষকের ফিডব্যাক নিন",
+          "s": "চার মানদণ্ডে আনুমানিক ব্যান্ড আর লাইন ধরে সংশোধন"
+        },
+        {
+          "icon": "pen-line",
+          "t": "ভুল বাক্যগুলো নিজে আবার লিখুন",
+          "s": "এই ধাপেই আসল উন্নতি হয়"
+        },
+        {
+          "icon": "scale",
+          "t": "তারপর নমুনা উত্তরের সাথে মেলান",
+          "s": "ব্যান্ড মনে রাখুন আনুমানিক — আসল পরীক্ষক আলাদা হতে পারেন"
+        }
+      ],
+      "vo": "অনুশীলনের নিয়ম চারটা। চল্লিশ মিনিটের টাইমার চালু করে লিখুন। তারপর এআই প্রশিক্ষকের ফিডব্যাক নিন, চার মানদণ্ডে আনুমানিক ব্যান্ড পাবেন। ভুল বাক্যগুলো নিজে আবার লিখুন, এখানেই আসল উন্নতি। শেষে নমুনা উত্তরের সাথে মিলিয়ে দেখুন।",
+      "frames": 492
+    },
+    {
+      "type": "quizQ",
+      "q": "কোন বাক্যটা ব্যাকরণে সঠিক?",
+      "o": [
+        "Many student uses phone.",
+        "Many students use phones.",
+        "Many students uses phone.",
+        "Many student use phones."
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট একটা পরীক্ষা। কোন বাক্যটা ব্যাকরণে সঠিক? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 158
+    },
+    {
+      "type": "quizA",
+      "q": "কোন বাক্যটা ব্যাকরণে সঠিক?",
+      "o": [
+        "Many student uses phone.",
+        "Many students use phones.",
+        "Many students uses phone.",
+        "Many student use phones."
+      ],
+      "a": 1,
+      "ex": "Many-র পরে বহুবচন students, তাই ক্রিয়া use (s ছাড়া), আর phones",
+      "vo": "সঠিক উত্তর খ। Many-র পরে বহুবচন students, তাই ক্রিয়াতে s হবে না, use। আর ফোনও একাধিক, তাই phones।",
+      "frames": 281
+    },
+    {
+      "type": "recap",
+      "items": [
+        "চার মানদণ্ড: TR, CC, LR, GRA",
+        "কারণের সাথে ব্যাখ্যা ও উদাহরণ",
+        "linking word-এর অতিব্যবহার নয়",
+        "article, plural আর -s খেয়াল রাখুন"
+      ],
+      "vo": "আজ যা শিখলাম: চারটা মানদণ্ড, TR, CC, LR আর GRA। কারণের সাথে ব্যাখ্যা আর উদাহরণ দিতে হবে। linking word বেশি লাগানো যাবে না। আর article, plural আর ক্রিয়ার s খেয়াল রাখতে হবে।",
+      "frames": 485
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে লিখে দেখুন!",
+      "cta": "নিচে রচনা লিখুন, এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "এবার নিচের বক্সে অনলাইন শিক্ষা নিয়ে একটা রচনা লিখুন, আর এআই প্রশিক্ষকের ফিডব্যাক নিন। মনে রাখবেন, ব্যান্ডটা আনুমানিক। নিয়মিত লিখলেই উন্নতি হবে। শুভকামনা!",
+      "frames": 341
+    }
+  ]
+}

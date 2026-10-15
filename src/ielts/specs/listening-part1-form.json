@@ -1,0 +1,319 @@
+{
+  "id": "listening-part1-form",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৩ · Listening",
+  "lessonNo": "Part 1",
+  "title": "Form completion: বানান, সংখ্যা, তারিখ",
+  "next": "ডিস্ট্র্যাক্টর: কথা বদলে যাওয়ার ফাঁদ",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "নামের বানান শুনে নির্ভুল লেখা",
+        "ফোন নম্বর ও double, triple চেনা",
+        "কথা বদলে যাওয়ার ফাঁদ ধরা",
+        "শব্দসীমা মেনে উত্তর লেখা"
+      ],
+      "vo": "স্বাগতম! আজ আমরা IELTS Listening-এর Part 1 নিয়ে কাজ করব। এখানে একটা ফোনালাপ শুনে ফর্মের খালি ঘর পূরণ করতে হয়। পাঠ শেষে আপনি নাম, সংখ্যা, তারিখ আর ফাঁদ — সব সামলাতে পারবেন।",
+      "frames": 408
+    },
+    {
+      "type": "myth",
+      "wrong": "Part 1 সহজ, তাই মন দিয়ে না শুনলেও চলে",
+      "right": "সহজ বলেই এখানে প্রতিটা নম্বর তোলা দরকার",
+      "sub": "একটা অক্ষর বা সংখ্যা ভুল হলেই পুরো উত্তর ভুল ধরা হয়",
+      "vo": "অনেকে ভাবেন, Part 1 তো সহজ, এখানে এত মনোযোগ লাগে না। কিন্তু আসল কথা উল্টো। এখানে একটা অক্ষর বা একটা সংখ্যা ভুল হলেই পুরো উত্তরটা ভুল ধরা হয়। তাই সহজ অংশেই সবচেয়ে বেশি নম্বর তুলে নিতে হবে।",
+      "frames": 430
+    },
+    {
+      "type": "spell",
+      "head": [
+        "নামের বানান: ",
+        "double মানে দুটো অক্ষর"
+      ],
+      "clipText": [
+        {
+          "who": "A",
+          "text": "And could you spell your surname for me, please?"
+        },
+        {
+          "who": "B",
+          "text": "Yes, it's Connell. That's C - O - double N - E - double L."
+        }
+      ],
+      "said": "C - O - double N - E - double L",
+      "tokens": [
+        "C",
+        "O",
+        "double N",
+        "E",
+        "double L"
+      ],
+      "from": 0.45,
+      "to": 0.95,
+      "answer": "Connell",
+      "vo": "শুনলেন? ব্রিটিশরা একই অক্ষর পরপর দুবার থাকলে বলে double। তাই double N মানে দুটো N, double L মানে দুটো L। উত্তরপত্রে লিখবেন পুরো নামটা, Connell। কখনো double শব্দটা লিখে ফেলবেন না।",
+      "clip": "clip03.mp3",
+      "clipFrames": 259,
+      "frames": 456
+    },
+    {
+      "type": "points",
+      "head": [
+        "যে অক্ষরগুলো ",
+        "গুলিয়ে যায়"
+      ],
+      "items": [
+        {
+          "icon": "ear",
+          "t": "E আর I",
+          "s": "E শোনায় ‘ঈ’, আর I শোনায় ‘আই’",
+          "en": "E = /iː/   ·   I = /aɪ/"
+        },
+        {
+          "icon": "ear",
+          "t": "G আর J",
+          "s": "G হলো ‘জি’, J হলো ‘জেই’",
+          "en": "G = /dʒiː/   ·   J = /dʒeɪ/"
+        },
+        {
+          "icon": "ear",
+          "t": "A আর R",
+          "s": "A হলো ‘এই’, ব্রিটিশ R শোনায় ‘আ’-র মতো",
+          "en": "A = /eɪ/   ·   R = /ɑː/"
+        },
+        {
+          "icon": "ear",
+          "t": "B, V আর P",
+          "s": "V বলতে উপরের দাঁত নিচের ঠোঁটে লাগে",
+          "en": "B · V · P"
+        }
+      ],
+      "vo": "বাংলাভাষীদের কাছে কিছু অক্ষর শুনতে একরকম লাগে। E শোনায় ঈ-এর মতো, আর I শোনায় আই। G হলো জি, কিন্তু J হলো জেই। ব্রিটিশ উচ্চারণে A হলো এই, আর R শোনায় অনেকটা আ-এর মতো। আর B, V, P আলাদা করে চিনতে ঠোঁট আর দাঁতের দিকে খেয়াল রাখুন।",
+      "frames": 655
+    },
+    {
+      "type": "exam",
+      "head": [
+        "ফোন নম্বর: ",
+        "oh, double, triple"
+      ],
+      "paper": {
+        "title": "Course Booking Form",
+        "rows": [
+          {
+            "label": "Name",
+            "ans": "Connell"
+          },
+          {
+            "n": 1,
+            "label": "Mobile number"
+          },
+          {
+            "n": 2,
+            "label": "Day of class"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "My mobile number is oh-seven-nine-double-three, four-five-oh, double-eight-one."
+        }
+      ],
+      "lines": [
+        {
+          "who": "B",
+          "text": "My mobile number is oh-seven-nine-double-three, four-five-oh, double-eight-one."
+        }
+      ],
+      "hl": [
+        "oh",
+        "double-three",
+        "double-eight"
+      ],
+      "answer": "07933 450881",
+      "tip": "‘oh’ মানে শূন্য। double-three = 33, triple-four = 444।",
+      "vo": "এবার সংখ্যা। ব্রিটিশরা শূন্যকে প্রায়ই বলে oh। double three মানে তিন তিন, আর triple four হলে তিনটা চার। তাই পুরো নম্বরটা দাঁড়াল শূন্য সাত নয় তিন তিন, চার পাঁচ শূন্য, আট আট এক। শোনার সময় সংখ্যাগুলো ছোট ছোট দলে লিখে ফেলুন।",
+      "clip": "clip05.mp3",
+      "clipFrames": 182,
+      "frames": 559
+    },
+    {
+      "type": "exam",
+      "head": [
+        "ফাঁদ: ",
+        "কথা বদলে গেলে শেষেরটাই উত্তর"
+      ],
+      "paper": {
+        "title": "Course Booking Form",
+        "rows": [
+          {
+            "label": "Name",
+            "ans": "Connell"
+          },
+          {
+            "n": 1,
+            "label": "Mobile number",
+            "ans": "07933 450881"
+          },
+          {
+            "n": 2,
+            "label": "Day of class"
+          }
+        ]
+      },
+      "focus": 2,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "We've got a place in the Tuesday group... oh, sorry, I've just seen that Tuesday is full now. I can put you in the Thursday group instead."
+        },
+        {
+          "who": "B",
+          "text": "Thursday is fine for me."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "We've got a place in the Tuesday group... oh, sorry, I've just seen that Tuesday is full now. I can put you in the Thursday group instead."
+        },
+        {
+          "who": "B",
+          "text": "Thursday is fine for me."
+        }
+      ],
+      "hl": [
+        "Thursday"
+      ],
+      "strike": [
+        "Tuesday"
+      ],
+      "answer": "Thursday",
+      "tip": "‘sorry’, ‘actually’, ‘no, wait’ শুনলেই সতর্ক হোন — উত্তর বদলাচ্ছে।",
+      "vo": "এটাই Part 1-এর সবচেয়ে বড় ফাঁদ। বক্তা প্রথমে Tuesday বললেন, তারপর sorry বলে বদলে দিলেন Thursday। তাড়াহুড়া করে প্রথম শব্দটা লিখলেই নম্বর গেল। sorry, actually বা no wait শুনলেই বুঝবেন, উত্তর বদলাচ্ছে। তাই শেষ পর্যন্ত শুনুন।",
+      "clip": "clip06.mp3",
+      "clipFrames": 317,
+      "frames": 518
+    },
+    {
+      "type": "exam",
+      "head": [
+        "শব্দসীমা: ",
+        "ছাপানো শব্দ আবার লিখবেন না"
+      ],
+      "paper": {
+        "title": "Course Booking Form",
+        "rows": [
+          {
+            "label": "Instructions",
+            "ans": "ONE WORD AND/OR A NUMBER"
+          },
+          {
+            "n": 3,
+            "label": "Address: 48 ............ Road"
+          }
+        ]
+      },
+      "focus": 3,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "I live at forty-eight Briar Road. That's B - R - I - A - R."
+        }
+      ],
+      "lines": [
+        {
+          "who": "B",
+          "text": "I live at forty-eight Briar Road. That's B - R - I - A - R."
+        }
+      ],
+      "hl": [
+        "Briar"
+      ],
+      "answer": "Briar",
+      "tip": "ফর্মে আগেই 48 আর Road ছাপানো আছে — লিখবেন শুধু Briar।",
+      "vo": "নির্দেশনায় লেখা আছে, ONE WORD AND/OR A NUMBER। ফর্মে আটচল্লিশ আর Road আগেই ছাপানো আছে। তাই খালি ঘরে লিখবেন শুধু Briar। Briar Road লিখলে শব্দসীমা ভাঙবে, আর তথ্য ঠিক থাকলেও নম্বর কাটা যাবে।",
+      "clip": "clip07.mp3",
+      "clipFrames": 161,
+      "frames": 442
+    },
+    {
+      "type": "points",
+      "head": [
+        "তারিখ ও দাম: ",
+        "নিরাপদ নিয়ম"
+      ],
+      "items": [
+        {
+          "icon": "calendar",
+          "t": "তারিখ লিখুন সংখ্যা + মাস",
+          "s": "th, st, rd লিখতে গিয়ে ভুলের ঝুঁকি নেবেন না",
+          "en": "24 April"
+        },
+        {
+          "icon": "pound",
+          "t": "£ ছাপানো থাকলে শুধু সংখ্যা",
+          "s": "চিহ্ন আবার লিখবেন না",
+          "en": "£ ____  →  15.50"
+        },
+        {
+          "icon": "spell-check",
+          "t": "শেষ ১ মিনিটে বানান মিলান",
+          "s": "বড় হাতের নাকি ছোট হাতের — দুটোই চলে",
+          "en": "Connell = CONNELL"
+        }
+      ],
+      "vo": "তারিখের জন্য সবচেয়ে নিরাপদ হলো সংখ্যা আর মাসের নাম, যেমন 24 April। th বা st লাগাতে গিয়ে ভুল করার দরকার নেই। খালি ঘরের আগে পাউন্ডের চিহ্ন ছাপানো থাকলে শুধু সংখ্যাটা লিখুন। আর শেষের এক মিনিটে সব বানান একবার মিলিয়ে নিন।",
+      "frames": 511
+    },
+    {
+      "type": "quizQ",
+      "q": "অডিওতে শুনলেন “double seven, oh, triple two”। কী লিখবেন?",
+      "o": [
+        "7702222",
+        "77 0 222",
+        "770222",
+        "double 7 0 222"
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "এবার আপনার পালা। অডিওতে শুনলেন, double seven, oh, triple two। আপনি কী লিখবেন? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 233
+    },
+    {
+      "type": "quizA",
+      "q": "অডিওতে শুনলেন “double seven, oh, triple two”। কী লিখবেন?",
+      "o": [
+        "7702222",
+        "77 0 222",
+        "770222",
+        "double 7 0 222"
+      ],
+      "a": 2,
+      "ex": "double seven = 77, oh = 0, triple two = 222 → 770222",
+      "vo": "সঠিক উত্তর গ। double seven মানে সাত সাত, oh মানে শূন্য, আর triple two মানে তিনটা দুই। একসাথে, সাত সাত শূন্য দুই দুই দুই।",
+      "frames": 338
+    },
+    {
+      "type": "recap",
+      "items": [
+        "double = একই অক্ষর বা সংখ্যা দুবার",
+        "oh = শূন্য, triple = তিনবার",
+        "sorry বা actually শুনলে উত্তর বদলায়",
+        "শব্দসীমা মানুন, ছাপানো শব্দ বাদ দিন"
+      ],
+      "vo": "আজ যা শিখলাম: double মানে একই অক্ষর বা সংখ্যা দুবার। oh মানে শূন্য, triple মানে তিনবার। sorry বা actually শুনলে বুঝবেন উত্তর বদলাচ্ছে। আর শব্দসীমা মেনে, ছাপানো শব্দ বাদ দিয়ে উত্তর লিখবেন।",
+      "frames": 485
+    },
+    {
+      "type": "outro",
+      "head": "এবার আসল পরীক্ষার মতো অনুশীলন!",
+      "cta": "নিচের ড্রিলে ১০টা প্রশ্ন, ব্রিটিশ অ্যাকসেন্টে অডিও",
+      "vo": "এবার নিচের ড্রিলে আসল পরীক্ষার মতো অনুশীলন করুন। দশটা প্রশ্ন, ব্রিটিশ অ্যাকসেন্টের অডিও, একবারই বাজবে। শেষে প্রতিটা উত্তরের ব্যাখ্যাও পাবেন। শুভকামনা!",
+      "frames": 326
+    }
+  ]
+}
