@@ -54,13 +54,20 @@ const Wrap: React.FC<{ len: number; children: React.ReactNode }> = ({ len, child
   return <AbsoluteFill style={{ opacity: Math.min(i, o) }}>{children}</AbsoluteFill>;
 };
 
+const Media: React.FC<{ s: KScene; len: number }> = ({ s, len }) => {
+  const f = useCurrentFrame();
+  if (s.clip) return <OffthreadVideo src={staticFile(s.clip)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />;
+  const z = interpolate(f, [0, len], [1.04, 1.16]);
+  return <Img src={staticFile(s.img)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${z}) translateX(${interpolate(f, [0, len], [0, -1.5])}%)` }} />;
+};
+
 /* ---------- scenes ---------- */
 const SIntro: React.FC<P> = (p) => {
   const f = useCurrentFrame(); const { fps } = useVideoConfig(); const { spec, s } = p;
   const t1 = ent(f, fps, at(p, 0.05), 30), t2 = ent(f, fps, at(p, 0.15), 30);
   return (
     <AbsoluteFill>
-      <OffthreadVideo src={staticFile(s.clip)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      <Media s={s} len={p.len} />
       <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(42,22,48,.82) 0%, rgba(42,22,48,.45) 40%, transparent 65%)" }} />
       <div style={{ position: "absolute", left: 110, top: 200, width: 820 }}>
         <div style={{ display: "inline-flex", alignItems: "center", gap: 10, padding: "10px 22px", borderRadius: 99, background: GRAD(spec.color), color: "#fff", fontFamily: BN, fontWeight: 800, fontSize: 30, transform: `scale(${pop(f, fps, 6)})` }}><Sparkles size={28} /> পকেট কোর্স</div>
@@ -133,13 +140,13 @@ const SOutro: React.FC<P> = (p) => {
   const conf = Array.from({ length: 36 }, (_, i) => i);
   return (
     <AbsoluteFill>
-      <OffthreadVideo src={staticFile(s.clip)} muted style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+      <Media s={s} len={p.len} />
       <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(42,22,48,.85) 0%, rgba(42,22,48,.4) 45%, transparent 70%)" }} />
       {conf.map((i) => { const x = ((i * 137) % 100) / 100, sp = 0.6 + ((i * 53) % 10) / 12, y = ((f - at(p, 0)) * 6 * sp + i * 40) % 1300 - 120; const c = [spec.color[0], spec.color[1], "#fff", "#7c3aed"][i % 4];
         return <div key={i} style={{ position: "absolute", left: x * 1920, top: y, width: 14, height: 26, borderRadius: 4, background: c, transform: `rotate(${(f + i * 20) * 6}deg)`, opacity: interpolate(f, [at(p, 0), at(p, 0) + 10, p.len - 40, p.len], [0, 0.9, 0.9, 0], clamp) }} />; })}
-      <div style={{ position: "absolute", left: 110, top: 230, width: 860 }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 18, transform: `scale(${big})`, transformOrigin: "left center" }}><CircleCheck size={86} color="#3ddc97" strokeWidth={2.4} /><span style={{ fontFamily: BN, fontWeight: 800, fontSize: 120, color: "#fff", textShadow: "0 10px 30px rgba(0,0,0,.4)" }}>আপনি তৈরি!</span></div>
-        <div style={{ fontFamily: BN, fontWeight: 600, fontSize: 44, color: "#ffd9a8", marginTop: 18, opacity: ent(f, fps, at(p, 0.2)) }}>কয়েকবার পরলেই ৫ মিনিটে হয়ে যাবে</div>
+      <div style={{ position: "absolute", left: 110, top: 230, width: 1150 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 18, transform: `scale(${big})`, transformOrigin: "left center" }}><CircleCheck size={86} color="#3ddc97" strokeWidth={2.4} style={{ flex: "none" }} /><span style={{ fontFamily: BN, fontWeight: 800, fontSize: (s.head || "").length > 12 ? 88 : 120, whiteSpace: "nowrap", color: "#fff", textShadow: "0 10px 30px rgba(0,0,0,.4)" }}>{s.head || "আপনি তৈরি!"}</span></div>
+        <div style={{ fontFamily: BN, fontWeight: 600, fontSize: 44, color: "#ffd9a8", marginTop: 18, opacity: ent(f, fps, at(p, 0.2)) }}>{s.sub || "কয়েকবার পরলেই ৫ মিনিটে হয়ে যাবে"}</div>
         <div style={{ marginTop: 50, display: "inline-flex", alignItems: "center", gap: 14, padding: "24px 40px", borderRadius: 26, background: GRAD(spec.color), color: "#fff", fontFamily: BN, fontWeight: 800, fontSize: 42, boxShadow: `0 20px 60px ${spec.color[0]}88`, transform: `scale(${cta * (1 + Math.sin(f / 7) * 0.02)})`, opacity: cta }}>কুইজ দিয়ে নিন পকেট সার্টিফিকেট</div>
       </div>
       <div style={{ position: "absolute", left: 110, bottom: 110 }}><Trainer spec={spec} d={at(p, 0.4)} small /></div>

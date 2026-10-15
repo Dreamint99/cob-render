@@ -47,7 +47,10 @@ import prHealth from "./promos/family-health.json";
 const PROMOS = [prVibe, prSnake, prFish, prHealth] as unknown as PSpec[];
 import { PocketVideo, pocketLen, KSpec } from "./pocket/PocketEngine";
 import pkSaree from "./pocket/saree.json";
-const POCKETS = [pkSaree] as unknown as KSpec[];
+import pkKala from "./pocket/kala-bhuna.json";
+import pkFraud from "./pocket/mobile-fraud.json";
+import pkGas from "./pocket/gas-safety.json";
+const POCKETS = [pkSaree, pkKala, pkFraud, pkGas] as unknown as KSpec[];
 // Register each new video here.
 export const Root = () => (
   <>
