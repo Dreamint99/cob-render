@@ -195,16 +195,10 @@
           "undo-2"
         ],
         [
-          "অ্যাপ ইনস্টল",
-          "Install",
-          "Microsoft Store",
+          "ইনস্টল ও আনইনস্টল",
+          "Apps",
+          "Store থেকে ইনস্টল, Settings → Apps",
           "download"
-        ],
-        [
-          "আনইনস্টল",
-          "Uninstall",
-          "Settings → Apps",
-          "trash-2"
         ]
       ],
       "frames": 362

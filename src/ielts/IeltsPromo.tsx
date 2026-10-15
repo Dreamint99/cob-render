@@ -166,11 +166,11 @@ const SModules: React.FC<P> = (p) => {
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 140, top: 110 }}><Big d={4} size={66}>{s.head[0]}<Grad>{s.head[1]}</Grad></Big></div>
-      <div style={{ position: "absolute", left: 140, right: 140, top: 260, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 22 }}>
+      <div style={{ position: "absolute", left: 140, right: 140, top: 250, display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 22 }}>
         {s.items.map((t: string, i: number) => {
           const d = v(p, 0.05 + i * 0.085); const k = pop(f, fps, d);
           return (
-            <div key={i} style={{ position: "relative", height: 220, borderRadius: 22, overflow: "hidden", opacity: Math.min(1, k * 1.3), transform: `scale(${0.85 + 0.15 * k})`, border: `1px solid ${C.line}` }}>
+            <div key={i} style={{ position: "relative", height: 200, borderRadius: 22, overflow: "hidden", opacity: Math.min(1, k * 1.3), transform: `scale(${0.85 + 0.15 * k})`, border: `1px solid ${C.line}` }}>
               <Img src={staticFile(`ielts-promo/img/m${i}.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               <AbsoluteFill style={{ background: "linear-gradient(0deg, rgba(1,24,53,.92), rgba(1,24,53,.1) 70%)" }} />
               <div style={{ position: "absolute", left: 22, bottom: 18, right: 22, display: "flex", alignItems: "center", gap: 14 }}>
@@ -181,7 +181,7 @@ const SModules: React.FC<P> = (p) => {
           );
         })}
       </div>
-      {s.note && <Rise d={v(p, 0.85)} style={{ position: "absolute", left: 0, right: 0, top: 1000, textAlign: "center", fontFamily: BN, fontSize: 27, color: C.mute }}>{s.note}</Rise>}
+      {s.note && <Rise d={v(p, 0.85)} style={{ position: "absolute", left: 0, right: 0, top: 912, textAlign: "center", fontFamily: BN, fontSize: 27, color: C.mute }}>{s.note}</Rise>}
     </AbsoluteFill>
   );
 };
@@ -210,7 +210,7 @@ const SCta: React.FC<P> = (p) => {
       <div style={{ position: "absolute", top: 520, transform: `scale(${k})`, display: "flex", alignItems: "center", gap: 18, padding: "26px 52px", borderRadius: 999, background: `linear-gradient(90deg, ${C.brand}, ${C.brand2})`, boxShadow: `0 24px 70px ${C.brand}88`, fontFamily: BN, fontSize: 46, fontWeight: 800, color: "#fff" }}><Sparkles size={44} /> {s.button}</div>
       <Rise d={v(p, 0.3)} style={{ position: "absolute", top: 690 }}><div style={{ fontFamily: EN, fontSize: 40, fontWeight: 700, color: C.ink, padding: "14px 30px", borderRadius: 16, background: "rgba(255,255,255,.08)", border: `1px solid ${C.line}` }}>{s.url}</div></Rise>
       <Rise d={v(p, 0.5)} style={{ position: "absolute", top: 820, display: "flex", alignItems: "center", gap: 14, fontFamily: BN, fontSize: 34, color: C.gold, fontWeight: 700 }}><Share2 size={34} /> {s.share}</Rise>
-      <Rise d={v(p, 0.65)} style={{ position: "absolute", bottom: 40, fontFamily: BN, fontSize: 22, color: C.mute, textAlign: "center", width: 1600 }}>{s.fine}</Rise>
+      <Rise d={v(p, 0.65)} style={{ position: "absolute", top: 905, fontFamily: BN, fontSize: 22, color: C.mute, textAlign: "center", width: 1600 }}>{s.fine}</Rise>
     </AbsoluteFill>
   );
 };
