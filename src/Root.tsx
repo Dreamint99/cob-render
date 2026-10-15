@@ -32,9 +32,29 @@ import { Explainer, TOPIC_LIST, topicLen } from "./overnight/Explainer";
 import { AvatarTech, avTotal } from "./avatar/AvatarTech";
 import { AIUPromo, AIU_TOTAL } from "./AIUPromo";
 import { AIUPromo2, AIU2_TOTAL } from "./AIUPromo2";
+import { CFEPromo, CFE_TOTAL } from "./CFEPromo";
+import { LessonVideo, lessonLen, Spec } from "./lessons/LessonEngine";
+import cfeInside from "./lessons/cfe-inside-parts.json";
+import cfeMain from "./lessons/cfe-main-parts.json";
+import cfeIO from "./lessons/cfe-io-devices.json";
+import cfeDesk from "./lessons/cfe-desktop-intro.json";
+const LESSONS = [cfeInside, cfeMain, cfeIO, cfeDesk] as unknown as Spec[];
+import { CoursePromo, promoLen, PSpec } from "./promos/CoursePromo";
+import prVibe from "./promos/vibe-coding.json";
+import prSnake from "./promos/snake-rescue.json";
+import prFish from "./promos/fish-feed.json";
+import prHealth from "./promos/family-health.json";
+const PROMOS = [prVibe, prSnake, prFish, prHealth] as unknown as PSpec[];
+import { PocketVideo, pocketLen, KSpec } from "./pocket/PocketEngine";
+import pkSaree from "./pocket/saree.json";
+const POCKETS = [pkSaree] as unknown as KSpec[];
 // Register each new video here.
 export const Root = () => (
   <>
+    {POCKETS.map((s) => <Composition key={s.id} id={`Pocket-${s.id}`} component={PocketVideo} defaultProps={{ spec: s }} durationInFrames={pocketLen(s)} fps={30} width={1920} height={1080} />)}
+    {PROMOS.map((s) => <Composition key={s.id} id={`Promo-${s.id}`} component={CoursePromo} defaultProps={{ spec: s }} durationInFrames={promoLen(s)} fps={30} width={1920} height={1080} />)}
+    {LESSONS.map((s) => <Composition key={s.id} id={`Lesson-${s.id}`} component={LessonVideo} defaultProps={{ spec: s }} durationInFrames={lessonLen(s)} fps={30} width={1920} height={1080} />)}
+    <Composition id="CFEPromo" component={CFEPromo} durationInFrames={CFE_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="AIUPromo2" component={AIUPromo2} durationInFrames={AIU2_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="AIUPromo" component={AIUPromo} durationInFrames={AIU_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="TestCard" component={TestCard} durationInFrames={90} fps={30} width={1920} height={1080} />

@@ -1,4 +1,4 @@
-# Cloud render of one DocEngine film (Colours of Bangladesh) split across parallel runners.
+# Cloud render of one Remotion composition split across parallel runners (COB documentaries, AI University lessons/promos/pocket courses).
 # Started by video-studio/scripts/cloud_render.py, which uploads public/docs/<id> as release "docs-<id>"
 # and passes the film's total frame count. The finished MP4 is attached to release "out-<id>".
 name: render
@@ -9,6 +9,8 @@ on:
       frames: { description: "total frames of the composition", required: true }
       chunks: { description: "parallel chunks", default: "16" }
       scale: { description: "render scale (1 = 1080p, 1.3333 = 1440p)", default: "1.3333333333333333" }
+      comp: { description: "composition id (default Doc-<id>)", default: "" }
+      pubdir: { description: "where the assets archive is unpacked", default: "public/docs" }
 
 permissions:
   contents: write
@@ -48,9 +50,9 @@ jobs:
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
           gh release download "docs-${{ inputs.id }}" -p "docs-${{ inputs.id }}.tar.gz" -D /tmp
-          mkdir -p public/docs && tar xzf "/tmp/docs-${{ inputs.id }}.tar.gz" -C public/docs
+          mkdir -p "${{ inputs.pubdir }}" && tar xzf "/tmp/docs-${{ inputs.id }}.tar.gz" -C "${{ inputs.pubdir }}"
       - name: render frames ${{ matrix.a }}-${{ matrix.b }}
-        run: npx remotion render src/index.ts "Doc-${{ inputs.id }}" "out/c${{ matrix.i }}.mp4" --frames=${{ matrix.a }}-${{ matrix.b }} --scale=${{ inputs.scale }} --gl=swangle --concurrency=100% --crf=18 --log=error
+        run: npx remotion render src/index.ts "${{ inputs.comp || format('Doc-{0}', inputs.id) }}" "out/c${{ matrix.i }}.mp4" --frames=${{ matrix.a }}-${{ matrix.b }} --scale=${{ inputs.scale }} --gl=swangle --concurrency=100% --crf=18 --log=error
       - uses: actions/upload-artifact@v4
         with: { name: "c${{ matrix.i }}", path: "out/c${{ matrix.i }}.mp4", retention-days: 2 }
 
