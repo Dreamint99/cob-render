@@ -50,7 +50,8 @@ import pkSaree from "./pocket/saree.json";
 import pkKala from "./pocket/kala-bhuna.json";
 import pkFraud from "./pocket/mobile-fraud.json";
 import pkGas from "./pocket/gas-safety.json";
-const POCKETS = [pkSaree, pkKala, pkFraud, pkGas] as unknown as KSpec[];
+import pkDengue from "./pocket/dengue.json";
+const POCKETS = [pkSaree, pkKala, pkFraud, pkGas, pkDengue] as unknown as KSpec[];
 // Register each new video here.
 export const Root = () => (
   <>
