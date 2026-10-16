@@ -1,0 +1,241 @@
+{
+  "id": "skimming-scanning",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৪ · Reading",
+  "lessonNo": "পাঠ ২",
+  "title": "Skimming ও scanning",
+  "next": "Paraphrase চেনা: Reading-এর আসল চাবি",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "দ্রুত মূল ধারণা বোঝা (skimming)",
+        "নির্দিষ্ট তথ্য খোঁজা (scanning)",
+        "anchor keyword চিহ্নিত করা",
+        "ভুল এড়িয়ে সময় বাঁচানো"
+      ],
+      "vo": "আজ আমরা IELTS Reading-এ skimming আর scanning শিখব। ৬০ মিনিটে ৩টা প্যাসেজ, ৪০টা প্রশ্ন—ধীরে পড়ে অনুবাদ করলে সময় ফুরিয়ে যাবে। এই কৌশল দিয়ে দ্রুত ও নির্ভুল উত্তর বের করবেন।",
+      "frames": 377
+    },
+    {
+      "type": "myth",
+      "wrong": "প্রতিটি শব্দ সাবধানে পড়লেই বেশি নম্বর পাওয়া যায়",
+      "right": "দ্রুত মূল ধারণা ও নির্দিষ্ট তথ্য খুঁজে বের করাই আসল",
+      "sub": "আস্তে পড়ে অনুবাদ করলে প্রশ্নের উত্তর দেওয়ার সময়ই থাকবে না",
+      "vo": "অনেকে বিশ্বাস করেন, প্রতিটি শব্দ ধীরে ধীরে পড়লে নাকি ভালো বোঝা যায়। কিন্তু IELTS Reading-এ সেটা সময়ের অপচয়। স্কিমিং আর স্ক্যানিং দিয়ে দ্রুত মূল ধারণা আর নির্দিষ্ট তথ্য ধরতে পারলেই বেশি নম্বর।",
+      "frames": 406
+    },
+    {
+      "type": "points",
+      "head": [
+        "Skimming: ",
+        "পুরো প্যাসেজের ম্যাপ বানান"
+      ],
+      "items": [
+        {
+          "icon": "eye",
+          "t": "শিরোনাম, সাবটাইটেল, ছবি দেখুন",
+          "s": "১৫ সেকেন্ডে বিষয় অনুমান করুন",
+          "en": ""
+        },
+        {
+          "icon": "target",
+          "t": "প্রথম ও শেষ বাক্য পড়ুন",
+          "s": "মাঝখানে চোখ বুলান, transition words দেখুন",
+          "en": "however, therefore"
+        },
+        {
+          "icon": "pen-line",
+          "t": "প্রতি অনুচ্ছেদে ২-৩ শব্দের নোট",
+          "s": "বাংলা বা ইংরেজিতে gist লিখুন",
+          "en": "History of silk / China"
+        }
+      ],
+      "vo": "স্কিমিং হলো খুব দ্রুত চোখ বুলিয়ে প্যাসেজের সাধারণ বিষয় আর প্রতিটি প্যারাগ্রাফের মূল বক্তব্য বোঝা। শিরোনাম আর প্রথম-শেষ বাক্য পড়ে, তারপর পাশে ছোট নোট লিখে পুরো প্যাসেজের একটা ম্যাপ তৈরি করুন।",
+      "frames": 408
+    },
+    {
+      "type": "points",
+      "head": [
+        "Scanning: ",
+        "anchor keyword-এর খোঁজ"
+      ],
+      "items": [
+        {
+          "icon": "lightbulb",
+          "t": "প্রশ্নে anchor চিহ্নিত করুন",
+          "s": "নাম, সংখ্যা, তারিখ, বড় হাতের অক্ষর",
+          "en": "Jenkins, 1998"
+        },
+        {
+          "icon": "eye",
+          "t": "চোখ zig-zag করুন",
+          "s": "পুরো বাক্য নয়, নির্দিষ্ট শব্দ খুঁজুন",
+          "en": ""
+        },
+        {
+          "icon": "alert",
+          "t": "synonym-এ ফাঁদ",
+          "s": "anchor শব্দের আশেপাশে অর্থ যাচাই করুন",
+          "en": "global warming ≠ climate change"
+        }
+      ],
+      "vo": "স্ক্যানিং হলো নির্দিষ্ট তথ্য খোঁজা। প্রশ্ন থেকে anchor কীওয়ার্ড নিন—যেমন নাম, সংখ্যা, তারিখ। তারপর চোখ দিয়ে zig-zag করে সেই শব্দ খুঁজুন। কিন্তু সাবধান, synonym-এর ফাঁদে পড়বেন না।",
+      "frames": 413
+    },
+    {
+      "type": "exam",
+      "head": [
+        "Scanning উদাহরণ: ",
+        "Cyclone Sidr-এর ক্ষতি"
+      ],
+      "paper": {
+        "title": "Reading Practice: Sundarbans",
+        "rows": [
+          {
+            "label": "Passage snippet",
+            "ans": "In 2007, Cyclone Sidr damaged nearly 40% of the forest."
+          },
+          {
+            "n": 1,
+            "label": "Cyclone Sidr-এ কত শতাংশ ক্ষতি?"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "In 2007, Cyclone Sidr damaged nearly 40% of the forest, and recovery has been slow."
+        }
+      ],
+      "lines": [
+        {
+          "name": "Passage",
+          "text": "In 2007, Cyclone Sidr damaged nearly 40% of the forest, and recovery has been slow."
+        }
+      ],
+      "hl": [
+        "Cyclone Sidr",
+        "40%"
+      ],
+      "strike": [],
+      "answer": "40%",
+      "tip": "Anchor: Cyclone Sidr (capital letters) + % → 40%। 'nearly' লিখলেও চলবে।",
+      "vo": "এবার একটা বাস্তব উদাহরণ। প্যাসেজে লেখা আছে—দুই হাজার সাত সালে সাইক্লোন সিডর প্রায় চল্লিশ শতাংশ বন নষ্ট করেছে। প্রশ্নে আমরা anchor হিসেবে সাইক্লোন সিডর আর শতাংশ চিহ্ন খুঁজব, তারপর উত্তর লিখব চল্লিশ শতাংশ।",
+      "clip": "clip05.mp3",
+      "clipFrames": 216,
+      "frames": 473
+    },
+    {
+      "type": "compare",
+      "head": [
+        "তুলনা: ",
+        "কোনটা ভালো?"
+      ],
+      "rows": [
+        {
+          "bad": "Reading every word and translating each sentence in your head.",
+          "good": "Skimming the first and last sentences and noting the gist.",
+          "why": "সময় বাঁচে, মূল ধারণা দ্রুত পাওয়া যায়"
+        },
+        {
+          "bad": "Scanning the whole passage for every question.",
+          "good": "Using your skim-map to locate the relevant paragraph first.",
+          "why": "নির্ভুলতা বাড়ে, সময় নষ্ট হয় না"
+        }
+      ],
+      "vo": "অনেকেই শুধু একটা শব্দ মিলিয়ে দিয়ে উত্তর বেছে নেন, সেটা ফাঁদ। যেমন প্যাসেজে global warming, প্রশ্নে climate change—মানে আলাদা হতে পারে। তাই anchor শব্দ পেয়ে আশেপাশে পড়ে যাচাই করুন। আর পুরো প্যাসেজ বারবার স্ক্যান না করে, আপনার আগের স্কিম-ম্যাপ অনুযায়ী সঠিক অনুচ্ছেদে যান।",
+      "frames": 581
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "ঠোঁট নাড়িয়ে বা মনে মনে অনুবাদ করলে গতি কমে যায়",
+      "sub": "সরাসরি ইংরেজি অর্থ ধরুন, প্রতিটি শব্দ বাংলা করবেন না",
+      "vo": "আরেকটা ভুল—মনে মনে প্রতিটি ইংরেজি শব্দ বাংলায় অনুবাদ করা। এতে speed অনেক কমে। সরাসরি ইংরেজি অর্থ বোঝার অভ্যাস করুন, আর চোখকে দ্রুত চলতে দিন।",
+      "frames": 341
+    },
+    {
+      "type": "points",
+      "head": [
+        "ধাপে ধাপে: ",
+        "মোট ৬ ধাপ"
+      ],
+      "items": [
+        {
+          "icon": "eye",
+          "t": "১. শিরোনাম-ছবি দেখুন ১৫ সেকেন্ড",
+          "s": "বিষয় অনুমান করুন",
+          "en": ""
+        },
+        {
+          "icon": "book-open",
+          "t": "২. প্রতি অনুচ্ছেদে skim",
+          "s": "প্রথম-শেষ বাক্য, gist নোট",
+          "en": ""
+        },
+        {
+          "icon": "lightbulb",
+          "t": "৩. প্রশ্নে anchor underline",
+          "s": "নাম, সংখ্যা, তারিখ",
+          "en": ""
+        },
+        {
+          "icon": "target",
+          "t": "৪. skim-map অনুযায়ী scan",
+          "s": "শুধু প্রাসঙ্গিক অনুচ্ছেদে",
+          "en": ""
+        }
+      ],
+      "vo": "এবার পুরো প্রক্রিয়াটা সাজিয়ে নিই। প্রথমে শিরোনাম আর ছবি দেখে বিষয় ধরুন। তারপর প্রতিটি অনুচ্ছেদ স্কিম করে নোট নিন। প্রশ্ন পড়ে anchor চিহ্নিত করুন, আর আপনার স্কিম-ম্যাপ দেখে শুধু সেই অনুচ্ছেদেই স্ক্যান করুন।",
+      "frames": 432
+    },
+    {
+      "type": "quizQ",
+      "q": "প্রশ্ন: What did Dr. Sarah Jenkins discover in 1998 about coral reefs? — এখানে কোনটা anchor keyword?",
+      "o": [
+        "discover",
+        "coral reefs",
+        "Jenkins ও 1998",
+        "What did"
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "এবার ছোট্ট পরীক্ষা। প্রশ্নে Dr. Sarah Jenkins 1998-এ coral reefs নিয়ে কী আবিষ্কার করেছেন—এখানে anchor কী হবে? ভাবুন।",
+      "frames": 300
+    },
+    {
+      "type": "quizA",
+      "q": "প্রশ্ন: What did Dr. Sarah Jenkins discover in 1998 about coral reefs? — এখানে কোনটা anchor keyword?",
+      "o": [
+        "discover",
+        "coral reefs",
+        "Jenkins ও 1998",
+        "What did"
+      ],
+      "a": 2,
+      "ex": "নাম (Jenkins), সংখ্যা (1998) সহজে খুঁজে পাওয়া যায়; discover, coral reefs প্যারাফ্রেজ হতে পারে।",
+      "vo": "সঠিক উত্তর গ। Jenkins আর 1998—নাম আর সংখ্যা সবসময় একই থাকে, কখনো বদলায় না। কিন্তু discover বা coral reefs শব্দগুলো প্যাসেজে প্রতিশব্দ দিয়ে লেখা থাকতে পারে, তাই এগুলো anchor নয়।",
+      "frames": 463
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Skimming = মূল ধারণা, gist নোট",
+        "Scanning = anchor শব্দ খোঁজা",
+        "Anchor পেলে আশেপাশে read করুন",
+        "অনুবাদ নয়, সরাসরি অর্থ ধরুন"
+      ],
+      "vo": "আজ যা শিখলাম: স্কিমিং হলো মূল ধারণা বোঝা আর ছোট নোট নেওয়া। স্ক্যানিং হলো anchor শব্দ খোঁজা। আর anchor পেলে আশেপাশের বাক্য ভালো করে পড়া। সবচেয়ে জরুরি—প্রতিটি শব্দ অনুবাদ না করে সরাসরি ইংরেজি অর্থ ধরুন।",
+      "frames": 504
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে চেষ্টা করুন!",
+      "cta": "নিচের ড্রিলে ২টি প্যাসেজ, প্রতিটিতে skim ও scan করুন",
+      "vo": "এবার নিচের ড্রিলে দুটো প্যাসেজ দেওয়া আছে। প্রতিটিতে আগে স্কিম করে নোট নিন, তারপর প্রশ্নের anchor খুঁজে স্ক্যান করে উত্তর দিন। এআই প্রশিক্ষক আপনাকে ফিডব্যাক দেবে। নিয়মিত অনুশীলনেই Reading-এ ভালো ব্যান্ড আসবে।",
+      "frames": 434
+    }
+  ]
+}

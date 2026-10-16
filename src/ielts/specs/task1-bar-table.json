@@ -1,0 +1,189 @@
+{
+  "id": "task1-bar-table",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৫ · Writing Task 1 (Academic)",
+  "lessonNo": "পাঠ ৩",
+  "title": "Bar chart ও table",
+  "next": "Pie chart ও মিশ্র চার্ট",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "ডেটা dynamic নাকি static বুঝে ফেলা",
+        "তথ্য গ্রুপ করে তুলনা লেখা",
+        "সাধারণ ভুল (static-এ trend) এড়ানো",
+        "তুলনার ভাষা Band 7+ উপযোগী করা"
+      ],
+      "vo": "স্বাগতম! আজ Writing Task 1-এর bar chart ও table নিয়ে কাজ করব। কীভাবে ডেটা dynamic না static বুঝে সঠিক রিপোর্ট লিখবেন, আর Band 7+ পেতে কী কী এড়িয়ে চলবেন—সব শিখে নেবেন।",
+      "frames": 401
+    },
+    {
+      "type": "myth",
+      "wrong": "table-এর সব সংখ্যা যান্ত্রিকভাবে লিখলেই Task Achievement ভালো হবে",
+      "right": "data group করে অর্থপূর্ণ তুলনা করলেই Band বাড়ে",
+      "sub": "পরীক্ষক চান তুলনা, সংখ্যার তালিকা নয়",
+      "vo": "অনেকে ভাবেন, table-এর সব সংখ্যা ধরে ধরে লিখলেই Task Achievement ভালো হবে। আসলে পরীক্ষক চান আপনি তথ্য গ্রুপ করে অর্থপূর্ণ তুলনা করুন, যান্ত্রিক তালিকা নয়। শেষের দৃশ্যেই তুলনা স্পষ্ট হয়।",
+      "frames": 396
+    },
+    {
+      "type": "points",
+      "head": [
+        "চার্টটি Dynamic, ",
+        "নাকি Static?"
+      ],
+      "items": [
+        {
+          "icon": "clock",
+          "t": "Dynamic: একাধিক বছর",
+          "s": "trend ও তুলনা—increase, decrease",
+          "en": "From 2010 to 2020, ..."
+        },
+        {
+          "icon": "list-checks",
+          "t": "Static: সময়হীন",
+          "s": "শুধু তুলনা—highest, lowest",
+          "en": "France had the highest..."
+        }
+      ],
+      "vo": "প্রথমেই দেখুন, চার্টে একাধিক বছর আছে কি না। থাকলে dynamic, trend ও তুলনা দুটোই লিখবেন। সময় না থাকলে বা একটাই থাকলে static, শুধু তুলনা। ভুলেও static-এ rose বা fell ব্যবহার করবেন না।",
+      "frames": 432
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভালো grouping, ",
+        "নাকি সংখ্যার তালিকা?"
+      ],
+      "rows": [
+        {
+          "bad": "Engineering 600, Medicine 750, Arts 500, Business 800.",
+          "good": "Business attracted the largest cohort (800), followed by Medicine (750), while Arts had the lowest enrolment (500).",
+          "why": "সব সংখ্যা list করলে তুলনা বোঝা যায় না; গ্রুপ করে লিখলে পরীক্ষকের কাছে পরিষ্কার হয়"
+        }
+      ],
+      "vo": "বাংলাদেশি শিক্ষার্থীরা প্রায়ই table-এর প্রতিটি সংখ্যা লিখে ফেলেন। তাতে রিপোর্ট যান্ত্রিক শোনায়। পরীক্ষক চান আপনি বড় ছোট বের করে তুলনামূলক ভাষায় লিখুন, যেমন Business সর্বোচ্চ, Arts সর্বনিম্ন।",
+      "frames": 420
+    },
+    {
+      "type": "points",
+      "head": [
+        "তুলনার ভাষা: ",
+        "স্মার্ট উপায়"
+      ],
+      "items": [
+        {
+          "icon": "scale",
+          "t": "দ্বিগুণ: twice as high as",
+          "s": "42% vs 18%",
+          "en": "male figure was more than double that of females"
+        },
+        {
+          "icon": "file-text",
+          "t": "সামান্য বেশি: marginally higher",
+          "s": "40% vs 35%",
+          "en": "females slightly outnumbered males"
+        },
+        {
+          "icon": "list-checks",
+          "t": "র‌্যাঙ্ক: ranked first",
+          "s": "সর্বোচ্চ বোঝাতে",
+          "en": "Country A led the table"
+        },
+        {
+          "icon": "layers",
+          "t": "উল্টো প্যাটার্ন: reverse pattern",
+          "s": "পুরুষ-মহিলার উল্টো",
+          "en": "Medicine showed a reverse pattern"
+        }
+      ],
+      "vo": "উন্নত ব্যান্ডের জন্য দরকার তুলনার স্মার্ট শব্দ। দ্বিগুণ বোঝাতে twice as high as, সামান্য কমতে marginally lower, আর র‌্যাঙ্ক বলতে ranked first। এগুলো আপনার লেখাকে প্রফেশনাল করে তুলবে।",
+      "frames": 434
+    },
+    {
+      "type": "compare",
+      "head": [
+        "Static-এ trend, ",
+        "সবচেয়ে বড় ভুল"
+      ],
+      "rows": [
+        {
+          "tag": "TR",
+          "bad": "Sales rose from Country A to Country B.",
+          "good": "Country A had the highest sales, while Country B recorded a significantly lower figure.",
+          "why": "static chart-এ সময়ের ধারা নেই, তাই rose বা fell ভুল; শুধু তুলনা করতে হবে"
+        }
+      ],
+      "vo": "এটা খুবই সাধারণ ভুল: static chart-এ rise বা increase লিখে ফেলা। মনে রাখবেন, দেশ বা category-র মধ্যে সময় ধরে ওঠানামা নেই, শুধু পার্থক্য আছে। তাই সঠিক উপায়: X দেশে বেশি, Y-তে কম।",
+      "frames": 430
+    },
+    {
+      "type": "points",
+      "head": [
+        "Table-এ grouping: ",
+        "কীভাবে ভাগ করবেন?"
+      ],
+      "items": [
+        {
+          "icon": "layers",
+          "t": "Row বা Column ধরে গ্রুপ",
+          "s": "high-performing vs low-performing",
+          "en": "three highest; the remaining lower"
+        },
+        {
+          "icon": "lightbulb",
+          "t": "ব্যতিক্রম চিহ্নিত করুন",
+          "s": "একেবারে আলাদা category দেখলে",
+          "en": "Region E was a notable exception, recording just 54%"
+        }
+      ],
+      "vo": "table-এ ভালো রিপোর্ট লিখতে grouping জরুরি। row বা column ধরে high-performing আর low-performing ভাগ করুন। কোনও category একেবারেই ভিন্ন হলে আলাদা প্যারায় তুলে ধরুন, যেমন literacy rate-এ ব্যতিক্রম।",
+      "frames": 398
+    },
+    {
+      "type": "quizQ",
+      "q": "Static bar chart-এ নিচের কোন বাক্যটি সঠিক?",
+      "o": [
+        "Sales rose from Country A to Country B.",
+        "Country A had the highest sales, while Country B had the lowest.",
+        "The figure increased significantly over the period.",
+        "Both A and C."
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট কুইজ: Static bar chart-এ নিচের কোন বাক্যটি সঠিক? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 178
+    },
+    {
+      "type": "quizA",
+      "q": "Static bar chart-এ নিচের কোন বাক্যটি সঠিক?",
+      "o": [
+        "Sales rose from Country A to Country B.",
+        "Country A had the highest sales, while Country B had the lowest.",
+        "The figure increased significantly over the period.",
+        "Both A and C."
+      ],
+      "a": 1,
+      "ex": "Static chart-এ কোনো সময় ধারা নেই, তাই rise বা increase ভুল; শুধু তুলনা সঠিক।",
+      "vo": "সঠিক উত্তর খ। Static-এ কোনো trend নেই, তাই rose বা increased ভুল। তুলনাই সঠিক।",
+      "frames": 218
+    },
+    {
+      "type": "recap",
+      "items": [
+        "প্রথমে dynamic বা static চিনুন",
+        "তথ্য গ্রুপ করে তুলনা লিখুন, তালিকা নয়",
+        "static-এ trend vocabulary চলবে না",
+        "তুলনার শব্দ: twice as high, marginally, ranked"
+      ],
+      "vo": "আজ যা শিখলাম: প্রথমে dynamic বা static চিনুন। তথ্য গ্রুপ করে তুলনা লিখুন, তালিকা নয়। static-এ trend vocabulary চলবে না। আর তুলনার শব্দ ব্যবহার করুন।",
+      "frames": 372
+    },
+    {
+      "type": "outro",
+      "head": "এবার চার্ট ও টেবিল দেখে রিপোর্ট লিখুন",
+      "cta": "নিচের Practice-এ গিয়ে এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "এবার আসল চার্ট আর টেবিল দেখে ২০ মিনিটে একটি রিপোর্ট লিখুন। নিচের প্র্যাকটিস বক্সে লিখে এআই প্রশিক্ষকের ফিডব্যাক নিন। নিয়মিত লিখলেই Band 7+ আনুমানিক পাওয়া সম্ভব।",
+      "frames": 355
+    }
+  ]
+}

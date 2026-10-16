@@ -1,0 +1,334 @@
+{
+  "id": "tfng",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৪ · Reading",
+  "lessonNo": "পাঠ ৪",
+  "title": "True / False / Not Given",
+  "next": "Yes / No / Not Given",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "True, False আর Not Given-এর আসল পার্থক্য বোঝা",
+        "qualifier ও paraphrase-এর ফাঁদ চেনা",
+        "ধাপে ধাপে সমাধানের কৌশল আয়ত্ত করা",
+        "নিজের জ্ঞান নয়, শুধু প্যাসেজের তথ্য ব্যবহার করা"
+      ],
+      "vo": "স্বাগতম! IELTS Reading-এর সবচেয়ে কৌশলী প্রশ্ন True / False / Not Given। আজ আমরা শিখব কীভাবে False আর Not Given-এর গোলমাল এড়িয়ে পুরো নম্বর তোলা যায়।",
+      "frames": 360
+    },
+    {
+      "type": "myth",
+      "wrong": "প্যাসেজে শব্দ না পেলে উত্তর Not Given",
+      "right": "শব্দ না থাকলেও paraphrase থাকতে পারে — অর্থ মেলাতে হবে",
+      "sub": "শুধু শব্দ মিলিয়ে উত্তর দিলে ফাঁদে পড়বেন",
+      "vo": "অনেকে ভাবেন, প্রশ্নের শব্দ প্যাসেজে না পেলেই উত্তর Not Given। কিন্তু শব্দ না থাকলেও paraphrase থেকে অর্থ মিলে যেতে পারে। তাই শুধু শব্দ মিলিয়ে উত্তর দিলে ফাঁদে পড়বেন।",
+      "frames": 346
+    },
+    {
+      "type": "compare",
+      "head": [
+        "তিনটি উত্তরের আসল পার্থক্য: ",
+        "উদাহরণ সহ"
+      ],
+      "rows": [
+        {
+          "tag": "TRUE",
+          "bad": "The city has many parks where people can walk.",
+          "good": "The city provides numerous green spaces for pedestrians.",
+          "why": "শব্দ আলাদা, কিন্তু অর্থ ১০০% মিলে গেছে — এটাই paraphrase"
+        },
+        {
+          "bad": "The museum opens at 10 am every day.",
+          "good": "The museum opens at 10 am except on Mondays.",
+          "why": "every day বলতে সোমবারও খোলা বোঝায়, কিন্তু প্যাসেজে সোমবার বন্ধ — সরাসরি বিপরীত"
+        }
+      ],
+      "vo": "উদাহরণ দেখুন। বাঁদিকের প্রশ্নে parks আর walk, ডানদিকের প্যাসেজে green spaces আর pedestrians — শব্দ আলাদা, কিন্তু অর্থ এক, তাই TRUE। দ্বিতীয়টিতে every day বনাম except Mondays — সরাসরি বিপরীত, তাই FALSE।",
+      "frames": 514
+    },
+    {
+      "type": "compare",
+      "head": [
+        "FALSE বনাম NOT GIVEN: ",
+        "সবচেয়ে বড় ফাঁদ"
+      ],
+      "rows": [
+        {
+          "bad": "All students in the school own a tablet.",
+          "good": "Most students in the school own a tablet, but some still use textbooks.",
+          "why": "All (১০০%) বনাম Most (বেশিরভাগ) — সরাসরি সাংঘর্ষিক, তাই FALSE"
+        },
+        {
+          "bad": "The school provides free tablets to reduce the weight of school bags.",
+          "good": "The school provides tablets to students for digital learning.",
+          "why": "ট্যাবলেট দেওয়ার কথা আছে, কিন্তু স্কুলব্যাগের ওজন কমানোর উদ্দেশ্যে কি না, তা প্যাসেজে নেই"
+        }
+      ],
+      "vo": "এটাই সবচেয়ে বড় ফাঁদ। All বনাম Most — সরাসরি বিপরীত, তাই FALSE। কিন্তু দ্বিতীয়টিতে ট্যাবলেটের কথা থাকলেও, ব্যাগের ওজন কমানোর উদ্দেশ্যটা প্যাসেজে নেই — এটা NOT GIVEN।",
+      "frames": 389
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "নির্দেশনায় TRUE/FALSE/NOT GIVEN থাকলে উত্তরপত্রে কখনো YES/NO লিখবেন না",
+      "sub": "নিরাপদ হলো বড় হাতের পুরো শব্দ: TRUE, FALSE, NOT GIVEN",
+      "vo": "একটা জরুরি সতর্কতা। নির্দেশনায় TRUE/FALSE/NOT GIVEN চাইলে উত্তরপত্রে YES/NO লিখলে নম্বর পাবেন না। সবচেয়ে নিরাপদ হলো বড় হাতের পুরো শব্দ লেখা — TRUE, FALSE, NOT GIVEN।",
+      "frames": 449
+    },
+    {
+      "type": "points",
+      "head": [
+        "Qualifier-এর ফাঁদ: ",
+        "ছোট শব্দ, বড় বিপদ"
+      ],
+      "items": [
+        {
+          "icon": "alert",
+          "t": "all, every, only, never, always",
+          "s": "১০০% বোঝায় — প্যাসেজে most বা some থাকলেই FALSE",
+          "en": "All shops → Most shops = FALSE"
+        },
+        {
+          "icon": "alert",
+          "t": "some, many, often, usually, can, may",
+          "s": "আংশিক বা সম্ভাবনা বোঝায় — সহজে TRUE হতে পারে",
+          "en": "Some birds migrate → Many birds migrate = TRUE"
+        },
+        {
+          "icon": "alert",
+          "t": "more than, before, after, because of",
+          "s": "তুলনা বা কারণ — প্যাসেজে না থাকলে NOT GIVEN",
+          "en": "cheaper than → no comparison = NOT GIVEN"
+        }
+      ],
+      "vo": "qualifier-এর দিকে নজর দিন। all বা every মানে ১০০% — প্যাসেজে most থাকলেই FALSE। some বা often আংশিক বোঝায়, তাই সহজেই TRUE হতে পারে। আর তুলনা বা কারণের শব্দ থাকলে প্যাসেজে সেই তুলনা না পেলে NOT GIVEN।",
+      "frames": 502
+    },
+    {
+      "type": "points",
+      "head": [
+        "ধাপে ধাপে সমাধান: ",
+        "৬টি ধাপ"
+      ],
+      "items": [
+        {
+          "icon": "list-checks",
+          "t": "নির্দেশনা পড়ে নিশ্চিত হোন",
+          "s": "TRUE/FALSE/NG না YES/NO/NG — আগে দেখুন"
+        },
+        {
+          "icon": "eye",
+          "t": "পুরো বাক্যের অর্থ বুঝুন",
+          "s": "শুধু বিচ্ছিন্ন শব্দ দেখবেন না"
+        },
+        {
+          "icon": "target",
+          "t": "মূল শব্দ আর qualifier চিহ্নিত করুন",
+          "s": "নাম, সাল, সংখ্যা; all, only, before-এ দাগ দিন"
+        },
+        {
+          "icon": "brain",
+          "t": "সমার্থক শব্দ ভাবুন",
+          "s": "cheap → inexpensive, make → produce"
+        }
+      ],
+      "vo": "সমাধানের ধাপগুলো মনে রাখুন। প্রথমে নির্দেশনা পড়ুন। তারপর পুরো বাক্যের অর্থ বুঝুন, শুধু শব্দ নয়। মূল শব্দ আর qualifier-এ দাগ দিন। তারপর ভাবুন, প্যাসেজে এই শব্দগুলোর কী synonym থাকতে পারে।",
+      "frames": 432
+    },
+    {
+      "type": "exam",
+      "head": [
+        "অনুশীলন: ",
+        "Floating Gardens প্যাসেজ"
+      ],
+      "paper": {
+        "title": "Questions 1–5: TRUE / FALSE / NOT GIVEN",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Farmland in parts of southern Bangladesh stays underwater for the entire year."
+          },
+          {
+            "n": 2,
+            "label": "The practice of floating agriculture in Bangladesh was invented less than one hundred years ago."
+          },
+          {
+            "n": 3,
+            "label": "Water hyacinth is more expensive for farmers to collect than bamboo poles."
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "In the low-lying wetlands of southern Bangladesh, particularly in districts like Barishal, Gopalganj, and Pirojpur, seasonal monsoon floods regularly submerge farmland for up to eight months each year."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "In the low-lying wetlands of southern Bangladesh, particularly in districts like Barishal, Gopalganj, and Pirojpur, seasonal monsoon floods regularly submerge farmland for up to eight months each year.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "for up to eight months each year"
+      ],
+      "strike": [],
+      "answer": "FALSE",
+      "tip": "প্রশ্নে entire year (১২ মাস), প্যাসেজে up to eight months — সরাসরি বিপরীত।",
+      "vo": "প্রথম প্রশ্ন। প্যাসেজে বলা আছে, জমি বছরে আট মাস পর্যন্ত পানির নিচে থাকে। প্রশ্ন বলছে সারা বছর। আট মাস বনাম বারো মাস — সরাসরি বিপরীত, তাই উত্তর FALSE।",
+      "clip": "clip08.mp3",
+      "clipFrames": 408,
+      "frames": 418
+    },
+    {
+      "type": "exam",
+      "head": [
+        "অনুশীলন: ",
+        "Floating Gardens প্যাসেজ"
+      ],
+      "paper": {
+        "title": "Questions 1–5: TRUE / FALSE / NOT GIVEN",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Farmland ... stays underwater for the entire year.",
+            "ans": "FALSE"
+          },
+          {
+            "n": 2,
+            "label": "The practice ... was invented less than one hundred years ago."
+          },
+          {
+            "n": 3,
+            "label": "Water hyacinth is more expensive ... than bamboo poles."
+          }
+        ]
+      },
+      "focus": 2,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "Over three centuries ago, local farmers developed an ingenious hydroponic method known locally as 'baira' or floating agriculture."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "Over three centuries ago, local farmers developed an ingenious hydroponic method known locally as 'baira' or floating agriculture.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "Over three centuries ago"
+      ],
+      "strike": [],
+      "answer": "FALSE",
+      "tip": "প্রশ্নে less than 100 years, প্যাসেজে over 300 years — সরাসরি ভুল প্রমাণিত।",
+      "vo": "দ্বিতীয় প্রশ্ন। প্রশ্ন বলছে, এই পদ্ধতি একশো বছরের কম আগে আবিষ্কৃত হয়েছে। প্যাসেজ বলছে, তিনশো বছরেরও বেশি আগে। তিনশো বনাম একশো — সরাসরি ভুল, তাই FALSE।",
+      "clip": "clip09.mp3",
+      "clipFrames": 269,
+      "frames": 396
+    },
+    {
+      "type": "exam",
+      "head": [
+        "অনুশীলন: ",
+        "Floating Gardens প্যাসেজ"
+      ],
+      "paper": {
+        "title": "Questions 1–5: TRUE / FALSE / NOT GIVEN",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Farmland ... stays underwater for the entire year.",
+            "ans": "FALSE"
+          },
+          {
+            "n": 2,
+            "label": "The practice ... was invented less than one hundred years ago.",
+            "ans": "FALSE"
+          },
+          {
+            "n": 3,
+            "label": "Water hyacinth is more expensive ... than bamboo poles."
+          }
+        ]
+      },
+      "focus": 3,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "To construct a floating bed, farmers gather water hyacinth—an invasive aquatic weed that grows abundantly in the rivers—and layer it with bamboo poles and decomposing plant matter."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "To construct a floating bed, farmers gather water hyacinth—an invasive aquatic weed that grows abundantly in the rivers—and layer it with bamboo poles and decomposing plant matter.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "water hyacinth",
+        "bamboo poles"
+      ],
+      "strike": [],
+      "answer": "NOT GIVEN",
+      "tip": "দুটো উপকরণের নাম আছে, কিন্তু কোনটি বেশি দামি — এই তুলনা প্যাসেজে নেই।",
+      "vo": "তৃতীয় প্রশ্ন। কচুরিপানা আর বাঁশ — দুটোর কথাই প্যাসেজে আছে। কিন্তু কোনটা সংগ্রহ করতে বেশি খরচ, সেই তুলনা প্যাসেজে নেই। তাই উত্তর NOT GIVEN।",
+      "clip": "clip10.mp3",
+      "clipFrames": 353,
+      "frames": 336
+    },
+    {
+      "type": "quizQ",
+      "q": "প্যাসেজে লেখা 'without needing any chemical fertilisers' — প্রশ্নে লেখা 'do not require artificial plant food'। উত্তর কী হবে?",
+      "o": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN",
+        "YES"
+      ],
+      "a": 0,
+      "hold": 150,
+      "vo": "এবার আপনার পালা। প্যাসেজে আছে without needing any chemical fertilisers, প্রশ্নে আছে do not require artificial plant food। উত্তর কী? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 336
+    },
+    {
+      "type": "quizA",
+      "q": "প্যাসেজে লেখা 'without needing any chemical fertilisers' — প্রশ্নে লেখা 'do not require artificial plant food'। উত্তর কী হবে?",
+      "o": [
+        "TRUE",
+        "FALSE",
+        "NOT GIVEN",
+        "YES"
+      ],
+      "a": 0,
+      "ex": "chemical fertilisers = artificial plant food — এটি paraphrase, অর্থ ১০০% মিলে গেছে, তাই TRUE।",
+      "vo": "সঠিক উত্তর TRUE। chemical fertilisers আর artificial plant food — শব্দ আলাদা, কিন্তু অর্থ এক। এটাই paraphrase, তাই উত্তর TRUE।",
+      "frames": 310
+    },
+    {
+      "type": "recap",
+      "items": [
+        "অর্থ ১০০% মিললে TRUE, বিপরীত হলে FALSE, তথ্য না থাকলে NOT GIVEN",
+        "qualifier-এ চোখ রাখুন — all, only, before",
+        "নিজের জ্ঞান নয়, শুধু প্যাসেজের তথ্য ব্যবহার করুন",
+        "উত্তরপত্রে বড় হাতের পুরো শব্দ লিখুন"
+      ],
+      "vo": "আজ যা শিখলাম: অর্থ পুরোপুরি মিললে TRUE, সরাসরি বিপরীত হলে FALSE, আর তথ্য না থাকলে NOT GIVEN। qualifier-এর দিকে নজর রাখুন। নিজের জ্ঞান ব্যবহার করবেন না। আর উত্তরপত্রে বড় হাতের পুরো শব্দ লিখুন।",
+      "frames": 470
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে অনুশীলন করুন!",
+      "cta": "নিচের ড্রিলে Floating Gardens-এর বাকি প্রশ্নসহ আরও ১০টি প্রশ্ন",
+      "vo": "এবার নিচের ড্রিলে Floating Gardens-এর বাকি প্রশ্নসহ আরও দশটা প্রশ্নের উত্তর দিন। প্রতিটির বিস্তারিত বাংলা ব্যাখ্যা পাবেন। নিয়মিত অনুশীলনেই আত্মবিশ্বাস বাড়ে। শুভকামনা!",
+      "frames": 353
+    }
+  ]
+}

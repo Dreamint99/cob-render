@@ -1,0 +1,263 @@
+{
+  "id": "paraphrase-key",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৪ · Reading",
+  "lessonNo": "পাঠ ৩",
+  "title": "Paraphrase চেনা: Reading-এর আসল চাবি",
+  "next": "True / False / Not Given",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "শব্দের বদলে অর্থ খোঁজা",
+        "চারটা paraphrase কৌশল চেনা",
+        "exact শব্দের ফাঁদ এড়ানো",
+        "paraphrase table বানানোর অভ্যাস গড়া"
+      ],
+      "vo": "স্বাগতম! IELTS Reading-এ অনেকেই প্রশ্নের শব্দ প্যাসেজে হুবহু খুঁজতে গিয়ে আটকে যান। কিন্তু আসল চাবিটা হলো paraphrase — যেখানে শব্দ বদলে যায়, কিন্তু অর্থ একই থাকে। এই পাঠ শেষে আপনি অর্থ খুঁজে পড়তে শিখবেন।",
+      "frames": 449
+    },
+    {
+      "type": "myth",
+      "wrong": "প্রশ্নের শব্দ প্যাসেজে নেই মানেই Not Given",
+      "right": "Not Given নয় — প্রায়ই শব্দ বদলে paraphrase হয়ে আসে",
+      "sub": "অর্থ মেলাতে হবে, শব্দের হুবহু মিল নয়",
+      "vo": "অনেক শিক্ষার্থী ভাবেন, প্রশ্নের শব্দটা প্যাসেজে না পেলে উত্তর হয়তো Not Given। কিন্তু পরীক্ষক ইচ্ছে করেই শব্দ বদলে দেন। তাই শব্দ না মিললেই ধরে নেবেন না যে উত্তর নেই; বরং শান্ত থেকে অর্থ খুঁজুন, এটাই আসল দক্ষতা।",
+      "frames": 456
+    },
+    {
+      "type": "points",
+      "head": [
+        "Paraphrase: ",
+        "শব্দ বদলায়, অর্থ থাকে এক"
+      ],
+      "items": [
+        {
+          "icon": "eye",
+          "t": "rapid decline → plummeted sharply",
+          "s": "দ্রুত পতন → হুড়মুড়িয়ে কমেছে",
+          "en": "rapid decline = plummeted sharply"
+        },
+        {
+          "icon": "eye",
+          "t": "frog → amphibian",
+          "s": "ব্যাঙ → উভচর প্রাণী",
+          "en": "frog → amphibian"
+        },
+        {
+          "icon": "eye",
+          "t": "global → worldwide",
+          "s": "বৈশ্বিক → সারা বিশ্বে",
+          "en": "global = worldwide"
+        },
+        {
+          "icon": "eye",
+          "t": "population → numbers",
+          "s": "সংখ্যা → পরিমাণ",
+          "en": "population = numbers"
+        }
+      ],
+      "vo": "দেখুন, প্রশ্নে লেখা থাকতে পারে a rapid decline in global frog populations, কিন্তু প্যাসেজে থাকবে amphibian numbers worldwide have plummeted sharply। শব্দগুলো সম্পূর্ণ আলাদা, অথচ অর্থ একই। frog হয়ে গেছে amphibian, rapid decline হয়েছে plummeted sharply। এই বদলটাই paraphrase, আর এটাই Reading-এর আসল পরীক্ষা।",
+      "frames": 689
+    },
+    {
+      "type": "points",
+      "head": [
+        "পরীক্ষকের ",
+        "চারটা কৌশল"
+      ],
+      "items": [
+        {
+          "icon": "sparkles",
+          "t": "Synonym",
+          "s": "একই অর্থের অন্য শব্দ",
+          "en": "rapid → sharp"
+        },
+        {
+          "icon": "layers",
+          "t": "Grammar shift",
+          "s": "ব্যাকরণ বদলে যায়",
+          "en": "was shut down → the closure"
+        },
+        {
+          "icon": "scale",
+          "t": "Antonym + negative",
+          "s": "উল্টো শব্দ + না-বাচক",
+          "en": "not far → close"
+        },
+        {
+          "icon": "target",
+          "t": "Specific → General",
+          "s": "নির্দিষ্ট থেকে সাধারণ দল",
+          "en": "tax breaks → financial incentives"
+        }
+      ],
+      "vo": "পরীক্ষক প্রশ্ন বানানোর সময় প্রধানত চারটা কৌশল ব্যবহার করেন। Synonym, যেখানে শব্দের প্রতিশব্দ বসে। Grammar shift, যেখানে বাক্যের গঠন বদলে যায়। Antonym plus negative, যেখানে not far হয়ে যায় close। আর Specific to General, যেখানে তালিকার বদলে একটা সাধারণ দল বসে, যেমন tax breaks-এর জায়গায় financial incentives।",
+      "frames": 715
+    },
+    {
+      "type": "exam",
+      "head": [
+        "সতর্ক থাকুন: ",
+        "exact শব্দ মানেই উত্তর নয়"
+      ],
+      "paper": {
+        "title": "Finding the answer (Question 14)",
+        "rows": [
+          {
+            "label": "Question",
+            "ans": "The factory closed because of safety concerns."
+          },
+          {
+            "n": 1,
+            "label": "Answer location"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "Safety concerns were raised by the workers' union during the meeting last month."
+        }
+      ],
+      "lines": [
+        {
+          "name": "Passage (first part)",
+          "who": "A",
+          "text": "Safety concerns were raised by the workers' union during the meeting last month."
+        }
+      ],
+      "hl": [
+        "Safety concerns"
+      ],
+      "strike": [
+        "union"
+      ],
+      "answer": "The plant stopped production after worries about worker protection increased.",
+      "tip": "Exact শব্দ দেখামাত্র উত্তর ধরে নেবেন না — কারণ আর ঘটনা দুটোই মিলতে হবে",
+      "vo": "এবার একটা ফাঁদ দেখি। প্রশ্নে বলা আছে, safety concerns-এর কারণে factory বন্ধ হয়েছে। প্যাসেজের প্রথম অংশে safety concerns শব্দটা আছে, কিন্তু সেখানে factory বন্ধের কোনো কথা নেই — শুধু একটা সভার কথা আছে। প্রকৃত উত্তর থাকবে অন্য জায়গায়, যেখানে বন্ধ হওয়া আর সুরক্ষার দুশ্চিন্তা — দুটোই একসাথে আছে।",
+      "clip": "clip05.mp3",
+      "clipFrames": 137,
+      "frames": 638
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভুল না সঠিক পথ: ",
+        "exact শব্দের ফাঁদ"
+      ],
+      "rows": [
+        {
+          "bad": "Question says decline, passage says plummeted → Not Given",
+          "good": "Question says decline, passage says plummeted sharply → match the meaning",
+          "why": "decline আর plummeted sharply-র অর্থ একই — এটা paraphrase, NG নয়"
+        },
+        {
+          "bad": "Found exact word 'closed' in passage → chose that location",
+          "good": "Checked the full meaning: stopped production = factory closed → then matched",
+          "why": "exact শব্দ থাকলেই উত্তর সঠিক নয়, কারণ আর ঘটনা মিলতে হবে"
+        }
+      ],
+      "vo": "প্রথম ভুলটা হলো exact শব্দ খুঁজতে গিয়ে অর্থ মিস করা। decline-এর জায়গায় plummeted sharply থাকলেই সেটা Not Given নয়, বরং একই অর্থের ভিন্ন প্রকাশ। দ্বিতীয় ভুলটা উল্টো — প্যাসেজে closed শব্দটা দেখেই উত্তর ধরে নেওয়া, কিন্তু সেখানে কারণটা মিলছে কি না তা যাচাই করা জরুরি।",
+      "frames": 566
+    },
+    {
+      "type": "compare",
+      "head": [
+        "শুধু synonym মেলানোই যথেষ্ট নয়: ",
+        "polarity দেখুন"
+      ],
+      "rows": [
+        {
+          "bad": "Question: pollution caused the disease. Passage: the disease was linked to factors other than pollution. Matched: pollution = pollution",
+          "good": "pollution word exists, but meaning is opposite — factors other than pollution",
+          "why": "positive নাকি negative, cause নাকি effect — সব যাচাই করতে হবে"
+        }
+      ],
+      "vo": "আরেকটা ফাঁদ। আপনি pollution শব্দটা প্যাসেজে পেয়ে গেলেন, কিন্তু লক্ষ করুন — প্যাসেজে বলা আছে, রোগের কারণ pollution নয়, other than pollution। Synonym মিললেও বাক্যের অর্থটা একেবারে উল্টো। তাই শব্দ মেলানোর পাশাপাশি positive নাকি negative, cause নাকি effect, সব কিছু দেখতে হবে।",
+      "frames": 583
+    },
+    {
+      "type": "points",
+      "head": [
+        "Paraphrase ধরার ",
+        "ধাপসমূহ"
+      ],
+      "items": [
+        {
+          "icon": "pen-line",
+          "t": "অর্থবহ শব্দ underline করুন",
+          "s": "subject, verb, object, modifier",
+          "en": "mostly, rarely, rapidly"
+        },
+        {
+          "icon": "brain",
+          "t": "আগেই ১–২টা synonym ভাবুন",
+          "s": "প্যাসেজ পড়ার আগে",
+          "en": "decline → drop, fall"
+        },
+        {
+          "icon": "link",
+          "t": "পাশাপাশি রেখে মেলান",
+          "s": "শব্দ নয়, অর্থ মিলছে কি না",
+          "en": "side-by-side check"
+        },
+        {
+          "icon": "file-text",
+          "t": "Paraphrase Table বানান",
+          "s": "বাঁয়ে প্রশ্ন, ডানে প্যাসেজ",
+          "en": "left: question, right: passage"
+        }
+      ],
+      "vo": "পদ্ধতিটা চার ধাপের। প্রথমে প্রশ্নের মূল অর্থবহ শব্দগুলো চিহ্নিত করুন — subject, verb, object। তারপর প্যাসেজ পড়ার আগেই সেই শব্দগুলোর এক-দুইটা synonym ভাবুন। তৃতীয় ধাপে প্যাসেজে জায়গা খুঁজে প্রশ্ন আর বাক্য পাশাপাশি রেখে অর্থ মেলান। আর শেষে একটা ছোট্ট টেবিলে বাঁ পাশে প্রশ্নের শব্দ, ডান পাশে প্যাসেজের শব্দ লিখে রাখুন।",
+      "frames": 727
+    },
+    {
+      "type": "quizQ",
+      "q": "কোনটা সঠিক মেলানো? A) Sundarbans-এ বাঘ কমেছে B) চাহিদা কমায় কর্মী ছাঁটাই C) কৃষকদের আর্থিক সাহায্য",
+      "o": [
+        "A1, B2, C3",
+        "A3, B1, C2",
+        "A2, B3, C1",
+        "A3, B2, C1"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "এবার আপনার পালা। A, Sundarbans-এ বাঘের সংখ্যায় দ্রুত পতন। B, চাহিদা কমে যাওয়ায় কোম্পানি কর্মী ছাঁটাই করেছে। C, সরকার কৃষকদের আর্থিক সাহায্য দিয়েছে। এই তিনটির সাথে প্যাসেজের তিনটা paraphrase মেলান। পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 518
+    },
+    {
+      "type": "quizA",
+      "q": "কোনটা সঠিক মেলানো? A) Sundarbans-এ বাঘ কমেছে B) চাহিদা কমায় কর্মী ছাঁটাই C) কৃষকদের আর্থিক সাহায্য",
+      "o": [
+        "A1, B2, C3",
+        "A3, B1, C2",
+        "A2, B3, C1",
+        "A3, B2, C1"
+      ],
+      "a": 1,
+      "ex": "A3: rapid decline → sharp drop, tiger population। B1: firm → company, laid off → reduced workforce, consumer interest dropped → falling demand। C2: state → government, subsidies → financial support, agricultural workers → farmers।",
+      "vo": "সঠিক উত্তর খ — A-এর সাথে 3, B-এর সাথে 1, আর C-এর সাথে 2। A-তে rapid decline হয়েছে sharp drop, আর tigers হয়েছে tiger population। B-তে company হয়েছে firm, reduced workforce হয়েছে laid off employees। C-তে government হয়েছে state, subsidies মানে ভর্তুকি, farmers হয়েছে agricultural workers। শব্দ আলাদা, অর্থ এক।",
+      "frames": 790
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Reading-এ শব্দ নয়, অর্থ খুঁজুন",
+        "চার কৌশল: synonym, grammar shift, antonym+negative, general category",
+        "exact শব্দ repeat করা option প্রায়ই ফাঁদ",
+        "প্রতিদিন paraphrase table বানান"
+      ],
+      "vo": "আজ যা শিখলাম: Reading-এ শব্দ নয়, অর্থ খোঁজা জরুরি। চারটা কৌশল মনে রাখুন — synonym, grammar shift, antonym plus negative, আর specific to general। Exact শব্দ repeat করা option দেখলে থামুন, ওটা প্রায়ই ফাঁদ। প্রতিদিন পাঁচটা প্রশ্নের paraphrase table বানালে accuracy অনেক বাড়বে।",
+      "frames": 610
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে অনুশীলন করুন!",
+      "cta": "নিচের ড্রিলে ১০টা paraphrase মেলানোর প্রশ্ন, প্রতিটির ব্যাখ্যাসহ",
+      "vo": "এবার নিচের ড্রিলে দশটা paraphrase মেলানোর প্রশ্ন পাবেন, প্রতিটির ব্যাখ্যাও থাকবে। আর মনে রাখবেন, paraphrase চেনার অভ্যাসটাই Reading-এ উচ্চ ব্যান্ডের আসল চাবিকাঠি। শুভকামনা!",
+      "frames": 343
+    }
+  ]
+}

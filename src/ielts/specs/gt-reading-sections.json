@@ -1,0 +1,240 @@
+{
+  "id": "gt-reading-sections",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৪ · Reading",
+  "lessonNo": "পাঠ ১১",
+  "title": "GT Reading Section 1–2: বিজ্ঞাপন, নোটিশ, কর্মক্ষেত্র",
+  "next": "কঠিন প্যাসেজে টিকে থাকা: অজানা শব্দ ও সময়",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "GT Section 1-2-এর ফাইন-প্রিন্ট ফাঁদ বুঝা",
+        "বিজ্ঞাপন ও নোটিশ থেকে নির্ভুল উত্তর করা",
+        "সময় ভাগ করে আত্মবিশ্বাস বাড়ানো",
+        "ব্যান্ড ৭-৮-এর জন্য প্রয়োজনীয় নির্ভুলতা আয়ত্ত করা"
+      ],
+      "vo": "স্বাগতম! আজ আমরা GT Reading-এর Section 1 আর 2 নিয়ে কাজ করব। এখানে বিজ্ঞাপন, নোটিশ, কর্মক্ষেত্রের নিয়ম—সব মিলিয়ে ২৭টা প্রশ্ন। আপনি শিখবেন ফাইন-প্রিন্টের ফাঁদ এড়িয়ে কীভাবে নিশ্চিত নম্বর তোলা যায়।",
+      "frames": 444
+    },
+    {
+      "type": "myth",
+      "wrong": "GT Section 1–2 সহজ; তাড়াতাড়ি করে দিলেই হবে",
+      "right": "সহজ বলে এখানকার প্রতিটি প্রশ্নই ব্যান্ডের ভিত্তি; ফাইন-প্রিন্ট মিস করলে ভুল হয়",
+      "sub": "২৭-এর মধ্যে ২৫–২৬ সঠিক না হলে ব্যান্ড ৭ দূরে থাকবে",
+      "vo": "অনেকে ভাবেন, GT Section 1 আর 2 তো খুব সোজা, তাড়াতাড়ি করে দিলেই হবে। কিন্তু এই সহজ অংশেই ফাইন-প্রিন্টের ফাঁদে পড়ে প্রতি পরীক্ষায় ৩–৪টা নম্বর হারায়। মনে রাখবেন, এখানে প্রতিটা প্রশ্নই আপনার কাঙ্ক্ষিত ব্যান্ডের ভিত্তি।",
+      "frames": 454
+    },
+    {
+      "type": "points",
+      "head": [
+        "ব্যান্ড ৭–৮ পেতে GT-তে ",
+        "কড়া নম্বর ও সময়ের সমীকরণ"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "Section 1 ও 2-এ ২৭টি প্রশ্ন",
+          "s": "অন্তত ২৫-২৬ সঠিক চাই"
+        },
+        {
+          "icon": "clock",
+          "t": "Section 1: ১২–১৫ মিনিট",
+          "s": "Section 2: ১৫–১৮ মিনিট"
+        },
+        {
+          "icon": "clock",
+          "t": "Section 3-এর জন্য ২৫–৩০ মিনিট",
+          "s": "অন্যথায় সময় শেষ হয়ে যায়"
+        },
+        {
+          "icon": "alert",
+          "t": "তাড়াহুড়ো মানেই ফাঁদে পা",
+          "s": "except, only, subject to—আন্ডারলাইন"
+        }
+      ],
+      "vo": "GT Reading-এ ব্যান্ড ৭ পেতে ৩৪-৩৫, আর ব্যান্ড ৮ পেতে ৩৭-৩৮ নম্বর দরকার। তাই Section 1 আর 2 মিলিয়ে ২৭ প্রশ্নের মধ্যে অন্তত ২৫-২৬টা ঠিক করতে হবে। সময় বণ্টনও জরুরি: Section 1 শেষ করুন ১২-১৫ মিনিটে, Section 2 ১৫-১৮ মিনিটে, তাহলে শেষ সেকশনের জন্য ২৫-৩০ মিনিট পাবেন।",
+      "frames": 734
+    },
+    {
+      "type": "compare",
+      "head": [
+        "বিজ্ঞাপনের ফাইন-প্রিন্ট: ",
+        "বিনামূল্যে সবকিছু নয়"
+      ],
+      "rows": [
+        {
+          "tag": "TR",
+          "bad": "Ad C-তে পুল ফ্রি, তাই swimming classes-ও ফ্রি মনে করা",
+          "good": "Ad C: 'aqua-aerobics classes: £5 fee' — পুল ফ্রি, ক্লাস নয়",
+          "why": "free পাশে বসানো শব্দ না পড়লেই ফাঁদ"
+        }
+      ],
+      "vo": "দেখুন, একটি বিজ্ঞাপন: সকল সদস্যের জন্য সুইমিং পুল ফ্রি, কিন্তু অ্যাকোয়া-এ্যারোবিক্স ক্লাস পাঁচ পাউন্ড। তাড়াহুড়ো করলে পুল ফ্রি দেখেই ভাববেন সব ফ্রি, কিন্তু প্রশ্নে চেয়েছে swimming classes। ফাইন-প্রিন্টের প্রতিটি শব্দ না পড়লে এমন ভুল হবেই।",
+      "frames": 490
+    },
+    {
+      "type": "exam",
+      "head": [
+        "Section 2-এর শর্ত: ",
+        "দুটোই মিললে উত্তর"
+      ],
+      "paper": {
+        "title": "Staff Leave Policy",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Paid study leave: employees with ________"
+          },
+          {
+            "label": "Manager approval",
+            "ans": "required"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "Employees with more than two years of continuous service and who have obtained line manager approval may apply for up to five days of paid study leave."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Passage",
+          "text": "Employees with more than two years of continuous service and who have obtained line manager approval may apply for up to five days of paid study leave.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "more than two years of continuous service",
+        "line manager approval"
+      ],
+      "answer": "more than two years of continuous service",
+      "tip": "অনুমোদন ছাড়া শুধু সময়কাল দেখলেই ভুল—দুটো শর্তই মিলতে হবে।",
+      "vo": "এখন একটি কর্মক্ষেত্রের নিয়ম দেখুন। প্যাসেজ বলছে, দুই বছরের বেশি চাকরি এবং ম্যানেজারের অনুমোদন থাকলে পেইড স্টাডি লিভ। ফর্মে লেখা আছে Employees with ... তাই শুধু সময়কাল বসালে চলবে না, দুটো শর্তই যাচাই করতে হবে।",
+      "clip": "clip05.mp3",
+      "clipFrames": 281,
+      "frames": 454
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "Section 1-এ ২০ মিনিট + Section 2-এ ২০ মিনিট দিলে Section 3-এর জন্য সময় থাকবে না",
+      "sub": "কাজেই ১২+১৫ মিনিটের টার্গেট কঠোরভাবে মেনে চলুন",
+      "vo": "সবচেয়ে বড় ভুল হলো Section 1-এ বিশ মিনিট আর Section 2-এ বিশ মিনিট দিয়ে দেওয়া। তখন শেষ সেকশনের জন্য মাত্র বিশ মিনিট বাকি থাকে, যা একেবারেই যথেষ্ট নয়। তাই সময়ের অ্যালোকেশনটা কঠোরভাবে মেনে চলতে হবে।",
+      "frames": 439
+    },
+    {
+      "type": "exam",
+      "head": [
+        "নিজে করুন: ",
+        "বিজ্ঞাপন ম্যাচিং"
+      ],
+      "paper": {
+        "title": "GT Reading: Mini Exercise",
+        "rows": [
+          {
+            "n": 1,
+            "label": "1. Which place offers free parking at all times for members?"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "Open 7 days, free parking for all members."
+        },
+        {
+          "who": "B",
+          "text": "Free parking for hotel guests, subject to availability."
+        },
+        {
+          "who": "B",
+          "text": "No parking on site."
+        },
+        {
+          "who": "B",
+          "text": "Free parking after 5 p.m. only."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Ad A",
+          "text": "Open 7 days, free parking for all members.",
+          "name": "Speaker"
+        },
+        {
+          "who": "Ad B",
+          "text": "Free parking for hotel guests, subject to availability.",
+          "name": "Speaker"
+        },
+        {
+          "who": "Ad C",
+          "text": "No parking on site.",
+          "name": "Speaker"
+        },
+        {
+          "who": "Ad D",
+          "text": "Free parking after 5 p.m. only.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [],
+      "strike": [],
+      "answer": "Ad A",
+      "tip": "subject to availability বা only after 5 p.m. থাকলে সর্বদা ফ্রি নয়।",
+      "vo": "এবার নিজে চেষ্টা করুন। চারটি বিজ্ঞাপন দেখুন। প্রশ্ন: কোন জায়গাটি সদস্যদের জন্য সব সময় বিনামূল্যে পার্কিং দেয়? Ad B-তে subject to availability, Ad D-তে শুধু সন্ধ্যা ৫টার পর—এগুলা ফাঁদ। সঠিক হলো Ad A, যেখানে কোনো শর্ত নেই।",
+      "clip": "clip07.mp3",
+      "clipFrames": 406,
+      "frames": 576
+    },
+    {
+      "type": "quizQ",
+      "q": "একটি বিজ্ঞাপনে লেখা 'Free parking for guests staying more than 1 night, except on weekends.' কখন বিনামূল্যে পার্কিং পাওয়া যায়?",
+      "o": [
+        "সপ্তাহের ৭ দিন, এক রাতের বেশি থাকলে",
+        "শুধু সপ্তাহের দিনে এক রাতের বেশি থাকলে",
+        "সপ্তাহান্তে এক রাতের বেশি থাকলে",
+        "শুধু এক রাত থাকলে সপ্তাহের দিনে"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "একটা ছোট প্রশ্ন। একটি বিজ্ঞাপনে লেখা আছে, 'Free parking for guests staying more than 1 night, except on weekends.' তাহলে কখন আপনি ফ্রি পার্কিং পাবেন? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 355
+    },
+    {
+      "type": "quizA",
+      "q": "একটি বিজ্ঞাপনে লেখা 'Free parking for guests staying more than 1 night, except on weekends.' কখন বিনামূল্যে পার্কিং পাওয়া যায়?",
+      "o": [
+        "সপ্তাহের ৭ দিন, এক রাতের বেশি থাকলে",
+        "শুধু সপ্তাহের দিনে এক রাতের বেশি থাকলে",
+        "সপ্তাহান্তে এক রাতের বেশি থাকলে",
+        "শুধু এক রাত থাকলে সপ্তাহের দিনে"
+      ],
+      "a": 1,
+      "ex": "except weekends বাদে, তাই সপ্তাহের দিনে; আর এক রাতের বেশি থাকতে হবে",
+      "vo": "সঠিক উত্তর দ্বিতীয়টি। except weekends মানে সপ্তাহান্তে নয়, তাই সপ্তাহের দিনে; আর staying more than 1 night মানে এক রাতের বেশি।",
+      "frames": 314
+    },
+    {
+      "type": "recap",
+      "items": [
+        "GT Section 1-2 সহজ মনে করে তাড়াহুড়ো নয়",
+        "free, except, only, subject to – প্রতিটি শব্দ আন্ডারলাইন",
+        "কর্মক্ষেত্রের টেক্সটে সাব-হেডিং ধরে সরাসরি যান",
+        "সময় বণ্টন: ১২-১৫ + ১৫-১৮ + ৩০ মিনিট"
+      ],
+      "vo": "আজ যা শিখলাম: GT-র প্রথম দুই সেকশন সহজ বলে তাড়াহুড়ো করবেন না। free, except, only, subject to-এর মতো শব্দগুলো আন্ডারলাইন করে প্রতিটি শর্ত যাচাই করুন। Section 2-এ সাব-হেডিং ব্যবহার করে দ্রুত উত্তর খুঁজুন। আর সময় ঠিক রাখতে ১২-১৫, ১৫-১৮, বাকি ৩০—এই ছকটা মেনে চলুন।",
+      "frames": 648
+    },
+    {
+      "type": "outro",
+      "head": "এবার আসল অনুশীলন করুন!",
+      "cta": "নিচের ড্রিলে ১০টি GT স্টাইলের প্রশ্ন, টাইমারসহ",
+      "vo": "এবার নিচের ড্রিলে আসল পরীক্ষার মতো অনুশীলন করুন। দশটা GT Section 1-2 স্টাইলের প্রশ্ন, সাথে টাইমার। শেষে এআই প্রশিক্ষক আপনার উত্তর যাচাই করবে এবং ফাঁদগুলোর ব্যাখ্যা দেবে। শুভকামনা!",
+      "frames": 406
+    }
+  ]
+}

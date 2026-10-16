@@ -1,0 +1,205 @@
+{
+  "id": "complex-sentences",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ২ · ইংরেজির ভিত: বাংলাভাষীর চেনা ভুল সারাই",
+  "lessonNo": "পাঠ ৪",
+  "title": "জটিল বাক্য: relative clause, conditional, passive",
+  "next": "Punctuation ও run-on sentence",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "relative clause দিয়ে তথ্য যোগ করা",
+        "conditional ও passive ভুল ছাড়া লেখা",
+        "Although-এর পর but আর If-এ will-এর ভুল সারানো",
+        "fragment এড়িয়ে নির্ভুল জটিল বাক্য গঠন"
+      ],
+      "vo": "স্বাগতম! আজ আমরা IELTS-এ ব্যান্ড ৭ এর জন্য জটিল বাক্যের চারটি গঠন শিখব। Relative clause, conditional, passive — এগুলো ভুলমুক্তভাবে ব্যবহার করলে আপনার Speaking ও Writing-এ বড় উন্নতি হবে।",
+      "frames": 418
+    },
+    {
+      "type": "myth",
+      "wrong": "জটিল বাক্য মানে অনেক শব্দের লম্বা বাক্য",
+      "right": "একটি dependent clause যোগ করলেই বাক্য জটিল হয়, কিন্তু ভুলমুক্ত হওয়াটাই আসল",
+      "sub": "ভুল জটিল বাক্য ব্যান্ড না বাড়িয়ে উল্টো কমিয়ে দেয়",
+      "vo": "অনেকে ভাবেন জটিল বাক্য মানে বেশি শব্দের বড় বাক্য। আসলে একটি dependent clause যোগ করলেই বাক্য জটিল হতে পারে; কিন্তু ভুল থাকলে সেই জটিলতা ব্যান্ড বাড়ায় না, উল্টো ক্ষতি করে।",
+      "frames": 379
+    },
+    {
+      "type": "points",
+      "head": [
+        "পরিচ্ছন্ন তথ্য ও যুক্তি যোগ করুন: ",
+        "Relative Clause ও Adverbial Clause"
+      ],
+      "items": [
+        {
+          "icon": "quote",
+          "t": "Relative Clause",
+          "s": "who, which, that দিয়ে অতিরিক্ত তথ্য দিন",
+          "en": "Renewable energy, which is clean, is costly."
+        },
+        {
+          "icon": "layers",
+          "t": "Adverbial Clause",
+          "s": "although, because, while দিয়ে কারণ বা বিপরীত যুক্তি",
+          "en": "Although traffic is bad, many use cars."
+        }
+      ],
+      "vo": "প্রথম গঠন relative clause: who, which, that দিয়ে কোন ব্যক্তি বা বস্তু সম্পর্কে অতিরিক্ত তথ্য দিন। দ্বিতীয়, adverbial clause: although, because, while দিয়ে বিপরীত বা কারণের সম্পর্ক পরিষ্কার করুন।",
+      "frames": 470
+    },
+    {
+      "type": "points",
+      "head": [
+        "শর্ত ও কর্মবাচ্য: ",
+        "Conditional ও Passive Voice"
+      ],
+      "items": [
+        {
+          "icon": "clock",
+          "t": "Conditional Sentence",
+          "s": "If + present simple, will/can + base",
+          "en": "If the government invests, rates will rise."
+        },
+        {
+          "icon": "pen-line",
+          "t": "Passive Voice",
+          "s": "be + V3, যখন কাজটাই গুরুত্বপূর্ণ",
+          "en": "Strict rules should be enforced."
+        }
+      ],
+      "vo": "তৃতীয়, conditional sentence: If দিয়ে সম্ভাবনা বা কল্পনা বোঝান, যেমন If it rains, I will stay home. চতুর্থ, passive voice: যখন কাজটা প্রধান, তখন be+V3 ব্যবহার করুন; বিশেষ করে Process Diagram-এ এটি আবশ্যক।",
+      "frames": 521
+    },
+    {
+      "type": "compare",
+      "head": [
+        "বাংলাভাষীদের ভুল: ",
+        "Although-এর পর but"
+      ],
+      "rows": [
+        {
+          "bad": "Although it was raining, but I went to the exam centre.",
+          "good": "Although it was raining, I went to the exam centre.",
+          "why": "Although-এর পর but বসে না; এটি নিজেই বিপরীত অর্থ প্রকাশ করে।"
+        }
+      ],
+      "vo": "প্রথম ভুল: Although দিয়ে বাক্য শুরু করলে পরের অংশে but দেবেন না। Although নিজেই বিপরীত বোঝায়, তাই but অপ্রয়োজনীয় ও ভুল।",
+      "frames": 274
+    },
+    {
+      "type": "compare",
+      "head": [
+        "আরও দুটি ভুল: ",
+        "If-এ will নয়, Fragment নয়"
+      ],
+      "rows": [
+        {
+          "bad": "If the government will invest in education, the literacy rate will rise.",
+          "good": "If the government invests in education, the literacy rate will rise.",
+          "why": "If-অংশে কখনোই will, would বসে না; will বসে মূল অংশে।"
+        },
+        {
+          "bad": "Because many people are moving to cities for better jobs.",
+          "good": "Many people are moving to cities because they want better jobs.",
+          "why": "Dependent clause একা ব্যবহার করলে বাক্য অসম্পূর্ণ (fragment) হয়।"
+        }
+      ],
+      "vo": "দ্বিতীয় ভুল: If-এর পর কখনোই will বা would বসে না; will বসে পরে। আরেকটি বড় ভুল, dependent clause একা লিখে বাক্য অসম্পূর্ণ রেখে দেওয়া। যেমন ‘Because it is raining.’ – এটি fragment।",
+      "frames": 434
+    },
+    {
+      "type": "exam",
+      "head": [
+        "Conditional অনুশীলন: ",
+        "শূন্যস্থানে সঠিক form বসান"
+      ],
+      "paper": {
+        "title": "Grammar Check",
+        "rows": [
+          {
+            "n": 1,
+            "label": "If the government ______ (invest) in education, literacy rate will rise."
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "If the government invests in education, literacy rate will rise."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "If the government invests in education, literacy rate will rise.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "invests"
+      ],
+      "answer": "invests",
+      "tip": "If-এর পর সবসময় present simple; future ‘will’ হবে মূল অংশে।",
+      "vo": "এবার একটা mini-exam: অডিও শুনুন আর ফর্ম পূরণ করুন। বক্তা পুরো বাক্যটি বলবেন, আপনি শুধু invest-এর সঠিক form বসান।",
+      "clip": "clip07.mp3",
+      "clipFrames": 132,
+      "frames": 264
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "Dependent clause একা বাক্য নয়; বাক্যের শুরুতে থাকলে কমা দিন",
+      "sub": "প্রতিবার লেখার পর check: কোনো fragment আছে কি?",
+      "vo": "লেখার সময় attention দিন: dependent clause কখনোই একা ব্যবহার করবেন না, আর বাক্যের শুরুতে থাকলে কমা দিন। প্রতিবার লেখার পর চেক করুন sentence fragment আছে কিনা।",
+      "frames": 343
+    },
+    {
+      "type": "quizQ",
+      "q": "কোন বাক্যটি ব্যাকরণগতভাবে পুরোপুরি সঠিক?",
+      "o": [
+        "Although it was raining, but I went.",
+        "If she studies hard, she would pass.",
+        "Children who play outside are healthier.",
+        "Because pollution is rising."
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "এবার নিজের জ্ঞান যাচাই করুন। চারটি বাক্যের মধ্যে কোনটি সম্পূর্ণ সঠিক? ভেবে দেখুন।",
+      "frames": 197
+    },
+    {
+      "type": "quizA",
+      "q": "কোন বাক্যটি ব্যাকরণগতভাবে পুরোপুরি সঠিক?",
+      "o": [
+        "Although it was raining, but I went.",
+        "If she studies hard, she would pass.",
+        "Children who play outside are healthier.",
+        "Because pollution is rising."
+      ],
+      "a": 2,
+      "ex": "একমাত্র গ-ই independent clause-সহ relative clause সঠিকভাবে ব্যবহার করেছে; বাকিগুলোতে Although+but, conditional-এ ভুল form, বা fragment আছে।",
+      "vo": "সঠিক উত্তর গ। বাকি বাক্যগুলোতে Although-এর সাথে but, conditional-এ ভুল form, অথবা fragment আছে। শুধুমাত্র গ-তেই relative clause সঠিকভাবে ব্যবহৃত হয়েছে।",
+      "frames": 350
+    },
+    {
+      "type": "recap",
+      "items": [
+        "জটিল বাক্যে dependent clause যুক্ত করুন",
+        "Although-এর পরে but ব্যবহার নয়",
+        "If-এ present simple, তারপর will/can",
+        "Fragment এড়াতে প্রতিটি বাক্যে independent clause রাখুন"
+      ],
+      "vo": "আজকের পাঠে যা শিখলাম: জটিল বাক্যে dependent clause যোগ করুন, although-এর সাথে but নয়, If-এ present simple ব্যবহার করুন, আর fragment এড়িয়ে চলুন।",
+      "frames": 329
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে লিখে এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "cta": "নিচের Task 2 টপিক্সে জটিল বাক্য প্রয়োগ করুন, এআই আপনার বাক্য বিশ্লেষণ করবে।",
+      "vo": "এবার নিচের Task 2 টপিক্সে জটিল বাক্য প্রয়োগ করে লেখুন। এআই প্রশিক্ষক প্রতিটি বাক্য বিশ্লেষণ করে আপনাকে উন্নতির পরামর্শ দেবে। শুভ কামনা!",
+      "frames": 302
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "id": "task1-line-graph",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৫ · Writing Task 1 (Academic)",
+  "lessonNo": "পাঠ ২",
+  "title": "Line graph",
+  "next": "Bar chart ও table",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "লাইন গ্রাফের ট্রেন্ড ধরে ওভারভিউ লেখা",
+        "লাইন গ্রুপ করে তুলনা করা",
+        "সঠিক টেন্স ও ইউনিটে ডেটা সাপোর্ট দেওয়া",
+        "ভোকাবুলারি ভ্যারাইটি দেখানো"
+      ],
+      "vo": "স্বাগতম! আজ আমরা IELTS Writing Task 1-এর সবচেয়ে পরিচিত প্রশ্ন, লাইন গ্রাফ নিয়ে কাজ করব। এই পাঠ শেষে আপনি ট্রেন্ড ধরতে, তুলনা করতে আর সঠিক টেন্সে ডেটা লিখতে পারবেন।",
+      "frames": 374
+    },
+    {
+      "type": "myth",
+      "wrong": "প্রতি বছর ধরে ধরে ডেটা লিখলেই Task Achievement বাড়ে",
+      "right": "পরীক্ষক দেখতে চান ট্রেন্ড আর তুলনা, ডেটার তালিকা নয়",
+      "sub": "প্রতি পয়েন্ট না লিখে সামগ্রিক প্যাটার্ন ধরাই আসল দক্ষতা",
+      "vo": "অনেকে ভাবেন, গ্রাফের প্রতিটা বছর ধরে ধরে লিখলেই ভালো নম্বর পাওয়া যায়। আসলে পরীক্ষক দেখতে চান আপনি বড় ছবিটা ধরতে পারেন কি না, আর লাইনগুলোর মধ্যে তুলনা করতে পারেন কি না। ডেটার তালিকা করলে বরং নম্বর কমে।",
+      "frames": 434
+    },
+    {
+      "type": "criteria",
+      "head": [
+        "পরীক্ষক চারটি জিনিস ",
+        "দেখেন"
+      ],
+      "items": [
+        {
+          "k": "TREND",
+          "en": "Overall Pattern",
+          "bn": "লাইনগুলোর প্যাটার্ন ধরে গ্রুপ করা",
+          "icon": "target"
+        },
+        {
+          "k": "MILE",
+          "en": "Key Milestones",
+          "bn": "সর্বোচ্চ, সর্বনিম্ন, ছেদ চিহ্নিত করা",
+          "icon": "eye"
+        },
+        {
+          "k": "COMP",
+          "en": "Comparisons",
+          "bn": "লাইনগুলোর মধ্যে তুলনা করা",
+          "icon": "scale"
+        },
+        {
+          "k": "DATA",
+          "en": "Data Support",
+          "bn": "প্রতিটি দাবির সাথে সংখ্যা দেওয়া",
+          "icon": "file-text"
+        }
+      ],
+      "vo": "পরীক্ষক চারটা জিনিস দেখেন। প্রথম, আপনি লাইনগুলোর প্যাটার্ন ধরে গ্রুপ করতে পারেন কি না। দ্বিতীয়, গুরুত্বপূর্ণ মাইলফলক—যেমন সর্বোচ্চ বা ছেদ—চিহ্নিত করেন কি না। তৃতীয়, তুলনা করেন কি না। আর চতুর্থ, প্রতিটি দাবির সাথে ডেটা সাপোর্ট দেন কি না।",
+      "frames": 547
+    },
+    {
+      "type": "points",
+      "head": [
+        "ধাপ ১: ",
+        "টেন্স ও ইউনিট ঠিক করা"
+      ],
+      "items": [
+        {
+          "icon": "clock",
+          "t": "X-অক্ষের সময় দেখে টেন্স ঠিক করুন",
+          "s": "অতীত → Past Simple, ভবিষ্যৎ → is projected to",
+          "en": "1990–2020 → Past Simple"
+        },
+        {
+          "icon": "alert",
+          "t": "Y-অক্ষের ইউনিট সাবধানে পড়ুন",
+          "s": "in millions, percentage of... লেবেল ভুলে গেলে পুরো উত্তর ভুল",
+          "en": "50 → 50 million"
+        },
+        {
+          "icon": "pen-line",
+          "t": "ওভারভিউ ছাড়া Band 5-এর উপরে ওঠা অসম্ভব",
+          "s": "২-৩ বাক্যে বড় ছবি, কোনো সংখ্যা ছাড়া",
+          "en": "Overall, all three countries experienced..."
+        }
+      ],
+      "vo": "গ্রাফ হাতে পেয়েই প্রথম কাজ: X-অক্ষের সময় দেখে টেন্স ঠিক করুন। অতীত হলে Past Simple, ভবিষ্যৎ হলে is projected to-র মতো prediction verb ব্যবহার করুন। এরপর Y-অক্ষের ইউনিট খুব সাবধানে পড়ুন—in millions লেখা থাকলে 50 মানে 50 million, শুধু 50 না।",
+      "frames": 571
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভুল বনাম সঠিক: ",
+        "ট্রেন্ড ধরে লেখা"
+      ],
+      "rows": [
+        {
+          "bad": "In 2001 it was 10, in 2002 it was 12, in 2003 it was 11, in 2004 it was 14.",
+          "good": "Between 2001 and 2004, the figure fluctuated between 10 and 14 before rising sharply to 20 in 2006.",
+          "why": "প্রতি বছর ধরে ধরে নয়—ট্রেন্ড ধরে লিখুন"
+        },
+        {
+          "bad": "Wheat exports increased. Corn exports decreased. Rice exports increased.",
+          "good": "While wheat and rice exports both rose significantly, corn exports halved over the same period.",
+          "why": "আলাদাভাবে নয়—তুলনা করে লিখুন"
+        }
+      ],
+      "vo": "উদাহরণ দেখুন। বাঁদিকের লেখায় প্রতি বছর ধরে ধরে ডেটা দেওয়া হয়েছে, এটা পরীক্ষক পছন্দ করেন না। ডানদিকে ট্রেন্ড ধরে লেখা হয়েছে। দ্বিতীয় সারিতে, তিনটি লাইন আলাদাভাবে বর্ণনা না করে তুলনা করা হয়েছে—এটাই সঠিক পদ্ধতি।",
+      "frames": 478
+    },
+    {
+      "type": "exam",
+      "head": [
+        "ধাপ ২: ",
+        "ওভারভিউ লেখা"
+      ],
+      "paper": {
+        "title": "The line graph below shows the percentage of households with internet access in three countries between 2005 and 2020.",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Overview"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "Write an overview in 2-3 sentences. Do not include any numbers."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "Write an overview in 2-3 sentences. Do not include any numbers.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "overall direction",
+        "highest",
+        "overtook"
+      ],
+      "answer": "Overall, all three countries experienced a significant upward trend in internet penetration, although the pace of growth accelerated markedly after 2010. It is also clear that Bangladesh, which started with the lowest figure, overtook both India and Pakistan by the end of the period.",
+      "tip": "প্রতিটি লাইনের সামগ্রিক দিক বলুন—upward, downward, fluctuating। কোনো সংখ্যা দেবেন না।",
+      "vo": "এবার ওভারভিউ লেখার অনুশীলন। ওভারভিউতে ২-৩ বাক্যে পুরো গ্রাফের বড় ছবি বলুন—কোনো সংখ্যা দেওয়ার দরকার নেই। প্রতিটি লাইনের শুরু থেকে শেষ পর্যন্ত সামগ্রিক দিক চিহ্নিত করুন, আর মূল প্যাটার্ন বলুন।",
+      "clip": "clip06.mp3",
+      "clipFrames": 158,
+      "frames": 434
+    },
+    {
+      "type": "points",
+      "head": [
+        "ধাপ ৩: ",
+        "লাইন গ্রুপ করে Body সাজানো"
+      ],
+      "items": [
+        {
+          "icon": "layers",
+          "t": "একই ট্রেন্ডের লাইন একসাথে",
+          "s": "বাড়ন্ত লাইন এক প্যারায়, কমন্ত লাইন আরেক প্যারায়",
+          "en": "Body 1: Rising → Body 2: Falling"
+        },
+        {
+          "icon": "clock",
+          "t": "সময় অর্ধেক ভাগ করে",
+          "s": "মাঝখানে বড় ঘটনা থাকলে বা ট্রেন্ড পাল্টালে",
+          "en": "Body 1: 2005–2010 → Body 2: 2010–2020"
+        },
+        {
+          "icon": "link",
+          "t": "ছেদ থাকলে অবশ্যই তুলে ধরুন",
+          "s": "Although X started lower, it overtook Y in...",
+          "en": "overtook the urban figure in 2018"
+        }
+      ],
+      "vo": "Body paragraph লেখার আগে লাইনগুলোকে লজিক্যাল গ্রুপে ভাগ করুন। একই ট্রেন্ডের লাইন একসাথে লিখতে পারেন, যেমন বাড়ন্ত লাইন এক প্যারায়, কমন্ত লাইন আরেক প্যারায়। অথবা সময় অর্ধেক ভাগ করে লিখতে পারেন। আর ছেদ থাকলে সেটা অবশ্যই তুলে ধরবেন।",
+      "frames": 492
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভুল বনাম সঠিক: ",
+        "টেন্স ও ইউনিট"
+      ],
+      "rows": [
+        {
+          "bad": "The number is increasing from 1995 to 2015.",
+          "good": "The number increased from 1995 to 2015.",
+          "why": "অতীতের গ্রাফে Present Continuous নয়—Past Simple ব্যবহার করুন"
+        },
+        {
+          "bad": "Wheat exports increased by 50.",
+          "good": "Wheat exports increased from 20 million to 50 million tonnes.",
+          "why": "ইউনিট ছাড়া সংখ্যা অর্থহীন—Y-অক্ষের লেবেল দেখে লিখুন"
+        }
+      ],
+      "vo": "আরও কিছু চেনা ভুল। অতীতের গ্রাফে Present Continuous ব্যবহার করা যাবে না—Past Simple লাগবে। আর Y-অক্ষে in millions লেখা থাকলে, শুধু 50 না লিখে 50 million লিখতে হবে। ইউনিট ছাড়া সংখ্যা অর্থহীন।",
+      "frames": 444
+    },
+    {
+      "type": "points",
+      "head": [
+        "ধাপ ৪: ",
+        "ভোকাবুলারি ভ্যারাইটি"
+      ],
+      "items": [
+        {
+          "icon": "book-open",
+          "t": "Verb + Adverb",
+          "s": "rose sharply, declined gradually, fluctuated wildly",
+          "en": "climbed steadily, plummeted dramatically"
+        },
+        {
+          "icon": "book-open",
+          "t": "Adjective + Noun",
+          "s": "a sharp rise, a gradual decline, a dramatic surge",
+          "en": "a significant fluctuation, a steep fall"
+        },
+        {
+          "icon": "sparkles",
+          "t": "সর্বোচ্চ ও সর্বনিম্ন",
+          "s": "peak at, reach a peak of / bottom out at, hit a low of",
+          "en": "peaked at 32 million, hit a low of 10%"
+        }
+      ],
+      "vo": "ভোকাবুলারিতে ভ্যারাইটি দেখানো জরুরি। Verb আর Adverb-এর কম্বিনেশন ব্যবহার করুন, যেমন rose sharply বা declined gradually। আবার Adjective আর Noun-এর কম্বিনেশনও মিক্স করুন, যেমন a sharp rise বা a dramatic surge। সর্বোচ্চ বোঝাতে peak at, আর সর্বনিম্ন বোঝাতে bottom out at ব্যবহার করুন।",
+      "frames": 689
+    },
+    {
+      "type": "quizQ",
+      "q": "Y-অক্ষে 'in thousands' লেখা থাকলে, গ্রাফে 50 দেখালে কত বুঝবে?",
+      "o": [
+        "50",
+        "500",
+        "50,000",
+        "5,000"
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "ছোট্ট একটা পরীক্ষা। Y-অক্ষে in thousands লেখা থাকলে, আর গ্রাফে 50 দেখালে, আসল সংখ্যা কত? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 269
+    },
+    {
+      "type": "quizA",
+      "q": "Y-অক্ষে 'in thousands' লেখা থাকলে, গ্রাফে 50 দেখালে কত বুঝবে?",
+      "o": [
+        "50",
+        "500",
+        "50,000",
+        "5,000"
+      ],
+      "a": 2,
+      "ex": "in thousands মানে হাজার দিয়ে গুণ করতে হবে—50 × 1,000 = 50,000",
+      "vo": "সঠিক উত্তর 50,000। in thousands মানে হাজার দিয়ে গুণ করতে হবে। 50-কে হাজার দিয়ে গুণ করলে 50,000 হয়। ইউনিট ভুল পড়লে পুরো উত্তর ভুল হয়ে যায়, তাই সবসময় Y-অক্ষের লেবেল সাবধানে পড়বেন।",
+      "frames": 449
+    },
+    {
+      "type": "recap",
+      "items": [
+        "ওভারভিউতে ২-৩ বাক্যে বড় ট্রেন্ড, সংখ্যা ছাড়া",
+        "লাইন গ্রুপ করে তুলনা সহকারে Body লিখুন",
+        "প্রতি দাবির সাথে ইউনিটসহ ডেটা দিন",
+        "X-অক্ষ দেখে টেন্স ঠিক করুন, ভোকাবুলারিতে ভ্যারাইটি দেখান"
+      ],
+      "vo": "আজ যা শিখলাম: ওভারভিউতে বড় ট্রেন্ড বলুন, সংখ্যা দেবেন না। লাইন গ্রুপ করে তুলনা সহকারে Body লিখুন। প্রতি দাবির সাথে ইউনিটসহ ডেটা দিন। আর X-অক্ষ দেখে টেন্স ঠিক করে, ভোকাবুলারিতে ভ্যারাইটি দেখান।",
+      "frames": 456
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে লিখে দেখুন!",
+      "cta": "নিচে লাইন গ্রাফ প্রশ্নে ২০ মিনিটে লিখুন, এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "এবার নিচের বক্সে লাইন গ্রাফ প্রশ্ন পাবেন। ২০ মিনিটের টাইমার চালু করে লিখুন, জমা দিলে এআই প্রশিক্ষক চার ক্রাইটেরিয়ায় আনুমানিক ব্যান্ড আর লাইন-বাই-লাইন সংশোধন দেবে। নিয়মিত অনুশীলনেই উন্নতি হবে, শুভকামনা!",
+      "frames": 425
+    }
+  ]
+}

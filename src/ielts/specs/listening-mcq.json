@@ -1,0 +1,231 @@
+{
+  "id": "listening-mcq",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৩ · Listening",
+  "lessonNo": "পাঠ ৫",
+  "title": "Multiple choice ও multiple answer",
+  "next": "Map ও plan labelling: দিক ও অবস্থানের ভাষা",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "MCQ-র ফাঁদ চেনা ও Paraphrase বোঝা",
+        "Stem ও option-এর পার্থক্য দ্রুত পড়া",
+        "Elimination পদ্ধতিতে ভুল উত্তর বাদ দেওয়া",
+        "Multiple Answers-এ সঠিক সবগুলো চিহ্নিত করা"
+      ],
+      "vo": "স্বাগতম! Listening-এর MCQ অংশে অনেক পরীক্ষার্থী ফাঁদে পড়েন। আজ আমরা শিখব কীভাবে শব্দের ম্যাজিক কাটিয়ে Paraphrase আর অর্থ ধরে সঠিক উত্তর বাছতে হয়। পাঠ শেষে MCQ হবে আপনার আত্মবিশ্বাসের জায়গা।",
+      "frames": 444
+    },
+    {
+      "type": "myth",
+      "wrong": "যে option-এর শব্দ অডিওতে শুনব, সেটাই সঠিক",
+      "right": "Paraphrase আর পুরো বক্তব্য বুঝে অর্থ মেলাতে হবে",
+      "sub": "'social media' শুনেই সেটা সিলেক্ট করলে ফাঁদে পড়বেন, কারণ স্পিকার 'not to use' বলতে পারেন।",
+      "vo": "একটি ভুল ধারণা: 'MCQ-তে যে option-এর শব্দ অডিওতে শুনব, সেটাই সঠিক।' বাস্তবে স্পিকার প্রায়ই একই শব্দ বলে তারপর 'not' বা 'but' বলেন, আবার মূল উত্তরটি সম্পূর্ণ ভিন্ন কথায় paraphrase করেন। তাই শুধু শব্দ নয়, পুরো বক্তব্য বুঝতে হবে।",
+      "frames": 533
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভুল ও সঠিক পদ্ধতি: ",
+        "শব্দ নয়, অর্থ"
+      ],
+      "rows": [
+        {
+          "bad": "'creative concepts' শুনেই B (lack of creativity) সিলেক্ট করা",
+          "good": "'missing deadlines' শুনে C (poor communication) বেছে নেওয়া",
+          "why": "স্পিকার creative পছন্দ করলেও আসল সমস্যা ছিল ডেডলাইন মিস; অর্থ বুঝে paraphrase ধরতে হবে।"
+        }
+      ],
+      "vo": "দেখুন ভুল ও সঠিক পদ্ধতি। প্রশ্ন: Why did the company reject the agency? অপশনগুলোয় আছে high costs, lack of creativity, poor communication। অডিওতে স্পিকার বলছেন, 'we liked their creative concepts and prices were reasonable, but they kept missing deadlines।' ভুল: কেউ 'creative concepts' শুনে lack of creativity সিলেক্ট করল। সঠিক: 'missing deadlines' শুনে poor communication বেছে নিল, যেটা paraphrase।",
+      "frames": 936
+    },
+    {
+      "type": "points",
+      "head": [
+        "MCQ কৌশল: ",
+        "চার ধাপ"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "Stem বুঝুন",
+          "s": "কারণ, সময়, মতামত — কী চাওয়া হচ্ছে চিহ্নিত করুন",
+          "en": "Why did... / What is the main reason..."
+        },
+        {
+          "icon": "eye",
+          "t": "পার্থক্য চিহ্নিত",
+          "s": "verb, adjective বা সময়ের পার্থক্য underline করুন",
+          "en": "shortage vs technical faults"
+        },
+        {
+          "icon": "brain",
+          "t": "Synonym ভাবুন",
+          "s": "স্পিকার কী বলবেন আন্দাজ করুন",
+          "en": "shortage → lack of, insufficient"
+        },
+        {
+          "icon": "list-checks",
+          "t": "Elimination করুন",
+          "s": "বিপরীত বা ভিন্ন সময় বললেই বাদ দিন",
+          "en": "not to use, only at weekends"
+        }
+      ],
+      "vo": "MCQ-র জন্য চার ধাপ। প্রথমে stem পড়ে প্রশ্নের ফোকাস ধরুন—কারণ, সময়, মতামত। দ্বিতীয়, প্রতিটি option-এর পার্থক্য শব্দ চিহ্নিত করুন। তৃতীয়, মনে মনে synonym ভাবুন, যেমন shortage → lack of। চতুর্থ, elimination করুন, বিপরীত বা ভিন্ন সময়ের অপশন বাদ দিন।",
+      "frames": 634
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "Listening ফাঁকে আগাম প্রশ্ন পড়ুন, নাহলে পিছিয়ে পড়বেন।",
+      "sub": "সময় বাঁচাতে Stem ও পার্থক্যকারী অংশে নজর দিন।",
+      "vo": "সাবধান! MCQ-তে option পড়তে সময় নিয়ে আটকে গেলে পরের প্রশ্নের অডিও মিস করবেন। তাই রেকর্ডিংয়ের আগে বা ফাঁকে প্রশ্নগুলো দ্রুত পড়ে নিন, এবং শুধু পার্থক্যকারী অংশে চোখ রাখুন।",
+      "frames": 367
+    },
+    {
+      "type": "exam",
+      "head": [
+        "প্রথম MCQ: ",
+        "সিঙ্গেল আনসার"
+      ],
+      "paper": {
+        "title": "Library Workshop Inquiry",
+        "rows": [
+          {
+            "label": "Question",
+            "ans": "What is the main focus of the workshop this term?"
+          },
+          {
+            "n": 1,
+            "label": "Answer (A, B, or C)"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "The library is offering a referencing workshop this term. We were going to cover plagiarism, but that was last term's topic, so we dropped it. Instead, we'll focus on citation styles like APA and Harvard, and how to use reference managers such as EndNote. There's a separate session on note-taking next month."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Librarian",
+          "text": "The library is offering a referencing workshop this term. We were going to cover plagiarism, but that was last term's topic, so we dropped it. Instead, we'll focus on citation styles like APA and Harvard, and how to use reference managers such as EndNote. There's a separate session on note-taking next month.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "citation styles",
+        "reference managers"
+      ],
+      "strike": [
+        "plagiarism",
+        "note-taking"
+      ],
+      "answer": "B",
+      "tip": "Paraphrase দেখুন: 'referencing workshop' আর 'citation styles' ইঙ্গিত দিচ্ছে।",
+      "vo": "এখন একটি Listening MCQ শুনুন। লাইব্রেরির ওয়ার্কশপ নিয়ে সংক্ষিপ্ত অডিও। প্রশ্ন ও option দেখা যাবে। শোনার পর উত্তর নিজে থেকে পূরণ হবে।",
+      "clip": "clip06.mp3",
+      "clipFrames": 598,
+      "frames": 298
+    },
+    {
+      "type": "exam",
+      "head": [
+        "দ্বিতীয় MCQ: ",
+        "মাল্টিপল আনসার"
+      ],
+      "paper": {
+        "title": "Student Centre Facilities",
+        "rows": [
+          {
+            "label": "Question",
+            "ans": "Which TWO facilities are open 24 hours?"
+          },
+          {
+            "n": 1,
+            "label": "Answers (TWO letters)"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "Let me tell you about our student centre. The cinema is only open at weekends. The gym, I'm happy to say, is accessible 24/7 with your student card. The library is open long hours but closes at midnight. The art studio requires advance booking and is not always available. The computer lab, however, is open round the clock, so you can work there any time."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Tour Guide",
+          "text": "Let me tell you about our student centre. The cinema is only open at weekends. The gym, I'm happy to say, is accessible 24/7 with your student card. The library is open long hours but closes at midnight. The art studio requires advance booking and is not always available. The computer lab, however, is open round the clock, so you can work there any time.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "24/7",
+        "round the clock"
+      ],
+      "strike": [
+        "only open at weekends",
+        "closes at midnight",
+        "requires advance booking"
+      ],
+      "answer": "B, E",
+      "tip": "'24/7' বা 'round the clock' = all the time। Multiple Answers-এ সময়সূচি মনোযোগ দিয়ে শুনুন।",
+      "vo": "এবার Multiple Answer প্রশ্ন। স্টুডেন্ট সেন্টারের সুবিধা নিয়ে অডিও। 'Which TWO facilities are open 24 hours?' স্পিকার সময়সূচি বলবেন, আপনি elimination করে সঠিক দুটি চিহ্নিত করবেন।",
+      "clip": "clip07.mp3",
+      "clipFrames": 725,
+      "frames": 389
+    },
+    {
+      "type": "quizQ",
+      "q": "Listening MCQ-তে স্পিকার বলেন, 'We had plenty of raw materials, but the design was flawed.' অপশন A: shortage of raw materials। আপনি কী করবেন?",
+      "o": [
+        "সিলেক্ট করবেন",
+        "বাদ দেবেন",
+        "সব বাদ দেবেন",
+        "না শুনেই এড়িয়ে যাবেন"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট কুইজ: Listening MCQ-তে স্পিকার বলেন, 'We had plenty of raw materials, but the design was flawed.' অপশন A-তে আছে shortage of raw materials। আপনি কী করবেন? ক) সিলেক্ট করবেন, খ) বাদ দেবেন, গ) সব বাদ দেবেন, ঘ) না শুনেই এড়িয়ে যাবেন। ভাবুন।",
+      "frames": 641
+    },
+    {
+      "type": "quizA",
+      "q": "Listening MCQ-তে স্পিকার বলেন, 'We had plenty of raw materials, but the design was flawed.' অপশন A: shortage of raw materials। আপনি কী করবেন?",
+      "o": [
+        "সিলেক্ট করবেন",
+        "বাদ দেবেন",
+        "সব বাদ দেবেন",
+        "না শুনেই এড়িয়ে যাবেন"
+      ],
+      "a": 1,
+      "ex": "plenty থাকলে shortage নয়, বরং উল্টো; তাই বাদ দিন।",
+      "vo": "সঠিক উত্তর: খ) বাদ দেবেন। কারণ plenty মানে পর্যাপ্ত, অভাব নেই। তাই shortage নয়, বরং বিপরীত। Elimination-এর এটাই মূলকথা—বিপরীত শোনা মাত্রই অপশন বাদ দিন।",
+      "frames": 384
+    },
+    {
+      "type": "recap",
+      "items": [
+        "MCQ-তে শব্দ নয়, অর্থ ধরুন; Paraphrase বুঝুন",
+        "Stem ও অপশনের পার্থক্য আগে দেখুন, synonym ভাবুন",
+        "Elimination দিয়ে ভুল অপশন বাদ দিন",
+        "Multiple Answer-এ প্রশ্নের শর্ত বুঝে সব সঠিক চিহ্নিত করুন"
+      ],
+      "vo": "আজকের নির্যাস: MCQ-তে শব্দ নয়, অর্থ ধরুন; Paraphrase বুঝুন। Stem ও পার্থক্য আগে দেখে নিন, synonym কল্পনা করুন। Elimination দিয়ে ভুল অপশন বাদ দিতে থাকুন। Multiple Answer-এ প্রশ্নের শর্ত মনোযোগে বুঝুন।",
+      "frames": 490
+    },
+    {
+      "type": "outro",
+      "head": "এবার MCQ ড্রিলে হাত লাগান!",
+      "cta": "নিচে মডিউলের ড্রিল: ৫টি সিঙ্গেল, ২টি মাল্টিপল, অডিও ও ব্যাখ্যাসহ",
+      "vo": "এবার নিচের MCQ ড্রিলে হাত লাগান। পাঁচটি সিঙ্গেল-আনসার আর দুটি মাল্টিপল-আনসার, ব্রিটিশ অ্যাকসেন্টের অডিও। ভুল করলে ব্যাখ্যা দেখে শিখুন, তারপর আবার চেষ্টা করুন। শুভকামনা!",
+      "frames": 382
+    }
+  ]
+}

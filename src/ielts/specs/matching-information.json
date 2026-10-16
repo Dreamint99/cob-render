@@ -1,0 +1,275 @@
+{
+  "id": "matching-information",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৪ · Reading",
+  "lessonNo": "পাঠ ৭",
+  "title": "Matching information, features ও sentence endings",
+  "next": "Sentence, summary, note ও table completion",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Matching Information: তথ্য ধারাবাহিক নয়, scan কৌশল",
+        "Matching Features: নাম আগে চিহ্নিত করে মেলানো",
+        "Sentence Endings: অর্থ + ব্যাকরণ দুটোই যাচাই",
+        "NB: একই অক্ষর বারবার ব্যবহারের ফাঁদ বোঝা"
+      ],
+      "vo": "আজ Reading-এর তিনটা ম্যাচিং প্রশ্ন নিয়ে কাজ করব। Matching Information, Features আর Sentence Endings—এই তিনটাই সঠিক কৌশলে করলে সময় বাঁচবে আর নম্বর বাড়বে। শেষে আসল প্যাসেজে অনুশীলনও করব আমরা।",
+      "frames": 413
+    },
+    {
+      "type": "myth",
+      "wrong": "Matching Information-এর প্রশ্ন প্যাসেজের ধারাবাহিকতা অনুসরণ করে",
+      "right": "একেবারেই না—প্রশ্নগুলো এলোমেলো, scan করতে হবে",
+      "sub": "NB You may use any letter more than once",
+      "vo": "অনেকে ভাবেন, Matching Information-এ প্রথমে যা আসবে, তা আগের অনুচ্ছেদে পাবেন। কিন্তু প্রশ্নগুলোর ক্রম প্যাসেজ অনুযায়ী না, তাই পুরো প্যাসেজ scan করা জরুরি। আর 'any letter more than once' কথাটা মাথায় রাখতে হবে।",
+      "frames": 406
+    },
+    {
+      "type": "points",
+      "head": [
+        "Matching Information: ",
+        "সঠিক কৌশল"
+      ],
+      "items": [
+        {
+          "icon": "list-checks",
+          "t": "সবার শেষে সমাধান করুন",
+          "s": "অন্য প্রশ্ন করে ধারণা তৈরি হলে তথ্য সহজে খুঁজবেন"
+        },
+        {
+          "icon": "eye",
+          "t": "প্রতিটি প্রশ্নে কী-ওয়ার্ড scan করুন",
+          "s": "$2 million, delayed, mostly women — সমার্থক খুঁজুন"
+        },
+        {
+          "icon": "alert",
+          "t": "একই অক্ষর বারবার হতে পারে",
+          "s": "NB You may use any letter more than once মনে রাখুন"
+        }
+      ],
+      "vo": "প্রথমেই Matching Information ধরবেন না। আগে True/False বা Summary শেষ করুন, তাতে প্যাসেজ চেনা হয়ে যাবে। তারপর প্রশ্নের কী-ওয়ার্ড ধরে scan করলে উত্তর দ্রুত পাবেন। আর প্রতিটি অক্ষর একবারই হবে—এই ভুল ধারণা রাখবেন না।",
+      "frames": 458
+    },
+    {
+      "type": "exam",
+      "head": [
+        "উদাহরণ: ",
+        "কী-ওয়ার্ড $2 million"
+      ],
+      "paper": {
+        "title": "Questions 1–3: Which paragraph?",
+        "rows": [
+          {
+            "label": "a mention of a specific amount of money received for a project",
+            "n": 1
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "Paragraph E: ... the Bangladesh Tea Board has launched a project to promote organic tea. The initiative, which received a grant of $2 million from an international donor, aims to convert 20% of the country’s tea area to organic by 2030."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Passage",
+          "text": "Paragraph E: ... the Bangladesh Tea Board has launched a project to promote organic tea. The initiative, which received a grant of $2 million from an international donor, aims to convert 20% of the country’s tea area to organic by 2030.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "$2 million"
+      ],
+      "answer": "E",
+      "tip": "grant of $2 million = নির্দিষ্ট অর্থের উল্লেখ, তাই E",
+      "vo": "এবার আসল প্যাসেজে দেখি। প্রশ্নে 'a specific amount of money' বলা আছে। Paragraph E-তে পাবেন 'a grant of $2 million'। অর্থের পরিমাণটা scan করে সহজেই উত্তর E লিখবেন।",
+      "clip": "clip04.mp3",
+      "clipFrames": 506,
+      "frames": 384
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "একটি অনুচ্ছেদ একাধিক প্রশ্নের উত্তর হতে পারে, আবার কোনোটি নাও হতে পারে",
+      "sub": "NB You may use any letter more than once — নির্দেশনা ভুলবেন না",
+      "vo": "সতর্কতা—Matching Information-এ প্রতিটি অনুচ্ছেদ একবার ব্যবহার হবে, এমন কোনো কথা নেই। একই অনুচ্ছেদ দুটো প্রশ্নে লাগতে পারে, আবার একেবারেই ব্যবহার না-ও হতে পারে। নির্দেশনাটা চোখে রাখুন।",
+      "frames": 391
+    },
+    {
+      "type": "points",
+      "head": [
+        "Matching Features: ",
+        "নাম আগে চিহ্নিত করুন"
+      ],
+      "items": [
+        {
+          "icon": "book-open",
+          "t": "প্যাসেজে সব নাম দাগিয়ে নিন",
+          "s": "A. Rahman, B. Smith যেখানে আছে সব জায়গায়"
+        },
+        {
+          "icon": "target",
+          "t": "প্রতিটি নামের পাশের বক্তব্য পড়ুন",
+          "s": "এক নাম বিভিন্ন অনুচ্ছেদে থাকলে সব পড়তে হবে"
+        },
+        {
+          "icon": "list-checks",
+          "t": "প্রশ্নের statement-টি মেলান",
+          "s": "একই নাম একাধিক উত্তরেও লাগতে পারে"
+        }
+      ],
+      "vo": "Matching Features-এ প্রথমেই প্যাসেজে চোখ বুলিয়ে সব নাম বা বৈশিষ্ট্য দাগিয়ে ফেলুন। তারপর প্রতিটি নামের পাশের উক্তি পড়ে প্রশ্নের বক্তব্যের সাথে মিলিয়ে দিন। মনে রাখবেন, একই নাম দুটো ভিন্ন প্রশ্নের উত্তর হতে পারে।",
+      "frames": 422
+    },
+    {
+      "type": "exam",
+      "head": [
+        "উদাহরণ: ",
+        "নতুন জাত উদ্ভাবন"
+      ],
+      "paper": {
+        "title": "Questions 4–6: Match researcher (A or B)",
+        "rows": [
+          {
+            "label": "introduced new plant varieties that significantly raised output",
+            "n": 1
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "Paragraph C: One notable figure ... Dr. Anisur Rahman, who introduced high-yielding clones in the 1990s. His research led to a 30% increase in production per hectare."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Passage",
+          "text": "Paragraph C: One notable figure ... Dr. Anisur Rahman, who introduced high-yielding clones in the 1990s. His research led to a 30% increase in production per hectare.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "high-yielding clones",
+        "30% increase"
+      ],
+      "answer": "A",
+      "tip": "Dr. Rahman introduced high-yielding clones -> raised output, so A",
+      "vo": "প্রশ্ন বলছে, 'introduced new plant varieties that significantly raised output'। Paragraph C-তে Dr. Anisur Rahman-এর high-yielding clones আর 30% increase দেখেই মিলিয়ে নেবেন। এভাবে প্রতিটি statement-এর জন্য নাম scan করুন।",
+      "clip": "clip07.mp3",
+      "clipFrames": 394,
+      "frames": 451
+    },
+    {
+      "type": "compare",
+      "head": [
+        "Sentence Endings: ",
+        "ভুল বনাম সঠিক"
+      ],
+      "rows": [
+        {
+          "bad": "শুধু ব্যাকরণ দেখে ending C নেওয়া: was started ... during British rule (",
+          "good": "প্যাসেজে 1840s ও British planters দেখে অর্থ মেলানো",
+          "why": "পরীক্ষক সব ending-ই ব্যাকরণে মেলান; অর্থ ছাড়া ভুল"
+        },
+        {
+          "bad": "প্যাসেজ না পড়ে সাধারণ জ্ঞান দিয়ে ending A বেছে নেওয়া",
+          "good": "প্রথমে বাক্যের শুরু প্যাসেজে খুঁজে, তারপর শেষাংশের অর্থ যাচাই",
+          "why": "প্রশ্ন প্যাসেজের ধারাবাহিকতায়, তাই অবস্থান খুঁজে পড়তে হবে"
+        }
+      ],
+      "vo": "Sentence Endings-এ সবচেয়ে বড় ফাঁদ হলো শুধু ব্যাকরণ মেলানো। পরীক্ষক এমনভাবে ending তৈরি করেন যে প্রায় সবই ব্যাকরণে খাপে খায়। তাই প্যাসেজের ওই অংশ পড়ে অর্থ বুঝে তারপর শেষাংশ বাছতে হবে।",
+      "frames": 401
+    },
+    {
+      "type": "exam",
+      "head": [
+        "উদাহরণ: ",
+        "প্রথম চা–বাগান"
+      ],
+      "paper": {
+        "title": "Questions 7–9: Complete the sentence (A–E)",
+        "rows": [
+          {
+            "label": "The first tea garden in Bangladesh was started ...",
+            "n": 1
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "Paragraph A: The history of tea cultivation in Bangladesh dates back to the 1840s, when the first experimental tea garden was established in the Sylhet region. The British planters found the climate and soil highly suitable..."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Passage",
+          "text": "Paragraph A: The history of tea cultivation in Bangladesh dates back to the 1840s, when the first experimental tea garden was established in the Sylhet region. The British planters found the climate and soil highly suitable...",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "1840s",
+        "British planters"
+      ],
+      "answer": "C",
+      "tip": "1840s, British planters = during British colonial rule, ending C",
+      "vo": "প্রথম বাগান কবে শুরু? Paragraph A-তে পাচ্ছি 1840s আর British planters। কাজেই শেষাংশ C—'during the period of British colonial rule'। অর্থ পুরোপুরি মিলে গেছে।",
+      "clip": "clip09.mp3",
+      "clipFrames": 461,
+      "frames": 398
+    },
+    {
+      "type": "quizQ",
+      "q": "Matching Information প্রশ্ন কখন সমাধান করা উচিত?",
+      "o": [
+        "প্রথমবার পড়ার সময়ই",
+        "অন্যান্য প্রশ্ন শেষ করার পর",
+        "শুধু শেষ paragraph দেখে",
+        "প্যাসেজ না পড়েই"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট একটা কৌশলগত প্রশ্ন। Matching Information-এর প্রশ্ন কখন ধরবেন? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 192
+    },
+    {
+      "type": "quizA",
+      "q": "Matching Information প্রশ্ন কখন সমাধান করা উচিত?",
+      "o": [
+        "প্রথমবার পড়ার সময়ই",
+        "অন্যান্য প্রশ্ন শেষ করার পর",
+        "শুধু শেষ paragraph দেখে",
+        "প্যাসেজ না পড়েই"
+      ],
+      "a": 1,
+      "ex": "অন্য প্রশ্ন শেষে পুরো প্যাসেজের ধারণা থাকে, তাই তথ্য খোঁজা সহজ",
+      "vo": "সঠিক উত্তর খ। আগে True/False বা Summary করে নিলে পুরো প্যাসেজের মানচিত্র তৈরি হয়, তখন Matching Information দ্রুত করা যায়। প্রথমবার পড়ার সময় ধরলে সময় নষ্ট হবে।",
+      "frames": 382
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Matching Information একদম শেষে করবেন, scan করুন",
+        "NB: একাধিক letter একাধিকবার ব্যবহার হতে পারে",
+        "Matching Features: আগে নাম দাগিয়ে তারপর statement পড়ুন",
+        "Sentence Endings: অর্থ + ব্যাকরণ দুটোই মিলিয়ে দেখবেন"
+      ],
+      "vo": "মনে রাখবেন: Matching Information শেষে, প্রতিটি অক্ষর বারবার হতে পারে। Matching Features-এ নাম scan। Sentence Endings-এ শুধু ব্যাকরণ নয়, অর্থও যাচাই। এই কৌশলগুলো আয়ত্তে আনলে ম্যাচিং প্রশ্ন আপনার শক্তিতে পরিণত হবে।",
+      "frames": 470
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে অনুশীলন করুন",
+      "cta": "নিচের প্যাসেজে ৩ ধরনের ম্যাচিং প্রশ্ন সমাধান করুন",
+      "vo": "এবার নিচে একটি নতুন মৌলিক প্যাসেজ দেওয়া আছে। সেখানে Matching Information, Features আর Sentence Endings—তিন ধরনের প্রশ্ন একসাথে সমাধান করে দেখুন। উত্তর মিলিয়ে ফিডব্যাক নিন। শুভকামনা!",
+      "frames": 384
+    }
+  ]
+}

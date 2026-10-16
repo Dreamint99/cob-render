@@ -1,0 +1,221 @@
+{
+  "id": "completion-tasks",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৪ · Reading",
+  "lessonNo": "পাঠ ৮",
+  "title": "Sentence, summary, note ও table completion",
+  "next": "Multiple choice ও short answer",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "চার ধরনের Completion টাস্কের কাঠামো বোঝা",
+        "শব্দসীমার ভয়ংকর ফাঁদ এড়ানো",
+        "বাংলাভাষীদের সাধারণ ভুল সংশোধন"
+      ],
+      "vo": "Reading পরীক্ষায় Completion টাস্কে ভালো করতে চাইলে চার ধরনের কাঠামো, শব্দসীমার কড়া নিয়ম আর বাংলাভাষীদের চেনা ভুলগুলো জানতে হবে। আজকের পাঠ শেষে সব ফাঁদ আপনি সামলাতে পারবেন।",
+      "frames": 374
+    },
+    {
+      "type": "myth",
+      "wrong": "Completion টাস্ক সহজ, শুধু কিছু শব্দ বসালেই নম্বর পাওয়া যায়",
+      "right": "প্যারাফ্রেজ, ব্যাকরণ ও শব্দসীমার ফাঁদে না পড়লে নম্বর আসে না",
+      "sub": "একটি শব্দ বেশিই উত্তরের সব নম্বর কেড়ে নিতে পারে",
+      "vo": "অনেকে ভাবেন, Completion মানে ফাঁকা জায়গায় কিছু শব্দ বসানো, খুব সোজা। কিন্তু না, শব্দসীমার মতো কড়া নিয়ম আর প্যারাফ্রেজ চেনার না জানলে সহজ প্রশ্নেও নম্বর যাবে।",
+      "frames": 343
+    },
+    {
+      "type": "points",
+      "head": [
+        "Sentence, summary, note ও table: ",
+        "চার ধরনের Completion"
+      ],
+      "items": [
+        {
+          "icon": "pen-line",
+          "t": "Sentence Completion",
+          "s": "বাক্যের শূন্যস্থান, প্যাসেজ থেকে একই শব্দ"
+        },
+        {
+          "icon": "file-text",
+          "t": "Summary Completion",
+          "s": "অনুচ্ছেদের সারাংশ; কখনো অপশন বাক্স থেকে"
+        },
+        {
+          "icon": "list-checks",
+          "t": "Note Completion",
+          "s": "বুলেট পয়েন্ট বা নোটের খালি জায়গা"
+        },
+        {
+          "icon": "layers",
+          "t": "Table Completion",
+          "s": "টেবিলের খালি ঘর পূরণ"
+        }
+      ],
+      "vo": "Completion টাস্ক চাররকম: Sentence Completion-এ বাক্যের ফাঁকা জায়গা, Summary Completion-এ সারাংশ, Note Completion-এ নোট, আর Table Completion-এ টেবিল। সবই একই দক্ষতা পরখ করে — প্যারাফ্রেজ বুঝে ঠিক শব্দ তোলা।",
+      "frames": 439
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "শব্দসীমা অমান্য করলে উত্তর ভুল",
+      "sub": "নির্দেশনায় গোল দাগ দিন। ONE WORD ONLY থাকলে ‘leather belt’ দিলে পুরো নম্বর যাবে।",
+      "vo": "সবচেয়ে বড় ফাঁদটা হলো শব্দসীমা। ONE WORD ONLY লিখা থাকলে ‘leather belt’ দিলে উত্তর শূন্য, বানান ঠিক থাকলেও। প্রশ্নপত্রের নির্দেশনায় পরীক্ষার শুরুতেই গোল দাগ দিন।",
+      "frames": 355
+    },
+    {
+      "type": "points",
+      "head": [
+        "ধাপে ধাপে ",
+        "উত্তর বের করার পদ্ধতি"
+      ],
+      "items": [
+        {
+          "icon": "alert",
+          "t": "শব্দসীমায় গোল দাগ দিন",
+          "s": "নির্দেশনা চোখে পড়ার মতো চিহ্নিত করুন"
+        },
+        {
+          "icon": "brain",
+          "t": "শূন্যস্থানের আশপাশের ব্যাকরণ অনুমান",
+          "s": "an ______ থাকলে বুঝবেন vowel noun আসবে"
+        },
+        {
+          "icon": "map-pin",
+          "t": "প্যাসেজের নির্দিষ্ট অনুচ্ছেদ চিহ্নিত",
+          "s": "উপ-শিরোনাম দেখে ১–৩টি অনুচ্ছেদে সীমাবদ্ধ করুন"
+        },
+        {
+          "icon": "spell-check",
+          "t": "হুবহু শব্দ তুলুন, রূপ বদলাবেন না",
+          "s": "singular/plural, verb form ঠিক রাখুন"
+        }
+      ],
+      "vo": "প্রথমে শব্দসীমার নির্দেশনায় গোল দাগ দিন। শূন্যস্থানের আগে-পরে দেখে ব্যাকরণ আর অর্থ বুঝুন। প্যাসেজের নির্দিষ্ট অংশ বার করে হুবহু শব্দ তুলে নিন, কোনো রূপ বদল করবেন না।",
+      "frames": 377
+    },
+    {
+      "type": "compare",
+      "head": [
+        "বাংলাভাষীদের ",
+        "চেনা ভুল"
+      ],
+      "rows": [
+        {
+          "bad": "researcher (প্যাসেজে researchers)",
+          "good": "researchers",
+          "why": "প্যাসেজের plural-কে singular করে দিলে উত্তর ভুল"
+        },
+        {
+          "bad": "local (শব্দটি লিখেছেন)",
+          "good": "A",
+          "why": "অপশন বেছে নেওয়ার প্রশ্নে কেবল অক্ষর লিখতে হবে"
+        }
+      ],
+      "vo": "দুটি চেনা ভুল খেয়াল করুন। প্যাসেজে researchers থাকলে অনেকেই plural বাদ দিয়ে researcher লিখে, যে কারণে নম্বর যাবে। আর বাক্স থেকে অপশন বেছে নেওয়ার প্রশ্নে word না লিখে অক্ষর, যেমন A, লিখতে হবে।",
+      "frames": 434
+    },
+    {
+      "type": "exam",
+      "head": [
+        "বাক্স-ভিত্তিক Summary: ",
+        "শব্দ নয়, অক্ষর বসান"
+      ],
+      "paper": {
+        "title": "Green Roof Project Summary (Options A-E)",
+        "rows": [
+          {
+            "label": "The Green Roof Project began in (1) ______ with the aim of tackling heat and air pollution.",
+            "ans": "D"
+          },
+          {
+            "label": "Initially, it focused on 50 buildings in Mirpur, but by 2023, more than (2) ______ roofs had plants.",
+            "ans": "E"
+          },
+          {
+            "n": 3,
+            "label": "The plants are mainly (3) ______ species that need minimal water."
+          },
+          {
+            "n": 4,
+            "label": "Residents receive (4) ______ to help them care for the roofs."
+          },
+          {
+            "n": 5,
+            "label": "A survey found that most people experienced a (5) ______ in indoor heat."
+          }
+        ]
+      },
+      "focus": 3,
+      "clipText": [
+        {
+          "who": "N",
+          "text": "The Green Roof Project in Dhaka was launched in 2020. By 2023, over 120 roofs had been covered with plants. The plants used are mostly local species that require little water. The project also provides training for residents. A survey found that 85% of participants reported a noticeable drop in indoor temperature."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Passage",
+          "text": "The Green Roof Project in Dhaka was launched in 2020. By 2023, over 120 roofs had been covered with plants. The plants used are mostly local species that require little water. The project also provides training for residents. A survey found that 85% of participants reported a noticeable drop in indoor temperature.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "local"
+      ],
+      "strike": [],
+      "answer": "A",
+      "tip": "বাক্স থেকে অপশন বেছে নেওয়ার প্রশ্নে শুধু অক্ষর লিখুন, শব্দ নয়।",
+      "vo": "নিচের প্যাসেজ শুনুন। প্রশ্নপত্রে সারাংশটি দেখুন। তৃতীয় শূন্যস্থানে local species-এর কথা বলা হয়েছে। প্যাসেজে local শব্দটি পাওয়া গেছে, কিন্তু বাক্সে অপশন থাকায় উত্তর হবে A, local লেখা যাবে না।",
+      "clip": "clip07.mp3",
+      "clipFrames": 737,
+      "frames": 432
+    },
+    {
+      "type": "quizQ",
+      "q": "ONE WORD ONLY নির্দেশনায়, ‘leather belt’ লিখলে কী হবে?",
+      "o": [
+        "শুধু leather নিতে হবে",
+        "শুধু belt নিতে হবে",
+        "উত্তর সম্পূর্ণ ভুল",
+        "belt শব্দটি ইগনোর হবে"
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "আচ্ছা, একটি প্রশ্ন। ONE WORD ONLY নির্দেশনায় যদি আপনি ‘leather belt’ লেখেন, তাহলে কী হবে? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 240
+    },
+    {
+      "type": "quizA",
+      "q": "ONE WORD ONLY নির্দেশনায়, ‘leather belt’ লিখলে কী হবে?",
+      "o": [
+        "শুধু leather নিতে হবে",
+        "শুধু belt নিতে হবে",
+        "উত্তর সম্পূর্ণ ভুল",
+        "belt শব্দটি ইগনোর হবে"
+      ],
+      "a": 2,
+      "ex": "শব্দসীমা অতিক্রম করলে পুরো উত্তর শূন্য। সঠিক উত্তর হবে ‘belt’।",
+      "vo": "উত্তর হবে: সম্পূর্ণ ভুল। কারণ শব্দসীমা অমান্য করলে পুরো উত্তরই বাতিল। এখানে নির্দেশনা অনুযায়ী কেবল ‘belt’ লিখতে হবে।",
+      "frames": 269
+    },
+    {
+      "type": "recap",
+      "items": [
+        "শব্দসীমা সর্বাগ্রে মানুন, নির্দেশনায় গোল দাগ দিন",
+        "প্যাসেজ থেকে হুবহু শব্দ তুলুন, রূপ বদলাবেন না",
+        "বাক্স থেকে অপশন বেছে নেওয়ার প্রশ্নে অক্ষর লিখুন",
+        "plural/singular ও বানানের ভুল এড়ান"
+      ],
+      "vo": "আজকের পাঠের সারমর্ম: শব্দসীমা কঠোরভাবে মেনে চলুন, প্যারাফ্রেজ বুঝে প্যাসেজ থেকে হুবহু শব্দ নিন, বাক্স অপশনে অক্ষর লিখুন, আর plural-এর দিকে চোখ রাখুন।",
+      "frames": 360
+    },
+    {
+      "type": "outro",
+      "head": "এবার আসল Reading অনুশীলন!",
+      "cta": "নিচের ড্রিলে ১০টি Completion প্রশ্ন, সময় ধরে প্র্যাকটিস করুন",
+      "vo": "এবার নিচের ড্রিলে ১০টি Completion প্রশ্নে অনুশীলন করুন। সময় ধরে করুন, তারপর এআই প্রশিক্ষকের ব্যাখ্যা দেখুন। অনুশীলনই উন্নতির চাবিকাঠি।",
+      "frames": 310
+    }
+  ]
+}

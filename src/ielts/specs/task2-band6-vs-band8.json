@@ -1,0 +1,169 @@
+{
+  "id": "task2-band6-vs-band8",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৭ · Writing Task 2 (দুই ট্র্যাকেই)",
+  "lessonNo": "পাঠ ৯",
+  "title": "ব্যান্ড ৬ বনাম ব্যান্ড ৮ প্রবন্ধ: লাইন ধরে তুলনা",
+  "next": "৪০ মিনিটে লেখা ও শেষ ৩ মিনিটের চেকলিস্ট",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "ব্যান্ড ৬ আর ৮-র আসল পার্থক্য চেনা",
+        "ভূমিকা, শরীর, উপসংহারের গঠন তুলনা",
+        "চার মানদণ্ডে উন্নতির কৌশল",
+        "নিজের লেখা এআই প্রশিক্ষকে যাচাই"
+      ],
+      "vo": "স্বাগতম! আজ আমরা একই Writing Task 2 প্রশ্নের দুটি উত্তর সরাসরি তুলনা করব—ব্যান্ড ৬ আর ব্যান্ড ৮। পার্থক্যটা দুর্বোধ্য শব্দে নয়, যুক্তির গভীরতা, কাঠামো আর নির্ভুলতায়। এই তুলনা দেখলে আপনি নিজেই বুঝতে পারবেন আপনার লেখা কোন জায়গায় আছে আর কীভাবে উন্নতি করবেন।",
+      "frames": 610
+    },
+    {
+      "type": "myth",
+      "wrong": "ব্যান্ড ৮ পেতে দুর্বোধ্য শব্দ আর জটিল আইডিয়া দরকার",
+      "right": "একই সহজ আইডিয়া ঠিকভাবে unpack করলেই ব্যান্ড ৮ হয়",
+      "sub": "শব্দ নয়, idea develop আর error-free বাক্যই আসল",
+      "vo": "অনেকে ভাবেন, ব্যান্ড ৮ পেতে দুর্বোধ্য শব্দ আর জটিল আইডিয়া দরকার। আসলে, একই সহজ আইডিয়াকে ঠিকভাবে unpack করতে পারলেই ব্যান্ড ৮ হয়। ভূমিকায় নিজের মত পরিষ্কার করা আর ভুলহীন বাক্যই আসল—মুখস্থ শব্দ নয়।",
+      "frames": 449
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভূমিকা তুলনা: ",
+        "নিজের মত স্পষ্ট করা"
+      ],
+      "rows": [
+        {
+          "tag": "TR",
+          "bad": "Nowadays public transport is a big issue. Some people think government should spend money on fast trains. Other people think government should spend money on other things. In this essay I will discuss both sides and give my opinion.",
+          "good": "While some argue that state budgets should prioritize high-speed public transit networks, others contend that public funds are better allocated to pressing areas such as healthcare and environmental protection. In my view, although rapid transit boosts economic productivity, addressing foundational social needs and green local transport should take precedence.",
+          "why": "মতামত আগেই স্পষ্ট, নির্দিষ্ট উদাহরণ ও collocation"
+        }
+      ],
+      "vo": "ভূমিকা তুলনা করি। ব্যান্ড ৬-র লেখা প্রশ্নের শব্দ repeat করে, এবং নিজের মত পরে বলব বলে অপেক্ষা করে—Task Response-এ এটা বড় ক্ষতি। ব্যান্ড ৮ প্রথম বাক্যেই নিজের অবস্থান পরিষ্কার করে, নির্দিষ্ট উদাহরণ আর নির্ভুল collocation ব্যবহার করে।",
+      "frames": 504
+    },
+    {
+      "type": "compare",
+      "head": [
+        "Body তুলনা: ",
+        "যুক্তির গভীরতা ও cohesion"
+      ],
+      "rows": [
+        {
+          "tag": "CC",
+          "bad": "Firstly, fast train is very good for people. People can go to office quickly. Moreover, it helps business to grow. Also, it reduces traffic jam on road.",
+          "good": "Advocates of high-speed rail emphasize its ability to stimulate regional economic growth by connecting distant labor markets. When travel times between major commercial hubs are halved, professionals can commute effortlessly, which relieves housing pressure in overcrowded capital cities and attracts corporate investment to smaller towns.",
+          "why": "একটি idea ৪ ধাপে unpack, invisible cohesion"
+        }
+      ],
+      "vo": "Body paragraph-এ ব্যান্ড ৬ তিনটা আলাদা পয়েন্ট ছুড়ে দেয়, কোনোটাই fully develop করে না। ব্যান্ড ৮ একটা মাত্র core idea-কে চার ধাপে unpack করে: claim, কারণ, উদাহরণ, প্রভাব—এতে অনুচ্ছেদটি একটি logical chain-এ পরিণত হয়। invisible cohesion আর error-free জটিল বাক্য ব্যবহার করে।",
+      "frames": 610
+    },
+    {
+      "type": "compare",
+      "head": [
+        "উপসংহার তুলনা: ",
+        "অবস্থান পুনর্ব্যক্ত করা"
+      ],
+      "rows": [
+        {
+          "tag": "LR",
+          "bad": "In conclusion, both sides have good points. Government should think carefully and spend money on both fast transport and other priorities.",
+          "good": "In conclusion, while high-speed transport offers undeniable economic conveniences, I believe governments must first channel tax revenues into essential public welfare and affordable, eco-friendly local transit systems that benefit the wider population.",
+          "why": "ঝাপসা নয়; fresh vocabulary-তে পুনর্ব্যক্ত"
+        }
+      ],
+      "vo": "উপসংহারে ব্যান্ড ৬ fence-sitting করে, উভয় পক্ষেই ভালো দিক বলে মত ঝাপসা রাখে। ব্যান্ড ৮ প্রথমে opposite view acknowledge করে, তারপর confident-ভাবে নিজের মত fresh vocabulary-তে restate করে—ভূমিকার শব্দ repeat না করে।",
+      "frames": 468
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "উপসংহারে নতুন যুক্তি দেবেন না",
+      "sub": "পরীক্ষক new argument দেখলে TR ও CC-তে কাটবেন",
+      "vo": "উপসংহারে কখনোই নতুন argument আনবেন না। এটা করলে Task Response আর Coherence and Cohesion দুটোতেই নম্বর কাটা যায়। পরীক্ষক শেষ পর্যন্ত essay-র ধারাবাহিকতা খোঁজেন, তাই নতুন কিছু যোগ না করে শুধু নিজের অবস্থান restate আর সারসংক্ষেপ দিন।",
+      "frames": 516
+    },
+    {
+      "type": "criteria",
+      "head": [
+        "চার মানদণ্ডের উন্নতি: ",
+        "সারাংশ"
+      ],
+      "items": [
+        {
+          "k": "TR",
+          "en": "Task Response",
+          "bn": "মতামত ভূমিকাতেই স্পষ্ট, idea fully extended",
+          "icon": "target"
+        },
+        {
+          "k": "CC",
+          "en": "Coherence & Cohesion",
+          "bn": "যান্ত্রিক linker নয়, invisible cohesion",
+          "icon": "link"
+        },
+        {
+          "k": "LR",
+          "en": "Lexical Resource",
+          "bn": "নির্ভুল collocation ও paraphrasing",
+          "icon": "book-open"
+        },
+        {
+          "k": "GRA",
+          "en": "Grammatical Range & Accuracy",
+          "bn": "জটিল বাক্য, প্রায় error-free",
+          "icon": "pen-line"
+        }
+      ],
+      "vo": "সব মিলিয়ে, চার মানদণ্ডে ফারাক দেখুন। TR: ভূমিকায় মতামত পরিষ্কার, CC: invisible cohesion, LR: collocation ও paraphrasing, GRA: error-free জটিল বাক্য। এই চারটিতে লক্ষ্য রাখলেই আপনার লেখা ব্যান্ড ৮-র দিকে এগোবে।",
+      "frames": 542
+    },
+    {
+      "type": "quizQ",
+      "q": "ব্যান্ড ৮ লেখার মূল চাবিকাঠি কোনটি?",
+      "o": [
+        "কঠিন শব্দ",
+        "সবার শেষে মতামত দেওয়া",
+        "প্রথমেই নিজের অবস্থান ও idea unpack",
+        "অনেক বেশি linking word"
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "একটা প্রশ্ন। ব্যান্ড ৮ লেখার মূল চাবিকাঠি কোনটি? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 161
+    },
+    {
+      "type": "quizA",
+      "q": "ব্যান্ড ৮ লেখার মূল চাবিকাঠি কোনটি?",
+      "o": [
+        "কঠিন শব্দ",
+        "সবার শেষে মতামত দেওয়া",
+        "প্রথমেই নিজের অবস্থান ও idea unpack",
+        "অনেক বেশি linking word"
+      ],
+      "a": 2,
+      "ex": "ব্যান্ড ৮ ভূমিকায় মত পরিষ্কার করে, body-তে একটি idea ধাপে ধাপে unpack করা হয়",
+      "vo": "সঠিক উত্তর: প্রথমেই নিজের অবস্থান পরিষ্কার করে idea unpack করা। কঠিন শব্দ আর শেষে মতামত দেওয়ার অপেক্ষা নয়—আসল চাবিকাঠি হলো ভূমিকাতেই মতামত স্পষ্ট করা এবং body-তে ধাপে ধাপে idea বিস্তার।",
+      "frames": 427
+    },
+    {
+      "type": "recap",
+      "items": [
+        "ভূমিকাতেই নিজের অবস্থান পরিষ্কার করুন",
+        "প্রতি অনুচ্ছেদে একটি idea, ৪ ধাপে unpack",
+        "যান্ত্রিক linker নয়, invisible cohesion",
+        "ভুলহীন জটিল বাক্য ব্যবহার করুন"
+      ],
+      "vo": "আজ যা শিখলাম: ভূমিকাতেই নিজের মত দিন, প্রতি অনুচ্ছেদে একটা idea চার ধাপে unpack করুন, mechanical linker বাদ দিন, আর বাক্য error-free রাখুন। এই কৌশলেই ব্যান্ড ৬ থেকে ৮।",
+      "frames": 401
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে লিখুন এআই প্রশিক্ষকের সাথে",
+      "cta": "নিচে Discuss both views প্রশ্নে লিখে line-by-line ফিডব্যাক নিন",
+      "vo": "এবার নিচের tool-এ নিজে লিখুন। একই Discuss both views প্রশ্নে ৪০ মিনিট টাইমার দিয়ে উত্তর লিখুন। জমা দিলেই এআই প্রশিক্ষক আপনার লেখার লাইন ধরে ফিডব্যাক দেবে। নিয়মিত অনুশীলনই আপনাকে ব্যান্ড ৮-এ পৌঁছে দেবে, শুভকামনা!",
+      "frames": 482
+    }
+  ]
+}

@@ -128,10 +128,10 @@ const SLessonVid: React.FC<P> = (p) => {
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: 0, right: 0, top: 110, textAlign: "center" }}><Big d={4} size={62} align="center">{s.head}</Big></div>
-      <div style={{ position: "absolute", left: 360, top: 250, width: 1200, opacity: k, transform: `scale(${0.92 + 0.08 * k})`, borderRadius: 24, overflow: "hidden", boxShadow: "0 50px 120px rgba(0,0,0,.55)", border: `2px solid ${C.line}` }}>
+      <div style={{ position: "absolute", left: 435, top: 225, width: 1050, opacity: k, transform: `scale(${0.92 + 0.08 * k})`, borderRadius: 24, overflow: "hidden", boxShadow: "0 50px 120px rgba(0,0,0,.55)", border: `2px solid ${C.line}` }}>
         <OffthreadVideo src={staticFile(s.src)} startFrom={Math.round((s.from || 0) * 30)} muted style={{ width: "100%", display: "block" }} />
       </div>
-      <div style={{ position: "absolute", left: 0, right: 0, top: 960, display: "flex", justifyContent: "center", gap: 18 }}>
+      <div style={{ position: "absolute", left: 0, right: 0, top: 860, display: "flex", justifyContent: "center", gap: 18 }}>
         {s.chips.map((c: any, i: number) => <Chip key={i} icon={c.icon} t={c.t} d={v(p, 0.2 + i * 0.15)} />)}
       </div>
     </AbsoluteFill>

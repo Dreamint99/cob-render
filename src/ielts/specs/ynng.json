@@ -1,0 +1,204 @@
+{
+  "id": "ynng",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৪ · Reading",
+  "lessonNo": "পাঠ ৫",
+  "title": "Yes / No / Not Given",
+  "next": "Matching headings",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "YNNG প্রশ্নের ধরন বোঝা",
+        "লেখকের মতামত সঠিকভাবে চেনা",
+        "NO এবং NOT GIVEN-এর ভুল এড়ানো",
+        "প্যাসেজ ৩-এ দ্রুত উত্তর দেওয়ার কৌশল"
+      ],
+      "vo": "স্বাগতম! IELTS Reading-এর Yes/No/Not Given প্রশ্নগুলো প্যাসেজ ৩-এ আসে, যেখানে লেখকের মতামত বিশ্লেষণ করতে হয়। আজ আমরা শিখব, কীভাবে YES, NO ও NOT GIVEN নির্ভুলভাবে নির্ধারণ করতে হয় এবং কেন এই প্রশ্নগুলো স্কোর নিশ্চিত করার জন্য গুরুত্বপূর্ণ।",
+      "frames": 598
+    },
+    {
+      "type": "myth",
+      "wrong": "YNNG প্রশ্নে TRUE/FALSE লিখলেও নম্বর পাওয়া যায়",
+      "right": "নির্দেশনা লঙ্ঘন করলে নম্বর সরাসরি শূন্য হয়",
+      "sub": "প্রশ্নপত্রে কী চাওয়া হয়েছে তা আগে দেখুন।",
+      "vo": "অনেকে ভাবেন, ‘লেখকের মতের সাথে মিললেই উত্তর TRUE/FALSE দিলেও চলবে, যতক্ষণ যুক্তি সঠিক।’ কিন্তু IELTS-এ নির্দেশনা তুচ্ছ নয়। প্রশ্নে YES/NO/NOT GIVEN চাওয়া হলে আপনি যদি TRUE/FALSE লিখে দেন, পরীক্ষক পুরো নম্বর কেটে দেবেন।",
+      "frames": 538
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "TRUE/FALSE লিখলে উত্তর ভুল, এমনকি ভাব ঠিক থাকলেও",
+      "sub": "কেবল YES, NO, NOT GIVEN – এই তিন শব্দই লিখবেন।",
+      "vo": "সতর্কতা: উত্তরপত্রে শুধু YES, NO, বা NOT GIVEN লিখতে হবে। কখনোই TRUE/FALSE/NOT GIVEN লিখবেন না। নির্দেশনাটি হুবহু মিলিয়ে নিন—সহজ নম্বর হাতছাড়া হতে পারে।",
+      "frames": 415
+    },
+    {
+      "type": "points",
+      "head": [
+        "YNNG ও TFNG-এর মধ্যে ",
+        "পার্থক্য"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "YNNG: লেখকের দৃষ্টিভঙ্গি",
+          "s": "লেখক কী মনে করেন, দাবি করেন তা যাচাই",
+          "en": "The writer argues that ..."
+        },
+        {
+          "icon": "file-text",
+          "t": "TFNG: তথ্যের সত্যতা",
+          "s": "ঘটনা বা উপাত্ত সঠিক কিনা যাচাই",
+          "en": "The pyramids were built ..."
+        }
+      ],
+      "vo": "YNNG আর TFNG গুলিয়ে ফেললে বড় ভুল হবে। YNNG পরীক্ষা করে লেখকের নিজস্ব মতামত বা দাবি; TFNG শুধু তথ্যের সত্যতা যাচাই করে। প্রশ্নের শুরুর নির্দেশনায় ‘views of the writer’ কিংবা ‘information in the passage’ দেখলেই আপনি ধরতে পারবেন কোনটা চাওয়া হয়েছে।",
+      "frames": 593
+    },
+    {
+      "type": "points",
+      "head": [
+        "লেখকের মতামত চেনার ",
+        "ধাপ"
+      ],
+      "items": [
+        {
+          "icon": "lightbulb",
+          "t": "মূল্যায়নসূচক শব্দ চিহ্নিত",
+          "s": "beneficial, overrated, should, remarkable",
+          "en": "The writer finds it overrated"
+        },
+        {
+          "icon": "ear",
+          "t": "কার কণ্ঠস্বর? নিজের না উদ্ধৃত?",
+          "s": "I believe, In my view, However-এর পর দেখুন",
+          "en": ""
+        },
+        {
+          "icon": "link",
+          "t": "সংযোগ ও সুর: তবে, যদিও, আসলে",
+          "s": "However, in fact-এর পরে লেখকের অবস্থান পরিষ্কার হয়",
+          "en": ""
+        }
+      ],
+      "vo": "লেখকের মতামত ধরার তিন ধাপ: প্রথমে overrated, essential-এর মতো মূল্যায়নসূচক শব্দ চিহ্নিত করুন। তারপর দেখুন কথাটা লেখক নিজে বলছেন, না কি অন্যের উক্তি তুলে ধরছেন। শেষে However, In fact-এর মতো সংযোগ শব্দের পরের অংশেই লেখকের আসল অবস্থান লুকিয়ে থাকে।",
+      "frames": 557
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভুল এড়ান: NO বনাম NOT GIVEN",
+        "ছোট্ট প্যাসেজ: Some argue that travel expands the mind. I contend that travel can be just as superficial as staying home without deep engagement."
+      ],
+      "rows": [
+        {
+          "tag": "NO",
+          "bad": "The writer agrees that travel always broadens the mind. → NOT GIVEN",
+          "good": "The writer believes travel can be superficial. → NO",
+          "why": "লেখক ‘just as superficial’ বলেছেন, তাই বিবৃতিটি সোজাসুজি বিপরীত—এটি NO।"
+        },
+        {
+          "tag": "NG",
+          "bad": "The writer recommends visiting remote places. → NO",
+          "good": "The writer does not mention remote places. → NOT GIVEN",
+          "why": "remote places নিয়ে কিছুই বলা হয়নি, তাই NOT GIVEN; অনুমান নেওয়া যাবে না।"
+        }
+      ],
+      "vo": "NO আর NOT GIVEN-এর বিভ্রান্তি খুব সাধারণ। লেখক যদি স্পষ্টভাবে কোনো মতের বিপরীতে যান, তাহলে উত্তর NO। আর প্যাসেজে নির্দিষ্ট বিষয়টি সম্পূর্ণ অনুপস্থিত থাকলে সেটা NOT GIVEN; নিজের অনুমান থেকে কখনো উত্তর দেবেন না।",
+      "frames": 487
+    },
+    {
+      "type": "exam",
+      "head": [
+        "প্রয়োগ: প্যাসেজ ৩-এর মতো একটি অংশ",
+        ""
+      ],
+      "paper": {
+        "title": "Do the following statements agree with the views of the writer?",
+        "rows": [
+          {
+            "n": 1,
+            "label": "1. The writer believes that green corridors can have a positive effect on air quality."
+          },
+          {
+            "n": 2,
+            "label": "2. Including green spaces in urban developments reduces long-term property values."
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "City planners often claim that high-rise development is the only way to accommodate growing populations. However, recent studies show that well-designed green corridors can reduce air pollution by up to 30%. While some developers argue that green spaces lower profit margins, evidence points to long-term economic benefits: properties near parks consistently show 15–20% higher values. In my view, integrating nature into urban design is essential for sustainable cities."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Passage",
+          "text": "City planners often claim that high-rise development is the only way to accommodate growing populations. However, recent studies show that well-designed green corridors can reduce air pollution by up to 30%. While some developers argue that green spaces lower profit margins, evidence points to long-term economic benefits: properties near parks consistently show 15–20% higher values. In my view, integrating nature into urban design is essential for sustainable cities.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "reduce air pollution"
+      ],
+      "strike": [
+        "high-rise development"
+      ],
+      "answer": "YES",
+      "tip": "লেখক studies-এর উদ্ধৃতি দিয়ে reduce air pollution বলেছেন—ইতিবাচক প্রভাব সমর্থন করছেন, তাই YES।",
+      "vo": "এবার প্যাসেজ পড়ে দেখি। প্ল্যানাররা উচ্চ ভবনের কথা বলে, কিন্তু লেখক However দিয়ে ঘুরিয়ে গবেষণা তুলে ধরেন—সবুজ করিডোর বায়ুদূষণ কমায়। যেহেতু লেখক নিজে In my view বলে অবস্থান পরিষ্কার করেন, তাই প্রথম বিবৃতির উত্তর YES।",
+      "clip": "clip07.mp3",
+      "clipFrames": 984,
+      "frames": 516
+    },
+    {
+      "type": "quizQ",
+      "q": "একই প্যাসেজে লেখকের মতে, ‘সব নতুন ভবনে সবুজ ছাদ থাকা উচিত।’ আপনার উত্তর কী?",
+      "o": [
+        "YES",
+        "NO",
+        "NOT GIVEN",
+        "TRUE"
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "এখন চট করে কুইজ! একই প্যাসেজ থেকে একটা বিবৃতি: লেখকের মতে সব নতুন ভবনে সবুজ ছাদ থাকা উচিত। আপনি কী উত্তর দেবেন? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 338
+    },
+    {
+      "type": "quizA",
+      "q": "একই প্যাসেজে লেখকের মতে, ‘সব নতুন ভবনে সবুজ ছাদ থাকা উচিত।’ আপনার উত্তর কী?",
+      "o": [
+        "YES",
+        "NO",
+        "NOT GIVEN",
+        "TRUE"
+      ],
+      "a": 2,
+      "ex": "প্যাসেজে সবুজ ছাদ ও সিঙ্গাপুরের উদাহরণ আছে, কিন্তু ‘সব নতুন ভবনে থাকা উচিত’ লেখক কখনো বলেননি। তাই উত্তর NOT GIVEN।",
+      "vo": "সঠিক উত্তর NOT GIVEN। প্যাসেজে সবুজ ছাদের সফল উদাহরণ দেওয়া আছে, কিন্তু প্রতিটি নতুন ভবনে তা বাধ্যতামূলক করার কোনো পরামর্শ লেখক দেননি—তাই এটা দেওয়া নেই।",
+      "frames": 338
+    },
+    {
+      "type": "recap",
+      "items": [
+        "YNNG প্রশ্ন লেখকের দৃষ্টিভঙ্গি যাচাই করে",
+        "I believe, However-এর পরের মতামত লেখকের নিজস্ব",
+        "সরাসরি বিরোধী বক্তব্য পেলে NO, উল্লেখ না থাকলে NOT GIVEN",
+        "নির্দেশনা পড়ে শুধু YES/NO/NOT GIVEN লিখতে হবে"
+      ],
+      "vo": "মনে রাখবেন: এই প্রশ্ন তথ্য নয়, লেখকের মতামত চায়। লেখকের নিজের ভাষা চিহ্নিত করুন, বিরোধী মত পেলে NO, আর তথ্য সম্পূর্ণ অনুপস্থিত থাকলে NOT GIVEN। সবশেষে নির্দেশনা মেনে সঠিক শব্দ লেখা আবশ্যক।",
+      "frames": 466
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজের দক্ষতা যাচাই করুন!",
+      "cta": "নিচের ড্রিলে সম্পূর্ণ প্যাসেজ ও ৬টি YNNG প্রশ্ন সমাধান করুন।",
+      "vo": "এবার নিচের ড্রিলে পুরো প্যাসেজে ৬টি Yes/No/Not Given প্রশ্ন সমাধান করে আপনার দক্ষতা যাচাই করুন। প্রতিটি উত্তরের বিস্তারিত ব্যাখ্যা পাবেন এবং সাধারণ ভুলগুলো ধরতে পারবেন। নিয়মিত অনুশীলনই আপনার আত্মবিশ্বাস বাড়াবে!",
+      "frames": 480
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "listening-format",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৩ · Listening",
+  "lessonNo": "পাঠ ১",
+  "title": "Listening ফরম্যাট ও প্রশ্নের ধরন",
+  "next": "প্রেডিকশন: শোনার আগে প্রশ্ন পড়া",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Listening-এর সম্পূর্ণ কাঠামো বুঝা",
+        "প্রশ্নের ধরন ও ফাঁদ চেনা",
+        "সময় বণ্টনের সঠিক কৌশল",
+        "কম্পিউটার ও পেপার টেস্টের পার্থক্য"
+      ],
+      "vo": "স্বাগতম! আজ আমরা IELTS Listening-এর ফরম্যাট ও প্রশ্নের ধরন নিয়ে কাজ করব। শুধু কান খোলা রাখলেই হয় না—পর্ব, সময়, আর ফাঁদ বুঝতে হবে। পাঠ শেষে আপনি পুরো টেস্টের কাঠামো পরিষ্কার বুঝতে পারবেন।",
+      "frames": 415
+    },
+    {
+      "type": "myth",
+      "wrong": "Listening সহজ, শুধু মন দিয়ে শুনলেই হবে",
+      "right": "ফরম্যাট আর প্রশ্নের ধরন না জানলে সহজ প্রশ্নেও ভুল হয়",
+      "sub": "একটা অক্ষর বা সংখ্যা ভুল হলেই পুরো উত্তর ভুল ধরা হয়",
+      "vo": "অনেকে ভাবেন, Listening তো সহজ, শুধু কান খোলা রাখলেই হবে। কিন্তু ফরম্যাট আর প্রশ্নের ধরন না জানলে সহজ প্রশ্নেও ভুল হয়। তাই আগে কাঠামোটা বুঝে নিন, নাহলে পরীক্ষার হলে বিভ্রান্ত হবেন। আজ আমরা সেই কাঠামো পরিষ্কার করব।",
+      "frames": 470
+    },
+    {
+      "type": "points",
+      "head": [
+        "Listening-এর ৪টি পর্ব: ",
+        "সামাজিক থেকে একাডেমিক"
+      ],
+      "items": [
+        {
+          "icon": "phone",
+          "t": "Part 1: প্রাত্যহিক কথোপকথন",
+          "s": "দুজন বক্তা, যেমন বুকিং বা রিজার্ভেশন",
+          "en": "e.g., courier booking"
+        },
+        {
+          "icon": "map-pin",
+          "t": "Part 2: একক নির্দেশনা",
+          "s": "একজন বক্তা, যেমন ট্যুর গাইড",
+          "en": "e.g., museum guide"
+        },
+        {
+          "icon": "link",
+          "t": "Part 3: শিক্ষামূলক আলোচনা",
+          "s": "২-৪ জন, যেমন অ্যাসাইনমেন্ট নিয়ে",
+          "en": "e.g., student-tutor talk"
+        },
+        {
+          "icon": "book-open",
+          "t": "Part 4: একাডেমিক লেকচার",
+          "s": "একজন বক্তা, বিশ্ববিদ্যালয়ের বিষয়",
+          "en": "e.g., history lecture"
+        }
+      ],
+      "vo": "Listening টেস্টে ৪ পর্বে ৪০ প্রশ্ন, অডিও একবারই বাজে। প্রতিটি পর্বে ১০টি করে প্রশ্ন থাকে। Part 1 প্রাত্যহিক কথোপকথন, যেমন বুকিং। Part 2 একক নির্দেশনা, যেমন ট্যুর গাইড। Part 3 শিক্ষামূলক আলোচনা, Part 4 একাডেমিক লেকচার। পর্ব যত বাড়ে, কঠিনতা তত বাড়ে।",
+      "frames": 674
+    },
+    {
+      "type": "points",
+      "head": [
+        "সময় বণ্টন: ",
+        "প্রতি সেকেন্ড কাজে লাগান"
+      ],
+      "items": [
+        {
+          "icon": "clock",
+          "t": "প্রথম ৩০ সেকেন্ডে প্রশ্ন পড়ুন",
+          "s": "Part 1,2,3-এর শুরুতে প্রথম ৫টি প্রশ্ন পড়ে নিন"
+        },
+        {
+          "icon": "eye",
+          "t": "মাঝের বিরতিতে বাকি প্রশ্ন",
+          "s": "প্রতি পর্বের মাঝে ৩০ সেকেন্ড, বাকি প্রশ্ন পড়ুন"
+        },
+        {
+          "icon": "target",
+          "t": "চেকিং পজে পরের পর্ব পড়ুন",
+          "s": "শেষের ৩০ সেকেন্ডে পুরনো উত্তর নয়, পরের পর্ব পড়া শুরু করুন"
+        },
+        {
+          "icon": "spell-check",
+          "t": "শেষ ২ মিনিটে রিভিউ",
+          "s": "কম্পিউটার টেস্টে বানান, গ্রামার, শব্দসীমা যাচাই"
+        }
+      ],
+      "vo": "সময় বণ্টন জরুরি। প্রতি পর্বের শুরুতে ৩০ সেকেন্ডে প্রথম ৫ প্রশ্ন পড়ুন। মাঝের বিরতিতে বাকি প্রশ্ন পড়ুন। চেকিং পজে পুরনো উত্তর নয়, পরের পর্বের প্রশ্ন আগাম পড়ুন। কম্পিউটার টেস্টে শেষ ২ মিনিটে বানান ও গ্রামার মিলান। এই কৌশলগুলো পরীক্ষার হলে কাজে লাগবে।",
+      "frames": 540
+    },
+    {
+      "type": "exam",
+      "head": [
+        "Part 1 উদাহরণ: ",
+        "বানান, সংখ্যা, ফাঁদ"
+      ],
+      "paper": {
+        "title": "Course Booking Form",
+        "rows": [
+          {
+            "label": "Name",
+            "ans": ""
+          },
+          {
+            "n": 1,
+            "label": "Phone"
+          },
+          {
+            "n": 2,
+            "label": "Day"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "Could you spell your surname for me, please?"
+        },
+        {
+          "who": "B",
+          "text": "Yes, it's Connell. That's C-O-double N-E-double L."
+        },
+        {
+          "who": "A",
+          "text": "Thank you. And your phone number?"
+        },
+        {
+          "who": "B",
+          "text": "It's oh-seven-nine-double-three, four-five-oh, double-eight-one."
+        },
+        {
+          "who": "A",
+          "text": "We've got a place in the Tuesday group... oh, sorry, I've just seen that Tuesday is full. I can put you in the Thursday group instead."
+        },
+        {
+          "who": "B",
+          "text": "Thursday is fine for me."
+        }
+      ],
+      "lines": [
+        {
+          "name": "Receptionist",
+          "text": "Could you spell your surname for me, please?"
+        },
+        {
+          "name": "Student",
+          "text": "Yes, it's Connell. That's C-O-double N-E-double L."
+        },
+        {
+          "name": "Receptionist",
+          "text": "Thank you. And your phone number?"
+        },
+        {
+          "name": "Student",
+          "text": "It's oh-seven-nine-double-three, four-five-oh, double-eight-one."
+        },
+        {
+          "name": "Receptionist",
+          "text": "We've got a place in the Tuesday group... oh, sorry, I've just seen that Tuesday is full. I can put you in the Thursday group instead."
+        },
+        {
+          "name": "Student",
+          "text": "Thursday is fine for me."
+        }
+      ],
+      "hl": [
+        "oh",
+        "double-three",
+        "double-eight"
+      ],
+      "strike": [
+        "Tuesday"
+      ],
+      "answer": "07933 450881",
+      "tip": "‘oh’ মানে শূন্য। double-three = 33, double-eight = 88। Tuesday শুনে থেমে গেলে ভুল হবে—শেষ পর্যন্ত শুনুন।",
+      "vo": "এবার বাস্তব Part 1 কল শুনুন। একজন ছাত্র কোর্স বুক করছে। নামের বানান, ফোন নম্বর, দিন নিয়ে কথা। আপনি ফোন নম্বরের ঘরে ফোকাস করুন। oh, double, triple-এর নিয়ম মনে রাখবেন। দেখবেন distractors কিভাবে উত্তর বদলে দেয়। শেষ পর্যন্ত শোনার অভ্যাস গড়ে তুলুন।",
+      "clip": "clip05.mp3",
+      "clipFrames": 809,
+      "frames": 569
+    },
+    {
+      "type": "points",
+      "head": [
+        "প্রশ্নের ধরন: ",
+        "৬ ধরনের মধ্যে ৪ প্রধান"
+      ],
+      "items": [
+        {
+          "icon": "file-text",
+          "t": "Completion: ফর্ম, নোট, টেবিল",
+          "s": "শূন্যস্থান পূরণ, word limit মেনে চলুন",
+          "en": "Form/Note/Table Completion"
+        },
+        {
+          "icon": "list-checks",
+          "t": "Multiple Choice: বহুনির্বাচনী",
+          "s": "এক বা একাধিক উত্তর, distractors থাকে",
+          "en": "Choose TWO letters"
+        },
+        {
+          "icon": "link",
+          "t": "Matching: মেলানো",
+          "s": "তথ্য বা মতামত মেলান, Part 2 ও 3-এ সাধারণ",
+          "en": "Match the features"
+        },
+        {
+          "icon": "map-pin",
+          "t": "Map/Plan Labelling: নকশা",
+          "s": "দিক-নির্দেশনা শুনে স্থান চিহ্নিত করুন",
+          "en": "Label the plan"
+        }
+      ],
+      "vo": "প্রশ্নের ধরন চেনা জরুরি। Completion-এ শূন্যস্থান পূরণ, word limit মানুন। Multiple Choice-এ distractors থাকে, পুরো শুনুন। Matching-এ তথ্য মেলান। Map Labelling-এ দিক-নির্দেশনা শুনে নকশা পূরণ করুন। এছাড়া Sentence Completion ও Short-answer Questions-ও আছে।",
+      "frames": 530
+    },
+    {
+      "type": "compare",
+      "head": [
+        "বাংলাদেশীদের সাধারণ ভুল: ",
+        "বানান ও সংখ্যা"
+      ],
+      "rows": [
+        {
+          "bad": "Connel",
+          "good": "Connell",
+          "why": "double N আর double L শুনে সঠিক বানান লিখুন"
+        },
+        {
+          "bad": "14",
+          "good": "40",
+          "why": "fourTEEN (শেষে জোর) vs FORty (শুরুতে জোর) — জোরের পার্থক্য ধরুন"
+        }
+      ],
+      "vo": "বাংলাদেশীদের সাধারণ ভুল দেখুন। বানানে double শুনেও এক অক্ষর লেখেন, Connell-এর বদলে Conel। সংখ্যায় 14 আর 40 গুলিয়ে ফেলেন—fourTEEN ও FORty-র জোরের পার্থক্য ধরুন। এই ভুল এড়ালে নম্বর বাড়বে। নিয়মিত অনুশীলনে এই ভুল কমে যাবে।",
+      "frames": 514
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "২০২০ থেকে Part 1-এ উদাহরণ নেই — নির্দেশনার পর সরাসরি Question 1 শুরু",
+      "sub": "domino effect এড়াতে কখনই থেমে থাকবেন না",
+      "vo": "গুরুত্বপূর্ণ: ২০২০ থেকে Part 1-এ উদাহরণ নেই—নির্দেশনার পর সরাসরি প্রশ্ন শুরু। পুরনো বই দিয়ে প্র্যাকটিস করলে ফাঁদে পড়বেন। এই পরিবর্তনটি অনেকেই জানে না। আর domino effect এড়ান—একটা মিস করলে থেমে থাকবেন না, পরেরটায় যান।",
+      "frames": 504
+    },
+    {
+      "type": "quizQ",
+      "q": "অডিওতে 'double seven' শুনলে কী লিখবেন?",
+      "o": [
+        "7",
+        "77",
+        "777",
+        "14"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট প্রশ্ন। অডিওতে 'double seven' শুনলে কী লিখবেন? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 170
+    },
+    {
+      "type": "quizA",
+      "q": "অডিওতে 'double seven' শুনলে কী লিখবেন?",
+      "o": [
+        "7",
+        "77",
+        "777",
+        "14"
+      ],
+      "a": 1,
+      "ex": "double seven মানে সাত সাত, অর্থাৎ 77। double মানে একই সংখ্যা দুবার।",
+      "vo": "সঠিক উত্তর 77। double seven মানে সাত সাত। double মানে একই সংখ্যা দুবার। তাই 7 বা 777 নয়।",
+      "frames": 283
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Listening-এ ৪ পর্ব, ৪০ প্রশ্ন, একবারই অডিও",
+        "প্রতি পর্বের শুরুতে ৩০ সেকেন্ডে প্রশ্ন পড়ুন",
+        "double, triple, oh-এর নিয়ম মনে রাখুন",
+        "কোনো উত্তর ফাঁকা রাখবেন না, domino effect এড়ান"
+      ],
+      "vo": "আজ শিখলাম: ৪ পর্ব, ৪০ প্রশ্ন, একবারই অডিও। সময়ের প্রতি সেকেন্ড কাজে লাগান, প্রশ্ন আগাম পড়ুন। double, triple, oh-এর নিয়ম জানুন। উত্তর ফাঁকা রাখবেন না, domino effect এড়ান। আজকের পাঠ মনে রাখলে Listening-এ আত্মবিশ্বাস বাড়বে।",
+      "frames": 523
+    },
+    {
+      "type": "outro",
+      "head": "এবার আসল পরীক্ষার মতো অনুশীলন!",
+      "cta": "নিচের ড্রিলে Part 1-এর বাস্তব কল, ব্রিটিশ অ্যাকসেন্টে",
+      "vo": "এবার নিচের ড্রিলে আসল পরীক্ষার মতো অনুশীলন করুন। ব্রিটিশ অ্যাকসেন্টে ফোন কল, একবারই বাজবে। শেষে এআই প্রশিক্ষক আপনার উত্তর মূল্যায়ন করবে। নিয়মিত অনুশীলনই সাফল্যের চাবিকাঠি। প্রতিদিন ১০ মিনিট করে Listening প্র্যাকটিস করুন। শুভকামনা!",
+      "frames": 487
+    }
+  ]
+}

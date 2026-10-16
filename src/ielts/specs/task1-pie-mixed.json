@@ -1,0 +1,238 @@
+{
+  "id": "task1-pie-mixed",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৫ · Writing Task 1 (Academic)",
+  "lessonNo": "পাঠ ৪",
+  "title": "Pie chart ও মিশ্র চার্ট",
+  "next": "Process diagram",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "পাই চার্টের তথ্য ভগ্নাংশে রূপান্তর",
+        "মিশ্র চার্টে ওভারভিউ ও বডি প্যারাগ্রাফের গঠন",
+        "একাধিক ভিজুয়ালের মধ্যে কারণ-সম্পর্ক না দেখানো",
+        "ছোট Other অংশকে সম্পূর্ণতায় আনা"
+      ],
+      "vo": "স্বাগতম! আজ আমরা পাই চার্ট ও মিশ্র চার্ট নিয়ে কাজ করব। Writing Task 1-এ ভালো করতে শুধু সংখ্যা বললেই হবে না—তথ্যের র্যাঙ্কিং, ভগ্নাংশ আর তুলনা শিখতে হবে।",
+      "frames": 350
+    },
+    {
+      "type": "myth",
+      "wrong": "পাই চার্ট সহজ, শুধু শতকরা কপি করলেই চলে",
+      "right": "শতকরা নয়—ভগ্নাংশ আর তুলনার ভাষা দরকার",
+      "sub": "half, a third, the majority—এগুলোই ব্যান্ড বাড়ায়",
+      "vo": "অনেকে ভাবেন, পাই চার্টের শতকরা হুবহু বসিয়ে দিলেই কাজ শেষ। কিন্তু পরীক্ষক দেখতে চান, আপনি সংখ্যাকে স্বাভাবিক ভাষায় বদলাতে পারেন কি না। তাই যান্ত্রিক কপি নয়, দরকার ভগ্নাংশ আর তুলনা।",
+      "frames": 398
+    },
+    {
+      "type": "points",
+      "head": [
+        "পাই চার্ট বর্ণনার শব্দভান্ডার: ",
+        "ভগ্নাংশ ও তারতম্য"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "সবচেয়ে বড় অংশ",
+          "s": "the majority, almost two-thirds, just over half",
+          "en": "Natural gas accounted for almost two-thirds."
+        },
+        {
+          "icon": "book-open",
+          "t": "মাঝারি অংশ",
+          "s": "roughly a third, made up a quarter",
+          "en": "Oil made up roughly a third of total energy."
+        },
+        {
+          "icon": "lightbulb",
+          "t": "ছোট অংশ",
+          "s": "a mere 4%, only one in ten",
+          "en": "Renewable energy contributed a mere 4%."
+        },
+        {
+          "icon": "hash",
+          "t": "Other বাদ দেবেন না",
+          "s": "এক বাক্যে শেষে উল্লেখ করুন",
+          "en": "The remaining 5% came from other sources."
+        }
+      ],
+      "vo": "পাই চার্ট লিখতে গেলে প্রথমেই বড় অংশ চিহ্নিত করুন। সবচেয়ে বড়টির জন্য the majority বা almost two-thirds ব্যবহার করুন, মাঝারি অংশের জন্য roughly a third, আর ছোট অংশের জন্য a mere দিন। আর ছোট Other অংশ একেবারে বাদ দেবেন না—শেষে এক বাক্যে বলে দিন।",
+      "frames": 600
+    },
+    {
+      "type": "exam",
+      "head": [
+        "পাই চার্ট অনুশীলন: ",
+        "বাংলাদেশের বিদ্যুৎ উৎপাদন ২০২২"
+      ],
+      "paper": {
+        "title": "Electricity Generation Sources in Bangladesh, 2022",
+        "rows": [
+          {
+            "label": "Natural gas",
+            "ans": "65%"
+          },
+          {
+            "n": 1,
+            "label": "Renewable energy share"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "Natural gas was the dominant source, making up almost two-thirds. Renewable energy accounted for a mere 7%."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "Natural gas was the dominant source, making up almost two-thirds. Renewable energy accounted for a mere 7%.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "a mere 7%"
+      ],
+      "answer": "7%",
+      "tip": "ছোট অংশ ‘a mere’ বা ‘only’ দিয়ে জোর দিন।",
+      "vo": "এবার কানের পরীক্ষা। অডিওতে বলা হলো, নবায়নযোগ্য উৎসের অংশ মাত্র ৭%। আপনি খালি ঘরে শুধু সংখ্যাটা লিখুন। মনে রাখবেন, a mere দিয়ে ছোট অংশ বোঝানো হয়।",
+      "clip": "clip04.mp3",
+      "clipFrames": 240,
+      "frames": 382
+    },
+    {
+      "type": "points",
+      "head": [
+        "মিশ্র চার্ট লেখার কাঠামো: ",
+        "একাধিক ভিজুয়াল একসঙ্গে"
+      ],
+      "items": [
+        {
+          "icon": "layers",
+          "t": "প্রথম ধাপ – প্রধান বৈশিষ্ট্য চিহ্নিত করুন",
+          "s": "প্রতিটি ভিজুয়ালের ট্রেন্ড আলাদা করে বোঝুন"
+        },
+        {
+          "icon": "list-checks",
+          "t": "ওভারভিউতে একটি বাক্য প্রতি ভিজুয়াল",
+          "s": "লাইন গ্রাফের বড় বৃদ্ধি ও পাই চার্টের আধিপত্য"
+        },
+        {
+          "icon": "link",
+          "t": "প্যারাগ্রাফ আলাদা রাখুন",
+          "s": "প্রথম বডি প্যারাগ্রাফ: প্রথম ভিজুয়াল; দ্বিতীয় বডি: দ্বিতীয় ভিজুয়াল"
+        },
+        {
+          "icon": "sparkles",
+          "t": "Focusing on... / Turning to...",
+          "s": "প্যারাগ্রাফ পরিবর্তন পরিষ্কার করতে এই লিংকার ব্যবহার করুন"
+        }
+      ],
+      "vo": "মিশ্র চার্টে সাধারণত একটি লাইন গ্রাফ আর একটি পাই চার্ট থাকে। প্রথমে দুটি ভিজুয়ালের প্রধান বৈশিষ্ট্য চিহ্নিত করুন। তারপর ওভারভিউতে প্রতি ভিজুয়ালের জন্য একটি করে বাক্য লিখুন। বডি প্যারাগ্রাফে কখনো দুটো মিশিয়ে ফেলবেন না।",
+      "frames": 456
+    },
+    {
+      "type": "compare",
+      "head": [
+        "সাধারণ ভুল: ",
+        "কারণ-সম্পর্ক যুক্ত না করা"
+      ],
+      "rows": [
+        {
+          "tag": "CC",
+          "bad": "The increase in tourist arrivals caused the hotel growth shown in the pie chart.",
+          "good": "The line graph shows a significant rise in tourist numbers, while the pie chart indicates most visitors chose commercial hotels.",
+          "why": "তথ্যের বাইরে গিয়ে কারণ-প্রভাব দেখাবেন না—ডেটার মধ্যে সরাসরি সম্পর্ক থাকলেই কেবল বলুন।"
+        }
+      ],
+      "vo": "এই ভুলটা প্রায়ই দেখা যায়। পর্যটকের সংখ্যা বেড়েছে আর পাই চার্টে হোটেল বড় অংশ দেখানো হয়েছে—এর মানেই কিন্তু এই না যে একটার কারণে আরেকটা হয়েছে। পরীক্ষক কারণ-সম্পর্ক জোর করে বসাতে চান না।",
+      "frames": 418
+    },
+    {
+      "type": "points",
+      "head": [
+        "গ্রামার যাচাই: ",
+        "বাংলাভাষীদের স্পর্শকাতর জায়গা"
+      ],
+      "items": [
+        {
+          "icon": "pen-line",
+          "t": "The percentage ... was/were?",
+          "s": "percentage, proportion, number — singular হয়",
+          "en": "The percentage of tourists was 60%."
+        },
+        {
+          "icon": "link",
+          "t": "তুলনায় whereas / while যোগ করুন",
+          "s": "দুটি অংশ জুড়তে কমা + whereas",
+          "en": "Coal made 35%, whereas hydro made 4%."
+        },
+        {
+          "icon": "spell-check",
+          "t": "Tourist / tourists — singular নাকি plural?",
+          "s": "number of tourists (plural), amount of money (uncountable)",
+          "en": "In 2020, the number of tourists was 1.2 million."
+        }
+      ],
+      "vo": "বাংলা থেকে অনুবাদ করতে গিয়ে percentage-এর পরে were বসিয়ে ফেলা, বা tourist-এর সাথে s ভুলে যাওয়া—এগুলো একদম সাধারণ ভুল। প্রতিবার লেখার পর এই তিন জায়গায় চোখ বুলিয়ে নিন।",
+      "frames": 365
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "টাস্ক ১-এ ব্যক্তিগত মতামত দেবেন না; শুধু তথ্য বিশ্লেষণ",
+      "sub": "কমপক্ষে ১৫০ শব্দ লিখুন; সাধারণত ১৮০–২০০ যথেষ্ট",
+      "vo": "আরেকটা জরুরি সতর্কতা: Task 1 কখনো আপনার মতামতের জায়গা নয়। এখানে শুধু ডেটা নিয়ে নিরপেক্ষ বর্ণনা দিতে হবে, আর একশো পঞ্চাশ শব্দের নিচে নামা যাবে না।",
+      "frames": 338
+    },
+    {
+      "type": "quizQ",
+      "q": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "o": [
+        "The percentage of tourists were 60%.",
+        "The percentage of tourists was 60%.",
+        "The proportions was 60%.",
+        "Proportion of tourist were 60%."
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট একটা পরীক্ষা। নিচের চারটি বাক্যের মধ্যে কোনটি ব্যাকরণগতভাবে সঠিক? পাঁচ সেকেন্ড সময় নিন।",
+      "frames": 221
+    },
+    {
+      "type": "quizA",
+      "q": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+      "o": [
+        "The percentage of tourists were 60%.",
+        "The percentage of tourists was 60%.",
+        "The proportions was 60%.",
+        "Proportion of tourist were 60%."
+      ],
+      "a": 1,
+      "ex": "percentage, proportion — singular, তাই was; tourists — plural; সঠিক: The percentage of tourists was 60%.",
+      "vo": "উত্তর খ। percentage singular, তাই was বসবে, আর tourists plural। percentage of tourists-এর পরে singular verb—এই নিয়মটা খেয়াল রাখলেই ভুল হবে না।",
+      "frames": 358
+    },
+    {
+      "type": "recap",
+      "items": [
+        "শতকরা নয়—ভগ্নাংশ ও তারতম্যের শব্দ ব্যবহার করুন",
+        "মিশ্র চার্ট: প্রতি ভিজুয়ালের জন্য আলাদা প্যারাগ্রাফ",
+        "কারণ-প্রভাব জোর করে বসাবেন না",
+        "ছোট Other অংশ শেষে উল্লেখ করে সম্পূর্ণতা আনুন"
+      ],
+      "vo": "আজ যা শিখলাম: পাই চার্টে ভগ্নাংশের ভাষা ব্যবহার করতে হবে। মিশ্র চার্টে ওভারভিউ ও বডি প্যারাগ্রাফ আলাদা রাখতে হবে। কারণ-সম্পর্ক জোর করে বসানো যাবে না, আর ছোট Other অংশ শেষে বলতে হবে।",
+      "frames": 413
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে ২০ মিনিটে লিখে দেখুন",
+      "cta": "নিচের চার্ট জোড়ায় ১৫০+ শব্দ লিখে এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "এবার নিচের মিশ্র চার্ট টাস্কে ২০ মিনিট সময় ধরে উত্তর লিখুন। এআই প্রশিক্ষক চার মানদণ্ডে আনুমানিক ব্যান্ড আর লাইন-ধরে সংশোধন দেবে। লিখতে লিখতেই Task 1-এর আত্মবিশ্বাস তৈরি হবে।",
+      "frames": 377
+    }
+  ]
+}

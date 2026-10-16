@@ -1,0 +1,234 @@
+{
+  "id": "task2-lexical",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৭ · Writing Task 2 (দুই ট্র্যাকেই)",
+  "lessonNo": "পাঠ ৭",
+  "title": "Lexical resource: collocation, paraphrase, মুখস্থ বাক্যের বিপদ",
+  "next": "Grammar range ও accuracy",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "collocation-এর ধারণা ও সঠিক ব্যবহার",
+        "paraphrase-এর সহজ কৌশল",
+        "মুখস্থ বাক্যের ফাঁদ এড়ানো",
+        "word form ও বানানের ভুল সংশোধন"
+      ],
+      "vo": "স্বাগতম! Writing Task 2-তে Lexical Resource মানে শুধু বড় বড় শব্দ নয়; আসল দক্ষতা হলো সঠিক শব্দটি সঠিক জায়গায় বসানো। আজ আমরা collocation, paraphrase আর মুখস্থ বাক্যের বিপদ নিয়ে বিস্তারিত জানব, যেন আনুমানিক ব্যান্ড ৭+ সম্ভব হয়।",
+      "frames": 530
+    },
+    {
+      "type": "myth",
+      "wrong": "Lexical Resource ভালো করতে কেবল কঠিন শব্দ মুখস্থ করলেই হয়",
+      "right": "সঠিক প্রসঙ্গে সঠিক শব্দজুটি আর স্বাভাবিক paraphrase দরকার",
+      "sub": "ভুল জায়গায় কঠিন শব্দ উল্টো ব্যান্ড কমায়",
+      "vo": "অনেকে ভাবেন, কঠিন শব্দের তালিকা মুখস্থ করলেই Lexical Resource-এ নম্বর বাড়বে। কিন্তু পরীক্ষক দেখেন শব্দটা প্রসঙ্গে ঠিক বসেছে কি না, আর collocation স্বাভাবিক কিনা। তাই আজ আমরা সেই ফর্মুলা থেকে বের হয়ে আসব।",
+      "frames": 434
+    },
+    {
+      "type": "criteria",
+      "head": [
+        "Lexical Resource-এর ",
+        "চারটি মাপকাঠি"
+      ],
+      "items": [
+        {
+          "k": "RA",
+          "en": "Range",
+          "bn": "সাধারণ ও topic-specific শব্দের মিশ্রণ",
+          "icon": "layers"
+        },
+        {
+          "k": "PR",
+          "en": "Precision",
+          "bn": "শব্দটি প্রসঙ্গে পুরোপুরি যথার্থ",
+          "icon": "target"
+        },
+        {
+          "k": "CO",
+          "en": "Collocation",
+          "bn": "native-র মতো স্বাভাবিক শব্দজুটি",
+          "icon": "link"
+        },
+        {
+          "k": "ST",
+          "en": "Style & Accuracy",
+          "bn": "বানান, word form ও formal রেজিস্টার",
+          "icon": "pen-line"
+        }
+      ],
+      "vo": "Lexical Resource-এ নম্বর পাওয়ার জন্য পরীক্ষক চারটি জিনিস দেখেন। Range: আপনার শব্দভাণ্ডারের বিস্তার। Precision: শব্দের অর্থ ঠিক জায়গায় বসেছে কি না। Collocation: স্বাভাবিক ইংরেজি জুটি। আর Style & Accuracy: বানান, word form আর রেজিস্টার ঠিক আছে কি না।",
+      "frames": 581
+    },
+    {
+      "type": "points",
+      "head": [
+        "বাংলা থেকে ",
+        "word-for-word অনুবাদের ভুল"
+      ],
+      "items": [
+        {
+          "icon": "book-open",
+          "t": "ভুল: give exam",
+          "s": "সঠিক: take / sit an exam",
+          "en": "take an exam"
+        },
+        {
+          "icon": "book-open",
+          "t": "ভুল: do a mistake",
+          "s": "সঠিক: make a mistake",
+          "en": "make a mistake"
+        },
+        {
+          "icon": "book-open",
+          "t": "ভুল: increase knowledge",
+          "s": "সঠিক: broaden horizons",
+          "en": "acquire knowledge"
+        },
+        {
+          "icon": "book-open",
+          "t": "ভুল: good side and bad side",
+          "s": "সঠিক: merits and drawbacks",
+          "en": "advantages & disadvantages"
+        }
+      ],
+      "vo": "আমাদের সবচেয়ে বড় সমস্যা হলো বাংলা থেকে হুবহু অনুবাদ করে ইংরেজি লেখা। যেমন ‘পরীক্ষা দেওয়া’ থেকে লিখে ফেলি give exam, কিন্তু সঠিক collocation হলো take an exam। একইভাবে do a mistake নয়, make a mistake। এসব জুটি জেনে রাখলে ভুল কমবে।",
+      "frames": 516
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ব্যান্ড ৬ বনাম ৭–৮: ",
+        "collocation ও formal register"
+      ],
+      "rows": [
+        {
+          "tag": "LR",
+          "bad": "Technology is a big problem for privacy.",
+          "good": "Digital innovation poses a significant threat to personal data privacy.",
+          "why": "‘pose a threat’ – collocation ও topic-specific phrase ব্যবহার"
+        }
+      ],
+      "vo": "ব্যান্ড ৬-এ লিখলে কেউ বলতে পারে ‘Technology is a big problem for privacy।’ কিন্তু ব্যান্ড ৭ বা ৮ পেতে লিখতে হবে ‘Digital innovation poses a significant threat to personal data privacy।’ কারণ pose a threat হলো স্বাভাবিক collocation, আর শব্দগুলোও topic-এর সাথে মানানসই।",
+      "frames": 564
+    },
+    {
+      "type": "points",
+      "head": [
+        "Paraphrasing: ",
+        "একই কথা বারবার না লিখে"
+      ],
+      "items": [
+        {
+          "icon": "layers",
+          "t": "Synonym ব্যবহার করুন",
+          "s": "কিন্তু context-check করে নিন",
+          "en": "migrate → relocate"
+        },
+        {
+          "icon": "pen-line",
+          "t": "Word form বদলান",
+          "s": "verb ↔ noun ↔ adjective",
+          "en": "migrate → migration → migrant"
+        },
+        {
+          "icon": "alert",
+          "t": "সব synonym মানায় না",
+          "s": "children → youngsters √, offspring ×",
+          "en": "youngsters (neutral / ok)"
+        }
+      ],
+      "vo": "Prompt-এর key-word বারবার লিখলে Lexical Resource কমে। বরং synonym অথবা word form বদলান। যেমন migrate কে migration আর migrant-এ রূপান্তর করুন। তবে সব synonym ব্যবহার করা যায় না; children-এর বদলে offspring লিখলে রেজিস্টার ভুল হয়ে যায়।",
+      "frames": 492
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "মুখস্থ বাক্য: ‘Every coin...’, ‘From the dawn...’ — পরীক্ষক ফর্মুলা ধরে ব্যান্ড কমায়",
+      "sub": "পরিবর্তে academic phrase: take into account, play a pivotal role",
+      "vo": "অনেকেই ‘Every coin has two sides’ বা ‘From the dawn of civilization’ টাইপের মুখস্থ বাক্য ব্যবহার করেন। পরীক্ষক এগুলো সঙ্গে সঙ্গে চেনেন এবং ফর্মুলা হিসেবে ধরে নম্বর কাটেন। বরং academic phrase যেমন take into account বা play a pivotal role লিখুন।",
+      "frames": 511
+    },
+    {
+      "type": "points",
+      "head": [
+        "Word form ও spelling: ",
+        "সাধারণ ভুল সংশোধন"
+      ],
+      "items": [
+        {
+          "icon": "pen-line",
+          "t": "ভুল: People who hard work success",
+          "s": "সঠিক: People who work hard succeed",
+          "en": "work hard, succeed"
+        },
+        {
+          "icon": "pen-line",
+          "t": "ভুল: changing rapid",
+          "s": "সঠিক: changing rapidly",
+          "en": "rapidly (adverb)"
+        },
+        {
+          "icon": "pen-line",
+          "t": "ভুল: different",
+          "s": "সঠিক: difference",
+          "en": "difference (noun)"
+        },
+        {
+          "icon": "spell-check",
+          "t": "স্পেলিং: environment",
+          "s": "m-এর আগে n, m-এর পরে n নয়",
+          "en": "environment"
+        }
+      ],
+      "vo": "বাংলায় verb আর noun-এর form একই থাকলেও ইংরেজিতে suffix যোগে বদলায়। hard work না লিখে work hard, success না লিখে succeed। rapid না লিখে rapidly দিন। আর বানানে environment-এ n ও m-এর অবস্থান খেয়াল রাখুন।",
+      "frames": 504
+    },
+    {
+      "type": "quizQ",
+      "q": "collocation অনুযায়ী কোন বাক্যটি সঠিক?",
+      "o": [
+        "She gave an exam yesterday.",
+        "She took an exam yesterday.",
+        "She did an exam yesterday.",
+        "She made an exam yesterday."
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট একটি কুইজ। collocation অনুযায়ী কোন বাক্যটি সঠিক? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 168
+    },
+    {
+      "type": "quizA",
+      "q": "collocation অনুযায়ী কোন বাক্যটি সঠিক?",
+      "o": [
+        "She gave an exam yesterday.",
+        "She took an exam yesterday.",
+        "She did an exam yesterday.",
+        "She made an exam yesterday."
+      ],
+      "a": 1,
+      "ex": "‘take an exam’ ই একমাত্র সঠিক collocation; give exam বা do exam ভুল",
+      "vo": "সঠিক উত্তর ‘She took an exam yesterday.’ কারণ native speaker-রা take an exam বলেন। give exam বা do exam বলাটা ভুল collocation।",
+      "frames": 305
+    },
+    {
+      "type": "recap",
+      "items": [
+        "collocation জুটি: make a mistake, pose a threat ইত্যাদি শিখুন",
+        "paraphrase: synonym আর word form বদলান",
+        "মুখস্থ বাক্য: Every coin... বাদ দিন, academic phrase ব্যবহার করুন",
+        "word form: succeed, rapidly, difference — suffix ঠিক করুন"
+      ],
+      "vo": "আজ যা শিখলাম: collocation-এর জন্য সঠিক জুটি মুখস্থ করতে হবে। paraphrasing-এ synonym ও word form পাল্টাতে হবে। মুখস্থ বাক্য পরিহার করতে হবে। আর word form ও বানানে যত্নবান হতে হবে।",
+      "frames": 398
+    },
+    {
+      "type": "outro",
+      "head": "এবার online learning নিয়ে own essay লিখুন",
+      "cta": "এআই প্রশিক্ষক লাইন ধরে ফিডব্যাক ও আনুমানিক ব্যান্ড দেবে",
+      "vo": "নিচে online learning vs classroom learning নিয়ে রচনা লিখুন। এআই প্রশিক্ষক আপনাকে Lexical Resource-এর আনুমানিক ব্যান্ড আর লাইন ধরে ফিডব্যাক দেবে। ভুলগুলো শিখে পরের বার সংশোধন করবেন। শুভকামনা!",
+      "frames": 389
+    }
+  ]
+}

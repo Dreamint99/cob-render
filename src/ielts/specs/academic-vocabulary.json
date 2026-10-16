@@ -1,0 +1,204 @@
+{
+  "id": "academic-vocabulary",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ২ · ইংরেজির ভিত: বাংলাভাষীর চেনা ভুল সারাই",
+  "lessonNo": "পাঠ ৬",
+  "title": "Academic শব্দভান্ডার: collocation ও word family",
+  "next": "উচ্চারণ ১: v/w, z/j, s/sh, th ও word stress",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "বাংলাভাষীর চেনা কলোকেশন ভুল চেনা ও শোধরানো",
+        "ওয়ার্ড ফ্যামিলির চার রূপ ব্যবহার করে প্যারাফ্রেজ করা",
+        "একাডেমিক লেখার শক্তিশালী কলোকেশন আয়ত্ত করা",
+        "Lexical Resource–এ আনুমানিক ৭+ ব্যান্ডের কৌশল জানা"
+      ],
+      "vo": "আজকের পাঠ Academic শব্দভান্ডার নিয়ে। Writing আর Speaking–এ ২৫% নম্বর আসে শুধু সঠিক শব্দ ব্যবহার থেকে, তাই collocation আর word family শেখাটা জরুরি। কঠিন শব্দ নয়, সঠিক জুটি আর ফর্মই আসল শক্তি।",
+      "frames": 458
+    },
+    {
+      "type": "myth",
+      "wrong": "খুব কঠিন শব্দ বেশি করে লিখলেই Lexical Resource-এ ব্যান্ড বাড়ে",
+      "right": "শব্দের সাথে তার স্বাভাবিক সঙ্গী (collocation) ও সঠিক রূপেই ভালো নম্বর",
+      "sub": "strong rain নয়, heavy rain — জুটিটাই আসল",
+      "vo": "অনেকেই ভাবেন কঠিন শব্দ ছড়ালেই ব্যান্ড ভালো হবে। কিন্তু পরীক্ষক দেখেন শব্দটি প্রাকৃতিকভাবে বসেছে কিনা। strong rain লিখলে ভুল ধরা হবে, heavy rain-ই ঠিক।",
+      "frames": 329
+    },
+    {
+      "type": "points",
+      "head": [
+        "বাংলাভাষীদের সাধারণ ভুল: ",
+        "নির্ভুল জুটি"
+      ],
+      "items": [
+        {
+          "icon": "alert",
+          "t": "give an exam (ভুল)",
+          "s": "বাংলা 'পরীক্ষা দেওয়া' মানে take, give নয়",
+          "en": "✗ give an exam"
+        },
+        {
+          "icon": "lightbulb",
+          "t": "take / sit an exam (সঠিক)",
+          "s": "ছাত্র হিসেবে পরীক্ষায় বসা বোঝায়",
+          "en": "✓ take an exam"
+        },
+        {
+          "icon": "alert",
+          "t": "do a mistake / do research (ভুল)",
+          "s": "ভুল করা বা গবেষণা করা— do নয়",
+          "en": "✗ do a mistake / do research"
+        },
+        {
+          "icon": "lightbulb",
+          "t": "make a mistake / conduct research",
+          "s": "গবেষণার জন্য conduct / carry out",
+          "en": "✓ make a mistake · conduct research"
+        }
+      ],
+      "vo": "প্রথমেই আমাদের সবার চেনা কিছু ভুল। 'পরীক্ষা দেওয়া' আক্ষরিক অনুবাদ করলে give an exam হয়ে যায়, যা একদম ভুল। ছাত্র হলে বলবেন take or sit an exam। একইভাবে make a mistake আর conduct research–ই ঠিক।",
+      "frames": 470
+    },
+    {
+      "type": "points",
+      "head": [
+        "একাডেমিক লেখার শক্তিশালী জুটি: ",
+        "কয়েকটি জরুরি কলোকেশন"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "হুমকি তৈরি করা",
+          "s": "pose a threat",
+          "en": "pose a threat"
+        },
+        {
+          "icon": "scale",
+          "t": "দারিদ্র্য বিমোচন করা",
+          "s": "alleviate poverty",
+          "en": "alleviate poverty"
+        },
+        {
+          "icon": "book-open",
+          "t": "গবেষণা চালানো",
+          "s": "carry out / conduct research",
+          "en": "carry out research"
+        },
+        {
+          "icon": "link",
+          "t": "কঠোরভাবে আইন প্রয়োগ",
+          "s": "strictly enforce laws",
+          "en": "strictly enforce"
+        }
+      ],
+      "vo": "এখন কিছু গুরুত্বপূর্ণ একাডেমিক কলোকেশন। pose a threat মানে হুমকি তৈরি করা, alleviate poverty মানে দারিদ্র্য লাঘব, carry out research গবেষণা চালানো। এই জুটিগুলো চোখ-কান খোলা রেখে নিজের খাতায় জমা করুন।",
+      "frames": 466
+    },
+    {
+      "type": "criteria",
+      "head": [
+        "শব্দের চার রূপ: ",
+        "Word Family"
+      ],
+      "items": [
+        {
+          "k": "N",
+          "en": "Noun",
+          "bn": "বিশেষ্য",
+          "icon": "book-open"
+        },
+        {
+          "k": "V",
+          "en": "Verb",
+          "bn": "ক্রিয়া",
+          "icon": "pen-line"
+        },
+        {
+          "k": "Adj",
+          "en": "Adjective",
+          "bn": "বিশেষণ",
+          "icon": "brain"
+        },
+        {
+          "k": "Adv",
+          "en": "Adverb",
+          "bn": "ক্রিয়াবিশেষণ",
+          "icon": "clock"
+        }
+      ],
+      "vo": "Word family মানে একই মূল থেকে বিশেষ্য, ক্রিয়া, বিশেষণ আর ক্রিয়া-বিশেষণ। IELTS Writing-এ প্যারাফ্রেজ করার সময় এই চার রূপ দারুণ কাজে লাগে। economy থেকে economic, economically—এভাবেই বাক্যের গঠন বদলান।",
+      "frames": 463
+    },
+    {
+      "type": "compare",
+      "head": [
+        "প্যারাফ্রেজিং: ",
+        "শুধু শব্দ নয়, রূপ বদলান"
+      ],
+      "rows": [
+        {
+          "bad": "The consumption of fast food is increasing significantly.",
+          "good": "There has been a significant increase in how much fast food people consume.",
+          "why": "increasing(v)→ increase(n), significantly(adv)→ significant(adj); অর্থ একই, বাক্যের গঠন বদলেছে।"
+        }
+      ],
+      "vo": "এই উদাহরণেই দেখুন, শুধু শব্দ নয়— increasing ক্রিয়াটি noun রূপে increase, আর significantly adjective রূপে significant হয়ে গেছে। এতে বাক্যটি সম্পূর্ণ বদলে গেলেও মূল অর্থ একই থাকল।",
+      "frames": 403
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "preposition ভুল হলে পুরো বাক্যই অচল; depends on, focus on খেয়াল রাখুন।",
+      "sub": "of-এর পরে সর্বদা noun বসে: development, education—develop নয়",
+      "vo": "সাবধান! depends on, focus on—এই preposition ছাড়া বাক্য অর্থহীন। আর of-এর পরে সবসময় noun বসে, যেমন lack of development, কখনোই of develop হবে না।",
+      "frames": 374
+    },
+    {
+      "type": "quizQ",
+      "q": "নিচের কোনটি সঠিক কলোকেশন?",
+      "o": [
+        "make research",
+        "conduct research",
+        "take research",
+        "give research"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট একটা পরীক্ষা। ভাবুন তো— নিচের কোন জুটি ইংরেজিতে ঠিক? পাঁচ সেকেন্ড সময়।",
+      "frames": 187
+    },
+    {
+      "type": "quizA",
+      "q": "নিচের কোনটি সঠিক কলোকেশন?",
+      "o": [
+        "make research",
+        "conduct research",
+        "take research",
+        "give research"
+      ],
+      "a": 1,
+      "ex": "শুধু 'conduct research'–ই প্রাকৃতিক ইংরেজি; make, take, give research মোটেও চলে না।",
+      "vo": "সঠিক উত্তর 'conduct research'। কারণ collocation অনুযায়ী research-এর আগে make, take বা give কখনো বসে না।",
+      "frames": 257
+    },
+    {
+      "type": "recap",
+      "items": [
+        "কঠিন শব্দ নয়, সঠিক জুটি: take an exam, make a mistake, conduct research",
+        "ওয়ার্ড ফ্যামিলির চার রূপ জানলে প্যারাফ্রেজিং অনেক সহজ হয়",
+        "of–এর পর সবসময় noun: education, development ইত্যাদি",
+        "এআই প্রশিক্ষক দিয়ে লিখে Lexical Resource ফিডব্যাক নিন"
+      ],
+      "vo": "আজ যা শিখলাম: প্রথম, কঠিন শব্দ নয়, জুটি ঠিক থাকা জরুরি। দ্বিতীয়, ওয়ার্ড ফ্যামিলির চার রূপ দিয়ে বাক্য বদলান। তৃতীয়, of-এর পর noun। চতুর্থ, এআই প্রশিক্ষকের ফিডব্যাক নিন।",
+      "frames": 451
+    },
+    {
+      "type": "outro",
+      "head": "এবার এআই প্রশিক্ষক দিয়ে যাচাই করুন!",
+      "cta": "নিচে Writing Task 2 লিখুন, Lexical Resource সহ পুরো ফিডব্যাক পান",
+      "vo": "এবার নিচের বক্সে নিজেই Writing Task 2 লিখে দেখুন। এআই প্রশিক্ষক Lexical Resource সহ চার মানদণ্ডে আনুমানিক ব্যান্ড দেখাবে। শুভ রচনা!",
+      "frames": 293
+    }
+  ]
+}

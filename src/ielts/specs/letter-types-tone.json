@@ -1,0 +1,186 @@
+{
+  "id": "letter-types-tone",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৬ · Writing Task 1 (General Training): চিঠি",
+  "lessonNo": "পাঠ ১",
+  "title": "চিঠির ধরন ও টোন: formal, semi-formal, informal",
+  "next": "অভিযোগ, অনুরোধ ও আবেদনের চিঠি",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Formal, Semi-formal ও Informal টোন চেনা",
+        "সঠিক সম্ভাষণ ও সমাপ্তির জোড়া ব্যবহার",
+        "বাংলাদেশি সাধারণ ভুল এড়ানো",
+        "ধাপে ধাপে টোন ঠিক রাখার কৌশল"
+      ],
+      "vo": "স্বাগতম! General Training Writing Task 1-এ চিঠির টোনই সবচেয়ে গুরুত্বপূর্ণ। আজ আমরা Formal, Semi-formal ও Informal টোনের তফাত শিখব, আর দেখব কোথায় বাংলাদেশিরা সবচেয়ে বেশি ভুল করে। পাঠ শেষে আপনি যে-কোনো পরিস্থিতির জন্য সঠিক টোন বেছে নিতে পারবেন।",
+      "frames": 554
+    },
+    {
+      "type": "myth",
+      "wrong": "‘Respected Sir’ বা ‘I pray and hope’ লিখলে ভালো ব্যান্ড আসে",
+      "right": "আন্তর্জাতিক ইংরেজিতে সরাসরি, স্বাভাবিক ভাষা চায়—অতিরিক্ত সম্মানসূচক বাক্য বাদ",
+      "sub": "পুরনো ধাঁচের ভাষা Task Achievement কমিয়ে দেয়",
+      "vo": "অনেকে ভাবেন, IELTS-এর চিঠিতে ‘Respected Sir’ বা ‘I therefore pray and hope’ লিখলে ভালো নম্বর পাওয়া যাবে। পরীক্ষক কিন্তু আন্তর্জাতিক মান খোঁজেন—এসব অতি-আনুষ্ঠানিক ভাষা বরং নম্বর কমায়। স্বাভাবিক ও সোজা ইংরেজি লিখুন।",
+      "frames": 463
+    },
+    {
+      "type": "points",
+      "head": [
+        "তিন ধরনের টোন: ",
+        "প্রাপকের সম্পর্কই মূল চাবি"
+      ],
+      "items": [
+        {
+          "icon": "file-text",
+          "t": "Formal: অপরিচিত ব্যক্তি বা কোম্পানি",
+          "s": "Dear Sir or Madam, → Yours faithfully,",
+          "en": "Hotel manager, admission office"
+        },
+        {
+          "icon": "link",
+          "t": "Semi-formal: পরিচিত কিন্তু পেশাদার",
+          "s": "Dear Mr Rahman, → Yours sincerely,",
+          "en": "Landlord, teacher, colleague"
+        },
+        {
+          "icon": "sparkles",
+          "t": "Informal: ঘনিষ্ঠ বন্ধু বা পরিবার",
+          "s": "Dear Nabil, → Best wishes,",
+          "en": "Close friend, cousin"
+        }
+      ],
+      "vo": "চিঠির টোন পুরোটা নির্ভর করে আপনি কাকে লিখছেন। অপরিচিত অফিস বা কোম্পানি—Formal, সম্ভাষণ Dear Sir or Madam। পরিচিত বাড়িওয়ালা বা শিক্ষক—Semi-formal, সম্ভাষণ Dear Mr Rahman। আর ঘনিষ্ঠ বন্ধু বা কাজিন—Informal, প্রথম নামে সম্ভাষণ। প্রশ্নের নির্দেশনায় নাম দেখেই টোন বুঝে নিন।",
+      "frames": 653
+    },
+    {
+      "type": "points",
+      "head": [
+        "সম্ভাষণ ও সমাপ্তির জোড়া: ",
+        "ভুল জোড়ায় নম্বর কাটে"
+      ],
+      "items": [
+        {
+          "icon": "pen-line",
+          "t": "Formal (নাম অজানা)",
+          "s": "শুরু: Dear Sir or Madam,  শেষ: Yours faithfully,",
+          "en": "আপনার পুরো নাম দিন"
+        },
+        {
+          "icon": "link",
+          "t": "Semi-formal (নাম জানা)",
+          "s": "Dear Mr Karim, / Yours sincerely,",
+          "en": "Surname-এর সাথে Mr/Ms"
+        },
+        {
+          "icon": "sparkles",
+          "t": "Informal (বন্ধু)",
+          "s": "Dear Nabil, / Best wishes,",
+          "en": "শুধু প্রথম নাম দিয়ে শেষ"
+        }
+      ],
+      "vo": "আন্তর্জাতিক নিয়মে সম্ভাষণ আর সমাপ্তির নির্দিষ্ট জোড়া আছে। নাম না জানা Formal-এ শেষে Yours faithfully, আর নাম জানা Semi-formal-এ Yours sincerely। Informal-এ Best wishes, দিলেই চলে। কখনো ‘Yours obediently’ বা ‘Respected Sir’ লিখবেন না।",
+      "frames": 523
+    },
+    {
+      "type": "compare",
+      "head": [
+        "টোন মেশানোর ফাঁদ: ",
+        "Register Drift"
+      ],
+      "rows": [
+        {
+          "bad": "Dear Sir or Madam, … Anyway, I don’t like this … Best wishes,",
+          "good": "Dear Sir or Madam, … I am writing to express my dissatisfaction … Yours faithfully,",
+          "why": "শুরুতে Formal, মাঝে Informal আর শেষে আবার Informal—পুরো চিঠির টোন এক রাখতে হবে।"
+        }
+      ],
+      "vo": "সবচেয়ে বড় ভুল টোন মেশানো। শুরু করলেন Formal Dear Sir or Madam, দিয়ে, তারপর মাঝপথে লিখলেন ‘Anyway, I don’t like it’ আর শেষ করলেন Best wishes দিয়ে। এতে পুরো টোন নষ্ট হয়ে যায়, আর Task Achievement-এ কম নম্বর আসে। পুরো চিঠিতে একই টোন বজায় রাখবেন।",
+      "frames": 557
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "‘Respected Sir’, ‘Honourable Manager’, ‘I therefore pray and hope…’—এসব লিখবেন না",
+      "sub": "পরিবর্তে সরাসরি I hope you will consider my request লিখুন।",
+      "vo": "বাংলাদেশি শিক্ষার্থীদের আরেকটি চেনা ভুল: অতিরিক্ত সম্মান দেখাতে ‘Respected Sir’ বা ‘I therefore pray and hope that you would grant my application’। এগুলো আন্তর্জাতিক ইংরেজিতে খুব unnatural। দয়া করে স্বাভাবিকভাবে লিখুন, যেমন: I hope you will consider my request।",
+      "frames": 562
+    },
+    {
+      "type": "points",
+      "head": [
+        "Formal বনাম Informal ভাষা: ",
+        "contraction ও phrasal verb-এ তফাত"
+      ],
+      "items": [
+        {
+          "icon": "list-checks",
+          "t": "সাহায্য চাওয়া",
+          "s": "Formal: I would appreciate your assistance.",
+          "en": "Informal: Could you give me a hand?"
+        },
+        {
+          "icon": "list-checks",
+          "t": "অনুরোধ করা",
+          "s": "Formal: I am writing to request…",
+          "en": "Informal: I was wondering if you could…"
+        },
+        {
+          "icon": "list-checks",
+          "t": "ধন্যবাদ",
+          "s": "Formal: Thank you for your cooperation.",
+          "en": "Informal: Thanks a lot for your help!"
+        }
+      ],
+      "vo": "টোন অনুযায়ী শব্দ ও বাক্যের গঠন বদলায়। Formal-এ contraction যেমন don’t বা I’m ব্যবহার করা যাবে না, পুরো শব্দ লিখতে হবে। Informal-এ phrasal verb যেমন ‘give me a hand’ দিলে ভাষা স্বাভাবিক লাগে। কিন্তু Formal-এ সবসময় I would appreciate, I am writing-এর মতো পূর্ণাঙ্গ রূপ ব্যবহার করুন।",
+      "frames": 605
+    },
+    {
+      "type": "quizQ",
+      "q": "আপনি একটি ভাষা কোর্সে ভর্তি হতে কলেজের অফিসে চিঠি লিখছেন। অফিসারের নাম জানেন না। কোন সম্ভাষণ সঠিক?",
+      "o": [
+        "Dear Sir or Madam,",
+        "Dear Mr Manager,",
+        "Dear College Office,",
+        "Respected Sir,"
+      ],
+      "a": 0,
+      "hold": 150,
+      "vo": "ছোট্ট একটি অনুশীলন। আপনি ভাষা কোর্সে ভর্তি হতে কলেজের অফিসে চিঠি লিখছেন, কিন্তু অফিসারের নাম জানেন না। কোন সম্ভাষণটি ঠিক? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 312
+    },
+    {
+      "type": "quizA",
+      "q": "আপনি একটি ভাষা কোর্সে ভর্তি হতে কলেজের অফিসে চিঠি লিখছেন। অফিসারের নাম জানেন না। কোন সম্ভাষণ সঠিক?",
+      "o": [
+        "Dear Sir or Madam,",
+        "Dear Mr Manager,",
+        "Dear College Office,",
+        "Respected Sir,"
+      ],
+      "a": 0,
+      "ex": "নাম অজানা Formal চিঠিতে সবসময় Dear Sir or Madam, ব্যবহার করবেন। Respected Sir, বা Dear Mr Manager, আন্তর্জাতিক ইংরেজিতে ভুল ধরা হয়।",
+      "vo": "সঠিক উত্তর: Dear Sir or Madam, কারণ অফিসারের নাম জানেন না এবং এটি Formal টোনের চিঠি। Respected Sir বা Dear Mr Manager, IELTS-এ গ্রহণযোগ্য নয়।",
+      "frames": 338
+    },
+    {
+      "type": "recap",
+      "items": [
+        "তিন টোন: Formal, Semi-formal, Informal",
+        "সঠিক সম্ভাষণ-সমাপ্তির জোড়া ভুলবেন না",
+        "‘Respected Sir’ বা ‘I pray and hope’ বাদ দিন",
+        "টোন মেশাবেন না—পুরো চিঠিতে একই ধরন বজায় রাখুন"
+      ],
+      "vo": "আজ যা শিখলাম: Formal, Semi-formal, Informal তিন টোনের পার্থক্য, সম্ভাষণ ও সমাপ্তির নির্দিষ্ট জোড়া, register drift থেকে সাবধান থাকা, এবং অতিরিক্ত সম্মানসূচক ভাষা এড়ানো।",
+      "frames": 394
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে লিখে টোন বাছাই করুন!",
+      "cta": "নিচের অনুশীলনে পরিস্থিতি অনুযায়ী টোন ও সম্ভাষণ বেছে নিন",
+      "vo": "এবার নিচের অনুশীলনে কিছু পরিস্থিতি দেওয়া আছে—সেগুলোতে কোন টোন ব্যবহার করবেন ঠিক করুন। এআই প্রশিক্ষকের সাহায্যে আপনার চিঠির ফিডব্যাক নিন। শুভকামনা!",
+      "frames": 312
+    }
+  ]
+}

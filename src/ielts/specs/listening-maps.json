@@ -1,0 +1,259 @@
+{
+  "id": "listening-maps",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৩ · Listening",
+  "lessonNo": "পাঠ ৬",
+  "title": "Map ও plan labelling: দিক ও অবস্থানের ভাষা",
+  "next": "Part 3: matching ও আলোচনা অনুসরণ",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "ম্যাপ শুনে সঠিক লেটার (A–I) চিহ্নিত করা",
+        "opposite, junction, dead end-এর মতো শব্দ চট করে চেনা",
+        "বাঁ-ডান না গুলানোর কৌশল",
+        "স্পিকার রিসেট করলে সূচনা বিন্দুতে ফিরে আসা"
+      ],
+      "vo": "স্বাগতম! আজকের বিষয় Listening Part 2-এর Map Labelling। শুনতে কঠিন মনে হলেও দিক আর অবস্থানের ভাষা জানলে এটা হয়ে ওঠে মজার প্রশ্ন। এই ভিডিওতে আমরা শিখব স্পিকারের সাথে তাল মিলিয়ে ম্যাপে পথ অনুসরণ করার কৌশল।",
+      "frames": 466
+    },
+    {
+      "type": "myth",
+      "wrong": "মানচিত্র বোঝা কঠিন, দিকনির্দেশনা আমার হবে না।",
+      "right": "কয়েকটা নির্দিষ্ট শব্দ আর ঠিক কৌশল জানলেই Map Labelling সহজে নম্বর তোলার জায়গা।",
+      "sub": "স্পিকার ধাপে ধাপে পথ দেখান — আপনি শুধু অনুসরণ করবেন।",
+      "vo": "অনেকে ভাবেন, ম্যাপ বোঝা কঠিন, তাই এ প্রশ্নটা তাঁদের হবে না। কিন্তু স্পিকার আপনাকে ধাপে ধাপে এগিয়ে নিয়ে যান, আর আপনি শুধু কিছু শব্দ চিনে পথ অনুসরণ করবেন। তাই ভয় নয় — জানতে হবে শুধু ভাষাটা।",
+      "frames": 425
+    },
+    {
+      "type": "points",
+      "head": [
+        "অবস্থান বোঝানোর ",
+        "জরুরি শব্দভাণ্ডার"
+      ],
+      "items": [
+        {
+          "icon": "map-pin",
+          "t": "opposite",
+          "s": "রাস্তা/করিডোরের অপর পাশে, মুখোমুখি",
+          "en": "The cafe is opposite the library."
+        },
+        {
+          "icon": "map-pin",
+          "t": "next to / beside",
+          "s": "ঠিক পাশে",
+          "en": "The gym is next to the reception."
+        },
+        {
+          "icon": "map-pin",
+          "t": "at the junction / crossroads",
+          "s": "মোড়ে, সংযোগস্থলে",
+          "en": "Turn left at the junction."
+        },
+        {
+          "icon": "map-pin",
+          "t": "dead end / cul-de-sac",
+          "s": "রাস্তার শেষ প্রান্ত",
+          "en": "The path ends at a dead end."
+        }
+      ],
+      "vo": "প্রথমেই জরুরি শব্দগুলো কানে গেঁথে নিই। opposite মানে মুখোমুখি, next to মানে পাশে। মোড়ে ডাকে at the junction, আর রাস্তার শেষ প্রান্ত হলো dead end। অডিওতে এগুলো দ্রুত চিনতে পারাটাই আসল দক্ষতা।",
+      "frames": 492
+    },
+    {
+      "type": "points",
+      "head": [
+        "কম্পাস থাকলে ",
+        "এই দিকগুলো চিনুন"
+      ],
+      "items": [
+        {
+          "icon": "map-pin",
+          "t": "north / northern",
+          "s": "উত্তর দিক",
+          "en": "The garden is on the north side."
+        },
+        {
+          "icon": "map-pin",
+          "t": "south of the...",
+          "s": "কোনো কিছুর দক্ষিণে",
+          "en": "The cafe is south of the reception."
+        },
+        {
+          "icon": "map-pin",
+          "t": "east / eastern",
+          "s": "পূর্ব দিক",
+          "en": "the east wing"
+        },
+        {
+          "icon": "map-pin",
+          "t": "west / western",
+          "s": "পশ্চিম দিক",
+          "en": "at the western end"
+        }
+      ],
+      "vo": "ম্যাপে কম্পাস থাকলে স্পিকার উত্তর-দক্ষিণ-পূর্ব-পশ্চিম বলে দেন। north মানে উত্তর, south দক্ষিণ, east পূর্ব, west পশ্চিম। পরীক্ষার আগে দিকগুলো পুরোপুরি গেঁথে রাখুন।",
+      "frames": 401
+    },
+    {
+      "type": "compare",
+      "head": [
+        "বাংলাদেশিদের ভুল: ",
+        "opposite বনাম next to ও বাঁ-ডান"
+      ],
+      "rows": [
+        {
+          "bad": "The gym is opposite the entrance.",
+          "good": "The gym is next to the entrance, while the cafe is opposite.",
+          "why": "শুধু opposite শুনেই ভুল লেটার বেছে নেবেন না; পুরো বাক্য শুনে নিশ্চিত হোন।"
+        },
+        {
+          "bad": "From the entrance, turn left and it's on your left.",
+          "good": "From the entrance facing north, turn left, then look to your right — it's just past the hall.",
+          "why": "নিজেকে স্পিকার হিসেবে ভেবে বাঁ-ডান ঠিক করুন; কম্পাস থাকলে উত্তরমুখী দাঁড়ান।"
+        }
+      ],
+      "vo": "সবচেয়ে বড় ভুল opposite আর next to-কে এক করে ফেলা। পুরো বাক্য শুনে বোঝার চেষ্টা করুন। আর বাঁ-ডান ঠিক করতে নিজেকে স্পিকারের জায়গায় কল্পনা করুন, তবেই ভুল কমবে।",
+      "frames": 348
+    },
+    {
+      "type": "exam",
+      "head": [
+        "নমুনা ম্যাপ: ",
+        "কমিউনিটি সেন্টার"
+      ],
+      "paper": {
+        "title": "Westdale Community Centre",
+        "rows": [
+          {
+            "n": 11,
+            "label": "Gym"
+          },
+          {
+            "n": 12,
+            "label": "IT Suite"
+          },
+          {
+            "n": 13,
+            "label": "Quiet Study Room"
+          }
+        ]
+      },
+      "focus": 11,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "Welcome to Westdale Community Centre. Let me show you around. We are now standing at the main entrance, facing north. Right in front of us is the reception desk. If you turn left from reception and go straight past the Main Hall, you will see a corridor branching off to the left — take that turning and the Gym is the room at the far end, on your right-hand side, just before the door to the garden."
+        }
+      ],
+      "lines": [
+        {
+          "who": "B",
+          "text": "Welcome to Westdale Community Centre. Let me show you around. We are now standing at the main entrance, facing north. Right in front of us is the reception desk. If you turn left from reception and go straight past the Main Hall, you will see a corridor branching off to the left — take that turning and the Gym is the room at the far end, on your right-hand side, just before the door to the garden.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "far end",
+        "right-hand side",
+        "just before the door to the garden"
+      ],
+      "strike": [],
+      "answer": "D",
+      "tip": "শুরু Entrance → বাঁয়ে Main Hall পেরিয়ে → বাঁয়ের করিডোর → শেষে ডানে বাগানের দরজার আগের রুম = D।",
+      "vo": "এবার আসল প্রশ্ন। Westdale Community Centre-এর ফ্লোর প্ল্যান শুনে Gym-এর জন্য সঠিক লেটার বাছুন। অডিওতে বলা পথটি মনোযোগ দিয়ে শুনে কার্সর এগিয়ে নিন।",
+      "clip": "clip06.mp3",
+      "clipFrames": 730,
+      "frames": 314
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "উত্তরপত্রে শুধু লেটার (A, B, C) লিখুন — পুরো নাম লিখলে নম্বর কাটা যাবে।",
+      "sub": "প্রশ্নপত্রের নির্দেশনা: Write the correct letter, A–I.",
+      "vo": "একটা সাধারণ ভুল হলো ‘Gift Shop’ পুরো লিখে ফেলা। মনে রাখবেন, নির্দেশনায় থাকে শুধু লেটার লিখতে। তাই লেটার ছাড়া কিছু লিখবেন না।",
+      "frames": 278
+    },
+    {
+      "type": "points",
+      "head": [
+        "পরীক্ষার কৌশল: ",
+        "ধাপে ধাপে"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "সূচনা বিন্দু খুঁজুন",
+          "s": "Entrance বা You are here চিহ্নে কার্সর রাখুন",
+          "en": ""
+        },
+        {
+          "icon": "eye",
+          "t": "স্থায়ী ল্যান্ডমার্ক পড়ুন",
+          "s": "Main Hall, Car Park, River আগেই চোখ বুলান",
+          "en": ""
+        },
+        {
+          "icon": "headphones",
+          "t": "স্পিকারকে অনুসরণ করুন",
+          "s": "হাঁটার সাথে সাথে মাউস/পেন্সিল সরান",
+          "en": ""
+        },
+        {
+          "icon": "alert",
+          "t": "রিসেট সংকেত চিনুন",
+          "s": "'Go back to the entrance' শুনলেই শুরুতে ফিরুন",
+          "en": ""
+        }
+      ],
+      "vo": "কৌশলগুলো: Entrance-এ কার্সর রাখুন, স্থায়ী নাম পড়ে নিন, স্পিকার এগোনোর সাথে সাথে সরুন, আর 'go back' বললেই শুরুতে ফিরুন। এই চার ধাপ মানলেই ভুল কমবে। আর শেষ পর্যন্ত একবারই শোনার সুযোগ, তাই প্রতি পদক্ষেপ মনোযোগী থাকুন।",
+      "frames": 485
+    },
+    {
+      "type": "quizQ",
+      "q": "স্পিকার বলেন, ‘The cafe is immediately opposite the library.’ 'opposite' মানে কী?",
+      "o": [
+        "পাশে",
+        "মুখোমুখি",
+        "মোড়ে",
+        "কোণায়"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "একটি ছোট ক্যুইজ: 'opposite' শব্দটির মানে কী? চারটি অপশনের মধ্যে থেকে সঠিক উত্তর বেছে নিন। পরীক্ষায় এমন শব্দই আপনাকে দিশা দেখাবে।",
+      "frames": 286
+    },
+    {
+      "type": "quizA",
+      "q": "স্পিকার বলেন, ‘The cafe is immediately opposite the library.’ 'opposite' মানে কী?",
+      "o": [
+        "পাশে",
+        "মুখোমুখি",
+        "মোড়ে",
+        "কোণায়"
+      ],
+      "a": 1,
+      "ex": "opposite = রাস্তা বা করিডোরের অপর পাশে, মুখোমুখি। তাই ক্যাফেটি লাইব্রেরির ঠিক উল্টো দিকে।",
+      "vo": "সঠিক উত্তর: মুখোমুখি। opposite মানে ঠিক অপর পাশে, যেমন রাস্তার এপার-ওপার। পরীক্ষায় এই শব্দ শুনলে দেরি করবেন না।",
+      "frames": 286
+    },
+    {
+      "type": "recap",
+      "items": [
+        "opposite ≠ next to; পুরো বাক্য শুনে নিশ্চিত হোন",
+        "নিজেকে স্পিকার ভেবে বাঁ-ডান ঠিক করুন",
+        "'go back' শুনলে সাথে সাথে Entrance-এ রিসেট করুন",
+        "উত্তরে শুধু লেটার লিখবেন, পুরো নাম নয়"
+      ],
+      "vo": "আজকের সারাংশ: অবস্থানের শব্দগুলো কানে গেঁথে নিন, বাঁ-ডান ঠিক করতে নিজেকে স্পিকার ভাবুন, 'go back' মানেই Entrance-এ ফিরুন, আর লেটার-ই লিখবেন। বাকি সব নিচের ড্রিলে চর্চা করে নিন।",
+      "frames": 406
+    },
+    {
+      "type": "outro",
+      "head": "এবার অনেকগুলো ম্যাপে অনুশীলন!",
+      "cta": "নিচের ড্রিলে ১২টি Map Labelling প্রশ্ন, অডিও একবারই বাজবে।",
+      "vo": "এবার নিচের ড্রিলে আসল পরীক্ষার মতো অনুশীলন করুন। বারোটা Map Labelling প্রশ্ন, অডিও একবারই বাজবে, আর শেষে এআই প্রশিক্ষকের ফিডব্যাক পাবেন। মনে রাখবেন, ব্যান্ড আনুমানিক। শুভকামনা!",
+      "frames": 396
+    }
+  ]
+}

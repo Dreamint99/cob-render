@@ -25,6 +25,7 @@ import { TinkerFeature, TINKER_LEN } from "./feature/Tinker";
 import { MasumFeature, MASUM_LEN } from "./feature/Masum";
 import { Masum2, MASUM2_LEN } from "./feature/Masum2";
 import { DataReel, REELS as DATA_REELS } from "./investigation/DataReel";
+import { InfoMotion, IM_REELS, imLen } from "./infomotion/InfoMotion";
 import { RonaldoBan, RONALDO_LEN } from "./news/stories/RonaldoBan";
 import { Gambling, GAMBLING_LEN } from "./investigation/Gambling";
 import { Doc, FILM_LIST, filmLen } from "./docs/DocEngine";
@@ -64,6 +65,16 @@ import L_cfe_taskbar from "./lessons/cfe-taskbar.json";
 import L_cfe_what_can_you_do from "./lessons/cfe-what-can-you-do.json";
 import L_cfe_what_is_computer from "./lessons/cfe-what-is-computer.json";
 const LESSONS = [L_cfe_browser, L_cfe_connect_desktop, L_cfe_desktop_intro, L_cfe_email, L_cfe_files_folders, L_cfe_history, L_cfe_how_internet_works, L_cfe_hw_vs_sw, L_cfe_inside_parts, L_cfe_install_software, L_cfe_io_devices, L_cfe_keyboard, L_cfe_laptop_vs_desktop, L_cfe_main_parts, L_cfe_malware_scams, L_cfe_modern_society, L_cfe_mouse, L_cfe_p_m2, L_cfe_p_m3, L_cfe_p_m4, L_cfe_p_m6, L_cfe_passwords, L_cfe_ports_cables, L_cfe_search, L_cfe_shortcuts, L_cfe_start_desktop, L_cfe_taskbar, L_cfe_what_can_you_do, L_cfe_what_is_computer] as unknown as Spec[];
+import { CfeKinetic } from "./promo3/CfeKinetic";
+import { GdsBoard } from "./promo3/GdsBoard";
+import { IeltsPhone } from "./promo3/IeltsPhone";
+import { totalLen as p3Len, Spec as P3Spec } from "./promo3/shared";
+import p3cfe from "./promo3/cfe.json";
+import p3cfeD from "./promo3/cfe.durs.json";
+import p3gds from "./promo3/gds.json";
+import p3gdsD from "./promo3/gds.durs.json";
+import p3ielts from "./promo3/ielts.json";
+import p3ieltsD from "./promo3/ielts.durs.json";
 import { CoursePromo, promoLen, PSpec } from "./promos/CoursePromo";
 import prVibe from "./promos/vibe-coding.json";
 import prSnake from "./promos/snake-rescue.json";
@@ -84,6 +95,9 @@ export const Root = () => (
     {PROMOS.map((s) => <Composition key={s.id} id={`Promo-${s.id}`} component={CoursePromo} defaultProps={{ spec: s }} durationInFrames={promoLen(s)} fps={30} width={1920} height={1080} />)}
     {LESSONS.map((s) => <Composition key={s.id} id={`Lesson-${s.id}`} component={LessonVideo} defaultProps={{ spec: s }} durationInFrames={lessonLen(s)} fps={30} width={1920} height={1080} />)}
     <Composition id="CFEPromo" component={CFEPromo} durationInFrames={CFE_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="P3-cfe" component={CfeKinetic} defaultProps={{ spec: p3cfe as unknown as P3Spec, durs: p3cfeD }} durationInFrames={p3Len(p3cfeD)} fps={30} width={1920} height={1080} />
+    <Composition id="P3-gds" component={GdsBoard} defaultProps={{ spec: p3gds as unknown as P3Spec, durs: p3gdsD }} durationInFrames={p3Len(p3gdsD)} fps={30} width={1920} height={1080} />
+    <Composition id="P3-ielts" component={IeltsPhone} defaultProps={{ spec: p3ielts as unknown as P3Spec, durs: p3ieltsD }} durationInFrames={p3Len(p3ieltsD)} fps={30} width={1920} height={1080} />
     <Composition id="AIUPromo2" component={AIUPromo2} durationInFrames={AIU2_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="AIUPromo" component={AIUPromo} durationInFrames={AIU_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="TestCard" component={TestCard} durationInFrames={90} fps={30} width={1920} height={1080} />
@@ -106,6 +120,7 @@ export const Root = () => (
     <Composition id="SEThumb" component={SEThumb} durationInFrames={1} fps={30} width={1280} height={720} />
     <Composition id="NewsKushtiaPakistan" component={KushtiaPakistan} durationInFrames={KUSHTIA_LEN} fps={30} width={1920} height={1080} />
     <Composition id="NewsComillaArrest" component={ComillaArrest} durationInFrames={COMILLA_LEN} fps={30} width={1920} height={1080} />
+    {IM_REELS.map((r) => <Composition key={r.id} id={r.id} component={InfoMotion} defaultProps={{ id: r.id }} durationInFrames={imLen(r)} fps={30} width={1080} height={1920} />)}
     {DATA_REELS.map((r) => <Composition key={r.id} id={r.id} component={DataReel} defaultProps={{ r }} durationInFrames={r.dur} fps={30} width={1080} height={1920} />)}
     <Composition id="FeatureMasum2" component={Masum2} durationInFrames={MASUM2_LEN} fps={30} width={1920} height={1080} />
     <Composition id="FeatureMasum" component={MasumFeature} durationInFrames={MASUM_LEN} fps={30} width={1920} height={1080} />

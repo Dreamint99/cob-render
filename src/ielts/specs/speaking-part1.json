@@ -1,0 +1,162 @@
+{
+  "id": "speaking-part1",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৮ · Speaking",
+  "lessonNo": "পাঠ ২",
+  "title": "Part 1: স্বাভাবিকভাবে উত্তর বাড়ানো",
+  "next": "Part 2: cue card, ১ মিনিটে নোট, ২ মিনিট বলা",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Yes/No ছাড়িয়ে ২-৪ বাক্যে স্বাভাবিক উত্তর",
+        "A-R-E (Answer-Reason-Example) সূত্র রপ্ত",
+        "সাধারণ ভুল ও Tense-এর ফাঁদ এড়ানো",
+        "প্রথম ধারণায় আত্মবিশ্বাসী শুরু"
+      ],
+      "vo": "স্বাগতম! Speaking Part 1-এ প্রথম ধারণাটাই আসল। আজ আমরা শিখব কীভাবে Yes/No-র বাইরে গিয়ে ২-৪ বাক্যে স্বাভাবিকভাবে উত্তর বাড়াতে হয়, যাতে এক্সামিনার আপনার আসল দক্ষতা দেখতে পান।",
+      "frames": 449
+    },
+    {
+      "type": "myth",
+      "wrong": "Part 1 ছোট প্রশ্ন, এক কথায় উত্তর দিয়ে সময় বাঁচাই",
+      "right": "প্রথম ধারণাই Fluency-র নম্বর গড়ে দেয়, ছোট উত্তর বিপদজনক",
+      "sub": "এক কথায় উত্তর দিলে এক্সামিনার আপনার ভাষা মাপতে পারেন না",
+      "vo": "অনেকে ভাবেন, Part 1 তো সাধারণ আলাপ, তাই ছোট উত্তর দিলে ক্ষতি নেই। সত্যিটা হচ্ছে, এখানেই আপনার Fluency-র ভিত গড়ে ওঠে। এক কথার উত্তর আপনার আসল দক্ষতা লুকিয়ে রাখে, আর এক্সামিনার বাধ্য হয়ে বারবার Why? জিজ্ঞেস করেন।",
+      "frames": 480
+    },
+    {
+      "type": "points",
+      "head": [
+        "Part 1-এ ৩টি টপিক সেট: ",
+        "পরিচিত বিষয়েই শুরু"
+      ],
+      "items": [
+        {
+          "icon": "book-open",
+          "t": "Work or Study",
+          "s": "প্রথম সেট সবসময় কাজ বা পড়াশোনা",
+          "en": "I'm a student / I work in…"
+        },
+        {
+          "icon": "map-pin",
+          "t": "Hometown / Accommodation",
+          "s": "থাকার জায়গা নিয়ে প্রশ্ন",
+          "en": "I live in a flat near the city centre."
+        },
+        {
+          "icon": "clock",
+          "t": "Daily Life Topics",
+          "s": "আবহাওয়া, রান্না, জুতা, বইয়ের মতো বিষয়",
+          "en": "I usually read before bed."
+        }
+      ],
+      "vo": "Part 1-এ ৩টি আলাদা টপিক সেট থাকে। প্রথমটা সবসময় আপনার কাজ বা পড়াশোনা, অথবা থাকার জায়গা। পরের দুটো দৈনন্দিন পরিচিত বিষয়—আবহাওয়া, রান্না বা সকালের রুটিন। সব প্রশ্নই ব্যক্তিগত, তাই নিজের জীবন থেকেই বলবেন।",
+      "frames": 475
+    },
+    {
+      "type": "points",
+      "head": [
+        "উত্তর বাড়ানোর সূত্র: ",
+        "A-R-E (Answer – Reason – Example)"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "Answer",
+          "s": "প্রশ্নের প্রত্যক্ষ উত্তর, প্যারাফ্রেজ করে",
+          "en": "I'm definitely more of a tea person."
+        },
+        {
+          "icon": "lightbulb",
+          "t": "Reason",
+          "s": "কেন বা কেমন, একটি সংক্ষিপ্ত কারণ",
+          "en": "In Bangladesh, milk tea is a daily habit."
+        },
+        {
+          "icon": "quote",
+          "t": "Example",
+          "s": "নিজের বাস্তব জীবনের ছোট উদাহরণ",
+          "en": "A warm cup in the evening helps me unwind."
+        }
+      ],
+      "vo": "নির্ভরযোগ্য কৌশল হলো A-R-E: Answer, Reason, Example। প্রথমে প্যারাফ্রেজ করে সরাসরি উত্তর দিন, তারপর একটি কারণ যোগ করুন, শেষে নিজের বাস্তব উদাহরণ দিন। এতে উত্তরটা স্বাভাবিক আর তথ্যে ভরা হবে, অথচ দীর্ঘ হবে না।",
+      "frames": 523
+    },
+    {
+      "type": "compare",
+      "head": [
+        "সাধারণ ভুল ও সমাধান: ",
+        "Yes/No থেকে ২-৪ বাক্যে"
+      ],
+      "rows": [
+        {
+          "bad": "I like tea.",
+          "good": "I’m definitely more of a tea person. In Bangladesh, having milk tea is a daily habit, and a warm cup in the evening really helps me unwind after classes.",
+          "why": "কারণ ও ব্যক্তিগত উদাহরণ যোগ করলে ভাষার গভীরতা ও স্বাভাবিকতা ফুটে ওঠে।"
+        },
+        {
+          "bad": "Yes, I like art very much.",
+          "good": "Yes, I really enjoyed art. We had a very creative teacher who encouraged us to experiment with different materials.",
+          "why": "প্রশ্নে Did থাকলে অতীতকালে উত্তর দেওয়া জরুরি, নাহলে গ্রামার স্কোর কমে।"
+        }
+      ],
+      "vo": "উদাহরণ দেখুন। প্রথম উত্তরে শুধু পছন্দ বলা আছে, কিন্তু কোনো বিস্তার নেই। দ্বিতীয়টায় কারণ ও অভিজ্ঞতা মিলে একটা ছোট গল্প তৈরি হয়েছে। আবার নিচের ভুলটায় Tense-এর গড়বড়। প্রশ্নে Did শুনলে উত্তরে Past Tense আনতে হবে, নইলে Grammar-এ নম্বর যাবে।",
+      "frames": 526
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "Part 1-এ ২ মিনিটের বক্তৃতা দেবেন না — এক্সামিনার থামিয়ে দেবেন",
+      "sub": "আদর্শ উত্তর ১৫–২৫ সেকেন্ড বা ২–৪ বাক্যের মধ্যে সীমাবদ্ধ রাখুন",
+      "vo": "একটা জরুরি কথা। Part 1-এ দীর্ঘ উত্তর দিতে গেলে এক্সামিনার বিরক্ত হয়ে মাঝপথে থামিয়ে দিতে পারেন। বরং ১৫ থেকে ২৫ সেকেন্ডের ভেতর ২-৪ বাক্যে গুছিয়ে শেষ করুন, একেবারে পরিষ্কার ও টানটান।",
+      "frames": 425
+    },
+    {
+      "type": "quizQ",
+      "q": "“Do you like cooking?” – কোন উত্তর A-R-E সূত্র মেনে সবচেয়ে ভালো?",
+      "o": [
+        "Yes.",
+        "Yes, I like cooking.",
+        "I enjoy cooking, especially traditional dishes, because it’s a way to relax after a long day.",
+        "I cook every day."
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "ছোট্ট একটি প্রশ্ন। “Do you like cooking?” চারটি উত্তরের মধ্যে কোনটা A-R-E সূত্র সেরাভাবে মানে? ভাবুন, ৫ সেকেন্ড সময়।",
+      "frames": 264
+    },
+    {
+      "type": "quizA",
+      "q": "“Do you like cooking?” – কোন উত্তর A-R-E সূত্র মেনে সবচেয়ে ভালো?",
+      "o": [
+        "Yes.",
+        "Yes, I like cooking.",
+        "I enjoy cooking, especially traditional dishes, because it’s a way to relax after a long day.",
+        "I cook every day."
+      ],
+      "a": 2,
+      "ex": "উত্তর: I enjoy cooking (Answer), কারণ কারণ (Reason) – relax after a long day, এবং উদাহরণ (Example) – traditional dishes।",
+      "vo": "সঠিক উত্তরটি তৃতীয়। এখানে I enjoy cooking সরাসরি উত্তর, relax because কারণের মতো, আর traditional dishes একটি বাস্তব উদাহরণ। A-R-E পুরোপুরি মেনেছে।",
+      "frames": 415
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Part 1-ই প্রথম ধারণা — Fluency-র ভিত",
+        "A-R-E: Answer, Reason, Example ছকে উত্তর বাড়ান",
+        "২-৪ বাক্যে, ১৫-২৫ সেকেন্ডের মধ্যে শেষ করুন",
+        "প্রশ্নের Tense শুনে সময় বুঝে উত্তর দিন"
+      ],
+      "vo": "আজ যা শিখলাম: Part 1 আপনার Fluency-র প্রথম সুযোগ। A-R-E সূত্র ধরে উত্তর বাড়ান, কিন্তু ২-৪ বাক্যের মধ্যেই রাখুন। আর Did বা was শুনলে Tense-এ সচেতন থাকুন।",
+      "frames": 396
+    },
+    {
+      "type": "outro",
+      "head": "এবার স্বাভাবিকভাবে বলুন!",
+      "cta": "নিচের ভার্চুয়াল এক্সামিনারের সাথে রেকর্ডিং প্র্যাকটিসে যান",
+      "vo": "এবার নিচের প্র্যাকটিসে ভার্চুয়াল এক্সামিনারের প্রশ্ন শুনে নিজে রেকর্ড করুন। এআই প্রশিক্ষক আপনার উচ্চারণ আর গঠন নিয়ে মতামত দেবেন। মনে রাখবেন, মুখস্থ নয়, নিজের জীবন থেকেই বলবেন। শুভকামনা!",
+      "frames": 415
+    }
+  ]
+}

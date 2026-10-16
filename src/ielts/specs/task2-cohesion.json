@@ -1,0 +1,193 @@
+{
+  "id": "task2-cohesion",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৭ · Writing Task 2 (দুই ট্র্যাকেই)",
+  "lessonNo": "পাঠ ৬",
+  "title": "Coherence ও cohesion",
+  "next": "Lexical resource: collocation, paraphrase, মুখস্থ বাক্যের বিপদ",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Coherence আর Cohesion-এর পার্থক্য বোঝা",
+        "This/These + noun দিয়ে স্বাভাবিক সংযোগ",
+        "যান্ত্রিক linker ছাড়া গল্পের মতো লেখা",
+        "এআই প্রশিক্ষকের সাথে অনুশীলন"
+      ],
+      "vo": "স্বাগতম! Writing Task 2-তে মোট স্কোরের ২৫% আসে Coherence and Cohesion থেকে। আজ আমরা শিখব কীভাবে আপনার লেখা একটা পরিষ্কার গল্পের মতো এগিয়ে নেওয়া যায়, আর লিংকারের বাড়াবাড়ি না করে বাক্যগুলোর মধ্যে প্রাকৃতিক আঠা তৈরি করা যায়।",
+      "frames": 494
+    },
+    {
+      "type": "myth",
+      "wrong": "প্রতি বাক্যে Firstly, Moreover, Furthermore দিলেই cohesion ভালো হয়",
+      "right": "Band 9-এ cohesion এত স্বাভাবিক যে পরীক্ষক আলাদা করে খেয়ালই করেন না",
+      "sub": "যান্ত্রিক linker উল্টো নম্বর কমায়",
+      "vo": "অনেকেই মনে করেন, প্রতিটা বাক্যের শুরুতে Firstly, Moreover, Furthermore বসালেই নম্বর বাড়বে। আসলে, আইইএলটিএস-এর বর্ণনায় Band 9-এ বলা আছে, cohesion এমনভাবে ব্যবহার করতে হবে যাতে তা খুব কমই নজরে আসে। যান্ত্রিক লিংকার ব্যবহার করলে উল্টো সেটা Band 6-এর বৈশিষ্ট্য হয়ে দাঁড়ায়।",
+      "frames": 581
+    },
+    {
+      "type": "points",
+      "head": [
+        "Coherence ও Cohesion: ",
+        "দুটো আলাদা জিনিস"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "Coherence (সুসংগতি)",
+          "s": "ধারণাগুলো কোন ক্রমে সাজালে পাঠকের কাছে পরিষ্কার হবে",
+          "en": "Overall logical order of ideas"
+        },
+        {
+          "icon": "link",
+          "t": "Cohesion (সংযোজনা)",
+          "s": "বাক্যে বাক্যে প্রাকৃতিক আঠা, জোড়ের দাগ দেখা যায় না",
+          "en": "Seamless links between sentences"
+        }
+      ],
+      "vo": "প্রথমে দুইটা ধারণা পরিষ্কার করি। Coherence মানে আপনার পুরো essay-র একটা যৌক্তিক ছক—প্যারাগ্রাফ সাজানো আর ভেতরের ধারণাগুলো ধাপে ধাপে ওঠার মতো। আর Cohesion হলো বাক্যের মধ্যে সেই অদৃশ্য আঠা, যা পড়ার সময় পাঠক টেরই পায় না।",
+      "frames": 506
+    },
+    {
+      "type": "points",
+      "head": [
+        "প্যারাগ্রাফের ভেতর: ",
+        "যুক্তির ধারা"
+      ],
+      "items": [
+        {
+          "icon": "list-checks",
+          "t": "General claim",
+          "s": "প্রথম বাক্যে মূল দাবি"
+        },
+        {
+          "icon": "layers",
+          "t": "Specific explanation",
+          "s": "দাবিটা খুলে বলা, কেন ও কীভাবে"
+        },
+        {
+          "icon": "lightbulb",
+          "t": "Concrete illustration",
+          "s": "ছোট বাস্তব উদাহরণ"
+        },
+        {
+          "icon": "target",
+          "t": "Logical conclusion",
+          "s": "শেষে মূল বক্তব্যে ফিরে আসা"
+        }
+      ],
+      "vo": "Coherence-এর ভালো ভিত হলো প্রতিটি প্যারাগ্রাফে একটা পরিষ্কার ধারা। প্রথমে general claim, তারপর নির্দিষ্ট ব্যাখ্যা, তারপর বাস্তব উদাহরণ, আর শেষে logic দরকার। এটা কোনো লিংকার ছাড়াই নিজের গতি পায়। পরীক্ষার খাতায় এক লাইন ফাঁকা দিয়ে প্যারাগ্রাফ আলাদা করাটাও Coherence-এর জন্য জরুরি।",
+      "frames": 586
+    },
+    {
+      "type": "compare",
+      "head": [
+        "Linker ছাড়া স্বাভাবিক সংযোগ: ",
+        "This/These + Summary Noun"
+      ],
+      "rows": [
+        {
+          "bad": "Firstly, online shopping is convenient. Moreover, it offers variety. Furthermore, it saves time. In addition, it is open 24/7. On the other hand, it can cause impulsive buying.",
+          "good": "Online shopping has grown popular because of its round-the-clock convenience. This accessibility, however, often leads to impulsive purchases and financial strain.",
+          "why": "প্রতি বাক্যে linker না বসিয়ে, আগের ধারণাকে 'This accessibility' দিয়ে টেনে আনা হয়েছে"
+        },
+        {
+          "bad": "Governments should build metro rails. Moreover, they should improve buses. Furthermore, they should make cycle lanes. In addition, they should limit cars.",
+          "good": "Governments should invest in metro rail networks. Such infrastructure upgrades reduce congestion and encourage public transport use.",
+          "why": "'Such infrastructure upgrades' আগের বাক্যের ধারণাকে সংক্ষেপ করে cohesion তৈরি করছে"
+        }
+      ],
+      "vo": "দুটো উদাহরণ দেখুন। বাঁ দিকের লেখায় প্রতি বাক্যে প্রথমে একটা করে লিংকার, এটা পড়তে একটু কাঠখোট্টা লাগে। ডান দিকের লেখায় 'This accessibility' বা 'Such infrastructure upgrades' ব্যবহার করে আগের ধারণাকে টেনে আনা হয়েছে—এই জিনিসটাই Band 8-এর নমনীয় cohesion।",
+      "frames": 559
+    },
+    {
+      "type": "criteria",
+      "head": [
+        "প্রয়োজনীয় Discourse Marker: ",
+        "সঠিক যৌক্তিক কাজ অনুযায়ী"
+      ],
+      "items": [
+        {
+          "k": "CT",
+          "en": "Contrast",
+          "bn": "বৈপরীত্য দেখাতে However, In contrast",
+          "icon": "scale"
+        },
+        {
+          "k": "RS",
+          "en": "Result",
+          "bn": "ফলাফল বোঝাতে Consequently, Therefore",
+          "icon": "sparkles"
+        },
+        {
+          "k": "EX",
+          "en": "Example",
+          "bn": "উদাহরণ দিতে For instance, To illustrate",
+          "icon": "lightbulb"
+        },
+        {
+          "k": "AD",
+          "en": "Addition",
+          "bn": "যুক্ত করতে Furthermore, Additionally",
+          "icon": "layers"
+        }
+      ],
+      "vo": "যদিও লিংকার কমানোর কথা বলছি, কিছু জায়গায় একটা বুদ্ধিদীপ্ত signpost দরকার হয়। কিন্তু সেগুলো সঠিক যৌক্তিক সম্পর্ক অনুযায়ী বসাতে হবে, আর প্রতি প্যারাগ্রাফে ১-২টার বেশি নয়। 'On the other hand' কখনো 'in addition'-এর মতো নয়, আর 'Last but not least' একেবারেই চলবে না।",
+      "frames": 581
+    },
+    {
+      "type": "note",
+      "head": "সাবধান! Pronoun রেফারেন্স পরিষ্কার না হলে...",
+      "text": "বাবা-মা বাচ্চাদের সারাদিন টিভি দেখতে দিলে, 'এটি' তাদের ক্ষতি করে — 'এটি' আর 'তাদের' কে বোঝায়, তা পরিষ্কার নয়",
+      "sub": "বরং: 'This excessive screen time harms the children's development'",
+      "vo": "আরেকটা বড় ফাঁদ—অস্পষ্ট pronoun। 'Parents allow children to watch TV all day; it harms them'—এই 'it' কী? টিভি, নাকি দেখা? 'them' কারা? বরং পরিষ্কার করে বলুন: 'This excessive screen time harms the children's cognitive development'।",
+      "frames": 528
+    },
+    {
+      "type": "quizQ",
+      "q": "নিচের কোন বাক্যটি প্রাকৃতিক cohesion দেখায়?",
+      "o": [
+        "Moreover, it is cheap. Furthermore, it is fast.",
+        "This convenience, however, comes with hidden costs.",
+        "In addition to this, it is good.",
+        "Firstly, it is popular."
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট একটা পরীক্ষা। নিচের চারটা বাক্যের মধ্যে কোনটা প্রাকৃতিক cohesion দেখায়? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 218
+    },
+    {
+      "type": "quizA",
+      "q": "নিচের কোন বাক্যটি প্রাকৃতিক cohesion দেখায়?",
+      "o": [
+        "Moreover, it is cheap. Furthermore, it is fast.",
+        "This convenience, however, comes with hidden costs.",
+        "In addition to this, it is good.",
+        "Firstly, it is popular."
+      ],
+      "a": 1,
+      "ex": "'This convenience' আগের ধারণাকে টেনে এনে কোনো অতিরিক্ত linker ছাড়াই স্বাভাবিক সংযোগ তৈরি করেছে।",
+      "vo": "সঠিক উত্তর হলো 'This convenience, however, comes with hidden costs'। এখানে 'This convenience' আগের কোনো ধারণাকে ধরছে, আর কোনো বাড়তি লিংকার লাগেনি। বাকি বাক্যগুলো যান্ত্রিকভাবে শুরু হয়েছে।",
+      "frames": 410
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Coherence = ধারণার যৌক্তিক ক্রম, Cohesion = বাক্যের প্রাকৃতিক সংযোগ",
+        "প্রতি প্যারাগ্রাফে claim → explanation → illustration → conclusion",
+        "This/These + Summary Noun দিয়ে আগের বাক্য টেনে আনুন",
+        "Pronoun রেফারেন্স সবসময় পরিষ্কার রাখুন"
+      ],
+      "vo": "আজ যা শিখলাম: Coherence মানে ধারণার ক্রম, Cohesion মানে মসৃণ সংযোগ। প্রতিটি প্যারাগ্রাফে চার ধাপ—claim, explanation, illustration, conclusion। লিংকার কমানোর সেরা টুল 'This/These + Summary Noun'। আর pronoun ব্যবহারে সবচেয়ে বেশি সতর্ক থাকতে হবে।",
+      "frames": 617
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজের লেখায় প্রয়োগ করুন!",
+      "cta": "নিচে 'Online learning vs classroom learning' topic-এ essay লিখে এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "এবার নিচের বক্সে একটা পূর্ণ essay লিখুন topic 'Online learning vs classroom learning'। লিখে এআই প্রশিক্ষকের ফিডব্যাক নিন। ফিডব্যাকে আপনাকে Coherence and Cohesion-এর আনুমানিক ব্যান্ড আর লাইন-ধরে সংশোধন দেওয়া হবে। এই ফিডব্যাক মনোযোগ দিয়ে দেখুন, এতেই আসল উন্নতি হবে। শুভকামনা!",
+      "frames": 586
+    }
+  ]
+}

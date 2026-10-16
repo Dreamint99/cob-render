@@ -1,0 +1,311 @@
+{
+  "id": "listening-distractors",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৩ · Listening",
+  "lessonNo": "পাঠ ৪",
+  "title": "ডিস্ট্র্যাক্টর: কথা বদলে যাওয়ার ফাঁদ",
+  "next": "Multiple choice ও multiple answer",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "ডিস্ট্র্যাক্টরের ৪ ধরন চেনা",
+        "সংকেত শব্দ শুনে উত্তর বদলানোর অভ্যাস",
+        "প্রথম তথ্য কেটে শেষেরটা লিখতে শেখা",
+        "ভুল থেকে শিখে ব্যান্ড বাড়ানো"
+      ],
+      "vo": "স্বাগতম! আজ আমরা IELTS Listening-এর সবচেয়ে বড় ফাঁদ নিয়ে কাজ করব — distractor, বা কথা বদলে যাওয়া। আপনি শিখবেন কিভাবে সংকেত শব্দ চিনে ফাঁদ এড়িয়ে শেষ মুহূর্তে সঠিক উত্তর লিখতে হয়। এই অভ্যাস আপনার Listening ব্যান্ড অনেক বাড়িয়ে দেবে।",
+      "frames": 504
+    },
+    {
+      "type": "myth",
+      "wrong": "প্রথমে যা শুনি সেটাই উত্তর, পরে আর শোনা দরকার নেই",
+      "right": "প্রথম তথ্য প্রায়ই বদলে যায়; শেষেরটাই সঠিক",
+      "sub": "তাড়াহুড়ো করলে ফাঁদে পড়া নিশ্চিত",
+      "vo": "অনেকে বিশ্বাস করেন, অডিওতে প্রথম যে তথ্যটা শোনা যায় সেটাই উত্তর। কিন্তু সত্য হলো, প্রায়ই বক্তা নিজেই ভুল করে পরে oh, sorry, actually বলে সংশোধন করেন। তাই তাড়াহুড়ো করে প্রথমটা লিখলে ফাঁদে পড়বেন। শেষ পর্যন্ত শোনার অভ্যাস করলেই এই ভুল এড়ানো যাবে।",
+      "frames": 547
+    },
+    {
+      "type": "points",
+      "head": [
+        "ডিস্ট্র্যাক্টরের",
+        "৪ ধরন"
+      ],
+      "items": [
+        {
+          "icon": "mic",
+          "t": "আত্মসংশোধন",
+          "s": "বক্তা নিজেই ভুল বলে oh, sorry, wait বলে ঠিক করেন"
+        },
+        {
+          "icon": "phone",
+          "t": "দুই বক্তার সংশোধন",
+          "s": "একজন প্রস্তাব দিলে অপরজন No, instead বলে বাতিল করেন"
+        },
+        {
+          "icon": "clock",
+          "t": "সময়নির্ভর ফাঁদ",
+          "s": "used to be, originally বলে অতীত তথ্য দেন, বর্তমান আলাদা"
+        },
+        {
+          "icon": "eye",
+          "t": "না-বোধক ফাঁদ",
+          "s": "except, no longer, hardly বলে কোনো কিছু বাদ দেন"
+        }
+      ],
+      "vo": "ডিস্ট্র্যাক্টর প্রধানত চারভাবে আসে। প্রথম, আত্মসংশোধন — বক্তা ভুল বলে oh, sorry, wait বলে ঠিক করেন। দ্বিতীয়, দুই বক্তার সংশোধন — একজন প্রস্তাব দিলে অপরজন No, instead বলে বাতিল করেন। তৃতীয়, সময়ের ফাঁদ — used to be, originally বলে অতীত তথ্য দিয়ে বর্তমান আলাদা রাখেন। চতুর্থ, না-বোধক শব্দ — except বা no longer দিয়ে কোনো কিছু বাদ দেন। প্রতিটি ধরনের জন্য আলাদা সিগন্যাল শব্দ জানা জরুরি।",
+      "frames": 1003
+    },
+    {
+      "type": "points",
+      "head": [
+        "কথা বদলানোর",
+        "সিগন্যাল শব্দ"
+      ],
+      "items": [
+        {
+          "icon": "ear",
+          "t": "but, however, actually",
+          "s": "মত বদলাচ্ছে বুঝুন"
+        },
+        {
+          "icon": "ear",
+          "t": "oh, sorry, wait, I mean",
+          "s": "নিজেকে সংশোধন করছে"
+        },
+        {
+          "icon": "ear",
+          "t": "no, instead, rather than",
+          "s": "অন্য বক্তা আগেরটা বাতিল করছেন"
+        },
+        {
+          "icon": "lightbulb",
+          "t": "on second thoughts",
+          "s": "সম্পূর্ণ সিদ্ধান্ত পাল্টাচ্ছে"
+        }
+      ],
+      "vo": "সংশোধন বোঝার প্রধান হাতিয়ার কিছু সিগন্যাল শব্দ। যেমন but, however, actually — এগুলো শুনলেই বুঝবেন মত বদলাচ্ছে। oh, sorry, wait, I mean — নিজেকে সংশোধন করছে। no, instead, rather than — অন্য বক্তা আগেরটা বাদ দিচ্ছেন। on second thoughts বললে পুরো সিদ্ধান্তই পাল্টাচ্ছে। এই শব্দগুলো কানে রাখলেই ফাঁদ ধরতে পারবেন।",
+      "frames": 739
+    },
+    {
+      "type": "exam",
+      "head": [
+        "ফি সংশোধন: ",
+        "oh, I'm sorry, actually"
+      ],
+      "paper": {
+        "title": "Course Booking Form",
+        "rows": [
+          {
+            "label": "Course",
+            "ans": "Photography"
+          },
+          {
+            "n": 1,
+            "label": "Fee (£)"
+          },
+          {
+            "n": 2,
+            "label": "Start date"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "The fee for the photography course is £150."
+        },
+        {
+          "who": "B",
+          "text": "£150, right."
+        },
+        {
+          "who": "A",
+          "text": "Oh, I'm sorry, I've given you the wrong price. Actually, it's £120 for online booking."
+        },
+        {
+          "who": "B",
+          "text": "Okay, £120."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "The fee for the photography course is £150.",
+          "name": "Speaker"
+        },
+        {
+          "who": "B",
+          "text": "£150, right.",
+          "name": "Speaker"
+        },
+        {
+          "who": "A",
+          "text": "Oh, I'm sorry, I've given you the wrong price. Actually, it's £120 for online booking.",
+          "name": "Speaker"
+        },
+        {
+          "who": "B",
+          "text": "Okay, £120.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "£120"
+      ],
+      "strike": [
+        "£150"
+      ],
+      "answer": "120",
+      "tip": "Oh, I'm sorry, actually শুনলেই বদল বুঝুন।",
+      "vo": "এবার একটা খুদে ফোন কল শুনছি। অফিসার প্রথমে ফটোগ্রাফি কোর্সের ফি £150 বলেন, কিন্তু সঙ্গে সঙ্গেই oh, I'm sorry, actually বলে ঠিক করে £120 জানান। আপনি যদি £150 লিখে বসেন, তাহলে ফাঁদে পড়লেন। সঠিক উত্তর £120, কারণ শেষেরটাই আসল।",
+      "clip": "clip05.mp3",
+      "clipFrames": 523,
+      "frames": 602
+    },
+    {
+      "type": "exam",
+      "head": [
+        "তারিখ সংশোধন: ",
+        "No, that's the online…"
+      ],
+      "paper": {
+        "title": "Course Booking Form",
+        "rows": [
+          {
+            "label": "Course",
+            "ans": "Photography"
+          },
+          {
+            "label": "Fee (£)",
+            "ans": "120"
+          },
+          {
+            "n": 2,
+            "label": "Start date"
+          }
+        ]
+      },
+      "focus": 2,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "So the course starts on the 5th of June?"
+        },
+        {
+          "who": "A",
+          "text": "No, that's the online module. The classroom course starts on the 12th of June."
+        },
+        {
+          "who": "B",
+          "text": "Alright, the 12th."
+        }
+      ],
+      "lines": [
+        {
+          "who": "B",
+          "text": "So the course starts on the 5th of June?",
+          "name": "Speaker"
+        },
+        {
+          "who": "A",
+          "text": "No, that's the online module. The classroom course starts on the 12th of June.",
+          "name": "Speaker"
+        },
+        {
+          "who": "B",
+          "text": "Alright, the 12th.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "12th of June"
+      ],
+      "strike": [
+        "5th of June"
+      ],
+      "answer": "12 June",
+      "tip": "No বলেই পূর্বের তথ্য বাদ — নতুন তারিখই উত্তর।",
+      "vo": "শুরু তারিখের জন্য বক্তা জানতে চান 5th June কিনা, কিন্তু অফিসার No বলে বদলে দেন 12th June। যারা 5th June লিখে ফেলেন, তারা আসলে সংশোধনের আগেই উত্তর দিয়ে দেন। তাই No শোনামাত্রই আগেরটা কেটে নতুনটা লিখবেন।",
+      "clip": "clip06.mp3",
+      "clipFrames": 310,
+      "frames": 422
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "উভয় বক্তা একমত না হওয়া পর্যন্ত কোনো তথ্যই চূড়ান্ত ভাববেন না",
+      "sub": "সম্পূর্ণ আলাপ শেষ না হওয়া পর্যন্ত উত্তর লেখা স্থগিত রাখুন",
+      "vo": "একটা গুরুত্বপূর্ণ সতর্কতা: যতক্ষণ পর্যন্ত উভয় বক্তা একমত না হন, কোনো তথ্যই চূড়ান্ত ভাববেন না। প্রথমে একজন কিছু বললেও অপরজন তা নাকচ করতে পারেন। তাই সর্বদা সম্পূর্ণ আলাপ শেষ না হওয়া পর্যন্ত উত্তর লেখা স্থগিত রাখুন।",
+      "frames": 497
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভুল বনাম সঠিক: ",
+        "ডিস্ট্র্যাক্টরে ভুল এড়ানো"
+      ],
+      "rows": [
+        {
+          "bad": "Ticket used to be £10, so I wrote £10.",
+          "good": "Ticket used to be £10, but it went up to £12 — so £12.",
+          "why": "'used to' মানে আগে ছিল, এখন নেই — পরের অংশই বর্তমান"
+        },
+        {
+          "bad": "Everything included except insurance, so I listed insurance.",
+          "good": "insurance বাদ — তাই টিকিটের অন্তর্ভুক্ত জিনিস হিসেবে লিখিনি।",
+          "why": "'except' মানে বাদে, কাজেই ওটা তালিকার অংশ নয়"
+        }
+      ],
+      "vo": "সাধারণ ভুল দেখুন: used to be £10 শুনেই বর্তমান মূল্য £10 লিখে ফেলা, অথচ but it went up to £12 বলে বর্তমান £12। আরেকটি ভুল, Everything included except insurance বাক্যে except বোঝা সত্ত্বেও insurance অন্তর্ভুক্ত ভাবা। except মানে বাদ — মনে রাখতে হবে।",
+      "frames": 650
+    },
+    {
+      "type": "quizQ",
+      "q": "‘The ticket price used to be £25, but this year it's £30.’ বর্তমান টিকিটের দাম কত?",
+      "o": [
+        "£25",
+        "£30",
+        "£55",
+        "£5"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট পরীক্ষা। ‘The ticket price used to be £25, but this year it's £30.’ বর্তমান দাম কত? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 295
+    },
+    {
+      "type": "quizA",
+      "q": "‘The ticket price used to be £25, but this year it's £30.’ বর্তমান টিকিটের দাম কত?",
+      "o": [
+        "£25",
+        "£30",
+        "£55",
+        "£5"
+      ],
+      "a": 1,
+      "ex": "'used to be' মানে আগে ছিল, এখন আর নয়। তাই 'this year it's £30' বর্তমান।",
+      "vo": "সঠিক উত্তর £30। used to be বলে আগের দাম জানিয়ে এখন £30 বলেছে।",
+      "frames": 185
+    },
+    {
+      "type": "recap",
+      "items": [
+        "প্রথম তথ্য নয়, শেষ তথ্যই উত্তর",
+        "oh, sorry, actually, no শুনলেই সতর্ক হন",
+        "used to be আর except ফাঁদ চিনুন",
+        "উভয় বক্তার চূড়ান্ত একমত ছাড়া উত্তর দেবেন না"
+      ],
+      "vo": "আজ যা শিখলাম: ডিস্ট্র্যাক্টর মানে প্রথম তথ্য ফাঁদ, শেষেরটা সঠিক। oh, sorry, actually, no শোনামাত্র কান সজাগ করুন। used to be আর except এর ফাঁদ বুঝুন। আর কখনোই উভয় বক্তার চূড়ান্ত একমত ছাড়া উত্তর দেবেন না। এই নিয়মগুলো মেনে চললে Listening-এ আর বিভ্রান্ত হবেন না।",
+      "frames": 607
+    },
+    {
+      "type": "outro",
+      "head": "এবার আসল পরীক্ষার মতো ড্রিল!",
+      "cta": "নিচের এআই প্রশিক্ষক অডিও দেবে, আপনি ফর্ম পূরণ করুন",
+      "vo": "এবার নিচের ড্রিলে নিজেকে যাচাই করুন। সেখানে distractor ভরা অডিও একবারই বাজবে, আর আপনাকে দ্রুত ফর্ম পূরণ করতে হবে। শেষে এআই প্রশিক্ষকের ব্যাখ্যা পাবেন। প্রতিদিন অনুশীলন করুন — নম্বর বাড়বেই। শুভকামনা!",
+      "frames": 437
+    }
+  ]
+}

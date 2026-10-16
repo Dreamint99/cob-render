@@ -1,0 +1,269 @@
+{
+  "id": "articles-a-an-the",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ২ · ইংরেজির ভিত: বাংলাভাষীর চেনা ভুল সারাই",
+  "lessonNo": "পাঠ ২",
+  "title": "Article (a/an/the) — বাংলায় নেই বলেই ভুল",
+  "next": "Subject-verb agreement ও plural -s",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "বুঝব বাংলা ও ইংরেজি article-এর মূল তফাত",
+        "a, an, the আর zero article-এর সহজ নিয়ম",
+        "IELTS Writing ও Speaking-এ ভুল চিহ্নিত করা",
+        "Uncountable noun-এ article-এর ফাঁদ এড়ানো"
+      ],
+      "vo": "স্বাগতম! আজকের বিষয়টা ছোট কিন্তু পরীক্ষায় বিশাল প্রভাব ফেলে — article, মানে a, an, the। বাংলায় এদের সরাসরি কোনও সমতুল্য নেই, তাই লেখা আর বলার সময় এটাই আমাদের সবচেয়ে বড় ভুলগুলোর একটা। চিন্তা নেই, আজকের পাঠ শেষে এই ভুল ধরবেন এবং নিজেই শুধরে নিতে পারবেন।",
+      "frames": 614
+    },
+    {
+      "type": "myth",
+      "wrong": "article ছোট জিনিস, ভুল হলে নম্বর খুব একটা কাটে না",
+      "right": "Grammatical Range & Accuracy-তে বারবার একই ভুল ধরলে ব্যান্ড কমে যায়",
+      "sub": "একটা the কম পড়লেই বাক্য ভুল, আর স্পিকিংয়ে শোনায় অদ্ভুত",
+      "vo": "অনেকে ভাবেন article তো খুবই ছোট জিনিস, ভুল হলে পরীক্ষক ধরবেন না। কিন্তু IELTS-এ Grammatical Range and Accuracy-র নম্বর সরাসরি কাটা যায়। একবচন গোনা যায় এমন noun-এর আগে article না বসলে সেটা basic error, আর বারবার হলে ব্যান্ড কমতে বাধ্য।",
+      "frames": 494
+    },
+    {
+      "type": "points",
+      "head": [
+        "article কেন দরকার: ",
+        "বাংলা বনাম ইংরেজি"
+      ],
+      "items": [
+        {
+          "icon": "link",
+          "t": "বাংলায় সম্পূর্ণ আলাদা নিয়ম",
+          "s": "বাংলায় 'টি, টা, খানা'— noun-এর সাথে জুড়ে বসে",
+          "en": "বইটা টেবিলের ওপর"
+        },
+        {
+          "icon": "hash",
+          "t": "ইংরেজিতে noun-এর আগে আলাদা শব্দ",
+          "s": "Singular Countable Noun একা বসতে পারে না",
+          "en": "The book is on the table."
+        },
+        {
+          "icon": "alert",
+          "t": "article ছাড়া বাক্য ভেঙে যায়",
+          "s": "পরীক্ষক basic error ধরে ফেলেন",
+          "en": "Book is on table. ✗"
+        }
+      ],
+      "vo": "বাংলায় আমরা বলি বইটা টেবিলের ওপর, মানে টা জুড়ে দিলেই নির্দিষ্টতা বোঝানো যায়। কিন্তু ইংরেজিতে বইয়ের আগে the বা a বসাতে হয়, নইলে বাক্যটা ভেঙে যায়। পরীক্ষকের কাছে Book is on table বাক্যটা basic error, কোনো ছাড় নেই।",
+      "frames": 492
+    },
+    {
+      "type": "compare",
+      "head": [
+        "সবচেয়ে বড় ভুল: ",
+        "article একেবারে বাদ দেওয়া"
+      ],
+      "rows": [
+        {
+          "tag": "GRA",
+          "bad": "Government should take step to solve crisis.",
+          "good": "The government should take a step to solve the crisis.",
+          "why": "government নির্দিষ্ট, step একবচন — তাই the আর a চাই"
+        },
+        {
+          "tag": "GRA",
+          "bad": "Student needs laptop for online class.",
+          "good": "A student needs a laptop for an online class.",
+          "why": "student, laptop, class — তিনটাই singular countable"
+        }
+      ],
+      "vo": "আমরা প্রায়ই article বাদ দিয়ে দিই কারণ বাংলাতে অভ্যাস নেই। কিন্তু ইংরেজিতে নির্দিষ্ট সরকার বলতে the government, আর একবচন step-এর আগে a। এক বাক্যে তিনটে singular countable থাকলে তিন জায়গাতেই article চাই, student, laptop, class— তিনটার আগেই।",
+      "frames": 518
+    },
+    {
+      "type": "exam",
+      "head": [
+        "শব্দধ্বনি ধরুন: ",
+        "a নাকি an, spelling নয় sound"
+      ],
+      "paper": {
+        "title": "Application Form — Section 1",
+        "rows": [
+          {
+            "label": "Name of applicant",
+            "ans": "Nabila Hasan"
+          },
+          {
+            "n": 1,
+            "label": "Qualification"
+          },
+          {
+            "n": 2,
+            "label": "Preferred time slot"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "B",
+          "text": "I've got a university degree in engineering, and I'm also doing an online course at an institute here."
+        }
+      ],
+      "lines": [
+        {
+          "who": "B",
+          "text": "I've got a university degree in engineering, and I'm also doing an online course at an institute here.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "a university degree",
+        "an online course",
+        "an institute"
+      ],
+      "answer": "a university degree",
+      "tip": "university শুরু 'ইউ' ধ্বনিতে, vowel sound নয় — তাই a। hour, honest এর আগে an।",
+      "vo": "Listening-এ spelling দেখে ঠকবেন না। university-র শুরুতে u থাকলেও উচ্চারণ ইউ, তাই a university। কিন্তু hour-এ h অনুচ্চারিত, তাই an hour। institute-র শুরু vowel sound ই, তাই an institute। sound ধরতে হবে, spelling নয়।",
+      "clip": "clip05.mp3",
+      "clipFrames": 187,
+      "frames": 523
+    },
+    {
+      "type": "points",
+      "head": [
+        "Common Uncountable Nouns: ",
+        "এদের আগে the নয়"
+      ],
+      "items": [
+        {
+          "icon": "book-open",
+          "t": "information",
+          "s": "সাধারণ অর্থে The information নয়",
+          "en": "Information is key."
+        },
+        {
+          "icon": "lightbulb",
+          "t": "advice",
+          "s": "পরামর্শ গোনা যায় না",
+          "en": "She gave me advice."
+        },
+        {
+          "icon": "ear",
+          "t": "news",
+          "s": "খবর uncountable, a news হয় না",
+          "en": "The news is good."
+        },
+        {
+          "icon": "file-text",
+          "t": "research",
+          "s": "research-ও uncountable",
+          "en": "Research shows..."
+        }
+      ],
+      "vo": "আরেকটা বড় ফাঁদ হলো uncountable noun। information, advice, furniture, research — এগুলো গণনা করা যায় না, তাই সাধারণ অর্থে এদের আগে the বসে না। আমরা প্রায়ই ভুল করে বলি the information বা the advice, কিন্তু ঠিক হবে information is key বা she gave me advice।",
+      "frames": 602
+    },
+    {
+      "type": "compare",
+      "head": [
+        "Uncountable-এ ভুল: ",
+        "the Pollution, the Bangladesh"
+      ],
+      "rows": [
+        {
+          "bad": "The pollution is a major problem in the Bangladesh.",
+          "good": "Pollution is a major problem in Bangladesh.",
+          "why": "pollution uncountable; দেশের নামের আগে সাধারণত the বসে না"
+        },
+        {
+          "bad": "All applicants must possess an university degree.",
+          "good": "All applicants must possess a university degree.",
+          "why": "university শুরু 'ইউ' ধ্বনিতে, তাই a, an নয়"
+        }
+      ],
+      "vo": "খুব ক্লাসিক ভুল — আমরা লিখি the pollution বা the Bangladesh। কিন্তু pollution uncountable, তাই the যাবে না। আর দেশের নাম Bangladesh, তার আগে the বসে না। অন্যদিকে university-তে u দিয়ে শুরু হলেও ধ্বনি ইউ, তাই an নয়, a university।",
+      "frames": 538
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "Singular Countable Noun কখনো একা বসে না, চাই article বা determiner",
+      "sub": "laptop, book, student — এদের আগে a, an, the, my, your না বসালেই basic error",
+      "vo": "সবচেয়ে জরুরি নিয়মটা মাথায় রাখুন। singular countable noun কখনও একা বসতে পারে না। laptop, book, student — এইসব শব্দের আগে a, an, the, my, your-র মধ্যে কিছু একটা থাকতেই হবে। না থাকলেই বাক্যটা ভুল।",
+      "frames": 492
+    },
+    {
+      "type": "points",
+      "head": [
+        "Writing Task 2-এ কীভাবে ",
+        "article ঠিক করবেন"
+      ],
+      "items": [
+        {
+          "icon": "list-checks",
+          "t": "প্রতিটা noun চিহ্নিত করুন",
+          "s": "গোনা যায় কি না, একবচন না বহুবচন দেখুন",
+          "en": "student → countable, singular"
+        },
+        {
+          "icon": "pen-line",
+          "t": "প্রথমবার অনির্দিষ্ট → a/an",
+          "s": "পরিচিত বা দ্বিতীয়বার → the",
+          "en": "a problem → the problem"
+        },
+        {
+          "icon": "target",
+          "t": "সাধারণ অর্থে plural/ uncountable → zero",
+          "s": "article থাকলে কেটে দিন",
+          "en": "Books are helpful."
+        }
+      ],
+      "vo": "আপনার রচনা লেখার পর তিনটা ধাপ মেনে চলুন। এক, প্রতিটা noun চিহ্নিত করুন আর দেখুন গোনা যায় কি না। দুই, যদি প্রথমবার উল্লেখ করেন আর অনির্দিষ্ট, তাহলে a বা an, আর নির্দিষ্ট হলে the। তিন, বহুবচন আর uncountable-এ সাধারণ অর্থে কোন article লাগবে না, বরং থাকলে কেটে দিন।",
+      "frames": 653
+    },
+    {
+      "type": "quizQ",
+      "q": "কোন বাক্যটি article-র ব্যবহারে সম্পূর্ণ সঠিক?",
+      "o": [
+        "Pollution is a major problem in Dhaka.",
+        "The pollution is a major problem in the Dhaka.",
+        "Pollution is the major problem in Dhaka.",
+        "A pollution is major problem in the Dhaka."
+      ],
+      "a": 0,
+      "hold": 150,
+      "vo": "একটু যাচাই করি। নিচের চারটা বাক্যের মধ্যে কোনটা article-র নিয়মে সম্পূর্ণ সঠিক? ভাবতে পাঁচ সেকেন্ড।",
+      "frames": 238
+    },
+    {
+      "type": "quizA",
+      "q": "কোন বাক্যটি article-র ব্যবহারে সম্পূর্ণ সঠিক?",
+      "o": [
+        "Pollution is a major problem in Dhaka.",
+        "The pollution is a major problem in the Dhaka.",
+        "Pollution is the major problem in Dhaka.",
+        "A pollution is major problem in the Dhaka."
+      ],
+      "a": 0,
+      "ex": "pollution uncountable তাই the নয়; Dhaka-ও the ছাড়া; problem singular countable তাই a দরকার।",
+      "vo": "সঠিক উত্তর ক। Pollution uncountable, তাই the লাগবে না। Dhaka শহরের নাম, এর আগেও the লাগবে না। আর major problem?? singular countable, তাই a problem লিখতে হবে। বাকি অপশনগুলোতে এই নিয়ম ভেঙে গেছে।",
+      "frames": 432
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Singular Countable Noun-এর আগে article চাই-ই",
+        "a/an হয় sound দিয়ে, spelling দিয়ে নয়",
+        "uncountable-এ সাধারণ অর্থে the বসে না",
+        "দেশ-শহরের নামের আগে সাধারণত the হয় না"
+      ],
+      "vo": "আজকের গুরুত্বপূর্ণ চারটা নিয়ম। এক, singular countable noun-এর আগে article চাই-ই। দুই, a বা an ঠিক করবেন শব্দের ধ্বনি দেখে, বানান দেখে না। তিন, uncountable noun-এ সাধারণ অর্থে the বসে না। আর চার, দেশ বা শহরের নামের আগে সাধারণত the লাগে না।",
+      "frames": 586
+    },
+    {
+      "type": "outro",
+      "head": "নিচের বক্সে নিজের রচনা লিখে চেক করুন",
+      "cta": "Task 2 রচনা লিখুন, এআই প্রশিক্ষক article ঠিক করে ফিডব্যাক দেবে",
+      "vo": "এবার নিজে চেষ্টা করুন। নিচে online learning আর classroom learning নিয়ে রচনার বক্স আছে। লিখুন, আর এআই প্রশিক্ষক আপনার প্রতিটা article চেক করে কোথায় ভুল হলো দেখিয়ে দেবে। নিয়মিত পাঁচ-দশটা বাক্য লিখে article চেক করলেই অভ্যাস হয়ে যাবে। শুভকামনা!",
+      "frames": 480
+    }
+  ]
+}

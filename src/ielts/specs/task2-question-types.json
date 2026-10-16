@@ -1,0 +1,178 @@
+{
+  "id": "task2-question-types",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৭ · Writing Task 2 (দুই ট্র্যাকেই)",
+  "lessonNo": "পাঠ ২",
+  "title": "প্রশ্ন বিশ্লেষণ: ৫ ধরনের প্রশ্ন",
+  "next": "৫ মিনিটে প্ল্যান ও আইডিয়া বের করা",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "প্রশ্নের দুই অংশ আলাদা করা",
+        "৫ ধরনের প্রশ্ন এক নজরে চেনা",
+        "ভুল ধরে essay-র গতিপথ ঠিক রাখা",
+        "plural ও qualifier-এ সতর্ক হওয়া"
+      ],
+      "vo": "স্বাগতম! আজ আমরা শিখব Writing Task 2-এর প্রশ্ন বিশ্লেষণ। আপনি শিখবেন background আর instruction আলাদা করা, পাঁচ ধরনের প্রশ্ন চেনা, আর সাধারণ ভুলগুলো এড়ানো। শেষে একটি কুইজ দিয়ে নিজেকে যাচাই করবেন।",
+      "frames": 446
+    },
+    {
+      "type": "myth",
+      "wrong": "একটা টেমপ্লেট মুখস্থ থাকলেই সব প্রশ্নে কাজ হবে",
+      "right": "প্রশ্নের ধরন বুঝে উত্তর না দিলে টেমপ্লেট ফেল করে",
+      "sub": "প্রথম ২ মিনিটেই সঠিক বিশ্লেষণ করলে Task Response-এ ভালো ব্যান্ড আসে",
+      "vo": "অনেকে মনে করেন, একই টেমপ্লেট মুখস্থ করে সব লেখা চালিয়ে দেওয়া যায়। বাস্তবে প্রশ্নের ধরন বুঝতে না পারলে আপনি Agree/Disagree-র জায়গায় Discussion লেখা শুরু করে দেবেন, আর পুরো নম্বর কাটা যাবে। তাই শুরুতেই প্রশ্ন বিশ্লেষণ শিখুন।",
+      "frames": 451
+    },
+    {
+      "type": "points",
+      "head": [
+        "প্রথম ৩০ সেকেন্ড: ",
+        "background বনাম instruction"
+      ],
+      "items": [
+        {
+          "icon": "lightbulb",
+          "t": "Background statement",
+          "s": "Topic বা প্রেক্ষাপট দেয়, কিন্তু আসল প্রশ্ন নয়।",
+          "en": "University education should be free for all."
+        },
+        {
+          "icon": "target",
+          "t": "Task instruction",
+          "s": "প্রকৃত প্রশ্ন; এটা গাইড করবে আপনার পুরো essay।",
+          "en": "To what extent do you agree or disagree?"
+        }
+      ],
+      "vo": "প্রতিটি prompt-এ দুটি অংশ থাকে। প্রথম বাক্যটি শুধু প্রেক্ষাপট দেয়, দ্বিতীয় বাক্যটি আসল প্রশ্ন। এই পার্থক্য চোখে আঙুল দিয়ে ধরতে পারলে, ভুল ধরন ধরা অনেক কমে যাবে।",
+      "frames": 362
+    },
+    {
+      "type": "points",
+      "head": [
+        "পাঁচ ধরনের প্রশ্ন: ",
+        "এক নজরে"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "Opinion (Agree/Disagree)",
+          "s": "Instruction: Do you agree or disagree? নিজের অবস্থান স্পষ্ট করতে হবে।",
+          "en": "Do you agree or disagree?"
+        },
+        {
+          "icon": "scale",
+          "t": "Discussion",
+          "s": "Discuss both views + give your own opinion — দুই পক্ষ ও নিজের মত।",
+          "en": "Discuss both views and give your own opinion."
+        },
+        {
+          "icon": "list-checks",
+          "t": "Advantages/Disadvantages",
+          "s": "Sub-type: শুধু বর্ণনা নাকি outweigh মূল্যায়ন?",
+          "en": "Do the advantages outweigh the disadvantages?"
+        },
+        {
+          "icon": "file-text",
+          "t": "Problem/Solution",
+          "s": "Causes/problems + solutions — plural হলে একাধিক দিতে হবে।",
+          "en": "What are the causes? What solutions can you suggest?"
+        }
+      ],
+      "vo": "পাঁচ ধরনের প্রশ্ন আছে। পঞ্চমটি Two-Part—একই prompt-এ দুটি আলাদা প্রশ্ন থাকে, যেমন Why – এবং Is this positive or negative? দুটিরই আলাদা paragraph দিতে হবে। এই স্ক্রিনের চারটে ধরন মনে রাখুন।",
+      "frames": 444
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভুল ধরন এড়ান: ",
+        "Opinion vs Discussion"
+      ],
+      "rows": [
+        {
+          "bad": "Some people argue that unpaid community service should be compulsory. Others disagree. This essay will discuss both sides.",
+          "good": "I completely agree that unpaid community service must be compulsory because it builds character and bridges social gaps.",
+          "why": "Agree/Disagree-তে introduction-এই নিজের অবস্থান পরিষ্কার বলতে হবে।"
+        },
+        {
+          "bad": "This essay discussed both views.",
+          "good": "While strict punishments have some effect, I believe that education and road redesign are far more effective.",
+          "why": "Discussion-এ conclusion বা introduction-এ নিজের opinion দেওয়া বাধ্যতামূলক।"
+        }
+      ],
+      "vo": "প্রথম ভুল: Agree/Disagree-তে 'discuss both sides' লিখে নিজের অবস্থান ফাঁকা রাখা। দ্বিতীয় ভুল: Discussion-এ শুধু দুই পক্ষের সারাংশ দিয়ে নিজের মত না দেওয়া। এই দুটো ভুলেই Task Response সরাসরি ব্যান্ড ৫-৬ এ আটকে যায়।",
+      "frames": 494
+    },
+    {
+      "type": "compare",
+      "head": [
+        "আরেকটি বিভ্রান্তি: ",
+        "Outweigh বনাম শুধু list"
+      ],
+      "rows": [
+        {
+          "bad": "Online shopping has advantages like convenience and disadvantages like fraud.",
+          "good": "Although online shopping poses security risks, its overwhelming convenience and cost savings clearly outweigh these minor concerns.",
+          "why": "Outweigh প্রশ্নে শুধু list করলে হবে না—কেন একদিক 'outweigh' করছে, সেটা প্রমাণ করতে হবে।"
+        }
+      ],
+      "vo": "Do the advantages outweigh... লিখলে শুধু সুবিধা-অসুবিধা লিখলেই চলবে না। আপনাকে স্পষ্ট বলতে হবে কোন দিক বেশি ভারী, এবং কেন। নইলে পরীক্ষক ধরেই নেবেন আপনি প্রশ্নের গভীরে যাননি।",
+      "frames": 379
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "Plural noun (causes, solutions) থাকলে একাধিক দিন; qualifier (only, always) ignore করবেন না।",
+      "sub": "পরীক্ষায় পেন্সিল বা highlight দিয়ে দাগিয়ে নিন—ভুল এড়ানোর সহজ উপায়।",
+      "vo": "একটা গুরুত্বপূর্ণ সতর্কতা। prompt-এ plural noun থাকলে, মানে causes বা solutions, আপনাকে অবশ্যই একাধিক আইডিয়া দিতে হবে। আর qualifier যেমন only বা always থাকলে সেটা সরাসরি address করতে হবে, নাহলে Task Response-এ নম্বর কেটে নেবে।",
+      "frames": 499
+    },
+    {
+      "type": "quizQ",
+      "q": "নিচের prompt-টা কোন ধরনের?\n'Some people think that the government should spend more money on railways rather than roads. Others believe the opposite is true. Discuss both these views and give your own opinion.'",
+      "o": [
+        "Opinion (Agree/Disagree)",
+        "Discussion",
+        "Advantages/Disadvantages",
+        "Problem/Solution"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট কুইজ! নিচের prompt-টি দেখে ধরন বলুন। পাঁচ সেকেন্ড সময়।",
+      "frames": 142
+    },
+    {
+      "type": "quizA",
+      "q": "নিচের prompt-টা কোন ধরনের?\n'Some people think that the government should spend more money on railways rather than roads. Others believe the opposite is true. Discuss both these views and give your own opinion.'",
+      "o": [
+        "Opinion (Agree/Disagree)",
+        "Discussion",
+        "Advantages/Disadvantages",
+        "Problem/Solution"
+      ],
+      "a": 1,
+      "ex": "স্পষ্ট লেখা 'Discuss both these views and give your own opinion'—এটাই Discussion-এর চিহ্ন।",
+      "vo": "সঠিক উত্তর হলো Discussion। কারণ prompt-এ সরাসরি 'Discuss both these views and give your own opinion' লেখা আছে। এটাই সবচেয়ে পরিষ্কার চিহ্ন।",
+      "frames": 300
+    },
+    {
+      "type": "recap",
+      "items": [
+        "প্রথম ৩০ সেকেন্ডে background আর instruction আলাদা করুন।",
+        "পাঁচ ধরন চিনুন—Opinion, Discussion, Advantages/Disadvantages, Problem/Solution, Two-Part।",
+        "নিজের opinion ভুলে গেলে Task Response কমে যাবে।",
+        "Plural ও qualifier-এ চোখ রাখুন।"
+      ],
+      "vo": "আজ যা শিখলাম: prompt-এর দুই অংশ চিনুন, পাঁচ ধরন বুঝুন, আর নিজের মত ভুলে যাবেন না। তাহলে পরীক্ষার হলে প্রথম দুই মিনিটেই গোছানো পরিকল্পনা করতে পারবেন।",
+      "frames": 334
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে অনুশীলন করুন!",
+      "cta": "নিচে ৫টি prompt-এর ধরন চিহ্নিত করার quiz আছে—না দেখে করুন।",
+      "vo": "নিচের বক্সে আরও পাঁচটা prompt দেওয়া আছে। প্রশিক্ষক হিসেবে ধরন চিহ্নিত করুন, তারপর ব্যাখ্যা দেখে মিলিয়ে নিন। প্রতিদিন তিনটা করে বিশ্লেষণ করলে, পরীক্ষায় আর ভুল হবে না। শুভকামনা!",
+      "frames": 374
+    }
+  ]
+}

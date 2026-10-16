@@ -1,0 +1,200 @@
+{
+  "id": "task1-overview",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৫ · Writing Task 1 (Academic)",
+  "lessonNo": "পাঠ ১",
+  "title": "Task 1 কী চায়: overview-ই আসল",
+  "next": "Line graph",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Information report, মতামত নয়",
+        "Overview-ই সবচেয়ে বড় নম্বরের উৎস",
+        "Overview-এ কী লিখবেন, কী লিখবেন না",
+        "ভুল এড়িয়ে ব্যান্ড বাড়ানো"
+      ],
+      "vo": "আমার প্রিয় IELTS পরীক্ষার্থী, স্বাগতম! আজ আমরা Academic Writing Task 1-এর সবচেয়ে জরুরি কৌশল—overview—নিয়ে গভীরে যাব। আপনার ভোকাবুলারি আর গ্রামার যত ভালোই হোক, overview ছাড়া ভালো ব্যান্ড পাওয়া যায় না। এই পাঠ শেষে আপনি যে কোনো চার্টের জন্য নিখুঁত overview লিখতে পারবেন, আমি কথা দিচ্ছি।",
+      "frames": 622
+    },
+    {
+      "type": "myth",
+      "wrong": "Task 1 ছোট, তাই overview না দিলেও চলে",
+      "right": "clear overview ছাড়া Task Achievement-এ ৬-এর বেশি পাওয়া কঠিন",
+      "sub": "Official Band Descriptors-এ clear overview ছাড়া ব্যান্ড ৭ অসম্ভব",
+      "vo": "বাংলাদেশের অনেক পরীক্ষার্থীই ভাবেন, 'Task 1 তো ছোট, overview না দিলেও কোন ক্ষতি হবে না।' কিন্তু অফিসিয়াল ব্যান্ড ডেসক্রিপ্টর স্পষ্ট: clear overview ছাড়া ব্যান্ড ৭ অসম্ভব। Task 1-এর পুরো ২৫% নম্বর আসে overview থেকে। তাই এটাকে অবহেলা করলে আপনার পুরো রাইটিং স্কোর ক্ষতিগ্রস্ত হবে।",
+      "frames": 593
+    },
+    {
+      "type": "points",
+      "head": [
+        "Task 1-এ ",
+        "লিখবেন কী, লিখবেন না"
+      ],
+      "items": [
+        {
+          "icon": "pen-line",
+          "t": "তথ্যের সারসংক্ষেপ",
+          "s": "প্রধান বৈশিষ্ট্য বাছাই করে তুলনা",
+          "en": "Summarise main features, compare"
+        },
+        {
+          "icon": "alert",
+          "t": "মতামত ও কারণ নিষিদ্ধ",
+          "s": "কেন হলো না, শুধু কী ঘটেছে",
+          "en": "No opinion, no reasons"
+        },
+        {
+          "icon": "list-checks",
+          "t": "বুলেট পয়েন্ট নয়",
+          "s": "পূর্ণ অনুচ্ছেদে সংযুক্ত বাক্য লিখুন",
+          "en": "Write in connected paragraphs"
+        }
+      ],
+      "vo": "Task 1-এ পরীক্ষক কী দেখতে চান? তিনি চান তথ্যের নিরপেক্ষ সারসংক্ষেপ আপনি লিখতে জানেন কি না। তাই শুধু প্রধান বৈশিষ্ট্য বাছাই করে তুলনা করতে হবে। কোনো মতামত, অনুমান বা কারণ লেখা সম্পূর্ণ নিষিদ্ধ—এটা পরীক্ষার রুব্রিক অনুসারে শাস্তিযোগ্য। আর হ্যাঁ, লেখাটা পূর্ণ অনুচ্ছেদে, বুলেট পয়েন্টে নয়।",
+      "frames": 626
+    },
+    {
+      "type": "points",
+      "head": [
+        "Overview: ",
+        "কী আর কোথায় বসাবেন"
+      ],
+      "items": [
+        {
+          "icon": "eye",
+          "t": "বড় ছবি, সংখ্যা নয়",
+          "s": "সামগ্রিক প্রবণতা, নির্দিষ্ট ডেটা ছাড়া",
+          "en": "Overall, sales increased—no 45.2%"
+        },
+        {
+          "icon": "book-open",
+          "t": "Introduction-এর পরপর",
+          "s": "Overall, In general দিয়ে দ্বিতীয় প্যারাগ্রাফ",
+          "en": "Use discourse marker"
+        },
+        {
+          "icon": "link",
+          "t": "while / whereas",
+          "s": "তুলনামূলক বাক্যে ধারা ধরুন",
+          "en": "Connecting contrasting trends"
+        }
+      ],
+      "vo": "Overview আসলে কী? এটা ভিজ্যুয়ালের সেই বড় ছবিটা, যেখানে কোনো সুনির্দিষ্ট সংখ্যা বা শতাংশ নেই। যেমন, 'Overall, sales increased' লিখবেন, কিন্তু 'rose by 45%' নয়। Introduction-এর পরপরই একটি আলাদা অনুচ্ছেদে Overall বা In general দিয়ে শুরু করবেন। while বা whereas ব্যবহার করে দুটো গ্রুপ বা পিরিয়ডের তুলনা তুলে আনুন।",
+      "frames": 715
+    },
+    {
+      "type": "compare",
+      "head": [
+        "ভুল ও সংশোধন: ",
+        "overview লেখার সময়"
+      ],
+      "rows": [
+        {
+          "bad": "Overall, sales rose by 45.2% in 2010.",
+          "good": "Overall, sales increased significantly over the period.",
+          "why": "নির্দিষ্ট সংখ্যা দেওয়া ভুল—overview-এ শুধু ধারা চাই"
+        },
+        {
+          "bad": "In conclusion, the government should invest more in trains because bus usage fell.",
+          "good": "Overall, bus usage declined, whereas train travel became more popular.",
+          "why": "মতামত বা কারণ দেওয়া নিষিদ্ধ—তুলনা করাই আসল কাজ"
+        }
+      ],
+      "vo": "সাধারণ ভুল আর সংশোধন দেখুন। প্রথম ভুল: নির্দিষ্ট সংখ্যা বসানো—এটা দূর করুন। ডান দিকের বাক্যটিতে শুধু ধারাটাই বলা আছে। দ্বিতীয় ভুল: মতামত বা পরামর্শ দিয়ে ফেলা—পরীক্ষক এটা দেখলেই বিরক্ত হবেন। সঠিক বাক্যটি কেবল তুলনা করছে। পড়ুন, বুঝুন, আর অভ্যাস করুন।",
+      "frames": 650
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "Task 1-এ ‘why’ নয়, ‘what’ লিখুন। কারণ বা মতামত দিলে Task Achievement-এ নম্বর কমে।",
+      "sub": "Introduction-কে overview ভাববেন না—আলাদা প্যারাগ্রাফ জরুরি",
+      "vo": "সাবধান! Task 1-এ 'why' খুঁজবেন না, লিখবেন 'what'। যদি লিখে ফেলেন, 'In conclusion, the government should...', সঙ্গে সঙ্গে নম্বর কাটা যাবে। আরেকটা ফাঁদ: Introduction লিখেই ভাববেন overview হয়ে গেছে। কিন্তু না, Introduction শুধু বলে চার্টটা কী দেখাচ্ছে; overview বলে ডেটায় কী ঘটেছে। দুটো আলাদা—ভুলবেন না।",
+      "frames": 694
+    },
+    {
+      "type": "exam",
+      "head": [
+        "Overview লিখুন: ",
+        "সংখ্যা ছাড়া"
+      ],
+      "paper": {
+        "title": "Tea Production (2000 & 2020)",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Overview"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "In 2000, Bangladesh produced 20 million tonnes of tea, India 80 million tonnes, Pakistan 15 million tonnes. By 2020, Bangladesh's production fell to 18 million tonnes, India's rose to 120 million tonnes, and Pakistan's increased to 25 million tonnes."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "In 2000, Bangladesh produced 20 million tonnes of tea, India 80 million tonnes, Pakistan 15 million tonnes. By 2020, Bangladesh's production fell to 18 million tonnes, India's rose to 120 million tonnes, and Pakistan's increased to 25 million tonnes.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [],
+      "strike": [],
+      "answer": "Overall, India produced the most tea and experienced the greatest increase, while Bangladesh's output fell slightly.",
+      "tip": "নির্দিষ্ট সংখ্যা দিয়ে নয়—শুধু সামগ্রিক প্রবণতা ও তুলনা লিখুন।",
+      "vo": "এখন একটা আসল চার্ট দেখে overview লেখার অনুশীলন করি। আমি অডিওতে একটি বার চার্টের তথ্য দেব। আপনি ফাঁকা জায়গায় overview লিখুন। নির্দিষ্ট সংখ্যা দেবেন না, শুধু সামগ্রিক প্রবণতা ও তুলনা তুলে ধরুন। তৈরি তো? তাহলে অডিও শুনুন।",
+      "clip": "clip07.mp3",
+      "clipFrames": 638,
+      "frames": 492
+    },
+    {
+      "type": "quizQ",
+      "q": "নিচের কোন বাক্যটি একটি সঠিক overview?",
+      "o": [
+        "Overall, Bangladesh produced 20 million tonnes of tea in 2000.",
+        "Overall, Bangladesh's tea production slightly declined, while India's rose significantly.",
+        "The bar chart compares tea production in three countries.",
+        "In my opinion, India should produce more tea to stay ahead."
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "এখন একটা মজার কুইজ। আপনাকে চারটি বাক্য দেওয়া হবে: a, b, c, d। এর মধ্যে মাত্র একটি সঠিক overview। বাকি তিনটির প্রতিটাতে একটি করে ভুল আছে। চিন্তা করে দেখুন: কোন বাক্যটি নির্দিষ্ট সংখ্যা বা মতামত ছাড়া শুধু সামগ্রিক প্রবণতা ও তুলনা ধরেছে?",
+      "frames": 562
+    },
+    {
+      "type": "quizA",
+      "q": "নিচের কোন বাক্যটি একটি সঠিক overview?",
+      "o": [
+        "Overall, Bangladesh produced 20 million tonnes of tea in 2000.",
+        "Overall, Bangladesh's tea production slightly declined, while India's rose significantly.",
+        "The bar chart compares tea production in three countries.",
+        "In my opinion, India should produce more tea to stay ahead."
+      ],
+      "a": 1,
+      "ex": "সঠিক উত্তর b। এখানে কোনো নির্দিষ্ট সংখ্যা নেই, শুধু সামগ্রিক প্রবণতা ও তুলনা বর্ণিত হয়েছে।",
+      "vo": "সঠিক উত্তর b। দারুণ! b-তে কোনো নির্দিষ্ট সংখ্যা নেই, শুধু ‘slightly declined’ আর ‘rose significantly’—প্রবণতা ও তুলনা। a-তে নির্দিষ্ট সংখ্যা, c-তে ভূমিকা, d-তে মতামত। আপনি ঠিক চিনতে পেরেছেন তো?",
+      "frames": 492
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Overview ছাড়া Task Achievement-এ ৬-এর বেশি পাওয়া কঠিন",
+        "Overview-এ সংখ্যা নয়, শুধু বড় প্রবণতা লিখুন",
+        "Introduction-এর পরপরই Overall দিয়ে শুরু করুন",
+        "মতামত, কারণ বা bullet point নিষিদ্ধ"
+      ],
+      "vo": "তো বন্ধু, মূল পয়েন্টগুলো গুছিয়ে নেই। এক: overview ছাড়া Task Achievement-এ ব্যান্ড ৬-এর বেশি পাওয়া কঠিন—মনে রাখবেন, এটি ২৫% নম্বরের উৎস। দুই: overview-এ কোনো নির্দিষ্ট সংখ্যা দেবেন না, শুধু বড় প্রবণতা লিখুন। তিন: Introduction-এর পরপরই আলাদা প্যারাগ্রাফে Overall দিয়ে শুরু করবেন। চার: মতামত, কারণ বা বুলেট পয়েন্ট কখনো নয়—লিখবেন শুধু তথ্যভিত্তিক তুলনা।",
+      "frames": 809
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে লিখে দেখুন!",
+      "cta": "নিচের চার্টে overview লিখে এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "বেশ, এখন আপনি প্রস্তুত। নিচের চার্টটি দেখে নিজেই একটি চমৎকার overview লিখুন। তারপর আমাদের এআই প্রশিক্ষকের ফিডব্যাক নিন। মনে রাখবেন, আসল পরীক্ষার মতো ২০ মিনিট টাইমার ধরে অনুশীলন করলে সময় ব্যবস্থাপনা ভালো হবে। নিয়মিত লিখলে আর ফিডব্যাক থেকে শিখলে আপনার ব্যান্ড অবশ্যই বাড়বে। ভালো লাগলে বন্ধুদের সাথে শেয়ার করবেন, শুভকামনা!",
+      "frames": 701
+    }
+  ]
+}

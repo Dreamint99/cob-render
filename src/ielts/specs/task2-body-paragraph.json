@@ -1,0 +1,191 @@
+{
+  "id": "task2-body-paragraph",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৭ · Writing Task 2 (দুই ট্র্যাকেই)",
+  "lessonNo": "পাঠ ৫",
+  "title": "Body paragraph: যুক্তি, ব্যাখ্যা, উদাহরণ",
+  "next": "Coherence ও cohesion",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "এক প্যারাগ্রাফে একটিমাত্র কেন্দ্রীয় যুক্তি ধরা",
+        "PEEL কাঠামোয় ধাপে ধাপে ধারণা বিকাশ করা",
+        "বাস্তব উদাহরণ বনাম মুখস্থ পরিসংখ্যান চেনা",
+        "Band 6 ও Band 8-এর প্যারাগ্রাফের তফাত বোঝা"
+      ],
+      "vo": "Writing Task 2-তে ভালো স্কোরের আসল চাবি হলো Body paragraph। আজ আমরা শিখব, কীভাবে একটি যুক্তি সম্পূর্ণ করে তার ব্যাখ্যা আর বাস্তব উদাহরণ দিয়ে বৃত্তটা শেষ করতে হয়।",
+      "frames": 348
+    },
+    {
+      "type": "myth",
+      "wrong": "Body paragraph-এ যত বেশি idea দেব, তত শক্তিশালী মনে হবে",
+      "right": "একটি গভীর আর ব্যাখ্যাত যুক্তিই আসল শক্তি",
+      "sub": "একাধিক ভাসাভাসা idea দিলে coherence নষ্ট হয়",
+      "vo": "অনেকে ভাবেন, Body paragraph-এ অনেকগুলো idea দিলে শক্তিশালী দেখায়। আসলে উল্টো — একটি মাত্র কেন্দ্রীয় যুক্তি, ভালো করে ব্যাখ্যা করলে, সেটাই Band 7-8 এ নিয়ে যায়।",
+      "frames": 353
+    },
+    {
+      "type": "points",
+      "head": [
+        "যুক্তির বৃত্ত: ",
+        "PEEL / TEEL কাঠামো"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "Topic Sentence",
+          "s": "প্যারাগ্রাফের একমাত্র যুক্তি এক বাক্যে",
+          "en": "The primary advantage is..."
+        },
+        {
+          "icon": "brain",
+          "t": "Explanation",
+          "s": "কেন ও কীভাবে — cause-effect চেইন",
+          "en": "This is because..., As a result..."
+        },
+        {
+          "icon": "eye",
+          "t": "Example",
+          "s": "পর্যবেক্ষণযোগ্য, বাস্তব দৃশ্য",
+          "en": "For instance, in Dhaka..."
+        },
+        {
+          "icon": "link",
+          "t": "Link back",
+          "s": "যুক্তিকে প্রশ্নের সাথে বেঁধে শেষ",
+          "en": "Consequently, this directly improves..."
+        }
+      ],
+      "vo": "Band 7-8 পেতে PEEL-এই চারটি ধাপ জরুরি। Topic Sentence দিয়ে শুরু, তারপর কেন ও কীভাবে সেটা সত্য, তার ব্যাখ্যা দিন। তারপর বাস্তব কোনো উদাহরণ, আর শেষে সেটি প্রশ্নের সাথে কীভাবে জুড়ে যায়, সেটা দেখিয়ে দিন।",
+      "frames": 454
+    },
+    {
+      "type": "compare",
+      "head": [
+        "Band 6 বনাম Band 8: ",
+        "একই বিষয়, পুরো আলাদা লেখা"
+      ],
+      "rows": [
+        {
+          "bad": "There are many reasons why people work from home. Firstly, it saves time. Secondly, companies save rent. Thirdly, workers spend time with family. Therefore, remote work is beneficial.",
+          "good": "The primary economic advantage of remote working is the substantial reduction in overheads for businesses and commuting costs for employees. When staff work from home, corporations need less office space and lower utility bills. Many software firms in Dhaka have downsized headquarters, redirecting funds into training. Consequently, telecommuting enhances financial efficiency.",
+          "why": "তালিকা নয় — একটি কেন্দ্রীয় যুক্তি ধরে cause-effect দিয়ে খুলে বলা"
+        }
+      ],
+      "vo": "একই remote working-এর উপর এই দুই প্যারাগ্রাফ খেয়াল করুন। বাঁদিকেরটা Band 6: তালিকার মতো ধারণা সাজানো, কোনো ব্যাখ্যা নেই। ডানদিকেরটা Band 8: একটি যুক্তি ধরে গভীর করে cause-effect চেইনে ব্যাখ্যা করা, শেষে লিংক ব্যাক।",
+      "frames": 478
+    },
+    {
+      "type": "points",
+      "head": [
+        "ভালো উদাহরণ: ",
+        "বাস্তব, পর্যবেক্ষণযোগ্য"
+      ],
+      "items": [
+        {
+          "icon": "alert",
+          "t": "বানানো পরিসংখ্যান নয়",
+          "s": "fake survey দিলে Task Response কমে",
+          "en": "For instance, many software companies..."
+        },
+        {
+          "icon": "map-pin",
+          "t": "আপনার শহরের চিত্র ব্যবহার করুন",
+          "s": "ঢাকার যানজট, গার্মেন্টস, আইটি — বাস্তব উদাহরণ",
+          "en": "When a city introduces dedicated bus lanes..."
+        },
+        {
+          "icon": "lightbulb",
+          "t": "অতিব্যক্তিক গল্পও নয়",
+          "s": "\"My cousin\" নয় — সাধারণ পর্যবেক্ষণ",
+          "en": "A student in Khulna can attend a Dhaka course..."
+        }
+      ],
+      "vo": "উদাহরণ হতে হবে বাস্তব, মুখস্থ করা fake survey নয়। আপনি শহরের যানজট, গার্মেন্টস বা আইটি সেক্টরের পরিচিত চিত্র ব্যবহার করুন। নিজের চাচাতো ভাইয়ের গল্প না বলে, সবার দেখা সাধারণ সত্য বলুন।",
+      "frames": 413
+    },
+    {
+      "type": "points",
+      "head": [
+        "সাধারণ ভুল: ",
+        "বাংলাভাষীদের তিনটি ফাঁদ"
+      ],
+      "items": [
+        {
+          "icon": "alert",
+          "t": "উদাহরণ দিয়ে শুরু নয়",
+          "s": "প্রথমে Topic Sentence চাই, তারপর ব্যাখ্যা, শেষে উদাহরণ",
+          "en": "Traffic is bad... → Topic sentence first"
+        },
+        {
+          "icon": "brain",
+          "t": "ব্যাখ্যা এড়িয়ে যাওয়া",
+          "s": "\"saves money\" বললেই হবে না — কেন saves money, সেটা বলতে হবে",
+          "en": "because they don't pay for transport, accommodation..."
+        },
+        {
+          "icon": "target",
+          "t": "বৈচিত্র্য নয়, গভীরতা",
+          "s": "এক প্যারাগ্রাফে একটিই idea রাখুন, তাতে গভীরতা বাড়ান"
+        }
+      ],
+      "vo": "তিনটা ভুল খুব দেখা যায়। প্রথম, উদাহরণ দিয়ে প্যারাগ্রাফ শুরু করবেন না, আগে Topic Sentence দিন। দ্বিতীয়, শুধু 'টাকা বাঁচে' বলেই থামবেন না, বোঝান কেন ও কীভাবে বাঁচে। তৃতীয়, একাধিক idea না ঢুকিয়ে একটি ধারণাকেই গভীর করুন।",
+      "frames": 530
+    },
+    {
+      "type": "note",
+      "head": "সাবধান! Discuss both views-এ distancing ভাষা",
+      "text": "আপনার বিপরীত মতটা যখন তুলবেন, তখন ভাষা যেন বোঝা যায় এটা আপনার নিজের মত নয়। নিজের মত পরে সোজা বলুন।",
+      "sub": "Proponents argue that... / It is claimed that...  →  I believe... / In my view...",
+      "vo": "Discuss both views essay-তে যে মতের সাথে আপনি একমত নন, সেটি আলোচনার সময় distancing language ব্যবহার করুন — যেমন Proponents argue that...। নিজের মত দেওয়ার সময় সরাসরি I believe বললে Coherence ভালো থাকে।",
+      "frames": 468
+    },
+    {
+      "type": "quizQ",
+      "q": "কোনটি একটি শক্তিশালী Body Paragraph-এর শুরু?",
+      "o": [
+        "For example, many people use rickshaws. Therefore, traffic is bad.",
+        "There are many reasons why traffic is bad.",
+        "Traffic congestion in Dhaka is worsened by the lack of a modern public transport system.",
+        "In my opinion, more cars create pollution."
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "একটু পরখ করে দেখুন, নিচের চারটির মধ্যে কোনটা প্রকৃত Topic Sentence? পাঁচ সেকেন্ড সময়।",
+      "frames": 187
+    },
+    {
+      "type": "quizA",
+      "q": "কোনটি একটি শক্তিশালী Body Paragraph-এর শুরু?",
+      "o": [
+        "For example, many people use rickshaws. Therefore, traffic is bad.",
+        "There are many reasons why traffic is bad.",
+        "Traffic congestion in Dhaka is worsened by the lack of a modern public transport system.",
+        "In my opinion, more cars create pollution."
+      ],
+      "a": 2,
+      "ex": "গ-তে পরিষ্কার কেন্দ্রীয় ধারণা আছে। ক-তে উদাহরণ দিয়ে শুরু, খ-তে ধরা যুক্তি নেই, ঘ-তে মতামত — Body paragraph-এ টপিক সেন্টেন্স চাই।",
+      "vo": "সঠিক উত্তর গ। এখানে পরিষ্কার একটি কেন্দ্রীয় ধারণা দেওয়া আছে, যা বাকি প্যারাগ্রাফে ব্যাখ্যা করা যাবে। ক-তে উদাহরণ দিয়ে শুরু হয়েছে, খ-তে নির্দিষ্ট কোনো যুক্তি নেই, আর ঘ-তে মতামত।",
+      "frames": 406
+    },
+    {
+      "type": "recap",
+      "items": [
+        "এক Body paragraph = একটিমাত্র কেন্দ্রীয় ধারণা",
+        "PEEL: Topic Sentence → ব্যাখ্যা → উদাহরণ → Link back",
+        "বানানো পরিসংখ্যান নয়, বাস্তব পর্যবেক্ষণ ব্যবহার করুন",
+        "Discuss both views-এ distancing language দিন"
+      ],
+      "vo": "আজ যা শিখলাম: Body paragraph-এ একটিমাত্র কেন্দ্রীয় ধারণা রাখুন। PEEL কাঠামোয় ধাপে ধাপে যুক্তি গড়ুন। উদাহরণ হবে আপনার দেখা বাস্তব চিত্র, আর বিপরীত মত তুললে ভাষা দূরে রাখুন।",
+      "frames": 396
+    },
+    {
+      "type": "outro",
+      "head": "নিজেই লিখুন আর ফিডব্যাক নিন",
+      "cta": "নিচের টুলে ৪০ মিনিট টাইমারে পূর্ণ রচনা লিখে এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "এবার নিচের টুলে পুরো Task 2 রচনা লিখুন। চল্লিশ মিনিট টাইমার আছে, আর লেখা শেষে এআই প্রশিক্ষক চার মানদণ্ডে আনুমানিক ব্যান্ড ও সংশোধন দেবে। শুভকামনা!",
+      "frames": 338
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "letter-complaint-request",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৬ · Writing Task 1 (General Training): চিঠি",
+  "lessonNo": "পাঠ ২",
+  "title": "অভিযোগ, অনুরোধ ও আবেদনের চিঠি",
+  "next": "ধন্যবাদ, আমন্ত্রণ ও ক্ষমা চাওয়ার চিঠি",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "অভিযোগে ভদ্র ভাষা বজায় রাখা",
+        "অনুরোধে modal verb ব্যবহার",
+        "সঠিক কাঠামোয় তথ্য দেওয়া",
+        "Grammar ও spelling ভুল এড়ানো"
+      ],
+      "vo": "স্বাগতম! জেনারেল ট্রেনিং রাইটিং টাস্ক ১-এ অভিযোগ, অনুরোধ আর আবেদনের চিঠি লিখতে হয়। আজ আমরা শিখব কীভাবে সঠিক টোন, পরিষ্কার তথ্য আর ভদ্র ভাষা দিয়ে সহজেই ভালো ব্যান্ড পাওয়া যায়।",
+      "frames": 415
+    },
+    {
+      "type": "myth",
+      "wrong": "অভিযোগের চিঠি কড়া ভাষায় লিখলেই দ্রুত সমাধান মেলে",
+      "right": "পেশাদারি ও ভদ্র ভাষায় অভিযোগেই ভালো ব্যান্ড",
+      "sub": "হুমকি দিলে নম্বর কমে",
+      "vo": "অনেকেই মনে করেন, অভিযোগ মানেই কড়া ভাষা। আসলে, পরীক্ষক আপনার টোন দেখেন। পেশাদার ভঙ্গিতে স্পষ্ট অভিযোগ করলেই আপনি ভালো ব্যান্ড পাবেন, হুমকি দিলে নম্বর কমবে।",
+      "frames": 355
+    },
+    {
+      "type": "criteria",
+      "head": [
+        "চিঠির সফলতার ",
+        "চার উপাদান"
+      ],
+      "items": [
+        {
+          "k": "TO",
+          "en": "Tone",
+          "bn": "পেশাদার ও ভদ্র টোন",
+          "icon": "mic"
+        },
+        {
+          "k": "ST",
+          "en": "Structure",
+          "bn": "পরিষ্কার ধাপে কাঠামো",
+          "icon": "list-checks"
+        },
+        {
+          "k": "DE",
+          "en": "Details",
+          "bn": "অর্ডার নম্বর, তারিখ",
+          "icon": "file-text"
+        },
+        {
+          "k": "SO",
+          "en": "Sign-off",
+          "bn": "পেশাদার সমাপ্তি",
+          "icon": "pen-line"
+        }
+      ],
+      "vo": "একটা ভালো চিঠির চারটা মূল উপাদান আছে: টোন, কাঠামো, নির্দিষ্ট তথ্য আর পেশাদার সমাপ্তি। এই চারটায় মনোযোগ দিলে আপনার Coherence and Cohesion আর Task Response দুই-ই ভালো হবে।",
+      "frames": 396
+    },
+    {
+      "type": "points",
+      "head": [
+        "চিঠির মূল কাঠামো: ",
+        "৪টি ধাপ"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "উদ্দেশ্য জানান",
+          "s": "কেন লিখছেন প্রথম বাক্যে",
+          "en": "I am writing to complain..."
+        },
+        {
+          "icon": "calendar",
+          "t": "পটভূমি দিন",
+          "s": "তারিখ, অর্ডার নম্বর, উৎস",
+          "en": "On 15 Nov, order #AB123"
+        },
+        {
+          "icon": "alert",
+          "t": "সমস্যা বুঝান",
+          "s": "কী হয়েছে, কেন অসুবিধা",
+          "en": "The screen was cracked"
+        },
+        {
+          "icon": "lightbulb",
+          "t": "সমাধান চান",
+          "s": "ভদ্রভাবে refund/replacement",
+          "en": "I would appreciate if..."
+        }
+      ],
+      "vo": "এবার ভেতরের অংশ। প্রথম ধাপে কী কারণে লিখছেন বলুন। দ্বিতীয় ধাপে পটভূমির তথ্য দিন: তারিখ, অর্ডার নম্বর। তৃতীয় ধাপে সমস্যা বা আপনার যোগ্যতা খুলে বলুন। চতুর্থ ধাপে ভদ্রভাবে সমাধান জানান।",
+      "frames": 468
+    },
+    {
+      "type": "points",
+      "head": [
+        "Modal verb ও indirect ",
+        "phrase ব্যবহার"
+      ],
+      "items": [
+        {
+          "icon": "pen-line",
+          "t": "Could you please...",
+          "s": "সরাসরি Give me না বলে"
+        },
+        {
+          "icon": "pen-line",
+          "t": "I would be grateful if...",
+          "s": "বিনীত অনুরোধে ব্যবহার"
+        },
+        {
+          "icon": "pen-line",
+          "t": "I would like to request...",
+          "s": "ভদ্রভাবে দাবি জানান"
+        },
+        {
+          "icon": "pen-line",
+          "t": "I look forward to...",
+          "s": "ইতিবাচক সমাপ্তি"
+        }
+      ],
+      "vo": "Modal verbs ব্যবহার করলে আপনার Grammatical Range ও টোন দুই-ই ভালো হয়। 'Could you please...' বা 'I would be grateful if you could...' বলুন, 'Give me' নয়।",
+      "frames": 331
+    },
+    {
+      "type": "compare",
+      "head": [
+        "কমপ্লেন ও রিকোয়েস্টের ",
+        "ভদ্রতা"
+      ],
+      "rows": [
+        {
+          "bad": "I want you to return my money immediately.",
+          "good": "I would like to request a full refund.",
+          "why": "সরাসরি দাবি নয়, ভদ্র অনুরোধ"
+        },
+        {
+          "bad": "Give me leave for three days.",
+          "good": "I would like to request three days of leave.",
+          "why": "modal verb দিয়ে ভদ্রতা"
+        }
+      ],
+      "vo": "উদাহরণ দেখুন। বাঁদিকে সরাসরি দাবি, যা টোন খারাপ করে। ডানদিকে modal verb দিয়ে ভদ্রতা বজায় রেখে একই দাবি জানানো হয়েছে। এতেই আপনার Task Achievement আর Grammatical Range বাড়বে।",
+      "frames": 386
+    },
+    {
+      "type": "compare",
+      "head": [
+        "Grammar ও বানানের ",
+        "সাধারণ ভুল"
+      ],
+      "rows": [
+        {
+          "tag": "GRA",
+          "bad": "I am agree with you.",
+          "good": "I agree with you.",
+          "why": "agree তে am লাগে না"
+        },
+        {
+          "bad": "Please replay me soon.",
+          "good": "Please reply to me soon.",
+          "why": "replay = আবার বাজানো, reply = উত্তর"
+        }
+      ],
+      "vo": "বাংলা থেকে সরাসরি অনুবাদ করলে এই ভুলগুলো হয়। 'I am agree' নয়, 'I agree' লিখুন। আর 'replay' মানে পুনরায় বাজানো, উত্তর দিতে 'reply'। খেয়াল রাখবেন।",
+      "frames": 360
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "বাংলা থেকে আক্ষরিক অনুবাদে টোন ও গ্রামার নষ্ট হয়",
+      "sub": "পেশাদার ও ভদ্র বাক্য ব্যবহার করুন, যেমন 'I would appreciate'",
+      "vo": "একটা সতর্কতা: বাংলা থেকে হুবহু ইংরেজি করলে টোন খারাপ হয়ে যায় এবং গ্রামার ভুল হয়। সবসময় ভদ্র ও পেশাদার বাক্য ব্যবহার করুন।",
+      "frames": 295
+    },
+    {
+      "type": "quizQ",
+      "q": "অভিযোগের চিঠিতে সঠিক বাক্য কোনটি?",
+      "o": [
+        "I am want refund.",
+        "I want you to give back money.",
+        "I would like to request a full refund.",
+        "You must return my money now."
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "একটা প্রশ্ন। অভিযোগের চিঠিতে সঠিক বাক্য কোনটি? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 163
+    },
+    {
+      "type": "quizA",
+      "q": "অভিযোগের চিঠিতে সঠিক বাক্য কোনটি?",
+      "o": [
+        "I am want refund.",
+        "I want you to give back money.",
+        "I would like to request a full refund.",
+        "You must return my money now."
+      ],
+      "a": 2,
+      "ex": "Modal verb ব্যবহার করে ভদ্রভাবে অনুরোধ করা হয়েছে।",
+      "vo": "সঠিক উত্তর গ। এখানে modal verb ব্যবহার করে ভদ্রভাবে রিফান্ড চাওয়া হয়েছে। অন্য বাক্যগুলো খারাপ টোন আর ভুল গ্রামার।",
+      "frames": 271
+    },
+    {
+      "type": "recap",
+      "items": [
+        "পেশাদার টোন বজায় রাখুন",
+        "নির্দিষ্ট তথ্য দিন (তারিখ, অর্ডার)",
+        "Modal ও indirect request ব্যবহার করুন",
+        "হুবহু অনুবাদ এড়িয়ে চলুন"
+      ],
+      "vo": "আজ যা শিখলাম: পেশাদার টোন রাখবেন, নির্দিষ্ট তথ্য দেবেন, Modal verb ও indirect request ব্যবহার করবেন, আর Grammatical ভুল এড়াতে কখনো হুবহু অনুবাদ করবেন না।",
+      "frames": 346
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজে চিঠি লিখুন!",
+      "cta": "নিচে হোটেল অভিযোগের চিঠি লিখে এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "এবার নিচে হোটেল অভিযোগের চিঠির প্রশ্নটি দেখে নিজে একটি চিঠি লিখুন। লেখা শেষে এআই প্রশিক্ষকের ফিডব্যাক নিয়ে দেখুন আপনার টোন আর কাঠামো কেমন হয়েছে। নিয়মিত অনুশীলনই উন্নতির চাবিকাঠি।",
+      "frames": 403
+    }
+  ]
+}

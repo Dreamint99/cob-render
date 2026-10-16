@@ -1,0 +1,265 @@
+{
+  "id": "listening-part4",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৩ · Listening",
+  "lessonNo": "পাঠ ৮",
+  "title": "Part 4: লেকচার, summary ও note completion",
+  "next": "অ্যাকসেন্ট চেনা: British, Australian, NZ, North American",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Part 4-এর ফরম্যাট আর প্রশ্নের ধরন",
+        "নোট কমপ্লিশনে হেডিং ও অ্যাংকর শব্দের ব্যবহার",
+        "শব্দের শেষের -s আর word form চেনা",
+        "একটা উত্তর মিস করলে কী করা উচিত"
+      ],
+      "vo": "স্বাগতম! আজ শিখব Listening-এর সবচেয়ে কঠিন অংশ, Part 4। এখানে একজন বক্তা টানা চার-পাঁচ মিনিটের একাডেমিক লেকচার দেন, বিশ্ববিদ্যালয়ের ক্লাসের মতো, আর মাঝে কোনো বিরতি নেই। কিন্তু ভয় নেই, সঠিক কৌশলে আপনি 31 থেকে 40, সব দশটা উত্তরই ধরতে পারবেন।",
+      "frames": 559
+    },
+    {
+      "type": "myth",
+      "wrong": "Part 4-এ ভালো করতে হলে অ্যাকাডেমিক জ্ঞান জানা লাগবে",
+      "right": "সব উত্তর অডিওতেই সরাসরি বলা থাকে, জ্ঞান নয়, কৌশলই আসল",
+      "sub": "হেডিং আর অ্যাংকর শব্দ ধরে এগোলেই উত্তর মেলে",
+      "vo": "অনেকে ভাবেন, Part 4-এ ভালো করতে হলে অ্যাকাডেমিক জ্ঞান লাগবে। আসলে সব উত্তর অডিওতেই সরাসরি বলা থাকে, আপনার দরকার শুধু সঠিক জায়গায় চোখ আর কান রাখা। হেডিং আর অ্যাংকর শব্দ অনুসরণ করলেই উত্তর মিলে যাবে।",
+      "frames": 425
+    },
+    {
+      "type": "points",
+      "head": [
+        "Part 4-এর ফরম্যাট: ",
+        "যা যা জানা দরকার"
+      ],
+      "items": [
+        {
+          "icon": "headphones",
+          "t": "টানা ৪-৫ মিনিটের একাডেমিক মনোলগ",
+          "s": "কোনো pause নেই, একবারই বাজে",
+          "en": "questions 31-40"
+        },
+        {
+          "icon": "file-text",
+          "t": "নোট বা সারাংশ কমপ্লিশন",
+          "s": "উত্তর সাধারণত এক শব্দের মধ্যে",
+          "en": "ONE WORD ONLY"
+        },
+        {
+          "icon": "list-checks",
+          "t": "বিশ্ববিদ্যালয়ের লেকচারের মতো বিষয়",
+          "s": "জীববিজ্ঞান, ইতিহাস, স্থাপত্য, ব্যবস্থাপনা",
+          "en": "academic topics"
+        },
+        {
+          "icon": "link",
+          "t": "ডিসকোর্স মার্কার পথ দেখায়",
+          "s": "Firstly, Turning now to, Finally শুনলেই বুঝবেন",
+          "en": "signposting language"
+        }
+      ],
+      "vo": "Part 4 হলো একটা একাডেমিক মনোলগ, ঠিক ইউনিভার্সিটির লেকচারের মতো। মাঝে কোনো pause নেই, তাই শুরুর কয়েক সেকেন্ডেই দশটা প্রশ্ন পড়ে নিতে হবে। সাধারণত উত্তর এক শব্দের মধ্যে লিখতে হয়, আর বক্তা Firstly, Turning now to-র মতো ডিসকোর্স মার্কার ব্যবহার করেন, ওগুলোই আপনার কম্পাস।",
+      "frames": 576
+    },
+    {
+      "type": "points",
+      "head": [
+        "ধাপে ধাপে কৌশল: ",
+        "শোনার আগে ও চলাকালীন"
+      ],
+      "items": [
+        {
+          "icon": "clock",
+          "t": "পড়ার সময় চুরি করুন",
+          "s": "Part 3 শেষ হওয়া মাত্র প্রশ্নে চলে যান, ৬০-৭৫ সেকেন্ড পাবেন",
+          "en": "steal reading time"
+        },
+        {
+          "icon": "target",
+          "t": "হেডিং আর অ্যাংকর শব্দ দাগান",
+          "s": "প্রতিটা বুলেট পয়েন্টের ১-২টা শব্দই আপনাকে পথ দেখাবে",
+          "en": "anchor words"
+        },
+        {
+          "icon": "brain",
+          "t": "শূন্যস্থানের ব্যাকরণ অনুমান করুন",
+          "s": "বিশেষ্য, বহুবচন, নাকি ক্রিয়া—আগে ভেবে নিন",
+          "en": "noun / verb / adjective?"
+        },
+        {
+          "icon": "eye",
+          "t": "বর্তমান প্রশ্নে চোখ, পরেরটায় মাথা",
+          "s": "একটা মিস করলে পরের অ্যাংকরে লাফ দিন",
+          "en": "keep moving forward"
+        }
+      ],
+      "vo": "এবার আসল কৌশল। Part 3 শেষ হওয়ার সাথে সাথেই Part 4-এর প্রশ্নে চলে যান, এতে ষাট থেকে পঁচাত্তর সেকেন্ড পড়ার সময় পাবেন। হেডিং আর অ্যাংকর শব্দ দাগিয়ে নিন, আর প্রতিটা শূন্যস্থানের ব্যাকরণ অনুমান করুন, এখানে বিশেষ্য, ক্রিয়া, নাকি বিশেষণ? শোনার সময় চোখ থাকবে বর্তমান প্রশ্নে, কিন্তু মাথা থাকবে পরের অ্যাংকর শব্দে।",
+      "frames": 667
+    },
+    {
+      "type": "exam",
+      "head": [
+        "উদাহরণ ১: ",
+        "নোট হেডিং ট্র্যাকিং"
+      ],
+      "paper": {
+        "title": "The History of Tea — Notes",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Native to: ______"
+          },
+          {
+            "n": 2,
+            "label": "Used initially for: ______ purposes"
+          },
+          {
+            "n": 3,
+            "label": "Introduced to India by: the ______"
+          },
+          {
+            "n": 4,
+            "label": "Popularity due to: ______ content"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "Today's lecture is about the global spread of tea cultivation. Originally, tea plants were native to China, where they were used for medicinal purposes."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "Today's lecture is about the global spread of tea cultivation. Originally, tea plants were native to China, where they were used for medicinal purposes.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "native to China"
+      ],
+      "answer": "China",
+      "tip": "হেডিং-এর শব্দই অডিওতে হুবহু আসবে — 'native to China' শুনলেই লিখুন",
+      "vo": "দেখুন, নোটের প্রথম ঘরে লেখা আছে Native to, আর অডিওতে বক্তা সরাসরি বললেন native to China। হেডিংগুলো অক্ষরে অক্ষরে মিলে যায়, তাই আগে হেডিং পড়ে নিলে উত্তর ধরা অনেক সহজ হয়ে যায়। China-র বানান ঠিক রাখুন, বড় হাতের C দিয়ে শুরু।",
+      "clip": "clip05.mp3",
+      "clipFrames": 288,
+      "frames": 518
+    },
+    {
+      "type": "exam",
+      "head": [
+        "উদাহরণ ২: ",
+        "word form-এর ইঙ্গিত"
+      ],
+      "paper": {
+        "title": "Uses of Bamboo in Construction — Notes",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Valued for its high strength and ______"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "Moving on to how bamboo is utilized in the building industry... Engineers prize this material not only because it is remarkably strong, but also because of its flexibility."
+        }
+      ],
+      "lines": [
+        {
+          "who": "A",
+          "text": "Moving on to how bamboo is utilized in the building industry... Engineers prize this material not only because it is remarkably strong, but also because of its flexibility.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "strong",
+        "flexibility"
+      ],
+      "answer": "flexibility",
+      "tip": "because of its-এর পরে বিশেষ্য আসে, তাই flexible নয়, flexibility",
+      "vo": "এখানে নোটে লেখা আছে Valued for its high strength and... অডিওতে বক্তা প্রথমে বললেন remarkably strong, তারপর because of its flexibility। খেয়াল করুন, strong আর strength একই পরিবারের শব্দ, এই ইঙ্গিত কানে রাখুন। because of its-এর পরে সবসময় বিশেষ্য আসে, তাই flexible নয়, flexibility লিখতে হবে, i-t-y দিয়ে শেষ।",
+      "clip": "clip06.mp3",
+      "clipFrames": 324,
+      "frames": 713
+    },
+    {
+      "type": "compare",
+      "head": [
+        "চেনা ভুল: ",
+        "plural -s আর word form"
+      ],
+      "rows": [
+        {
+          "bad": "Ancient farmers used stone to protect crops.",
+          "good": "Ancient farmers used stones to protect crops from frost.",
+          "why": "অডিওতে flat stones বলা হলে শেষের -s জরুরি"
+        },
+        {
+          "bad": "Valued for its strength and flexible.",
+          "good": "Valued for its strength and flexibility.",
+          "why": "নোটে বিশেষ্য চাই—adjective নয়, noun"
+        }
+      ],
+      "vo": "এবার চেনা ভুল দেখি। বাংলায় বহুবচনে আলাদা রূপ নেই, তাই flat stones শুনেও অনেকে stone লিখে ফেলেন, কিন্তু ইংরেজিতে শেষের s লাগাতেই হবে। দ্বিতীয় ভুলটা শব্দভেদ নিয়ে। নোটে বিশেষ্য চাইলে flexible নয়, flexibility চাই, adjective নয়, noun।",
+      "frames": 547
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "একটা উত্তর মিস করে সেটার জন্য অপেক্ষা করবেন না",
+      "sub": "লেকচার এগিয়ে গেলেই স্নোবল ইফেক্ট—একসাথে ৩-৪টা নম্বর হারাবেন",
+      "vo": "সাবধান! একটা উত্তর মিস করে সেটার জন্য অপেক্ষা করবেন না। লেকচার থামে না, আপনি যদি এক উত্তরে আটকে থাকেন, ততক্ষণে বক্তা দুই-তিন বুলেট পয়েন্ট এগিয়ে যাবেন। একে স্নোবল ইফেক্ট বলে, আর তাতে একসাথে তিন-চারটে নম্বর হারাতে পারেন।",
+      "frames": 475
+    },
+    {
+      "type": "quizQ",
+      "q": "অডিওতে শুনলেন 'flat stones'। নোটে লেখা আছে: Ancient farmers used ______। কী লিখবেন?",
+      "o": [
+        "stone",
+        "stones",
+        "Stone",
+        "flat stone"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "ছোট্ট পরীক্ষা। অডিওতে বলল flat stones, আর নোটে শূন্যস্থান আছে used-এর ঠিক পরে। আপনার উত্তর কী হবে? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 293
+    },
+    {
+      "type": "quizA",
+      "q": "অডিওতে শুনলেন 'flat stones'। নোটে লেখা আছে: Ancient farmers used ______। কী লিখবেন?",
+      "o": [
+        "stone",
+        "stones",
+        "Stone",
+        "flat stone"
+      ],
+      "a": 1,
+      "ex": "শেষের -s জরুরি—flat stones মানে একাধিক পাথর",
+      "vo": "সঠিক উত্তর, stones। শব্দের শেষের s দ্রুত বলায় কানে না-ও আসতে পারে, কিন্তু বহুবচনের s লিখতেই হবে। flat stones মানে একাধিক পাথর, তাই শুধু stone লিখলে ভুল হবে।",
+      "frames": 391
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Part 4-এ কোনো বিরতি নেই, শুরুতে প্রশ্ন পড়ুন",
+        "হেডিং আর অ্যাংকর শব্দই আপনার কম্পাস",
+        "শব্দের শেষের -s আর word form-এ নজর দিন",
+        "এক উত্তর মিস করলে থেমে না থেকে পরেরটায় যান"
+      ],
+      "vo": "আজ যা শিখলাম: Part 4-এ কোনো বিরতি নেই, তাই শুরুতে প্রশ্ন পড়ে নিন। হেডিং আর অ্যাংকর শব্দই আপনার পথ দেখাবে। শব্দের শেষের s আর সঠিক word form-এ পূর্ণ নজর দিন। আর একটা উত্তর মিস করলে থেমে থাকবেন না, পরেরটায় চলে যান।",
+      "frames": 502
+    },
+    {
+      "type": "outro",
+      "head": "এবার কম্পিউটারে সরাসরি টাইপ করে অনুশীলন করুন!",
+      "cta": "নিচের ড্রিলে ১০টা নোট কমপ্লিশন, একাডেমিক অডিওসহ",
+      "vo": "এবার নিচের ড্রিলে অনুশীলন করুন। দশটা নোট-কমপ্লিশন প্রশ্ন, একাডেমিক অডিও, একবারই বাজবে। কম্পিউটারে সরাসরি টাইপ করবেন, তাই বানান ভুল হলেই নম্বর কাটা যাবে। শুভকামনা!",
+      "frames": 367
+    }
+  ]
+}

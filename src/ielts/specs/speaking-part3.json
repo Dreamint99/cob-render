@@ -1,0 +1,268 @@
+{
+  "id": "speaking-part3",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ৮ · Speaking",
+  "lessonNo": "পাঠ ৪",
+  "title": "Part 3: মত, কারণ, উদাহরণ ও তুলনা",
+  "next": "Fluency ও থেমে যাওয়া সামলানো",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "Part 3-এর প্রশ্নের ধরন চেনা",
+        "Point → Explain → Example কাঠামোতে উত্তর দেওয়া",
+        "ব্যক্তিগত গল্প নয়, সাধারণ দৃষ্টিভঙ্গি বলা",
+        "চরম শব্দ এড়িয়ে উত্তরকে নির্ভরযোগ্য করা"
+      ],
+      "vo": "Part 3 হলো Speaking-এর সবচেয়ে চ্যালেঞ্জিং অংশ। এখানে এক্সামিনার ৪–৫ মিনিট আবস্ট্রাক্ট প্রশ্ন করেন। আজকের পাঠে আপনি শিখবেন কীভাবে যুক্তি, উদাহরণ আর তুলনা দিয়ে পূর্ণাঙ্গ উত্তর দিতে হয়।",
+      "frames": 415
+    },
+    {
+      "type": "myth",
+      "wrong": "Part 3-এ গলা ভারী করে কঠিন ইংরেজি বলতে হবে",
+      "right": "পরিষ্কার যুক্তি আর সঠিকভাবে ব্যাখ্যা দেওয়াটাই আসল",
+      "sub": "জটিল শব্দের চেয়ে কাঠামো-ভিত্তিক উত্তর অনেক বেশি কার্যকর",
+      "vo": "অনেকে ভাবেন Part 3-তে ভালো করতে গেলে উন্নত শব্দ আর জটিল ব্যাকরণই শেষ কথা। আসলে পরীক্ষক দেখেন আপনার যুক্তি দেওয়ার ক্ষমতা আর ব্যাখ্যার স্পষ্টতা। একটি গুছানো Point–Explanation–Example অনেক ভালো নম্বর আনতে পারে।",
+      "frames": 468
+    },
+    {
+      "type": "points",
+      "head": [
+        "Part 3 বনাম Part 1: ",
+        "মূল পার্থক্য"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "প্রশ্নের প্রকৃতি",
+          "s": "Part 1 ব্যক্তিগত, Part 3 বিমূর্ত ও সামাজিক",
+          "en": "Do you like... → Do you think society should..."
+        },
+        {
+          "icon": "clock",
+          "t": "উত্তরের দৈর্ঘ্য",
+          "s": "Part 1-এ ২-৩ বাক্য, Part 3-এ ৪-৬ বাক্য",
+          "en": "Short answers won't work here."
+        },
+        {
+          "icon": "link",
+          "t": "ফলো-আপ",
+          "s": "Part 3-এ আপনার উত্তর ধরে নতুন প্রশ্ন আসতে পারে",
+          "en": "The examiner will challenge your logic."
+        },
+        {
+          "icon": "alert",
+          "t": "মুখস্থ উত্তর",
+          "s": "Part 3-এ একদম চলে না; ভাবতে হবে নিজে থেকে",
+          "en": "Memorised scripts are easily detected."
+        }
+      ],
+      "vo": "Part 3 আর Part 1-এর তফাত বুঝতে হবে। Part 1 আপনার রুচি নিয়ে, আর Part 3 সমাজ, প্রযুক্তি, প্রবণতা নিয়ে। এখানে উত্তর হবে ৪–৬ বাক্য লম্বা, আর এক্সামিনার আপনার যুক্তির ওপর নতুন প্রশ্ন করতে পারেন। মুখস্থ কিছু বলার সুযোগ নেই।",
+      "frames": 526
+    },
+    {
+      "type": "points",
+      "head": [
+        "Part 3-এর ৪ ধরনের প্রশ্ন: ",
+        "কী ধরনের উত্তর চাই"
+      ],
+      "items": [
+        {
+          "icon": "lightbulb",
+          "t": "মতামত (Opinion)",
+          "s": "“Do you think…?” — সরাসরি নিজের মত দিন",
+          "en": "I believe... / In my view..."
+        },
+        {
+          "icon": "brain",
+          "t": "কারণ ও ফলাফল (Cause/Effect)",
+          "s": "“Why do people…?” — কারণ ব্যাখ্যা করুন",
+          "en": "This is largely because..."
+        },
+        {
+          "icon": "layers",
+          "t": "তুলনা (Comparison)",
+          "s": "“How has… changed compared to the past?”",
+          "en": "In the past... whereas nowadays..."
+        },
+        {
+          "icon": "eye",
+          "t": "ভবিষ্যৎ অনুমান (Speculation)",
+          "s": "“What might happen in the future…?”",
+          "en": "It's likely that... / One possibility is..."
+        }
+      ],
+      "vo": "প্রশ্নের ধরন বুঝলে উত্তর গোছানো সহজ হয়। মতামতের প্রশ্নে সরাসরি point বলুন, কারণ-ফলাফলে কারণ ব্যাখ্যা করুন। তুলনার প্রশ্নে past আর present-এর পার্থক্য দেখান, আর ভবিষ্যৎ অনুমান হলে সম্ভাবনা নিয়ে কথা বলুন।",
+      "frames": 454
+    },
+    {
+      "type": "points",
+      "head": [
+        "উত্তরের সোনালী কাঠামো: ",
+        "P → E → E → C"
+      ],
+      "items": [
+        {
+          "icon": "target",
+          "t": "Point – সরাসরি মত",
+          "s": "প্রশ্নের সাথে সরাসরি মিল রেখে নিজের অবস্থান বলুন",
+          "en": "Yes, there has been a massive shift."
+        },
+        {
+          "icon": "brain",
+          "t": "Explain – ব্যাখ্যা",
+          "s": "কেন এমনটা মনে করেন, তা যুক্তি দিয়ে বলুন",
+          "en": "In the past... whereas nowadays..."
+        },
+        {
+          "icon": "quote",
+          "t": "Example – উদাহরণ",
+          "s": "বাংলাদেশ বা বাস্তব জগতের একটি উদাহরণ দিন",
+          "en": "For instance, a teenager in Dhaka..."
+        },
+        {
+          "icon": "scale",
+          "t": "Conclusion – মোড়ানো",
+          "s": "একটি তুলনা বা বিপরীত দিক যোগ করে শেষ করুন",
+          "en": "While this makes learning faster..."
+        }
+      ],
+      "vo": "Part 3-এর সেরা উত্তরগুলো এই কাঠামো অনুসরণ করে। প্রথমে পয়েন্ট, তারপর কেন এমনটা ভাবছেন তা ব্যাখ্যা, তারপর একটি বাস্তব উদাহরণ, আর শেষে আরেকটি দৃষ্টিকোণ দিয়ে মোড়ানো। পুরো কাঠামোটা Point, Explain, Example, Conclusion।",
+      "frames": 518
+    },
+    {
+      "type": "exam",
+      "head": [
+        "কাঠামো অ্যাকশনে: ",
+        "একটি পরীক্ষার মুহূর্ত"
+      ],
+      "paper": {
+        "title": "Speaking Part 3 – Candidate Notes",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Point"
+          },
+          {
+            "n": 2,
+            "label": "Example (tool/platform)"
+          },
+          {
+            "n": 3,
+            "label": "Conclusion (effect)"
+          }
+        ]
+      },
+      "focus": 2,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "Do you think children today learn practical skills differently compared to the past?"
+        },
+        {
+          "who": "B",
+          "text": "Yes, there has been a massive shift. In the past, children learned hands-on skills directly from family, whereas nowadays they rely heavily on digital platforms. For example, if a teenager in Dhaka wants to learn cooking today, their first instinct is to watch a YouTube tutorial rather than ask a family member. While this makes learning much faster, it sometimes reduces family bonding."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Examiner",
+          "text": "Do you think children today learn practical skills differently compared to the past?",
+          "name": "Speaker"
+        },
+        {
+          "who": "Candidate",
+          "text": "Yes, there has been a massive shift. In the past, children learned hands-on skills directly from family, whereas nowadays they rely heavily on digital platforms. For example, if a teenager in Dhaka wants to learn cooking today, their first instinct is to watch a YouTube tutorial rather than ask a family member. While this makes learning much faster, it sometimes reduces family bonding.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "massive shift",
+        "YouTube tutorial",
+        "family bonding"
+      ],
+      "strike": [],
+      "answer": "YouTube tutorial",
+      "tip": "উদাহরণে সামাজিক মাধ্যম বা ডিজিটাল প্ল্যাটফর্মের নাম দিন, but personal story নয়।",
+      "vo": "এখন একটি বাস্তব Part 3 উত্তরের কাঠামো দেখুন। এক্সামিনার প্রশ্ন করলেন আর প্রার্থী Point দিলেন, তারপর Past ও Present তুলনা করলেন, উদাহরণে YouTube tutorial আনলেন, আর শেষে family bonding কমার কথাটা বললেন। আপনার মনে রাখার দরকার: উদাহরণে প্ল্যাটফর্ম বা জায়গার নাম দিন, নিজের ব্যক্তিগত গল্প নয়।",
+      "clip": "clip06.mp3",
+      "clipFrames": 936,
+      "frames": 646
+    },
+    {
+      "type": "compare",
+      "head": [
+        "বাংলাদেশিদের সাধারণ ভুল: ",
+        "ব্যক্তিগত গল্প ও চরম শব্দ"
+      ],
+      "rows": [
+        {
+          "bad": "Why do people like travelling? — “Because last month I went to Sylhet with my friends…”",
+          "good": "Why do people like travelling? — “Many people enjoy travelling because it allows them to experience new cultures. For instance, a busy professional in Dhaka might visit the countryside to relax and recharge.”",
+          "why": "প্রশ্ন ‘জনগণ’ নিয়ে, তাই ব্যক্তিগত গল্প সরাসরি বলবেন না — সাধারণ উদাহরণ দিন।"
+        },
+        {
+          "bad": "All people think that… / Everyone does this…",
+          "good": "Many people tend to think that… / In most cases, people…",
+          "why": "চরম শব্দ এড়িয়ে ‘many’, ‘tend to’ ব্যবহার করুন — ভাষাকে নিরাপদ ও নির্ভরযোগ্য করে।"
+        }
+      ],
+      "vo": "দুটি বড় ভুল আমরা প্রায়ই করি। প্রথম, প্রশ্ন যদি জনগণের ওপর হয়, উত্তরে নিজের ভ্রমণের গল্প বলে ফেলা — এতে Task Response কমে। দ্বিতীয়, সবাই, কেউ না-এর মতো চরম শব্দ ব্যবহার। বরং many বা tend to বলুন। স্ক্রিনের উদাহরণ মন দিয়ে দেখুন।",
+      "frames": 574
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "কঠিন প্রশ্নে চুপ করবেন না — সময় চেয়ে নিন ভাবার জন্য",
+      "sub": "That’s an interesting question, I haven’t thought about it that way before, well I suppose…",
+      "vo": "প্রশ্ন কঠিন লাগলে একেবারে চুপ করে রাখা বড় ভুল। তখন বলতে পারেন, ‘That’s an interesting question, let me think’ — এই বাক্যটা সময় দেয় আর fluency বজায় রাখে।",
+      "frames": 338
+    },
+    {
+      "type": "quizQ",
+      "q": "Part 3-তে কোন বাক্যটি সবচেয়ে ভালো সূচনা?",
+      "o": [
+        "Last week I read a book about…",
+        "All people in Bangladesh believe that…",
+        "That’s an interesting question; I suppose…",
+        "I don’t know, maybe yes maybe no."
+      ],
+      "a": 2,
+      "hold": 150,
+      "vo": "একটি দ্রুত কুইজ। Part 3-তে ভালো সূচনা কোনটি? পাঁচ সেকেন্ড ভাবুন।",
+      "frames": 166
+    },
+    {
+      "type": "quizA",
+      "q": "Part 3-তে কোন বাক্যটি সবচেয়ে ভালো সূচনা?",
+      "o": [
+        "Last week I read a book about…",
+        "All people in Bangladesh believe that…",
+        "That’s an interesting question; I suppose…",
+        "I don’t know, maybe yes maybe no."
+      ],
+      "a": 2,
+      "ex": "এটি ভদ্র, সময় দেয়, আর নিজের মতামতের দিকে স্বাভাবিকভাবে যায় — চরম শব্দ বা ব্যক্তিগত গল্প নয়।",
+      "vo": "সঠিক উত্তর গ। এই বাক্যটি ভদ্রতার সাথে সময় নেয় আর সরাসরি মতামতে যায়। প্রথম ও দ্বিতীয় অপশন যথাক্রমে ব্যক্তিগত গল্প আর চরম শব্দের ভুল দেখায়।",
+      "frames": 350
+    },
+    {
+      "type": "recap",
+      "items": [
+        "Part 3 ব্যক্তিগত নয়, সাধারণ দৃষ্টিভঙ্গি দিন",
+        "Point → Explain → Example → Conclusion কাঠামোে বলুন",
+        "চরম শব্দ এড়িয়ে many, tend to ব্যবহার করুন",
+        "কঠিন প্রশ্নে সময় নিয়ে ভাবার বাক্য বলুন"
+      ],
+      "vo": "আজকের মূল পয়েন্ট: Part 3-এ ব্যক্তিগত গল্প না বলে সাধারণ দৃষ্টিভঙ্গি দিন; Point-Explanation-Example-Conclusion কাঠামো অনুসরণ করুন; চরম শব্দ এড়ান; আর কঠিন প্রশ্নে সময় নেওয়ার বাক্য ব্যবহার করুন।",
+      "frames": 478
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজেই Part 3 অনুশীলন করুন!",
+      "cta": "নিচের প্রশ্নগুলোতে উত্তর রেকর্ড করুন, এআই প্রশিক্ষকের ফিডব্যাক নিন",
+      "vo": "নিচে তিনটি অডিও রেকর্ডিং টুল পাবেন। প্রতিটায় একটি করে Part 3 প্রশ্ন আছে — উত্তর রেকর্ড করুন, তারপর এআই প্রশিক্ষক আপনার কাঠামো, শব্দচয়ন আর fluency-র ওপর আনুমানিক ফিডব্যাক দেবে। নিয়মিত অনুশীলনই আত্মবিশ্বাস আনে।",
+      "frames": 461
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "tense-perfect-vs-past",
+  "course": "বাংলায় IELTS",
+  "module": "মডিউল ২ · ইংরেজির ভিত: বাংলাভাষীর চেনা ভুল সারাই",
+  "lessonNo": "পাঠ ১",
+  "title": "Tense: present perfect বনাম past simple",
+  "next": "Article (a/an/the) — বাংলায় নেই বলেই ভুল",
+  "scenes": [
+    {
+      "type": "title",
+      "goals": [
+        "কখন Past Simple আর কখন Present Perfect বুঝা",
+        "বাংলা 'করেছি'-র ফাঁদ এড়িয়ে নির্ভুল লেখা",
+        "Speaking-এ দুটো টেনস মিলিয়ে স্মার্ট উত্তর",
+        "Writing Task 1-এ সাল দেখে টেনস ঠিক করা"
+      ],
+      "vo": "Writing আর Speaking-এ মোট নম্বরের ২৫ শতাংশ আসে সঠিক টেনস থেকে। বাংলায় 'করে ফেলেছি' বললেই ইংরেজিতে Present Perfect ভেবে বসেন অনেকে — আর নম্বর চলে যায়। আজ আমরা Past Simple আর Present Perfect-এর তফাত একদম পরিষ্কার করব, যেন পরীক্ষার হলে আর কোনোদিন আটকাবেন না।",
+      "frames": 538
+    },
+    {
+      "type": "myth",
+      "wrong": "কাজ এই মাত্র শেষ হলে সবসময় Present Perfect হয়",
+      "right": "সময় নির্দিষ্ট কি না সেটাই আসল — 'এই মাত্র' বললেও সময় দিয়ে দিলে Past Simple",
+      "sub": "বাংলার ধাঁধায় 'গতকাল করেছি' ইংরেজিতে Present Perfect ভাববেন না",
+      "vo": "আমাদের সবচেয়ে বড় ভ্রান্তি কী জানেন? এইমাত্র যে কাজ শেষ হলো, সেটা Present Perfect হবে — যেমন 'I have eaten just now'। অথচ just now-ও একটা নির্দিষ্ট সময়, তাই এটা Past Simple-এর রাজত্ব। সময়টা নির্দিষ্ট কি না, এই এক সূত্র ধরলেই অর্ধেক ভুল কমে যাবে।",
+      "frames": 552
+    },
+    {
+      "type": "points",
+      "head": [
+        "Past Simple: ",
+        "সময় নির্দিষ্ট, কাজ শেষ"
+      ],
+      "items": [
+        {
+          "icon": "clock",
+          "t": "স্পেসিফিক টাইম মার্কার চিনুন",
+          "s": "'in 2015', 'yesterday', 'last month', '5 years ago'",
+          "en": "The price rose sharply in 2020."
+        },
+        {
+          "icon": "target",
+          "t": "Writing Task 1-এ বাধ্যতামূলক",
+          "s": "চার্টে 2000 থেকে 2015 মতো নির্দিষ্ট সাল",
+          "en": "Imports increased between 2000 and 2015."
+        },
+        {
+          "icon": "pen-line",
+          "t": "গঠন মনে রাখবেন",
+          "s": "Subject + V2 (past form) + object",
+          "en": "She completed the survey."
+        }
+      ],
+      "vo": "প্রথমে Past Simple। নিয়মটা ঝরঝরে: যখন অতীতের কোনো নির্দিষ্ট সময়ে কাজটা শুরু আর শেষ — তখন Past Simple। লেখায় বা বলায় in 2005, yesterday, last year এগুলো পেলেই বুঝবেন, এখানে V2 চাই। Task 1-এ চার্টের নিচে সাল দেখলেই Past Simple, এটা ভুলবেন না। গঠনও সোজা — subject আর verb-এর past form।",
+      "frames": 725
+    },
+    {
+      "type": "points",
+      "head": [
+        "Present Perfect: ",
+        "সেতুবন্ধন অতীত আর বর্তমানের"
+      ],
+      "items": [
+        {
+          "icon": "link",
+          "t": "আজ পর্যন্ত চলছে, নাকি ফল আছে",
+          "s": "'since 2018', 'for 5 years', 'over the last decade'",
+          "en": "I have worked here since 2018."
+        },
+        {
+          "icon": "book-open",
+          "t": "ক্যালেন্ডার ধরে নয়, অভিজ্ঞতা",
+          "s": "'ever', 'never', 'so far' — কবে সেটা নয়, স্মৃতিটা জরুরি",
+          "en": "Have you ever tried VR?"
+        },
+        {
+          "icon": "hash",
+          "t": "গঠন: have/has + V3",
+          "s": "V3 বা past participle ভুল না হলেই হলো",
+          "en": "The population has doubled."
+        }
+      ],
+      "vo": "এবার Present Perfect। এটা অতীত আর বর্তমানের মাঝের পুল। কাজটা আজ পর্যন্ত চলছে — যেমন 'since 2018' বা 'for five years' — অথবা কবে ঘটেছে সেটা না বলে শুধু অভিজ্ঞতাটুকু জানাচ্ছেন, যেমন 'I have been there'। গঠনে have বা has-এর পর verb-এর past participle, আর সময়ের সাথে since বা for। calendar-এর দিনক্ষণ নয়, চলমান সময়ই এটার প্রাণ।",
+      "frames": 821
+    },
+    {
+      "type": "compare",
+      "head": [
+        "টাইম মার্কারই গুরু: ",
+        "এক শব্দেই টেনস বদলে যায়"
+      ],
+      "rows": [
+        {
+          "bad": "since 2018",
+          "good": "in 2018",
+          "why": "'since'-এর পর Past Simple, পুরো বাক্য Present Perfect; 'in'-এর পর Past Simple — সময়টা বন্ধ"
+        },
+        {
+          "bad": "I have lived in Dhaka since 2018.",
+          "good": "I lived in Dhaka in 2018.",
+          "why": "‘since’ জানাচ্ছে এখনো আছি, ‘in’ জানাচ্ছে সেটা শেষ — গল্প বদলে গেল"
+        }
+      ],
+      "vo": "এখন আসল জাদু — সময়ের মার্কার। 'since 2018' পেলেই পুরো বাক্যটা Present Perfect; মানে আজও আছি। অথচ একই 2018-এর আগে 'in' বসিয়ে দিলেই ব্যাপারটা শেষ — Past Simple, মানে এখন আর নেই। since আর for চলমান সময় টানে; in, ago, last দেয় সমাপ্তি। এই সিগন্যালগুলো চোখে রাখলেই টেনস কখনো মিস করবেন না।",
+      "frames": 758
+    },
+    {
+      "type": "compare",
+      "head": [
+        "বাংলাভাষীর চেনা ভুল: ",
+        "'করেছি' মানেই Present Perfect নয়"
+      ],
+      "rows": [
+        {
+          "bad": "I have completed my graduation in 2022.",
+          "good": "I completed my graduation in 2022.",
+          "why": "in 2022 দিচ্ছে নির্দিষ্ট শেষ সময় — Past Simple চাই"
+        },
+        {
+          "bad": "Yesterday I have gone to the market.",
+          "good": "Yesterday I went to the market.",
+          "why": "'গতকাল করেছি' ইংরেজিতে Present Perfect ভাবলে ভুল; 'yesterday' সবসময় Past Simple"
+        }
+      ],
+      "vo": "এবার একটু আয়নায় দেখুন। 'আমি ২০২২-এ পাস করেছি' — বাংলায় 'করেছি' শুনে ইংরেজিতে Present Perfect বানিয়ে ফেলি। কিন্তু in 2022 যেহেতু নির্দিষ্ট শেষ সময়, তাই I completed হবে। একইভাবে, 'গতকাল বাজারে গেছি' — 'গেছি' শুনে have gone লিখলে ভুল, কারণ yesterday আছে। টাইম মার্কারই শেষ কথা।",
+      "frames": 638
+    },
+    {
+      "type": "quizQ",
+      "q": "Over the last five years, the government ______ digital infra-এ বিনিয়োগ করেছে। সঠিক verb?",
+      "o": [
+        "invested",
+        "has invested",
+        "had invested",
+        "invest"
+      ],
+      "a": 1,
+      "hold": 150,
+      "vo": "একটু থেমে পরখ করে দেখুন তো কেমন শিখেছেন। Over the last five years, the government ______ heavily in digital infrastructure. খালি ঘরে কী বসবে? পাঁচ সেকেন্ড।",
+      "frames": 350
+    },
+    {
+      "type": "quizA",
+      "q": "Over the last five years, the government ______ digital infra-এ বিনিয়োগ করেছে। সঠিক verb?",
+      "o": [
+        "invested",
+        "has invested",
+        "had invested",
+        "invest"
+      ],
+      "a": 1,
+      "ex": "'Over the last five years' বর্তমান পর্যন্ত সময়; Present Perfect ‘has invested’ হবে।",
+      "vo": "জ্বি, উত্তর 'has invested'। 'over the last five years' মানে সময় এখনো চলছে, শেষ হয়নি। তাই Present Perfect। টাইম মার্কারকে সালাম জানাতে ভুলবেন না।",
+      "frames": 353
+    },
+    {
+      "type": "exam",
+      "head": [
+        "Speaking-এর কৌশল: ",
+        "Present Perfect দিয়ে শুরু, Past Simple দিয়ে বর্ণনা"
+      ],
+      "paper": {
+        "title": "Speaking Part 1/2 — Natural Flow",
+        "rows": [
+          {
+            "n": 1,
+            "label": "Opening move"
+          },
+          {
+            "n": 2,
+            "label": "Detail 1"
+          },
+          {
+            "n": 3,
+            "label": "Detail 2"
+          }
+        ]
+      },
+      "focus": 1,
+      "clipText": [
+        {
+          "who": "A",
+          "text": "I have visited the Sundarbans twice. The first time was in 2018 when I travelled with my university friends."
+        },
+        {
+          "who": "A",
+          "text": "We took a launch from Mongla and stayed for three days."
+        }
+      ],
+      "lines": [
+        {
+          "who": "Candidate",
+          "text": "I have visited the Sundarbans twice. The first time was in 2018 when I travelled with my university friends.",
+          "name": "Speaker"
+        },
+        {
+          "who": "Candidate",
+          "text": "We took a launch from Mongla and stayed for three days.",
+          "name": "Speaker"
+        }
+      ],
+      "hl": [
+        "have visited"
+      ],
+      "answer": "have visited",
+      "tip": "জীবনের অভিজ্ঞতা (কবে বলা হয়নি) → Present Perfect; তারপর বিস্তারিত → Past Simple — এতেই ব্যান্ড বাড়ে।",
+      "vo": "দেখুন, প্রথম বাক্যে 'have visited' — কবে গিয়েছেন বলা নেই, শুধু অভিজ্ঞতা। আর পরের বাক্যে was, travelled, took — সব Past Simple। Speaking-এ এই স্মার্ট সুইচটা করলেই Grammar Range বাড়ে। পর্দায় দেখুন কীভাবে ফাঁকা ঘরটা ভরেছে।",
+      "clip": "clip09.mp3",
+      "clipFrames": 324,
+      "frames": 518
+    },
+    {
+      "type": "note",
+      "head": "সাবধান!",
+      "text": "\"born\" একটি অতীত ঘটনা — \"I was born in 2000\" (Past Simple Passive)",
+      "sub": "বাংলায় 'জন্মেছি' মানে হতেই পারে, কিন্তু ইংরেজিতে কেউ জন্মাতে জন্মাতে সারা জীবন কাটায় না",
+      "vo": "সাবধান! বাংলায় আমরা বলি 'আমি ২০০০ সালে জন্মেছি'। এই 'জন্মেছি' শুনে অনেকে Present Perfect বানিয়ে ফেলেন — I have been born। কিন্তু ইংরেজিতে জন্ম নেওয়া একটা একবারের ঘটনা, চলমান প্রক্রিয়া নয়। তাই সঠিক হবে I was born in 2000 — Past Simple passive। কেউ জন্মাতে জন্মাতে সারা জীবন কাটায় না, তাই না?",
+      "frames": 643
+    },
+    {
+      "type": "recap",
+      "items": [
+        "নির্দিষ্ট শেষ সময় → Past Simple (in, ago, yesterday, last)",
+        "অতীত থেকে আজ পর্যন্ত → Present Perfect (since, for, over the last)",
+        "Speaking-এ ফর্মুলা: I have ____. Then I V2……",
+        "Writing Task 1-এ চার্টের সাল যাচাই করেই টেনস ঠিক করুন"
+      ],
+      "vo": "মনে রাখবেন চারটে জিনিস। নির্দিষ্ট শেষ সময় মানে Past Simple। since বা for মানে আজ পর্যন্ত, তাই Present Perfect। Speaking-এ পাঞ্চলাইন দিন 'I have done... Then I did' — এটা প্রাকটিস করুন। আর Task 1-তে সাল দেখুন, time period শেষ কি না। এই কটা নিয়মেই টেনসের গোল্লা দূর।",
+      "frames": 622
+    },
+    {
+      "type": "outro",
+      "head": "এবার নিজেকে যাচাই করুন!",
+      "cta": "নিচের Writing Space-এ লিখুন, এআই প্রশিক্ষক টেনস দেখে আনুমানিক ব্যান্ড দেবে",
+      "vo": "নিচে অনলাইন লার্নিং বনাম ক্লাসরুম নিয়ে একটি প্যাসেজ লিখুন। চেষ্টা করবেন since, for, in, over the last-সহ Past আর Present Perfect মেশাতে। এআই প্রশিক্ষক ফিডব্যাক দেবে। নিয়মিত লিখলে টেনস অটোমেটিক হয়ে যাবে, কথা দিচ্ছি।",
+      "frames": 480
+    }
+  ]
+}
