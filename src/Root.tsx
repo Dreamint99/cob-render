@@ -68,6 +68,9 @@ const LESSONS = [L_cfe_browser, L_cfe_connect_desktop, L_cfe_desktop_intro, L_cf
 import { CfeKinetic } from "./promo3/CfeKinetic";
 import { GdsBoard } from "./promo3/GdsBoard";
 import { IeltsPhone } from "./promo3/IeltsPhone";
+import { EnglishChat } from "./promo3/EnglishChat";
+import p3en from "./promo3/english.json";
+import p3enD from "./promo3/english.durs.json";
 import { totalLen as p3Len, Spec as P3Spec } from "./promo3/shared";
 import p3cfe from "./promo3/cfe.json";
 import p3cfeD from "./promo3/cfe.durs.json";
@@ -97,6 +100,7 @@ export const Root = () => (
     <Composition id="CFEPromo" component={CFEPromo} durationInFrames={CFE_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="P3-cfe" component={CfeKinetic} defaultProps={{ spec: p3cfe as unknown as P3Spec, durs: p3cfeD }} durationInFrames={p3Len(p3cfeD)} fps={30} width={1920} height={1080} />
     <Composition id="P3-gds" component={GdsBoard} defaultProps={{ spec: p3gds as unknown as P3Spec, durs: p3gdsD }} durationInFrames={p3Len(p3gdsD)} fps={30} width={1920} height={1080} />
+    <Composition id="P3-english" component={EnglishChat} defaultProps={{ spec: p3en as unknown as P3Spec, durs: p3enD }} durationInFrames={p3Len(p3enD)} fps={30} width={1920} height={1080} />
     <Composition id="P3-ielts" component={IeltsPhone} defaultProps={{ spec: p3ielts as unknown as P3Spec, durs: p3ieltsD }} durationInFrames={p3Len(p3ieltsD)} fps={30} width={1920} height={1080} />
     <Composition id="AIUPromo2" component={AIUPromo2} durationInFrames={AIU2_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="AIUPromo" component={AIUPromo} durationInFrames={AIU_TOTAL} fps={30} width={1920} height={1080} />
