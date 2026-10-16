@@ -1,0 +1,316 @@
+{
+  "id": "present-continuous",
+  "course": "ইংলিশ মাস্টার কোর্স",
+  "level": "লেভেল ১ · এখন কী হচ্ছে",
+  "lessonNo": "পাঠ ১",
+  "title": "present continuous: এখন যা ঘটছে",
+  "next": "can/can't: সামর্থ্য আর অনুমতি",
+  "cast": {
+    "A": {
+      "name": "Nusrat",
+      "look": "f"
+    },
+    "B": {
+      "name": "Rana",
+      "look": "m"
+    }
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "icon": "office",
+      "kicker": "রানার অদ্ভুত সপ্তাহ",
+      "text": "অফিসে সংস্কার চলছে। রানা বাসা থেকে কাজ করছে। বন্ধু ফোন করতেই কথাবলে এখন কে করছে স।",
+      "vo": "শোনো, আজ একটা মজার গল্প দিয়ে শুরু করি। রানার অফিসে মেরামত চলছে, তাই এই সপ্তাহে সে বাসা থেকে কাজ করছে। হঠাৎ বন্ধুর ফোন এলে ইংরেজিতে জানাতে হয়, 'I'm working from home this week.' চলো দেখি সে কীভাবে বলে।"
+    },
+    {
+      "type": "title",
+      "goals": [
+        "মুহূর্তের কাজ বলতে am/is/are + -ing",
+        "this week-এর মতো অস্থায়ী অভিজ্ঞতা",
+        "স্টেটিভ ভার্বের ভুল এড়ানো",
+        "সংক্ষিপ্ত রূপ I'm, he's স্বাভাবিক উচ্চারণ"
+      ],
+      "vo": "আজকের পাঠ, present continuous বা 'এখন যা ঘটছে'। তুমি শিখবে ঠিক এই মুহূর্তে কী বলতে হবে, আর অস্থায়ী ঘটনাগুলো কীভাবে জানাতে হবে। পাশাপাশি জানবে যে 'I am knowing' বলাটা ভুল কেন।"
+    },
+    {
+      "type": "dialogue",
+      "place": "বাসা, ফোনে কথোপকথন",
+      "vo": "আগে শোনো, নুসরাত আর রানা কী বলছে। নুসরাত অফিস থেকে ফোন করেছে, রানা বাসায় কাজ করছে। শুনতে শুনতে খেয়াল করো verb-ing আর am/is/are কোথায় বসছে।",
+      "lines": [
+        {
+          "who": "A",
+          "text": "Hi, Rana! What are you doing?",
+          "bn": "হাই, রানা! তুমি কী করছ?"
+        },
+        {
+          "who": "B",
+          "text": "I'm working from home this week. My office is being renovated.",
+          "bn": "আমি এই সপ্তাহে বাসা থেকে কাজ করছি। আমার অফিস মেরামত হচ্ছে।"
+        },
+        {
+          "who": "A",
+          "text": "Oh, nice. Are you enjoying it?",
+          "bn": "ও, ভালো। তুমি কি এটা উপভোগ করছ?"
+        },
+        {
+          "who": "B",
+          "text": "Actually, I'm finding it hard. I'm missing my colleagues.",
+          "bn": "আসলে, আমার কাছে কঠিন লাগছে। আমি আমার সহকর্মীদের মিস করছি।"
+        },
+        {
+          "who": "A",
+          "text": "I see. Right now I'm preparing a report. Can I call you later?",
+          "bn": "বুঝেছি। এখন আমি একটা রিপোর্ট তৈরি করছি। পরে ফোন করলে চলবে?"
+        },
+        {
+          "who": "B",
+          "text": "Sure. I'm not doing anything special.",
+          "bn": "নিশ্চয়ই। আমি বিশেষ কিছু করছি না।"
+        }
+      ],
+      "hl": [
+        "working",
+        "enjoying",
+        "finding",
+        "missing",
+        "preparing"
+      ],
+      "vo2": "দেখলে? রানা প্রতিটি ক্রিয়ার আগে am/is/are বসিয়ে -ing যোগ করেছে। 'I'm working', 'I'm finding', 'I'm missing'— এভাবেই এখন যা চলছে তা বোঝায়। আর 'this week' দিয়ে অস্থায়ী পরিস্থিতি স্পষ্ট করছে।"
+    },
+    {
+      "type": "chunks",
+      "head": "আজকের ৫টা জাদুর টুকরো",
+      "vo": "এবার আজকের ৫টা জাদুর টুকরো। আমি একবার বলে যাব, তুমি সাথে বলবে। পুরো chunk ভাঙবে না, একসাথে মনে রাখবে। শুরু করি।",
+      "items": [
+        {
+          "en": "I'm working",
+          "ex": "I'm working from home today.",
+          "bn": "আমি কাজ করছি"
+        },
+        {
+          "en": "Are you enjoying?",
+          "ex": "Are you enjoying the food?",
+          "bn": "তুমি কি উপভোগ করছ?"
+        },
+        {
+          "en": "I'm finding it hard",
+          "ex": "I'm finding it hard to focus.",
+          "bn": "আমার কাছে কঠিন লাগছে"
+        },
+        {
+          "en": "I'm missing",
+          "ex": "I'm missing my family.",
+          "bn": "আমি মিস করছি"
+        },
+        {
+          "en": "Can I call you later?",
+          "ex": "Can I call you later this evening?",
+          "bn": "আমি কি তোমাকে পরে ফোন করতে পারি?"
+        }
+      ],
+      "lines": [
+        {
+          "who": "N",
+          "text": "I'm working from home today."
+        },
+        {
+          "who": "N",
+          "text": "Are you enjoying the food?"
+        },
+        {
+          "who": "N",
+          "text": "I'm finding it hard to focus."
+        },
+        {
+          "who": "N",
+          "text": "I'm missing my family."
+        },
+        {
+          "who": "N",
+          "text": "Can I call you later this evening?"
+        }
+      ]
+    },
+    {
+      "type": "pattern",
+      "left": "I'm",
+      "formula": "I'm + verb-ing (এখন চলছে) / অভ্যাস বা সত্য: I + verb",
+      "vo": "একটু লক্ষ্য করো। I'm-এর পরে শুধু verb-ing বসালেই চলছে-ঘটছে বোঝায়। আমি বাম পাশে I'm রেখেছি, আর ডানদিকে verb-ing ঘুরবে। তুমি পুরো বাক্য বলবে। চলো দেখি।",
+      "slots": [
+        {
+          "en": "working from home.",
+          "bn": "আমি বাসা থেকে কাজ করছি।"
+        },
+        {
+          "en": "drinking tea.",
+          "bn": "আমি চা খাচ্ছি।"
+        },
+        {
+          "en": "staying with my aunt.",
+          "bn": "আমি খালার সাথে আছি।"
+        },
+        {
+          "en": "preparing lunch.",
+          "bn": "আমি দুপুরের খাবার বানাচ্ছি।"
+        },
+        {
+          "en": "having a meeting.",
+          "bn": "আমি মিটিং করছি।"
+        }
+      ],
+      "lines": [
+        {
+          "who": "N",
+          "text": "I'm working from home."
+        },
+        {
+          "who": "N",
+          "text": "I'm drinking tea."
+        },
+        {
+          "who": "N",
+          "text": "I'm staying with my aunt."
+        },
+        {
+          "who": "N",
+          "text": "I'm preparing lunch."
+        },
+        {
+          "who": "N",
+          "text": "I'm having a meeting."
+        }
+      ],
+      "vo2": "এটাই present continuous-এর গঠন। তবে মনে রাখবে, প্রতিদিনকার অভ্যাস বা চিরন্তন সত্য বলতে গেলে শুধু verb, কোনো -ing না। যেমন I work every day, I live in Dhaka. আর স্টেটিভ ভার্ব: know, want, have (মালিকানা) - কখনোই -ing হবে না। ঠিক আছে?"
+    },
+    {
+      "type": "fix",
+      "vo": "এবার ৩টা মারাত্মক ভুল। প্রথমটা, I am knowing the answer. know কখনো -ing রূপে হয় না, বলবে I know. দ্বিতীয়টা, I am having two brothers – মালিকানা বোঝালে have-এর -ing নেই, বলবে I have. তৃতীয়, I am wanting some water – want-ও সবসময় সরল। এই তিন ভুল আর নয়।",
+      "rows": [
+        {
+          "wrong": "I am knowing the answer.",
+          "right": "I know the answer.",
+          "why": "know কখনো -ing রূপে হয় না"
+        },
+        {
+          "wrong": "I am having two brothers.",
+          "right": "I have two brothers.",
+          "why": "মালিকানা বোঝালে have-এর -ing নেই"
+        },
+        {
+          "wrong": "I am wanting some water.",
+          "right": "I want some water.",
+          "why": "want সবসময সরল হয়"
+        }
+      ]
+    },
+    {
+      "type": "repeat",
+      "vo": "এবার ডায়ালগ থেকে ৬টা বাক্যে ছায়া অনুকরন করো। আম বলব, তরপর মাইক খুলে তুম জোরে বলব। প্রস্তুত? শুরু কর।",
+      "lines": [
+        {
+          "who": "N",
+          "text": "I'm working from home this week.",
+          "bn": "আমি এই সপ্তাহে বাসা থেকে কাজ করছি।"
+        },
+        {
+          "who": "N",
+          "text": "Are you enjoying it?",
+          "bn": "তুমি কি এটা উপভোগ করছ?"
+        },
+        {
+          "who": "N",
+          "text": "I'm finding it hard.",
+          "bn": "আমার কাছে কঠিন লাগছে।"
+        },
+        {
+          "who": "N",
+          "text": "I'm missing my colleagues.",
+          "bn": "আমি আমার সহকর্মীদের মিস করছি।"
+        },
+        {
+          "who": "N",
+          "text": "I'm preparing a report.",
+          "bn": "আমি একটি রিপোরট তৈরি করছি।"
+        },
+        {
+          "who": "N",
+          "text": "I'm not doing anything special.",
+          "bn": "আমি বশেষ কছিু করছি ন।"
+        }
+      ],
+      "vo2": "খুব সুন্দর! এবার আরেকবার বলো, কিন্তু এবার নিজের গতি বাড়াও। উচ্চারণটা আগের স্লাইড মনে রেখো।"
+    },
+    {
+      "type": "sound",
+      "head": "উচ্চারণ ফোকাস: -ing আর সংক্ষিপ্ত রূপ",
+      "vo": "ইংরেিজতে -ing নাক দিয়ে বলবে। কাজটা কঠিন না, কিন্তু নতুন। জিভের       পেছনটা তালুতে ছোঁয়াও, নাকে বাতাস ছাড়ো— /ɪŋ/। আর I'm বলবে 'আইম', একসাথে।",
+      "words": [
+        {
+          "en": "working",
+          "ipa": "ˈwɜːkɪŋ",
+          "bn": "ওয়ার্কিং, নাক দিয়ে শেষ"
+        },
+        {
+          "en": "I'm",
+          "ipa": "aɪm",
+          "bn": "আইম, একসাথে"
+        }
+      ],
+      "lines": [
+        {
+          "who": "N",
+          "text": "working"
+        },
+        {
+          "who": "N",
+          "text": "I'm"
+        }
+      ],
+      "tip": "জিভের পেছনটা তালুতে ছোঁয়াও, নাক দিয়ে বাতাস বের করো। I'm এক নিঃশ্বাসে বলো।",
+      "vo2": "আয়নার সামনে দাঁড়িয়ে প্র্যাকটিস করো। প্রথমে 'working' বলো, তারপর 'I'm working'— টানা তিনবার। মুখের ভঙ্গি দেখো, ঠোঁট টানটান আর জিভ নরম থাকবে।"
+    },
+    {
+      "type": "quiz",
+      "q": "‘I'm wanting some water’ বলটা ভুল। সঠিক বাক্যটি কী?",
+      "o": [
+        "I want some water.",
+        "I'm wanting some water.",
+        "I wanting some water."
+      ],
+      "a": 0,
+      "ex": "I want some water — want একটি স্টেটিভ ভার্ব, তাই -ing নেই।",
+      "hold": 150,
+      "vo": "এখন একটি ছোট্ট কুইজ। ‘I'm wanting some water’ বাক্যটি শুনলে কেমন লাগে? বলো, ভুল না ঠিক? আসলে ভুল। কিন্তু সঠিকটা কেমন হবে? ভাবো পাঁচ সেকেন্ড আর উত্তর চিন্তা করো।",
+      "vo2": "সঠিক উত্তর: I want some water. want একটি স্টেটিভ ভার্ব, তাই কখনো -ing নেবে না। এই ভুলটা যেন আর না হয।"
+    },
+    {
+      "type": "mission",
+      "role": "রানা — বাসা       থেকে কাজ করছ",
+      "goal": "এআই প           রশকষের            সথে ফনালপ চালাও। এখন ক করছ, এই সপতাহের অ            জঞাত, কমন লা           গছে — সব বল।",
+      "must": [
+        "I'm working...",
+        "I'm finding...",
+        "I'm not..."
+      ],
+      "xp": 50,
+      "vo": "এবার তমার মিশন। তুম রানা, আর এআই প্রশিক্ষক তোమার কলিগ। ফোন করো আর এখন তুমি কী করছ, এই সপ্তাহ কেমন যাচ্ছে— সব ইংরেজিতে বলো। তনট জি            নষ অবশযই বযবহার করো: I'm working, I'm finding, I'm not...। পারলে 50 XP জিতবে।"
+    },
+    {
+      "type": "recap",
+      "items": [
+        "am/is/are + -ing: এখন যা ঘটছে",
+        "this week/month: অস্থায়ী পরিস্থিতি",
+        "স্টেটিভ ভার্বে -ing বাদ",
+        "I'm, he's যুক্ত করে উচ্চারণ"
+      ],
+      "vo": "চলো দ্রুত একবার দেখে নিই। যে কাজ এখনই চলছে তা বলতে am/is/are + -ing। আর স্টেটিভ ভার্বে -ing কখনোই না। চেনা ভুলগুলো মনে রেখো। আর সংক্ষেপে I'm, he's ব্যবহার করবে আর নাক দিয়ে উচ্চারণ করবে। ব্যস!"
+    },
+    {
+      "type": "outro",
+      "head": "দারুণ! আজকের পর্ব শেষ",
+      "cta": "ডায়ালগ ৩ বার শ্যাডো করো, মিশন করো",
+      "vo": "আজের ক্লাস শেষ! বাসায় বসে ডায়ালগটা আরও তিনবার শ্যাডো করো, তারপর মিশনটা দিয়ে ফেলো। পরের ক্লাসে আমরা শিখব can আর can't— সামর্থ্য আর অনুমতি। ভালো থেকো, বায়!"
+    }
+  ]
+}

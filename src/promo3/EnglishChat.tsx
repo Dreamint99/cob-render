@@ -28,7 +28,7 @@ const Typing: React.FC<{ f: number; from: number; to: number; me?: boolean }> = 
 };
 
 const Thread: React.FC<{ children: React.ReactNode; top?: number }> = ({ children, top = 150 }) => (
-  <div style={{ position: "absolute", left: 230, right: 230, top, bottom: 90, display: "flex", flexDirection: "column", gap: 26, justifyContent: "flex-end" }}>{children}</div>
+  <div style={{ position: "absolute", left: 230, right: 230, top, bottom: 60, display: "flex", flexDirection: "column", gap: 26, justifyContent: "center" }}>{children}</div>
 );
 
 const Header: React.FC = () => (
