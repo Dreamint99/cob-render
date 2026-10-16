@@ -53,9 +53,9 @@ function render(spec: Spec, s: Scene, f: number, len: number) {
       const st = pop(f, fps, 34, 9);
       return (
         <AbsoluteFill style={{ justifyContent: "center", alignItems: "center" }}>
-          <Slam f={f} at={2} style={{ fontFamily: EN, fontWeight: 900, fontSize: 470, color: K.blue, lineHeight: 1, letterSpacing: -10 }}>৳০</Slam>
+          <Slam f={f} at={2} style={{ fontFamily: BN, fontWeight: 800, fontSize: 300, color: K.blue, lineHeight: 1.1, whiteSpace: "nowrap" }}>{s.big}</Slam>
           <div style={{ fontFamily: BN, fontWeight: 800, fontSize: 92, color: K.ink, marginTop: 10 }}><Marker p={enter(f, 18, 14)}>{s.line}</Marker></div>
-          <div style={{ position: "absolute", right: 260, top: 230, transform: `rotate(${interpolate(st, [0, 1], [-40, -12])}deg) scale(${st})`, border: `7px solid ${K.red}`, color: K.red, borderRadius: 18, padding: "14px 30px", fontFamily: BN, fontWeight: 800, fontSize: 52 }}>{s.tag}</div>
+          <div style={{ position: "absolute", right: 120, top: 150, transform: `rotate(${interpolate(st, [0, 1], [-40, -12])}deg) scale(${st})`, border: `7px solid ${K.red}`, color: K.red, borderRadius: 18, padding: "14px 30px", fontFamily: BN, fontWeight: 800, fontSize: 52 }}>{s.tag}</div>
         </AbsoluteFill>
       );
     }
