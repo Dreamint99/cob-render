@@ -1,0 +1,213 @@
+{
+ "id": "abc-1",
+ "title": "A B C D",
+ "sub": "ABC বন্ধু · পাঠ ১",
+ "color": "#4D7CFE",
+ "script": "latin",
+ "scenes": [
+  {
+   "type": "intro",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "হ্যালো বন্ধুরা! আমি টুনটুনি! আজ আমরা শিখব — A, B, C, D! রেডি? চলো শুরু করি!"
+    }
+   ],
+   "audio": "kids/abc-1/s00.mp3",
+   "frames": 291,
+   "voAt": 14,
+   "voFrames": 253
+  },
+  {
+   "type": "letter",
+   "letter": "A",
+   "small": "a",
+   "pic": "🍎",
+   "word": "Apple",
+   "meaning": "আপেল",
+   "sound": "অ্যা",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "A! A for Apple!"
+    },
+    {
+     "v": "bn",
+     "t": "A বলে অ্যা, অ্যা — Apple! Apple মানে আপেল। এবার দেখো, A কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-1/s01.mp3",
+   "frames": 416,
+   "voAt": 14,
+   "voFrames": 378
+  },
+  {
+   "type": "letter",
+   "letter": "B",
+   "small": "b",
+   "pic": "⚽",
+   "word": "Ball",
+   "meaning": "বল",
+   "sound": "ব্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "B! B for Ball!"
+    },
+    {
+     "v": "bn",
+     "t": "B বলে ব্, ব্ — Ball! Ball মানে বল। এবার দেখো, B কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-1/s02.mp3",
+   "frames": 454,
+   "voAt": 14,
+   "voFrames": 416
+  },
+  {
+   "type": "letter",
+   "letter": "C",
+   "small": "c",
+   "pic": "🐱",
+   "word": "Cat",
+   "meaning": "বিড়াল",
+   "sound": "ক্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "C! C for Cat!"
+    },
+    {
+     "v": "bn",
+     "t": "C বলে ক্, ক্ — Cat! Cat মানে বিড়াল। এবার দেখো, C কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-1/s03.mp3",
+   "frames": 426,
+   "voAt": 14,
+   "voFrames": 388
+  },
+  {
+   "type": "letter",
+   "letter": "D",
+   "small": "d",
+   "pic": "🐶",
+   "word": "Dog",
+   "meaning": "কুকুর",
+   "sound": "ড্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "D! D for Dog!"
+    },
+    {
+     "v": "bn",
+     "t": "D বলে ড্, ড্ — Dog! Dog মানে কুকুর। এবার দেখো, D কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-1/s04.mp3",
+   "frames": 445,
+   "voAt": 14,
+   "voFrames": 407
+  },
+  {
+   "type": "recap",
+   "letters": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "pics": [
+    "🍎",
+    "⚽",
+    "🐱",
+    "🐶"
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার আমার সাথে জোরে জোরে বলো!"
+    },
+    {
+     "v": "en",
+     "t": "A for Apple! B for Ball! C for Cat! D for Dog!"
+    }
+   ],
+   "audio": "kids/abc-1/s05.mp3",
+   "frames": 334,
+   "voAt": 14,
+   "voFrames": 296
+  },
+  {
+   "type": "quiz",
+   "q": "Apple শুরু হয় কোন অক্ষরে?",
+   "pic": "🍎",
+   "options": [
+    "K",
+    "A",
+    "V"
+   ],
+   "answer": 1,
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার একটা ধাঁধা! বলো তো — Apple শুরু হয় কোন অক্ষরে?"
+    }
+   ],
+   "voA": [
+    {
+     "v": "bn",
+     "t": "ঠিক বলেছ!"
+    },
+    {
+     "v": "en",
+     "t": "A for Apple!"
+    }
+   ],
+   "audio": "kids/abc-1/s06.mp3",
+   "audioA": "kids/abc-1/s06-a.mp3",
+   "think": 90,
+   "aAt": 244,
+   "frames": 359,
+   "voAt": 14,
+   "voFrames": 140
+  },
+  {
+   "type": "next",
+   "steps": [
+    [
+     "👆",
+     "শুনে বাটনে চাপ দাও"
+    ],
+    [
+     "✏️",
+     "আঙুলে অক্ষর আঁকো"
+    ],
+    [
+     "🎮",
+     "ছবি মেলাও"
+    ],
+    [
+     "🎨",
+     "রং করো"
+    ]
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "ভিডিও শেষ! এবার নিচে চলো। প্রথমে শুনে ঠিক অক্ষরের বাটনে চাপ দেবে। তারপর আঙুল দিয়ে অক্ষর আঁকবে। এরপর ছবি মেলানোর খেলা। আর শেষে রং-খেলার মাঠে নিজের মতো রং করবে। চলো, নিচে যাই!"
+    }
+   ],
+   "audio": "kids/abc-1/s07.mp3",
+   "frames": 535,
+   "voAt": 14,
+   "voFrames": 497
+  }
+ ],
+ "total": 3260
+}

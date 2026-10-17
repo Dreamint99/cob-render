@@ -243,6 +243,15 @@ const Caption: React.FC<{ text: string; frames: number; accent: string }> = ({ t
   );
 };
 
+
+// free backdrop (no AI photo): drifting accent glows + diagonal light sweep
+const FreeBg: React.FC<{ r: IM; f: number }> = ({ r, f }) => (
+  <AbsoluteFill>
+    <AbsoluteFill style={{ background: `radial-gradient(700px 700px at ${20 + Math.sin(f / 45) * 10}% ${25 + Math.cos(f / 50) * 8}%, ${r.accent}55, transparent 70%), radial-gradient(800px 800px at ${80 + Math.cos(f / 55) * 10}% ${78 + Math.sin(f / 40) * 6}%, ${r.tint}, transparent 70%)` }} />
+    <AbsoluteFill style={{ background: `linear-gradient(115deg, transparent ${((f * 1.2) % 260) - 60}%, rgba(255,255,255,.06) ${((f * 1.2) % 260) - 45}%, transparent ${((f * 1.2) % 260) - 30}%)` }} />
+    <AbsoluteFill style={{ background: "radial-gradient(1200px 1400px at 50% 50%, transparent 40%, rgba(0,0,0,.65))" }} />
+  </AbsoluteFill>
+);
 export const InfoMotion: React.FC<{ id: string }> = ({ id }) => {
   const r = IM_REELS.find((x) => x.id === id)!;
   const f = useCurrentFrame();
@@ -254,12 +263,12 @@ export const InfoMotion: React.FC<{ id: string }> = ({ id }) => {
   return (
     <AbsoluteFill style={{ background: INK, overflow: "hidden" }}>
       {/* backdrop: AI photo full on the hook, then a faint blurred layer under the graphics */}
-      <AbsoluteFill style={{ opacity: imgOp }}>
+      {r.img ? <AbsoluteFill style={{ opacity: imgOp }}>
         <Img src={staticFile(r.img)} style={{ width: "100%", height: "100%", objectFit: "cover", transform: `scale(${1.05 + f * 0.00025})`, filter: f > hookLen ? "blur(14px)" : undefined }} />
         <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(5,9,11,.85) 0%, rgba(5,9,11,.25) 38%, rgba(5,9,11,.55) 62%, rgba(5,9,11,.95) 100%)" }} />
-      </AbsoluteFill>
-      <AbsoluteFill style={{ background: `radial-gradient(900px 1000px at ${50 + Math.sin(f / 60) * 12}% 35%, ${r.tint}, transparent 65%)`, opacity: interpolate(f, [hookLen - 10, hookLen + 10], [0.4, 1], clamp) }} />
-      <AbsoluteFill style={{ backgroundImage: "linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px)", backgroundSize: "60px 60px", transform: `translateY(${(f * 0.6) % 60}px)`, opacity: f > hookLen ? 1 : 0 }} />
+      </AbsoluteFill> : <FreeBg r={r} f={f} />}
+      <AbsoluteFill style={{ background: `radial-gradient(900px 1000px at ${50 + Math.sin(f / 60) * 12}% 35%, ${r.tint}, transparent 65%)`, opacity: r.img ? interpolate(f, [hookLen - 10, hookLen + 10], [0.4, 1], clamp) : 1 }} />
+      <AbsoluteFill style={{ backgroundImage: "linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px)", backgroundSize: "60px 60px", transform: `translateY(${(f * 0.6) % 60}px)`, opacity: f > hookLen || !r.img ? 1 : 0 }} />
       {seqs.map(({ s, i, from, len }) => (
         <Sequence key={i} from={from} durationInFrames={len + (i < seqs.length - 1 ? X / 2 : 0)}>
           <SceneWrap len={len} last={i === seqs.length - 1}>
@@ -279,7 +288,7 @@ export const InfoMotion: React.FC<{ id: string }> = ({ id }) => {
         <div style={{ width: `${(f / DT) * 100}%`, height: "100%", borderRadius: 3, background: r.accent }} />
       </div>
       <div style={{ position: "absolute", left: L, width: W, top: 1426, fontFamily: BN, fontSize: 25, color: "#c3ced3", opacity: f < hookLen ? 1 : 0.85 }}>
-        {f < hookLen ? r.imgNote : `সূত্র: ${r.source}`}
+        {f < hookLen && r.imgNote ? r.imgNote : `সূত্র: ${r.source}`}
       </div>
       <Grain />
       <Sequence durationInFrames={20}><Audio src={staticFile("sfx/boom.mp3")} volume={0.5} /></Sequence>

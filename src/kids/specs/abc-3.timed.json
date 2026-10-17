@@ -1,0 +1,213 @@
+{
+ "id": "abc-3",
+ "title": "I J K L",
+ "sub": "ABC বন্ধু · পাঠ ৩",
+ "color": "#4D7CFE",
+ "script": "latin",
+ "scenes": [
+  {
+   "type": "intro",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "হ্যালো বন্ধুরা! আবার এসেছি আমি টুনটুনি! আজকের অক্ষর — I, J, K, L! চলো!"
+    }
+   ],
+   "audio": "kids/abc-3/s00.mp3",
+   "frames": 283,
+   "voAt": 14,
+   "voFrames": 245
+  },
+  {
+   "type": "letter",
+   "letter": "I",
+   "small": "i",
+   "pic": "🍦",
+   "word": "Ice cream",
+   "meaning": "আইসক্রিম",
+   "sound": "আই",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "I! I for Ice cream!"
+    },
+    {
+     "v": "bn",
+     "t": "I বলে আই, আই — Ice cream! Ice cream মানে আইসক্রিম। এবার দেখো, I কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-3/s01.mp3",
+   "frames": 464,
+   "voAt": 14,
+   "voFrames": 426
+  },
+  {
+   "type": "letter",
+   "letter": "J",
+   "small": "j",
+   "pic": "🧃",
+   "word": "Juice",
+   "meaning": "জুস",
+   "sound": "জ্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "J! J for Juice!"
+    },
+    {
+     "v": "bn",
+     "t": "J বলে জ্, জ্ — Juice! Juice মানে জুস। এবার দেখো, J কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-3/s02.mp3",
+   "frames": 457,
+   "voAt": 14,
+   "voFrames": 419
+  },
+  {
+   "type": "letter",
+   "letter": "K",
+   "small": "k",
+   "pic": "🪁",
+   "word": "Kite",
+   "meaning": "ঘুড়ি",
+   "sound": "ক্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "K! K for Kite!"
+    },
+    {
+     "v": "bn",
+     "t": "K বলে ক্, ক্ — Kite! Kite মানে ঘুড়ি। এবার দেখো, K কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-3/s03.mp3",
+   "frames": 423,
+   "voAt": 14,
+   "voFrames": 385
+  },
+  {
+   "type": "letter",
+   "letter": "L",
+   "small": "l",
+   "pic": "🦁",
+   "word": "Lion",
+   "meaning": "সিংহ",
+   "sound": "ল্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "L! L for Lion!"
+    },
+    {
+     "v": "bn",
+     "t": "L বলে ল্, ল্ — Lion! Lion মানে সিংহ। এবার দেখো, L কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-3/s04.mp3",
+   "frames": 447,
+   "voAt": 14,
+   "voFrames": 409
+  },
+  {
+   "type": "recap",
+   "letters": [
+    "I",
+    "J",
+    "K",
+    "L"
+   ],
+   "pics": [
+    "🍦",
+    "🧃",
+    "🪁",
+    "🦁"
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার আমার সাথে জোরে জোরে বলো!"
+    },
+    {
+     "v": "en",
+     "t": "I for Ice cream! J for Juice! K for Kite! L for Lion!"
+    }
+   ],
+   "audio": "kids/abc-3/s05.mp3",
+   "frames": 342,
+   "voAt": 14,
+   "voFrames": 304
+  },
+  {
+   "type": "quiz",
+   "q": "Ice cream শুরু হয় কোন অক্ষরে?",
+   "pic": "🍦",
+   "options": [
+    "S",
+    "I",
+    "F"
+   ],
+   "answer": 1,
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার একটা ধাঁধা! বলো তো — Ice cream শুরু হয় কোন অক্ষরে?"
+    }
+   ],
+   "voA": [
+    {
+     "v": "bn",
+     "t": "ঠিক বলেছ!"
+    },
+    {
+     "v": "en",
+     "t": "I for Ice cream!"
+    }
+   ],
+   "audio": "kids/abc-3/s06.mp3",
+   "audioA": "kids/abc-3/s06-a.mp3",
+   "think": 90,
+   "aAt": 241,
+   "frames": 366,
+   "voAt": 14,
+   "voFrames": 137
+  },
+  {
+   "type": "next",
+   "steps": [
+    [
+     "👆",
+     "শুনে বাটনে চাপ দাও"
+    ],
+    [
+     "✏️",
+     "আঙুলে অক্ষর আঁকো"
+    ],
+    [
+     "🎮",
+     "ছবি মেলাও"
+    ],
+    [
+     "🎨",
+     "রং করো"
+    ]
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "ভিডিও শেষ! এবার নিচে চলো। প্রথমে শুনে ঠিক অক্ষরের বাটনে চাপ দেবে। তারপর আঙুল দিয়ে অক্ষর আঁকবে। এরপর ছবি মেলানোর খেলা। আর শেষে রং-খেলার মাঠে নিজের মতো রং করবে। চলো, নিচে যাই!"
+    }
+   ],
+   "audio": "kids/abc-3/s07.mp3",
+   "frames": 533,
+   "voAt": 14,
+   "voFrames": 495
+  }
+ ],
+ "total": 3315
+}

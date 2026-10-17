@@ -28,6 +28,7 @@ import { DataReel, REELS as DATA_REELS } from "./investigation/DataReel";
 import { InfoMotion, IM_REELS, imLen } from "./infomotion/InfoMotion";
 import { RonaldoBan, RONALDO_LEN } from "./news/stories/RonaldoBan";
 import { Gambling, GAMBLING_LEN } from "./investigation/Gambling";
+import { BarFilm, BARFILM_LEN } from "./investigation/BarFilm";
 import { Doc, FILM_LIST, filmLen } from "./docs/DocEngine";
 import { Explainer, TOPIC_LIST, topicLen } from "./overnight/Explainer";
 import { AvatarTech, avTotal } from "./avatar/AvatarTech";
@@ -134,6 +135,7 @@ export const Root = () => (
     <Composition id="InvHoneyTrap" component={HoneyTrap} durationInFrames={HT_LEN} fps={30} width={1920} height={1080} />
     <Composition id="NewsGulshanRaid" component={GulshanRaid} durationInFrames={GULSHAN_LEN} fps={30} width={1920} height={1080} />
     <Composition id="NewsRonaldoBan" component={RonaldoBan} durationInFrames={RONALDO_LEN} fps={30} width={1920} height={1080} />
+    <Composition id="InvBarFilm" component={BarFilm} durationInFrames={BARFILM_LEN} fps={30} width={1920} height={1080} />
     <Composition id="InvGambling" component={Gambling} durationInFrames={GAMBLING_LEN} fps={30} width={1920} height={1080} />
     {FILM_LIST.map((f) => <Composition key={f.id} id={`Doc-${f.id}`} component={Doc} defaultProps={{ id: f.id }} durationInFrames={filmLen(f)} fps={30} width={1920} height={1080} />)}
     {TOPIC_LIST.map((t) => <Composition key={t.id} id={`Ov-${t.id}`} component={Explainer} defaultProps={{ id: t.id }} durationInFrames={topicLen(t)} fps={30} width={1920} height={1080} />)}

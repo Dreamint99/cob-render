@@ -1,0 +1,213 @@
+{
+ "id": "abc-4",
+ "title": "M N O P",
+ "sub": "ABC বন্ধু · পাঠ ৪",
+ "color": "#4D7CFE",
+ "script": "latin",
+ "scenes": [
+  {
+   "type": "intro",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "হ্যালো বন্ধুরা! আবার এসেছি আমি টুনটুনি! আজকের অক্ষর — M, N, O, P! চলো!"
+    }
+   ],
+   "audio": "kids/abc-4/s00.mp3",
+   "frames": 303,
+   "voAt": 14,
+   "voFrames": 265
+  },
+  {
+   "type": "letter",
+   "letter": "M",
+   "small": "m",
+   "pic": "🌙",
+   "word": "Moon",
+   "meaning": "চাঁদ",
+   "sound": "ম্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "M! M for Moon!"
+    },
+    {
+     "v": "bn",
+     "t": "M বলে ম্, ম্ — Moon! Moon মানে চাঁদ। এবার দেখো, M কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-4/s01.mp3",
+   "frames": 440,
+   "voAt": 14,
+   "voFrames": 402
+  },
+  {
+   "type": "letter",
+   "letter": "N",
+   "small": "n",
+   "pic": "👃",
+   "word": "Nose",
+   "meaning": "নাক",
+   "sound": "ন্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "N! N for Nose!"
+    },
+    {
+     "v": "bn",
+     "t": "N বলে ন্, ন্ — Nose! Nose মানে নাক। এবার দেখো, N কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-4/s02.mp3",
+   "frames": 450,
+   "voAt": 14,
+   "voFrames": 412
+  },
+  {
+   "type": "letter",
+   "letter": "O",
+   "small": "o",
+   "pic": "🍊",
+   "word": "Orange",
+   "meaning": "কমলা",
+   "sound": "অ",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "O! O for Orange!"
+    },
+    {
+     "v": "bn",
+     "t": "O বলে অ, অ — Orange! Orange মানে কমলা। এবার দেখো, O কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-4/s03.mp3",
+   "frames": 423,
+   "voAt": 14,
+   "voFrames": 385
+  },
+  {
+   "type": "letter",
+   "letter": "P",
+   "small": "p",
+   "pic": "🦜",
+   "word": "Parrot",
+   "meaning": "টিয়া পাখি",
+   "sound": "প্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "P! P for Parrot!"
+    },
+    {
+     "v": "bn",
+     "t": "P বলে প্, প্ — Parrot! Parrot মানে টিয়া পাখি। এবার দেখো, P কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-4/s04.mp3",
+   "frames": 438,
+   "voAt": 14,
+   "voFrames": 400
+  },
+  {
+   "type": "recap",
+   "letters": [
+    "M",
+    "N",
+    "O",
+    "P"
+   ],
+   "pics": [
+    "🌙",
+    "👃",
+    "🍊",
+    "🦜"
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার আমার সাথে জোরে জোরে বলো!"
+    },
+    {
+     "v": "en",
+     "t": "M for Moon! N for Nose! O for Orange! P for Parrot!"
+    }
+   ],
+   "audio": "kids/abc-4/s05.mp3",
+   "frames": 330,
+   "voAt": 14,
+   "voFrames": 292
+  },
+  {
+   "type": "quiz",
+   "q": "Moon শুরু হয় কোন অক্ষরে?",
+   "pic": "🌙",
+   "options": [
+    "V",
+    "C",
+    "M"
+   ],
+   "answer": 2,
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার একটা ধাঁধা! বলো তো — Moon শুরু হয় কোন অক্ষরে?"
+    }
+   ],
+   "voA": [
+    {
+     "v": "bn",
+     "t": "ঠিক বলেছ!"
+    },
+    {
+     "v": "en",
+     "t": "M for Moon!"
+    }
+   ],
+   "audio": "kids/abc-4/s06.mp3",
+   "audioA": "kids/abc-4/s06-a.mp3",
+   "think": 90,
+   "aAt": 241,
+   "frames": 366,
+   "voAt": 14,
+   "voFrames": 137
+  },
+  {
+   "type": "next",
+   "steps": [
+    [
+     "👆",
+     "শুনে বাটনে চাপ দাও"
+    ],
+    [
+     "✏️",
+     "আঙুলে অক্ষর আঁকো"
+    ],
+    [
+     "🎮",
+     "ছবি মেলাও"
+    ],
+    [
+     "🎨",
+     "রং করো"
+    ]
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "ভিডিও শেষ! এবার নিচে চলো। প্রথমে শুনে ঠিক অক্ষরের বাটনে চাপ দেবে। তারপর আঙুল দিয়ে অক্ষর আঁকবে। এরপর ছবি মেলানোর খেলা। আর শেষে রং-খেলার মাঠে নিজের মতো রং করবে। চলো, নিচে যাই!"
+    }
+   ],
+   "audio": "kids/abc-4/s07.mp3",
+   "frames": 528,
+   "voAt": 14,
+   "voFrames": 490
+  }
+ ],
+ "total": 3278
+}

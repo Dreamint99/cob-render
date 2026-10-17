@@ -1,0 +1,213 @@
+{
+ "id": "abc-6",
+ "title": "U V W X",
+ "sub": "ABC বন্ধু · পাঠ ৬",
+ "color": "#4D7CFE",
+ "script": "latin",
+ "scenes": [
+  {
+   "type": "intro",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "হ্যালো বন্ধুরা! আবার এসেছি আমি টুনটুনি! আজকের অক্ষর — U, V, W, X! চলো!"
+    }
+   ],
+   "audio": "kids/abc-6/s00.mp3",
+   "frames": 298,
+   "voAt": 14,
+   "voFrames": 260
+  },
+  {
+   "type": "letter",
+   "letter": "U",
+   "small": "u",
+   "pic": "☂️",
+   "word": "Umbrella",
+   "meaning": "ছাতা",
+   "sound": "আ",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "U! U for Umbrella!"
+    },
+    {
+     "v": "bn",
+     "t": "U বলে আ, আ — Umbrella! Umbrella মানে ছাতা। এবার দেখো, U কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-6/s01.mp3",
+   "frames": 440,
+   "voAt": 14,
+   "voFrames": 402
+  },
+  {
+   "type": "letter",
+   "letter": "V",
+   "small": "v",
+   "pic": "🚐",
+   "word": "Van",
+   "meaning": "ভ্যান",
+   "sound": "ভ্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "V! V for Van!"
+    },
+    {
+     "v": "bn",
+     "t": "V বলে ভ্, ভ্ — Van! Van মানে ভ্যান। এবার দেখো, V কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-6/s02.mp3",
+   "frames": 454,
+   "voAt": 14,
+   "voFrames": 416
+  },
+  {
+   "type": "letter",
+   "letter": "W",
+   "small": "w",
+   "pic": "⌚",
+   "word": "Watch",
+   "meaning": "হাতঘড়ি",
+   "sound": "উ",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "W! W for Watch!"
+    },
+    {
+     "v": "bn",
+     "t": "W বলে উ, উ — Watch! Watch মানে হাতঘড়ি। এবার দেখো, W কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-6/s03.mp3",
+   "frames": 464,
+   "voAt": 14,
+   "voFrames": 426
+  },
+  {
+   "type": "letter",
+   "letter": "X",
+   "small": "x",
+   "pic": "svg:xylo",
+   "word": "Xylophone",
+   "meaning": "জাইলোফোন বাজনা",
+   "sound": "জ্",
+   "draw": true,
+   "vo": [
+    {
+     "v": "en",
+     "t": "X! X for Xylophone!"
+    },
+    {
+     "v": "bn",
+     "t": "X বলে জ্, জ্ — Xylophone! Xylophone মানে জাইলোফোন বাজনা। এবার দেখো, X কীভাবে লিখি — পেনসিল চলছে, ধীরে ধীরে!"
+    }
+   ],
+   "audio": "kids/abc-6/s04.mp3",
+   "frames": 483,
+   "voAt": 14,
+   "voFrames": 445
+  },
+  {
+   "type": "recap",
+   "letters": [
+    "U",
+    "V",
+    "W",
+    "X"
+   ],
+   "pics": [
+    "☂️",
+    "🚐",
+    "⌚",
+    "🎵"
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার আমার সাথে জোরে জোরে বলো!"
+    },
+    {
+     "v": "en",
+     "t": "U for Umbrella! V for Van! W for Watch! X for Xylophone!"
+    }
+   ],
+   "audio": "kids/abc-6/s05.mp3",
+   "frames": 358,
+   "voAt": 14,
+   "voFrames": 320
+  },
+  {
+   "type": "quiz",
+   "q": "Umbrella শুরু হয় কোন অক্ষরে?",
+   "pic": "☂️",
+   "options": [
+    "Y",
+    "A",
+    "U"
+   ],
+   "answer": 2,
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার একটা ধাঁধা! বলো তো — Umbrella শুরু হয় কোন অক্ষরে?"
+    }
+   ],
+   "voA": [
+    {
+     "v": "bn",
+     "t": "ঠিক বলেছ!"
+    },
+    {
+     "v": "en",
+     "t": "U for Umbrella!"
+    }
+   ],
+   "audio": "kids/abc-6/s06.mp3",
+   "audioA": "kids/abc-6/s06-a.mp3",
+   "think": 90,
+   "aAt": 249,
+   "frames": 376,
+   "voAt": 14,
+   "voFrames": 145
+  },
+  {
+   "type": "next",
+   "steps": [
+    [
+     "👆",
+     "শুনে বাটনে চাপ দাও"
+    ],
+    [
+     "✏️",
+     "আঙুলে অক্ষর আঁকো"
+    ],
+    [
+     "🎮",
+     "ছবি মেলাও"
+    ],
+    [
+     "🎨",
+     "রং করো"
+    ]
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "ভিডিও শেষ! এবার নিচে চলো। প্রথমে শুনে ঠিক অক্ষরের বাটনে চাপ দেবে। তারপর আঙুল দিয়ে অক্ষর আঁকবে। এরপর ছবি মেলানোর খেলা। আর শেষে রং-খেলার মাঠে নিজের মতো রং করবে। চলো, নিচে যাই!"
+    }
+   ],
+   "audio": "kids/abc-6/s07.mp3",
+   "frames": 516,
+   "voAt": 14,
+   "voFrames": 478
+  }
+ ],
+ "total": 3389
+}
