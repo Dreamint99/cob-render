@@ -1,5 +1,6 @@
 import { HeadsVideo, headsLen } from "./heads/HeadsEngine";
 import { Composition } from "remotion";
+import { SoulmateReel, SM_TOTAL } from "./soulmate/SoulmateReel";
 import { TestCard } from "./TestCard";
 import { EralBeel, BEEL_TOTAL } from "./EralBeel";
 import { EralBeel2, BEEL2_TOTAL, FPS2 } from "./EralBeel2";
@@ -91,6 +92,7 @@ import pkKala from "./pocket/kala-bhuna.json";
 import pkFraud from "./pocket/mobile-fraud.json";
 import pkGas from "./pocket/gas-safety.json";
 import pkDengue from "./pocket/dengue.json";
+import { AIU3Comps } from "./aiu3/CloudRoot";
 const POCKETS = [pkSaree, pkKala, pkFraud, pkGas, pkDengue] as unknown as KSpec[];
 // Register each new video here.
 export const Root = () => (
@@ -103,6 +105,7 @@ export const Root = () => (
     <Composition id="P3-gds" component={GdsBoard} defaultProps={{ spec: p3gds as unknown as P3Spec, durs: p3gdsD }} durationInFrames={p3Len(p3gdsD)} fps={30} width={1920} height={1080} />
     <Composition id="P3-english" component={EnglishChat} defaultProps={{ spec: p3en as unknown as P3Spec, durs: p3enD }} durationInFrames={p3Len(p3enD)} fps={30} width={1920} height={1080} />
     <Composition id="P3-ielts" component={IeltsPhone} defaultProps={{ spec: p3ielts as unknown as P3Spec, durs: p3ieltsD }} durationInFrames={p3Len(p3ieltsD)} fps={30} width={1920} height={1080} />
+    <AIU3Comps />
     <Composition id="AIUPromo2" component={AIUPromo2} durationInFrames={AIU2_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="AIUPromo" component={AIUPromo} durationInFrames={AIU_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="TestCard" component={TestCard} durationInFrames={90} fps={30} width={1920} height={1080} />
@@ -143,6 +146,7 @@ export const Root = () => (
     <Composition id="HeadsReel" component={HeadsVideo} defaultProps={{ id: "heads" as const }} durationInFrames={headsLen("heads")} fps={30} width={1080} height={1920} />
     <Composition id="HeadsSerbia" component={HeadsVideo} defaultProps={{ id: "serbia" as const }} durationInFrames={headsLen("serbia")} fps={30} width={1920} height={1080} />
     <Composition id="HeadsSerbiaReel" component={HeadsVideo} defaultProps={{ id: "serbia" as const }} durationInFrames={headsLen("serbia")} fps={30} width={1080} height={1920} />
+    <Composition id="SoulmateReel" component={SoulmateReel} durationInFrames={SM_TOTAL} fps={30} width={1080} height={1920} />
     <Composition id="AvatarTech" component={AvatarTech} durationInFrames={avTotal} fps={30} width={1920} height={1080} />
   </>
 );

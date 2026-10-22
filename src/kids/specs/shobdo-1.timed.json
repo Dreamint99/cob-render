@@ -1,0 +1,256 @@
+{
+ "id": "shobdo-1",
+ "title": "মজার ফল",
+ "sub": "শব্দের ঝুলি · পাঠ ১",
+ "color": "#FF6B8B",
+ "script": "bangla",
+ "scenes": [
+  {
+   "type": "intro",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "হ্যালো বন্ধুরা! আমি টুনটুনি! আজ শব্দের ঝুলি থেকে বের হবে মজার মজার ফল — বাংলা আর ইংরেজি নাম শিখব!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s00.mp3",
+   "partFrames": [
+    262
+   ],
+   "frames": 305,
+   "voAt": 14,
+   "voFrames": 267
+  },
+  {
+   "type": "letter",
+   "letter": "আ",
+   "pic": "🥭",
+   "word": "Mango",
+   "meaning": "আম",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এটা কী বলো তো? আম! আ-তে আম। পাকা আম কী মিষ্টি! ইংরেজিতে বলে —"
+    },
+    {
+     "v": "en",
+     "t": "Mango!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s01.mp3",
+   "partFrames": [
+    238,
+    26
+   ],
+   "frames": 313,
+   "voAt": 14,
+   "voFrames": 275
+  },
+  {
+   "type": "letter",
+   "letter": "ক",
+   "pic": "🍌",
+   "word": "Banana",
+   "meaning": "কলা",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এটা কী বলো তো? কলা! ক-তে কলা। হলুদ রঙের লম্বা কলা! ইংরেজিতে বলে —"
+    },
+    {
+     "v": "en",
+     "t": "Banana!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s02.mp3",
+   "partFrames": [
+    233,
+    26
+   ],
+   "frames": 308,
+   "voAt": 14,
+   "voFrames": 270
+  },
+  {
+   "type": "letter",
+   "letter": "আ",
+   "pic": "🍎",
+   "word": "Apple",
+   "meaning": "আপেল",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এটা কী বলো তো? আপেল! আ-তে আপেল। লাল টুকটুকে আপেল! ইংরেজিতে বলে —"
+    },
+    {
+     "v": "en",
+     "t": "Apple!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s03.mp3",
+   "partFrames": [
+    221,
+    22
+   ],
+   "frames": 291,
+   "voAt": 14,
+   "voFrames": 253
+  },
+  {
+   "type": "letter",
+   "letter": "আ",
+   "pic": "🍇",
+   "word": "Grapes",
+   "meaning": "আঙুর",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এটা কী বলো তো? আঙুর! আ-তে আঙুর। থোকায় থোকায় আঙুর! ইংরেজিতে বলে —"
+    },
+    {
+     "v": "en",
+     "t": "Grapes!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s04.mp3",
+   "partFrames": [
+    228,
+    29
+   ],
+   "frames": 306,
+   "voAt": 14,
+   "voFrames": 268
+  },
+  {
+   "type": "letter",
+   "letter": "ত",
+   "pic": "🍉",
+   "word": "Watermelon",
+   "meaning": "তরমুজ",
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এটা কী বলো তো? তরমুজ! ত-তে তরমুজ। বাইরে সবুজ, ভেতরে লাল তরমুজ! ইংরেজিতে বলে —"
+    },
+    {
+     "v": "en",
+     "t": "Watermelon!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s05.mp3",
+   "partFrames": [
+    274,
+    31
+   ],
+   "frames": 354,
+   "voAt": 14,
+   "voFrames": 316
+  },
+  {
+   "type": "recap",
+   "letters": [
+    "আ",
+    "ক",
+    "আ",
+    "আ",
+    "ত"
+   ],
+   "pics": [
+    "🥭",
+    "🍌",
+    "🍎",
+    "🍇",
+    "🍉"
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার আমার সাথে বলো! আম, কলা, আপেল, আঙুর, তরমুজ!"
+    },
+    {
+     "v": "en",
+     "t": "Mango! Banana! Apple! Grapes! Watermelon!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s06.mp3",
+   "partFrames": [
+    182,
+    154
+   ],
+   "frames": 385,
+   "voAt": 14,
+   "voFrames": 347
+  },
+  {
+   "type": "quiz",
+   "q": "কমলা কোনটা?",
+   "options": [
+    "🍉",
+    "🍊",
+    "🍇"
+   ],
+   "answer": 1,
+   "vo": [
+    {
+     "v": "bn",
+     "t": "এবার ধাঁধা! আরেকটা নতুন ছবি আছে। বলো তো — কমলা কোনটা?"
+    }
+   ],
+   "voA": [
+    {
+     "v": "bn",
+     "t": "ঠিক বলেছ! কমলা — ইংরেজিতে"
+    },
+    {
+     "v": "en",
+     "t": "Orange!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s07.mp3",
+   "partFrames": [
+    156
+   ],
+   "audioA": "kids/shobdo-1/s07-a.mp3",
+   "think": 90,
+   "aAt": 265,
+   "frames": 421,
+   "voAt": 14,
+   "voFrames": 161
+  },
+  {
+   "type": "next",
+   "steps": [
+    [
+     "👆",
+     "টোকা দিয়ে শোনো"
+    ],
+    [
+     "👂",
+     "শুনে ছবি ধরো"
+    ],
+    [
+     "🔤",
+     "ইংরেজি শুনে ধরো"
+    ],
+    [
+     "⭐",
+     "তারা জেতো"
+    ]
+   ],
+   "vo": [
+    {
+     "v": "bn",
+     "t": "ভিডিও শেষ! এবার নিচে চলো। প্রথমে ছয়টা ছবিতে টোকা দাও — বাংলা নাম শুনবে, তারপর ইংরেজিটাও। এরপর শব্দ শুনে ঠিক ছবি ধরো। শেষে ইংরেজি শব্দ শুনেও ধরতে হবে। সব ঠিক হলে তারা জিতবে!"
+    }
+   ],
+   "audio": "kids/shobdo-1/s08.mp3",
+   "partFrames": [
+    461
+   ],
+   "frames": 504,
+   "voAt": 14,
+   "voFrames": 466
+  }
+ ],
+ "total": 3187
+}

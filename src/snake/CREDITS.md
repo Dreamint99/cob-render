@@ -1,0 +1,22 @@
+# Snake photos — credits (Wikimedia Commons, free licences)
+
+| key | species | author | licence | source |
+|---|---|---|---|---|
+| monocled-cobra | পদ্ম গোখরা — *Naja kaouthia* | Oxus4 | CC BY-SA 4.0 | [File:N. kaouthia hoodmark.jpg](https://commons.wikimedia.org/wiki/File:N._kaouthia_hoodmark.jpg) |
+| spectacled-cobra | খৈয়া গোখরা — *Naja naja* | Dr. Raju Kasambe | CC BY-SA 4.0 | [File:Indian Cobra Naja naja by Dr Raju Kasambe DSCN4991 (17).jpg](https://commons.wikimedia.org/wiki/File:Indian_Cobra_Naja_naja_by_Dr_Raju_Kasambe_DSCN4991_(17).jpg) |
+| king-cobra | রাজ গোখরা (শঙ্খচূড়) — *Ophiophagus hannah* | Max Tibby | CC0 | [File:Ophiophagus hannah 381373252.jpg](https://commons.wikimedia.org/wiki/File:Ophiophagus_hannah_381373252.jpg) |
+| common-krait | পাতি কালাচ — *Bungarus caeruleus* | Manoj Karingamadathil, User:Manojk | CC BY-SA 4.0 | [File:Bungarus caeruleus 157751749.jpg](https://commons.wikimedia.org/wiki/File:Bungarus_caeruleus_157751749.jpg) |
+| banded-krait | শঙ্খিনী — *Bungarus fasciatus* | tontantravel | CC BY-SA 2.0 | [File:Banded Krait, Bungarus fasciatus (24025894235).jpg](https://commons.wikimedia.org/wiki/File:Banded_Krait,_Bungarus_fasciatus_(24025894235).jpg) |
+| black-krait | কালো কালাচ — *Bungarus niger* | lovelymon lamin | CC0 | [File:Bungarus niger 81415397.jpg](https://commons.wikimedia.org/wiki/File:Bungarus_niger_81415397.jpg) |
+| russells-viper | চন্দ্রবোড়া — *Daboia russelii* | AChawla | CC BY-SA 3.0 | [File:Daboia russelii A Chawla01.jpg](https://commons.wikimedia.org/wiki/File:Daboia_russelii_A_Chawla01.jpg) |
+| pit-viper | সবুজ বোড়া — *Trimeresurus erythrurus* | Tisha Mukherjee | CC BY-SA 4.0 | [File:Red-tailed bamboo pit viper in Sundarbans National Park October 2025 by Tisha Mukherjee 11.jpg](https://commons.wikimedia.org/wiki/File:Red-tailed_bamboo_pit_viper_in_Sundarbans_National_Park_October_2025_by_Tisha_Mukherjee_11.jpg) |
+| sea-snake | সামুদ্রিক সাপ — *Hydrophis schistosus* | Shaunak Modi | CC BY 4.0 | [File:Hydrophis schistosus by Shaunak Modi, iNaturalist.jpg](https://commons.wikimedia.org/wiki/File:Hydrophis_schistosus_by_Shaunak_Modi,_iNaturalist.jpg) |
+| rat-snake | দাঁড়াশ — *Ptyas mucosa* | Tisha Mukherjee | CC BY-SA 4.0 | [File:Oriental rat snake in Rabindra Sarobar April 2024 by Tisha Mukherjee 01.jpg](https://commons.wikimedia.org/wiki/File:Oriental_rat_snake_in_Rabindra_Sarobar_April_2024_by_Tisha_Mukherjee_01.jpg) |
+| rat-snake-combat | দুই দাঁড়াশের লড়াই — *Ptyas mucosa* | Augustus Binu : flickr | CC BY-SA 3.0 | [File:Indian Rat Snake (Grey and Yellow).jpg](https://commons.wikimedia.org/wiki/File:Indian_Rat_Snake_(Grey_and_Yellow).jpg) |
+| keelback | ঢোঁড়া — *Fowlea piscator* | Dr. Raju Kasambe | CC BY-SA 4.0 | [File:Checkered Keelback Xenochrophis piscator Schneider, 1799 Assam by Dr Raju Kasambe DSC 0477 (2).JPG](https://commons.wikimedia.org/wiki/File:Checkered_Keelback_Xenochrophis_piscator_Schneider,_1799_Assam_by_Dr_Raju_Kasambe_DSC_0477_(2).JPG) |
+| keelback-swim | পানিতে ঢোঁড়া — *Fowlea piscator* | Charles J. Sharp | CC BY-SA 4.0 | [File:Checkered keelback (Xenochrophis piscator) swimming.jpg](https://commons.wikimedia.org/wiki/File:Checkered_keelback_(Xenochrophis_piscator)_swimming.jpg) |
+| buff-striped | ডোরা বা মেটে সাপ — *Amphiesma stolatum* | Dr. Raju Kasambe | CC BY-SA 4.0 | [File:Buff-striped Keelback Amphiesma stolatum by Dr Raju Kasambe DSCN0502 (4).jpg](https://commons.wikimedia.org/wiki/File:Buff-striped_Keelback_Amphiesma_stolatum_by_Dr_Raju_Kasambe_DSCN0502_(4).jpg) |
+| wolf-snake | ঘরগিন্নি — *Lycodon aulicus* | Dr. Raju Kasambe | CC BY-SA 4.0 | [File:Common Wolf Snake Lycodon aulicus (Linnaeus, 1758) DSCN0389 01.jpg](https://commons.wikimedia.org/wiki/File:Common_Wolf_Snake_Lycodon_aulicus_(Linnaeus,_1758)_DSCN0389_01.jpg) |
+| python | অজগর — *Python bivittatus* | Shadow Ayush | CC BY-SA 4.0 | [File:Burmese Python photographed at Bardiya National Park2.jpg](https://commons.wikimedia.org/wiki/File:Burmese_Python_photographed_at_Bardiya_National_Park2.jpg) |
+| bronzeback | গেছো সাপ — *Dendrelaphis tristis* | Dinesh Valke from Thane, India | CC BY-SA 2.0 | [File:Dendrelaphis tristis (4194698355).jpg](https://commons.wikimedia.org/wiki/File:Dendrelaphis_tristis_(4194698355).jpg) |
+| vine-snake | লাউডগা — *Ahaetulla sp.* | Uajith | CC BY-SA 3.0 | [File:Green Vine snake-Wynaad.jpg](https://commons.wikimedia.org/wiki/File:Green_Vine_snake-Wynaad.jpg) |

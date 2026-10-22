@@ -45,7 +45,7 @@ const PicSvg: React.FC<{ k: string; size: number }> = ({ k, size }) => {
 };
 
 // ── আকাশ, সূর্য, মেঘ, পাহাড় ──
-const Sky: React.FC = () => {
+export const Sky: React.FC = () => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{ background: "linear-gradient(180deg,#7CC8FF 0%,#B9E3FF 55%,#E6F6FF 100%)" }}>
@@ -68,7 +68,7 @@ const Sky: React.FC = () => {
 };
 
 // ── টুনটুনি (কথা বলার সময় ঠোঁট নড়ে) ──
-const Tuni: React.FC<{ size: number; talking: boolean; x: number; y: number }> = ({ size, talking, x, y }) => {
+export const Tuni: React.FC<{ size: number; talking: boolean; x: number; y: number }> = ({ size, talking, x, y }) => {
   const f = useCurrentFrame();
   const bob = Math.sin(f / 9) * 8, wing = Math.sin(f / 4) * 14, tail = Math.sin(f / 12) * 6;
   const beak = talking ? Math.abs(Math.sin(f / 2.6)) * 9 : 0;
@@ -89,7 +89,7 @@ const Tuni: React.FC<{ size: number; talking: boolean; x: number; y: number }> =
   );
 };
 
-const Confetti: React.FC<{ from: number; seed: string }> = ({ from, seed }) => {
+export const Confetti: React.FC<{ from: number; seed: string }> = ({ from, seed }) => {
   const f = useCurrentFrame() - from;
   if (f < 0) return null;
   const C = ["#FF6B6B", "#FFC93C", "#4D7CFE", "#22B573", "#9B5DE5", "#FF9F1C"];
