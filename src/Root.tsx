@@ -1,5 +1,6 @@
 import { HeadsVideo, headsLen } from "./heads/HeadsEngine";
 import { Composition } from "remotion";
+import { FifaMatch, FIFA_LEN } from "./fifa/FifaMatch";
 import { SoulmateReel, SM_TOTAL } from "./soulmate/SoulmateReel";
 import { TestCard } from "./TestCard";
 import { EralBeel, BEEL_TOTAL } from "./EralBeel";
@@ -147,6 +148,7 @@ export const Root = () => (
     <Composition id="HeadsSerbia" component={HeadsVideo} defaultProps={{ id: "serbia" as const }} durationInFrames={headsLen("serbia")} fps={30} width={1920} height={1080} />
     <Composition id="HeadsSerbiaReel" component={HeadsVideo} defaultProps={{ id: "serbia" as const }} durationInFrames={headsLen("serbia")} fps={30} width={1080} height={1920} />
     <Composition id="SoulmateReel" component={SoulmateReel} durationInFrames={SM_TOTAL} fps={30} width={1080} height={1920} />
+    <Composition id="FifaMatch" component={FifaMatch} durationInFrames={FIFA_LEN} fps={30} width={1920} height={1080} />
     <Composition id="AvatarTech" component={AvatarTech} durationInFrames={avTotal} fps={30} width={1920} height={1080} />
   </>
 );
