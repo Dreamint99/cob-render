@@ -51,6 +51,7 @@ const Bubble: React.FC<{ b: Beat; v: boolean; side: "l" | "r"; max?: number }> =
     {b.bn && <div style={{ fontFamily: BN, fontSize: v ? 34 : 30, fontWeight: 600, color: "#4A5280" }}>{b.bn}</div>}
   </div></Pop>;
 };
+// (reel: the top logo is hidden over the factory scenes, where the 안전제일 banner sits)
 // the lesson worlds are drawn for 1920x1080; in the reel they are scaled to cover the full 1920 px height (sides cropped)
 const World: React.FC<{ name?: string; v: boolean; z: number }> = ({ name, v, z }) => {
   const W = WORLDS[name || "work"] || WORLDS.work; const k = v ? 1920 / 1080 : 1;
@@ -80,7 +81,7 @@ const SMoment: React.FC<SP> = ({ s, v }) => {
         <Anime look={LOOK[partner]} size={size} a={talk(s, f, partner)} mood={!lost && f > last.b ? "happy" : "calm"} />
         <div style={{ marginTop: 8, display: "inline-block", padding: "6px 20px", borderRadius: 20, background: C.ink, fontFamily: BN, fontSize: 30, fontWeight: 800, color: "#fff" }}>{NAME[partner]}</div>
       </div>
-      {cur && f < cur.b + 24 && <div style={{ position: "absolute", left: 0, right: 0, top: v ? 300 : 120, display: "flex", justifyContent: "center" }}>
+      {cur && f < cur.b + 24 && <div style={{ position: "absolute", left: 0, right: 0, top: v ? 420 : 215, display: "flex", justifyContent: "center" }}>
         {lost ? <div style={{ position: "relative" }}><Bubble b={cur} v={v} side={cur.who === "M" ? "l" : "r"} />
           {f > cur.b - 4 && <div style={{ position: "absolute", inset: 0, borderRadius: 34, background: "rgba(8,11,36,.6)", display: "grid", placeItems: "center", opacity: interpolate(f, [cur.b - 4, cur.b + 6], [0, 1], clamp) }}><span style={{ fontFamily: BN, fontWeight: 800, fontSize: v ? 56 : 52, color: "#fff" }}>…কিছুই বুঝলাম না</span></div>}</div>
           : <Bubble b={cur} v={v} side={cur.who === "M" ? "l" : "r"} />}
@@ -228,7 +229,7 @@ export const KoreanPromo: React.FC<{ spec: PSpec }> = ({ spec }) => {
           {s.type === "price" && <Sequence from={Math.round((s.beats.find((b) => b.t)!.a) + s.beats.find((b) => b.t)!.frames * 0.42)} durationInFrames={60}><Audio src={staticFile("aiu2/chime.mp3")} volume={0.4} /></Sequence>}
         </Sequence>; })}
       {!v && <Img src={staticFile("brand/logo-dark.png")} style={{ position: "absolute", left: 40, top: 30, height: 46, opacity: 0.9 }} />}
-      {v && spec.scenes[spec.scenes.length - 1].type === "cta" && f < total - spec.scenes[spec.scenes.length - 1].len && <Img src={staticFile("brand/logo-dark.png")} style={{ position: "absolute", left: 0, right: 0, margin: "0 auto", top: 150, height: 64, opacity: 0.95 }} />}
+      {v && spec.scenes[spec.scenes.length - 1].type === "cta" && f < total - spec.scenes[spec.scenes.length - 1].len && !spec.scenes.some((s, i) => s.world && f >= starts[i] && f < starts[i] + s.len) && <Img src={staticFile("brand/logo-dark.png")} style={{ position: "absolute", left: 0, right: 0, margin: "0 auto", top: 150, height: 64, opacity: 0.95 }} />}
       <Audio src={staticFile("aiu2/music.mp3")} volume={(fr) => (speech(fr) ? 0.06 : 0.16) * interpolate(fr, [0, 20, total - 40, total], [0, 1, 1, 0], clamp)} />
     </AbsoluteFill>
   );
