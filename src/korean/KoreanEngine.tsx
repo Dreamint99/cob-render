@@ -836,3 +836,7 @@ export const KoreanVideo: React.FC<{ spec: Spec }> = ({ spec }) => {
     </AbsoluteFill>
   );
 };
+
+// re-exported for the course promo (src/koreanpromo/KoreanPromo.tsx); behaviour unchanged
+export { WORLDS, Studio, KanaKaraoke, Confetti, mix };
+export type { Look };
