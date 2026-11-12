@@ -5,7 +5,7 @@ import { interpolate, useCurrentFrame, useVideoConfig } from "remotion";
 import { Goal, Volleyball, PhoneCall, CalendarX, NotebookPen, Smartphone, CalendarCheck, BarChart3, Clock, Sun, Moon, Wallet, MessageSquareText, QrCode, BellRing, ShieldCheck, CalendarDays, LandPlot, Globe, Megaphone, MonitorSmartphone, Building2, Trophy, CheckCircle2 } from "lucide-react";
 import { Film, Stage, Phone, Tap, Push, Card, IncomeVis, SiteVis, MultiVis, timeline, dOf, total, Biz, Sc, LEAD, INDIGO, INK, MUTED, WHITE, GREEN, AMBER, BKASH, F, LAT, clamp, sp, bn } from "./Qd";
 
-const TURF = "#15803D";
+const TURF = "#2C7A3F";
 
 /* ---------- visuals ---------- */
 const SlotsVis: React.FC<{ dur: number }> = ({ dur }) => {
@@ -80,7 +80,7 @@ export const PayVis: React.FC<{ dur: number; pre?: boolean }> = ({ dur, pre }) =
               <span style={{ fontFamily: F, fontWeight: 600, fontSize: 20, color: GREEN }}>টার্ফের নিজের নামে SMS</span>
             </div>
           </div>
-          <div style={{ background: "#ECFDF3", borderRadius: "6px 22px 22px 22px", padding: "12px 18px", fontFamily: F, fontWeight: 600, fontSize: 24, color: INK, lineHeight: 1.4 }}>
+          <div style={{ background: "#F8F5EE", borderRadius: "6px 22px 22px 22px", padding: "12px 18px", fontFamily: F, fontWeight: 600, fontSize: 24, color: INK, lineHeight: 1.4 }}>
             বুকিং কনফার্ম! কোর্ট A, আজ <b style={{ color: TURF }}>৯:০০–১১:০০ PM</b>। টিকেট: <span style={{ fontFamily: LAT, fontWeight: 700 }}>QT-WB2XX</span>
           </div>
         </div>
@@ -108,7 +108,7 @@ export const ApproveVis: React.FC<{ dur: number }> = ({ dur }) => {
         <div style={{ position: "absolute", left: 45, top: 696, width: 990, height: 466, borderRadius: 50, background: "rgba(22,163,74,.93)", opacity: ok, transform: `scale(${0.9 + 0.1 * ok})`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 18 }}>
           <CheckCircle2 size={130} color="#fff" strokeWidth={2.2} />
           <span style={{ fontFamily: F, fontWeight: 800, fontSize: 70, color: WHITE }}>কনফার্মড!</span>
-          <span style={{ fontFamily: F, fontWeight: 600, fontSize: 44, color: "#DCFCE7" }}>খেলোয়াড়কে SMS চলে গেছে</span>
+          <span style={{ fontFamily: F, fontWeight: 600, fontSize: 44, color: "#F3EEE3" }}>খেলোয়াড়কে SMS চলে গেছে</span>
         </div>
       </Phone>
       <Card x={0} y={170} w={390} d={14} from="l">
@@ -150,14 +150,14 @@ const CalendarVis: React.FC<{ dur: number }> = () => {
       <Card x={0} y={20} w={900} d={2} from="b" style={{ borderRadius: 34, height: 700 }}>
         <div style={{ position: "absolute", left: 30, top: 28, right: 30, display: "flex", gap: 12 }}>
           {days.map((d, i) => (
-            <div key={i} style={{ flex: 1, padding: "10px 0", borderRadius: 18, textAlign: "center", fontFamily: F, fontWeight: 800, fontSize: 26, background: i === 0 ? TURF : "#F1F5F9", color: i === 0 ? WHITE : INK, opacity: sp(f, fps, 4 + i * 3) }}>{i === 0 ? "আজ · " + d.split(" ")[1] : d}</div>
+            <div key={i} style={{ flex: 1, padding: "10px 0", borderRadius: 18, textAlign: "center", fontFamily: F, fontWeight: 800, fontSize: 26, background: i === 0 ? TURF : "#F3EEE3", color: i === 0 ? WHITE : INK, opacity: sp(f, fps, 4 + i * 3) }}>{i === 0 ? "আজ · " + d.split(" ")[1] : d}</div>
           ))}
         </div>
         {courts.map((c, i) => (
           <div key={i} style={{ position: "absolute", left: left + i * colW + 10, top: 106, width: colW - 20, textAlign: "center", fontFamily: F, fontWeight: 800, fontSize: 26, color: INK }}>{c}</div>
         ))}
         {hours.map((h, r) => (
-          <div key={r} style={{ position: "absolute", left: 24, top: top + r * rowH, width: 860, height: rowH, borderTop: "1.5px solid #EEF1F7", fontFamily: LAT, fontWeight: 700, fontSize: 19, color: MUTED, paddingTop: 6 }}>{bn(h)}</div>
+          <div key={r} style={{ position: "absolute", left: 24, top: top + r * rowH, width: 860, height: rowH, borderTop: "1.5px solid #F3EEE3", fontFamily: LAT, fontWeight: 700, fontSize: 19, color: MUTED, paddingTop: 6 }}>{bn(h)}</div>
         ))}
         {blocks.map(([c, r, n, l, col], i) => {
           const s = sp(f, fps, 14 + i * 5, 13);
@@ -178,7 +178,7 @@ const TSite: React.FC<{ dur: number }> = ({ dur }) => (
   <SiteVis dur={dur} q="মিরপুরে টার্ফ বুকিং রাতে" src="shots/tsite.jpg" url="qount.dreamithq.com/kickoff-arena" qr="টার্ফের QR" c1={[Megaphone, "অফার SMS সবাইকে", "✓ ৮৫০ জনকে পাঠানো হলো", TURF]} />
 );
 const TMulti: React.FC<{ dur: number }> = ({ dur }) => (
-  <MultiVis dur={dur} src="shots/t-dash.jpg" ratio={800 / 542} phone="shots/t-home.png" pills={["মিরপুর টার্ফ", "উত্তরা টার্ফ"]} />
+  <MultiVis dur={dur} src="shots/b-dash.png" ratio={1440 / 900} phone="shots/b-owner.png" pills={["মিরপুর টার্ফ", "উত্তরা টার্ফ"]} />
 );
 
 /* ---------- scenes ---------- */
@@ -219,7 +219,7 @@ const TB: Biz = {
   pain: [[PhoneCall, "সারাদিন ফোন", "২০+ বুকিং কল"], [CalendarX, "ডাবল বুকিং", "একই স্লট দুজনকে"], [NotebookPen, "অগ্রিমের হিসাব", "খাতায় গোলমাল"]],
   good: [[Smartphone, "অনলাইন বুকিং", "ফোন লাগে না"], [CalendarCheck, "লাইভ স্লট", "ডাবল বুকিং নেই"], [BarChart3, "অটো হিসাব", "এক নজরে আয়"]],
   goodHead: "পুরো টার্ফ অটোমেশন!",
-  calmIcon: Volleyball, calmHead: "আপনি শুধু মাঠ সামলান", calmHi: ["মাঠ"], first: "বাংলাদেশে আমরাই প্রথম", tagline: "টার্ফ বুকিং এখন অটোমেটিক", endShot: "shots/t-ticket.png",
+  calmIcon: Volleyball, calmHead: "আপনি শুধু মাঠ সামলান", calmHi: ["মাঠ"], first: "বাংলাদেশে আমরাই প্রথম", tagline: "টার্ফ বুকিং এখন অটোমেটিক", endShot: "shots/b-turf.png",
   vis: { slots: SlotsVis, pay: PayVis, approve: ApproveVis, calendar: CalendarVis, income: TIncome, site: TSite, multi: TMulti },
 };
 

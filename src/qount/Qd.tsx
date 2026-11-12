@@ -6,11 +6,12 @@ import React from "react";
 import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing, continueRender, delayRender } from "remotion";
 import { Stethoscope, PhoneCall, Users, NotebookPen, Smartphone, Radio, BarChart3, Check, CheckCircle2, Clock, MessageSquareText, Mail, BellRing, Home, Wallet, Globe, QrCode, CalendarCheck, Search, Building2, MonitorSmartphone, Sparkles, Hand, ShieldCheck } from "lucide-react";
 import DUR from "./durs.json";
+export const sf = (p: string) => staticFile("qp/" + p); // promo assets live in <public>/qp (local: work/qroot, cloud: public/qp)
 
 /* ---------- brand ---------- */
-export const INDIGO = "#4F46E5", INK = "#0F172A", MUTED = "#64748B", BG = "#F6F7FB", WHITE = "#FFFFFF", DOC = "#0369A1", GREEN = "#16A34A", RED = "#E11D48", BKASH = "#E2136E", AMBER = "#D97706";
-export const GRAD = "linear-gradient(100deg,#A5A1FF 0%,#67E8F9 52%,#86EFAC 100%)";
-export const F = "QAnek, 'Noto Sans Bengali', sans-serif", LAT = "QMan, Manrope, sans-serif";
+export const INDIGO = "#A87900", INK = "#1F1A12", MUTED = "#665C4C", BG = "#F8F5EE", WHITE = "#FFFFFF", DOC = "#A87900", GREEN = "#2C7A3F", RED = "#B4261C", TURMERIC = "#F2B300", BKASH = "#E2136E", AMBER = "#D97706";
+export const GRAD = "#F2B300";
+export const F = "QBaloo, 'Baloo Da 2', 'Noto Sans Bengali', sans-serif", LAT = F;
 
 if (typeof document !== "undefined") {
   const load = (fam: string, file: string, w: string) => {
@@ -18,8 +19,7 @@ if (typeof document !== "undefined") {
     const ff = new FontFace(fam, `url(${staticFile("fonts/" + file)})`, { weight: w });
     ff.load().then(() => { document.fonts.add(ff); continueRender(h); }).catch(() => continueRender(h));
   };
-  for (const w of ["500", "600", "700", "800"]) load("QAnek", `AnekBangla-${w}.ttf`, w);
-  for (const w of ["500", "700", "800"]) load("QMan", `Manrope-${w}.ttf`, w);
+  load("QBaloo", "BalooDa2.ttf", "400 800");
 }
 
 export const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
@@ -106,12 +106,12 @@ const Backdrop: React.FC = () => {
   const grid = 56;
   return (
     <AbsoluteFill style={{ background: BG, overflow: "hidden" }}>
-      <div style={{ position: "absolute", width: 1300, height: 1300, borderRadius: "50%", left: W * 0.72 - 650 + drift, top: H * 0.35 - 650, background: "radial-gradient(circle, #A5A1FF55 0%, #A5A1FF00 62%)" }} />
-      <div style={{ position: "absolute", width: 1100, height: 1100, borderRadius: "50%", left: -380 - drift, top: H - 640, background: "radial-gradient(circle, #67E8F944 0%, #67E8F900 62%)" }} />
-      <div style={{ position: "absolute", width: 900, height: 900, borderRadius: "50%", left: W * 0.25 - 450, top: -520 + drift, background: "radial-gradient(circle, #86EFAC40 0%, #86EFAC00 62%)" }} />
+      <div style={{ position: "absolute", width: 1300, height: 1300, borderRadius: "50%", left: W * 0.72 - 650 + drift, top: H * 0.35 - 650, background: "radial-gradient(circle, #F2B30030 0%, #F2B30000 62%)" }} />
+      <div style={{ position: "absolute", width: 1100, height: 1100, borderRadius: "50%", left: -380 - drift, top: H - 640, background: "radial-gradient(circle, #F2B30022 0%, #F2B30000 62%)" }} />
+      <div style={{ position: "absolute", width: 900, height: 900, borderRadius: "50%", left: W * 0.25 - 450, top: -520 + drift, background: "radial-gradient(circle, #ECE6D880 0%, #ECE6D800 62%)" }} />
       <svg width={W} height={H} style={{ position: "absolute", inset: 0, opacity: 0.55 }}>
         {Array.from({ length: Math.ceil(W / grid) + 1 }, (_, i) => Array.from({ length: Math.ceil(H / grid) + 1 }, (_, j) => (
-          <circle key={i + "-" + j} cx={i * grid + ((f * 0.25) % grid)} cy={j * grid} r={1.5} fill="#CBD2EA" />
+          <circle key={i + "-" + j} cx={i * grid + ((f * 0.25) % grid)} cy={j * grid} r={1.5} fill="#E3DCCB" />
         )))}
       </svg>
     </AbsoluteFill>
@@ -120,10 +120,25 @@ const Backdrop: React.FC = () => {
 
 /* ---------- small pieces ---------- */
 export const Logo: React.FC<{ size: number; style?: React.CSSProperties }> = ({ size, style }) => (
-  <div style={{ width: size, height: size, borderRadius: size * 0.27, background: "#0B0B12", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: `0 ${size * 0.12}px ${size * 0.3}px rgba(15,23,42,.28)`, ...style }}>
-    <span style={{ fontFamily: LAT, fontWeight: 800, fontSize: size * 0.66, color: WHITE, lineHeight: 1, marginTop: -size * 0.04 }}>Q</span>
-  </div>
+  <svg width={size} height={size} viewBox="0 0 512 512" style={{ flexShrink: 0, ...style }}>
+    <rect width="512" height="512" rx="116" fill="#F2B300" />
+    {[0, 45, 90, 135, 180, 225, 270, 315].map((r) => <ellipse key={r} cx="256" cy="148" rx="46" ry="86" transform={`rotate(${r} 256 256)`} fill="#1F1A12" />)}
+    <circle cx="256" cy="256" r="40" fill="#F2B300" /><circle cx="256" cy="256" r="18" fill="#1F1A12" />
+  </svg>
 );
+// "qount" wordmark (brand/final/logo.svg letters, no tagline). h = cap-to-descender height in px.
+export const Wordmark: React.FC<{ h: number; color?: string }> = ({ h, color = "#1F1A12" }) => {
+  const st = { fill: "none", stroke: color, strokeWidth: 13, strokeLinecap: "round" as const, strokeLinejoin: "round" as const };
+  return (
+    <svg height={h} width={h * 296 / 98} viewBox="0 8 296 98" style={{ flexShrink: 0 }}>
+      <circle cx="28" cy="52" r="21.5" {...st} /><path d="M49.5 30.5 V101.5" {...st} />
+      {[0, 45, 90, 135, 180, 225, 270, 315].map((r) => <ellipse key={r} cx="92" cy="35.5" rx="8.6" ry="11.5" transform={`rotate(${r} 92 52)`} fill={color} />)}
+      <circle cx="92" cy="52" r="8.5" fill="#F2B300" />
+      <path d="M134.5 30.5 V52 A21.5 21.5 0 0 0 177.5 52" {...st} /><path d="M177.5 30.5 V73.5" {...st} /><path d="M198.5 73.5 V30.5" {...st} />
+      <path d="M198.5 52 A21.5 21.5 0 0 1 241.5 52 V73.5" {...st} /><path d="M268.5 14.5 V62 Q268.5 73.5 284.5 73.5" {...st} /><path d="M262.5 34 H285.5" {...st} />
+    </svg>
+  );
+};
 
 export const Words: React.FC<{ text: string; size: number; d: number; color?: string; hi?: string[]; hiColor?: string; align?: "left" | "center"; weight?: number }> = ({ text, size, d, color = INK, hi = [], hiColor = INDIGO, align = "left", weight = 800 }) => {
   const f = useCurrentFrame();
@@ -144,7 +159,7 @@ export const Chip: React.FC<{ icon: Ic; label: string; color: string; d: number;
   const s = sp(f, fps, d, 12);
   return (
     <div style={{ display: "flex", alignItems: "center", gap: size * 0.4, padding: `${size * 0.24}px ${size * 0.7}px ${size * 0.24}px ${size * 0.24}px`, background: WHITE,
-      boxShadow: "0 10px 28px rgba(15,23,42,.08)", border: "1.5px solid #E5E8F2", borderRadius: 999, transform: `translateY(${(1 - s) * 30}px) scale(${0.85 + 0.15 * s})`, opacity: s }}>
+      boxShadow: "0 10px 28px rgba(31,26,18,.08)", border: "1.5px solid #ECE6D8", borderRadius: 999, transform: `translateY(${(1 - s) * 30}px) scale(${0.85 + 0.15 * s})`, opacity: s }}>
       <div style={{ width: size * 1.55, height: size * 1.55, borderRadius: 999, background: color + "1F", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <I size={size * 0.85} color={color} strokeWidth={2.4} />
       </div>
@@ -172,11 +187,11 @@ export const Phone: React.FC<{ x: number; y: number; h?: number; screens: { src:
   const float = Math.sin((f + d * 3) / 40) * 6;
   return (
     <div style={{ position: "absolute", left: x - w / 2, top: y - h / 2, width: w, height: h, transform: `translateY(${(1 - e) * 260 + float}px) rotate(${tilt + (1 - e) * 6}deg)`, opacity: e }}>
-      <div style={{ position: "absolute", inset: 0, borderRadius: h * 0.075, background: "linear-gradient(145deg,#2b3040,#0c0e15)", boxShadow: "0 40px 90px rgba(15,23,42,.28), 0 0 0 2px #4a5068 inset" }} />
+      <div style={{ position: "absolute", inset: 0, borderRadius: h * 0.075, background: "linear-gradient(145deg,#2b3040,#0c0e15)", boxShadow: "0 40px 90px rgba(31,26,18,.28), 0 0 0 2px #4a5068 inset" }} />
       <div style={{ position: "absolute", left: bez, top: bez, width: sw, height: sh, borderRadius: h * 0.062, overflow: "hidden", background: WHITE }}>
         {screens.map((s, i) => {
           const o = i === 0 ? 1 : interpolate(f, [s.at, s.at + 8], [0, 1], clamp);
-          return <Img key={i} src={staticFile(s.src)} style={{ position: "absolute", inset: 0, width: sw, height: sh, opacity: o }} />;
+          return <Img key={i} src={sf(s.src)} style={{ position: "absolute", inset: 0, width: sw, height: sh, opacity: o }} />;
         })}
         <div style={{ position: "absolute", left: 0, top: 0, width: 1080, height: 2400, transform: `scale(${k})`, transformOrigin: "0 0" }}>{children}</div>
       </div>
@@ -197,7 +212,7 @@ export const Tap: React.FC<{ x: number; y: number; at: number }> = ({ x, y, at }
   return (
     <>
       <div style={{ position: "absolute", left: x - r, top: y - r, width: 2 * r, height: 2 * r, borderRadius: 999, background: INDIGO, opacity: t >= 0 ? o : 0 }} />
-      <div style={{ position: "absolute", left: x - 42, top: y - 42, width: 84, height: 84, borderRadius: 999, background: "rgba(15,23,42,.35)", border: "5px solid rgba(255,255,255,.9)", opacity: app * interpolate(t, [14, 26], [1, 0], clamp), transform: `scale(${press})` }} />
+      <div style={{ position: "absolute", left: x - 42, top: y - 42, width: 84, height: 84, borderRadius: 999, background: "rgba(31,26,18,.35)", border: "5px solid rgba(255,255,255,.9)", opacity: app * interpolate(t, [14, 26], [1, 0], clamp), transform: `scale(${press})` }} />
     </>
   );
 };
@@ -211,10 +226,10 @@ export const Push: React.FC<{ title: string; body: string; at: number; cover?: b
     <>
       {cover && <div style={{ position: "absolute", left: 0, top: 110, width: 1080, height: 250, background: "#ECECEE" }} />}
       <div style={{ position: "absolute", left: 42, top: 150, width: 996, height: 220, borderRadius: 64, background: "#E9E8F2", boxShadow: "0 20px 50px rgba(0,0,0,.18)", transform: `translateY(${(1 - s) * -330}px)`, display: "flex", alignItems: "center", gap: 30, padding: "0 44px" }}>
-        <div style={{ width: 76, height: 76, borderRadius: 99, background: INDIGO, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: LAT, fontWeight: 800, fontSize: 40, color: WHITE }}>Q</div>
+        <Logo size={76} style={{ borderRadius: 99 }} />
         <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
           <div style={{ fontFamily: F, fontWeight: 700, fontSize: 40, color: INK }}>{title} <span style={{ fontFamily: LAT, fontWeight: 500, fontSize: 32, color: MUTED }}>· now</span></div>
-          <div style={{ fontFamily: F, fontWeight: 500, fontSize: 36, color: "#334155" }}>{body}</div>
+          <div style={{ fontFamily: F, fontWeight: 500, fontSize: 36, color: "#3A3122" }}>{body}</div>
         </div>
       </div>
     </>
@@ -227,7 +242,7 @@ export const Card: React.FC<{ x: number; y: number; w: number; d: number; childr
   const s = sp(f, fps, d, 14);
   const dx = from === "r" ? 80 : from === "l" ? -80 : 0, dy = from === "b" ? 80 : 0;
   return (
-    <div style={{ position: "absolute", left: x, top: y, width: w, background: WHITE, borderRadius: 26, border: "1.5px solid #E5E8F2", boxShadow: "0 24px 60px rgba(15,23,42,.12)",
+    <div style={{ position: "absolute", left: x, top: y, width: w, background: WHITE, borderRadius: 26, border: "1.5px solid #ECE6D8", boxShadow: "0 24px 60px rgba(31,26,18,.12)",
       transform: `translate(${(1 - s) * dx}px, ${(1 - s) * dy}px) scale(${0.9 + 0.1 * s})`, opacity: s, ...style }}>{children}</div>
   );
 };
@@ -238,16 +253,16 @@ export const Browser: React.FC<{ x: number; y: number; w: number; src: string; r
   const s = sp(f, fps, d, 15);
   const bar = 44, ih = w / ratio;
   return (
-    <div style={{ position: "absolute", left: x, top: y, width: w, borderRadius: 18, overflow: "hidden", background: WHITE, boxShadow: "0 34px 80px rgba(15,23,42,.2)", border: "1.5px solid #DDE2EE",
+    <div style={{ position: "absolute", left: x, top: y, width: w, borderRadius: 18, overflow: "hidden", background: WHITE, boxShadow: "0 34px 80px rgba(31,26,18,.2)", border: "1.5px solid #ECE6D8",
       transform: `translateY(${(1 - s) * 120}px) scale(${0.92 + 0.08 * s})`, opacity: s }}>
-      <div style={{ height: bar, background: "#EEF1F7", display: "flex", alignItems: "center", gap: 9, padding: "0 16px" }}>
+      <div style={{ height: bar, background: "#F3EEE3", display: "flex", alignItems: "center", gap: 9, padding: "0 16px" }}>
         {["#F87171", "#FBBF24", "#34D399"].map((c) => <div key={c} style={{ width: 13, height: 13, borderRadius: 99, background: c }} />)}
-        <div style={{ marginLeft: 14, flex: 1, height: 28, borderRadius: 99, background: WHITE, display: "flex", alignItems: "center", gap: 8, padding: "0 14px", fontFamily: LAT, fontWeight: 600, fontSize: 16, color: "#475569" }}>
+        <div style={{ marginLeft: 14, flex: 1, height: 28, borderRadius: 99, background: WHITE, display: "flex", alignItems: "center", gap: 8, padding: "0 14px", fontFamily: LAT, fontWeight: 600, fontSize: 16, color: "#665C4C" }}>
           <ShieldCheck size={15} color={GREEN} />{url}
         </div>
       </div>
       <div style={{ height: ih, overflow: "hidden", position: "relative" }}>
-        <Img src={staticFile(src)} style={{ width: w, position: "absolute", top: -scroll }} />
+        <Img src={sf(src)} style={{ width: w, position: "absolute", top: -scroll }} />
       </div>
     </div>
   );
@@ -286,7 +301,7 @@ const HookScene: React.FC<{ len: number }> = ({ len }) => {
   return (
     <AbsoluteFill style={{ opacity: out, alignItems: "center", justifyContent: "center", flexDirection: "column", gap: m === "h" ? 26 : 30 }}>
       <div style={{ position: "relative", transform: `scale(${a})` }}>
-        <div style={{ width: 230, height: 230, borderRadius: 999, background: WHITE, boxShadow: "0 30px 80px rgba(79,70,229,.25)", display: "flex", alignItems: "center", justifyContent: "center", border: "6px solid #E0E7FF" }}>
+        <div style={{ width: 230, height: 230, borderRadius: 999, background: WHITE, boxShadow: "0 30px 80px rgba(31,26,18,.25)", display: "flex", alignItems: "center", justifyContent: "center", border: "6px solid #ECE6D8" }}>
           <B.hookIcon size={130} color={B.accent} strokeWidth={1.9} />
         </div>
         <div style={{ position: "absolute", right: -40, top: -20, width: 110, height: 110, borderRadius: 999, background: "#FEF3C7", display: "flex", alignItems: "center", justifyContent: "center", transform: `rotate(${wave}deg)`, boxShadow: "0 12px 30px rgba(0,0,0,.12)" }}>
@@ -328,7 +343,7 @@ const PainScene: React.FC<{ len: number; dur: number }> = ({ len, dur }) => {
           const col = showGood ? GREEN : RED;
           const shake = !showGood && i === 0 ? Math.sin(f * 1.9) * 4 * (f % 30 < 18 ? 1 : 0) : 0;
           return (
-            <div key={i} style={{ width: cw, height: ch, borderRadius: 30, background: WHITE, border: `2px solid ${col}33`, boxShadow: "0 24px 60px rgba(15,23,42,.10)",
+            <div key={i} style={{ width: cw, height: ch, borderRadius: 30, background: WHITE, border: `2px solid ${col}33`, boxShadow: "0 24px 60px rgba(31,26,18,.10)",
               display: "flex", flexDirection: row ? "column" : "row", alignItems: "center", justifyContent: row ? "center" : "flex-start", gap: row ? 18 : 34, padding: row ? 0 : "0 44px",
               transform: `perspective(1200px) rotateY(${showGood ? fl - 180 : fl}deg) translateY(${(1 - e) * 70}px)`, opacity: e }}>
               <div style={{ width: row ? 120 : ch * 0.55, height: row ? 120 : ch * 0.55, borderRadius: 999, background: col + "18", display: "flex", alignItems: "center", justifyContent: "center", transform: `rotate(${shake}deg)`, position: "relative" }}>
@@ -406,7 +421,7 @@ export const TicketVis: React.FC<{ dur: number; pre?: boolean }> = ({ dur, pre }
               <span style={{ fontFamily: F, fontWeight: 600, fontSize: 20, color: GREEN }}>চেম্বারের নিজের নামে SMS</span>
             </div>
           </div>
-          <div style={{ background: "#EEF2FF", borderRadius: "6px 22px 22px 22px", padding: "14px 18px", fontFamily: F, fontWeight: 600, fontSize: 25, color: INK, lineHeight: 1.4 }}>
+          <div style={{ background: "#F8F5EE", borderRadius: "6px 22px 22px 22px", padding: "14px 18px", fontFamily: F, fontWeight: 600, fontSize: 25, color: INK, lineHeight: 1.4 }}>
             আপনার সিরিয়াল <b style={{ color: DOC }}>#৭</b> কনফার্ম। ডা. করিম আহমেদ, আজ আনুমানিক ৫:০০ PM। টিকেট: <span style={{ fontFamily: LAT, fontWeight: 700 }}>QT-9V7XR</span>
           </div>
         </div>
@@ -443,13 +458,13 @@ export const LiveVis: React.FC<{ dur: number }> = ({ dur }) => {
         <Push title="আপনার আগে ১ জন" body="সিরিয়াল #৭ · এখনই রওনা দিন" at={pushAt} />
       </Phone>
       <Card x={0} y={150} w={400} d={10} from="l">
-        <div style={{ padding: "26px 30px", background: "linear-gradient(150deg,#0369A1,#0B3B66)", borderRadius: 26, display: "flex", flexDirection: "column", gap: 4 }}>
+        <div style={{ padding: "26px 30px", background: "linear-gradient(150deg,#3A3122,#1F1A12)", borderRadius: 26, display: "flex", flexDirection: "column", gap: 4 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <div style={{ width: 14, height: 14, borderRadius: 99, background: "#4ADE80", opacity: 0.5 + 0.5 * Math.sin(f / 4) }} />
-            <span style={{ fontFamily: F, fontWeight: 700, fontSize: 28, color: "#CFE8FF" }}>লাইভ · এখন চলছে</span>
+            <span style={{ fontFamily: F, fontWeight: 700, fontSize: 28, color: "#F3EEE3" }}>লাইভ · এখন চলছে</span>
           </div>
           <span style={{ fontFamily: F, fontWeight: 800, fontSize: 150, color: WHITE, lineHeight: 1.05, transform: `scale(${0.8 + 0.2 * bump})`, transformOrigin: "left center", display: "inline-block" }}>#{bn(now)}</span>
-          <span style={{ fontFamily: F, fontWeight: 600, fontSize: 26, color: "#CFE8FF" }}>ডা. করিম আহমেদ · মেডিসিন</span>
+          <span style={{ fontFamily: F, fontWeight: 600, fontSize: 26, color: "#F3EEE3" }}>ডা. করিম আহমেদ · মেডিসিন</span>
         </div>
       </Card>
       <Card x={30} y={480} w={360} d={26} from="l">
@@ -482,10 +497,10 @@ export const NextVis: React.FC<{ dur: number }> = ({ dur }) => {
           const e = sp(f, fps, 8 + i * 6, 14);
           const active = (adv > 0.5 ? i === 1 : i === 0);
           return (
-            <div key={i} style={{ position: "absolute", left: 0, top: y, width: 360, height: 96, borderRadius: 22, background: active ? DOC : WHITE, border: "1.5px solid #E5E8F2", boxShadow: "0 14px 34px rgba(15,23,42,.08)",
+            <div key={i} style={{ position: "absolute", left: 0, top: y, width: 360, height: 96, borderRadius: 22, background: active ? DOC : WHITE, border: "1.5px solid #ECE6D8", boxShadow: "0 14px 34px rgba(31,26,18,.08)",
               display: "flex", alignItems: "center", gap: 18, padding: "0 22px", opacity: e * interpolate(y, [-60, 0], [0, 1], clamp), transform: `translateX(${(1 - e) * 60}px)` }}>
               <span style={{ fontFamily: F, fontWeight: 800, fontSize: 40, color: active ? WHITE : INK }}>{n}</span>
-              <span style={{ fontFamily: F, fontWeight: 700, fontSize: 26, color: active ? "#DBEAFE" : c }}>{active ? "এখন চলছে" : i === 0 || (adv > 0.5 && i === 0) ? "সম্পন্ন" : t}</span>
+              <span style={{ fontFamily: F, fontWeight: 700, fontSize: 26, color: active ? "#F3EEE3" : c }}>{active ? "এখন চলছে" : i === 0 || (adv > 0.5 && i === 0) ? "সম্পন্ন" : t}</span>
               {i === 0 && adv > 0.5 && <CheckCircle2 size={30} color={GREEN} style={{ marginLeft: "auto" }} />}
             </div>
           );
@@ -531,7 +546,7 @@ export const IncomeVis: React.FC<{ dur: number; name?: string; stats?: Stat[] }>
                   const g = sp(f, fps, 24 + i * 4, 15);
                   return (
                     <div key={i} style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
-                      <div style={{ width: "100%", height: 170 * b / 100 * g, borderRadius: 10, background: i === 6 ? INDIGO : "#C7D2FE" }} />
+                      <div style={{ width: "100%", height: 170 * b / 100 * g, borderRadius: 10, background: i === 6 ? INDIGO : "#ECE6D8" }} />
                       <span style={{ fontFamily: F, fontWeight: 600, fontSize: 19, color: MUTED }}>{days[i]}</span>
                     </div>
                   );
@@ -540,7 +555,7 @@ export const IncomeVis: React.FC<{ dur: number; name?: string; stats?: Stat[] }>
             </div>
             <div style={{ flex: 1, display: "flex", alignItems: "center", gap: 18 }}>
               <svg width={170} height={170} viewBox="0 0 170 170" style={{ transform: "rotate(-90deg)" }}>
-                <circle cx={85} cy={85} r={R} fill="none" stroke="#EEF1F7" strokeWidth={26} />
+                <circle cx={85} cy={85} r={R} fill="none" stroke="#F3EEE3" strokeWidth={26} />
                 {pie.map(([, p, c], i) => {
                   const len = CIR * p / 100 * pr; const off = -CIR * acc / 100 * pr; acc += p;
                   return <circle key={i} cx={85} cy={85} r={R} fill="none" stroke={c} strokeWidth={26} strokeDasharray={`${len} ${CIR}`} strokeDashoffset={off} />;
@@ -571,7 +586,7 @@ export const SiteVis: React.FC<{ dur: number; q?: string; src?: string; url?: st
   const late = LEAD + Math.round(dur * 0.12);
   return (
     <Stage>
-      <div style={{ position: "absolute", left: 120, top: 0, width: 660, height: 76, borderRadius: 99, background: WHITE, border: "1.5px solid #DDE2EE", boxShadow: "0 18px 40px rgba(15,23,42,.10)", display: "flex", alignItems: "center", gap: 16, padding: "0 28px", opacity: sb, transform: `translateY(${(1 - sb) * -40}px)` }}>
+      <div style={{ position: "absolute", left: 120, top: 0, width: 660, height: 76, borderRadius: 99, background: WHITE, border: "1.5px solid #ECE6D8", boxShadow: "0 18px 40px rgba(31,26,18,.10)", display: "flex", alignItems: "center", gap: 16, padding: "0 28px", opacity: sb, transform: `translateY(${(1 - sb) * -40}px)` }}>
         <Search size={32} color={INDIGO} />
         <span style={{ fontFamily: F, fontWeight: 600, fontSize: 30, color: INK }}>{q.slice(0, typed)}<span style={{ opacity: f % 16 < 8 ? 1 : 0, color: INDIGO }}>|</span></span>
       </div>
@@ -616,7 +631,7 @@ export const MultiVis: React.FC<{ dur: number; src?: string; ratio?: number; pho
           const s = spring({ frame: f - 14 - i * 6, fps: 30, config: { damping: 13 } });
           const on = sel === i;
           return (
-            <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, padding: "12px 24px", borderRadius: 99, background: on ? INDIGO : WHITE, border: "1.5px solid #DDE2EE", boxShadow: "0 12px 30px rgba(15,23,42,.10)", opacity: s, transform: `scale(${0.8 + 0.2 * s})` }}>
+            <div key={i} style={{ display: "flex", alignItems: "center", gap: 10, padding: "12px 24px", borderRadius: 99, background: on ? INDIGO : WHITE, border: "1.5px solid #ECE6D8", boxShadow: "0 12px 30px rgba(31,26,18,.10)", opacity: s, transform: `scale(${0.8 + 0.2 * s})` }}>
               <Building2 size={28} color={on ? WHITE : INDIGO} />
               <span style={{ fontFamily: F, fontWeight: 800, fontSize: 28, color: on ? WHITE : INK }}>{l}</span>
             </div>
@@ -640,18 +655,18 @@ const CalmScene: React.FC<{ len: number }> = ({ len }) => {
   return (
     <AbsoluteFill style={{ opacity: out }}>
       <div style={{ position: "absolute", left: "50%", top: cy, width: 0, height: 0 }}>
-        <div style={{ position: "absolute", left: -R, top: -R, width: 2 * R, height: 2 * R, borderRadius: 999, border: "2px dashed #C7D2FE", opacity: lg }} />
+        <div style={{ position: "absolute", left: -R, top: -R, width: 2 * R, height: 2 * R, borderRadius: 999, border: "2px dashed #ECE6D8", opacity: lg }} />
         {icons.map(([I, c], i) => {
           const a = (i / icons.length) * Math.PI * 2 + f / 70;
           const s = sp(f, fps, 8 + i * 4, 12);
           return (
-            <div key={i} style={{ position: "absolute", left: Math.cos(a) * R * s - 48, top: Math.sin(a) * R * s - 48, width: 96, height: 96, borderRadius: 28, background: WHITE, boxShadow: "0 14px 34px rgba(15,23,42,.12)", display: "flex", alignItems: "center", justifyContent: "center", opacity: s }}>
+            <div key={i} style={{ position: "absolute", left: Math.cos(a) * R * s - 48, top: Math.sin(a) * R * s - 48, width: 96, height: 96, borderRadius: 28, background: WHITE, boxShadow: "0 14px 34px rgba(31,26,18,.12)", display: "flex", alignItems: "center", justifyContent: "center", opacity: s }}>
               <I size={50} color={c} strokeWidth={2.1} />
             </div>
           );
         })}
         <div style={{ position: "absolute", left: -95, top: -95, transform: `scale(${lg})` }}>
-          <div style={{ width: 190, height: 190, borderRadius: 999, background: WHITE, boxShadow: "0 30px 80px rgba(3,105,161,.25)", display: "flex", alignItems: "center", justifyContent: "center", border: "6px solid #E0F2FE" }}>
+          <div style={{ width: 190, height: 190, borderRadius: 999, background: WHITE, boxShadow: "0 30px 80px rgba(31,26,18,.25)", display: "flex", alignItems: "center", justifyContent: "center", border: "6px solid #ECE6D8" }}>
             <B.calmIcon size={104} color={B.accent} strokeWidth={1.9} />
           </div>
         </div>
@@ -665,15 +680,15 @@ const CalmScene: React.FC<{ len: number }> = ({ len }) => {
   );
 };
 
-const FreeBadge: React.FC<{ size: number; d: number }> = ({ size, d }) => {
+const FreeBadge: React.FC<{ size: number; d: number; text?: string }> = ({ size, d, text = "৩ দিন সম্পূর্ণ ফ্রি" }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const s = sp(f, fps, d, 10);
   const pulse = 1 + 0.03 * Math.sin(Math.max(0, f - d - 20) / 6);
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: size * 0.3, padding: `${size * 0.18}px ${size * 0.6}px ${size * 0.24}px`, borderRadius: 999, background: GRAD, boxShadow: "0 20px 50px rgba(79,70,229,.25)", transform: `scale(${s * pulse}) rotate(${(1 - s) * -8}deg)`, opacity: s }}>
+    <div style={{ display: "flex", alignItems: "center", gap: size * 0.3, padding: `${size * 0.18}px ${size * 0.6}px ${size * 0.24}px`, borderRadius: 999, background: GRAD, boxShadow: "0 20px 50px rgba(31,26,18,.25)", transform: `scale(${s * pulse}) rotate(${(1 - s) * -8}deg)`, opacity: s }}>
       <Sparkles size={size * 0.9} color={INK} />
-      <span style={{ fontFamily: F, fontWeight: 800, fontSize: size, color: INK }}>৩ দিন সম্পূর্ণ ফ্রি</span>
+      <span style={{ fontFamily: F, fontWeight: 800, fontSize: size, color: INK }}>{text}</span>
     </div>
   );
 };
@@ -689,7 +704,7 @@ const BrandScene: React.FC<{ len: number }> = ({ len }) => {
     <AbsoluteFill style={{ opacity: out, alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 30 * k, paddingBottom: m === "v" ? 160 : 70 }}>
       <div style={{ display: "flex", alignItems: "center", gap: 30, transform: `scale(${lg})` }}>
         <Logo size={170 * k} />
-        <span style={{ fontFamily: LAT, fontWeight: 800, fontSize: 170 * k, color: INK, letterSpacing: -6 }}>Qount</span>
+        <Wordmark h={150 * k} />
       </div>
       <div style={{ opacity: lerp(f, 18, 32), transform: `translateY(${(1 - lerp(f, 18, 32)) * 20}px)`, fontFamily: F, fontWeight: 700, fontSize: (m === "h" ? 64 : 54) * k, color: INK, textAlign: "center" }}>
         বাংলাদেশের <span style={{ color: INDIGO }}>সুপার বুকিং</span> অ্যাপ
@@ -724,12 +739,12 @@ const EndScene: React.FC = () => {
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 26 * k }}>
       <div style={{ display: "flex", alignItems: "center", gap: 22, transform: `scale(${a})` }}>
         <Logo size={120 * k} />
-        <span style={{ fontFamily: LAT, fontWeight: 800, fontSize: 120 * k, color: INK, letterSpacing: -4 }}>Qount</span>
+        <Wordmark h={108 * k} />
       </div>
       <div style={{ fontFamily: F, fontWeight: 700, fontSize: 46 * k, color: MUTED, opacity: lerp(f, 10, 24), textAlign: "center" }}>{B.tagline}</div>
-      <FreeBadge size={62 * k} d={16} />
+      <FreeBadge size={62 * k} d={16} text="৩ দিন ফ্রি শুরু করুন" />
       <div style={{ transform: `scale(${b})`, opacity: b, marginTop: 8 }}><PlayBadge s={1.25 * k} /></div>
-      <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "14px 30px", borderRadius: 99, background: WHITE, border: "2px solid #C7D2FE", boxShadow: "0 14px 34px rgba(79,70,229,.15)", opacity: c, transform: `scale(${0.85 + 0.15 * c})` }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "14px 30px", borderRadius: 99, background: WHITE, border: "2px solid #ECE6D8", boxShadow: "0 14px 34px rgba(31,26,18,.15)", opacity: c, transform: `scale(${0.85 + 0.15 * c})` }}>
         <Globe size={40 * k} color={INDIGO} />
         <span style={{ fontFamily: LAT, fontWeight: 800, fontSize: 44 * k, color: INK }}>qount.dreamithq.com</span>
       </div>
@@ -769,7 +784,7 @@ const Captions: React.FC = () => {
   const o = interpolate(f, [cur.s, cur.s + 4], [0, 1], clamp);
   return (
     <div style={{ position: "absolute", left: 40, right: 40, bottom, display: "flex", justifyContent: "center" }}>
-      <div style={{ maxWidth: m === "h" ? 1500 : 980, padding: `${size * 0.22}px ${size * 0.7}px ${size * 0.32}px`, borderRadius: 22, background: "rgba(15,23,42,.88)", opacity: o, transform: `translateY(${(1 - o) * 10}px)`,
+      <div style={{ maxWidth: m === "h" ? 1500 : 980, padding: `${size * 0.22}px ${size * 0.7}px ${size * 0.32}px`, borderRadius: 22, background: "rgba(31,26,18,.88)", opacity: o, transform: `translateY(${(1 - o) * 10}px)`,
         fontFamily: F, fontWeight: 600, fontSize: size, color: WHITE, textAlign: "center", lineHeight: 1.35 }}>
         {cur.text}
       </div>
@@ -787,7 +802,7 @@ const Bug: React.FC = () => {
   return (
     <div style={{ position: "absolute", left: m === "h" ? 60 : 40, top: m === "h" ? 44 : m === "f" ? 26 : 70, display: "flex", alignItems: "center", gap: 12 * s, opacity: 0.95 }}>
       <Logo size={48 * s} />
-      <span style={{ fontFamily: LAT, fontWeight: 800, fontSize: 34 * s, color: INK }}>Qount</span>
+      <Wordmark h={40 * s} />
     </div>
   );
 };
@@ -796,7 +811,7 @@ const Bug: React.FC = () => {
 const SFX: React.FC = () => {
   const { SC, TL } = React.useContext(C);
   const out: React.ReactNode[] = [];
-  const at = (k: string, from: number, src: string, v: number, dur = 45) => out.push(<Sequence key={k} from={Math.max(0, from)} durationInFrames={dur}><Audio src={staticFile("sfx/" + src)} volume={v} /></Sequence>);
+  const at = (k: string, from: number, src: string, v: number, dur = 45) => out.push(<Sequence key={k} from={Math.max(0, from)} durationInFrames={dur}><Audio src={sf("sfx/" + src)} volume={v} /></Sequence>);
   TL.forEach((t) => {
     const s = SC[t.i];
     if (t.i > 0) at("w" + t.i, t.from - 4, "whoosh.mp3", 0.16);
@@ -836,9 +851,9 @@ export const Film: React.FC<Ctx> = (ctx) => {
         <Bug />
         <Captions />
         {TL.map((t) => (
-          <Sequence key={"vo" + t.i} from={voStart(t)}><Audio src={staticFile(SC[t.i].vo + ".mp3")} /></Sequence>
+          <Sequence key={"vo" + t.i} from={voStart(t)}><Audio src={sf(SC[t.i].vo + ".mp3")} /></Sequence>
         ))}
-        <Audio src={staticFile("music.mp3")} volume={(f) => interpolate(f, [0, 12, N - 80, N], [0, 0.13, 0.13, 0], clamp) * (f > TL[TL.length - 1].from + TL[TL.length - 1].dur + 20 ? 1.9 : 1)} />
+        <Audio src={sf("music.mp3")} volume={(f) => interpolate(f, [0, 12, N - 80, N], [0, 0.13, 0.13, 0], clamp) * (f > TL[TL.length - 1].from + TL[TL.length - 1].dur + 20 ? 1.9 : 1)} />
         <SFX />
       </AbsoluteFill>
     </C.Provider>
@@ -855,7 +870,7 @@ const DOCB: Biz = {
   accent: DOC, hello: "হ্যালো ডাক্তার সাহেব,", helloHi: ["ডাক্তার"], hookIcon: Stethoscope,
   pain: [[PhoneCall, "সারাদিন ফোন", "১২ মিসড কল"], [Users, "চেম্বারে ভিড়", "৩০+ রোগী অপেক্ষায়"], [NotebookPen, "খাতায় হিসাব", "ভুল আর হারানো"]],
   good: [[Smartphone, "অনলাইন সিরিয়াল", "ফোন লাগে না"], [Radio, "লাইভ সিরিয়াল", "ভিড় নেই"], [BarChart3, "অটো হিসাব", "এক নজরে আয়"]],
-  calmIcon: Stethoscope, calmHead: "আপনি শুধু রোগী দেখুন", calmHi: ["রোগী"], tagline: "ডাক্তারের চেম্বার এখন অটোমেটিক", endShot: "shots/ticket.png",
+  calmIcon: Stethoscope, calmHead: "আপনি শুধু রোগী দেখুন", calmHi: ["রোগী"], tagline: "ডাক্তারের চেম্বার এখন অটোমেটিক", endShot: "shots/b-doctor.png",
   vis: { serial: SerialVis, ticket: TicketVis, live: LiveVis, next: NextVis, income: IncomeVis, site: SiteVis, multi: MultiVis },
 };
 export const QdH: React.FC = () => <Film SC={FULL} TL={TLH} B={DOCB} />;

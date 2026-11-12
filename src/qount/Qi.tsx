@@ -7,7 +7,7 @@ import { Film, Stage, Card, Browser, IncomeVis, MultiVis, TicketVis, timeline, d
 import { PayVis, ApproveVis } from "./Qt";
 
 const TYPES: [Ic, string, string][] = [
-  [Volleyball, "টার্ফ", "#15803D"], [Gamepad2, "গেমিং জোন", "#7C3AED"], [Scissors, "সেলুন", "#DB2777"], [Stethoscope, "ডাক্তার", "#0369A1"],
+  [Volleyball, "টার্ফ", "#2C7A3F"], [Gamepad2, "গেমিং জোন", "#7C3AED"], [Scissors, "সেলুন", "#DB2777"], [Stethoscope, "ডাক্তার", "#0369A1"],
   [FlaskConical, "ডায়াগনস্টিক", "#0D9488"], [PartyPopper, "কমিউনিটি হল", "#D97706"], [TreePalm, "রিসোর্ট", "#65A30D"], [Dumbbell, "জিম", "#DC2626"],
 ];
 
@@ -21,7 +21,7 @@ const TypesVis: React.FC<{ dur: number }> = ({ dur }) => {
         {TYPES.map(([I, l, c], i) => {
           const s = sp(f, fps, LEAD + 4 + i * step, 12);
           return (
-            <div key={i} style={{ height: 330, borderRadius: 32, background: "#fff", border: "1.5px solid #E5E8F2", boxShadow: "0 22px 50px rgba(15,23,42,.10)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 22,
+            <div key={i} style={{ height: 330, borderRadius: 32, background: "#fff", border: "1.5px solid #ECE6D8", boxShadow: "0 22px 50px rgba(31,26,18,.10)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 22,
               opacity: s, transform: `translateY(${(1 - s) * 60}px) scale(${0.8 + 0.2 * s})` }}>
               <div style={{ width: 130, height: 130, borderRadius: 40, background: c + "18", display: "flex", alignItems: "center", justifyContent: "center" }}><I size={70} color={c} strokeWidth={2} /></div>
               <span style={{ fontFamily: F, fontWeight: 800, fontSize: 34, color: INK, whiteSpace: "nowrap" }}>{l}</span>
@@ -69,10 +69,10 @@ const TemplatesVis: React.FC<{ dur: number }> = ({ dur }) => {
 };
 
 const IIncome: React.FC<{ dur: number }> = ({ dur }) => (
-  <IncomeVis dur={dur} name="আমার ব্যবসা" stats={[["আজকের বুকিং", 18, "", "#15803D", CalendarCheck], ["এই মাসের আয়", 312500, "৳", INDIGO, Wallet], ["বাকি টাকা", 12400, "৳", AMBER, Clock]]} />
+  <IncomeVis dur={dur} name="আমার ব্যবসা" stats={[["আজকের বুকিং", 18, "", "#2C7A3F", CalendarCheck], ["এই মাসের আয়", 312500, "৳", INDIGO, Wallet], ["বাকি টাকা", 12400, "৳", AMBER, Clock]]} />
 );
 const IMulti: React.FC<{ dur: number }> = ({ dur }) => (
-  <MultiVis dur={dur} src="shots/t-dash.jpg" ratio={800 / 542} phone="shots/t-home.png" pills={["গ্রিন ফিল্ড টার্ফ", "শেফা চেম্বার"]} />
+  <MultiVis dur={dur} src="shots/b-dash.png" ratio={1440 / 900} phone="shots/b-owner.png" pills={["গ্রিন ফিল্ড টার্ফ", "শেফা চেম্বার"]} />
 );
 
 const S: Record<string, Sc> = {
@@ -81,7 +81,7 @@ const S: Record<string, Sc> = {
   types: { kind: "types", vo: "ivo/03", cap: "পরিচয় করিয়ে দিই Qount — | টার্ফ, গেমিং জোন, সেলুন, ডাক্তারের চেম্বার, | ডায়াগনস্টিক, কমিউনিটি হল, রিসোর্ট আর জিম — | সবার জন্য এক বুকিং অ্যাপ।",
     head: "সব বুকিং, এক অ্যাপে", hi: ["এক", "অ্যাপে"], color: INDIGO, chips: [[LayoutGrid, "৮ ধরনের ব্যবসা"]] },
   pay: { kind: "pay", vo: "ivo/04", pre: true, cap: "কাস্টমার লগইন ছাড়াই মোবাইল থেকে | খালি সময় দেখে বুক করে, বিকাশে অগ্রিম দেয়।",
-    head: "লগইন ছাড়াই অনলাইন বুকিং", hi: ["অনলাইন", "বুকিং"], color: "#15803D", chips: [[Smartphone, "খালি সময় দেখে বুক"], [Wallet, "বিকাশে অগ্রিম"]] },
+    head: "লগইন ছাড়াই অনলাইন বুকিং", hi: ["অনলাইন", "বুকিং"], color: "#2C7A3F", chips: [[Smartphone, "খালি সময় দেখে বুক"], [Wallet, "বিকাশে অগ্রিম"]] },
   ticket: { kind: "ticket", vo: "ivo/05", cap: "সাথে সাথে আপনার ব্যবসার নামে | SMS, ইমেইল আর QR টিকেট — | রিমাইন্ডারও যায় অটোমেটিক।",
     head: "আপনার নামে টিকেট", hi: ["আপনার", "নামে"], color: INDIGO, chips: [[MessageSquareText, "SMS · ইমেইল"], [QrCode, "QR টিকেট"], [BellRing, "অটো রিমাইন্ডার"]] },
   approve: { kind: "approve", vo: "ivo/06", cap: "নতুন বুকিং এলেই নোটিফিকেশন, | এক ট্যাপে কনফার্ম।",
@@ -112,7 +112,7 @@ const IB: Biz = {
   pain: [[PhoneCall, "সারাদিন ফোন", "বুকিংয়ের কল"], [NotebookPen, "খাতায় হিসাব", "ভুল আর হারানো"], [Users, "কে অগ্রিম দিলো?", "মনে রাখা কঠিন"]],
   good: [[Smartphone, "অনলাইন বুকিং", "ফোন লাগে না"], [BarChart3, "অটো হিসাব", "এক নজরে আয়"], [Wallet, "বিকাশে অগ্রিম", "সব রেকর্ডে"]],
   goodHead: "পুরো ব্যবসা অটোমেশন!",
-  calmIcon: Store, calmHead: "আপনি শুধু ব্যবসা সামলান", calmHi: ["ব্যবসা"], tagline: "সব ধরনের বুকিং, এক অ্যাপে", endShot: "shots/home.png",
+  calmIcon: Store, calmHead: "আপনি শুধু ব্যবসা সামলান", calmHi: ["ব্যবসা"], tagline: "সব ধরনের বুকিং, এক অ্যাপে", endShot: "shots/b-home.png",
   vis: { types: TypesVis, pay: PayVis, ticket: TicketVis, approve: ApproveVis, income: IIncome, site: TemplatesVis, multi: IMulti },
 };
 
