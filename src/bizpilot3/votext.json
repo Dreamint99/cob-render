@@ -1,0 +1,32 @@
+{
+ "bn": {
+  "hook": "রাত দুইটা। কাস্টমার জিজ্ঞেস করলো, দাম কত? আপনি ঘুমে। তবু তিন সেকেন্ডেই উত্তর চলে গেল।",
+  "logo": "এটাই বিজপাইলট। আপনার ব্যবসার এআই সেলস টিম।",
+  "lang": "বাংলা, বাংলিশ বা ইংরেজি। কাস্টমার যেভাবে লেখে, এআই ঠিক সেভাবেই উত্তর দেয়।",
+  "inbox": "মেসেঞ্জার, কমেন্ট আর ওয়েবসাইট চ্যাট, সব এক ইনবক্সে।",
+  "order": "চ্যাটেই অর্ডার নেয়, আর আপনার লোগোসহ ইনভয়েস পাঠিয়ে দেয়।",
+  "courier": "এক ক্লিকে স্টেডফাস্ট, পাঠাও বা রেডএক্সে বুকিং। ট্র্যাকিং লিংক চলে যায় কাস্টমারের কাছে।",
+  "pay": "বিকাশ বা নগদের স্ক্রিনশট? এআই টাকার অঙ্ক আর ট্রানজেকশন আইডি মিলিয়ে দেখে।",
+  "learn": "একবার শুধরে দিলেই এআই মনে রাখে। প্রতিদিন আরও স্মার্ট।",
+  "reports": "কত অর্ডার, কত বিক্রি, এআই কতটা সামলালো, সব এক নজরে।",
+  "biz": "অনলাইন শপ, ক্লিনিক, কোচিং, রেস্টুরেন্ট। যেকোনো ব্যবসা।",
+  "cta": "আজই ফ্রি শুরু করুন। প্রথম একশো ব্যবসার জন্য তিন মাস একদম ফ্রি। বিজপাইলট।",
+  "adhook": "ফেসবুকে বিজ্ঞাপন দেওয়া ঝামেলা? অডিয়েন্স, বাজেট, প্লেসমেন্ট, মাথা ঘুরে যায়? নো প্রবলেম!",
+  "adprompt": "বিজপাইলটে শুধু লিখুন কী চান। এআই নিজেই বানিয়ে দেবে অডিয়েন্স, বাজেট আর বিজ্ঞাপনের লেখা।",
+  "adlaunch": "আপনি একবার দেখে অ্যাপ্রুভ করুন। বিজ্ঞাপন চালু, আর মেসেজ আসবে সরাসরি আপনার ইনবক্সে।",
+  "adcta": "নিজের বিজ্ঞাপন এখন নিজেই দিন, শুধু প্রম্পট দিয়ে। বিজপাইলট।"
+ },
+ "en": {
+  "hook": "Two a.m. A customer asks, how much? You're asleep. Three seconds later, they have an answer.",
+  "logo": "This is Bizpilot. Your business's AI sales team.",
+  "lang": "Bangla, Banglish or English. It replies the way your customer writes.",
+  "inbox": "Messenger, comments and website chat, all in one inbox.",
+  "order": "It takes the order right in the chat, and sends an invoice with your logo.",
+  "courier": "Book the courier in one click. The tracking link goes straight to your customer.",
+  "pay": "Payment screenshot? The AI reads the amount and transaction ID, and checks it for you.",
+  "learn": "Correct it once, and it remembers. Smarter every day.",
+  "reports": "Orders, sales, and how much the AI handled, at a glance.",
+  "biz": "Shops, clinics, coaching centres, restaurants. Any business.",
+  "cta": "Start free today. The first hundred businesses get three months free. Bizpilot."
+ }
+}

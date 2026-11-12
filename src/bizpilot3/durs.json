@@ -1,0 +1,32 @@
+{
+ "bn": {
+  "hook": 6.66,
+  "logo": 3.33,
+  "lang": 5.67,
+  "inbox": 4.01,
+  "order": 3.86,
+  "courier": 5.44,
+  "pay": 5.55,
+  "learn": 4.14,
+  "reports": 4.96,
+  "biz": 4.33,
+  "cta": 5.64,
+  "adhook": 6.29,
+  "adprompt": 6.57,
+  "adlaunch": 5.83,
+  "adcta": 4.47
+ },
+ "en": {
+  "hook": 6.28,
+  "logo": 3.49,
+  "lang": 5.05,
+  "inbox": 3.99,
+  "order": 3.77,
+  "courier": 4.33,
+  "pay": 5.36,
+  "learn": 3.51,
+  "reports": 4.13,
+  "biz": 4.61,
+  "cta": 5.2
+ }
+}

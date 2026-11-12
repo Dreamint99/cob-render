@@ -1,5 +1,17 @@
 import { HeadsVideo, headsLen } from "./heads/HeadsEngine";
+import { DreamBosnia, DB_TOTAL } from "./dbos/DreamBosnia";
+import { Bizpilot, BP_TOTAL } from "./bizpilot/Bizpilot";
+import { BizpilotPromo, BP2_TOTAL } from "./bizpilot2/BizpilotPromo";
+import { Bp3, BP3_COMPS, bp3Total } from "./bizpilot3/Bp3";
+import { GdsReel, GDS_TOTAL } from "./gdsreel/GdsReel";
+import { Gds5Comps } from "./gdspromo5/Root5";
+import { IeltsReel, IELTS_TOTAL } from "./ieltsreel/IeltsReel";
+import { DreamBosnia2, B2_TOTAL } from "./dbos/Bosnia2";
 import { Composition } from "remotion";
+import { Launch, launchTotal } from "./applaunch/Launch";
+import { Pb3, PB3_TOTAL } from "./pb3/Pb3";
+import { Mb3, Mb3Reel, MB3_TOTAL, MB3R_TOTAL } from "./mb3/Mb3";
+import { NmPromo, NM_TOTAL } from "./nmpromo/NmPromo";
 import { FifaMatch, FIFA_LEN } from "./fifa/FifaMatch";
 import { SoulmateReel, SM_TOTAL } from "./soulmate/SoulmateReel";
 import { TestCard } from "./TestCard";
@@ -14,6 +26,7 @@ import { QatarEurope, QEThumb, QE_TOTAL } from "./QatarEurope";
 import { SaudiEurope, SEThumb, SE_TOTAL } from "./SaudiEurope";
 import { ShortsReel, shortTotal, SHORT_IDS } from "./ShortsReel";
 import { ProbashiPromo, PB_TOTAL } from "./ProbashiPromo";
+import { ProbashiApp, PBAPP_TOTAL } from "./probashi/ProbashiPromo";
 import { InfoPromo, PI_TOTAL } from "./InfoPromo";
 import { DreamGroup, DG_TOTAL } from "./DreamGroup";
 import { InfoReel, REELS, reelLen } from "./InfoReels";
@@ -109,11 +122,30 @@ export const Root = () => (
     <AIU3Comps />
     <Composition id="AIUPromo2" component={AIUPromo2} durationInFrames={AIU2_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="AIUPromo" component={AIUPromo} durationInFrames={AIU_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="IELTS-Reel" component={IeltsReel} durationInFrames={IELTS_TOTAL} fps={30} width={1080} height={1920} />
+    <Composition id="IELTS-Feed" component={IeltsReel} durationInFrames={IELTS_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="PB3-H" component={Pb3} durationInFrames={PB3_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="MB3-H" component={Mb3} durationInFrames={MB3_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="MB3-R" component={Mb3Reel} durationInFrames={MB3R_TOTAL} fps={30} width={1080} height={1920} />
+    <Composition id="PB3-V" component={Pb3} durationInFrames={PB3_TOTAL} fps={30} width={1080} height={1920} />
+    <Composition id="Launch-Reel" component={Launch} defaultProps={{ cut: "short" as const }} durationInFrames={launchTotal("short")} fps={30} width={1080} height={1920} />
+    <Composition id="Launch-Feed" component={Launch} defaultProps={{ cut: "short" as const }} durationInFrames={launchTotal("short")} fps={30} width={1080} height={1350} />
+    <Composition id="Launch-Wide" component={Launch} defaultProps={{ cut: "short" as const }} durationInFrames={launchTotal("short")} fps={30} width={1920} height={1080} />
+    <Composition id="Launch-Long" component={Launch} defaultProps={{ cut: "long" as const }} durationInFrames={launchTotal("long")} fps={30} width={1920} height={1080} />
+    <Composition id="Launch-LongV" component={Launch} defaultProps={{ cut: "long" as const }} durationInFrames={launchTotal("long")} fps={30} width={1080} height={1920} />
+    <Composition id="GDS-Reel" component={GdsReel} durationInFrames={GDS_TOTAL} fps={30} width={1080} height={1920} />
+    <Composition id="GDS-Feed" component={GdsReel} durationInFrames={GDS_TOTAL} fps={30} width={1920} height={1080} />
+    <Gds5Comps />
+    {BP3_COMPS.map((c) => <Composition key={c.id} id={c.id} component={Bp3} durationInFrames={bp3Total(c.lang, c.scenes)} fps={30} width={c.v ? 1080 : 1920} height={c.v ? 1920 : 1080} defaultProps={{ lang: c.lang, scenes: c.scenes }} />)}
+    <Composition id="BizpilotPromo" component={BizpilotPromo} durationInFrames={BP2_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="Bizpilot" component={Bizpilot} durationInFrames={BP_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="TestCard" component={TestCard} durationInFrames={90} fps={30} width={1920} height={1080} />
     <Composition id="StyleDemo" component={StyleDemo} durationInFrames={DEMO_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="EralBeel" component={EralBeel} durationInFrames={BEEL_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="EralBeel2" component={EralBeel2} durationInFrames={BEEL2_TOTAL} fps={FPS2} width={1920} height={1080} />
     <Composition id="Mohajon" component={Mohajon} durationInFrames={MOHAJON_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="PBApp-H" component={ProbashiApp} durationInFrames={PBAPP_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="PBApp-V" component={ProbashiApp} durationInFrames={PBAPP_TOTAL} fps={30} width={1080} height={1920} />
     <Composition id="ProbashiPromo" component={ProbashiPromo} durationInFrames={PB_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="MohajonReel" component={MohajonReel} durationInFrames={REEL_TOTAL} fps={30} width={1080} height={1920} />
     <Composition id="InfoPromo" component={InfoPromo} durationInFrames={PI_TOTAL} fps={30} width={1920} height={1080} />
@@ -143,12 +175,17 @@ export const Root = () => (
     <Composition id="InvGambling" component={Gambling} durationInFrames={GAMBLING_LEN} fps={30} width={1920} height={1080} />
     {FILM_LIST.map((f) => <Composition key={f.id} id={`Doc-${f.id}`} component={Doc} defaultProps={{ id: f.id }} durationInFrames={filmLen(f)} fps={30} width={1920} height={1080} />)}
     {TOPIC_LIST.map((t) => <Composition key={t.id} id={`Ov-${t.id}`} component={Explainer} defaultProps={{ id: t.id }} durationInFrames={topicLen(t)} fps={30} width={1920} height={1080} />)}
+    <Composition id="DreamBosnia" component={DreamBosnia} durationInFrames={DB_TOTAL} fps={30} width={1080} height={1920} />
+    <Composition id="DreamBosnia2" component={DreamBosnia2} durationInFrames={B2_TOTAL} fps={30} width={1080} height={1920} />
+    <Composition id="DreamBosnia2Wide" component={DreamBosnia2} durationInFrames={B2_TOTAL} fps={30} width={1920} height={1080} />
+    <Composition id="DreamBosniaWide" component={DreamBosnia} durationInFrames={DB_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="Heads" component={HeadsVideo} defaultProps={{ id: "heads" as const }} durationInFrames={headsLen("heads")} fps={30} width={1920} height={1080} />
     <Composition id="HeadsReel" component={HeadsVideo} defaultProps={{ id: "heads" as const }} durationInFrames={headsLen("heads")} fps={30} width={1080} height={1920} />
     <Composition id="HeadsSerbia" component={HeadsVideo} defaultProps={{ id: "serbia" as const }} durationInFrames={headsLen("serbia")} fps={30} width={1920} height={1080} />
     <Composition id="HeadsSerbiaReel" component={HeadsVideo} defaultProps={{ id: "serbia" as const }} durationInFrames={headsLen("serbia")} fps={30} width={1080} height={1920} />
     <Composition id="SoulmateReel" component={SoulmateReel} durationInFrames={SM_TOTAL} fps={30} width={1080} height={1920} />
     <Composition id="FifaMatch" component={FifaMatch} durationInFrames={FIFA_LEN} fps={30} width={1920} height={1080} />
+    <Composition id="NmPromo" component={NmPromo} durationInFrames={NM_TOTAL} fps={30} width={1920} height={1080} />
     <Composition id="AvatarTech" component={AvatarTech} durationInFrames={avTotal} fps={30} width={1920} height={1080} />
   </>
 );

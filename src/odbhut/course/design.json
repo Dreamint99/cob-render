@@ -1,0 +1,930 @@
+{
+  "title_bn": "অদ্ভুত কিছু শিক্ষা: জীবন, শরীর আর টাকা বাঁচানোর ১২টি সত্যি কৌশল",
+  "title_en": "Amazing Things Nobody Taught You: 12 True, Useful Skills for Life, Body and Money",
+  "promise_bn": "১২টি ছোট লেসন। প্রতিটি ভিডিও সাধারণত সাড়ে ৪ মিনিটের মধ্যে, আর কোনো অংশই ৫ মিনিটের বেশি নয়। প্রতিটিতে থাকছে একটা 'আরে, এটা এভাবে কাজ করে!' মুহূর্ত (সহজ দৈনন্দিন উপমায়), সূত্রসহ একটা মিথ-ভাঙা আর আজই করার মতো একটা কাজ। যেমন স্ক্যাম কল কেটে দেওয়া, প্যাকেটের লেবেল দেখে ঠিকভাবে স্যালাইন বানানো, বজ্রপাতে নিরাপদ থাকা, পানিতে না নেমে কাউকে সাহায্য করা, আর পড়া মনে রাখার বিজ্ঞানসম্মত কৌশল। কোনো জাদু নেই, কোনো '১০০% গ্যারান্টি' নেই। আছে শুধু সরকারি ও নির্ভরযোগ্য সূত্রে যাচাই করা আর বিশেষজ্ঞের দেখা তথ্য।",
+  "outcome": "After 12 lessons, a complete beginner can do these 12 things and explain to family the science behind each one and the source it comes from. Each lesson is a video of 4:30 or less plus 2–3 short in-app practice cards, about 8–12 min in total, with no single sitting longer than 5 min. If the pilot shows a safety lesson is rushed, it is split into two video parts of 5 min or less rather than compressed.\n(1) Turn a chapter into self-test questions and a spaced review plan.\n(2) Make a stop/share decision on a viral post in about 2 minutes using a 3-question source test, and reply politely in the family group.\n(3) End a mobile-money scam call with a rehearsed script without giving any code, PIN or screen access.\n(4) Isolate a link's hostname and registrable domain, compare it letter by letter with the independently known official domain (including .com.bd cases), check an app's developer, and use several checks before paying a Facebook shop.\n(5) If money has gone or an account is compromised, choose the right branch for the incident type and run the six stop-damage-and-report steps in order, including a thana GD. Save evidence safely and reject 'recovery fee' callers. Recovery is not guaranteed.\n(6) Read the ORS packet label for the water volume (usually আধা লিটার for standard Bangladeshi packets, to be verified), measure it in a bottle, and recognise the escalation signs that mean hospital.\n(7) In suspected dengue: read the generic name on the uncut strip, flag aspirin/NSAID-type medicines and ask a doctor or pharmacist before taking any medicine. Recognise the full official warning-sign set and go to hospital, and empty breeding containers.\n(8) Recognise possible heatstroke and split the tasks: one person calls for help while others move the person to shade and start the fastest safe cooling. Never force fluids on a confused person.\n(9) Go into a substantial building or a fully enclosed hard-topped vehicle when thunder is heard, stay away from risky spots indoors, and wait 30 minutes after the last thunder.\n(10) Help a drowning person without entering the water, know what to do once the person is out, and help set up layered child-water safety at home.\n(11) Cross only after checking every relevant direction for the actual road layout, never assume a driver has seen you, avoid bus and truck blind zones, wear and fasten a pillion helmet, and refuse a risky ride.\n(12) Build a Family Safety Card and teach it back.\nProof: structured decision quizzes with safety-critical items, safe hands-on artefacts, a scenario-based final exam in two pausable parts, and a structured capstone card. These lead to a QR-verified certificate that lists the outcomes assessed by scenario separately from self-reported missions.",
+  "learner": "Bangladeshis aged 14+ with zero prior knowledge, mostly on low-end Android phones with costly mobile data. Many are new to digital money: only 17.6% of adults had sent money digitally, per DataReportal 2024 cited by The Daily Star. They live with real, preventable risks: MFS scams, road crashes, drowning, lightning, dengue and heat. They want short, fun, Bangladeshi, Bangla-voiced lessons they can use the same day, with science explained through everyday comparisons rather than jargon. They fear long videos, data cost, hard quizzes, long exams and fake information. Some study in public, feel shy speaking or have a weak mic. So nothing may depend on speaking aloud, on the camera or on being online, and tap/type options always come first.",
+  "price_suggestion": "Full course ৳399 (launch offer ৳299), inside the student's ৳300–500 band and at the low end of the platform's ৳300–1,500 range. Also included in subscriptions.\n- Free: L1–L3. L1–L2 are the sequential free 'first 20%'. L3 (OTP scam) is a free public-good preview because it saves money on day one and is the most shareable.\n- Free outside the paywall: the emergency essentials card (code/PIN/screen rule, ORS packet steps, 'thunder means indoors + 30 min', reach-or-throw-don't-go, verified hotlines). It shows a visible 'যাচাই করা হয়েছে: [date]' stamp and a fallback: use the contact inside the official app or printed on the packet/card.\n- Paid unlock covers the practice simulators, missions, final exam and certificate, never the life-saving facts.\n- Unlimited quiz retries using parallel versions.",
+  "signature_secrets": [
+    "Bangla bridge — নামতা (L1): saying a table from memory with the book closed is retrieval practice; chanting it while reading from a visible page is not. Self-testing usually beats re-reading alone. Source: Roediger & Karpicke 2006; Dunlosky et al. 2013. Verify before voicing.",
+    "Myth bridge — 'যা রটে তা বটে?' (L2): the proverb people use to justify forwarding a rumour becomes the myth we bust. A forward that many people sent is not evidence. Ask: who said it, when, and is there an official source? Not finding support is a reason to pause sharing; it does not prove the claim false.",
+    "Secret — red/green tubewell (L2), used only if current DPHE guidance confirms it: paint colour alone cannot show the water is safe today. Ask when and by whom it was tested, and get a verified test. Removed if operational guidance cannot be confirmed.",
+    "Bangla bridge — টোপ (L3): a scam is fishing bait. Ask 'ভয়ের টোপ, না লোভের টোপ?' The psychology: urgency makes careful checking harder, so the scammer rushes you.",
+    "Life hack — find the real address (L4): open the link details, take the hostname, then read from the right to find the registrable domain, checking multi-part endings like .com.bd. bkash.com.verify-login.xyz is really verify-login.xyz. Compare its exact spelling with the official domain you already know. HTTPS, a padlock, likes and reviews prove nothing.",
+    "Memory hack — chunking (L5): '১৬২-৪৭', and save hotlines under the name 'জরুরি'. Numbers are shown only after checking official pages, with a 'verified on' date.",
+    "Science — salt + sugar together (L6). Analogy: 'লবণ আর চিনি একসাথে পেটের ভেতর একটা পাম্পের মতো কাজ করে পানি টেনে নেয়' (sodium–glucose co-transport). That is why the label's water volume matters: too little water means too much salt.",
+    "Memory hack — the warning-sign board (L7): the complete DGHS/WHO warning-sign set, grouped on a body map rather than forced into a fixed number. Plus the story twist 'জ্বর নেমে গেল, কিন্তু…' (the risky phase can come after the fever falls).",
+    "Science — evaporation cools (L8). Analogy: 'ঘাম শুকালে ঠান্ডা লাগে; ভেজা কাপড়ে বাতাস দিলে শুকানো তাড়াতাড়ি হয়।' Humid Bangladeshi air slows drying, so humid heat is more dangerous and a fan helps less. It never replaces faster approved cooling or getting help.",
+    "Science — flash-to-bang ÷ 3 = km (L9). Analogy: 'আলো আর শব্দ একসাথে তৈরি হয়, কিন্তু শব্দ ধীরে আসে, তাই দেরি যত বেশি, বাজ তত দূরে।' It only shows how close danger already is; thunder heard means go in now. Bangla bridge: 'শেষ ডাকের পর আধা ঘণ্টা — এক পর্ব নাটক'.",
+    "Insider tip — drowning may be quiet (L10): it often does not look like the splashing and shouting in films, so watch closely rather than listening for it. A purpose-made float is best; an empty capped bottle or jerrycan floats because it is full of air, but it is a last resort with no guarantee.",
+    "Insider tip — the blind-zone warning (L11): if you cannot see the driver's face or mirror, you are probably in a blind zone. Even if you can see them, never assume the driver has seen you. Check every relevant direction for the actual road layout; the crossing sequence is verified with BRTA guidance."
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name_bn": "মগজ আপগ্রেড",
+      "name_en": "Brain Tools",
+      "lessons": [
+        "L1",
+        "L2"
+      ],
+      "can_do": "Remember what you learn and stop false claims before sharing. These two tools are used in every later lesson."
+    },
+    {
+      "level": 2,
+      "name_bn": "টাকা রক্ষা",
+      "name_en": "Protect Your Money",
+      "lessons": [
+        "L3",
+        "L4",
+        "L5"
+      ],
+      "can_do": "Refuse, detect and respond fast to mobile-money and online scams."
+    },
+    {
+      "level": 3,
+      "name_bn": "শরীরের রহস্য",
+      "name_en": "Body Rescue",
+      "lessons": [
+        "L6",
+        "L7",
+        "L8"
+      ],
+      "can_do": "Handle diarrhoea, suspected dengue and heat danger safely at home without diagnosing or dosing, and know when to go straight to hospital."
+    },
+    {
+      "level": 4,
+      "name_bn": "প্রকৃতি ও পথ",
+      "name_en": "Nature & Road",
+      "lessons": [
+        "L9",
+        "L10",
+        "L11"
+      ],
+      "can_do": "Stay safe in lightning, near water and on the road, and protect younger children."
+    },
+    {
+      "level": 5,
+      "name_bn": "শিক্ষক তুমি",
+      "name_en": "You Teach It",
+      "lessons": [
+        "L12"
+      ],
+      "can_do": "Combine everything into a Family Safety Card, pass the mixed boss scenario and teach it back as a fun family challenge."
+    }
+  ],
+  "modules": [
+    {
+      "id": "M1",
+      "title_bn": "মগজ আপগ্রেড: মনে রাখা আর যাচাই করার বিজ্ঞান",
+      "goal": "Give learners the two tools the whole course runs on. Retrieval and spacing make the course stick, and every recall scene in L2–L12 is this technique in action. The source test means learners trust evidence, not forwards.",
+      "lessons": [
+        {
+          "id": "L1",
+          "title_bn": "বারবার পড়ার চেয়ে নিজেকে প্রশ্ন করো — মনে রাখার আসল কৌশল",
+          "can_do": "শেষে তুমি যেকোনো অধ্যায় থেকে ৫টা নিজ-পরীক্ষার প্রশ্ন বানাতে এবং একটা ছড়ানো রিভিশন সূচি (আমাদের অনুশীলন সূচি: পরদিন, ৩ দিন, ৭ দিন পর) সেট করতে পারবে।",
+          "hook": "The night before an exam, two cousins study. Rafi highlights the same page for the third time. Mitu closes the book and asks herself questions. The screen freezes on 'পরের সপ্তাহে কে বেশি মনে রাখবে? তুমি কী করবে?' The learner taps a guess, which is stored for before → after.",
+          "secret": "Bangla bridge: নামতা. Saying a table from memory with the book closed is retrieval practice; chanting it while reading from a visible page is not. Source card: Roediger & Karpicke 2006 and Dunlosky et al. 2013, verified before voicing. Re-reading is not useless, but self-testing usually works better. Optional extra: the memory palace (your own উঠান → রান্নাঘর → পুকুরঘাট), labelled 'জনপ্রিয় কৌশল', with no effectiveness claim.",
+          "practice": [
+            "Learn: a light-up 'memory path' animation. Research links pulling an answer out of memory with longer-lasting recall, while re-reading often only feels familiar.",
+            "Mini-demonstration, explicitly 'a demonstration, not proof': two matched 8-item lists in counterbalanced order, one re-read and one self-tested. A surprise check comes 3 minutes later, and a delayed check the next day is a mission card. On-screen note: one person's 8-item result cannot show that a method works.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'বই বন্ধ করো, নিজেকে প্রশ্ন করো' slow → normal → learner gap.",
+            "Fix: 'হাইলাইট করলেই পড়া হয়ে গেল' → pause/hold → why that feels true but is weaker → retry by writing 3 questions.",
+            "Context: the same trick for SSC biology, a new phone number, and this course's own recall scenes.",
+            "Quizzes ×3 plus boss: a friend has a test in 2 days and wants to re-read all night; choose the best plan.",
+            "Reward: XP only for completed practice (not for watching), recap card, hook guess vs answer (before → after), streak, teaser: 'খালার ফরোয়ার্ড কি সত্যি?'"
+          ],
+          "roleplay": "Mitu coaches a younger cousin. Subtitled first, then 'তোমার পালা' gaps where the learner says how to turn a page into questions. Answer modes in this order: tap the script chips, type, or (optional) speak.",
+          "mission": "Artefact: type, or optionally photograph, 5 self-written questions from your own textbook, and set 3 in-app review reminders. Real life (self-reported, ungraded): answer them tomorrow without looking and log your score. The app shows it beside your first-try score.",
+          "tech": [
+            "Decision simulator (quiz engine)",
+            "Say-the-action gap (chips/type first, voice optional)",
+            "Spaced push reminders (existing)",
+            "Offline recap PNG"
+          ],
+          "recall_of": []
+        },
+        {
+          "id": "L2",
+          "title_bn": "'যা রটে তা বটে?' — ভাইরাল খবরের ৩ প্রশ্ন পরীক্ষা",
+          "can_do": "শেষে তুমি একটা ভাইরাল স্বাস্থ্য বা খবরের পোস্টে ৩ প্রশ্ন চালাতে পারবে (কে বলেছে? কবে? মূল/সরকারি বা ফ্যাক্ট-চেক সূত্র কী বলে?)। এর ভিত্তিতে ২ মিনিটে 'শেয়ার করব / করব না' সিদ্ধান্ত নিতে এবং ফ্যামিলি গ্রুপে সম্মান রেখে ভদ্রভাবে উত্তর লিখতে পারবে। নির্ভরযোগ্য সমর্থন না পেলে সঠিক উত্তর 'অযাচাইকৃত — এখন শেয়ার করব না'।",
+          "hook": "The family WhatsApp group pings. খালা has forwarded 'লেবু-গরম পানিতে ডেঙ্গু সেরে যায়, সবাই শেয়ার করুন!' with 200 forwards. The screen freezes on 'শেয়ার করবে?'",
+          "secret": "Two secrets.\n(1) Myth bridge: the proverb 'যা রটে তা বটে' is itself the myth. Many forwards do not equal evidence. Prebunking research (Roozenbeek et al., Science Advances 2022, verified before voicing) shows that learning manipulation tricks in advance helps people spot them. Not finding a claim on an official site is a reason to pause; it is not proof that the claim is false.\n(2) Red/green tubewell, included only if current DPHE (or other responsible Bangladesh authority) guidance confirms it. Paint colour alone cannot show that the water is safe today. Paint fades, tests age and well status changes. Ask when and by whom it was tested, and use a verified testing service. The example is removed if this guidance cannot be confirmed.",
+          "practice": [
+            "Learn: the 3 questions as 3 coloured icons (who / when / original source), plus the trick of reading sideways: open a new tab and search what DGHS, WHO, icddr,b, Rumor Scanner or Dismislab say.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'কে বলেছে? কবে? মূল সূত্র কী?' slow → normal → learner gap.",
+            "Myth-or-fact swipe: 8 synthetic Bangladeshi-style forwards. Each card flips to its source, and wrong swipes return in later recall scenes.",
+            "Fix: 'ব্লু টিক আছে / অনেক লাইক / AI বলেছে, তাই সত্যি' and 'সরকারি সাইটে পাইনি, তাই নিশ্চিত মিথ্যা' → hold → why neither is proof → retry with the 3 questions.",
+            "Context: a health cure claim, an old flood photo reposted as new, a fake 'job circular'.",
+            "Quizzes ×3 plus boss: a forward claims a bKash 'bonus' and also a health tip; triage both.",
+            "Reward: XP for completed practice, recap, before → after on the 'শেয়ার করবে?' guess, streak, teaser: 'বিকাশ হেড অফিস থেকে ফোন…'"
+          ],
+          "roleplay": "The family group chat. The learner taps, types or (optionally) speaks a reply that respects an elder: emotion first, blame the source rather than খালা, and 'আমরা' instead of 'আপনি'. Model reply: 'খালা, খবরটা দেখে আমিও ভয় পেয়েছিলাম! পরে স্বাস্থ্য অধিদপ্তরের (DGHS) পেইজে খুঁজলাম, কিন্তু নির্ভরযোগ্য কোনো সমর্থন খুঁজে পাইনি। হয়তো কোনো ভুয়া পেইজ থেকে ছড়িয়েছে, তাই আমরা এখন আর ফরোয়ার্ড না করি।'",
+          "mission": "Artefact: a 4-box source-check card (claim, who, when, verdict) about one real forward. Paste the claim text only; a cropped screenshot is optional. Never upload names or numbers.",
+          "tech": [
+            "Myth-or-fact swipe cards",
+            "Source-check card form (local save)",
+            "Say-the-action gap (chips/type first, voice optional)",
+            "Updateable source-card component"
+          ],
+          "recall_of": [
+            "L1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "title_bn": "টাকা রক্ষা: স্ক্যামারের টোপ চেনো",
+      "goal": "Learners recognise the real scam scripts used in Bangladesh, have a counter-script rehearsed, read links and apps like an insider, and know how to stop further damage and report fast through the real Bangladeshi route (provider hotline, thana GD). They are never told recovery is guaranteed, and victims are never blamed: 'স্মার্ট মানুষও ধরা খায়, তাই স্ক্রিপ্ট মুখস্থ রাখো'.",
+      "lessons": [
+        {
+          "id": "L3",
+          "title_bn": "'বিকাশ হেড অফিস থেকে বলছি' — কোড, পিন, স্ক্রিন: তিনটাই কারো হাতে না",
+          "can_do": "শেষে তুমি নকল MFS কলে কোনো কোড/OTP, পিন বা স্ক্রিন-শেয়ার না দিয়ে মুখস্থ বাক্য বলে ১০ সেকেন্ডের মধ্যে কল কেটে দিতে পারবে। তারপর নিজে অফিসিয়াল অ্যাপ বা কার্ডে থাকা নম্বরে ফোন করে যাচাই করার সিদ্ধান্ত নিতে পারবে।",
+          "hook": "A phone rings on a rickshaw. A polite voice says: 'আসসালামু আলাইকুম স্যার, বিকাশ হেড অফিস থেকে বলছি। সিস্টেম আপডেটের কারণে আপনার একাউন্ট সাময়িক লক… একটা ভেরিফিকেশন কোড পাঠাচ্ছি, বলুন।' The caller knows your name. Freeze: 'তুমি কী বলবে?'",
+          "secret": "Bangla bridge: টোপ. Every scam is bait, either fear ('একাউন্ট বন্ধ') or greed ('ক্যাশ-ইন/পুরস্কার'). Ask 'ভয়ের টোপ না লোভের টোপ?' Psychology: urgency makes careful checking harder. That is why scammers rush you, and why hanging up takes the pressure away. bKash's stated rule that it never asks for PIN/OTP is quoted from its official page, checked in the production month.",
+          "practice": [
+            "Learn: one rule with three locks (কোড, পিন, স্ক্রিন), including remote-access apps of the AnyDesk type.",
+            "Fake-call simulator: an incoming-call UI where the learner chooses hang up / talk / give code. The countdown is generous on the first try and tighter on replays.",
+            "Speak / say-the-action (tap chips or type first; voice optional): 'আমি কাউকে কোড বা পিন দিই না। আমি নিজে অফিসিয়াল নম্বরে ফোন করব।' Model slow, then normal, then learner gap.",
+            "Fix: 'সে আমার নাম আর ব্যালান্স জানে, তাহলে আসল' → hold → why leaked data proves nothing → retry.",
+            "Context: a 'cash-in pending' SMS, a Messenger 'gift' link, a fake 'SIM re-registration' call.",
+            "Quizzes ×3 plus boss: the scammer knows your name and balance, claims to be police and pushes you to install a 'support app'.",
+            "Reward: XP for completed practice, recap, before → after, streak, teaser: 'ঈদের অফার — ৳১২,০০০-এর ফোন ৳৩,৫০০!'"
+          ],
+          "roleplay": "An anime-style scammer escalates through polite, then urgent, then threatening. The learner first watches with subtitles, then plays 'তোমার পালা' at three pressure points with the realistic Bangladeshi script (chips/type first, voice optional).",
+          "mission": "Artefact: a typed (or optionally recorded) refusal script built from structured chips. Self-reported and ungraded: a tick that you told one family member the 'কোড-পিন-স্ক্রিন' rule. Never ask for any real code or account detail.",
+          "tech": [
+            "Fake-call/inbox simulator (GDS-lab pattern)",
+            "Say-the-action gap (chips/type first, voice optional)",
+            "Deterministic structured-choice scoring",
+            "Updateable hotline card"
+          ],
+          "recall_of": [
+            "L1",
+            "L2"
+          ]
+        },
+        {
+          "id": "L4",
+          "title_bn": "ফেক পেজ, ফেক লিংক, ক্লোন অ্যাপ — আসল ঠিকানা বের করো",
+          "can_do": "শেষে তুমি লিংকের বিস্তারিত খুলে hostname আলাদা করতে, তার রেজিস্টার করা আসল ডোমেইন বের করতে (.com.bd-এর মতো দুই অংশের শেষাংশসহ) এবং আগে থেকে জানা অফিসিয়াল ডোমেইনের সাথে অক্ষর ধরে মিলাতে পারবে। অ্যাপের ডেভেলপার নাম মিলাতে এবং কোনো ফেসবুক দোকানে টাকা দেওয়ার আগে অন্তত ৫টা যাচাই করে কারণসহ 'কিনব / থামব / বাদ' সিদ্ধান্ত নিতে পারবে।",
+          "hook": "Eid shopping. A page sells a ৳12,000 phone for ৳3,500, 'শুধু আজ, অগ্রিম বিকাশ করুন'. The page has 5k likes. Freeze: 'অর্ডার দেবে?'",
+          "secret": "Insider tip: find the real address. Long-press or open the link details and take the hostname, the part between '://' and the next '/'. Ignore anything before an '@'. Then read from the right to find the registrable domain, the part a company actually buys. bkash.com.verify-login.xyz belongs to verify-login.xyz. In shop.example.com.bd the domain is example.com.bd; .com.bd is only the country ending. Watch for lookalike letters (e.g. a Unicode 'à' or 'rn' posing as 'm'). Compare the exact spelling with the official domain you know from the app, the packet or the card, never from the message itself. HTTPS, a padlock, likes, reviews and even a developer name are not proof on their own, so use several checks together.",
+          "practice": [
+            "Learn: link anatomy as a big coloured ruler on screen. A large fake link such as www.bkash.com.verify-login.xyz appears, and the real domain lights up in red. The .com and .com.bd examples are shown side by side, with app developer name and permissions as icons.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'আগে আসল ডোমেইন, পরে টাকা' slow → normal → learner gap.",
+            "Fake-inbox simulator: 6 synthetic posts, links (including a .com.bd lookalike, an '@' trick and a no-path link) and app-store screens. The learner taps the red flag and decides buy, pause or reject.",
+            "Fix: 'পেজে অনেক লাইক / তালা চিহ্ন আছে, তাই নিরাপদ' → hold → retry with the checklist: exact domain, page age, independent reviews, too-cheap price, address, return policy, COD or merchant payment, pressure tactics.",
+            "Context: a dress page, a 'job offer' asking for a fee, a 'free data' link.",
+            "Quizzes ×3 plus boss: a cloned 'Nagad update' app link arrives in a group chat during a cash-in rush.",
+            "Reward: XP for completed practice, recap, before → after on the 'অর্ডার দেবে?' guess, streak, teaser: 'মা ভুল নম্বরে ৳৫,০০০ পাঠিয়ে ফেলেছেন…'"
+          ],
+          "roleplay": "A chat with a pushy seller. The learner asks verification questions and declines advance payment in the 'তোমার পালা' gaps: 'অগ্রিম দেব না ভাই, ক্যাশ অন ডেলিভারি হলে নেব।' (chips/type first, voice optional).",
+          "mission": "Artefact: a simulated task inside the app. Start from the official domain you already know (typed from the official app or card), go to the store listing, and type the developer name you found. Screenshots of your own phone are not required.",
+          "tech": [
+            "Fake-inbox simulator",
+            "Link-ruler widget (plain JS, approved public-suffix list)",
+            "Decision simulator",
+            "Say-the-action gap (chips/type first, voice optional)"
+          ],
+          "recall_of": [
+            "L3",
+            "L2"
+          ]
+        },
+        {
+          "id": "L5",
+          "title_bn": "টাকা চলে গেছে! প্রথম ১০ মিনিটে ক্ষতি থামাও, দ্রুত রিপোর্ট করো",
+          "can_do": "শেষে তুমি ঘটনার ধরন বুঝে সঠিক শাখা বেছে নিতে পারবে: কোড/পিন দিয়ে ফেলা বা রিমোট অ্যাপ ইনস্টল, সিম হঠাৎ বন্ধ, অননুমোদিত লেনদেন, নিজে স্ক্যামারকে পাঠানো, আর আলাদা পথ হিসেবে ভুল নম্বরে পাঠানো। তারপর ৬টা ধাপ ৬০ সেকেন্ডে সঠিক ক্রমে সাজাতে পারবে: (১) অন্য নিরাপদ ফোন বা হটলাইন দিয়ে আরও অ্যাক্সেস বন্ধ করা → (২) অফিসিয়াল অ্যাপ/কার্ডে পাওয়া প্রোভাইডার হটলাইনে অভিযোগ করে TrxID ও অভিযোগ নম্বর নেওয়া → (৩) ধাপ ১–২ দেরি না করে প্রমাণ সেভ → (৪) থানায় বা যাচাইকৃত অনলাইন পোর্টালে জিডি (GD) করা → (৫) জিডির কপি প্রোভাইডার ও যাচাইকৃত সাইবার পুলিশ/বাংলাদেশ ব্যাংক চ্যানেলে জমা → (৬) পরিবারকে সতর্ক করা। এছাড়া ব্যাখ্যা করতে পারবে যে দ্রুত রিপোর্ট সাহায্য করে কিন্তু টাকা ফেরতের নিশ্চয়তা নেই, এবং কোনো সংস্থা বা 'রিকভারি এজেন্ট' পিন, OTP বা অগ্রিম ফি চায় না।",
+          "hook": "Ma just sent ৳5,000 to a 'hospital emergency' number. Her hands shake. The clock starts at 10:00. Freeze: 'প্রথমে কী করবে?'",
+          "secret": "Memory hack: chunk the hotline numbers (e.g. '১৬২-৪৭') and save them under 'জরুরি'. Street-smart insider tip: providers and police usually ask for a thana GD (জিডি, General Diary) copy before they can act on the recipient account, so file it fast. This procedure is verified with the provider and Police in the production month. Also from the reporting guides: money you sent yourself is usually harder to recover than an unauthorised transaction, so speed matters. Numbers and portal addresses are shown only if verified in the production month, on an editable on-screen card with a 'verified on' date. They are never voiced.",
+          "practice": [
+            "Learn: a 6-step ladder animation (থামাও, জানাও, সেভ করো, জিডি, জমা দাও, সতর্ক করো), plus a branch picker by incident type. Wrong-number transfer follows its own path. SIM loss adds 'call your mobile operator'.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'আগে থামাও, তারপর জানাও, তারপর জিডি' slow → normal → learner gap.",
+            "Timed step-ordering drill (60 s), with parallel versions and different incident types on retry.",
+            "Evidence game on a mock phone with synthetic data: collect the screenshot, fraudster number, TrxID and time.",
+            "Fix: 'লজ্জায় কাল বলব' → hold → why waiting hurts and why no one should be blamed → retry.",
+            "Context: a wrong-number send, a fake shop that vanished, a hacked Facebook account asking friends for money.",
+            "Quizzes ×3 plus boss: the scam happened 20 minutes ago, Ma feels ashamed, and a 'recovery agent' calls asking for a fee (a second scam).",
+            "Reward: XP for completed practice, recap, before → after, Money Shield badge, streak, teaser: 'ছোট ভাইয়ের পাতলা পায়খানা, এক গ্লাসে পুরো প্যাকেট…'"
+          ],
+          "roleplay": "The learner calls a simulated helpline agent and states the facts clearly (TrxID, time, number), then tells the thana duty officer 'একটা জিডি করতে চাই'. Finally the learner calms Ma with a no-blame script in the 'তোমার পালা' gaps (chips/type first, voice optional).",
+          "mission": "Artefact: build the in-app emergency contact card, filled automatically from verified numbers with the 'verified on' date, and tick 'saved on my phone' (self-reported). Never upload a contact list, phone numbers or a TrxID.",
+          "tech": [
+            "Step-ordering drill with incident branches",
+            "Mock-phone evidence game",
+            "Family Safety Card builder (first part)",
+            "Updateable hotline card with verified-on date"
+          ],
+          "recall_of": [
+            "L3",
+            "L4",
+            "L1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "title_bn": "শরীরের রহস্য: ঘরে সঠিক কাজ, সময়মতো হাসপাতাল",
+      "goal": "Three home situations where the right action is simple and the wrong one is common. Each lesson explains the body science with an everyday comparison. It never asks the learner to diagnose or dose, never tells them to start, stop or substitute a medicine, and always ends with 'কখন সরাসরি হাসপাতাল' plus the 999 option. A named MBBS reviewer signs off before release and appears in the credits.",
+      "lessons": [
+        {
+          "id": "L6",
+          "title_bn": "ওরস্যালাইন: বাংলাদেশের গর্বের গল্প, কিন্তু আমরা প্রায়ই ভুল বানাই",
+          "can_do": "শেষে তুমি ডায়রিয়ায় পানিশূন্যতার জন্য যেকোনো ORS প্যাকেটের লেবেল থেকে কত পানি লাগবে তা বের করতে পারবে (সাধারণ বাংলাদেশি প্যাকেটে সাধারণত আধা লিটার, মানে একটা ৫০০ মিলি পানির বোতল)। মাপা বোতলে মেশানোর ধাপ সঠিক ক্রমে সাজাতে, অনুমোদিত নিয়মে খাওয়ানোর কথা বলতে এবং হাসপাতালে যাওয়ার বিপদচিহ্ন (বারবার বমি, পান করতে না পারা, খুব নিস্তেজ হয়ে পড়া ইত্যাদি) চিনতে পারবে।",
+          "hook": "A 1970s-style Dhaka field scene shifts to today. Choto bhai has diarrhoea and someone dissolves a whole packet in a small tea glass. Freeze: 'ঠিক হচ্ছে?'",
+          "secret": "Science with an analogy: 'লবণ আর চিনি একসাথে পেটের ভেতর একটা পাম্পের মতো কাজ করে পানি টেনে নেয়' (sodium–glucose co-transport). That is why the label's water volume matters: too little water makes it too salty, which can harm. Bangla pride, worded accurately: Bangladesh and icddr,b played a historic role in developing, field-testing and scaling oral rehydration. No 'single inventor' claim, and no '70 million lives' figure unless a primary source confirms it. Native correction: the classic mistake is a whole packet in a small tea glass. Bottle hack: standard packets (e.g. Orsaline-N type, verified in the production month) take আধা লিটার, which is one 500 ml mineral-water bottle. Always read the label first.",
+          "practice": [
+            "Learn: a 'too salty vs right' animated glass, then the packet-first 5 steps: read the label → measure the label's volume in a bottle (usually one 500 ml water bottle) → mix → give in small amounts often, using the approved official wording → store and discard as the label and current official guidance say.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'আগে লেবেল, তারপর আধা লিটারের বোতল' slow → normal → learner gap.",
+            "Packet-label lab: about 80% of mock packets show the real Bangladeshi 500 ml standard, and 1–2 show a different volume (e.g. a 1-litre hospital/foreign packet). The learner reads every label instead of assuming.",
+            "Fix: 'বেশি ঘন = বেশি শক্তি' → hold → why that is dangerous → retry.",
+            "Context: a child with diarrhoea, an elderly relative with diarrhoea, a damaged or unreadable packet (don't use it; ask a pharmacist).",
+            "Homemade backup appears only if current national or WHO guidance and the MBBS reviewer approve the exact utensils and wording (candidate: 6 level teaspoons sugar + ½ level teaspoon salt in 1 L clean water, 'আধা — বেশি না'). Otherwise the lesson is packet-only. The vague 'চিমটি/মুঠো' লবণ-গুড় method is never shown.",
+            "Quizzes ×3 plus boss: a toddler with diarrhoea who is now drowsy, vomiting and not drinking. The answer is hospital now, not more ORS at home.",
+            "Reward: XP for completed practice, recap, before → after on the tea-glass guess, streak, teaser: 'জ্বর তো গেছে! — সত্যিই?'"
+          ],
+          "roleplay": "The learner guides an older sister through the steps by phone in the 'তোমার পালা' gaps, including spotting the red flags (chips/type first, voice optional).",
+          "mission": "Artefact: the label-reading record (brand-free: the water volume you found on a real or mock packet) plus the step-order card. Mixing a real batch is optional; no one drinks it as a test, and no photo is required. Teach-back, framed as a mini family challenge: explain the 5 steps to one family member. This is self-reported and ungraded; the optional recording or text is enrichment only.",
+          "tech": [
+            "Packet-label lab widget",
+            "Step-ordering drill",
+            "Say-the-action gap (chips/type first, voice optional)",
+            "Offline recap PNG"
+          ],
+          "recall_of": [
+            "L2",
+            "L5",
+            "L1"
+          ]
+        },
+        {
+          "id": "L7",
+          "title_bn": "ডেঙ্গু: পাতা কাটার আগে আসল নাম পড়ো, আর ১০ মিনিটের মশা শিকার",
+          "can_do": "শেষে তুমি ফার্মেসিতে পাতা কাটার আগে পুরো পাতাটা দেখতে চেয়ে জেনেরিক নাম পড়তে পারবে, এবং aspirin/ibuprofen/diclofenac জাতীয় NSAID চিহ্নিত করে আলাদা রাখতে পারবে। মনে রাখবে, তালিকায় নাম নেই বলেই কোনো ওষুধ নিরাপদ নয়, তাই যেকোনো জ্বর/ব্যথার ওষুধের আগে ডাক্তার বা ফার্মাসিস্টকে জিজ্ঞেস করার সিদ্ধান্ত নেবে। DGHS/WHO-র সম্পূর্ণ বিপদচিহ্নের তালিকা দলভাগ করে চিনে 'এখনই হাসপাতাল' সিদ্ধান্ত নিতে এবং বাড়ির পানি জমা পাত্র খুঁজে খালি-পরিষ্কার-ঢাকার চেকলিস্ট শেষ করতে পারবে।",
+          "hook": "Bhaiya has had fever for 3 days. A neighbour offers 'ব্যথার ভালো ওষুধ'. On day 4 he says 'জ্বর তো গেছে!' Freeze: 'এখন কি নিশ্চিন্ত?'",
+          "secret": "Memory hack: the warning-sign board. The complete current DGHS/WHO warning-sign list is grouped on a body map (e.g. belly, bleeding, behaviour/weakness, other) rather than forced into a fixed number. Add the story twist 'জ্বর নেমে গেল, কিন্তু…', because danger can begin as the fever falls (CDC/WHO guidance, verified). Insider tip: the brand name is printed big and the generic name small, and that small print is the real medicine. Read it on the uncut strip, because cutting 2 tablets can cut the name off. Nature fact (exact wording verified with DGHS/WHO): Aedes can breed in very small amounts of clean standing water and often bites in the daytime. Clean all containers, not just dirty drains.",
+          "practice": [
+            "Learn: a body map with the warning-sign groups glowing, and an Aedes life-cycle animation in a flower-pot tray.",
+            "Big close-up of a realistic mock strip: large brand name, small generic name, with the voice-over 'এই ছোট লেখাটাই আসল ওষুধের নাম, এটা পড়ো।'",
+            "Speak (tap chips or type first; voice optional): Tanvir models the pharmacy line slow → normal → learner gap.",
+            "Medicine-shelf sim: realistic mock strips with invented brand names, some partly cut. The learner finds the generic name, flags the NSAID category, and for every other medicine chooses 'ডাক্তার/ফার্মাসিস্টকে জিজ্ঞেস করব'. No doses are ever stated, and no medicine is recommended.",
+            "Fix: 'জ্বর কমেছে = সুস্থ' and 'তালিকায় নেই = নিরাপদ' → hold → retry with the twist.",
+            "Context: a neighbour's child, a hostel roommate, an elderly relative.",
+            "Quizzes ×3 plus boss: a fever patient with abdominal pain, plus a fake 'dengue test at home' bKash offer (recalls L3). Any severe deterioration means hospital now.",
+            "Reward: XP for completed practice, recap, before → after, streak, teaser: 'মে মাসের দুপুরে রিকশাওয়ালা হঠাৎ এলোমেলো কথা বলছেন…'"
+          ],
+          "roleplay": "At a crowded pharmacy counter, the learner says (chips/type first, voice optional): 'ভাই, ডেঙ্গুর ভয় আছে, পাতা কাটার আগে পুরো পাতাটা একটু দেখান তো — জেনেরিক নামটা কী? ব্যথার ওষুধ (আইবুপ্রোফেন/ডাইক্লোফেনাক/অ্যাসপিরিন জাতীয়) হলে নেব না; কোনটা খাওয়া যাবে ডাক্তারকে জিজ্ঞেস করে নেব।' Then the learner says the 'এখনই হাসপাতাল' script when a warning sign appears.",
+          "mission": "Artefact: a 10-minute house container hunt as a tap checklist (pot tray, fridge tray, tyre, bucket, bottle caps: emptied, scrubbed, covered). Photos are optional. Set a repeat reminder at the interval DGHS/WHO recommends (weekly if confirmed).",
+          "tech": [
+            "Medicine-shelf decision sim (realistic labels, cut strips)",
+            "Tap checklist with optional photo",
+            "Say-the-action gap (chips/type first, voice optional)",
+            "Spaced push reminders"
+          ],
+          "recall_of": [
+            "L6",
+            "L2",
+            "L3"
+          ]
+        },
+        {
+          "id": "L8",
+          "title_bn": "হিটস্ট্রোক: ঘাম কেন ঠান্ডা করে, আর কখন সেটা আর কাজ করে না",
+          "can_do": "শেষে তুমি একটা দৃশ্যে সম্ভাব্য হিটস্ট্রোকের লক্ষণ (বিভ্রান্তি, অসংলগ্ন কথা, ঢলে পড়া) চিনতে পারবে। তারপর টাইমারের মধ্যে কাজ ভাগ করে দিতে পারবে: একজন সাহায্য/৯৯৯ ডাকবে, একই সাথে অন্যরা ছায়ায় সরাবে, বাড়তি কাপড় খুলবে এবং হাতের কাছে থাকা দ্রুততম নিরাপদ ঠান্ডা করার পদ্ধতি শুরু করবে। হাসপাতালে নেওয়ায় দেরি করবে না, আর বিভ্রান্ত বা অজ্ঞান কাউকে জোর করে পানি খাওয়াবে না।",
+          "hook": "A May afternoon in Dhaka. A rickshaw puller starts talking nonsense, then sits down hard. People crowd round. Freeze: 'প্রথম ৩০ সেকেন্ডে কী করবে?'",
+          "secret": "Science with an analogy: 'ঘাম শুকালে ঠান্ডা লাগে; ভেজা কাপড়ে বাতাস দিলে সেই শুকানো তাড়াতাড়ি হয়।' Humid Bangladeshi air slows drying, which is why humid heat is more dangerous. It is also why a fan with a wet cloth may help but works less well in humidity. It is never a reason to delay stronger approved cooling or transport. Myth-bust: 'হিটস্ট্রোক হলে ঘাম থাকে না'. Sweating can still be present, so confusion is the key sign. The full cooling sequence is taken from current WHO/CDC/DGHS heat guidance and approved by the MBBS reviewer.",
+          "practice": [
+            "Learn: an evaporation animation, with 'heat exhaustion vs heatstroke' shown as two coloured lanes. The deciding sign is a change in mental state.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'তুমি ফোন করো, আমরা ঠান্ডা করছি' slow → normal → learner gap.",
+            "Parallel task-assignment sim with parallel versions: assign 'call' and 'move + cool' to different bystanders at the same time. Making cooling wait for the call scores as a mistake.",
+            "Fix: 'শুধু বৃদ্ধরা ঝুঁকিতে' → hold → outdoor workers, athletes, children and students in hot classrooms are at risk too → retry.",
+            "Context: a cricket match at noon, an exam hall in a heatwave, a construction worker.",
+            "Quizzes ×3 plus boss: the collapsed man's relative gets a 'hospital bill — bKash now' call (recalls L3), and a bystander tries to pour ORS mixed in a tea glass into the confused man's mouth (recalls L6). The correct answer is no fluids for a confused person.",
+            "Reward: XP for completed practice, recap, before → after, Body Rescue badge, streak, teaser: 'মাঠে ঘুড়ি, আকাশে মেঘের ডাক…'"
+          ],
+          "roleplay": "The learner directs bystanders in the 'তোমার পালা' gaps (chips/type first, voice optional): 'ভাই, আপনি ৯৯৯-এ ফোন দেন; আমরা ছায়ায় নিচ্ছি, বাড়তি কাপড় খুলে পানি দিয়ে ভিজিয়ে বাতাস করছি। জোর করে পানি খাওয়াবেন না।' The roleplay never shows fluids being given to a confused person.",
+          "mission": "Artefact: a family 'হিট দিনের পরিকল্পনা' card from the template (water breaks, shade times, who to call), saved or printed. A fridge photo is optional.",
+          "tech": [
+            "Parallel task-assignment sim",
+            "Template card builder",
+            "Say-the-action gap (chips/type first, voice optional)"
+          ],
+          "recall_of": [
+            "L6",
+            "L3",
+            "L7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M4",
+      "title_bn": "প্রকৃতি ও পথ: বজ্র, পানি, রাস্তা",
+      "goal": "Turn the three biggest preventable killers of young Bangladeshis into automatic rules, each powered by a piece of 'how it works' science told through an everyday comparison. Use respectful fictional reconstructions only: no real victims, no gore. No mission ever puts the learner in danger. A named safety reviewer signs off before release.",
+      "lessons": [
+        {
+          "id": "L9",
+          "title_bn": "বজ্রপাত: মেঘ ডাকলেই ঘরে, শেষ ডাকের পর আধা ঘণ্টা",
+          "can_do": "শেষে তুমি ঝড়ের দৃশ্যে সবচেয়ে নিরাপদ আশ্রয় বেছে নিতে পারবে: পাকা ভবন, অথবা পুরো বন্ধ শক্ত-ধাতব-ছাদের গাড়ি। খোলা ছাউনি, যাত্রী ছাউনি, বারান্দা আর একা দাঁড়ানো গাছকে অনিরাপদ বলে চিনতে পারবে। ঘরের ভেতরের ৫টা ঝুঁকি (কল/পানি, তারযুক্ত যন্ত্র, জানালা ইত্যাদি) চিহ্নিত করতে এবং শেষ বজ্রধ্বনির পর ৩০ মিনিট অপেক্ষার নিয়ম প্রয়োগ করতে পারবে।",
+          "hook": "Two fictional teenagers fly kites in an open field as dark clouds build and thunder rumbles. One says 'আরেকটু!' Freeze: 'তুমি কী করবে?'",
+          "secret": "Science with an analogy: 'আলো আর শব্দ একসাথে তৈরি হয়, কিন্তু শব্দ ধীরে আসে, তাই দেরি যত বেশি, বাজ তত দূরে।' Seconds from flash to thunder ÷ 3 = distance in km, because sound travels about 343 m/s. The headline rule stays 'মেঘ ডাকলেই ঘরে', because if you can hear thunder you are close enough to be struck (NOAA/CDC). The counter only appears after the learner has already chosen 'এখনই ঘরে'. Distance never decides whether to stay outside. Bangla bridge: 'শেষ ডাকের পর আধা ঘণ্টা, এক পর্ব নাটক'. Indoor fact: the 'about one-third of injuries indoors' figure is used only if the CDC original wording is confirmed, otherwise dropped. Exact definitions of a safe building and a fully enclosed hard-topped vehicle come from reviewed guidance.",
+          "practice": [
+            "Learn: a house cross-section animation where risky spots (taps, wired devices, windows) glow, and a safe-vs-unsafe shelter sort: substantial enclosed building or fully enclosed hard-topped vehicle vs open shed, bus stop, porch or lone tree.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'মেঘ ডাকলেই ঘরে' slow → normal → learner gap.",
+            "Flash-to-bang counter widget, unlocked only after the 'go in now' choice: tap at the flash, tap at the thunder, and see the km. Its lesson is 'already close: going in was right'.",
+            "Fix: 'গাছের নিচে দাঁড়াই' and 'খোলা টিনের ছাউনিতে দাঁড়ালেই নিরাপদ' → hold → why not → retry. No crouch technique is presented as a substitute for shelter.",
+            "Context: a paddy field at work, a cricket ground, a boat on a river (rules verified with DDM/BMD).",
+            "Quizzes ×3 plus boss: rain stops after 10 minutes and friends want to resume the match.",
+            "Reward: XP for completed practice, recap, before → after, streak, teaser: 'পুকুরপাড়ে ছোট্ট কাজিন — কোনো শব্দ নেই…'"
+          ],
+          "roleplay": "The learner convinces friends to stop the kite flying and come inside, using the 'তোমার পালা' gaps (chips/type first, voice optional).",
+          "mission": "Artefact: a home lightning-hazard tap checklist plus a family rule card ('মেঘ ডাকলে ঘরে — আধা ঘণ্টা'). Never go outside during a storm for the mission.",
+          "tech": [
+            "Flash-to-bang counter widget (locked behind go-in choice)",
+            "Decision simulator",
+            "Tap checklist",
+            "Say-the-action gap (chips/type first, voice optional)",
+            "Optional single 4 s Veo hook clip (default: skip, use Remotion)"
+          ],
+          "recall_of": [
+            "L1",
+            "L8",
+            "L5"
+          ]
+        },
+        {
+          "id": "L10",
+          "title_bn": "পানিতে ডোবা প্রায়ই নিঃশব্দ: 'নেমো না — বাড়াও বা ছুঁড়ে দাও' আর ছোটদের পাহারা",
+          "can_do": "শেষে তুমি পুকুরপাড়ের দৃশ্যে পানিতে না নেমে সাহায্যের ধাপ সঠিক ক্রমে বাছতে পারবে: চিৎকার করে সক্ষম প্রাপ্তবয়স্ক/উদ্ধারকারীকে ডাকা ও একই সাথে যাচাইকৃত জরুরি নম্বরে ফোন → শক্ত মাটিতে শুয়ে/বসে লম্বা কিছু বাড়ানো → ভাসমান জিনিস ছুঁড়ে দেওয়া (বিশেষভাবে বানানো বয়া থাকলে সেটা; না থাকলে খালি বোতল/জেরিক্যান শেষ উপায়) → নিজে না নামা। মানুষটাকে তোলার পর সাড়া আর শ্বাস দেখতে, জরুরি সাহায্য চালু রাখতে এবং প্রশিক্ষিত কাউকে CPR শুরু করতে বলার সিদ্ধান্ত নিতে পারবে। এছাড়া বাড়ির শিশু-পানি নিরাপত্তার মানচিত্রে বাধা, দায়িত্বশীল প্রাপ্তবয়স্ক পাহারাদার ও সাহায্যের জায়গা চিহ্নিত করতে পারবে।",
+          "hook": "A sunny village afternoon. A small cousin wanders toward the pond while the adults chat. There is no splash and no scream. Freeze: 'কিছু কি ঘটছে?'",
+          "secret": "Insider tip: drowning may be quiet and hard to recognise. It often does not look like the splashing and shouting in films (the instinctive drowning response), so watch rather than listen, though this is not a rule for diagnosing it. Science: a purpose-made float is best. An empty capped bottle or jerrycan floats because it is full of air (buoyancy), but improvised items are last-resort aids with no guarantee. Prevention works in layers (CIPRB/UNICEF): an attentive adult watcher, a barrier or fence, creche care, trained swimming lessons, and emergency response. The full sequence is checked by the safety reviewer.",
+          "practice": [
+            "Pond-side rescue sim with choices. 'Jump in' always triggers a respectful explanation of why rescuers drown too.",
+            "Learn: the sequence 'চিৎকার + ফোন → বাড়াও → ছুঁড়ে দাও → নেমো না' animated, with firm footing and lying down when reaching. Then 'তোলার পর: সাড়া আর শ্বাস দেখো, জরুরি সাহায্য, প্রশিক্ষিত কেউ CPR'.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'নেমো না — বাড়াও বা ছুঁড়ে দাও' slow → normal → learner gap.",
+            "Fix: 'সাঁতার জানলেই নিরাপদ' and 'বড় ভাইবোন দেখলেই হবে' → hold → a capable adult plus barriers plus training → retry.",
+            "Context: a ditch beside the house, a bucket or drum indoors (under-5s), a river ghat on an outing.",
+            "Quizzes ×3 plus boss: a storm builds while children are at the pond (recalls L9).",
+            "Reward: XP for completed practice, recap, before → after, streak, teaser: 'থেমে থাকা বাসের পেছন থেকে বের হলে…'"
+          ],
+          "roleplay": "The learner hands over watch duty to an adult with a clear sentence ('খালা, এখন থেকে আপনি পুকুরের দিকে চোখ রাখবেন, আমি যাচ্ছি'). In a rescue scene, the learner shouts for help and tells someone to call the emergency number, using the 'তোমার পালা' gaps (chips/type first, voice optional).",
+          "mission": "Artefact: a household water-hazard map drawn on a blank in-app canvas (no GPS), marking water points, barrier ideas, the adult watcher and the call point. Swimming and CPR are not taught by video; the lesson refers learners to CIPRB/SwimSafe and Red Crescent hands-on training.",
+          "tech": [
+            "Pond-side decision sim",
+            "Sketch canvas (no location)",
+            "Say-the-action gap (chips/type first, voice optional)"
+          ],
+          "recall_of": [
+            "L9",
+            "L3",
+            "L6"
+          ]
+        },
+        {
+          "id": "L11",
+          "title_bn": "রাস্তা: চালক তোমাকে দেখছে, ধরে নিয়ো না — অন্ধ কোণ আর পেছনের সিটের হেলমেট",
+          "can_do": "শেষে তুমি রাস্তা পারাপারের দৃশ্যে নিরাপদ আর অনিরাপদ জায়গা বাছতে পারবে (থেমে থাকা বাসের সামনে বা পেছন দিয়ে নয়)। রাস্তার আসল গঠন অনুযায়ী (একমুখী, ডিভাইডারওয়ালা, মোড়) সব দিকের গাড়ি আর বাঁক নেওয়া গাড়ি দেখে তবেই পার হতে পারবে, আর কখনো ধরে নেবে না যে চালক তোমাকে দেখেছে। বাস-ট্রাকের অন্ধ কোণ চিহ্নিত করতে, হেলমেট ঠিকভাবে পরা ও স্ট্র্যাপ আটকানোর চেকলিস্ট শেষ করতে এবং ঝুঁকিপূর্ণ বা অপ্রাপ্তবয়স্ক চালকের রাইড একটা স্বাভাবিক বাক্যে ফিরিয়ে দিতে পারবে।",
+          "hook": "On the way to college, students step out from behind a stopped bus. A truck approaches in the next lane. Freeze: 'চালক কি তোমাকে দেখছে?'",
+          "secret": "Insider tip, as a blind-zone warning only: if you cannot see the driver's face or mirror, you are probably in a blind zone. Big vehicles have blind zones at the front, at the sides and behind. Even when you can see the driver, never assume they have seen you. Look for eye contact or a clear signal, but do not rely on it. Bangladesh drives on the left, but one-way roads, divided roads and junctions change where traffic comes from, so check every relevant direction and watch for turning vehicles. The exact crossing process is checked against BRTA guidance and a road-safety expert before voicing. Helmet tip: a fastened strap with a snug fit; the exact fit check and any BSTI standard are verified before publication.",
+          "practice": [
+            "Default: a 4-still image sequence from the bus driver's seat showing what he cannot see. The 3D simulator view is optional on capable phones.",
+            "Speak (tap chips or type first; voice optional): Tanvir models 'চালক দেখেছে — ধরে নিয়ো না' slow → normal → learner gap.",
+            "Pedestrian decision sim across several road layouts (two-way, one-way, divided, junction with turning vehicles), with no-crossing alternatives: walk to the overbridge or zebra crossing, or wait.",
+            "Helmet fit visual checklist.",
+            "Fix: 'হেলমেট হাতে রাখলেই হবে', 'ছোট রাস্তা, হেলমেট লাগবে না' and 'চালকের সাথে চোখাচোখি হয়েছে, তাই নিশ্চিন্ত' → hold → retry.",
+            "Context: a school gate, a highway bus stop, a pillion ride to a wedding.",
+            "Quizzes ×3 plus boss: a 15-year-old cousin offers a bike ride without helmets, in the rain, with thunder starting (recalls L9).",
+            "Reward: XP for completed practice, recap, before → after, Nature & Road badge, streak, teaser: 'একটা খারাপ দিন — সব সামলাতে পারবে?'"
+          ],
+          "roleplay": "The learner refuses the cousin's risky ride without shaming him, using the 'তোমার পালা' gaps (chips/type first, voice optional): 'দোস্ত, তোর তো এখনো লাইসেন্সই হয় নাই, তার ওপর হেলমেটও নাই! অ্যাকসিডেন্টের রিস্ক নিয়ে লাভ নাই, চল আজকে রিকশায় যাই।'",
+          "mission": "Artefact: a sketch of your own route on a blank canvas (no GPS) with the 2 riskiest points marked and a safer choice for each. Never practise in traffic for the mission.",
+          "tech": [
+            "Still-image blind-spot sequence",
+            "Optional Three.js simulator (existing, repurposed)",
+            "Decision simulator (multiple road layouts)",
+            "Sketch canvas",
+            "Say-the-action gap (chips/type first, voice optional)"
+          ],
+          "recall_of": [
+            "L9",
+            "L10",
+            "L2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M5",
+      "title_bn": "শিক্ষক তুমি: পরিবারকে শেখাও",
+      "goal": "Prove the learner can combine and transfer all 11 actions. The output is something the whole family uses, and the teach-back feels like a fun family challenge, not an exam.",
+      "lessons": [
+        {
+          "id": "L12",
+          "title_bn": "পরিবারের সেফটি কার্ড + 'একটা খারাপ দিন' বস চ্যালেঞ্জ",
+          "can_do": "শেষে তুমি যাচাইকৃত তথ্য দিয়ে এক পাতার Family Safety Card বানাতে পারবে। ৪টা সংকট জোড়া লাগানো একটা দৃশ্য পার হতে পারবে, যেখানে সব safety-critical সিদ্ধান্ত সঠিক থাকবে। আর পরিবারের কাউকে ৬০ সেকেন্ডে কার্ডটা শেখানোর মজার চ্যালেঞ্জ শেষ করে কোন কোন মূল কথা শিখিয়েছ তা সঠিক ক্রমে সাজাতে পারবে।",
+          "hook": "One bad day in a montage: a scam call in the morning, a sick sibling at noon, a storm at the pond in the afternoon, a risky bike ride in the evening. Freeze: 'সব সামলাতে পারবে?' The learner's L1 hook guess flashes back.",
+          "secret": "নিজের ভাষায় শেখাতে গেলে তথ্য মনে থেকে তুলতে ও গুছাতে হয়, তাই এটি ভালো retrieval practice হতে পারে। This links back to L1's নামতা bridge and cites a reviewed learning-science source, without ranking teaching as the strongest method. The card works offline and is designed to be stuck on the fridge. All numbers come from the updateable verified source and carry a 'verified on' date.",
+          "practice": [
+            "Card builder: fills in the verified hotlines (with verified-on date), the 'কোড-পিন-স্ক্রিন' rule, ORS packet steps, the dengue warning-sign groups, 'মেঘ ডাকলে ঘরে + আধা ঘণ্টা', 'নেমো না — বাড়াও/ছুঁড়ে দাও', and 'চালক দেখেছে — ধরে নিয়ো না'. Exports a PNG under 100 KB.",
+            "Speak (tap chips or type first; voice optional): Tanvir models the 60 s card walkthrough slow → normal → learner gap.",
+            "Boss scenario chaining 4 crises, with branching consequences and an unsafe-action veto.",
+            "Mixed recall from all levels.",
+            "Reward: final before → after (the learner's 12 hook guesses against their boss answers), You Teach It badge, course XP total, certificate unlock teaser for the final exam."
+          ],
+          "roleplay": "The learner teaches the card to an anime 'দাদি' character who asks tricky questions ('বিকাশের লোক তো আমার নাম জানে!'), answering in the 'তোমার পালা' gaps (chips/type first, voice optional).",
+          "mission": "Artefact: the exported Family Safety Card plus a structured teach-back, framed as 'পরিবারকে একটা মজার চ্যালেঞ্জ শেখাও'. After teaching, the learner picks and orders the key points they covered from the card's own items, and this is scored deterministically. An optional 60 s recording or written version is ungraded enrichment and may get one friendly AI tip. Recording family members' voices requires their consent; the text option is always available.",
+          "tech": [
+            "Family Safety Card builder (PNG export)",
+            "Branching boss scenario",
+            "Structured teach-back (choose/order, deterministic)",
+            "Final exam engine + QR certificate (existing)"
+          ],
+          "recall_of": [
+            "L1",
+            "L2",
+            "L3",
+            "L4",
+            "L5",
+            "L6",
+            "L7",
+            "L8",
+            "L9",
+            "L10",
+            "L11"
+          ]
+        }
+      ]
+    }
+  ],
+  "final_exam": {
+    "unlock": "After L12 is passed. The delayed-recall section draws on L1–L6 content, so it naturally comes days after those lessons; if possible it is shown 48–72 h after L11.",
+    "length": "About 20 minutes, split into two ~10-minute parts (Part A: L1–L6 plus delayed recall; Part B: L7–L12 plus capstone). Learners can pause at any item and resume later. Progress is saved on the device, so a dead battery, lost data or an interruption loses nothing. Low-data, and runs offline once cached.",
+    "structure": [
+      "12 scenario-based selected-response or ordering items, one per lesson objective, drawn from a randomised bank of parallel contexts.",
+      "4 multi-step branching scenarios: scam (L3–L5), ORS/dengue/heat (L6–L8), lightning/drowning (L9–L10), road plus source-check (L11 + L2).",
+      "2 source-evaluation items: judge a forward, and judge a link or app (including a .com.bd case).",
+      "1 delayed-recall block: 3 items from early lessons with no hints.",
+      "Capstone: the L12 Family Safety Card plus the structured teach-back (choose/order)."
+    ],
+    "no_trivia_rule": "No questions that test memorised death counts, hotline digits or doses. Every item tests a decision or action.",
+    "scoring": "Lesson level: 60% decision quizzes and boss, 25% mission artefact, 15% structured teach-back or ordering task. A missing artefact blocks the skill badge but not progress. Every safety-critical pass decision uses structured choices or ordering tasks only. Free speech, free typing and AI feedback are ungraded enrichment. Final exam: overall at least 80%, ALL safety-critical items 100%, and the capstone rated 'competent'. Capstone rubric, scored on structured selections: correct action 40%, unsafe action avoided 25%, sequence and clarity 20%, credible source and date 15%. Each outcome listed on the certificate must be backed by a passed structured simulation or exam item, not by a self-ticked mission.",
+    "retry": "Unlimited retries with new names, numbers and contexts. The identical item never gives credit after the answer has been revealed. A wrong critical item shows the explanation, then a parallel scenario.",
+    "integrity": "Deterministic rule-based scoring for everything safety-critical. AI may add one friendly tip but never sets a grade. Passing requires no mic, AI or camera. Before launch, the rubric is tested against dangerous near-miss answers (e.g. 'ibuprofen দেব না' vs 'ibuprofen দেব', or a correct sequence with one step swapped), and must score them correctly."
+  },
+  "certificate": {
+    "wording_bn": "সফলভাবে সম্পন্ন: 'অদ্ভুত কিছু শিক্ষা' — ১২টি জীবন-দক্ষতার দৃশ্যভিত্তিক মূল্যায়নে উত্তীর্ণ (সমাপ্তি ও প্রদর্শিত সচেতনতা)।",
+    "wording_en": "Certificate of completion and demonstrated awareness — 12 practical life-safety scenario assessments passed.",
+    "qr_shows": "Learner name, completion date, the 12 outcomes assessed by in-app scenarios and simulations, final score band and the course version (fact-sheet date). Self-reported missions (e.g. 'told a family member') are listed separately and labelled 'self-reported', not as assessed outcomes.",
+    "limits": "States clearly, on the certificate and on the sales page, that it is not a medical, first-aid, lifesaving, driving or financial qualification and does not guarantee a job. It can still be shown on a CV under 'life skills / digital safety awareness'.",
+    "logos": "AI University logo only. A partner logo (e.g. a public-health or safety NGO) is added only if a real, written endorsement exists."
+  },
+  "tech_features": [
+    {
+      "name": "Decision simulator (frozen scene + 3 choices + countdown, parallel versions)",
+      "effort": "low (reuse quiz/XP engine)",
+      "why": "Trains decisions, not trivia. The timer is generous on the first try and tighter on replays, so countdowns are never fear-based.",
+      "lessons": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "L12"
+      ]
+    },
+    {
+      "name": "Say-the-action gap (Tanvir model slow → normal → gap) with tap-chips and type shown first, speak optional",
+      "effort": "low-medium",
+      "why": "Adapts the pronunciation lab to rehearsing safety scripts. Tap/type come first so shy learners or those in public are never pushed to speak. Web Speech is optional because Bangla recognition is unreliable on low-end phones.",
+      "lessons": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "L12"
+      ]
+    },
+    {
+      "name": "Fake-call / fake-inbox simulator (SMS, Messenger, call screen, app-store screen)",
+      "effort": "medium (GDS-terminal lab pattern)",
+      "why": "Core money-safety practice using realistic Bangladeshi scam scripts and synthetic data only.",
+      "lessons": [
+        "L3",
+        "L4",
+        "L5"
+      ]
+    },
+    {
+      "name": "Link-ruler widget (hostname → registrable domain via an approved public-suffix list; big red highlight)",
+      "effort": "low",
+      "why": "Makes finding the real domain hands-on, including .com.bd, '@' tricks and lookalike letters.",
+      "lessons": [
+        "L4"
+      ]
+    },
+    {
+      "name": "Step-ordering / task-assignment drill (60 s, incident branches, parallel tasks)",
+      "effort": "low",
+      "why": "Sequence and task-splitting are the skill in scam response, ORS and heatstroke.",
+      "lessons": [
+        "L5",
+        "L6",
+        "L8"
+      ]
+    },
+    {
+      "name": "Packet-label lab (mostly real 500 ml standard packets plus 1–2 different volumes)",
+      "effort": "low-medium",
+      "why": "Keeps the real Bangladeshi আধা লিটার anchor while still training label reading. Replaces the dropped AI photo check.",
+      "lessons": [
+        "L6"
+      ]
+    },
+    {
+      "name": "Medicine-shelf generic-name sim (realistic labels, partly cut strips, big brand vs small generic)",
+      "effort": "low",
+      "why": "The safe dengue skill without self-dosing: flag the NSAID category, and ask a clinician or pharmacist about everything else.",
+      "lessons": [
+        "L7"
+      ]
+    },
+    {
+      "name": "Flash-to-bang counter (locked until 'go in now' is chosen)",
+      "effort": "low",
+      "why": "Turns the speed-of-sound science into the 'already close, go in' rule without delaying shelter.",
+      "lessons": [
+        "L9"
+      ]
+    },
+    {
+      "name": "Blind-spot still sequence + optional Three.js simulator",
+      "effort": "low (stills) / medium (3D repurpose)",
+      "why": "Works on every phone; 3D only where the phone can handle it.",
+      "lessons": [
+        "L11"
+      ]
+    },
+    {
+      "name": "Tap checklists and sketch canvas (photo optional, no GPS)",
+      "effort": "low",
+      "why": "Privacy-first, low-data mission artefacts suitable for minors.",
+      "lessons": [
+        "L7",
+        "L9",
+        "L10",
+        "L11"
+      ]
+    },
+    {
+      "name": "Family Safety Card builder (PNG < 100 KB, verified data feed, verified-on date)",
+      "effort": "medium",
+      "why": "The capstone artefact and the free emergency layer; shareable on WhatsApp.",
+      "lessons": [
+        "L5",
+        "L12"
+      ]
+    },
+    {
+      "name": "Structured teach-back (choose/order key points, deterministic) with optional ungraded free text",
+      "effort": "low",
+      "why": "Keyword matching cannot safely grade negation or omissions, so pass decisions use structured items only. Optional cheap AI (≈$0.001) gives one tip on free text.",
+      "lessons": [
+        "L6",
+        "L12"
+      ]
+    },
+    {
+      "name": "Updateable source and hotline card component (verified-on date, offline cache, refresh prompt, fallback)",
+      "effort": "low",
+      "why": "Numbers and statistics change. They are editable HTML on the lesson page, never baked into audio or frames, so no re-render is needed. The latest approved card is cached offline with a visible verified date and a refresh prompt when online. The fallback is the contact inside the official app or on the physical packet/card.",
+      "lessons": [
+        "L2",
+        "L3",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "L12"
+      ]
+    },
+    {
+      "name": "Spaced recall push at day 1/3/7 (cached scenario questions)",
+      "effort": "low (existing push)",
+      "why": "Retention outside the video. Follows a fixed recall map.",
+      "lessons": [
+        "L1",
+        "L3",
+        "L6",
+        "L9",
+        "L12"
+      ]
+    },
+    {
+      "name": "Offline pack (480p video < 15 MB, transcript, recap PNG, practice cards) with a big 'অফলাইনে দেখুন' button beside every lesson and optional auto-download on Wi-Fi",
+      "effort": "medium",
+      "why": "Low-end phones and costly data; learners must find the offline option instantly.",
+      "lessons": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "L12"
+      ]
+    },
+    {
+      "name": "Pausable two-part final exam (local progress save, offline resume)",
+      "effort": "low (existing exam engine)",
+      "why": "Battery, data and interruptions must not cost the learner their exam.",
+      "lessons": [
+        "L12"
+      ]
+    },
+    {
+      "name": "AI সহায়ক with course guardrails",
+      "effort": "low (existing)",
+      "why": "Answers questions from the verified fact sheets. Refuses to diagnose, dose or recommend medicines and points to hospital/999 or official hotlines.",
+      "lessons": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "L12"
+      ]
+    }
+  ],
+  "quality_gates": [
+    "Status: PRE-PRODUCTION, not ready to publish. Nothing safety-critical is voiced, rendered or published until its dated fact sheet is complete and the required reviewer has signed off. Claims that cannot be verified are omitted.",
+    "Canonical lesson matrix locked before production: ID, objective, prerequisites, recall map, primary sources, critical errors, artefact and rubric. All specs and the exam use these IDs.",
+    "Renderable scene matrix for every lesson: hook, title, recall (from L2 on), learn, speak (Tanvir slow → normal → learner gap, chips/type first), fix with hold and retry, context, roleplay with 'তোমার পালা' gaps, at least 3 quizzes, boss mixing an earlier lesson, sourced secret, mission, and reward. The reward means XP for demonstrated work only, recap, before → after, streak and next-lesson teaser. lesson_check.py must pass on all 12 actual specs; the promise in this document is not evidence.",
+    "Measurable objective (no 'জানবে/বুঝবে'), and a visible hold/gap before every answer reveal.",
+    "Pilot timing: storyboard, voice and time one complete safety lesson (L6) before locking the 4:30 ceiling. Each video keeps one primary action; secondary facts move to required practice cards. If captions, holds or warnings feel rushed, split the video into two parts of 5 min or less instead of compressing.",
+    "Every scientific concept carries an everyday Bangla analogy, checked by the student panel for clarity.",
+    "Fact sheet per lesson using primary sources only (bKash/Nagad official pages, Bangladesh Bank, Police/CID, 999, DGHS, DPHE, icddr,b, WHO/UNICEF, CDC/NOAA, DDM/BMD, CIPRB, BRTA/BSTI). Every critical rule stores the source URL, publication/version date, access date and exact approved wording. Blogs may only suggest claims.",
+    "High-risk fields re-verified and date-stamped in the production month: ORS packet volume (including the claim that standard BD packets take 500 ml) and storage/discard, the homemade ratio, the dengue medicine wording and full warning-sign list, Aedes biology and cleaning interval, the heat cooling sequence, lightning shelter definitions, the rescue and post-rescue sequence, the crossing process, the helmet standard, the MFS GD/reporting procedure and GD portal, arsenic tubewell guidance, and every hotline.",
+    "Release gate: a named MBBS reviewer signs off L6–L8. A safety reviewer (CIPRB/Red Crescent-trained or similar) signs off L9–L11. A road-safety reviewer checks L11 against BRTA. A second-model review is a contradiction check only.",
+    "At most one dated, sourced statistic per lesson, with the organisation, period and definition (e.g. registered accounts vs users).",
+    "No real victims, no gore, no victim-blaming, no 'guaranteed' or '১০০%' language, and no absolute claims ('always silent', 'cannot see you').",
+    "Privacy: no PIN/OTP/account/phone/TrxID/face/location/health data collected. Uploads optional, with a text alternative. Consent before recording family members.",
+    "Assessment validity: safety-critical pass decisions use structured choices or ordering only. The rubric passes a near-miss test set (negations, swapped steps, dangerous omissions). Certificate outcomes map to passed simulations, not self-reports.",
+    "Emergency information: one named owner, a 6-month maximum review interval, and an immediate update process whenever an authority changes guidance. The offline card shows its verified-on date and prompts a refresh when online.",
+    "Video of 4:30 or less per part, about 2k characters of Tanvir audio, 480p under 15 MB. Tested on a real low-end Android over a slow network: captions readable, audio in sync, nothing overflowing, clean last frame (stills check before the cloud render, MP4 spot-check after). The offline button is visible on every lesson.",
+    "Core learning and assessment complete with no mic, no AI, no camera and no 3D.",
+    "Costs on track: 12 × ~2k characters ≈ 24k ElevenLabs characters (≈30k if some safety lessons split; one Creator month, $22). Lesson drafts via DeepSeek/Gemini/OpenRouter ≈ $1 total. Hooks use Remotion and existing/vector assets by default ($0; Nano Banana ≈ $0.50 optional). Veo skipped by default (at most 1 clip, $0.30). Claude is reserved for high-risk script and fact-sheet reviews (≤ ≈ $48). AI/media total ≈ $23–72. Runtime AI ≈ $0.001 per tip. Human reviewer fees are a separate, required release cost, quoted before launch dates are set."
+  ],
+  "risks": [
+    {
+      "risk": "Wrong ORS measure or homemade salt ratio causes harm.",
+      "mitigation": "Packet-first, label-reading skill with the verified 500 ml bottle anchor. The homemade recipe appears only after national/WHO confirmation and MBBS sign-off of exact utensils and wording. No vague measures."
+    },
+    {
+      "risk": "The dengue lesson is heard as self-medication advice.",
+      "mitigation": "The skill is reading generic names, flagging the NSAID category and asking a clinician or pharmacist before any medicine. No doses, no recommended medicine, and no advice to start, stop or substitute. Hospital red flags and 999."
+    },
+    {
+      "risk": "A memorised short list of dengue signs gives false reassurance.",
+      "mitigation": "The full official warning-sign set, grouped visually. Any severe deterioration means hospital."
+    },
+    {
+      "risk": "Hotline numbers change or come from secondary sites.",
+      "mitigation": "Verified in the production month, shown on an editable card with a verified-on date, never in audio. The offline cache prompts a refresh, with a fallback to the official app or packet contact. Named owner and 6-month maximum review."
+    },
+    {
+      "risk": "The 'recovery' promise in L5 creates false hope, or one rigid sequence misfits the incident.",
+      "mitigation": "Framed as 'stop damage and report fast; no guarantee'. Branches by incident type, a separate wrong-number path, and the GD step verified with the provider and Police."
+    },
+    {
+      "risk": "Link-reading rule fails on .com.bd, '@' tricks or lookalike letters.",
+      "mitigation": "Teach hostname → registrable domain with an approved suffix list, exact spelling comparison against an independently known domain, and examples covering these cases."
+    },
+    {
+      "risk": "A learner enters water or a storm because of a mission.",
+      "mitigation": "Missions are simulations and safe home audits only. Reach/throw is the only rescue taught. Swimming and CPR are referred to trained programmes."
+    },
+    {
+      "risk": "Lightning counting delays sheltering.",
+      "mitigation": "The headline rule is 'thunder heard = go in'. The counter unlocks only after the go-in choice and never decides whether to stay outside."
+    },
+    {
+      "risk": "Heatstroke cooling is delayed while waiting for help, or fluids are given to a confused person.",
+      "mitigation": "Parallel task assignment, fastest safe approved cooling without delaying transport, and an explicit no-forced-fluids rule tested in the boss."
+    },
+    {
+      "risk": "Pedestrians over-trust eye contact or the 'traffic from the right' rule.",
+      "mitigation": "The mirror rule is presented as a blind-zone warning only, with a multi-layout crossing sim and BRTA-reviewed process."
+    },
+    {
+      "risk": "Course feels like a government safety leaflet, so completion drops.",
+      "mitigation": "Every lesson carries a 'wow, how it works' secret with an everyday analogy, anime roleplay, a 4:30 cap, XP and badges."
+    },
+    {
+      "risk": "4:30 videos become rushed in safety lessons.",
+      "mitigation": "Pilot timing first. One primary action per video. Split into two parts of 5 min or less rather than compress holds, retries or warnings."
+    },
+    {
+      "risk": "Bangla speech recognition fails, or learners are shy to speak.",
+      "mitigation": "Chip and type options shown first. Transcripts are never used for pass or fail."
+    },
+    {
+      "risk": "Free-text grading misreads negations or omissions.",
+      "mitigation": "Structured choice/order items for every pass decision, with near-miss rubric testing. Free text is ungraded."
+    },
+    {
+      "risk": "Final exam abandoned because of battery, data or interruption.",
+      "mitigation": "Two ~10-minute parts with local save and offline resume."
+    },
+    {
+      "risk": "Privacy breach involving minors.",
+      "mitigation": "No sensitive data. Local-only storage by default. Delete controls."
+    },
+    {
+      "risk": "Statistics go stale.",
+      "mitigation": "Kept to a minimum, dated, and on updateable source cards. Fact sheets re-checked at least every 6 months."
+    },
+    {
+      "risk": "Accuracy of the ORS history claim.",
+      "mitigation": "Precise wording about Bangladesh/icddr,b's field development and scale-up role. Unverified figures dropped."
+    },
+    {
+      "risk": "Reviewers unavailable or unbudgeted, delaying launch.",
+      "mitigation": "Get availability and quotes before committing to dates. Sign-off is a release gate, not optional polish."
+    }
+  ],
+  "decisions": [
+    {
+      "conflict": "Video length: the teacher proposed 5–6 min; the student would quit after 5 min; QA asked for one clear ceiling, then warned 4:30 may rush safety lessons; cost flagged the unclear total time.",
+      "decision": "Target 4:30 (~2k characters) per video, validated by a timed pilot. Practice moves into 2–3 short in-app cards that can be done on a different day, about 8–12 min per lesson in total, never more than 5 min in one sitting. If a safety lesson is rushed, split it into two video parts of 5 min or less rather than compressing.",
+      "why": "The learner's attention and data budget decide, and safety warnings must never be squeezed. It also keeps ElevenLabs cost and file size low."
+    },
+    {
+      "conflict": "Scope: QA said the curriculum is safety-only while the topic promises everyday science, psychology and nature; QA proposed a separate science lesson.",
+      "decision": "Keep the 12-lesson order. Every lesson's secret and learn scene carries a verified 'how it works' payload, told through an everyday Bangla analogy (the student's fix): sodium–glucose 'pump', evaporative cooling, speed of sound, buoyancy and quiet drowning, Aedes biology, blind zones, retrieval memory, urgency psychology, link anatomy. The marketing title adds 'জীবন, শরীর আর টাকা বাঁচানোর ১২টি সত্যি কৌশল' so it promises exactly what is taught.",
+      "why": "This delivers the 'অদ্ভুত' science without cutting drowning or road safety, and the analogies keep beginners from giving up."
+    },
+    {
+      "conflict": "Lesson numbering: QA's performance map used a different order.",
+      "decision": "QA's performances are remapped onto the canonical L1–L12 order above. The exam blueprint follows the same IDs.",
+      "why": "Assessment must mirror what is taught."
+    },
+    {
+      "conflict": "Final exam: the teacher proposed 30 questions; QA proposed 12 + 4 branching + 2 source items + capstone; the student found 20 continuous minutes too long.",
+      "decision": "Adopt QA's blueprint plus a 3-item delayed-recall block, about 20 min in total, split into two ~10-minute parts with pause and offline resume.",
+      "why": "Full objective coverage while staying short, interruption-proof and phone-friendly."
+    },
+    {
+      "conflict": "ORS: homemade headline (hacks) vs packet-first (QA/teacher) vs the native's 500 ml anchor vs QA's 'use the packet's exact volume'.",
+      "decision": "Read the label first. Teach that standard Bangladeshi packets usually take আধা লিটার, one 500 ml water bottle (verified in the production month). Mock packets are about 80% 500 ml with 1–2 other volumes. The lesson stays focused on diarrhoea. Homemade is an optional backup only after official and MBBS approval of exact utensils and wording.",
+      "why": "Learners get a real-world anchor without losing the label-reading safety habit; salt errors are dangerous."
+    },
+    {
+      "conflict": "L5 sequence: four vague steps (design) vs the native's GD-based street procedure vs QA's six branched steps.",
+      "decision": "Six defined steps (stop access → provider hotline + TrxID → save evidence → thana/online GD → submit the GD copy to provider and verified cyber channels → warn family), branched by incident type, with wrong-number transfer treated separately. GD procedure, portal and numbers are verified before release.",
+      "why": "Matches how reporting actually works in Bangladesh while covering different attack types honestly."
+    },
+    {
+      "conflict": "L7 pharmacy phrase: the native suggested asking 'is it paracetamol?'; cost/QA warned against medication advice.",
+      "decision": "Keep the native's street-smart move (see the uncut strip before the dukandar cuts tablets; ask for the generic name; refuse NSAID-type painkillers), but the learner says they will ask a doctor which medicine to take. No medicine is named as the right choice.",
+      "why": "Practical and culturally real without becoming self-medication advice."
+    },
+    {
+      "conflict": "Free tier: the teacher proposed L1 + L3 free; QA said that breaks the sequence and is only 16.7%.",
+      "decision": "L1–L3 are free (sequential, 25%). The emergency essentials card is free for everyone.",
+      "why": "This keeps the sequence, slightly exceeds the 20% rule, and keeps life-saving facts outside the paywall while practice and the certificate stay paid."
+    },
+    {
+      "conflict": "Price: the student wanted ৳300–500; the platform range is ৳300–1,500.",
+      "decision": "৳399, with a ৳299 launch price, and included in subscriptions.",
+      "why": "Affordable for the core audience; volume matters more than margin for a shareable course."
+    },
+    {
+      "conflict": "Mission weighting and grading: QA proposed 40% for the mission, then flagged keyword grading and self-ticked claims.",
+      "decision": "60% quizzes and boss / 25% artefact / 15% structured teach-back. The artefact is required for the skill badge. All pass decisions are structured; free text is ungraded; self-reported missions are labelled as such on the certificate.",
+      "why": "Missions are hard to verify, a heavy weight invites fake uploads, and keyword matching misses negations."
+    },
+    {
+      "conflict": "Photo, contact-list, WhatsApp and route-map missions versus privacy and data cost (QA, student).",
+      "decision": "Tap checklists, typed answers, in-app card builders and blank-canvas sketches. Photos are always optional. No GPS. No contact lists. The AI vision check is removed.",
+      "why": "Protects minors, saves data and avoids false 'AI verified' reassurance."
+    },
+    {
+      "conflict": "Mic dependence versus a weak mic, shyness and unreliable Bangla Web Speech.",
+      "decision": "Every speak gap shows tap-chips and type first, with speaking optional. No transcript-based failing. Deterministic scoring. The teach-back is presented as a fun family challenge.",
+      "why": "Every learner must be able to pass on any phone, in any setting, without embarrassment."
+    },
+    {
+      "conflict": "3D simulator in L11 versus low-end phones.",
+      "decision": "A 4-still image sequence is the default; 3D is optional.",
+      "why": "Same learning, no lag or data cost."
+    },
+    {
+      "conflict": "'Choose paracetamol' wording (teacher) versus the self-medication risk (QA, cost).",
+      "decision": "The skill is reading generic names, flagging NSAIDs and asking a clinician or pharmacist. No doses, no recommended medicine.",
+      "why": "Useful and safe; the learner never doses anyone."
+    },
+    {
+      "conflict": "Lightning '30-30': the counter could delay sheltering (QA); 'strong-roofed car' and 'tin shed' wording were imprecise.",
+      "decision": "Headline 'মেঘ ডাকলেই ঘরে'. The ÷3 counter unlocks only after the go-in choice. Shelters are a substantial building or a fully enclosed hard-topped vehicle, contrasted with open sheds, bus stops, porches and lone trees. The 30-minute wait stays, verified with NOAA/CDC/DDM.",
+      "why": "Current agency guidance favours going in when thunder is heard, and precise definitions avoid false safety."
+    },
+    {
+      "conflict": "'Named watcher' and gamchha rescue (teacher) versus QA's concerns about teen supervisors, rescuers being pulled in, delayed emergency calls and improvised floats.",
+      "decision": "The watcher must be a capable adult. Alert a capable rescuer and call emergency help at the same time. Reach only from firm ground, and throw a purpose-made float first; improvised floats are a last resort. Post-removal steps are included. Prevention is taught in layers.",
+      "why": "Prevents a second drowning, avoids delay and avoids false security."
+    },
+    {
+      "conflict": "Heatstroke: 'hot dry skin' sign; call-before-cool sequencing; fan cooling in humidity.",
+      "decision": "Altered mental state or collapse is the key sign; sweating may be present. Calling and cooling happen in parallel. The fastest safe approved cooling starts without delaying transport. The fan is explained as less effective in humidity. No fluids for confused or unconscious people. 999 is not presented as a guaranteed ambulance.",
+      "why": "Accuracy and speed, as QA and cost required."
+    },
+    {
+      "conflict": "L11 mirror rule and 'traffic from the right' were too absolute (QA, cost).",
+      "decision": "The mirror rule is a blind-zone warning only; never assume the driver has seen you. The crossing process checks every relevant direction and turning vehicle for the actual layout and is BRTA-reviewed.",
+      "why": "Avoids false confidence on one-way, divided and junction roads."
+    },
+    {
+      "conflict": "Clickbait titles ('বারবার পড়া বৃথা', 'গোপন ট্রিক', 'কেউ শেখায়নি').",
+      "decision": "Non-absolute Bangla titles (e.g. 'বারবার পড়ার চেয়ে নিজেকে প্রশ্ন করো', 'পানিতে ডোবা প্রায়ই নিঃশব্দ'). 'Nobody Taught You' stays only as the playful English brand name.",
+      "why": "Fake-sounding certainty damages trust, and the course sells trust."
+    },
+    {
+      "conflict": "'1-3-7' spacing, the L1 memory experiment and the নামতা example presented as science.",
+      "decision": "Labelled 'আমাদের অনুশীলন সূচি' and 'demonstration, not proof', with no effectiveness inferred from one learner's result. নামতা is framed as closed-book recall being retrieval, while chanting from a visible page is not. Sources verified before voicing.",
+      "why": "Honest about what the evidence supports."
+    },
+    {
+      "conflict": "L2 'verify in under 2 minutes', and a reply that treated 'not found' as proof and sounded disrespectful to elders.",
+      "decision": "The outcome is a stop/share decision in 2 minutes; 'অযাচাইকৃত — এখন শেয়ার করব না' is a correct answer. The reply validates emotion, says 'নির্ভরযোগ্য সমর্থন খুঁজে পাইনি', blames the source and uses 'আমরা'.",
+      "why": "Full verification isn't always possible quickly; not sharing is the real-life win, said without বেয়াদবি."
+    },
+    {
+      "conflict": "Red/green tubewell bridge (hacks) versus J-PAL's caveat and QA/cost concerns that it reads as drinking-water advice.",
+      "decision": "Used in L2 as a source-test secret only if current DPHE guidance confirms it: colour alone cannot show present safety; ask about testing and use verified testing. Removed otherwise.",
+      "why": "Teaches critical reading without issuing an oversimplified or outdated safety rule."
+    },
+    {
+      "conflict": "Unsourced memory palace and chunking (hacks).",
+      "decision": "Chunking plus 'save as জরুরি' is kept (low risk). The memory palace appears once, in L1, as an optional 'popular technique' with no effectiveness claim.",
+      "why": "No fake shortcuts."
+    },
+    {
+      "conflict": "The student wants a job-valuable certificate with recognised logos; QA wants honest wording and evidence behind every listed outcome.",
+      "decision": "QR certificate listing the 12 scenario-assessed outcomes, with self-reported missions labelled separately, worded as completion and demonstrated awareness. Partner logos only with a real endorsement. The sales page states there is no job guarantee.",
+      "why": "Showable and useful on a CV without overclaiming."
+    },
+    {
+      "conflict": "Scam lesson scope: OTP-only (teacher) versus broader attacks (QA).",
+      "decision": "'কোড, পিন, স্ক্রিন' covers OTP, PIN, screen-sharing and remote-access apps. Domain and app developer checks are in L4.",
+      "why": "Covers the real attack surface in one memorable rule."
+    },
+    {
+      "conflict": "Budget: AI/media costs were listed but reviewer fees were not; cost suggested skipping Veo and paid images and reserving Claude.",
+      "decision": "Remotion and existing assets by default, Veo off by default, Claude reserved for high-risk reviews, and OpenRouter for drafts and contradiction checks. Reviewer quotes are obtained before launch dates, and sign-off is a release gate.",
+      "why": "Cheapest plan that does not economise on medical and safety verification."
+    }
+  ],
+  "open_questions_for_owner": [
+    "Can we get one named MBBS reviewer for L6–L8, one water/lightning safety reviewer (CIPRB, Red Crescent or a trained instructor) for L9–L10, and a road-safety reviewer for L11 before production? Please approve getting quotes and availability first, since sign-off is a release gate and launch dates depend on it.",
+    "Do you approve L1–L3 free (25%, slightly above the usual 20%) plus a free emergency essentials card?",
+    "Final price: ৳399 with a ৳299 launch, or a straight ৳299?",
+    "Should we approach CIPRB, icddr,b or a fact-checker (Rumor Scanner/Dismislab) for a content review or endorsement that could appear on the certificate?",
+    "If icddr,b/DGHS/WHO do not currently approve a homemade recipe with exact utensils, do you accept a packet-only ORS lesson?",
+    "If current DPHE guidance on tubewell colour marking cannot be confirmed, do you accept dropping the arsenic example from L2?",
+    "Who owns the production-month verification of hotlines, the GD/reporting procedure and guidelines? We propose one named owner, a 6-month maximum review interval and immediate updates when an authority changes guidance.",
+    "If the L6 pilot shows 4:30 is too rushed, do you approve splitting safety lessons into two video parts of 5 min or less?",
+    "Do you want a Bangla offline 'safety card' printable kit for schools as a later B2B/NGO product?",
+    "May we spend the remaining research budget on a follow-up primary-source pass to close the gaps: Dunlosky, prebunking, the CDC indoor-lightning wording, the full DGHS dengue list, ORS packet volumes on the BD market, the MFS GD procedure, BRTA crossing guidance, the BSTI helmet standard, DPHE arsenic guidance, and competitor prices?"
+  ]
+}

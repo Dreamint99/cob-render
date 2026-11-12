@@ -1,0 +1,131 @@
+{
+ "id": "kop2-reel",
+ "brand": {
+  "dir": "coursepromo/korean",
+  "lang": "কোরিয়ান",
+  "word": "한국어",
+  "accent": "#E63946",
+  "cover": "coursepromo/korean/img/cover.jpg",
+  "guru": "coursepromo/korean/img/guru.jpg",
+  "guruName": "সনসেংনিম",
+  "courseD": "coursepromo/korean/shots/course-d.jpg",
+  "courseM": "coursepromo/korean/shots/course-m.jpg",
+  "url": "aiuniversitybd.com/course/korean-eps",
+  "cta": "বাংলায় কোরিয়ান · 한국어",
+  "honest": "এআই প্রশিক্ষক · ভিসা বা চাকরির নিশ্চয়তা নয়"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "nocap": true,
+   "heads": [
+    "কোরিয়ান ভাষা<br>শিখতে *চান?*",
+    "সঠিক মাধ্যম<br>*পাচ্ছেন না?*"
+   ],
+   "clips": [
+    "coursepromo/korean/clips/hook.mp4",
+    "coursepromo/korean/clips/hangul.mp4"
+   ],
+   "beats": [
+    {
+     "t": "আপনি কি কোরিয়ান ভাষা শিখতে চান?"
+    },
+    {
+     "t": "কিন্তু সঠিক মাধ্যম পাচ্ছেন না?"
+    }
+   ]
+  },
+  {
+   "type": "why",
+   "cards": [
+    {
+     "count": 165000,
+     "label": "২০২৪ সালে কোরিয়ার *E-9 বিদেশি কর্মী* কোটা",
+     "src": "সূত্র: কোরিয়ার শ্রম মন্ত্রণালয় (MOEL) · OECD, ২০২৪"
+    },
+    {
+     "big": "BOESL",
+     "en": true,
+     "label": "বাংলাদেশ থেকে EPS-এ কোরিয়া যাওয়া হয় *সরকারি পথে*",
+     "src": "সূত্র: বোয়েসেল (BOESL) · কোরিয়ার EPS"
+    },
+    {
+     "big": "EPS-TOPIK",
+     "en": true,
+     "label": "EPS ভিসার প্রথম ধাপ — *কোরিয়ান ভাষার পরীক্ষা*",
+     "src": "সূত্র: HRD Korea · EPS-TOPIK"
+    }
+   ],
+   "cardFrom": 1,
+   "beats": [
+    {
+     "t": "কেন কোরিয়ান শিখবেন? তিনটা কারণ।"
+    },
+    {
+     "t": "এক — দুহাজার চব্বিশ সালে কোরিয়া এক লাখ পঁয়ষট্টি হাজার বিদেশি কর্মী নেওয়ার কোটা দিয়েছে।",
+     "cap": "এক — ২০২৪ সালে কোরিয়া *১ লাখ ৬৫ হাজার* বিদেশি কর্মী নেওয়ার কোটা দিয়েছে।"
+    },
+    {
+     "hold": 10
+    }
+   ]
+  },
+  {
+   "type": "reveal",
+   "beats": [
+    {
+     "t": "তাহলে এই কোর্সটি আপনার জন্য! এআই ইউনিভার্সিটি নিয়ে এসেছে বাংলায় কোরিয়ান শেখার কোর্স, ইপিএস টপিক পথে।",
+     "cap": "তাহলে এই কোর্সটি *আপনার জন্য!* AI University নিয়ে এসেছে *বাংলায় কোরিয়ান* — EPS-TOPIK পথে।"
+    },
+    {
+     "hold": 10
+    }
+   ]
+  },
+  {
+   "type": "montage",
+   "items": [
+    [
+     "coursepromo/korean/clips/hook.mp4",
+     "গল্প দিয়ে শুরু"
+    ],
+    [
+     "coursepromo/korean/clips/hangul.mp4",
+     "হাঙ্গুল ধাপে ধাপে"
+    ],
+    [
+     "coursepromo/korean/clips/speak.mp4",
+     "শুনুন, নিজে বলুন"
+    ],
+    [
+     "coursepromo/korean/clips/role.mp4",
+     "কারখানার রোলপ্লে"
+    ]
+   ],
+   "beats": [
+    {
+     "t": "ধাপে ধাপে, গল্পের সাথে — শুনে, নিজে বলে, কুইজ দিয়ে শিখবেন।",
+     "cap": "ধাপে ধাপে, গল্পের সাথে — *শুনে, নিজে বলে,* কুইজ দিয়ে শিখবেন।"
+    },
+    {
+     "hold": 10
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": [
+    {
+     "t": "বিশ্বাস হচ্ছে না, এতকিছু একসাথে?"
+    },
+    {
+     "t": "তাহলে এখনই প্রথম বিশ শতাংশ ক্লাস ফ্রিতে দেখে নিন — এআই ইউনিভার্সিটি বিডি ডট কম।",
+     "cap": "তাহলে এখনই *প্রথম ২০% ক্লাস ফ্রিতে* দেখে নিন — aiuniversitybd.com"
+    },
+    {
+     "hold": 45
+    }
+   ]
+  }
+ ]
+}
