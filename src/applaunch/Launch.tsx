@@ -6,15 +6,15 @@ import { AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring
 import DURS from "./durs.json";
 
 const FPS = 30;
-const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
-const ease = Easing.bezier(0.16, 1, 0.3, 1);
-const lerp = (f: number, a: number, b: number, x = 0, y = 1) => interpolate(f, [a, b], [x, y], { ...clamp, easing: ease });
-const S = (p: string) => staticFile("applaunch/" + p);
+export const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+export const ease = Easing.bezier(0.16, 1, 0.3, 1);
+export const lerp = (f: number, a: number, b: number, x = 0, y = 1) => interpolate(f, [a, b], [x, y], { ...clamp, easing: ease });
+export const S = (p: string) => staticFile("applaunch/" + p);
 
 // brand
-const BG = "#040B1F", NAVY = "#0B1B46", BLUE = "#2563EB", BLUE2 = "#60A5FA", SKY = "#38BDF8", GOLD = "#FBBF24", ORANGE = "#F97316", MINT = "#34D399", RED = "#F43F5E", TXT = "#F8FAFC", MUTE = "#A5B4CF";
-const HEAD = "AnekB, 'Hind Siliguri', sans-serif", BODY = "HindB, 'Hind Siliguri', sans-serif", LAT = "Montserrat, Poppins, sans-serif", MONO = "'Courier New', monospace";
-const GOLDG = `linear-gradient(95deg, ${GOLD}, ${ORANGE})`;
+export const BG = "#040B1F", NAVY = "#0B1B46", BLUE = "#2563EB", BLUE2 = "#60A5FA", SKY = "#38BDF8", GOLD = "#FBBF24", ORANGE = "#F97316", MINT = "#34D399", RED = "#F43F5E", TXT = "#F8FAFC", MUTE = "#A5B4CF";
+export const HEAD = "AnekB, 'Hind Siliguri', sans-serif", BODY = "HindB, 'Hind Siliguri', sans-serif", LAT = "Montserrat, Poppins, sans-serif", MONO = "'Courier New', monospace";
+export const GOLDG = `linear-gradient(95deg, ${GOLD}, ${ORANGE})`;
 
 if (typeof document !== "undefined") {
   for (const [n, f] of [["AnekB", "AnekBangla.ttf"], ["HindB", "HindSiliguri-Bold.ttf"]]) {
@@ -23,10 +23,10 @@ if (typeof document !== "undefined") {
   }
 }
 
-type Mode = "v" | "f" | "h";
-const useMode = (): Mode => { const { width, height } = useVideoConfig(); return height > width * 1.5 ? "v" : height > width ? "f" : "h"; };
-const pick = <T,>(m: Mode, v: T, f: T, h: T) => (m === "v" ? v : m === "f" ? f : h);
-const useIn = (d = 0, damping = 14, mass = 0.8) => { const f = useCurrentFrame(); const { fps } = useVideoConfig(); return spring({ frame: f - d, fps, config: { damping, mass } }); };
+export type Mode = "v" | "f" | "h";
+export const useMode = (): Mode => { const { width, height } = useVideoConfig(); return height > width * 1.5 ? "v" : height > width ? "f" : "h"; };
+export const pick = <T,>(m: Mode, v: T, f: T, h: T) => (m === "v" ? v : m === "f" ? f : h);
+export const useIn = (d = 0, damping = 14, mass = 0.8) => { const f = useCurrentFrame(); const { fps } = useVideoConfig(); return spring({ frame: f - d, fps, config: { damping, mass } }); };
 
 /* ───────── scene data ───────── */
 type Screen = { img?: string; vid?: string; from?: number; rate?: number; zoom?: number };
@@ -85,7 +85,7 @@ const timeline = (cut: "long" | "short") => {
 export const launchTotal = (cut: "long" | "short") => { const t = timeline(cut); const l = t[t.length - 1]; return l.from + l.len; };
 
 /* ───────── building blocks ───────── */
-const Backdrop: React.FC<{ hue?: string }> = ({ hue = BLUE }) => {
+export const Backdrop: React.FC<{ hue?: string }> = ({ hue = BLUE }) => {
   const f = useCurrentFrame();
   const { width: W, height: H } = useVideoConfig();
   const M = Math.max(W, H);
@@ -103,7 +103,7 @@ const Backdrop: React.FC<{ hue?: string }> = ({ hue = BLUE }) => {
   );
 };
 
-const Title: React.FC<{ text: string; hot?: string[]; size: number; delay?: number; align?: "center" | "left"; color?: string }> = ({ text, hot = [], size, delay = 2, align = "center", color = TXT }) => {
+export const Title: React.FC<{ text: string; hot?: string[]; size: number; delay?: number; align?: "center" | "left"; color?: string }> = ({ text, hot = [], size, delay = 2, align = "center", color = TXT }) => {
   const f = useCurrentFrame();
   return (
     <div style={{ fontFamily: HEAD, fontWeight: 800, fontSize: size, lineHeight: 1.22, color, textAlign: align, textWrap: "balance" as never }}>
@@ -117,21 +117,21 @@ const Title: React.FC<{ text: string; hot?: string[]; size: number; delay?: numb
   );
 };
 
-const Chip: React.FC<{ t: string; i: number; fs: number; color?: string; delay?: number }> = ({ t, i, fs, color = BLUE, delay = 10 }) => {
+export const Chip: React.FC<{ t: string; i: number; fs: number; color?: string; delay?: number }> = ({ t, i, fs, color = BLUE, delay = 10 }) => {
   const k = useIn(delay + i * 5, 12);
   return <div style={{ display: "inline-flex", alignItems: "center", gap: fs * 0.35, padding: `${fs * 0.36}px ${fs * 0.75}px`, borderRadius: 80, background: `linear-gradient(135deg, ${color}38, ${color}14)`, border: `2px solid ${color}AA`, fontFamily: BODY, fontWeight: 700, fontSize: fs, color: TXT,
     opacity: k, transform: `translateY(${(1 - k) * 26}px) scale(${0.85 + 0.15 * k})`, boxShadow: `0 10px 30px ${color}22` }}>
     <span style={{ width: fs * 0.34, height: fs * 0.34, borderRadius: 20, background: GOLD, boxShadow: `0 0 12px ${GOLD}` }} />{t}</div>;
 };
 
-const NewBadge: React.FC<{ fs: number; delay?: number }> = ({ fs, delay = 14 }) => {
+export const NewBadge: React.FC<{ fs: number; delay?: number }> = ({ fs, delay = 14 }) => {
   const f = useCurrentFrame();
   const k = useIn(delay, 9);
   return <span style={{ display: "inline-block", padding: `${fs * 0.12}px ${fs * 0.5}px`, borderRadius: 60, background: `linear-gradient(90deg, ${RED}, ${ORANGE})`, fontFamily: HEAD, fontWeight: 800, fontSize: fs, color: "#fff",
     transform: `scale(${(0.5 + 0.5 * k) * (1 + 0.04 * Math.sin(f / 4))}) rotate(${(1 - k) * -20}deg)`, opacity: k, boxShadow: `0 0 30px ${RED}88`, verticalAlign: "middle" }}>নতুন</span>;
 };
 
-const Tag: React.FC<{ t: string; fs: number }> = ({ t, fs }) => {
+export const Tag: React.FC<{ t: string; fs: number }> = ({ t, fs }) => {
   const k = useIn(0, 14);
   return <div style={{ display: "inline-block", alignSelf: "inherit", width: "fit-content", padding: `${fs * 0.22}px ${fs * 0.7}px`, borderRadius: 60, border: `2px solid ${SKY}88`, background: `${SKY}18`, fontFamily: BODY, fontWeight: 700, fontSize: fs, color: SKY, opacity: k, transform: `translateY(${(1 - k) * 20}px)` }}>{t}</div>;
 };
@@ -151,7 +151,7 @@ const ScreenView: React.FC<{ s: Screen; len: number }> = ({ s, len }) => {
   return <Img src={S(`shots/${s.img}.jpg`)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top", transform: `scale(${z})`, transformOrigin: "50% 20%" }} />;
 };
 
-const Phone: React.FC<{ w: number; screens: Screen[]; len: number; delay?: number; tilt?: number; notif?: boolean }> = ({ w, screens, len, delay = 0, tilt = 0, notif }) => {
+export const Phone: React.FC<{ w: number; screens: Screen[]; len: number; delay?: number; tilt?: number; notif?: boolean }> = ({ w, screens, len, delay = 0, tilt = 0, notif }) => {
   const f = useCurrentFrame();
   const k = useIn(delay, 15, 0.9);
   const h = w * 2.167;
@@ -204,7 +204,7 @@ const BackPhone: React.FC<{ w: number; img: string; side: 1 | -1 }> = ({ w, img,
     <div style={{ borderRadius: w * 0.11, overflow: "hidden", height: w * 2.167 }}><Img src={S(`shots/${img}.jpg`)} style={{ width: "100%" }} /></div></div>;
 };
 
-const PlayLogo: React.FC<{ s: number }> = ({ s }) => (
+export const PlayLogo: React.FC<{ s: number }> = ({ s }) => (
   <svg width={s} height={s * 1.1} viewBox="0 0 30 33">
     <path d="M1.2 0.9 L17 16.5 L1.2 32.1 C0.6 31.8 0.3 31.2 0.3 30.4 V2.6 C0.3 1.8 0.6 1.2 1.2 0.9Z" fill="#00D7FE" />
     <path d="M22.3 11.2 L17 16.5 L1.2 0.9 C1.6 0.7 2.2 0.7 2.8 1 Z" fill="#00F076" />
@@ -213,7 +213,7 @@ const PlayLogo: React.FC<{ s: number }> = ({ s }) => (
   </svg>
 );
 
-const PlayBadge: React.FC<{ h: number }> = ({ h }) => (
+export const PlayBadge: React.FC<{ h: number }> = ({ h }) => (
   <div style={{ display: "inline-flex", alignItems: "center", gap: h * 0.2, height: h, padding: `0 ${h * 0.34}px 0 ${h * 0.26}px`, borderRadius: h * 0.16, background: "#000", border: "2px solid #A6A6A6" }}>
     <PlayLogo s={h * 0.52} />
     <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.05, color: "#fff" }}>
@@ -223,7 +223,7 @@ const PlayBadge: React.FC<{ h: number }> = ({ h }) => (
   </div>
 );
 
-const Note: React.FC<{ t: string; fs: number; style?: React.CSSProperties }> = ({ t, fs, style }) => {
+export const Note: React.FC<{ t: string; fs: number; style?: React.CSSProperties }> = ({ t, fs, style }) => {
   const f = useCurrentFrame();
   return <div style={{ fontFamily: BODY, fontSize: fs, color: MUTE, opacity: lerp(f, 30, 45) * 0.9, ...style }}>{t}</div>;
 };
@@ -288,7 +288,7 @@ const FLIGHTS = [
   " 3 EK 585  J9 C4 Y9 B4  DAC DXB 1015 1340",
   " 4 QR 639  J4 Y9 B7 M5  DAC DOH 1930 2215",
 ];
-const TerminalScene: React.FC<{ sc: Extract<Scene, { k: "terminal" }> }> = ({ sc }) => {
+export const TerminalScene: React.FC<{ sc: Extract<Scene, { k: "terminal" }> }> = ({ sc }) => {
   const f = useCurrentFrame();
   const m = useMode();
   const cmd = "AN15DECDACJED";
@@ -473,7 +473,7 @@ const Subs: React.FC<{ len: number }> = ({ len }) => {
   );
 };
 
-const Offer: React.FC<{ sc: Extract<Scene, { k: "offer" }>; len: number }> = ({ sc }) => {
+export const Offer: React.FC<{ sc: Extract<Scene, { k: "offer" }>; len: number }> = ({ sc }) => {
   const f = useCurrentFrame();
   const m = useMode();
   const a = useIn(2, 12), p = useIn(sc.subsLine ? 46 : 18, 8, 0.7), d = useIn(sc.subsLine ? 80 : 50, 12), g = 0.5 + 0.5 * Math.sin(f / 6);
@@ -502,7 +502,7 @@ const Offer: React.FC<{ sc: Extract<Scene, { k: "offer" }>; len: number }> = ({ 
   );
 };
 
-const Cta: React.FC = () => {
+export const Cta: React.FC = () => {
   const f = useCurrentFrame();
   const m = useMode();
   const i = useIn(0, 11), b = useIn(14, 10), t = useIn(26, 12);
