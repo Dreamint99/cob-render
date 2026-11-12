@@ -58,6 +58,37 @@ const Rings: React.FC<{ g: GD; tt: number }> = ({ g, tt }) => (
   </>
 );
 
+/* ---------- tutorial camera: zoom into each highlighted / clicked element, spotlight around it ---------- */
+type Cam = { z: number; fx: number; fy: number };
+const ID: Cam = { z: 1, fx: VW / 2, fy: VH / 2 };
+const smooth = (x: number) => { const k = Math.min(1, Math.max(0, x)); return k * k * (3 - 2 * k); };
+const mix = (a: Cam, b: Cam, k: number): Cam => ({ z: a.z + (b.z - a.z) * k, fx: a.fx + (b.fx - a.fx) * k, fy: a.fy + (b.fy - a.fy) * k });
+type Shot = { start: number; end: number; cam: Cam; e: Ev };
+const shotsOf = (g: GD): Shot[] => g.ev.map((e) => {
+  const [x, y, w, h] = e.rect; const W = w * K + 140, H = h * K + 140;
+  const z = Math.max(1.12, Math.min(1.9, Math.min(VW / W, VH / H) * 0.62));
+  return { start: e.t - 0.45, end: e.t + (e.k === "hl" ? (e.dur || 1.4) : 0.9) + 0.5, cam: { z, fx: (x + w / 2) * K, fy: (y + h / 2) * K }, e };
+});
+const camAt = (S: Shot[], tt: number): { cam: Cam; act: Shot | null; on: number } => {
+  let i = -1; for (let k = 0; k < S.length; k++) if (S[k].start <= tt) i = k;
+  if (i < 0) return { cam: ID, act: null, on: 0 };
+  const s = S[i]; const a = smooth((tt - s.start) / 0.55);
+  const prev = i > 0 && S[i - 1].end >= s.start - 0.6 ? S[i - 1].cam : ID;
+  let cam = mix(prev, s.cam, a), on = a;
+  if (tt > s.end) { const o = smooth((tt - s.end) / 0.7); cam = mix(s.cam, ID, o); on = 1 - o; }
+  return { cam, act: s, on };
+};
+const camTransform = (c: Cam) => {
+  let tx = VW / 2 - c.fx * c.z, ty = VH / 2 - c.fy * c.z;
+  tx = Math.min(0, Math.max(VW - VW * c.z, tx)); ty = Math.min(0, Math.max(VH - VH * c.z, ty));
+  return `translate(${tx}px, ${ty}px) scale(${c.z})`;
+};
+const Spot: React.FC<{ s: Shot | null; on: number }> = ({ s, on }) => {
+  if (!s || on <= 0.02) return null;
+  const [x, y, w, h] = s.e.rect, pad = 10;
+  return <div style={{ position: "absolute", left: x * K - pad, top: y * K - pad, width: w * K + 2 * pad, height: h * K + 2 * pad, borderRadius: 14, boxShadow: `0 0 0 4000px rgba(15,23,42,${0.42 * on})`, pointerEvents: "none" }} />;
+};
+
 const Banner: React.FC<{ g: GD; tt: number }> = ({ g, tt }) => {
   const { fps } = useVideoConfig();
   let cur = 0; g.steps.forEach((s, i) => { if (tt >= s.t) cur = i; });
@@ -115,6 +146,8 @@ export const GuideFilm: React.FC<{ id: string }> = ({ id }) => {
   let cur = 0; g.steps.forEach((s, i) => { if (tt >= s.t) cur = i; });
   const path = g.steps[cur]?.path || "/";
   const recLen = Math.ceil(g.len * fps);
+  const shots = React.useMemo(() => shotsOf(g), [g]);
+  const cam = camAt(shots, tt);
   return (
     <AbsoluteFill style={{ background: "#F6F7FB" }}>
       <Sequence from={INTRO} durationInFrames={recLen}>
@@ -126,9 +159,12 @@ export const GuideFilm: React.FC<{ id: string }> = ({ id }) => {
               <div style={{ marginLeft: 16, width: 620, height: 30, borderRadius: 99, background: WHITE, display: "flex", alignItems: "center", gap: 8, padding: "0 14px", fontFamily: LAT, fontWeight: 600, fontSize: 17, color: "#475569" }}>
                 <ShieldCheck size={16} color={GREEN} />qount.dreamithq.com{path === "/" ? "" : path}</div>
             </div>
-            <div style={{ position: "relative", width: VW, height: VH }}>
-              <OffthreadVideo src={staticFile(`qg/${id}.mp4`)} muted style={{ width: VW, height: VH }} />
-              <Rings g={g} tt={tt} />
+            <div style={{ position: "relative", width: VW, height: VH, overflow: "hidden" }}>
+              <div style={{ position: "absolute", left: 0, top: 0, width: VW, height: VH, transformOrigin: "0 0", transform: camTransform(cam.cam) }}>
+                <OffthreadVideo src={staticFile(`qg/${id}.mp4`)} muted style={{ width: VW, height: VH }} />
+                <Spot s={cam.act} on={cam.act?.e.k === "hl" ? cam.on : cam.on * 0.6} />
+                <Rings g={g} tt={tt} />
+              </div>
             </div>
           </div>
           <Banner g={g} tt={tt} />
