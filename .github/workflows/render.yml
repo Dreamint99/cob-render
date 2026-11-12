@@ -11,6 +11,7 @@ on:
       scale: { description: "render scale (1 = 1080p, 1.3333 = 1440p)", default: "1.3333333333333333" }
       comp: { description: "composition id (default Doc-<id>)", default: "" }
       pubdir: { description: "where the assets archive is unpacked", default: "public/docs" }
+      entry: { description: "Remotion entry file", default: "src/index.ts" }
 
 permissions:
   contents: write
@@ -52,7 +53,7 @@ jobs:
           gh release download "docs-${{ inputs.id }}" -p "docs-${{ inputs.id }}.tar.gz" -D /tmp
           mkdir -p "${{ inputs.pubdir }}" && tar xzf "/tmp/docs-${{ inputs.id }}.tar.gz" -C "${{ inputs.pubdir }}"
       - name: render frames ${{ matrix.a }}-${{ matrix.b }}
-        run: npx remotion render src/index.ts "${{ inputs.comp || format('Doc-{0}', inputs.id) }}" "out/c${{ matrix.i }}.mp4" --frames=${{ matrix.a }}-${{ matrix.b }} --scale=${{ inputs.scale }} --gl=swangle --concurrency=100% --crf=18 --log=error
+        run: npx remotion render "${{ inputs.entry || 'src/index.ts' }}" "${{ inputs.comp || format('Doc-{0}', inputs.id) }}" "out/c${{ matrix.i }}.mp4" --frames=${{ matrix.a }}-${{ matrix.b }} --scale=${{ inputs.scale }} --gl=swangle --concurrency=100% --crf=18 --log=error
       - uses: actions/upload-artifact@v4
         with: { name: "c${{ matrix.i }}", path: "out/c${{ matrix.i }}.mp4", retention-days: 2 }
 
