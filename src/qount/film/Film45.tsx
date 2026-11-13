@@ -62,7 +62,7 @@ const Phone: React.FC<{ cx: number; cy: number; h: number; screens: Scr[]; taps?
 };
 
 /* push banner inside a phone (1080-wide space) */
-const Push: React.FC<{ at: number; title: string; body: string }> = ({ at, title, body }) => {
+export const Push: React.FC<{ at: number; title: string; body: string }> = ({ at, title, body }) => {
   const f = useCurrentFrame(); const s = sp(f, 30, at, 15);
   return (
     <div style={{ position: "absolute", left: 36, top: 40, width: 1008, borderRadius: 56, background: "#fff", border: "3px solid #ECE6D8", boxShadow: "0 24px 60px rgba(0,0,0,.18)", transform: `translateY(${(1 - s) * -360}px)`, display: "flex", alignItems: "center", gap: 30, padding: "34px 40px" }}>
@@ -199,7 +199,7 @@ const ListScene: React.FC = () => {
   );
 };
 
-const EndCard: React.FC = () => {
+export const EndCard: React.FC = () => {
   const f = useCurrentFrame(); const V = useV();
   const a = sp(f, 30, 2, 12), b = sp(f, 30, 14, 13), c = sp(f, 30, 26, 12);
   // petals "drawn" one by one (brand motion: a booking confirmed = an alpona drawn)
@@ -226,8 +226,8 @@ const EndCard: React.FC = () => {
 };
 
 /* ---------- captions ---------- */
-type Cap = [number, number, string, string?];
-const Captions: React.FC<{ caps: Cap[]; light: (f: number) => boolean }> = ({ caps, light }) => {
+export type Cap = [number, number, string, string?];
+export const Captions: React.FC<{ caps: Cap[]; light: (f: number) => boolean }> = ({ caps, light }) => {
   const f = useCurrentFrame(); const V = useV();
   const c = caps.find(([a, b]) => f >= a && f < b);
   if (!c) return null;

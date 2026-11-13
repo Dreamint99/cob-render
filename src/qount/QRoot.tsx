@@ -7,6 +7,7 @@ import { GuideFilm, guideFrames } from "./Guide";
 import { Cut12 } from "./film/Cut12";
 import { Film45, Film15 } from "./film/Film45";
 import { Film2, V2_LEN } from "./film/Film2";
+import { Tvc10, TVC10_LEN } from "./film/Tvc10";
 import GD from "./guide-data.json";
 export const QRoot: React.FC = () => (
   <>
@@ -26,5 +27,6 @@ export const QRoot: React.FC = () => (
     <Composition id="QF-S" component={Film15} durationInFrames={450} fps={30} width={1080} height={1920} />
     <Composition id="QV2-H" component={Film2} durationInFrames={V2_LEN} fps={30} width={1920} height={1080} />
     <Composition id="QV2-V" component={Film2} durationInFrames={V2_LEN} fps={30} width={1080} height={1920} />
+    <Composition id="QTVC-H" component={Tvc10} durationInFrames={TVC10_LEN} fps={30} width={1920} height={1080} />
   </>
 );
