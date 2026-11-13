@@ -4,6 +4,8 @@ import { QdH, QdF, QdR, QD_TOTAL } from "./Qd";
 import { QtH, QtF, QtR, QT_TOTAL } from "./Qt";
 import { QiH, QiF, QiR, QI_TOTAL } from "./Qi";
 import { GuideFilm, guideFrames } from "./Guide";
+import { Cut12 } from "./film/Cut12";
+import { Film45, Film15 } from "./film/Film45";
 import GD from "./guide-data.json";
 export const QRoot: React.FC = () => (
   <>
@@ -17,5 +19,9 @@ export const QRoot: React.FC = () => (
     <Composition id="QI-F" component={QiF} durationInFrames={QI_TOTAL.F} fps={30} width={1080} height={1350} />
     <Composition id="QI-R" component={QiR} durationInFrames={QI_TOTAL.R} fps={30} width={1080} height={1920} />
     {Object.keys(GD).map((id) => <Composition key={id} id={"QG-" + id} component={GuideFilm} defaultProps={{ id }} durationInFrames={guideFrames(id)} fps={30} width={1920} height={1080} />)}
+    <Composition id="QF-cut12" component={Cut12} durationInFrames={360} fps={30} width={1920} height={1080} />
+    <Composition id="QF-H" component={Film45} durationInFrames={1350} fps={30} width={1920} height={1080} />
+    <Composition id="QF-V" component={Film45} durationInFrames={1350} fps={30} width={1080} height={1920} />
+    <Composition id="QF-S" component={Film15} durationInFrames={450} fps={30} width={1080} height={1920} />
   </>
 );
