@@ -545,7 +545,7 @@ export const Promo: React.FC = () => {
         </Sequence>
       ))}
       <Sequence from={OFF}><Audio src={S(`vo-${m}.mp3`)} /></Sequence>
-      <Audio src={S("music.mp3")} volume={(f) => interpolate(f, [0, 15, T - 75, T], [0, 0.2, 0.2, 0], clamp)} />
+      <Audio src={S("music.mp3")} volume={(f) => interpolate(f, [0, 15, T - 75, T], [0, 0.08, 0.08, 0], clamp)} />
       {its.flatMap((it) => (SFX[it.id] ?? []).map(([s, o, vol], j) => {
         const at = o === -1 ? it.from + Math.round(it.len * 0.42) : it.from + o;
         return at >= 0 ? <Sequence key={it.id + s + j} from={at} durationInFrames={90}><Audio src={S(`sfx/${s}.mp3`)} volume={vol} /></Sequence> : null;
