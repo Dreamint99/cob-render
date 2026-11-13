@@ -28,7 +28,7 @@ if (typeof document !== "undefined") {
   ff.load().then((x) => { document.fonts.add(x); continueRender(h); }).catch(() => continueRender(h));
 }
 
-type Line = { id: string; text: string; vtext?: string; cap: string; sub?: string; vis: string; reel: number };
+type Line = { id: string; text: string; vtext?: string; vcap?: string; cap: string; sub?: string; vis: string; reel: number };
 type Mode = "h" | "v";
 const L = LINES as Line[];
 const B = BOUNDS as Record<Mode, { id: string; a: number; b: number }[]>;
@@ -45,7 +45,7 @@ export const items = (m: Mode) => {
     const l = L.find((y) => y.id === x.id)!;
     const from = i === 0 ? 0 : OFF + Math.round(x.a * FPS);
     const to = i === bs.length - 1 ? OFF + Math.round(x.b * FPS) + HOLD : OFF + Math.round(bs[i + 1].a * FPS);
-    return { ...l, say: m === "v" ? l.vtext ?? l.text : l.text, from, len: to - from, lead: i === 0 ? OFF : 0, dur: x.b - x.a, n: i };
+    return { ...l, cap: m === "v" ? l.vcap ?? l.cap : l.cap, say: m === "v" ? l.vtext ?? l.text : l.text, from, len: to - from, lead: i === 0 ? OFF : 0, dur: x.b - x.a, n: i };
   });
 };
 export const total = (m: Mode) => { const t = items(m); const x = t[t.length - 1]; return x.from + x.len; };
@@ -298,7 +298,7 @@ const Scene: React.FC<{ it: It; m: Mode }> = ({ it, m }) => {
     return (
       <AbsoluteFill>
         <Ink />
-        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", flexDirection: H ? "row" : "column", gap: H ? 40 : 30, paddingBottom: H ? 180 : 60 }}>
+        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", flexDirection: H ? "row" : "column", gap: H ? 40 : 24, paddingBottom: H ? 180 : 300 }}>
           {tags.map((t, i) => {
             const k = useIn(D0 + 30 + i * 20, 10, 0.6);
             return <div key={t} style={{ padding: H ? "28px 44px" : "24px 50px", borderRadius: 22, background: "#1A1B22", border: `2px solid ${LINE}`, transform: `scale(${k}) rotate(${(i - 1) * 4}deg)`,
@@ -308,7 +308,7 @@ const Scene: React.FC<{ it: It; m: Mode }> = ({ it, m }) => {
         {(() => {
           const at = Math.round(len * 0.62);
           const k = useIn(at, 12, 0.7);
-          return <AbsoluteFill style={{ alignItems: "center", justifyContent: H ? "flex-end" : "flex-start", paddingBottom: H ? 250 : 0, paddingTop: H ? 0 : 1150, opacity: f > at ? 1 : 0 }}>
+          return <AbsoluteFill style={{ alignItems: "center", justifyContent: H ? "flex-end" : "flex-start", paddingBottom: H ? 250 : 0, paddingTop: H ? 0 : 1290, opacity: f > at ? 1 : 0 }}>
             <div style={{ padding: "16px 40px", borderRadius: 18, background: ORANGE, color: "#14151B", fontFamily: FONT, fontWeight: 800, fontStretch: "115%", fontSize: H ? 64 : 66, transform: `scale(${k}) rotate(-5deg)`, boxShadow: "0 20px 60px rgba(0,0,0,0.6)" }}>তবুও A to Z নয়!</div>
           </AbsoluteFill>;
         })()}
