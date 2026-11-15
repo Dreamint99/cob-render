@@ -1,0 +1,717 @@
+{
+ "id": "excel-14",
+ "course": "অফিস মাস্টারক্লাস",
+ "lessonNo": "এক্সেল · পাঠ ১৪",
+ "title": "Power Query — অগোছালো ডেটা এক ক্লিকে পরিষ্কার",
+ "next": "Copilot in Excel — এআই এজেন্ট দিয়ে শিট",
+ "file": "PowerQuery.xlsx",
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "অফিস মাস্টারক্লাস · এক্সেল",
+   "title": "Power Query — অগোছালো ডেটা এক ক্লিকে পরিষ্কার",
+   "sub": "একবার বানাও, বারবার Refresh",
+   "chips": [
+    "Get Data",
+    "Remove Blank Rows",
+    "Split Column",
+    "Trim",
+    "Refresh All"
+   ],
+   "vo": "আসসালামু আলাইকুম! অফিস মাস্টারক্লাসের এক্সেল পাঠ চৌদ্দতে স্বাগতম। আজকের বিষয় Power Query। প্রায় প্রতি অফিসেই মাসের শেষে কেউ না কেউ একটা অগোছালো বিক্রির তালিকা পাঠায়। সেটা হাতে ঠিক করতে ঘণ্টার পর ঘণ্টা চলে যায়। আজ শিখব একবার পরিষ্কার করার পদ্ধতি, যাতে পরের মাসে শুধু নতুন ডেটা এনে একটা Refresh চাপলেই সব কাজ আবার হয়ে যায়। চলো শুরু করি।",
+   "frames": 722
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 40,
+    "D": 160,
+    "E": 170,
+    "F": 150
+   },
+   "cells": {
+    "A1": {
+     "t": "Info",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Amount",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim - Dhaka"
+    },
+    "B2": {
+     "t": "25,000"
+    },
+    "A3": {
+     "t": "  Karim - Sylhet  "
+    },
+    "B3": {
+     "t": "32,000"
+    },
+    "A5": {
+     "t": "Nusrat - Dhaka"
+    },
+    "B5": {
+     "t": "28,000"
+    },
+    "A6": {
+     "t": "Farhana - Chattogram"
+    },
+    "B6": {
+     "t": "45,000"
+    },
+    "A7": {
+     "t": "Sajid - Dhaka"
+    },
+    "B7": {
+     "t": "30,000"
+    }
+   },
+   "sel": "A1",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.04,
+     "act": "tab",
+     "tabName": "Data"
+    },
+    {
+     "at": 0.08,
+     "act": "call",
+     "cell": "A2",
+     "text": "ফাঁকা সারি, বাড়তি স্পেস, এক ঘরে দুই তথ্য",
+     "len": 90
+    },
+    {
+     "at": 0.2,
+     "act": "select",
+     "cell": "A1",
+     "range": "A1:B7"
+    },
+    {
+     "at": 0.32,
+     "act": "click",
+     "btn": "getdata",
+     "tabFor": "Data"
+    },
+    {
+     "at": 0.4,
+     "act": "call",
+     "x": 420,
+     "y": 200,
+     "text": "Get Data → From Table/Range",
+     "len": 90
+    }
+   ],
+   "vo": "এখন আসল কাজে যাই। মাসের শেষে বিক্রির তালিকা প্রায়ই এমন অগোছালো আসে। দেখো, এক ঘরে নাম আর এলাকা একসাথে লেখা, মাঝে ফাঁকা সারি, আর কিছু জায়গায় বাড়তি স্পেস। Amount কলামের সংখ্যাগুলোও টেক্সট হিসেবে আছে, তাই যোগফল করা যায় না। হাতে ঠিক করতে গেলে অনেক সময় যায়, আর একটা ভুল থেকে পুরো হিসাব ভুল হয়ে যায়। প্রথমে ডেটার ভেতরে ক্লিক করো, তারপর ডেটা ট্যাবে গিয়ে Get Data চাপো, আর সেখান থেকে From Table/Range বেছে নাও।",
+   "frames": 912
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 40,
+    "D": 160,
+    "E": 170,
+    "F": 150
+   },
+   "cells": {
+    "A1": {
+     "t": "Info",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Amount",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim - Dhaka"
+    },
+    "B2": {
+     "t": "25,000"
+    },
+    "A3": {
+     "t": "  Karim - Sylhet  "
+    },
+    "B3": {
+     "t": "32,000"
+    },
+    "A5": {
+     "t": "Nusrat - Dhaka"
+    },
+    "B5": {
+     "t": "28,000"
+    },
+    "A6": {
+     "t": "Farhana - Chattogram"
+    },
+    "B6": {
+     "t": "45,000"
+    },
+    "A7": {
+     "t": "Sajid - Dhaka"
+    },
+    "B7": {
+     "t": "30,000"
+    },
+    "D1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "City",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Amount",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D2": {
+     "t": "Rahim"
+    },
+    "E2": {
+     "t": "Dhaka"
+    },
+    "F2": {
+     "t": "25,000"
+    },
+    "D3": {
+     "t": "Karim"
+    },
+    "E3": {
+     "t": "Sylhet"
+    },
+    "F3": {
+     "t": "32,000"
+    },
+    "D4": {
+     "t": "Nusrat"
+    },
+    "E4": {
+     "t": "Dhaka"
+    },
+    "F4": {
+     "t": "28,000"
+    },
+    "D5": {
+     "t": "Farhana"
+    },
+    "E5": {
+     "t": "Chattogram"
+    },
+    "F5": {
+     "t": "45,000"
+    },
+    "D6": {
+     "t": "Sajid"
+    },
+    "E6": {
+     "t": "Dhaka"
+    },
+    "F6": {
+     "t": "30,000"
+    }
+   },
+   "sel": "A1",
+   "tab": "Data",
+   "pane": "Power Query",
+   "steps": [
+    {
+     "at": 0.03,
+     "act": "pane",
+     "title": "Power Query",
+     "sub": "Power Query Editor — Applied Steps",
+     "color": "#5B5FC7",
+     "side": "right",
+     "items": [
+      {
+       "t": "Source",
+       "on": true,
+       "area": "Applied Steps"
+      },
+      {
+       "t": "Removed Blank Rows",
+       "on": false,
+       "area": "Applied Steps"
+      },
+      {
+       "t": "Split Column by Delimiter",
+       "on": false,
+       "area": "Applied Steps"
+      },
+      {
+       "t": "Trimmed Text",
+       "on": false,
+       "area": "Applied Steps"
+      },
+      {
+       "t": "Changed Type",
+       "on": false,
+       "area": "Applied Steps"
+      }
+     ]
+    },
+    {
+     "at": 0.2,
+     "act": "item",
+     "t": "Removed Blank Rows",
+     "on": true,
+     "area": "Applied Steps"
+    },
+    {
+     "at": 0.22,
+     "act": "call",
+     "x": 300,
+     "y": 300,
+     "text": "ফাঁকা সারি বাদ",
+     "len": 70
+    },
+    {
+     "at": 0.42,
+     "act": "item",
+     "t": "Split Column by Delimiter",
+     "on": true,
+     "area": "Applied Steps"
+    },
+    {
+     "at": 0.44,
+     "act": "call",
+     "x": 300,
+     "y": 300,
+     "text": "Delimiter: হাইফেন ( - )",
+     "len": 80
+    },
+    {
+     "at": 0.62,
+     "act": "item",
+     "t": "Trimmed Text",
+     "on": true,
+     "area": "Applied Steps"
+    },
+    {
+     "at": 0.64,
+     "act": "call",
+     "x": 300,
+     "y": 300,
+     "text": "বাড়তি স্পেস সরল",
+     "len": 70
+    },
+    {
+     "at": 0.8,
+     "act": "item",
+     "t": "Changed Type",
+     "on": true,
+     "area": "Applied Steps"
+    },
+    {
+     "at": 0.82,
+     "act": "call",
+     "x": 300,
+     "y": 300,
+     "text": "Amount এখন সংখ্যা",
+     "len": 70
+    },
+    {
+     "at": 0.92,
+     "act": "panex"
+    }
+   ],
+   "vo": "Power Query Editor খুলল। এটা এক্সেলের ভেতরের একটা আলাদা কর্মশালা, যেখানে মূল ডেটা সরাসরি বদলায় না। এখানে যা করছি, ডান দিকের Applied Steps তালিকায় একে একে জমা হচ্ছে। প্রথমে ফাঁকা সারি বাদ দিই — Remove Blank Rows। এরপর হাইফেন ধরে নাম আর এলাকা আলাদা করি — Split Column by Delimiter। Delimiter মানে যে চিহ্ন দিয়ে কলাম ভাগ হবে, এখানে সেটা হাইফেন। তারপর Trim দিয়ে নামের আগে পিছের বাড়তি স্পেস সরাই। শেষে Amount-কে Change Type করে সংখ্যা বানাই, যাতে যোগফল করা যায়। প্রতিটি ধাপের পর একবার দেখে নাও, ফলাফল ঠিক এসেছে কি না।",
+   "frames": 1126
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 40,
+    "D": 160,
+    "E": 170,
+    "F": 150
+   },
+   "cells": {
+    "A1": {
+     "t": "Info",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Amount",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim - Dhaka"
+    },
+    "B2": {
+     "t": "25,000"
+    },
+    "A3": {
+     "t": "  Karim - Sylhet  "
+    },
+    "B3": {
+     "t": "32,000"
+    },
+    "A5": {
+     "t": "Nusrat - Dhaka"
+    },
+    "B5": {
+     "t": "28,000"
+    },
+    "A6": {
+     "t": "Farhana - Chattogram"
+    },
+    "B6": {
+     "t": "45,000"
+    },
+    "A7": {
+     "t": "Sajid - Dhaka"
+    },
+    "B7": {
+     "t": "30,000"
+    },
+    "D1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "City",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Amount",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D2": {
+     "t": "Rahim"
+    },
+    "E2": {
+     "t": "Dhaka"
+    },
+    "F2": {
+     "t": "25,000"
+    },
+    "D3": {
+     "t": "Karim"
+    },
+    "E3": {
+     "t": "Sylhet"
+    },
+    "F3": {
+     "t": "32,000"
+    },
+    "D4": {
+     "t": "Nusrat"
+    },
+    "E4": {
+     "t": "Dhaka"
+    },
+    "F4": {
+     "t": "28,000"
+    },
+    "D5": {
+     "t": "Farhana"
+    },
+    "E5": {
+     "t": "Chattogram"
+    },
+    "F5": {
+     "t": "45,000"
+    },
+    "D6": {
+     "t": "Sajid"
+    },
+    "E6": {
+     "t": "Dhaka"
+    },
+    "F6": {
+     "t": "30,000"
+    }
+   },
+   "sel": "D1",
+   "tab": "Data",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "call",
+     "cell": "D1",
+     "text": "Close & Load — নতুন শিটে টেবিল",
+     "len": 100
+    },
+    {
+     "at": 0.4,
+     "act": "zoom",
+     "range": "D1:F6",
+     "k": 1.6
+    },
+    {
+     "at": 0.5,
+     "act": "call",
+     "x": 900,
+     "y": 520,
+     "text": "সিক্রেট: Applied Steps-এ প্রতিটি ধাপ রেকর্ড",
+     "len": 110
+    },
+    {
+     "at": 0.9,
+     "act": "unzoom"
+    }
+   ],
+   "vo": "সব ধাপ শেষ হলে Close & Load চাপলাম। ফলাফল আলাদা একটা শিটে টেবিল হয়ে বসল — নাম, এলাকা আর পরিষ্কার সংখ্যার বেতন। ফাঁকা সারি নেই, স্পেসও নেই। Amount কলামটা এখন সংখ্যা, তাই চাইলে যোগফল বা গড় সহজেই বের করা যায়। আর এখানেই আসল সিক্রেট: Applied Steps-এ প্রতিটি ধাপ রেকর্ড হয়ে থাকে। তাই কাজটা একবারই করতে হলো। এবার পরের মাসের কথা ভাবো।",
+   "frames": 780
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 40,
+    "D": 160,
+    "E": 170,
+    "F": 150
+   },
+   "cells": {
+    "A1": {
+     "t": "Info",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Amount",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim - Dhaka"
+    },
+    "B2": {
+     "t": "25,000"
+    },
+    "A3": {
+     "t": "  Karim - Sylhet  "
+    },
+    "B3": {
+     "t": "32,000"
+    },
+    "A5": {
+     "t": "Nusrat - Dhaka"
+    },
+    "B5": {
+     "t": "28,000"
+    },
+    "A6": {
+     "t": "Farhana - Chattogram"
+    },
+    "B6": {
+     "t": "45,000"
+    },
+    "A7": {
+     "t": "Sajid - Dhaka"
+    },
+    "B7": {
+     "t": "30,000"
+    },
+    "D1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "City",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Amount",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D2": {
+     "t": "Rahim"
+    },
+    "E2": {
+     "t": "Dhaka"
+    },
+    "F2": {
+     "t": "25,000"
+    },
+    "D3": {
+     "t": "Karim"
+    },
+    "E3": {
+     "t": "Sylhet"
+    },
+    "F3": {
+     "t": "32,000"
+    },
+    "D4": {
+     "t": "Nusrat"
+    },
+    "E4": {
+     "t": "Dhaka"
+    },
+    "F4": {
+     "t": "28,000"
+    },
+    "D5": {
+     "t": "Farhana"
+    },
+    "E5": {
+     "t": "Chattogram"
+    },
+    "F5": {
+     "t": "45,000"
+    },
+    "D6": {
+     "t": "Sajid"
+    },
+    "E6": {
+     "t": "Dhaka"
+    },
+    "F6": {
+     "t": "30,000"
+    }
+   },
+   "sel": "A2",
+   "tab": "Data",
+   "steps": [
+    {
+     "at": 0.05,
+     "act": "call",
+     "cell": "A2",
+     "text": "পরের মাসে নতুন তালিকা পেস্ট করলাম",
+     "len": 90
+    },
+    {
+     "at": 0.1,
+     "act": "set",
+     "cells": {
+      "A2": "Rahim - Dhaka",
+      "B2": "27,000",
+      "A3": "Karim - Sylhet",
+      "B3": "31,000",
+      "A5": "Nusrat - Dhaka",
+      "B5": "29,000",
+      "A6": "Farhana - Chattogram",
+      "B6": "47,000",
+      "A7": "Sajid - Dhaka",
+      "B7": "33,000"
+     }
+    },
+    {
+     "at": 0.4,
+     "act": "tab",
+     "tabName": "Data"
+    },
+    {
+     "at": 0.46,
+     "act": "click",
+     "btn": "refresh",
+     "tabFor": "Data"
+    },
+    {
+     "at": 0.5,
+     "act": "call",
+     "x": 420,
+     "y": 200,
+     "text": "Refresh All — সব ধাপ আবার চলল",
+     "len": 90
+    },
+    {
+     "at": 0.7,
+     "act": "set",
+     "cells": {
+      "D2": "Rahim",
+      "E2": "Dhaka",
+      "F2": "27,000",
+      "D3": "Karim",
+      "E3": "Sylhet",
+      "F3": "31,000",
+      "D4": "Nusrat",
+      "E4": "Dhaka",
+      "F4": "29,000",
+      "D5": "Farhana",
+      "E5": "Chattogram",
+      "F5": "47,000",
+      "D6": "Sajid",
+      "E6": "Dhaka",
+      "F6": "33,000"
+     }
+    }
+   ],
+   "vo": "পরের মাসে পুরোনো ডেটা মুছে নতুন তালিকা পেস্ট করলাম। নতুন মাসে সারির সংখ্যা বদলাতে পারে, তাতে সমস্যা নেই; শুধু কলামের নাম আর ক্রম যেন আগের মতো থাকে। এখন নতুন ডেটা আছে, কিন্তু টেবিলটা এখনো পুরোনো। Data ট্যাবে গিয়ে Refresh All চাপো। ব্যস! রেকর্ড করা ধাপগুলো একে একে আবার চলল — ফাঁকা সারি বাদ, ভাগ, ট্রিম, সংখ্যা বানানো। নতুন টেবিল এক ক্লিকে তৈরি, হাতে কোনো কাজ লাগল না। এটাই Power Query-র সবচেয়ে বড় সুবিধা।",
+   "frames": 914
+  },
+  {
+   "type": "quizQ",
+   "q": "পরের মাসে নতুন ডেটা পেস্ট করার পর আগের সব ধাপ আবার চালাতে কোনটি করবে?",
+   "o": [
+    "Data → Refresh All",
+    "Ctrl + Z",
+    "Insert → Table",
+    "Home → Paste"
+   ],
+   "a": 0,
+   "hold": 150,
+   "vo": "এবার তোমার পালা। পরের মাসে নতুন ডেটা পেস্ট করার পর আগের সব ধাপ আবার চালাতে কোনটি করবে? ভিডিও থামিয়ে ভাবো। উত্তর মনে এলে আবার চালিয়ে মিলিয়ে নাও।",
+   "frames": 331
+  },
+  {
+   "type": "quizA",
+   "q": "পরের মাসে নতুন ডেটা পেস্ট করার পর আগের সব ধাপ আবার চালাতে কোনটি করবে?",
+   "o": [
+    "Data → Refresh All",
+    "Ctrl + Z",
+    "Insert → Table",
+    "Home → Paste"
+   ],
+   "a": 0,
+   "ex": "Refresh All দিলে Applied Steps আবার চলে। Ctrl + Z আগের কাজ ফেরায়, Insert → Table নতুন টেবিল বানায়।",
+   "vo": "সঠিক উত্তর ক — Data থেকে Refresh All। কন্ট্রোল জেড আগের কাজ ফেরায়, কিন্তু ধাপ চালায় না। আর Insert থেকে Table বানালে নতুন টেবিল হয়, পুরোনো ধাপ আবার চলে না।",
+   "frames": 367
+  },
+  {
+   "type": "recap",
+   "items": [
+    [
+     "Get Data",
+     "ডেটা থেকে Power Query খোলা"
+    ],
+    [
+     "Applied Steps",
+     "প্রতিটি ধাপ রেকর্ড হয়ে থাকে"
+    ],
+    [
+     "Close & Load",
+     "ফলাফল নতুন শিটে টেবিল"
+    ],
+    [
+     "Refresh All",
+     "পরের মাসে সব ধাপ আবার চালু"
+    ]
+   ],
+   "vo": "আজ শিখলাম: Get Data দিয়ে Power Query খোলা, ফাঁকা সারি আর স্পেস পরিষ্কার, Applied Steps-এ ধাপ রেকর্ড, Close & Load দিয়ে নতুন শিটে টেবিল, আর পরের মাসে শুধু Refresh All চাপা। একবার সাজিয়ে রাখলে প্রতি মাসের কাজ কয়েক সেকেন্ডে শেষ।",
+   "frames": 487
+  },
+  {
+   "type": "outro",
+   "vo": "পরের পাঠে শিখব Copilot in Excel — এআই এজেন্ট দিয়ে পুরো শিট বানানো। এর আগে এক্সেল ল্যাবে দুই মাসের বিক্রির তালিকা নিজে পরিষ্কার করে দেখো। তারপর নতুন মাসের ডেটা এনে Refresh All চাপো, আর কী কী বদলাল লক্ষ করো। দেখা হবে!",
+   "frames": 473
+  }
+ ]
+}

@@ -1,0 +1,1287 @@
+{
+ "id": "excel-08",
+ "course": "অফিস মাস্টারক্লাস",
+ "lessonNo": "এক্সেল · পাঠ ৮",
+ "title": "রং দিয়ে বোঝা — Conditional Formatting, ড্রপডাউন, চেকবক্স",
+ "next": "চার্ট — এক নজরে গল্প",
+ "file": "Tasks.xlsx",
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "অফিস মাস্টারক্লাস · এক্সেল",
+   "title": "রং দিয়ে বোঝা — ড্রপডাউন, রং আর চেকবক্স",
+   "sub": "ভুল ইনপুট আটকাও, এক নজরে বোঝো",
+   "chips": [
+    "Data Validation",
+    "Conditional Formatting",
+    "Checkbox",
+    "COUNTIF",
+    "Duplicate Values"
+   ],
+   "vo": "আসসালামু আলাইকুম! এক্সেল পাঠ আটে স্বাগতম। আজ একটা কাজের তালিকা বানাব, যেখানে ভুল টাইপ আটকে যাবে, আর রং দেখেই বোঝা যাবে কোনটা শেষ হয়েছে আর কোনটার সময় পার হয়ে গেছে। ড্রপডাউন, রং আর চেকবক্স — তিনটাই একসাথে শিখব।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 150,
+    "D": 140,
+    "E": 120
+   },
+   "cells": {
+    "A1": {
+     "t": "Task",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Owner",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Status",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Done",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Monthly salary sheet"
+    },
+    "B2": {
+     "t": "Rahim"
+    },
+    "C2": {
+     "t": "05-Nov-2026"
+    },
+    "D2": {
+     "t": "Done"
+    },
+    "E2": {
+     "cb": true
+    },
+    "A3": {
+     "t": "Stock count"
+    },
+    "B3": {
+     "t": "Karim"
+    },
+    "C3": {
+     "t": "12-Nov-2026"
+    },
+    "D3": {
+     "t": "Running"
+    },
+    "E3": {
+     "cb": false
+    },
+    "A4": {
+     "t": "Office bill payment"
+    },
+    "B4": {
+     "t": "Nusrat"
+    },
+    "C4": {
+     "t": "08-Nov-2026"
+    },
+    "D4": {
+     "t": "Pending"
+    },
+    "E4": {
+     "cb": false
+    },
+    "A5": {
+     "t": "Client report"
+    },
+    "B5": {
+     "t": "Farhana"
+    },
+    "C5": {
+     "t": "20-Nov-2026"
+    },
+    "D5": {
+     "t": "Running"
+    },
+    "E5": {
+     "cb": false
+    },
+    "A6": {
+     "t": "Vendor invoice"
+    },
+    "B6": {
+     "t": "Sajid"
+    },
+    "C6": {
+     "t": "15-Nov-2026"
+    },
+    "D6": {
+     "t": "Done"
+    },
+    "E6": {
+     "cb": true
+    },
+    "A7": {
+     "t": "Team meeting notes"
+    },
+    "B7": {
+     "t": "Rahim"
+    },
+    "C7": {
+     "t": "25-Nov-2026"
+    },
+    "D7": {
+     "t": "Pending"
+    },
+    "E7": {
+     "cb": false
+    },
+    "A8": {
+     "t": "Stock count"
+    },
+    "B8": {
+     "t": "Sajid"
+    },
+    "C8": {
+     "t": "28-Nov-2026"
+    },
+    "D8": {
+     "t": "Pending"
+    },
+    "E8": {
+     "cb": false
+    }
+   },
+   "sel": "A1",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.04,
+     "act": "select",
+     "cell": "A1",
+     "range": "A1:E8"
+    },
+    {
+     "at": 0.2,
+     "act": "call",
+     "cell": "D4",
+     "text": "Status-এ যা খুশি লেখা যায়, ভুল হবে",
+     "len": 90
+    },
+    {
+     "at": 0.6,
+     "act": "call",
+     "cell": "E2",
+     "text": "Done কলামের বাক্সে টিক দেওয়া যাবে",
+     "len": 90
+    }
+   ],
+   "vo": "এই শিটে সাতটা কাজের তালিকা আছে। কলামগুলো দেখো — Task, Owner, Due date, Status আর Done। Status-এর ঘরে এখন মানুষ যা খুশি লিখতে পারে। কেউ Done-এর বদলে Dn লিখে ফেললে এক্সেল সেটা বুঝবে না, আর ভুল লেখা হিসাব ভেঙে দেয়। তাই আজ এই ঘরগুলোতে নিয়ম বসাব, যেন ভুল ঢুকতেই না পারে।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 150,
+    "D": 140,
+    "E": 120
+   },
+   "cells": {
+    "A1": {
+     "t": "Task",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Owner",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Status",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Done",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Monthly salary sheet"
+    },
+    "B2": {
+     "t": "Rahim"
+    },
+    "C2": {
+     "t": "05-Nov-2026"
+    },
+    "D2": {
+     "t": "Done"
+    },
+    "E2": {
+     "cb": true
+    },
+    "A3": {
+     "t": "Stock count"
+    },
+    "B3": {
+     "t": "Karim"
+    },
+    "C3": {
+     "t": "12-Nov-2026"
+    },
+    "D3": {
+     "t": "Running"
+    },
+    "E3": {
+     "cb": false
+    },
+    "A4": {
+     "t": "Office bill payment"
+    },
+    "B4": {
+     "t": "Nusrat"
+    },
+    "C4": {
+     "t": "08-Nov-2026"
+    },
+    "D4": {
+     "t": "Pending"
+    },
+    "E4": {
+     "cb": false
+    },
+    "A5": {
+     "t": "Client report"
+    },
+    "B5": {
+     "t": "Farhana"
+    },
+    "C5": {
+     "t": "20-Nov-2026"
+    },
+    "D5": {
+     "t": "Running"
+    },
+    "E5": {
+     "cb": false
+    },
+    "A6": {
+     "t": "Vendor invoice"
+    },
+    "B6": {
+     "t": "Sajid"
+    },
+    "C6": {
+     "t": "15-Nov-2026"
+    },
+    "D6": {
+     "t": "Done"
+    },
+    "E6": {
+     "cb": true
+    },
+    "A7": {
+     "t": "Team meeting notes"
+    },
+    "B7": {
+     "t": "Rahim"
+    },
+    "C7": {
+     "t": "25-Nov-2026"
+    },
+    "D7": {
+     "t": "Pending"
+    },
+    "E7": {
+     "cb": false
+    },
+    "A8": {
+     "t": "Stock count"
+    },
+    "B8": {
+     "t": "Sajid"
+    },
+    "C8": {
+     "t": "28-Nov-2026"
+    },
+    "D8": {
+     "t": "Pending"
+    },
+    "E8": {
+     "cb": false
+    }
+   },
+   "sel": "D2",
+   "tab": "Data",
+   "steps": [
+    {
+     "at": 0.03,
+     "act": "tab",
+     "tabName": "Data"
+    },
+    {
+     "at": 0.06,
+     "act": "select",
+     "cell": "D2",
+     "range": "D2:D8"
+    },
+    {
+     "at": 0.14,
+     "act": "click",
+     "btn": "valid",
+     "tabFor": "Data"
+    },
+    {
+     "at": 0.2,
+     "act": "dialog",
+     "title": "Data Validation",
+     "rows": [
+      [
+       "Allow",
+       "List"
+      ],
+      [
+       "Source",
+       "Pending,Running,Done"
+      ]
+     ],
+     "note": "কমা দিয়ে লেখো"
+    },
+    {
+     "at": 0.44,
+     "act": "ok"
+    },
+    {
+     "at": 0.56,
+     "act": "select",
+     "cell": "D5"
+    },
+    {
+     "at": 0.62,
+     "act": "menu",
+     "cell": "D5",
+     "items": [
+      "Pending",
+      "Running",
+      "Done"
+     ],
+     "pick": 1,
+     "len": 80
+    }
+   ],
+   "vo": "প্রথমে Status কলামটা সিলেক্ট করো, তারপর Data ট্যাবে যাও। সেখানে Data Validation। Allow-তে List বেছে নাও, Source-এ লেখো Pending, Running, Done — কমা দিয়ে। OK চাপলেই ঘরে ড্রপডাউন তৈরি। D5-এ ক্লিক করলে তিনটা অপশন আসে, তুমি একটা বেছে নাও। সিক্রেট হলো, ড্রপডাউন ভুল টাইপ আটকে দেয়। এখন কেউ আর Dn লিখতে পারবে না।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 150,
+    "D": 140,
+    "E": 120
+   },
+   "cells": {
+    "A1": {
+     "t": "Task",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Owner",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Status",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Done",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Monthly salary sheet"
+    },
+    "B2": {
+     "t": "Rahim"
+    },
+    "C2": {
+     "t": "05-Nov-2026"
+    },
+    "D2": {
+     "t": "Done"
+    },
+    "E2": {
+     "cb": true
+    },
+    "A3": {
+     "t": "Stock count"
+    },
+    "B3": {
+     "t": "Karim"
+    },
+    "C3": {
+     "t": "12-Nov-2026"
+    },
+    "D3": {
+     "t": "Running"
+    },
+    "E3": {
+     "cb": false
+    },
+    "A4": {
+     "t": "Office bill payment"
+    },
+    "B4": {
+     "t": "Nusrat"
+    },
+    "C4": {
+     "t": "08-Nov-2026"
+    },
+    "D4": {
+     "t": "Pending"
+    },
+    "E4": {
+     "cb": false
+    },
+    "A5": {
+     "t": "Client report"
+    },
+    "B5": {
+     "t": "Farhana"
+    },
+    "C5": {
+     "t": "20-Nov-2026"
+    },
+    "D5": {
+     "t": "Running"
+    },
+    "E5": {
+     "cb": false
+    },
+    "A6": {
+     "t": "Vendor invoice"
+    },
+    "B6": {
+     "t": "Sajid"
+    },
+    "C6": {
+     "t": "15-Nov-2026"
+    },
+    "D6": {
+     "t": "Done"
+    },
+    "E6": {
+     "cb": true
+    },
+    "A7": {
+     "t": "Team meeting notes"
+    },
+    "B7": {
+     "t": "Rahim"
+    },
+    "C7": {
+     "t": "25-Nov-2026"
+    },
+    "D7": {
+     "t": "Pending"
+    },
+    "E7": {
+     "cb": false
+    },
+    "A8": {
+     "t": "Stock count"
+    },
+    "B8": {
+     "t": "Sajid"
+    },
+    "C8": {
+     "t": "28-Nov-2026"
+    },
+    "D8": {
+     "t": "Pending"
+    },
+    "E8": {
+     "cb": false
+    }
+   },
+   "sel": "D2",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.03,
+     "act": "tab",
+     "tabName": "Home"
+    },
+    {
+     "at": 0.06,
+     "act": "select",
+     "cell": "D2",
+     "range": "D2:D8"
+    },
+    {
+     "at": 0.18,
+     "act": "click",
+     "btn": "cond",
+     "tabFor": "Home"
+    },
+    {
+     "at": 0.24,
+     "act": "dialog",
+     "title": "New Formatting Rule",
+     "rows": [
+      [
+       "Format cells that are EQUAL TO",
+       "Done"
+      ],
+      [
+       "Format with",
+       "Green Fill with Dark Green Text"
+      ]
+     ]
+    },
+    {
+     "at": 0.5,
+     "act": "ok"
+    },
+    {
+     "at": 0.6,
+     "act": "style",
+     "cells": [
+      "D2",
+      "D6"
+     ],
+     "set": {
+      "fill": "#C6EFCE",
+      "color": "#006100"
+     }
+    },
+    {
+     "at": 0.72,
+     "act": "call",
+     "cell": "D2",
+     "text": "Done = সবুজ",
+     "len": 80
+    }
+   ],
+   "vo": "এবার রং দিয়ে বোঝা। Home ট্যাবে Conditional Formatting। Highlight Cells Rules থেকে Equal To-তে যাও, লেখো Done, আর রং বাছো সবুজ। এখন যে যে কাজ Done হয়েছে তাদের Status ঘর নিজে থেকেই সবুজ হয়ে যায়। এক নজরে দেখেই বোঝা যায় কোনটা শেষ। একবার নিয়ম বসালে পুরো রেঞ্জে কাজ করে, রেঞ্জের ভেতরে নতুন Done লিখলেও সবুজ হবে।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 150,
+    "D": 140,
+    "E": 120
+   },
+   "cells": {
+    "A1": {
+     "t": "Task",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Owner",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Status",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Done",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Monthly salary sheet"
+    },
+    "B2": {
+     "t": "Rahim"
+    },
+    "C2": {
+     "t": "05-Nov-2026"
+    },
+    "D2": {
+     "t": "Done",
+     "fill": "#C6EFCE",
+     "color": "#006100"
+    },
+    "E2": {
+     "cb": true
+    },
+    "A3": {
+     "t": "Stock count"
+    },
+    "B3": {
+     "t": "Karim"
+    },
+    "C3": {
+     "t": "12-Nov-2026"
+    },
+    "D3": {
+     "t": "Running"
+    },
+    "E3": {
+     "cb": false
+    },
+    "A4": {
+     "t": "Office bill payment"
+    },
+    "B4": {
+     "t": "Nusrat"
+    },
+    "C4": {
+     "t": "08-Nov-2026"
+    },
+    "D4": {
+     "t": "Pending"
+    },
+    "E4": {
+     "cb": false
+    },
+    "A5": {
+     "t": "Client report"
+    },
+    "B5": {
+     "t": "Farhana"
+    },
+    "C5": {
+     "t": "20-Nov-2026"
+    },
+    "D5": {
+     "t": "Running"
+    },
+    "E5": {
+     "cb": false
+    },
+    "A6": {
+     "t": "Vendor invoice"
+    },
+    "B6": {
+     "t": "Sajid"
+    },
+    "C6": {
+     "t": "15-Nov-2026"
+    },
+    "D6": {
+     "t": "Done",
+     "fill": "#C6EFCE",
+     "color": "#006100"
+    },
+    "E6": {
+     "cb": true
+    },
+    "A7": {
+     "t": "Team meeting notes"
+    },
+    "B7": {
+     "t": "Rahim"
+    },
+    "C7": {
+     "t": "25-Nov-2026"
+    },
+    "D7": {
+     "t": "Pending"
+    },
+    "E7": {
+     "cb": false
+    },
+    "A8": {
+     "t": "Stock count"
+    },
+    "B8": {
+     "t": "Sajid"
+    },
+    "C8": {
+     "t": "28-Nov-2026"
+    },
+    "D8": {
+     "t": "Pending"
+    },
+    "E8": {
+     "cb": false
+    }
+   },
+   "sel": "C4",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.03,
+     "act": "tab",
+     "tabName": "Home"
+    },
+    {
+     "at": 0.05,
+     "act": "select",
+     "cell": "C2",
+     "range": "C2:C8"
+    },
+    {
+     "at": 0.14,
+     "act": "click",
+     "btn": "cond",
+     "tabFor": "Home"
+    },
+    {
+     "at": 0.2,
+     "act": "dialog",
+     "title": "New Formatting Rule",
+     "rows": [
+      [
+       "Rule",
+       "Use a formula to determine which cells to format"
+      ],
+      [
+       "Formula",
+       "=AND($C2<TODAY(),$D2<>\"Done\")"
+      ],
+      [
+       "Format with",
+       "Light Red Fill with Dark Red Text"
+      ]
+     ]
+    },
+    {
+     "at": 0.6,
+     "act": "ok"
+    },
+    {
+     "at": 0.7,
+     "act": "style",
+     "cells": [
+      "C4"
+     ],
+     "set": {
+      "fill": "#FFC7CE",
+      "color": "#9C0006"
+     }
+    },
+    {
+     "at": 0.78,
+     "act": "call",
+     "cell": "C4",
+     "text": "তারিখ পার, Done নয় — লাল",
+     "len": 90
+    }
+   ],
+   "vo": "এবার তারিখ নিয়ে সতর্কতা। যে কাজের Due date আজকের আগে চলে গেছে, কিন্তু এখনো Done হয়নি, সেটা লাল হবে। ধরো আজ দশ নভেম্বর। আবার Conditional Formatting, এবার New Rule, আর ফর্মুলা লেখো: AND, C2 ছোট TODAY, আর D2 Done না হলে। রং লাল বাছলেই হয়ে গেল। দেখো, আট নভেম্বরের Office bill লাল হয়ে গেছে।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 150,
+    "D": 140,
+    "E": 120
+   },
+   "cells": {
+    "A1": {
+     "t": "Task",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Owner",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Status",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Done",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Monthly salary sheet"
+    },
+    "B2": {
+     "t": "Rahim"
+    },
+    "C2": {
+     "t": "05-Nov-2026"
+    },
+    "D2": {
+     "t": "Done",
+     "fill": "#C6EFCE",
+     "color": "#006100"
+    },
+    "E2": {
+     "cb": true
+    },
+    "A3": {
+     "t": "Stock count"
+    },
+    "B3": {
+     "t": "Karim"
+    },
+    "C3": {
+     "t": "12-Nov-2026"
+    },
+    "D3": {
+     "t": "Running"
+    },
+    "E3": {
+     "cb": false
+    },
+    "A4": {
+     "t": "Office bill payment"
+    },
+    "B4": {
+     "t": "Nusrat"
+    },
+    "C4": {
+     "t": "08-Nov-2026",
+     "fill": "#FFC7CE",
+     "color": "#9C0006"
+    },
+    "D4": {
+     "t": "Pending"
+    },
+    "E4": {
+     "cb": false
+    },
+    "A5": {
+     "t": "Client report"
+    },
+    "B5": {
+     "t": "Farhana"
+    },
+    "C5": {
+     "t": "20-Nov-2026"
+    },
+    "D5": {
+     "t": "Running"
+    },
+    "E5": {
+     "cb": false
+    },
+    "A6": {
+     "t": "Vendor invoice"
+    },
+    "B6": {
+     "t": "Sajid"
+    },
+    "C6": {
+     "t": "15-Nov-2026"
+    },
+    "D6": {
+     "t": "Done",
+     "fill": "#C6EFCE",
+     "color": "#006100"
+    },
+    "E6": {
+     "cb": true
+    },
+    "A7": {
+     "t": "Team meeting notes"
+    },
+    "B7": {
+     "t": "Rahim"
+    },
+    "C7": {
+     "t": "25-Nov-2026"
+    },
+    "D7": {
+     "t": "Pending"
+    },
+    "E7": {
+     "cb": false
+    },
+    "A8": {
+     "t": "Stock count"
+    },
+    "B8": {
+     "t": "Sajid"
+    },
+    "C8": {
+     "t": "28-Nov-2026"
+    },
+    "D8": {
+     "t": "Pending"
+    },
+    "E8": {
+     "cb": false
+    }
+   },
+   "sel": "E2",
+   "tab": "Insert",
+   "steps": [
+    {
+     "at": 0.03,
+     "act": "tab",
+     "tabName": "Insert"
+    },
+    {
+     "at": 0.06,
+     "act": "select",
+     "cell": "E2",
+     "range": "E2:E8"
+    },
+    {
+     "at": 0.14,
+     "act": "click",
+     "btn": "checkbox",
+     "tabFor": "Insert"
+    },
+    {
+     "at": 0.2,
+     "act": "call",
+     "cell": "E2",
+     "text": "Insert → Checkbox (Microsoft 365)",
+     "len": 100
+    },
+    {
+     "at": 0.56,
+     "act": "select",
+     "cell": "E10"
+    },
+    {
+     "at": 0.62,
+     "act": "type",
+     "cell": "E10",
+     "text": "=COUNTIF(E2:E8,TRUE)",
+     "refs": "E2:E8",
+     "enter": true,
+     "v": "2",
+     "next": "E10",
+     "dur": 40
+    },
+    {
+     "at": 0.84,
+     "act": "call",
+     "cell": "E10",
+     "text": "TRUE গোনা হলো: 2",
+     "len": 80
+    }
+   ],
+   "vo": "তৃতীয় কথা হলো চেকবক্স। Done কলামে কাজ শেষ হলে টিক দেওয়ার জন্য Insert ট্যাবে Checkbox — এটা Microsoft 365-এর ফিচার। ঘরে টিক দিলে মান হয় TRUE, খালি থাকলে FALSE। এই TRUE-FALSE সংখ্যার মতো গোনা যায়। E10-এ লিখি =COUNTIF(E2:E8,TRUE), এন্টার — দুইটা কাজ শেষ হয়েছে।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 220,
+    "B": 150,
+    "C": 150,
+    "D": 140,
+    "E": 120
+   },
+   "cells": {
+    "A1": {
+     "t": "Task",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Owner",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Status",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Done",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Monthly salary sheet"
+    },
+    "B2": {
+     "t": "Rahim"
+    },
+    "C2": {
+     "t": "05-Nov-2026"
+    },
+    "D2": {
+     "t": "Done",
+     "fill": "#C6EFCE",
+     "color": "#006100"
+    },
+    "E2": {
+     "cb": true
+    },
+    "A3": {
+     "t": "Stock count"
+    },
+    "B3": {
+     "t": "Karim"
+    },
+    "C3": {
+     "t": "12-Nov-2026"
+    },
+    "D3": {
+     "t": "Running"
+    },
+    "E3": {
+     "cb": false
+    },
+    "A4": {
+     "t": "Office bill payment"
+    },
+    "B4": {
+     "t": "Nusrat"
+    },
+    "C4": {
+     "t": "08-Nov-2026",
+     "fill": "#FFC7CE",
+     "color": "#9C0006"
+    },
+    "D4": {
+     "t": "Pending"
+    },
+    "E4": {
+     "cb": false
+    },
+    "A5": {
+     "t": "Client report"
+    },
+    "B5": {
+     "t": "Farhana"
+    },
+    "C5": {
+     "t": "20-Nov-2026"
+    },
+    "D5": {
+     "t": "Running"
+    },
+    "E5": {
+     "cb": false
+    },
+    "A6": {
+     "t": "Vendor invoice"
+    },
+    "B6": {
+     "t": "Sajid"
+    },
+    "C6": {
+     "t": "15-Nov-2026"
+    },
+    "D6": {
+     "t": "Done",
+     "fill": "#C6EFCE",
+     "color": "#006100"
+    },
+    "E6": {
+     "cb": true
+    },
+    "A7": {
+     "t": "Team meeting notes"
+    },
+    "B7": {
+     "t": "Rahim"
+    },
+    "C7": {
+     "t": "25-Nov-2026"
+    },
+    "D7": {
+     "t": "Pending"
+    },
+    "E7": {
+     "cb": false
+    },
+    "A8": {
+     "t": "Stock count"
+    },
+    "B8": {
+     "t": "Sajid"
+    },
+    "C8": {
+     "t": "28-Nov-2026"
+    },
+    "D8": {
+     "t": "Pending"
+    },
+    "E8": {
+     "cb": false
+    },
+    "A10": {
+     "t": "Done কাজ সংখ্যা",
+     "bold": true
+    },
+    "E10": {
+     "t": "=COUNTIF(E2:E8,TRUE)",
+     "v": "2",
+     "bold": true
+    }
+   },
+   "sel": "E10",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.03,
+     "act": "tab",
+     "tabName": "Home"
+    },
+    {
+     "at": 0.05,
+     "act": "select",
+     "cell": "A2",
+     "range": "A2:A8"
+    },
+    {
+     "at": 0.14,
+     "act": "click",
+     "btn": "cond",
+     "tabFor": "Home"
+    },
+    {
+     "at": 0.2,
+     "act": "dialog",
+     "title": "Duplicate Values",
+     "rows": [
+      [
+       "Format cells that contain",
+       "Duplicate"
+      ],
+      [
+       "Format with",
+       "Light Red Fill with Dark Red Text"
+      ]
+     ]
+    },
+    {
+     "at": 0.5,
+     "act": "ok"
+    },
+    {
+     "at": 0.6,
+     "act": "style",
+     "cells": [
+      "A3",
+      "A8"
+     ],
+     "set": {
+      "fill": "#FFC7CE",
+      "color": "#9C0006"
+     }
+    },
+    {
+     "at": 0.72,
+     "act": "call",
+     "cell": "A8",
+     "text": "একই নাম দুইবার — লাল",
+     "len": 80
+    }
+   ],
+   "vo": "শেষে ডুপ্লিকেট ধরা। Stock count নামটা দুইবার এসেছে, একবার Karim-এর নামে, একবার Sajid-এর নামে। A2 থেকে A8 সিলেক্ট করো, তারপর Conditional Formatting, Highlight Cells Rules, আর Duplicate Values। রং বেছে OK চাপলেই দুটো Stock count লাল। ভুল ডেটা শুরুতেই ধরা পড়লে রিপোর্ট আর ভুল হয় না।",
+   "frames": 300
+  },
+  {
+   "type": "quizQ",
+   "q": "Status ঘরে শুধু Pending, Running, Done লেখার জন্য কোন ফিচার?",
+   "o": [
+    "Conditional Formatting",
+    "Data Validation → List",
+    "Freeze Panes",
+    "Find & Replace"
+   ],
+   "a": 1,
+   "hold": 150,
+   "vo": "এবার তোমার পালা। Status ঘরে শুধু নির্দিষ্ট তিনটা শব্দ রাখার উপায় কোনটা? ভিডিও থামিয়ে ভাবো।",
+   "frames": 300
+  },
+  {
+   "type": "quizA",
+   "q": "Status ঘরে শুধু Pending, Running, Done লেখার জন্য কোন ফিচার?",
+   "o": [
+    "Conditional Formatting",
+    "Data Validation → List",
+    "Freeze Panes",
+    "Find & Replace"
+   ],
+   "a": 1,
+   "ex": "Data Validation → List ড্রপডাউন বানিয়ে ভুল ইনপুট আটকায়। Conditional Formatting রং দেয়, Freeze Panes শিট আটকায়।",
+   "vo": "সঠিক উত্তর খ — Data Validation-এর List। রং দেয় Conditional Formatting, আর টিক দেয় Checkbox।",
+   "frames": 300
+  },
+  {
+   "type": "recap",
+   "items": [
+    [
+     "Data Validation → List",
+     "ড্রপডাউন দিয়ে ভুল টাইপ বন্ধ"
+    ],
+    [
+     "Conditional Formatting",
+     "শর্ত মিললে ঘরের রং বদলায়"
+    ],
+    [
+     "Insert → Checkbox",
+     "টিক = TRUE, খালি = FALSE"
+    ],
+    [
+     "=COUNTIF(E2:E8,TRUE)",
+     "টিক দেওয়া ঘর গোনা"
+    ],
+    [
+     "Duplicate Values",
+     "একই নাম খুঁজে রং দেওয়া"
+    ]
+   ],
+   "vo": "আজ শিখলাম: ড্রপডাউন দিয়ে ভুল আটকানো, সবুজ আর লাল রং দিয়ে অবস্থা বোঝা, চেকবক্সে টিক, COUNTIF দিয়ে টিক গোনা, আর Duplicate Values দিয়ে ডুপ্লিকেট ধরা।",
+   "frames": 300
+  },
+  {
+   "type": "outro",
+   "vo": "পরের পাঠে শিখব চার্ট — এক নজরে গল্প, যেখানে সংখ্যা ছবি হয়ে কথা বলবে। এখন Tasks ফাইলে নিজে ড্রপডাউন, রং আর চেকবক্স বসিয়ে ল্যাবে অনুশীলন করো। দেখা হবে!",
+   "frames": 300
+  }
+ ]
+}

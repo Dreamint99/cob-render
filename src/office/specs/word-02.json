@@ -1,0 +1,726 @@
+{
+ "id": "word-02",
+ "course": "অফিস মাস্টারক্লাস",
+ "lessonNo": "ওয়ার্ড · পাঠ ২",
+ "title": "টেবিল, সিভি আর অফিসিয়াল চিঠি → PDF",
+ "next": "মেইল মার্জ — ১০০টা চিঠি এক ক্লিকে + Copilot",
+ "file": "CV.docx",
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "অফিস মাস্টারক্লাস · ওয়ার্ড",
+   "title": "টেবিল, সিভি আর অফিসিয়াল চিঠি → PDF",
+   "sub": "এক পাতার সিভি বানাই, ধাপে ধাপে",
+   "chips": [
+    "Insert → Table",
+    "Tab = নতুন সারি",
+    "Header · Footer",
+    "Margins",
+    "PDF এক্সপোর্ট"
+   ],
+   "vo": "আসসালামু আলাইকুম! ওয়ার্ডের দ্বিতীয় পাঠে স্বাগতম। আজ বানাব এক পাতার একটা সিভি — টেবিল, হেডার, ফুটার আর পেজ নম্বর সহ। চাকরির আবেদন, অফিসিয়াল চিঠি বা পরিচয়পত্র — সবখানেই এই কৌশল কাজে লাগবে। শেষে PDF করব, যাতে অন্য যেকোনো কম্পিউটারে খুললেও লেআউট একটুও না নড়ে।",
+   "frames": 600
+  },
+  {
+   "type": "word",
+   "file": "CV.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "Nusrat Jahan"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "আবেদন: Office Assistant পদের জন্য"
+    },
+    {
+     "id": "h1",
+     "kind": "h1",
+     "text": "ব্যক্তিগত তথ্য"
+    }
+   ],
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "select",
+     "block": "h1"
+    },
+    {
+     "at": 0.2,
+     "act": "tab",
+     "tabName": "Insert"
+    },
+    {
+     "at": 0.3,
+     "act": "click",
+     "btn": "table",
+     "tabFor": "Insert"
+    },
+    {
+     "at": 0.4,
+     "act": "dialog",
+     "title": "Insert Table",
+     "rows": [
+      [
+       "Number of columns",
+       "2"
+      ],
+      [
+       "Number of rows",
+       "5"
+      ]
+     ],
+     "note": "বাঁ দিকে বিষয়, ডান দিকে উত্তর"
+    },
+    {
+     "at": 0.7,
+     "act": "ok"
+    },
+    {
+     "at": 0.76,
+     "act": "set",
+     "block": "tb",
+     "set": {
+      "kind": "table",
+      "rows": [
+       [
+        "",
+        ""
+       ],
+       [
+        "",
+        ""
+       ],
+       [
+        "",
+        ""
+       ],
+       [
+        "",
+        ""
+       ],
+       [
+        "",
+        ""
+       ]
+      ]
+     }
+    },
+    {
+     "at": 0.84,
+     "act": "call",
+     "block": "tb",
+     "text": "২ কলাম × ৫ সারির টেবিল তৈরি",
+     "len": 90
+    }
+   ],
+   "vo": "প্রথমে টেবিল। দেখো, পাতার উপরে নাম আর কোন পদের জন্য আবেদন, সেটা লেখা আছে। এবার ব্যক্তিগত তথ্য হেডিংয়ের নিচে ক্লিক করে Insert ট্যাবে যাও, Table-এ চাপো। দুই কলাম আর পাঁচ সারি বেছে নাও — বাঁ দিকে বিষয়, ডান দিকে উত্তর। OK চাপলেই ফাঁকা টেবিল হাজির। ফোন নম্বর আর শিক্ষাগত যোগ্যতার মতো তথ্য সাজাতে টেবিল একদম পারফেক্ট, কারণ সবকিছু সোজা লাইনে থাকে।",
+   "frames": 770
+  },
+  {
+   "type": "word",
+   "file": "CV.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "Nusrat Jahan"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "আবেদন: Office Assistant পদের জন্য"
+    },
+    {
+     "id": "h1",
+     "kind": "h1",
+     "text": "ব্যক্তিগত তথ্য"
+    },
+    {
+     "id": "tb",
+     "kind": "table",
+     "rows": [
+      [
+       "",
+       ""
+      ],
+      [
+       "",
+       ""
+      ],
+      [
+       "",
+       ""
+      ],
+      [
+       "",
+       ""
+      ],
+      [
+       "",
+       ""
+      ]
+     ]
+    }
+   ],
+   "tab": "Insert",
+   "steps": [
+    {
+     "at": 0.05,
+     "act": "set",
+     "block": "tb",
+     "set": {
+      "kind": "table",
+      "rows": [
+       [
+        "নাম",
+        "Nusrat Jahan"
+       ],
+       [
+        "ফোন",
+        "01711-123456"
+       ],
+       [
+        "ইমেইল",
+        "nusrat.jahan@example.com"
+       ],
+       [
+        "ঠিকানা",
+        "Mirpur, Dhaka"
+       ],
+       [
+        "শিক্ষা",
+        "BBA, Dhaka College — 2024"
+       ]
+      ]
+     }
+    },
+    {
+     "at": 0.3,
+     "act": "call",
+     "block": "tb",
+     "text": "পাঁচ সারি ভরে গেল — আরও তথ্য লাগবে",
+     "len": 100
+    },
+    {
+     "at": 0.6,
+     "act": "keys",
+     "keys": [
+      "Tab"
+     ],
+     "len": 80
+    },
+    {
+     "at": 0.68,
+     "act": "set",
+     "block": "tb",
+     "set": {
+      "kind": "table",
+      "rows": [
+       [
+        "নাম",
+        "Nusrat Jahan"
+       ],
+       [
+        "ফোন",
+        "01711-123456"
+       ],
+       [
+        "ইমেইল",
+        "nusrat.jahan@example.com"
+       ],
+       [
+        "ঠিকানা",
+        "Mirpur, Dhaka"
+       ],
+       [
+        "শিক্ষা",
+        "BBA, Dhaka College — 2024"
+       ],
+       [
+        "দক্ষতা",
+        "MS Word, Excel, PowerPoint"
+       ]
+      ]
+     }
+    },
+    {
+     "at": 0.76,
+     "act": "zoom",
+     "block": "tb"
+    },
+    {
+     "at": 0.8,
+     "act": "call",
+     "block": "tb",
+     "text": "শেষ ঘরে Tab = নতুন সারি",
+     "len": 100
+    },
+    {
+     "at": 0.95,
+     "act": "unzoom"
+    }
+   ],
+   "vo": "এবার ঘরগুলো ভরি। নাম, ফোন, ইমেইল, ঠিকানা আর শিক্ষা — পাঁচ সারি ভরে গেল। একটা ঘর থেকে পরের ঘরে যেতে মাউস লাগে না, শুধু Tab চাপলেই হয়। কিন্তু আরেকটা তথ্য লাগবে, অথচ সারি তো শেষ! এখানেই সিক্রেট — একদম শেষ ঘরে থেকে কিবোর্ডে Tab চাপো। দেখো, নতুন একটা সারি নিজে তৈরি হয়ে গেল, আমরা লিখলাম দক্ষতা। মাউস ছাড়াই যত খুশি সারি বাড়াতে পারবে।",
+   "frames": 744
+  },
+  {
+   "type": "word",
+   "file": "CV.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "Nusrat Jahan"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "আবেদন: Office Assistant পদের জন্য"
+    },
+    {
+     "id": "h1",
+     "kind": "h1",
+     "text": "ব্যক্তিগত তথ্য"
+    },
+    {
+     "id": "tb",
+     "kind": "table",
+     "rows": [
+      [
+       "নাম",
+       "Nusrat Jahan"
+      ],
+      [
+       "ফোন",
+       "01711-123456"
+      ],
+      [
+       "ইমেইল",
+       "nusrat.jahan@example.com"
+      ],
+      [
+       "ঠিকানা",
+       "Mirpur, Dhaka"
+      ],
+      [
+       "শিক্ষা",
+       "BBA, Dhaka College — 2024"
+      ],
+      [
+       "দক্ষতা",
+       "MS Word, Excel, PowerPoint"
+      ]
+     ]
+    }
+   ],
+   "tab": "Insert",
+   "steps": [
+    {
+     "at": 0.1,
+     "act": "select",
+     "block": "tb"
+    },
+    {
+     "at": 0.2,
+     "act": "call",
+     "block": "tb",
+     "text": "টেবিলে ক্লিক করলে Table Design ট্যাব আসে",
+     "len": 110
+    },
+    {
+     "at": 0.5,
+     "act": "style",
+     "block": "tb",
+     "set": {
+      "fill": "#E2EFDA"
+     }
+    },
+    {
+     "at": 0.62,
+     "act": "zoom",
+     "block": "tb"
+    },
+    {
+     "at": 0.7,
+     "act": "call",
+     "block": "tb",
+     "text": "হালকা রং = পেশাদার লুক",
+     "len": 90
+    },
+    {
+     "at": 0.94,
+     "act": "unzoom"
+    }
+   ],
+   "vo": "এবার টেবিলটা সুন্দর করি। টেবিলের ভেতরে ক্লিক করলেই উপরে Table Design ট্যাব চলে আসে। সেখান থেকে একটা রঙের স্টাইল বেছে নাও — হালকা সবুজ বা নীল ভালো লাগে। অফিসিয়াল সিভিতে বেশি ঝলমলে রং না দেওয়াই ভালো, হালকা রঙেই পেশাদার দেখায়। আর মনে রাখো, সিভি যে দেখবে সে যেন এক নজরে তথ্যগুলো পড়তে পারে, সেটাই আসল কথা।",
+   "frames": 655
+  },
+  {
+   "type": "word",
+   "file": "CV.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "Nusrat Jahan"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "আবেদন: Office Assistant পদের জন্য"
+    },
+    {
+     "id": "h1",
+     "kind": "h1",
+     "text": "ব্যক্তিগত তথ্য"
+    },
+    {
+     "id": "tb",
+     "kind": "table",
+     "rows": [
+      [
+       "নাম",
+       "Nusrat Jahan"
+      ],
+      [
+       "ফোন",
+       "01711-123456"
+      ],
+      [
+       "ইমেইল",
+       "nusrat.jahan@example.com"
+      ],
+      [
+       "ঠিকানা",
+       "Mirpur, Dhaka"
+      ],
+      [
+       "শিক্ষা",
+       "BBA, Dhaka College — 2024"
+      ],
+      [
+       "দক্ষতা",
+       "MS Word, Excel, PowerPoint"
+      ]
+     ]
+    }
+   ],
+   "tab": "Insert",
+   "steps": [
+    {
+     "at": 0.05,
+     "act": "tab",
+     "tabName": "Insert"
+    },
+    {
+     "at": 0.12,
+     "act": "click",
+     "btn": "header",
+     "tabFor": "Insert"
+    },
+    {
+     "at": 0.2,
+     "act": "hf",
+     "header": "Bright Office Ltd."
+    },
+    {
+     "at": 0.26,
+     "act": "call",
+     "x": 700,
+     "y": 300,
+     "text": "Header — অফিসের নাম",
+     "len": 80
+    },
+    {
+     "at": 0.42,
+     "act": "click",
+     "btn": "footer",
+     "tabFor": "Insert"
+    },
+    {
+     "at": 0.5,
+     "act": "hf",
+     "header": "Bright Office Ltd.",
+     "footer": "Nusrat Jahan — CV"
+    },
+    {
+     "at": 0.64,
+     "act": "click",
+     "btn": "pagenum",
+     "tabFor": "Insert"
+    },
+    {
+     "at": 0.72,
+     "act": "hf",
+     "header": "Bright Office Ltd.",
+     "footer": "Nusrat Jahan — CV",
+     "pagenum": true
+    },
+    {
+     "at": 0.8,
+     "act": "call",
+     "x": 700,
+     "y": 780,
+     "text": "Footer আর Page Number — প্রতি পাতায়",
+     "len": 100
+    }
+   ],
+   "vo": "এবার হেডার আর ফুটার। Insert ট্যাবে Header চাপো, অফিসের নাম লেখো — Bright Office Ltd। তারপর Footer-এ নিজের নাম আর সিভি লেখো। শেষে Page Number চাপলেই পাতায় নম্বর বসে যাবে। একবার লিখলেই সব পাতায় আসে, বারবার লিখতে হয় না। অফিসিয়াল চিঠিতে এটা বিশেষ করে কাজে লাগে, কারণ চিঠি কয়েক পাতার হলে পাতার নম্বর দেখে পড়া সহজ হয়।",
+   "frames": 689
+  },
+  {
+   "type": "word",
+   "file": "CV.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "Nusrat Jahan"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "আবেদন: Office Assistant পদের জন্য"
+    },
+    {
+     "id": "h1",
+     "kind": "h1",
+     "text": "ব্যক্তিগত তথ্য"
+    },
+    {
+     "id": "tb",
+     "kind": "table",
+     "rows": [
+      [
+       "নাম",
+       "Nusrat Jahan"
+      ],
+      [
+       "ফোন",
+       "01711-123456"
+      ],
+      [
+       "ইমেইল",
+       "nusrat.jahan@example.com"
+      ],
+      [
+       "ঠিকানা",
+       "Mirpur, Dhaka"
+      ],
+      [
+       "শিক্ষা",
+       "BBA, Dhaka College — 2024"
+      ],
+      [
+       "দক্ষতা",
+       "MS Word, Excel, PowerPoint"
+      ]
+     ],
+     "x": 0
+    }
+   ],
+   "header": "Bright Office Ltd.",
+   "footer": "Nusrat Jahan — CV",
+   "pagenum": true,
+   "tab": "Insert",
+   "steps": [
+    {
+     "at": 0.05,
+     "act": "tab",
+     "tabName": "Layout"
+    },
+    {
+     "at": 0.14,
+     "act": "click",
+     "btn": "margins",
+     "tabFor": "Layout"
+    },
+    {
+     "at": 0.26,
+     "act": "call",
+     "x": 420,
+     "y": 260,
+     "text": "Margins → Normal (চারদিকে ১ ইঞ্চি)",
+     "len": 110
+    },
+    {
+     "at": 0.6,
+     "act": "click",
+     "btn": "orient",
+     "tabFor": "Layout"
+    },
+    {
+     "at": 0.7,
+     "act": "call",
+     "x": 520,
+     "y": 260,
+     "text": "Orientation → Portrait (খাড়া পাতা)",
+     "len": 110
+    }
+   ],
+   "vo": "এবার পাতার সাজ। Layout ট্যাবে Margins-এ গিয়ে Normal বেছে নাও — চারদিকে এক ইঞ্চি ফাঁকা, সিভি আর চিঠির জন্য ঠিক মাপ। মার্জিন খুব কম হলে লেখা কিনারায় ঠেসে যায়, আর বেশি হলে এক পাতায় ধরে না। তারপর Orientation — সিভি আর চিঠি হয় Portrait, মানে খাড়া। চওড়া টেবিল হলে তখন Landscape দিতে পারো।",
+   "frames": 634
+  },
+  {
+   "type": "word",
+   "file": "CV.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "Nusrat Jahan"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "আবেদন: Office Assistant পদের জন্য"
+    },
+    {
+     "id": "h1",
+     "kind": "h1",
+     "text": "ব্যক্তিগত তথ্য"
+    },
+    {
+     "id": "tb",
+     "kind": "table",
+     "rows": [
+      [
+       "নাম",
+       "Nusrat Jahan"
+      ],
+      [
+       "ফোন",
+       "01711-123456"
+      ],
+      [
+       "ইমেইল",
+       "nusrat.jahan@example.com"
+      ],
+      [
+       "ঠিকানা",
+       "Mirpur, Dhaka"
+      ],
+      [
+       "শিক্ষা",
+       "BBA, Dhaka College — 2024"
+      ],
+      [
+       "দক্ষতা",
+       "MS Word, Excel, PowerPoint"
+      ]
+     ]
+    }
+   ],
+   "header": "Bright Office Ltd.",
+   "footer": "Nusrat Jahan — CV",
+   "pagenum": true,
+   "tab": "Layout",
+   "steps": [
+    {
+     "at": 0.08,
+     "act": "backstage",
+     "tabName": "File"
+    },
+    {
+     "at": 0.26,
+     "act": "backstage",
+     "item": "Export",
+     "xy": [
+      120,
+      482
+     ]
+    },
+    {
+     "at": 0.42,
+     "act": "click",
+     "xy": [
+      490,
+      137
+     ]
+    },
+    {
+     "at": 0.54,
+     "act": "pdf",
+     "xy": [
+      805,
+      250
+     ]
+    },
+    {
+     "at": 0.72,
+     "act": "call",
+     "x": 700,
+     "y": 360,
+     "text": "PDF-এ বাংলা ফন্ট আর লেআউট ঠিক থাকে",
+     "len": 110
+    }
+   ],
+   "vo": "শেষ কাজ — PDF। ফাইল, তারপর Export, Create PDF। ফাইলের নাম দিয়ে Publish চাপো। এখানে আরেকটা দরকারি কথা — PDF-এ বাংলা ফন্ট আর পুরো লেআউট একদম ঠিক থাকে। ওয়ার্ড ফাইল অন্য কম্পিউটারে ফন্ট না থাকলে এলোমেলো হতে পারে, PDF কখনো হয় না। চাকরির আবেদনে তাই PDF-ই পাঠাও। ইমেইল বা হোয়াটসঅ্যাপ, দুই জায়গাতেই এটা নিরাপদ।",
+   "frames": 734
+  },
+  {
+   "type": "quizQ",
+   "q": "টেবিলের একদম শেষ ঘরে থেকে Tab চাপলে কী হয়?",
+   "o": [
+    "কার্সর উপরে যায়",
+    "নতুন সারি তৈরি হয়",
+    "টেবিল মুছে যায়",
+    "নতুন পাতা শুরু হয়"
+   ],
+   "a": 1,
+   "hold": 150,
+   "vo": "এবার তোমার পালা। টেবিলের একদম শেষ ঘরে থেকে Tab চাপলে কী হয়? ভিডিও থামিয়ে ভাবো।",
+   "frames": 192
+  },
+  {
+   "type": "quizA",
+   "q": "টেবিলের একদম শেষ ঘরে থেকে Tab চাপলে কী হয়?",
+   "o": [
+    "কার্সর উপরে যায়",
+    "নতুন সারি তৈরি হয়",
+    "টেবিল মুছে যায়",
+    "নতুন পাতা শুরু হয়"
+   ],
+   "a": 1,
+   "ex": "শেষ ঘরে Tab চাপলে নিচে নতুন একটা সারি যোগ হয়। অন্য ঘরে Tab চাপলে কার্সর পরের ঘরে যায়।",
+   "vo": "সঠিক উত্তর খ — নতুন সারি তৈরি হয়। মনে রাখো, শেষ ঘরের বাইরে যেকোনো ঘরে Tab চাপলে কার্সর শুধু পরের ঘরে যায়।",
+   "frames": 278
+  },
+  {
+   "type": "recap",
+   "items": [
+    [
+     "Insert → Table",
+     "কলাম ও সারি বেছে টেবিল বানানো"
+    ],
+    [
+     "Tab (শেষ ঘরে)",
+     "নতুন সারি যোগ"
+    ],
+    [
+     "Header / Footer",
+     "অফিসের নাম, নাম, Page Number"
+    ],
+    [
+     "Layout → Margins",
+     "Normal মার্জিন, Portrait পাতা"
+    ],
+    [
+     "File → Export → PDF",
+     "লেআউট ঠিক রেখে PDF"
+    ]
+   ],
+   "vo": "আজ যা শিখলাম: ইনসার্ট থেকে টেবিল, শেষ ঘরে ট্যাব চেপে নতুন সারি, হেডার ফুটার আর পেজ নম্বর, লেআউট থেকে মার্জিন, আর শেষে PDF এক্সপোর্ট।",
+   "frames": 324
+  },
+  {
+   "type": "outro",
+   "vo": "পরের পাঠে আরেকটা বড় কাজ — মেইল মার্জ। একটা চিঠি থেকে একশোটা নামের চিঠি এক ক্লিকে, সঙ্গে Copilot-এর সাহায্য। আজকের সিভিটা নিজে বানিয়ে PDF করে দেখো। দেখা হবে!",
+   "frames": 365
+  }
+ ]
+}

@@ -1,0 +1,1370 @@
+{
+ "id": "excel-12",
+ "course": "অফিস মাস্টারক্লাস",
+ "lessonNo": "এক্সেল · পাঠ ১২",
+ "title": "তারিখ আর অফিসের হিসাব — NETWORKDAYS, EDATE, DATEDIF",
+ "next": "LET আর LAMBDA — নিজের ফাংশন বানাও",
+ "file": "HR.xlsx",
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "অফিস মাস্টারক্লাস · এক্সেল · পাঠ ১২",
+   "title": "তারিখ আর অফিসের হিসাব",
+   "sub": "NETWORKDAYS, EDATE, DATEDIF — বাংলাদেশের শুক্র–শনি ছুটি ধরে",
+   "chips": [
+    "তারিখ = নম্বর",
+    "Ctrl + ;",
+    "NETWORKDAYS.INTL",
+    "EDATE · EOMONTH",
+    "DATEDIF"
+   ],
+   "vo": "আসসালামু আলাইকুম! আজকের পাঠে একটা এইচআর শিট বানাতে বানাতে শিখব অফিসের তারিখের হিসাব। মাসে কত কর্মদিবস, প্রবেশন শেষ কবে, কার কত বছর চাকরি হলো, আর কাজ কবে জমা দিতে হবে — সবই বাংলাদেশের শুক্রবার আর শনিবার ছুটি ধরে।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 150,
+    "B": 120,
+    "C": 120,
+    "D": 140,
+    "E": 120,
+    "F": 80,
+    "G": 30,
+    "H": 130,
+    "I": 100,
+    "J": 100
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Join Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Birth Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Probation End",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Service Yrs",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Age",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim Uddin"
+    },
+    "B2": {
+     "t": "15-Jan-2022"
+    },
+    "C2": {
+     "t": "10-Mar-1990"
+    },
+    "A3": {
+     "t": "Nusrat Jahan"
+    },
+    "B3": {
+     "t": "01-Jul-2023"
+    },
+    "C3": {
+     "t": "22-Aug-1994"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "10-Sep-2025"
+    },
+    "C4": {
+     "t": "05-Dec-1988"
+    },
+    "A5": {
+     "t": "Farhana Akter"
+    },
+    "B5": {
+     "t": "03-Mar-2020"
+    },
+    "C5": {
+     "t": "18-May-1992"
+    },
+    "A6": {
+     "t": "Sajid Hasan"
+    },
+    "B6": {
+     "t": "01-Oct-2026"
+    },
+    "C6": {
+     "t": "30-Jan-1999"
+    },
+    "A8": {
+     "t": "Today",
+     "bold": true
+    }
+   },
+   "sel": "A1",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.08,
+     "act": "select",
+     "cell": "B8"
+    },
+    {
+     "at": 0.14,
+     "act": "keys",
+     "keys": [
+      "Ctrl",
+      ";"
+     ],
+     "len": 60
+    },
+    {
+     "at": 0.2,
+     "act": "type",
+     "cell": "B8",
+     "text": "15-Nov-2026",
+     "enter": true,
+     "v": "15-Nov-2026",
+     "next": "B8"
+    },
+    {
+     "at": 0.4,
+     "act": "call",
+     "cell": "B8",
+     "text": "Ctrl + ; = আজকের তারিখ",
+     "len": 80
+    },
+    {
+     "at": 0.58,
+     "act": "style",
+     "cells": [
+      "B8"
+     ],
+     "set": {
+      "v": "46341"
+     }
+    },
+    {
+     "at": 0.6,
+     "act": "call",
+     "cell": "B8",
+     "text": "General ফরম্যাটে দেখা গেল আসল নম্বর",
+     "len": 100
+    },
+    {
+     "at": 0.84,
+     "act": "style",
+     "cells": [
+      "B8"
+     ],
+     "set": {
+      "v": "15-Nov-2026"
+     }
+    }
+   ],
+   "vo": "প্রথমে একটা মজার কথা — এক্সেলে তারিখ আসলে একটা নম্বর। প্রতিটা দিনের একটা ক্রমিক নম্বর আছে, তাই তারিখ নিয়ে যোগ-বিয়োগ করা যায়। আজকের তারিখ লিখতে B8 সেলে চাপো কন্ট্রোল আর সেমিকোলন। পনেরো নভেম্বর দুই হাজার ছাব্বিশ চলে এল। এবার ফরম্যাট জেনারেল করলে দেখো — ছেচল্লিশ হাজার তিনশো একচল্লিশ। এটাই আসল নম্বর। আবার ডেট ফরম্যাটে ফিরিয়ে নিলাম।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 150,
+    "B": 120,
+    "C": 120,
+    "D": 140,
+    "E": 120,
+    "F": 80,
+    "G": 30,
+    "H": 130,
+    "I": 100,
+    "J": 100
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Join Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Birth Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Probation End",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Service Yrs",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Age",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim Uddin"
+    },
+    "B2": {
+     "t": "15-Jan-2022"
+    },
+    "C2": {
+     "t": "10-Mar-1990"
+    },
+    "A3": {
+     "t": "Nusrat Jahan"
+    },
+    "B3": {
+     "t": "01-Jul-2023"
+    },
+    "C3": {
+     "t": "22-Aug-1994"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "10-Sep-2025"
+    },
+    "C4": {
+     "t": "05-Dec-1988"
+    },
+    "A5": {
+     "t": "Farhana Akter"
+    },
+    "B5": {
+     "t": "03-Mar-2020"
+    },
+    "C5": {
+     "t": "18-May-1992"
+    },
+    "A6": {
+     "t": "Sajid Hasan"
+    },
+    "B6": {
+     "t": "01-Oct-2026"
+    },
+    "C6": {
+     "t": "30-Jan-1999"
+    },
+    "A8": {
+     "t": "Today",
+     "bold": true
+    },
+    "B8": {
+     "t": "15-Nov-2026"
+    },
+    "A9": {
+     "t": "Month Start",
+     "bold": true
+    },
+    "B9": {
+     "t": "01-Nov-2026"
+    },
+    "A10": {
+     "t": "Month End",
+     "bold": true
+    },
+    "A11": {
+     "t": "Working Days",
+     "bold": true
+    }
+   },
+   "sel": "B9",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.1,
+     "act": "type",
+     "cell": "B10",
+     "text": "30-Nov-2026",
+     "enter": true,
+     "v": "30-Nov-2026",
+     "next": "B10"
+    },
+    {
+     "at": 0.24,
+     "act": "select",
+     "cell": "B11"
+    },
+    {
+     "at": 0.27,
+     "act": "type",
+     "cell": "B11",
+     "text": "=NETWORKDAYS.INTL(B9,B10,7)",
+     "refs": "B9,B10",
+     "dur": 130,
+     "enter": true,
+     "v": "22",
+     "next": "B11"
+    },
+    {
+     "at": 0.55,
+     "act": "call",
+     "cell": "B11",
+     "text": "7 = শুক্রবার + শনিবার ছুটি (বাংলাদেশ)",
+     "len": 90
+    },
+    {
+     "at": 0.7,
+     "act": "type",
+     "cell": "D11",
+     "text": "=NETWORKDAYS(B9,B10)",
+     "refs": "B9,B10",
+     "dur": 40,
+     "enter": true,
+     "v": "21",
+     "next": "D11"
+    },
+    {
+     "at": 0.84,
+     "act": "call",
+     "cell": "D11",
+     "text": "সাধারণ NETWORKDAYS — ভুল! শনি-রবি ছুটি ধরেছে",
+     "len": 80
+    },
+    {
+     "at": 0.94,
+     "act": "clear",
+     "cells": [
+      "D11"
+     ]
+    }
+   ],
+   "vo": "এবার আজকের সিক্রেট। মাসে অফিস কত দিন খোলা? B9-এ মাসের শুরু লিখে রেখেছি, B10-এ শেষ — ত্রিশ নভেম্বর। B11-এ লিখি NETWORKDAYS ডট INTL, শুরুর তারিখ, শেষের তারিখ, আর শেষে সাত। এই সাত মানে শুক্রবার আর শনিবার সাপ্তাহিক ছুটি — ঠিক বাংলাদেশের মতো। উত্তর বাইশ। সাধারণ NETWORKDAYS দিলে একুশ আসত, কারণ সে শনি আর রবিবার ছুটি ধরে।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 150,
+    "B": 120,
+    "C": 120,
+    "D": 140,
+    "E": 120,
+    "F": 80,
+    "G": 30,
+    "H": 130,
+    "I": 100,
+    "J": 100
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Join Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Birth Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Probation End",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Service Yrs",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Age",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim Uddin"
+    },
+    "B2": {
+     "t": "15-Jan-2022"
+    },
+    "C2": {
+     "t": "10-Mar-1990"
+    },
+    "A3": {
+     "t": "Nusrat Jahan"
+    },
+    "B3": {
+     "t": "01-Jul-2023"
+    },
+    "C3": {
+     "t": "22-Aug-1994"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "10-Sep-2025"
+    },
+    "C4": {
+     "t": "05-Dec-1988"
+    },
+    "A5": {
+     "t": "Farhana Akter"
+    },
+    "B5": {
+     "t": "03-Mar-2020"
+    },
+    "C5": {
+     "t": "18-May-1992"
+    },
+    "A6": {
+     "t": "Sajid Hasan"
+    },
+    "B6": {
+     "t": "01-Oct-2026"
+    },
+    "C6": {
+     "t": "30-Jan-1999"
+    },
+    "A8": {
+     "t": "Today",
+     "bold": true
+    },
+    "B8": {
+     "t": "15-Nov-2026"
+    },
+    "A9": {
+     "t": "Month Start",
+     "bold": true
+    },
+    "B9": {
+     "t": "01-Nov-2026"
+    },
+    "A10": {
+     "t": "Month End",
+     "bold": true
+    },
+    "B10": {
+     "t": "30-Nov-2026"
+    },
+    "A11": {
+     "t": "Working Days",
+     "bold": true
+    },
+    "B11": {
+     "t": "=NETWORKDAYS.INTL(B9,B10,7)",
+     "v": "22"
+    },
+    "A12": {
+     "t": "After Holidays",
+     "bold": true
+    },
+    "H1": {
+     "t": "Holidays",
+     "bold": true,
+     "fill": "#E2EFDA"
+    }
+   },
+   "sel": "B11",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "type",
+     "cell": "H2",
+     "text": "10-Nov-2026",
+     "enter": true,
+     "v": "10-Nov-2026",
+     "next": "H3"
+    },
+    {
+     "at": 0.16,
+     "act": "type",
+     "cell": "H3",
+     "text": "24-Nov-2026",
+     "enter": true,
+     "v": "24-Nov-2026",
+     "next": "H3"
+    },
+    {
+     "at": 0.3,
+     "act": "select",
+     "cell": "B12"
+    },
+    {
+     "at": 0.33,
+     "act": "type",
+     "cell": "B12",
+     "text": "=NETWORKDAYS.INTL(B9,B10,7,H2:H3)",
+     "refs": "B9,B10,H2:H3",
+     "dur": 140,
+     "enter": true,
+     "v": "20",
+     "next": "B12"
+    },
+    {
+     "at": 0.62,
+     "act": "hl",
+     "range": "H2:H3",
+     "color": "#C2185B",
+     "len": 80
+    },
+    {
+     "at": 0.78,
+     "act": "call",
+     "cell": "B12",
+     "text": "চতুর্থ আর্গুমেন্ট = ছুটির তালিকা",
+     "len": 90
+    }
+   ],
+   "vo": "কিন্তু অফিসে কোম্পানির বন্ধের দিনও থাকে। H কলামে সেই তারিখগুলো লিখে রাখো — আমি লিখলাম দশ আর চব্বিশ নভেম্বর। এবার B12-তে একই ফর্মুলা, শুধু শেষে চতুর্থ আর্গুমেন্ট হিসেবে ছুটির তালিকা দাও, H2 থেকে H3। উত্তর বিশ। ছুটির তালিকা একবার বানালে পরে সব ফর্মুলায় কাজে লাগবে।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 150,
+    "B": 120,
+    "C": 120,
+    "D": 140,
+    "E": 120,
+    "F": 80,
+    "G": 30,
+    "H": 130,
+    "I": 100,
+    "J": 100
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Join Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Birth Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Probation End",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Service Yrs",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Age",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim Uddin"
+    },
+    "B2": {
+     "t": "15-Jan-2022"
+    },
+    "C2": {
+     "t": "10-Mar-1990"
+    },
+    "A3": {
+     "t": "Nusrat Jahan"
+    },
+    "B3": {
+     "t": "01-Jul-2023"
+    },
+    "C3": {
+     "t": "22-Aug-1994"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "10-Sep-2025"
+    },
+    "C4": {
+     "t": "05-Dec-1988"
+    },
+    "A5": {
+     "t": "Farhana Akter"
+    },
+    "B5": {
+     "t": "03-Mar-2020"
+    },
+    "C5": {
+     "t": "18-May-1992"
+    },
+    "A6": {
+     "t": "Sajid Hasan"
+    },
+    "B6": {
+     "t": "01-Oct-2026"
+    },
+    "C6": {
+     "t": "30-Jan-1999"
+    },
+    "A8": {
+     "t": "Today",
+     "bold": true
+    },
+    "B8": {
+     "t": "15-Nov-2026"
+    },
+    "A9": {
+     "t": "Month Start",
+     "bold": true
+    },
+    "B9": {
+     "t": "01-Nov-2026"
+    },
+    "A10": {
+     "t": "Month End",
+     "bold": true
+    },
+    "B10": {
+     "t": "30-Nov-2026"
+    },
+    "A11": {
+     "t": "Working Days",
+     "bold": true
+    },
+    "B11": {
+     "t": "=NETWORKDAYS.INTL(B9,B10,7)",
+     "v": "22"
+    },
+    "A12": {
+     "t": "After Holidays",
+     "bold": true
+    },
+    "B12": {
+     "t": "=NETWORKDAYS.INTL(B9,B10,7,H2:H3)",
+     "v": "20"
+    },
+    "H1": {
+     "t": "Holidays",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "H2": {
+     "t": "10-Nov-2026"
+    },
+    "H3": {
+     "t": "24-Nov-2026"
+    }
+   },
+   "sel": "B12",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.05,
+     "act": "select",
+     "cell": "D2"
+    },
+    {
+     "at": 0.08,
+     "act": "type",
+     "cell": "D2",
+     "text": "=EDATE(B2,6)",
+     "refs": "B2",
+     "dur": 60,
+     "enter": true,
+     "v": "44757",
+     "next": "D2"
+    },
+    {
+     "at": 0.3,
+     "act": "style",
+     "cells": [
+      "D2"
+     ],
+     "set": {
+      "v": "15-Jul-2022"
+     }
+    },
+    {
+     "at": 0.33,
+     "act": "call",
+     "cell": "D2",
+     "text": "নম্বর এলে Short Date ফরম্যাট দাও",
+     "len": 90
+    },
+    {
+     "at": 0.5,
+     "act": "fill",
+     "cell": "D2",
+     "aim": "D6",
+     "range": "D2:D6",
+     "dur": 30,
+     "vals": [
+      [
+       "D3",
+       "=EDATE(B3,6)",
+       "01-Jan-2024"
+      ],
+      [
+       "D4",
+       "=EDATE(B4,6)",
+       "10-Mar-2026"
+      ],
+      [
+       "D5",
+       "=EDATE(B5,6)",
+       "03-Sep-2020"
+      ],
+      [
+       "D6",
+       "=EDATE(B6,6)",
+       "01-Apr-2027"
+      ]
+     ]
+    },
+    {
+     "at": 0.62,
+     "act": "call",
+     "cell": "D3",
+     "text": "EDATE(তারিখ, মাস) — ছয় মাস পরের তারিখ",
+     "len": 80
+    },
+    {
+     "at": 0.74,
+     "act": "select",
+     "cell": "B10"
+    },
+    {
+     "at": 0.77,
+     "act": "type",
+     "cell": "B10",
+     "text": "=EOMONTH(B9,0)",
+     "refs": "B9",
+     "dur": 60,
+     "enter": true,
+     "v": "30-Nov-2026",
+     "next": "B10"
+    },
+    {
+     "at": 0.9,
+     "act": "call",
+     "cell": "B10",
+     "text": "0 = এই মাসের শেষ দিন",
+     "len": 70
+    }
+   ],
+   "vo": "এবার প্রবেশন শেষ কবে? ধরো ছয় মাসের প্রবেশন। D2-তে লিখি EDATE, যোগদানের তারিখ B2, কমা, ছয়। এন্টার দিলে প্রথমে নম্বর আসতে পারে — ঘাবড়িও না, শুধু ডেট ফরম্যাট দাও। পনেরো জুলাই দুই হাজার বাইশ। নিচে টেনে নামালে সবার হয়ে গেল। আর মাসের শেষ তারিখ চাইলে EOMONTH — B9 আর শূন্য। শূন্য মানে এই মাসেই, ফল ত্রিশ নভেম্বর।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 150,
+    "B": 120,
+    "C": 120,
+    "D": 140,
+    "E": 120,
+    "F": 80,
+    "G": 30,
+    "H": 130,
+    "I": 100,
+    "J": 100
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Join Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Birth Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Probation End",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Service Yrs",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Age",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim Uddin"
+    },
+    "B2": {
+     "t": "15-Jan-2022"
+    },
+    "C2": {
+     "t": "10-Mar-1990"
+    },
+    "D2": {
+     "t": "=EDATE(B2,6)",
+     "v": "15-Jul-2022"
+    },
+    "A3": {
+     "t": "Nusrat Jahan"
+    },
+    "B3": {
+     "t": "01-Jul-2023"
+    },
+    "C3": {
+     "t": "22-Aug-1994"
+    },
+    "D3": {
+     "t": "=EDATE(B3,6)",
+     "v": "01-Jan-2024"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "10-Sep-2025"
+    },
+    "C4": {
+     "t": "05-Dec-1988"
+    },
+    "D4": {
+     "t": "=EDATE(B4,6)",
+     "v": "10-Mar-2026"
+    },
+    "A5": {
+     "t": "Farhana Akter"
+    },
+    "B5": {
+     "t": "03-Mar-2020"
+    },
+    "C5": {
+     "t": "18-May-1992"
+    },
+    "D5": {
+     "t": "=EDATE(B5,6)",
+     "v": "03-Sep-2020"
+    },
+    "A6": {
+     "t": "Sajid Hasan"
+    },
+    "B6": {
+     "t": "01-Oct-2026"
+    },
+    "C6": {
+     "t": "30-Jan-1999"
+    },
+    "D6": {
+     "t": "=EDATE(B6,6)",
+     "v": "01-Apr-2027"
+    },
+    "A8": {
+     "t": "Today",
+     "bold": true
+    },
+    "B8": {
+     "t": "15-Nov-2026"
+    },
+    "A9": {
+     "t": "Month Start",
+     "bold": true
+    },
+    "B9": {
+     "t": "01-Nov-2026"
+    },
+    "A10": {
+     "t": "Month End",
+     "bold": true
+    },
+    "B10": {
+     "t": "=EOMONTH(B9,0)",
+     "v": "30-Nov-2026"
+    },
+    "A11": {
+     "t": "Working Days",
+     "bold": true
+    },
+    "B11": {
+     "t": "=NETWORKDAYS.INTL(B9,B10,7)",
+     "v": "22"
+    },
+    "A12": {
+     "t": "After Holidays",
+     "bold": true
+    },
+    "B12": {
+     "t": "=NETWORKDAYS.INTL(B9,B10,7,H2:H3)",
+     "v": "20"
+    },
+    "H1": {
+     "t": "Holidays",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "H2": {
+     "t": "10-Nov-2026"
+    },
+    "H3": {
+     "t": "24-Nov-2026"
+    }
+   },
+   "sel": "B10",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.05,
+     "act": "select",
+     "cell": "E2"
+    },
+    {
+     "at": 0.07,
+     "act": "type",
+     "cell": "E2",
+     "text": "=DATEDIF(B2,TODAY(),\"Y\")",
+     "refs": "B2",
+     "dur": 120,
+     "enter": true,
+     "v": "4",
+     "next": "E2"
+    },
+    {
+     "at": 0.3,
+     "act": "fill",
+     "cell": "E2",
+     "aim": "E6",
+     "range": "E2:E6",
+     "dur": 30,
+     "vals": [
+      [
+       "E3",
+       "=DATEDIF(B3,TODAY(),\"Y\")",
+       "3"
+      ],
+      [
+       "E4",
+       "=DATEDIF(B4,TODAY(),\"Y\")",
+       "1"
+      ],
+      [
+       "E5",
+       "=DATEDIF(B5,TODAY(),\"Y\")",
+       "6"
+      ],
+      [
+       "E6",
+       "=DATEDIF(B6,TODAY(),\"Y\")",
+       "0"
+      ]
+     ]
+    },
+    {
+     "at": 0.44,
+     "act": "select",
+     "cell": "F2"
+    },
+    {
+     "at": 0.46,
+     "act": "type",
+     "cell": "F2",
+     "text": "=DATEDIF(C2,TODAY(),\"Y\")",
+     "refs": "C2",
+     "dur": 90,
+     "enter": true,
+     "v": "36",
+     "next": "F2"
+    },
+    {
+     "at": 0.64,
+     "act": "fill",
+     "cell": "F2",
+     "aim": "F6",
+     "range": "F2:F6",
+     "dur": 30,
+     "vals": [
+      [
+       "F3",
+       "=DATEDIF(C3,TODAY(),\"Y\")",
+       "32"
+      ],
+      [
+       "F4",
+       "=DATEDIF(C4,TODAY(),\"Y\")",
+       "37"
+      ],
+      [
+       "F5",
+       "=DATEDIF(C5,TODAY(),\"Y\")",
+       "34"
+      ],
+      [
+       "F6",
+       "=DATEDIF(C6,TODAY(),\"Y\")",
+       "27"
+      ]
+     ]
+    },
+    {
+     "at": 0.76,
+     "act": "call",
+     "cell": "E2",
+     "text": "DATEDIF উইজার্ডে নেই — পুরোটা হাতে লিখতে হয়",
+     "len": 110
+    }
+   ],
+   "vo": "এবার চাকরির বছর। E2-তে লিখি DATEDIF, যোগদানের তারিখ B2, কমা, TODAY বন্ধনী, কমা, ডাবল কোটের ভেতর Y। উত্তর চার বছর। F2-তে জন্মতারিখ C2 দিলে বয়স ছত্রিশ। একটা কথা মনে রাখো — DATEDIF সব এক্সেল ভার্সনেই কাজ করে, কিন্তু ফাংশন উইজার্ডে এর নাম দেখা যায় না, তাই পুরোটা নিজের হাতে লিখতে হয়।",
+   "frames": 300
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 150,
+    "B": 120,
+    "C": 120,
+    "D": 140,
+    "E": 120,
+    "F": 80,
+    "G": 30,
+    "H": 130,
+    "I": 100,
+    "J": 100
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Join Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Birth Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "D1": {
+     "t": "Probation End",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E1": {
+     "t": "Service Yrs",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Age",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim Uddin"
+    },
+    "B2": {
+     "t": "15-Jan-2022"
+    },
+    "C2": {
+     "t": "10-Mar-1990"
+    },
+    "D2": {
+     "t": "=EDATE(B2,6)",
+     "v": "15-Jul-2022"
+    },
+    "E2": {
+     "t": "=DATEDIF(B2,TODAY(),\"Y\")",
+     "v": "4"
+    },
+    "F2": {
+     "t": "=DATEDIF(C2,TODAY(),\"Y\")",
+     "v": "36"
+    },
+    "A3": {
+     "t": "Nusrat Jahan"
+    },
+    "B3": {
+     "t": "01-Jul-2023"
+    },
+    "C3": {
+     "t": "22-Aug-1994"
+    },
+    "D3": {
+     "t": "=EDATE(B3,6)",
+     "v": "01-Jan-2024"
+    },
+    "E3": {
+     "t": "=DATEDIF(B3,TODAY(),\"Y\")",
+     "v": "3"
+    },
+    "F3": {
+     "t": "=DATEDIF(C3,TODAY(),\"Y\")",
+     "v": "32"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "10-Sep-2025"
+    },
+    "C4": {
+     "t": "05-Dec-1988"
+    },
+    "D4": {
+     "t": "=EDATE(B4,6)",
+     "v": "10-Mar-2026"
+    },
+    "E4": {
+     "t": "=DATEDIF(B4,TODAY(),\"Y\")",
+     "v": "1"
+    },
+    "F4": {
+     "t": "=DATEDIF(C4,TODAY(),\"Y\")",
+     "v": "37"
+    },
+    "A5": {
+     "t": "Farhana Akter"
+    },
+    "B5": {
+     "t": "03-Mar-2020"
+    },
+    "C5": {
+     "t": "18-May-1992"
+    },
+    "D5": {
+     "t": "=EDATE(B5,6)",
+     "v": "03-Sep-2020"
+    },
+    "E5": {
+     "t": "=DATEDIF(B5,TODAY(),\"Y\")",
+     "v": "6"
+    },
+    "F5": {
+     "t": "=DATEDIF(C5,TODAY(),\"Y\")",
+     "v": "34"
+    },
+    "A6": {
+     "t": "Sajid Hasan"
+    },
+    "B6": {
+     "t": "01-Oct-2026"
+    },
+    "C6": {
+     "t": "30-Jan-1999"
+    },
+    "D6": {
+     "t": "=EDATE(B6,6)",
+     "v": "01-Apr-2027"
+    },
+    "E6": {
+     "t": "=DATEDIF(B6,TODAY(),\"Y\")",
+     "v": "0"
+    },
+    "F6": {
+     "t": "=DATEDIF(C6,TODAY(),\"Y\")",
+     "v": "27"
+    },
+    "A8": {
+     "t": "Today",
+     "bold": true
+    },
+    "B8": {
+     "t": "15-Nov-2026"
+    },
+    "A9": {
+     "t": "Month Start",
+     "bold": true
+    },
+    "B9": {
+     "t": "01-Nov-2026"
+    },
+    "A10": {
+     "t": "Month End",
+     "bold": true
+    },
+    "B10": {
+     "t": "=EOMONTH(B9,0)",
+     "v": "30-Nov-2026"
+    },
+    "A11": {
+     "t": "Working Days",
+     "bold": true
+    },
+    "B11": {
+     "t": "=NETWORKDAYS.INTL(B9,B10,7)",
+     "v": "22"
+    },
+    "A12": {
+     "t": "After Holidays",
+     "bold": true
+    },
+    "B12": {
+     "t": "=NETWORKDAYS.INTL(B9,B10,7,H2:H3)",
+     "v": "20"
+    },
+    "A13": {
+     "t": "Task Start",
+     "bold": true
+    },
+    "B13": {
+     "t": "19-Nov-2026"
+    },
+    "A14": {
+     "t": "Due (5 days)",
+     "bold": true
+    },
+    "H1": {
+     "t": "Holidays",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "H2": {
+     "t": "10-Nov-2026"
+    },
+    "H3": {
+     "t": "24-Nov-2026"
+    }
+   },
+   "sel": "F6",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "select",
+     "cell": "B13"
+    },
+    {
+     "at": 0.08,
+     "act": "call",
+     "cell": "B13",
+     "text": "কাজ শুরু: ১৯ নভেম্বর",
+     "len": 70
+    },
+    {
+     "at": 0.22,
+     "act": "select",
+     "cell": "B14"
+    },
+    {
+     "at": 0.25,
+     "act": "type",
+     "cell": "B14",
+     "text": "=WORKDAY.INTL(B13,5,7,H2:H3)",
+     "refs": "B13,H2:H3",
+     "dur": 140,
+     "enter": true,
+     "v": "29-Nov-2026",
+     "next": "B14"
+    },
+    {
+     "at": 0.56,
+     "act": "hl",
+     "range": "H2:H3",
+     "color": "#C2185B",
+     "len": 60
+    },
+    {
+     "at": 0.68,
+     "act": "call",
+     "cell": "B14",
+     "text": "শুক্র, শনি আর ২৪ তারিখের ছুটি বাদ — জমা ২৯ নভেম্বর",
+     "len": 110
+    }
+   ],
+   "vo": "শেষ কাজ — কাজ জমা দেওয়ার তারিখ। ধরো কাজ শুরু উনিশ নভেম্বর, আর হাতে পাঁচটা কর্মদিবস। B14-তে লিখি WORKDAY ডট INTL, শুরুর তারিখ B13, পাঁচ, সাত, আর ছুটির তালিকা। এন্টার — উনত্রিশ নভেম্বর। শুক্র, শনি আর চব্বিশ তারিখের ছুটি এক্সেল নিজেই বাদ দিয়েছে। নম্বর এলে Short Date ফরম্যাট দিও।",
+   "frames": 300
+  },
+  {
+   "type": "quizQ",
+   "q": "শুক্র ও শনিবার ছুটি ধরে কর্মদিবস গুনতে NETWORKDAYS.INTL-এ কোন কোড দেবে?",
+   "o": [
+    "1",
+    "7",
+    "11",
+    "17"
+   ],
+   "a": 1,
+   "hold": 150,
+   "vo": "এবার তোমার পালা। শুক্র আর শনিবার ছুটি ধরে কর্মদিবস গুনতে NETWORKDAYS ডট INTL-এ কোন কোড দেবে? ভিডিও থামিয়ে ভাবো।",
+   "frames": 300
+  },
+  {
+   "type": "quizA",
+   "q": "শুক্র ও শনিবার ছুটি ধরে কর্মদিবস গুনতে NETWORKDAYS.INTL-এ কোন কোড দেবে?",
+   "o": [
+    "1",
+    "7",
+    "11",
+    "17"
+   ],
+   "a": 1,
+   "ex": "কোড 7 = শুক্রবার + শনিবার ছুটি। কোড 1 মানে শনি + রবি ছুটি।",
+   "vo": "সঠিক উত্তর খ — সাত। সাত মানে শুক্রবার আর শনিবার ছুটি। আর কোড এক দিলে শনি আর রবিবার ছুটি ধরা হয়, যেটা আমাদের অফিসের নিয়ম না।",
+   "frames": 300
+  },
+  {
+   "type": "recap",
+   "items": [
+    [
+     "Ctrl + ;",
+     "আজকের তারিখ — তারিখ আসলে নম্বর"
+    ],
+    [
+     "NETWORKDAYS.INTL(…,7)",
+     "শুক্র–শনি ছুটি ধরে কর্মদিবস"
+    ],
+    [
+     "EDATE / EOMONTH",
+     "N মাস পরের তারিখ / মাসের শেষ দিন"
+    ],
+    [
+     "DATEDIF(…,\"Y\")",
+     "বয়স বা চাকরির বছর"
+    ],
+    [
+     "WORKDAY.INTL",
+     "N কর্মদিবস পরের তারিখ"
+    ]
+   ],
+   "vo": "আজ যা শিখলাম: তারিখ আসলে নম্বর, কন্ট্রোল আর সেমিকোলনে আজকের তারিখ। NETWORKDAYS ডট INTL আর সাত দিয়ে কর্মদিবস। EDATE আর EOMONTH দিয়ে মাসের হিসাব। DATEDIF দিয়ে বয়স আর চাকরির বছর। আর WORKDAY ডট INTL দিয়ে জমা দেওয়ার তারিখ।",
+   "frames": 300
+  },
+  {
+   "type": "outro",
+   "vo": "পরের পাঠে শিখব LET আর LAMBDA — নিজের ফাংশন বানাও। এক্সেল ল্যাবে এই HR শিটটা নিজে বানিয়ে দেখো, নোটেও অনুশীলনের ডেটা দেওয়া আছে। দেখা হবে!",
+   "frames": 300
+  }
+ ]
+}

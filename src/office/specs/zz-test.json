@@ -1,0 +1,15 @@
+{"id":"zz-test","course":"অফিস মাস্টারক্লাস","lessonNo":"টেস্ট","title":"টেস্ট","next":"","file":"Test.xlsx","scenes":[
+{"type":"points","vo":"x","frames":300,"kicker":"এআই","head":"এক্সেলে এআই — তিনটা পথ","items":[{"icon":"sparkles","t":"Copilot","d":"Microsoft 365-এর ভেতরে"},{"icon":"message-circle","t":"ChatGPT add-in","d":"Add-ins থেকে"},{"icon":"bot","t":"Claude add-in","d":"Marketplace থেকে"}]},
+{"type":"excel","vo":"x","frames":300,"cols":{"A":160,"B":120,"C":120},"cells":{"A1":{"t":"Item","bold":true},"B1":{"t":"Sales","bold":true},"A2":{"t":"Rice"},"B2":{"t":"500"},"A3":{"t":"Oil"},"B3":{"t":"300"},"C2":{"cb":true},"C3":{"cb":false}},"sel":"A1","steps":[
+ {"at":0.05,"act":"type","cell":"D2","text":"=FILTER(A2:A3,B2:B3>400)","enter":true,"v":"Rice","spill":[["D2","Rice"]],"spillRange":"D2:D2"},
+ {"at":0.2,"act":"chart","kind":"column","title":"Sales","labels":["Rice","Oil"],"values":[500,300],"x":500,"y":260,"w":560,"h":360},
+ {"at":0.3,"act":"pane","title":"Copilot","sub":"Edit with Copilot","color":"#5B5FC7"},
+ {"at":0.35,"act":"ask","text":"Add a total row"},
+ {"at":0.55,"act":"reply","text":"Done — I added a Total row in B4.","table":[["Item","Sales"],["Total","800"]]},
+ {"at":0.6,"act":"menu","cell":"A4","items":["Rice","Oil","Fish"],"pick":2,"len":200}]},
+{"type":"word","vo":"x","frames":300,"file":"Notice.docx","blocks":[{"id":"t","kind":"title","text":"অফিস নোটিশ"},{"id":"p1","kind":"p","text":"প্রিয় «Name», আগামী সোমবার মিটিং।"},{"id":"tb","kind":"table","rows":[["নাম","পদ"],["Rahim","Manager"]]}],"header":"Dream IT","pagenum":true,"steps":[
+ {"at":0.1,"act":"type","block":"p2","kind":"bullet","text":"সময়: সকাল ১০টা"},{"at":0.3,"act":"style","block":"p1","set":{"kind":"h1"}},{"at":0.4,"act":"tab","tabName":"Mailings"},{"at":0.5,"act":"preview","rec":{"Name":"Karim"}},{"at":0.6,"act":"call","block":"p1","text":"নাম নিজে বসে গেল","len":200},
+ {"at":0.7,"act":"pane","side":"left","title":"Navigation","items":[{"t":"অফিস নোটিশ"},{"t":"মিটিং"}]}]},
+{"type":"ppt","vo":"x","frames":300,"file":"Pitch.pptx","slides":[{"bg":"#fff","els":[{"id":"t","kind":"title","x":80,"y":80,"w":1100,"h":100,"text":"আমাদের দোকান","size":60},{"id":"c","kind":"shape","x":900,"y":400,"w":200,"h":200,"r":100,"fill":"#C43E1C"}]},{"bg":"#FFF4EE","els":[{"id":"t","kind":"title","x":80,"y":560,"w":800,"h":100,"text":"আমাদের দোকান","size":40},{"id":"c","kind":"shape","x":100,"y":100,"w":500,"h":400,"r":20,"fill":"#1F4E9A"},{"id":"b","kind":"bullets","x":680,"y":120,"w":520,"h":300,"items":["ভালো দাম","দ্রুত ডেলিভারি"]}]}],"steps":[
+ {"at":0.1,"act":"tab","tabName":"Transitions"},{"at":0.2,"act":"click","btn":"morph"},{"at":0.3,"act":"goto","slide":1,"morph":true,"dur":60},{"at":0.7,"act":"call","el":"b","text":"Morph — একই জিনিস জায়গা বদলায়","len":200}]}
+]}

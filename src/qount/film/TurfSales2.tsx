@@ -8,7 +8,7 @@ import { F, sp, Logo, Wordmark } from "../Qd";
 import DURS from "./ts2-durs.json";
 import SCRIPT from "./ts2-script.json";
 
-const S = (p: string) => staticFile(p);
+const S = (p: string) => staticFile("ts2/" + p); // public dir work/qroot (local) or public/ (cloud: public/ts2)
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const ease = Easing.bezier(0.16, 1, 0.3, 1);
 const INK = "#1F1A12", TUR = "#F2B300", PAPER = "#F8F5EE", GREY = "#665C4C", GREEN = "#15803D";

@@ -1,0 +1,651 @@
+{
+ "id": "word-03",
+ "course": "অফিস মাস্টারক্লাস",
+ "lessonNo": "ওয়ার্ড · পাঠ ৩",
+ "title": "মেইল মার্জ — ১০০টা চিঠি এক ক্লিকে + Copilot",
+ "next": "প্রথম প্রেজেন্টেশন — Designer দিয়ে সুন্দর স্লাইড",
+ "file": "Certificate.docx",
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "অফিস মাস্টারক্লাস · ওয়ার্ড",
+   "title": "মেইল মার্জ — ১০০টা চিঠি এক ক্লিকে",
+   "sub": "এক টেমপ্লেট + এক এক্সেল তালিকা + Copilot",
+   "chips": [
+    "এক্সেল তালিকা",
+    "Start Mail Merge",
+    "Merge Field",
+    "Preview Results",
+    "Copilot"
+   ],
+   "vo": "আসসালামু আলাইকুম! ওয়ার্ডের তৃতীয় পাঠে স্বাগতম। আজ শিখব মেইল মার্জ। একটা সার্টিফিকেটের টেমপ্লেট আর একটা এক্সেল তালিকা দিয়ে একশোটা আলাদা সার্টিফিকেট এক ক্লিকে বানাব। শেষে দেখব Word-এর Copilot কীভাবে চিঠির খসড়া লিখে দেয়।",
+   "frames": 468
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 210,
+    "B": 220,
+    "C": 160
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Course",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Date",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Rahim Uddin"
+    },
+    "B2": {
+     "t": "Excel Basics"
+    },
+    "C2": {
+     "t": "15-Nov-2026"
+    },
+    "A3": {
+     "t": "Karim Ali"
+    },
+    "B3": {
+     "t": "Word Mastery"
+    },
+    "C3": {
+     "t": "15-Nov-2026"
+    },
+    "A4": {
+     "t": "Nusrat Jahan"
+    },
+    "B4": {
+     "t": "PowerPoint Design"
+    },
+    "C4": {
+     "t": "15-Nov-2026"
+    },
+    "A5": {
+     "t": "Farhana Akter"
+    },
+    "B5": {
+     "t": "Excel Basics"
+    },
+    "C5": {
+     "t": "15-Nov-2026"
+    },
+    "A6": {
+     "t": "Sajid Hasan"
+    },
+    "B6": {
+     "t": "Word Mastery"
+    },
+    "C6": {
+     "t": "15-Nov-2026"
+    }
+   },
+   "sel": "A1",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.1,
+     "act": "select",
+     "cell": "A1",
+     "range": "A1:C1"
+    },
+    {
+     "at": 0.14,
+     "act": "call",
+     "cell": "A1",
+     "text": "প্রথম সারিতে শুধু কলামের নাম",
+     "len": 100
+    },
+    {
+     "at": 0.4,
+     "act": "hl",
+     "range": "A2:A6",
+     "color": "#1F6FEB",
+     "len": 70
+    },
+    {
+     "at": 0.46,
+     "act": "hl",
+     "range": "B2:B6",
+     "color": "#C2185B",
+     "len": 70
+    },
+    {
+     "at": 0.52,
+     "act": "hl",
+     "range": "C2:C6",
+     "color": "#107C41",
+     "len": 70
+    },
+    {
+     "at": 0.76,
+     "act": "call",
+     "x": 900,
+     "y": 420,
+     "text": "ফাইল সেভ করো — যেমন Students.xlsx — তারপর বন্ধ করো",
+     "len": 120
+    }
+   ],
+   "vo": "প্রথমে তালিকা। এক্সেলে তিনটা কলাম বানাও — Name, Course আর Date। আমি পাঁচজনের নাম নিয়েছি, তুমি একশো জনেরও দিতে পারো। একটা জরুরি কথা — প্রথম সারিতে শুধু কলামের নাম থাকবে, মাঝে ফাঁকা সারি রাখবে না। তারপর ফাইলটা Students নামে সেভ করে বন্ধ করে দাও।",
+   "frames": 550
+  },
+  {
+   "type": "word",
+   "file": "Certificate.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "সার্টিফিকেট অব কমপ্লিশন"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "এই মর্মে প্রত্যয়ন করা যাচ্ছে যে"
+    }
+   ],
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "call",
+     "block": "t",
+     "text": "এটাই আমাদের টেমপ্লেট — একটাই ফাইল",
+     "len": 100
+    },
+    {
+     "at": 0.3,
+     "act": "tab",
+     "tabName": "Mailings"
+    },
+    {
+     "at": 0.5,
+     "act": "click",
+     "btn": "startmm",
+     "tabFor": "Mailings"
+    },
+    {
+     "at": 0.58,
+     "act": "menu",
+     "xy": [
+      330,
+      215
+     ],
+     "items": [
+      "Letters",
+      "E-mail Messages",
+      "Envelopes",
+      "Labels",
+      "Directory"
+     ],
+     "pick": 0,
+     "len": 80
+    },
+    {
+     "at": 0.82,
+     "act": "call",
+     "x": 700,
+     "y": 330,
+     "text": "সার্টিফিকেটও এক ধরনের চিঠি — Letters বেছে নাও",
+     "len": 110
+    }
+   ],
+   "vo": "এবার Word-এ সার্টিফিকেটের টেমপ্লেট। এটাই হবে আমাদের একমাত্র ফাইল। উপরে মেইলিংস ট্যাবে যাও। Start Mail Merge বোতামে ক্লিক করে বেছে নাও Letters। সার্টিফিকেটও আসলে এক ধরনের চিঠি, তাই Letters-ই ঠিক।",
+   "frames": 422
+  },
+  {
+   "type": "word",
+   "file": "Certificate.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "সার্টিফিকেট অব কমপ্লিশন"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "এই মর্মে প্রত্যয়ন করা যাচ্ছে যে"
+    }
+   ],
+   "tab": "Mailings",
+   "steps": [
+    {
+     "at": 0.1,
+     "act": "click",
+     "btn": "recipients",
+     "tabFor": "Mailings"
+    },
+    {
+     "at": 0.18,
+     "act": "menu",
+     "xy": [
+      520,
+      215
+     ],
+     "items": [
+      "Type a New List…",
+      "Use an Existing List…",
+      "Choose from Outlook Contacts"
+     ],
+     "pick": 1,
+     "len": 80
+    },
+    {
+     "at": 0.4,
+     "act": "call",
+     "x": 700,
+     "y": 330,
+     "text": "Use an Existing List — আমাদের এক্সেল ফাইল",
+     "len": 100
+    },
+    {
+     "at": 0.6,
+     "act": "dialog",
+     "title": "Select Table",
+     "rows": [
+      [
+       "Sheet1$",
+       "✓"
+      ],
+      [
+       "First row of data contains column headers",
+       "✓"
+      ]
+     ],
+     "note": "হেডার সারি টিক থাকলেই Name, Course নামগুলো পাওয়া যাবে"
+    },
+    {
+     "at": 0.86,
+     "act": "ok"
+    }
+   ],
+   "vo": "এবার বলতে হবে নামগুলো কোথায় আছে। Select Recipients-এ ক্লিক করে বেছে নাও Use an Existing List। ফাইল খোলার জানালায় আমাদের এক্সেল ফাইলটা দাও, তারপর শিট বেছে ওকে। হেডার সারির টিকটা অন থাকা চাই। এখন Word আর এক্সেল জুড়ে গেল।",
+   "frames": 487
+  },
+  {
+   "type": "word",
+   "file": "Certificate.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "সার্টিফিকেট অব কমপ্লিশন"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "এই মর্মে প্রত্যয়ন করা যাচ্ছে যে"
+    }
+   ],
+   "tab": "Mailings",
+   "steps": [
+    {
+     "at": 0.1,
+     "act": "click",
+     "btn": "field",
+     "tabFor": "Mailings"
+    },
+    {
+     "at": 0.2,
+     "act": "type",
+     "block": "p2",
+     "kind": "p",
+     "text": "«Name»",
+     "after": "p1"
+    },
+    {
+     "at": 0.3,
+     "act": "call",
+     "block": "p2",
+     "text": "Insert Merge Field → Name",
+     "len": 90
+    },
+    {
+     "at": 0.5,
+     "act": "type",
+     "block": "p3",
+     "kind": "p",
+     "text": "সফলভাবে «Course» কোর্স সম্পন্ন করেছেন।",
+     "after": "p2"
+    },
+    {
+     "at": 0.7,
+     "act": "type",
+     "block": "p4",
+     "kind": "p",
+     "text": "তারিখ: «Date»",
+     "after": "p3"
+    },
+    {
+     "at": 0.82,
+     "act": "zoom",
+     "block": "p3"
+    },
+    {
+     "at": 0.86,
+     "act": "call",
+     "block": "p3",
+     "text": "«Course» — প্রতিজনের জন্য আলাদা বসবে",
+     "len": 90
+    },
+    {
+     "at": 0.95,
+     "act": "unzoom"
+    }
+   ],
+   "vo": "এবার আসল জায়গা — মার্জ ফিল্ড। যেখানে নাম বসবে সেখানে কার্সর রেখে Insert Merge Field চাপো, তারপর Name বেছে নাও। লেখা হলো «Name», দুই পাশে ছোট চিহ্ন। একইভাবে কোর্সের জায়গায় «Course», আর তারিখের জায়গায় «Date»। এগুলোই প্রতিটা চিঠিতে আলাদা তথ্য হয়ে বসবে।",
+   "frames": 571
+  },
+  {
+   "type": "word",
+   "file": "Certificate.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "সার্টিফিকেট অব কমপ্লিশন"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "এই মর্মে প্রত্যয়ন করা যাচ্ছে যে"
+    },
+    {
+     "id": "p2",
+     "kind": "p",
+     "text": "«Name»"
+    },
+    {
+     "id": "p3",
+     "kind": "p",
+     "text": "সফলভাবে «Course» কোর্স সম্পন্ন করেছেন।"
+    },
+    {
+     "id": "p4",
+     "kind": "p",
+     "text": "তারিখ: «Date»"
+    }
+   ],
+   "tab": "Mailings",
+   "steps": [
+    {
+     "at": 0.08,
+     "act": "click",
+     "btn": "preview",
+     "tabFor": "Mailings"
+    },
+    {
+     "at": 0.12,
+     "act": "preview",
+     "rec": {
+      "Name": "Rahim Uddin",
+      "Course": "Excel Basics",
+      "Date": "15-Nov-2026"
+     }
+    },
+    {
+     "at": 0.2,
+     "act": "call",
+     "block": "p2",
+     "text": "«Name»-এর জায়গায় আসল নাম",
+     "len": 90
+    },
+    {
+     "at": 0.4,
+     "act": "preview",
+     "rec": {
+      "Name": "Karim Ali",
+      "Course": "Word Mastery",
+      "Date": "15-Nov-2026"
+     }
+    },
+    {
+     "at": 0.56,
+     "act": "preview",
+     "rec": {
+      "Name": "Nusrat Jahan",
+      "Course": "PowerPoint Design",
+      "Date": "15-Nov-2026"
+     }
+    },
+    {
+     "at": 0.7,
+     "act": "call",
+     "block": "p3",
+     "text": "তীর চিহ্নে ক্লিক করলেই পরের জনের চিঠি",
+     "len": 100
+    }
+   ],
+   "vo": "এবার দেখে নিই। Preview Results চাপো। এখন «Name»-এর জায়গায় আসল নাম — Rahim Uddin। পাশের তীর চিহ্নে ক্লিক করলে পরের জন Karim Ali, তারপর Nusrat Jahan। নাম, কোর্স আর তারিখ নিজে নিজে বদলে যাচ্ছে। এটাই সিক্রেট — একটা টেমপ্লেট আর একটা এক্সেল তালিকা, কপি-পেস্ট ছাড়া শত শত চিঠি।",
+   "frames": 614
+  },
+  {
+   "type": "word",
+   "file": "Certificate.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "সার্টিফিকেট অব কমপ্লিশন"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "এই মর্মে প্রত্যয়ন করা যাচ্ছে যে"
+    },
+    {
+     "id": "p2",
+     "kind": "p",
+     "text": "«Name»"
+    },
+    {
+     "id": "p3",
+     "kind": "p",
+     "text": "সফলভাবে «Course» কোর্স সম্পন্ন করেছেন।"
+    },
+    {
+     "id": "p4",
+     "kind": "p",
+     "text": "তারিখ: «Date»"
+    }
+   ],
+   "tab": "Mailings",
+   "steps": [
+    {
+     "at": 0.08,
+     "act": "click",
+     "btn": "finish",
+     "tabFor": "Mailings"
+    },
+    {
+     "at": 0.16,
+     "act": "menu",
+     "xy": [
+      1000,
+      215
+     ],
+     "items": [
+      "Edit Individual Documents…",
+      "Print Documents…",
+      "Send Email Messages…"
+     ],
+     "pick": 0,
+     "len": 80
+    },
+    {
+     "at": 0.34,
+     "act": "dialog",
+     "title": "Merge to New Document",
+     "rows": [
+      [
+       "Merge records",
+       "All"
+      ]
+     ],
+     "note": "All মানে তালিকার সবাই"
+    },
+    {
+     "at": 0.5,
+     "act": "ok"
+    },
+    {
+     "at": 0.62,
+     "act": "call",
+     "x": 700,
+     "y": 330,
+     "text": "প্রতিজনের জন্য আলাদা পেজ — নতুন ফাইলে",
+     "len": 100
+    },
+    {
+     "at": 0.8,
+     "act": "call",
+     "x": 700,
+     "y": 420,
+     "text": "চাইলে সরাসরি Print Documents",
+     "len": 90
+    }
+   ],
+   "vo": "সব ঠিক থাকলে Finish & Merge চাপো। Edit Individual Documents বেছে নাও। All সিলেক্ট করে ওকে দিলে নতুন একটা ফাইল খুলবে, যেখানে প্রতিজনের জন্য আলাদা পেজ। চাইলে সরাসরি Print Documents দিয়ে প্রিন্টও করতে পারো। একশো জন হলে একশোটা পেজ, সময় লাগবে কয়েক সেকেন্ড।",
+   "frames": 550
+  },
+  {
+   "type": "word",
+   "file": "Certificate.docx",
+   "blocks": [
+    {
+     "id": "t",
+     "kind": "title",
+     "text": "সার্টিফিকেট অব কমপ্লিশন"
+    },
+    {
+     "id": "p1",
+     "kind": "p",
+     "text": "এই মর্মে প্রত্যয়ন করা যাচ্ছে যে"
+    },
+    {
+     "id": "p2",
+     "kind": "p",
+     "text": "«Name»"
+    },
+    {
+     "id": "p3",
+     "kind": "p",
+     "text": "সফলভাবে «Course» কোর্স সম্পন্ন করেছেন।"
+    },
+    {
+     "id": "p4",
+     "kind": "p",
+     "text": "তারিখ: «Date»"
+    }
+   ],
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.1,
+     "act": "click",
+     "btn": "copilot",
+     "tabFor": "Home"
+    },
+    {
+     "at": 0.2,
+     "act": "pane",
+     "title": "Copilot",
+     "sub": "Word-এর জন্য",
+     "color": "#5B5FC7",
+     "side": "right"
+    },
+    {
+     "at": 0.4,
+     "act": "ask",
+     "text": "কোর্স শেষ করা শিক্ষার্থীর জন্য দুই লাইনের একটা অভিনন্দন বার্তা লিখে দাও"
+    },
+    {
+     "at": 0.55,
+     "act": "reply",
+     "text": "আপনার নিষ্ঠা ও পরিশ্রমের জন্য অভিনন্দন! কোর্সে অর্জিত দক্ষতা আপনার কাজে নতুন সুযোগ তৈরি করুক, এই কামনা করি।"
+    },
+    {
+     "at": 0.82,
+     "act": "call",
+     "x": 500,
+     "y": 420,
+     "text": "খসড়া নিজে পড়ো, ভুল ঠিক করো — তারপর ব্যবহার করো",
+     "len": 110
+    }
+   ],
+   "vo": "চিঠির লেখাটা কীভাবে লিখব, ভাবছ? এখানে সাহায্য করে Copilot। Copilot in Word পেতে লাগবে এমন Microsoft 365 প্ল্যান, যেটায় Copilot আছে। হোম ট্যাবে Copilot চাপো, কী চাও লিখে দাও, সে খসড়া দেবে। ২০২৬ সালে Edit with Copilot-ই Word-এর ডিফল্ট অভিজ্ঞতা হয়েছে। তবে খসড়া সবসময় নিজে পড়ে ভুল ঠিক করে নেবে।",
+   "frames": 691
+  },
+  {
+   "type": "quizQ",
+   "q": "প্রতিজনের জন্য আলাদা পেজসহ নতুন ডকুমেন্ট বানাতে কোনটা বেছে নেবে?",
+   "o": [
+    "Preview Results",
+    "Select Recipients",
+    "Edit Individual Documents",
+    "Start Mail Merge"
+   ],
+   "a": 2,
+   "hold": 150,
+   "vo": "এবার তোমার পালা। প্রতিজনের জন্য আলাদা পেজসহ নতুন ডকুমেন্ট বানাতে কোনটা বেছে নেবে? ভিডিও থামিয়ে ভাবো।",
+   "frames": 223
+  },
+  {
+   "type": "quizA",
+   "q": "প্রতিজনের জন্য আলাদা পেজসহ নতুন ডকুমেন্ট বানাতে কোনটা বেছে নেবে?",
+   "o": [
+    "Preview Results",
+    "Select Recipients",
+    "Edit Individual Documents",
+    "Start Mail Merge"
+   ],
+   "a": 2,
+   "ex": "Finish & Merge → Edit Individual Documents দিলে সবার চিঠি নতুন একটা ফাইলে আসে। Preview শুধু দেখার জন্য।",
+   "vo": "সঠিক উত্তর গ — Edit Individual Documents। Preview Results শুধু দেখার জন্য, আর Select Recipients দিয়ে তালিকা জোড়া হয়।",
+   "frames": 274
+  },
+  {
+   "type": "recap",
+   "items": [
+    [
+     "Excel list",
+     "Name, Course, Date — প্রথম সারিতে হেডার"
+    ],
+    [
+     "Start Mail Merge",
+     "Letters বেছে শুরু"
+    ],
+    [
+     "Select Recipients",
+     "Use an Existing List — এক্সেল ফাইল"
+    ],
+    [
+     "Insert Merge Field",
+     "«Name», «Course» বসানো"
+    ],
+    [
+     "Finish & Merge",
+     "Edit Individual Documents বা Print"
+    ]
+   ],
+   "vo": "আজ যা শিখলাম: এক্সেলে তালিকা বানানো, Start Mail Merge, এক্সেল ফাইল জোড়া, মার্জ ফিল্ড বসানো, প্রিভিউ দেখা, আর Finish & Merge দিয়ে সব চিঠি বানানো। সাথে Copilot দিয়ে খসড়া লেখার কথাও জানলাম।",
+   "frames": 439
+  },
+  {
+   "type": "outro",
+   "vo": "পরের পাঠে আমরা বানাব প্রথম প্রেজেন্টেশন — Designer দিয়ে সুন্দর স্লাইড। ওয়ার্ড ল্যাবে দশজনের নামের একটা তালিকা বানিয়ে নিজে মেইল মার্জ করে দেখো। দেখা হবে!",
+   "frames": 312
+  }
+ ]
+}

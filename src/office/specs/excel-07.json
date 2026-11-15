@@ -1,0 +1,1390 @@
+{
+ "id": "excel-07",
+ "course": "অফিস মাস্টারক্লাস",
+ "lessonNo": "এক্সেল · পাঠ ৭",
+ "title": "ডায়নামিক অ্যারে — FILTER, SORT, UNIQUE",
+ "next": "রং দিয়ে বোঝা — Conditional Formatting, ড্রপডাউন, চেকবক্স",
+ "file": "Customers.xlsx",
+ "scenes": [
+  {
+   "type": "title",
+   "kicker": "অফিস মাস্টারক্লাস · এক্সেল",
+   "title": "ডায়নামিক অ্যারে — FILTER, SORT, UNIQUE",
+   "sub": "একটা ফর্মুলা, পুরো তালিকা — নিজে নিজে",
+   "chips": [
+    "Spill সিক্রেট",
+    "FILTER",
+    "SORT",
+    "UNIQUE",
+    "#SPILL! সমাধান"
+   ],
+   "vo": "আসসালামু আলাইকুম! আজ এক্সেলের সবচেয়ে মজার জিনিস শিখব — ডায়নামিক অ্যারে। একটা কাস্টমারের বকেয়ার তালিকা থেকে শুধু বকেয়াওয়ালাদের আলাদা করব, বড় বকেয়া আগে সাজাব, আর এলাকার তালিকা বের করব। প্রতিটা কাজ হবে মাত্র একটা ফর্মুলায়।",
+   "frames": 487
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 170,
+    "B": 130,
+    "C": 110,
+    "D": 30,
+    "E": 170,
+    "F": 130,
+    "G": 110,
+    "H": 30,
+    "I": 150,
+    "J": 60
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Farhana Akter"
+    },
+    "B2": {
+     "t": "Chattogram"
+    },
+    "C2": {
+     "t": "15,000"
+    },
+    "A3": {
+     "t": "Rahim Uddin"
+    },
+    "B3": {
+     "t": "Dhaka"
+    },
+    "C3": {
+     "t": "12,000"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "Khulna"
+    },
+    "C4": {
+     "t": "0"
+    },
+    "A5": {
+     "t": "Nusrat Jahan"
+    },
+    "B5": {
+     "t": "Dhaka"
+    },
+    "C5": {
+     "t": "8,500"
+    },
+    "A6": {
+     "t": "Tania Sultana"
+    },
+    "B6": {
+     "t": "Khulna"
+    },
+    "C6": {
+     "t": "6,000"
+    },
+    "A7": {
+     "t": "Sajid Hasan"
+    },
+    "B7": {
+     "t": "Sylhet"
+    },
+    "C7": {
+     "t": "0"
+    },
+    "A8": {
+     "t": "Mitu Rahman"
+    },
+    "B8": {
+     "t": "Chattogram"
+    },
+    "C8": {
+     "t": "4,500"
+    },
+    "A9": {
+     "t": "Imran Hossain"
+    },
+    "B9": {
+     "t": "Dhaka"
+    },
+    "C9": {
+     "t": "0"
+    }
+   },
+   "sel": "A1",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.1,
+     "act": "hl",
+     "range": "A1:C9",
+     "color": "#1F6FEB",
+     "len": 80
+    },
+    {
+     "at": 0.4,
+     "act": "select",
+     "cell": "C4"
+    },
+    {
+     "at": 0.43,
+     "act": "call",
+     "cell": "C4",
+     "text": "০ মানে বকেয়া নেই",
+     "len": 90
+    },
+    {
+     "at": 0.7,
+     "act": "hl",
+     "range": "C2:C9",
+     "color": "#C2185B",
+     "len": 80
+    }
+   ],
+   "vo": "আজকের সিক্রেট একটাই — স্পিল। আমাদের সামনে কাস্টমারের বকেয়ার তালিকা: নাম, এলাকা আর বকেয়া টাকা। আটজন কাস্টমার, কারও বকেয়া আছে, কারও শূন্য। বস চেয়েছেন শুধু যাদের বকেয়া আছে তাদের আলাদা তালিকা। কপি-পেস্ট নয়, মুছে মুছে নয় — একটা ফর্মুলাতেই হবে।",
+   "frames": 569
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 170,
+    "B": 130,
+    "C": 110,
+    "D": 30,
+    "E": 170,
+    "F": 130,
+    "G": 110,
+    "H": 30,
+    "I": 150,
+    "J": 60
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Farhana Akter"
+    },
+    "B2": {
+     "t": "Chattogram"
+    },
+    "C2": {
+     "t": "15,000"
+    },
+    "A3": {
+     "t": "Rahim Uddin"
+    },
+    "B3": {
+     "t": "Dhaka"
+    },
+    "C3": {
+     "t": "12,000"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "Khulna"
+    },
+    "C4": {
+     "t": "0"
+    },
+    "A5": {
+     "t": "Nusrat Jahan"
+    },
+    "B5": {
+     "t": "Dhaka"
+    },
+    "C5": {
+     "t": "8,500"
+    },
+    "A6": {
+     "t": "Tania Sultana"
+    },
+    "B6": {
+     "t": "Khulna"
+    },
+    "C6": {
+     "t": "6,000"
+    },
+    "A7": {
+     "t": "Sajid Hasan"
+    },
+    "B7": {
+     "t": "Sylhet"
+    },
+    "C7": {
+     "t": "0"
+    },
+    "A8": {
+     "t": "Mitu Rahman"
+    },
+    "B8": {
+     "t": "Chattogram"
+    },
+    "C8": {
+     "t": "4,500"
+    },
+    "A9": {
+     "t": "Imran Hossain"
+    },
+    "B9": {
+     "t": "Dhaka"
+    },
+    "C9": {
+     "t": "0"
+    },
+    "E1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "G1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    }
+   },
+   "sel": "A1",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "select",
+     "cell": "E2"
+    },
+    {
+     "at": 0.12,
+     "act": "type",
+     "cell": "E2",
+     "text": "=FILTER(A2:C9,C2:C9>0)",
+     "refs": "A2:C9,C2:C9",
+     "dur": 120,
+     "wait": 60,
+     "enter": true,
+     "v": "Farhana Akter",
+     "next": "E2",
+     "spillRange": "E2:G6",
+     "spill": [
+      [
+       "E2",
+       "Farhana Akter"
+      ],
+      [
+       "F2",
+       "Chattogram"
+      ],
+      [
+       "G2",
+       "15,000"
+      ],
+      [
+       "E3",
+       "Rahim Uddin"
+      ],
+      [
+       "F3",
+       "Dhaka"
+      ],
+      [
+       "G3",
+       "12,000"
+      ],
+      [
+       "E4",
+       "Nusrat Jahan"
+      ],
+      [
+       "F4",
+       "Dhaka"
+      ],
+      [
+       "G4",
+       "8,500"
+      ],
+      [
+       "E5",
+       "Tania Sultana"
+      ],
+      [
+       "F5",
+       "Khulna"
+      ],
+      [
+       "G5",
+       "6,000"
+      ],
+      [
+       "E6",
+       "Mitu Rahman"
+      ],
+      [
+       "F6",
+       "Chattogram"
+      ],
+      [
+       "G6",
+       "4,500"
+      ]
+     ]
+    },
+    {
+     "at": 0.62,
+     "act": "zoom",
+     "range": "E1:G7",
+     "k": 1.6
+    },
+    {
+     "at": 0.66,
+     "act": "call",
+     "x": 1100,
+     "y": 560,
+     "text": "একটা ফর্মুলা, পাঁচ সারির তালিকা — এটাই Spill",
+     "len": 110
+    },
+    {
+     "at": 0.9,
+     "act": "unzoom"
+    }
+   ],
+   "vo": "E2 সেলে লিখি, সমান FILTER। ব্র্যাকেটে প্রথমে পুরো ডেটা, A2 থেকে C9। তারপর শর্ত — C2 থেকে C9 বড় শূন্য। এন্টার! একটা ফর্মুলা লিখলাম, আর পাঁচজনের পুরো তালিকা নিজে নিজে নিচে আর পাশে ছড়িয়ে গেল। এই ছড়ানোকেই বলে স্পিল। মূল ডেটা বদলালে তালিকাও নিজে বদলাবে। FILTER চলে মাইক্রোসফট থ্রি-সিক্সটি-ফাইভ আর ফ্রি Excel for the web-এ; এক্সেল দুই হাজার উনিশে #NAME? দেখাবে।",
+   "frames": 859
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 170,
+    "B": 130,
+    "C": 110,
+    "D": 30,
+    "E": 170,
+    "F": 130,
+    "G": 110,
+    "H": 30,
+    "I": 150,
+    "J": 60
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Farhana Akter"
+    },
+    "B2": {
+     "t": "Chattogram"
+    },
+    "C2": {
+     "t": "15,000"
+    },
+    "A3": {
+     "t": "Rahim Uddin"
+    },
+    "B3": {
+     "t": "Dhaka"
+    },
+    "C3": {
+     "t": "12,000"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "Khulna"
+    },
+    "C4": {
+     "t": "0"
+    },
+    "A5": {
+     "t": "Nusrat Jahan"
+    },
+    "B5": {
+     "t": "Dhaka"
+    },
+    "C5": {
+     "t": "8,500"
+    },
+    "A6": {
+     "t": "Tania Sultana"
+    },
+    "B6": {
+     "t": "Khulna"
+    },
+    "C6": {
+     "t": "6,000"
+    },
+    "A7": {
+     "t": "Sajid Hasan"
+    },
+    "B7": {
+     "t": "Sylhet"
+    },
+    "C7": {
+     "t": "0"
+    },
+    "A8": {
+     "t": "Mitu Rahman"
+    },
+    "B8": {
+     "t": "Chattogram"
+    },
+    "C8": {
+     "t": "4,500"
+    },
+    "A9": {
+     "t": "Imran Hossain"
+    },
+    "B9": {
+     "t": "Dhaka"
+    },
+    "C9": {
+     "t": "0"
+    },
+    "E1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "G1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E2": {
+     "t": "=FILTER(A2:C9,C2:C9>0)",
+     "v": "Farhana Akter"
+    },
+    "F2": {
+     "t": "Chattogram"
+    },
+    "G2": {
+     "t": "15,000"
+    },
+    "E3": {
+     "t": "Rahim Uddin"
+    },
+    "F3": {
+     "t": "Dhaka"
+    },
+    "G3": {
+     "t": "12,000"
+    },
+    "E4": {
+     "t": "Nusrat Jahan"
+    },
+    "F4": {
+     "t": "Dhaka"
+    },
+    "G4": {
+     "t": "8,500"
+    },
+    "E5": {
+     "t": "Tania Sultana"
+    },
+    "F5": {
+     "t": "Khulna"
+    },
+    "G5": {
+     "t": "6,000"
+    },
+    "E6": {
+     "t": "Mitu Rahman"
+    },
+    "F6": {
+     "t": "Chattogram"
+    },
+    "G6": {
+     "t": "4,500"
+    }
+   },
+   "sel": "E2",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "select",
+     "cell": "E2"
+    },
+    {
+     "at": 0.12,
+     "act": "type",
+     "cell": "E2",
+     "text": "=SORT(FILTER(A2:C9,C2:C9>0),3,-1)",
+     "refs": "A2:C9,C2:C9",
+     "dur": 150,
+     "wait": 60,
+     "enter": true,
+     "v": "Farhana Akter",
+     "next": "E2",
+     "spillRange": "E2:G6",
+     "spill": [
+      [
+       "E2",
+       "Farhana Akter"
+      ],
+      [
+       "F2",
+       "Chattogram"
+      ],
+      [
+       "G2",
+       "15,000"
+      ],
+      [
+       "E3",
+       "Rahim Uddin"
+      ],
+      [
+       "F3",
+       "Dhaka"
+      ],
+      [
+       "G3",
+       "12,000"
+      ],
+      [
+       "E4",
+       "Nusrat Jahan"
+      ],
+      [
+       "F4",
+       "Dhaka"
+      ],
+      [
+       "G4",
+       "8,500"
+      ],
+      [
+       "E5",
+       "Tania Sultana"
+      ],
+      [
+       "F5",
+       "Khulna"
+      ],
+      [
+       "G5",
+       "6,000"
+      ],
+      [
+       "E6",
+       "Mitu Rahman"
+      ],
+      [
+       "F6",
+       "Chattogram"
+      ],
+      [
+       "G6",
+       "4,500"
+      ]
+     ]
+    },
+    {
+     "at": 0.7,
+     "act": "hl",
+     "range": "G2:G6",
+     "color": "#107C41",
+     "len": 90
+    },
+    {
+     "at": 0.74,
+     "act": "call",
+     "x": 1100,
+     "y": 560,
+     "text": "৩ = তৃতীয় কলাম (Due), -1 = বড় থেকে ছোট",
+     "len": 110
+    }
+   ],
+   "vo": "এবার বড় বকেয়া সবসময় আগে দেখাতে চাই। পুরো FILTER-টাকে SORT-এর ভেতরে ঢুকিয়ে দিই। শেষে কমা দিয়ে লিখি তিন — মানে তৃতীয় কলাম, অর্থাৎ বকেয়া — আর মাইনাস এক, মানে বড় থেকে ছোট। এন্টার। Farhana Akter-এর পনেরো হাজার সবার উপরে, তারপর বারো হাজার, নিচের দিকে কমছে। আমাদের ডেটা এখন সাজানোর কাছাকাছি আছে, কিন্তু নতুন তথ্য এলোমেলো ঢুকলেও SORT ঠিক এই ক্রমেই সাজিয়ে রাখবে।",
+   "frames": 802
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 170,
+    "B": 130,
+    "C": 110,
+    "D": 30,
+    "E": 170,
+    "F": 130,
+    "G": 110,
+    "H": 30,
+    "I": 150,
+    "J": 60
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Farhana Akter"
+    },
+    "B2": {
+     "t": "Chattogram"
+    },
+    "C2": {
+     "t": "15,000"
+    },
+    "A3": {
+     "t": "Rahim Uddin"
+    },
+    "B3": {
+     "t": "Dhaka"
+    },
+    "C3": {
+     "t": "12,000"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "Khulna"
+    },
+    "C4": {
+     "t": "0"
+    },
+    "A5": {
+     "t": "Nusrat Jahan"
+    },
+    "B5": {
+     "t": "Dhaka"
+    },
+    "C5": {
+     "t": "8,500"
+    },
+    "A6": {
+     "t": "Tania Sultana"
+    },
+    "B6": {
+     "t": "Khulna"
+    },
+    "C6": {
+     "t": "6,000"
+    },
+    "A7": {
+     "t": "Sajid Hasan"
+    },
+    "B7": {
+     "t": "Sylhet"
+    },
+    "C7": {
+     "t": "0"
+    },
+    "A8": {
+     "t": "Mitu Rahman"
+    },
+    "B8": {
+     "t": "Chattogram"
+    },
+    "C8": {
+     "t": "4,500"
+    },
+    "A9": {
+     "t": "Imran Hossain"
+    },
+    "B9": {
+     "t": "Dhaka"
+    },
+    "C9": {
+     "t": "0"
+    },
+    "E1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "G1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E2": {
+     "t": "=SORT(FILTER(A2:C9,C2:C9>0),3,-1)",
+     "v": "Farhana Akter"
+    },
+    "F2": {
+     "t": "Chattogram"
+    },
+    "G2": {
+     "t": "15,000"
+    },
+    "E3": {
+     "t": "Rahim Uddin"
+    },
+    "F3": {
+     "t": "Dhaka"
+    },
+    "G3": {
+     "t": "12,000"
+    },
+    "E4": {
+     "t": "Nusrat Jahan"
+    },
+    "F4": {
+     "t": "Dhaka"
+    },
+    "G4": {
+     "t": "8,500"
+    },
+    "E5": {
+     "t": "Tania Sultana"
+    },
+    "F5": {
+     "t": "Khulna"
+    },
+    "G5": {
+     "t": "6,000"
+    },
+    "E6": {
+     "t": "Mitu Rahman"
+    },
+    "F6": {
+     "t": "Chattogram"
+    },
+    "G6": {
+     "t": "4,500"
+    },
+    "I1": {
+     "t": "Areas",
+     "bold": true,
+     "fill": "#E2EFDA"
+    }
+   },
+   "sel": "I1",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "select",
+     "cell": "I2"
+    },
+    {
+     "at": 0.12,
+     "act": "type",
+     "cell": "I2",
+     "text": "=UNIQUE(B2:B9)",
+     "refs": "B2:B9",
+     "dur": 90,
+     "wait": 50,
+     "enter": true,
+     "v": "Chattogram",
+     "next": "I2",
+     "spillRange": "I2:I5",
+     "spill": [
+      [
+       "I2",
+       "Chattogram"
+      ],
+      [
+       "I3",
+       "Dhaka"
+      ],
+      [
+       "I4",
+       "Khulna"
+      ],
+      [
+       "I5",
+       "Sylhet"
+      ]
+     ]
+    },
+    {
+     "at": 0.55,
+     "act": "hl",
+     "range": "B2:B9",
+     "color": "#1F6FEB",
+     "len": 80
+    },
+    {
+     "at": 0.7,
+     "act": "call",
+     "cell": "I3",
+     "text": "৮টা সারি থেকে ৪টা আলাদা এলাকা",
+     "len": 100
+    }
+   ],
+   "vo": "এবার জানতে চাই কাস্টমাররা কোন কোন এলাকার। I2-তে লিখি, সমান UNIQUE, ব্র্যাকেটে এলাকার কলাম, B2 থেকে B9। Dhaka তিনবার আছে, তবু একবারই এসেছে। মাত্র চারটা আলাদা এলাকা — Chattogram, Dhaka, Khulna আর Sylhet। ডুপ্লিকেট বাদ দিয়ে তালিকা বানানোর এত সহজ উপায় আর নেই।",
+   "frames": 626
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 170,
+    "B": 130,
+    "C": 110,
+    "D": 30,
+    "E": 170,
+    "F": 130,
+    "G": 110,
+    "H": 30,
+    "I": 150,
+    "J": 60
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Farhana Akter"
+    },
+    "B2": {
+     "t": "Chattogram"
+    },
+    "C2": {
+     "t": "15,000"
+    },
+    "A3": {
+     "t": "Rahim Uddin"
+    },
+    "B3": {
+     "t": "Dhaka"
+    },
+    "C3": {
+     "t": "12,000"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "Khulna"
+    },
+    "C4": {
+     "t": "0"
+    },
+    "A5": {
+     "t": "Nusrat Jahan"
+    },
+    "B5": {
+     "t": "Dhaka"
+    },
+    "C5": {
+     "t": "8,500"
+    },
+    "A6": {
+     "t": "Tania Sultana"
+    },
+    "B6": {
+     "t": "Khulna"
+    },
+    "C6": {
+     "t": "6,000"
+    },
+    "A7": {
+     "t": "Sajid Hasan"
+    },
+    "B7": {
+     "t": "Sylhet"
+    },
+    "C7": {
+     "t": "0"
+    },
+    "A8": {
+     "t": "Mitu Rahman"
+    },
+    "B8": {
+     "t": "Chattogram"
+    },
+    "C8": {
+     "t": "4,500"
+    },
+    "A9": {
+     "t": "Imran Hossain"
+    },
+    "B9": {
+     "t": "Dhaka"
+    },
+    "C9": {
+     "t": "0"
+    },
+    "E1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "G1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E2": {
+     "t": "=SORT(FILTER(A2:C9,C2:C9>0),3,-1)",
+     "v": "Farhana Akter"
+    },
+    "F2": {
+     "t": "Chattogram"
+    },
+    "G2": {
+     "t": "15,000"
+    },
+    "E3": {
+     "t": "Rahim Uddin"
+    },
+    "F3": {
+     "t": "Dhaka"
+    },
+    "G3": {
+     "t": "12,000"
+    },
+    "E4": {
+     "t": "Nusrat Jahan"
+    },
+    "F4": {
+     "t": "Dhaka"
+    },
+    "G4": {
+     "t": "8,500"
+    },
+    "E5": {
+     "t": "Tania Sultana"
+    },
+    "F5": {
+     "t": "Khulna"
+    },
+    "G5": {
+     "t": "6,000"
+    },
+    "E6": {
+     "t": "Mitu Rahman"
+    },
+    "F6": {
+     "t": "Chattogram"
+    },
+    "G6": {
+     "t": "4,500"
+    },
+    "I1": {
+     "t": "Areas",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "I2": {
+     "t": "=UNIQUE(B2:B9)",
+     "v": "Chattogram"
+    },
+    "I3": {
+     "t": "Dhaka"
+    },
+    "I4": {
+     "t": "Khulna"
+    },
+    "I5": {
+     "t": "Sylhet"
+    }
+   },
+   "sel": "I2",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.06,
+     "act": "select",
+     "cell": "I2"
+    },
+    {
+     "at": 0.12,
+     "act": "type",
+     "cell": "I2",
+     "text": "=SORT(UNIQUE(B2:B9))",
+     "refs": "B2:B9",
+     "dur": 100,
+     "wait": 50,
+     "enter": true,
+     "v": "Chattogram",
+     "next": "I2",
+     "spillRange": "I2:I5",
+     "spill": [
+      [
+       "I2",
+       "Chattogram"
+      ],
+      [
+       "I3",
+       "Dhaka"
+      ],
+      [
+       "I4",
+       "Khulna"
+      ],
+      [
+       "I5",
+       "Sylhet"
+      ]
+     ]
+    },
+    {
+     "at": 0.7,
+     "act": "call",
+     "cell": "I3",
+     "text": "ভেতরে UNIQUE, বাইরে SORT — A থেকে Z সাজানো",
+     "len": 110
+    }
+   ],
+   "vo": "এলাকাগুলো সবসময় বর্ণানুক্রমে রাখতে চাইলে UNIQUE-কে SORT-এর ভেতরে বসাও। সমান SORT, ব্র্যাকেটে UNIQUE, আর ভেতরে B2 থেকে B9। ভেতরেরটা আগে কাজ করে, বাইরেরটা তার ফল সাজায়। দেখো — Chattogram, Dhaka, Khulna, Sylhet। নতুন এলাকা যোগ হলেও সে নিজে ঠিক জায়গায় বসে যাবে। এভাবে এক ফাংশনের ভেতরে আরেক ফাংশন জুড়ে দেওয়া যায়।",
+   "frames": 734
+  },
+  {
+   "type": "excel",
+   "cols": {
+    "A": 170,
+    "B": 130,
+    "C": 110,
+    "D": 30,
+    "E": 170,
+    "F": 130,
+    "G": 110,
+    "H": 30,
+    "I": 150,
+    "J": 60
+   },
+   "cells": {
+    "A1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "B1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "C1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "A2": {
+     "t": "Farhana Akter"
+    },
+    "B2": {
+     "t": "Chattogram"
+    },
+    "C2": {
+     "t": "15,000"
+    },
+    "A3": {
+     "t": "Rahim Uddin"
+    },
+    "B3": {
+     "t": "Dhaka"
+    },
+    "C3": {
+     "t": "12,000"
+    },
+    "A4": {
+     "t": "Karim Ali"
+    },
+    "B4": {
+     "t": "Khulna"
+    },
+    "C4": {
+     "t": "0"
+    },
+    "A5": {
+     "t": "Nusrat Jahan"
+    },
+    "B5": {
+     "t": "Dhaka"
+    },
+    "C5": {
+     "t": "8,500"
+    },
+    "A6": {
+     "t": "Tania Sultana"
+    },
+    "B6": {
+     "t": "Khulna"
+    },
+    "C6": {
+     "t": "6,000"
+    },
+    "A7": {
+     "t": "Sajid Hasan"
+    },
+    "B7": {
+     "t": "Sylhet"
+    },
+    "C7": {
+     "t": "0"
+    },
+    "A8": {
+     "t": "Mitu Rahman"
+    },
+    "B8": {
+     "t": "Chattogram"
+    },
+    "C8": {
+     "t": "4,500"
+    },
+    "A9": {
+     "t": "Imran Hossain"
+    },
+    "B9": {
+     "t": "Dhaka"
+    },
+    "C9": {
+     "t": "0"
+    },
+    "E1": {
+     "t": "Name",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "F1": {
+     "t": "Area",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "G1": {
+     "t": "Due",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "E2": {
+     "t": "=SORT(FILTER(A2:C9,C2:C9>0),3,-1)",
+     "v": "Farhana Akter"
+    },
+    "F2": {
+     "t": "Chattogram"
+    },
+    "G2": {
+     "t": "15,000"
+    },
+    "E3": {
+     "t": "Rahim Uddin"
+    },
+    "F3": {
+     "t": "Dhaka"
+    },
+    "G3": {
+     "t": "12,000"
+    },
+    "E4": {
+     "t": "Nusrat Jahan"
+    },
+    "F4": {
+     "t": "Dhaka"
+    },
+    "G4": {
+     "t": "8,500"
+    },
+    "E5": {
+     "t": "Tania Sultana"
+    },
+    "F5": {
+     "t": "Khulna"
+    },
+    "G5": {
+     "t": "6,000"
+    },
+    "E6": {
+     "t": "Mitu Rahman"
+    },
+    "F6": {
+     "t": "Chattogram"
+    },
+    "G6": {
+     "t": "4,500"
+    },
+    "I1": {
+     "t": "Areas",
+     "bold": true,
+     "fill": "#E2EFDA"
+    },
+    "I2": {
+     "t": "#SPILL!",
+     "bold": true,
+     "color": "#C00000"
+    },
+    "I4": {
+     "t": "Test"
+    }
+   },
+   "sel": "A1",
+   "tab": "Home",
+   "steps": [
+    {
+     "at": 0.05,
+     "act": "call",
+     "cell": "I2",
+     "text": "#SPILL! — ছড়ানোর জায়গা খালি নেই",
+     "len": 100
+    },
+    {
+     "at": 0.3,
+     "act": "hl",
+     "range": "I4:I4",
+     "color": "#C00000",
+     "len": 80
+    },
+    {
+     "at": 0.34,
+     "act": "call",
+     "cell": "I4",
+     "text": "I4-এ লেখা আছে — এটাই বাধা",
+     "len": 90
+    },
+    {
+     "at": 0.6,
+     "act": "set",
+     "cells": {
+      "I2": "Chattogram",
+      "I3": "Dhaka",
+      "I4": "Khulna",
+      "I5": "Sylhet"
+     }
+    },
+    {
+     "at": 0.66,
+     "act": "call",
+     "cell": "I3",
+     "text": "বাধা সরতেই তালিকা ভরে গেল",
+     "len": 90
+    }
+   ],
+   "vo": "এবার একটা সাধারণ ভুল। ধরো স্পিলের নিচের একটা ঘরে, I4-এ, তুমি কিছু লিখে রেখেছ। তখন ফর্মুলার ঘরে হ্যাশ SPILL আশ্চর্য চিহ্ন দেখাবে — মানে তালিকা ছড়ানোর জায়গা খালি নেই। সমাধান সোজা: বাধা দেওয়া ঘরের লেখা মুছে দাও। দেখো, মুছতেই তালিকা নিজে ভরে গেল।",
+   "frames": 605
+  },
+  {
+   "type": "quizQ",
+   "q": "কোন এরর বলে যে তালিকা ছড়ানোর জায়গা খালি নেই?",
+   "o": [
+    "#NAME?",
+    "#SPILL!",
+    "#DIV/0!",
+    "#REF!"
+   ],
+   "a": 1,
+   "hold": 150,
+   "vo": "এবার তোমার পালা। ফর্মুলার নিচের ঘরে কিছু লেখা থাকলে কোন এরর দেখায়? ভিডিও থামিয়ে ভাবো।",
+   "frames": 209
+  },
+  {
+   "type": "quizA",
+   "q": "কোন এরর বলে যে তালিকা ছড়ানোর জায়গা খালি নেই?",
+   "o": [
+    "#NAME?",
+    "#SPILL!",
+    "#DIV/0!",
+    "#REF!"
+   ],
+   "a": 1,
+   "ex": "#SPILL! মানে স্পিলের পথে কোনো ঘরে লেখা আছে — সেটা মুছলেই ঠিক। #NAME? আসে পুরোনো এক্সেলে ফাংশন না পেলে।",
+   "vo": "সঠিক উত্তর খ — হ্যাশ SPILL আশ্চর্য চিহ্ন। বাধা দেওয়া ঘর খালি করলেই সমাধান। আর হ্যাশ NAME প্রশ্নবোধক আসে পুরোনো এক্সেলে ফাংশন না পেলে।",
+   "frames": 350
+  },
+  {
+   "type": "recap",
+   "items": [
+    [
+     "FILTER",
+     "শর্ত মেলে এমন সারি আলাদা করা"
+    ],
+    [
+     "SORT(…,3,-1)",
+     "তৃতীয় কলাম ধরে বড় থেকে ছোট"
+    ],
+    [
+     "UNIQUE",
+     "ডুপ্লিকেট বাদ দিয়ে আলাদা তালিকা"
+    ],
+    [
+     "SORT(UNIQUE())",
+     "ফাংশন জুড়ে সাজানো তালিকা"
+    ],
+    [
+     "#SPILL!",
+     "নিচের ঘর খালি করো"
+    ]
+   ],
+   "vo": "আজ যা শিখলাম: FILTER দিয়ে শর্ত মেলানো সারি, SORT দিয়ে বড় থেকে ছোট সাজানো, UNIQUE দিয়ে আলাদা তালিকা, দুটো জুড়ে ব্যবহার, আর SPILL এরর হলে নিচের ঘর খালি করা। সিক্রেট মনে রেখো — একবার লিখলেই পুরো তালিকা নিজে ভরে আর নিজে আপডেট হয়।",
+   "frames": 533
+  },
+  {
+   "type": "outro",
+   "vo": "পরের পাঠে শিখব রং দিয়ে বোঝা — কন্ডিশনাল ফরম্যাটিং, ড্রপডাউন আর চেকবক্স। এক্সেল ল্যাবে বকেয়ার তালিকা নিজে বানিয়ে অনুশীলন করো। দেখা হবে!",
+   "frames": 307
+  }
+ ]
+}
