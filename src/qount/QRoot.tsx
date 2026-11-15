@@ -7,7 +7,9 @@ import { GuideFilm, guideFrames } from "./Guide";
 import { Cut12 } from "./film/Cut12";
 import { Film45, Film15 } from "./film/Film45";
 import { Film2, V2_LEN } from "./film/Film2";
+import { Film3, V3_LEN } from "./film/Film3";
 import { Tvc10, TVC10_LEN } from "./film/Tvc10";
+import { TurfSales, TS_H, TS_V, tsLen } from "./film/TurfSales";
 import GD from "./guide-data.json";
 export const QRoot: React.FC = () => (
   <>
@@ -27,6 +29,10 @@ export const QRoot: React.FC = () => (
     <Composition id="QF-S" component={Film15} durationInFrames={450} fps={30} width={1080} height={1920} />
     <Composition id="QV2-H" component={Film2} durationInFrames={V2_LEN} fps={30} width={1920} height={1080} />
     <Composition id="QV2-V" component={Film2} durationInFrames={V2_LEN} fps={30} width={1080} height={1920} />
+    <Composition id="QV3-H" component={Film3} durationInFrames={V3_LEN} fps={30} width={1920} height={1080} />
+    <Composition id="QV3-V" component={Film3} durationInFrames={V3_LEN} fps={30} width={1080} height={1920} />
     <Composition id="QTVC-H" component={Tvc10} durationInFrames={TVC10_LEN} fps={30} width={1920} height={1080} />
+    <Composition id="QTS-H" component={TurfSales} defaultProps={{ ids: TS_H }} durationInFrames={tsLen(TS_H)} fps={30} width={1920} height={1080} />
+    <Composition id="QTS-V" component={TurfSales} defaultProps={{ ids: TS_V }} durationInFrames={tsLen(TS_V)} fps={30} width={1080} height={1920} />
   </>
 );
