@@ -127,8 +127,8 @@ const BG: BgItem[] = [
 // AI B-roll slots (missing files fall back to the parallax/map background)
 type Slot = { id: string; start_s: number; dur_s: number; type: string; ready: boolean };
 const BrollSlot: React.FC<{ s: Slot }> = ({ s }) => {
-  if (!s.ready) return null;
   const t = useT(); const d = s.dur_s; const o = interpolate(t, [0, 0.5, d - 0.5, d], [0, 1, 1, 0], clamp);
+  if (!s.ready) return null;
   const src = E1(`broll/${s.id}.${s.type === "video" ? "mp4" : "jpg"}`);
   return (
     <AbsoluteFill style={{ opacity: o }}>
@@ -322,8 +322,9 @@ const FbPost: React.FC<Win> = ({ a, b }) => {
   );
 };
 const FakeDoc: React.FC<Win> = ({ a, b }) => {
-  const t = useT(); const s = useIn(a); if (t < a || t > b) return null; const o = fadeIO(t, a, b, 0.4);
-  const st = spring({ frame: useCurrentFrame() - S(a + 1.4), fps: FPS, config: { damping: 10 } });
+  const t = useT(); const s = useIn(a); const frame = useCurrentFrame();
+  const st = spring({ frame: frame - S(a + 1.4), fps: FPS, config: { damping: 10 } });
+  if (t < a || t > b) return null; const o = fadeIO(t, a, b, 0.4);
   return (
     <div style={{ position: "absolute", right: 220, top: 150, width: 560, height: 720, opacity: o * Math.min(1, s * 1.3), transform: `translateY(${(1 - s) * 40}px) rotate(2deg)`, background: "#efe9dc", borderRadius: 8, boxShadow: "0 30px 80px rgba(0,0,0,.6)", padding: 40 }}>
       <div style={{ fontFamily: "Montserrat", fontWeight: 800, fontSize: 30, color: "#2b3a4a" }}>DECRETO FLUSSI</div>
