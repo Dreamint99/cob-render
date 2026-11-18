@@ -126,7 +126,7 @@ const Title: React.FC<{ s: Shot }> = ({ s }) => {
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 50%, rgba(0,0,0,.55) 0%, rgba(0,0,0,0) 60%)" }} />
     <div style={{ fontFamily: SANS, fontWeight: 600, fontSize: 40, letterSpacing: 0, color: "rgba(255,255,255,.8)", opacity: sub, marginBottom: 34, textShadow: "0 2px 12px #000" }}>Colours of Bangladesh · পর্ব ১</div>
     <div style={{ position: "relative", fontFamily: SERIF, fontWeight: 800, fontSize: 196, lineHeight: 1.25, opacity: a, transform: `scale(${interpolate(a, [0, 1], [1.12, 1])})`, filter: `blur(${(1 - a) * 14}px)`,
-      background: `linear-gradient(100deg, #b98a3a 0%, #f7e3b0 ${sweep - 12}%, #fffaf0 ${sweep}%, #e9c77d ${sweep + 12}%, #a87a2c 100%)`, WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent", textShadow: "none", paddingBottom: 10 }}>{word}</div>
+      color: "#efd394", textShadow: `0 0 ${interpolate(sweep, [-30, 50, 130], [0, 40, 12])}px rgba(255,214,140,.55), 0 6px 30px rgba(0,0,0,.85)`, paddingBottom: 10 }}>{word}</div>
     <div style={{ width: interpolate(sub, [0, 1], [0, 900]), height: 3, background: `linear-gradient(90deg, transparent, ${RED}, transparent)`, margin: "4px 0 18px" }} />
     <div style={{ fontFamily: SANS, fontWeight: 600, fontSize: 64, color: "#fff", opacity: sub, transform: `translateY(${(1 - sub) * 16}px)`, textShadow: "0 3px 20px #000" }}>যে ১০টি জায়গার ব্যাখ্যা আজও মেলেনি</div>
   </AbsoluteFill>;
@@ -225,7 +225,7 @@ const Theories: React.FC<{ s: Shot }> = ({ s }) => {
     {items.map((it, i) => {
       const a = spring({ frame: f - it.at, fps, config: { damping: 15 } });
       const x = interpolate(f, [it.x, it.x + 12], [0, 1], { ...clamp, easing: ease });
-      return <div key={i} style={{ position: "absolute", left: 140, top: 250 + i * 190, opacity: a, transform: `translateX(${(1 - a) * -40}px)` }}>
+      return <div key={i} style={{ position: "absolute", left: 140, top: 250 + i * 240, opacity: a, transform: `translateX(${(1 - a) * -40}px)` }}>
         <div style={{ position: "relative", display: "inline-block", fontFamily: SERIF, fontWeight: 800, fontSize: 92, color: x > 0.5 && !it.q ? "rgba(255,255,255,.55)" : "#fff" }}>
           {it.t}
           <div style={{ position: "absolute", left: -10, top: "54%", height: 9, width: `${x * 104}%`, background: it.q ? "transparent" : RED, borderRadius: 4 }} />
