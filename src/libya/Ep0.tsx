@@ -38,7 +38,7 @@ const Credit: React.FC<{ text: string; o?: number }> = ({ text, o = 1 }) => (
   <div style={{ position: "absolute", right: 34, top: 30, opacity: 0.8 * o, fontFamily: BODY, fontWeight: 600, fontSize: 21, color: "#fff", textShadow: "0 1px 6px #000", maxWidth: 820, textAlign: "right" }}>{text}</div>
 );
 const Tag: React.FC<{ text: string; o: number; color?: string; top?: number }> = ({ text, o, color = RED, top = 34 }) => (
-  <div style={{ position: "absolute", left: 40, top, opacity: o, display: "flex", alignItems: "center", gap: 12, background: "rgba(5,8,12,.72)", border: `1.5px solid ${color}`, borderRadius: 8, padding: "8px 18px 10px", fontFamily: BODY, fontWeight: 600, fontSize: 26, color: "#fff" }}>
+  <div style={{ position: "absolute", left: 40, top, opacity: o, whiteSpace: "nowrap", display: "flex", alignItems: "center", gap: 12, background: "rgba(5,8,12,.72)", border: `1.5px solid ${color}`, borderRadius: 8, padding: "8px 18px 10px", fontFamily: BODY, fontWeight: 600, fontSize: 26, color: "#fff" }}>
     <div style={{ width: 10, height: 10, borderRadius: 5, background: color, boxShadow: `0 0 10px ${color}` }} />{text}
   </div>
 );
@@ -212,18 +212,17 @@ const Route: React.FC = () => {
       {/* village: promise + first payment */}
       <div style={{ position: "absolute", left: 64, top: 300, opacity: fadeIO(t, 5.6, 14.6, 0.4) }}>
         <Tag text="একটি পরিবারের ঘটনা · নাম প্রকাশ করা হলো না" o={1} color={GOLD} top={-80} />
-        <Money label="দালালের প্রতিশ্রুতি" amount="ইতালিতে চাকরি" note={`মাসে ৳${bnInt(180000)} বেতন`} at={29.8 + 5.8} color="#9fd3ff" />
-        <Money label="দালালকে প্রথম কিস্তি (ধার করে)" amount={`৳${bnInt(570000)}`} strike={`৳${bnInt(1000000)}`} note="দাবি ছিল ১০ লাখ" at={29.8 + 10.4} />
+        <Money label="দালালের প্রতিশ্রুতি" amount="ইতালিতে চাকরি" note={`মাসে ৳${bnInt(180000)} বেতন`} at={5.8} color="#9fd3ff" />
+        <Money label="দালালকে প্রথম কিস্তি (ধার করে)" amount={`৳${bnInt(570000)}`} strike={`৳${bnInt(1000000)}`} note="দাবি ছিল ১০ লাখ" at={10.4} />
       </div>
       <Source text="দ্য ডেইলি স্টার, ২৬ সেপ্টেম্বর ২০২৬" o={fadeIO(t, 5.6, 14.6)} />
       {pip("px/dhaka_airport.mp4", 13.2, 16.6, "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দর, ঢাকা", "ছবি: Tarunsamanta / Wikimedia Commons (CC BY-SA 4.0)")}
       {pip("px/dubai.mp4", 16.9, 19.9, "দুবাই আন্তর্জাতিক বিমানবন্দর", "ছবি: EditQ / Wikimedia Commons (CC0)")}
       {/* visa: the semi-legal half of the journey */}
       <div style={{ position: "absolute", left: 64, top: 300, opacity: fadeIO(t, 20.6, 24.8, 0.4) }}>
-        <Money label="পূর্ব লিবিয়ায় ঢোকা" amount="টাকা দিলে ভিসা" note="কাজের বা ট্রানজিট ভিসা — তাই শুরুতে বৈধ মনে হয়" at={29.8 + 20.7} color="#9fd3ff" />
+        <Money label="পূর্ব লিবিয়ায় ঢোকা" amount="টাকা দিলে ভিসা" note="কাজের বা ট্রানজিট ভিসা — তাই শুরুতে বৈধ মনে হয়" at={20.7} color="#9fd3ff" />
       </div>
       <Source text="মিক্সড মাইগ্রেশন সেন্টার রিপোর্ট, মার্চ ২০২৬ (ইনফোমাইগ্রেন্টস)" o={fadeIO(t, 20.6, 24.8)} />
-      <Ledger until={29.8 + 28.6} />
       <Credit text="মানচিত্র: NASA Blue Marble · Natural Earth" o={fadeIO(t, 0.5, 28.4)} />
     </AbsoluteFill>
   );
@@ -238,7 +237,7 @@ const Room: React.FC = () => {
       <Tag text="এআই দিয়ে তৈরি প্রতীকী ছবি — আসল জায়গা নয়" o={fadeIO(t, 0.1, 7.5, 0.25)} color="#c59bff" />
       <Place name="“গেম ঘর”" sub="ত্রিপোলির পথে, আটকে রাখার ঘর" o={fadeIO(t, 0.4, 3.2)} />
       <div style={{ position: "absolute", left: 64, top: 300, opacity: fadeIO(t, 2.8, 7.6, 0.4) }}>
-        <Money label="ছেলের মুক্তিপণ — নির্যাতনের ভিডিও পাঠিয়ে" amount={`৳${bnInt(1000000)}`} strike={`৳${bnInt(2000000)}`} note="দাবি ২০ লাখ · জমি বেচে দেওয়া হয় ১০ লাখ" at={58.5 + 3.0} color={RED} />
+        <Money label="ছেলের মুক্তিপণ — নির্যাতনের ভিডিও পাঠিয়ে" amount={`৳${bnInt(1000000)}`} strike={`৳${bnInt(2000000)}`} note="দাবি ২০ লাখ · জমি বেচে দেওয়া হয় ১০ লাখ" at={3.0} color={RED} />
       </div>
       <Source text="দ্য ডেইলি স্টার, ২৬ সেপ্টেম্বর ২০২৬" o={fadeIO(t, 2.8, 7.6)} />
     </AbsoluteFill>
@@ -266,7 +265,7 @@ const Crossing: React.FC = () => {
     <AbsoluteFill>
       <Clip src="clips/med.mp4" dur={7.8} fade={0.35} />
       <div style={{ position: "absolute", left: 64, top: 300, opacity: fadeIO(t, 5.6, 7.8, 0.3) }}>
-        <Money label="নৌকায় জায়গা — আরেক চক্রকে" amount={`৳${bnInt(500000)}`} at={69.6 + 5.8} />
+        <Money label="নৌকায় জায়গা — আরেক চক্রকে" amount={`৳${bnInt(500000)}`} at={5.8} />
       </div>
       <Credit text="মানচিত্র: Sentinel-2 cloudless (EOX, CC BY 4.0) · উচ্চতা: AWS Terrain Tiles" o={fadeIO(t, 0.3, 7.8)} />
     </AbsoluteFill>
@@ -277,8 +276,8 @@ const BoatNight: React.FC = () => {
   const t = useT();
   return (
     <AbsoluteFill>
-      <Clip src="clips/sea_boat.mp4" dur={3.2} fade={0.3} />
-      <Tag text="থ্রিডি পুনর্নির্মাণ" o={fadeIO(t, 0.1, 3.1, 0.25)} color="#7fd0a8" />
+      <Clip src="px/rescue.mp4" from={4.5} dur={3.2} filter="saturate(.7) brightness(.8)" fade={0.3} />
+      <Credit text="ভূমধ্যসাগরে উদ্ধারের অপেক্ষায় ভরা নৌকা · ছবি: U.S. Navy / Wikimedia Commons (পাবলিক ডোমেইন)" o={fadeIO(t, 0.2, 3.1)} />
     </AbsoluteFill>
   );
 };
@@ -476,6 +475,7 @@ export const LibyaEp0: React.FC = () => (
     <Sequence from={S(86.0)} durationInFrames={S(16.6)}><KeyNumber /></Sequence>
     <Sequence from={S(102.4)} durationInFrames={S(10.8)}><Tease /></Sequence>
     <Sequence from={S(113.4)} durationInFrames={S(13.6)}><Close /></Sequence>
+    <Ledger until={80.3} />
     <Captions />
     <Grain />
     <Mix />

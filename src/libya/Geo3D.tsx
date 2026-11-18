@@ -241,7 +241,7 @@ export const LibyaMed: React.FC = () => {
   const bx = zx + (lx - zx) * p, bz = zz + (lz - zz) * p;
   // camera: starts low behind the coast looking north, rises and follows the boat light
   const camT = smooth(ramp(t, 0, 9));
-  const target = new THREE.Vector3(zx + (lx - zx) * (0.15 + 0.75 * camT), 0, zz + (lz - zz) * (0.15 + 0.75 * camT));
+  const target = new THREE.Vector3(zx + (lx - zx) * (0.3 + 0.8 * camT), 0, zz + (lz - zz) * (0.3 + 0.8 * camT));
   const pos = new THREE.Vector3(target.x - 1.1 + 0.6 * camT, 2.3 + 0.4 * camT, target.z + 3.0 - 0.4 * camT);
   const pathPts = Array.from({ length: 80 }, (_, i) => new THREE.Vector3(zx + (lx - zx) * (i / 79), 0.006, zz + (lz - zz) * (i / 79)));
   const dist = Math.round(km(ZUW, LMP));
@@ -339,13 +339,13 @@ export const LibyaSea: React.FC<{ variant?: "open" | "boat" }> = ({ variant = "o
           <mesh position={[0, 0.2, 0]} scale={[1.02, 0.03, 1.0]}><boxGeometry args={[1.2, 1, 4.4]} /><meshStandardMaterial color="#5a4532" roughness={0.8} /></mesh>
           {people.map((q, i) => (
             <group key={i} position={[q.x, 0.1, q.z]}>
-              <mesh position={[0, q.h * 0.5, 0]}><capsuleGeometry args={[q.r, q.h * 0.6, 4, 8]} /><meshStandardMaterial color="#0d0f14" roughness={1} /></mesh>
-              <mesh position={[0, q.h + 0.08, 0]}><sphereGeometry args={[q.r * 0.75, 10, 10]} /><meshStandardMaterial color="#0d0f14" roughness={1} /></mesh>
+              <mesh position={[0, q.h * 0.5, 0]}><capsuleGeometry args={[q.r, q.h * 0.6, 4, 8]} /><meshStandardMaterial color="#050608" roughness={1} /></mesh>
+              <mesh position={[0, q.h + 0.08, 0]}><sphereGeometry args={[q.r * 0.75, 10, 10]} /><meshStandardMaterial color="#050608" roughness={1} /></mesh>
             </group>
           ))}
           <mesh position={[0.1, 0.25, 2.25]}><boxGeometry args={[0.22, 0.42, 0.25]} /><meshStandardMaterial color="#1a1c20" /></mesh>
           <mesh position={[-0.3, 0.75, 1.6]}><sphereGeometry args={[0.05, 10, 10]} /><meshBasicMaterial color="#ffd9a0" toneMapped={false} /></mesh>
-          <pointLight position={[-0.3, 0.8, 1.6]} intensity={1.6 * lamp} distance={4} color="#ffb870" />
+          <pointLight position={[-0.3, 0.8, 1.6]} intensity={0.7 * lamp} distance={4} color="#ffb870" />
         </group>
       </ThreeCanvas>
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, transparent 40%, rgba(0,0,0,0.75) 100%)" }} />
