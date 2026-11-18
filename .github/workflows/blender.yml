@@ -1,0 +1,162 @@
+# 20-way EEVEE beauty render for WhatIf 3D shots (Gulshan-look, 1440p 30fps).
+# Assets live in releases:
+#   blender-5.0.0  -> blender-5.0.0-linux-x64.tar.xz
+#   blend-<id>     -> <id>.blend   (e.g. blend-gulshan-sway / gulshan_sway.blend)
+# Output MP4 is attached to release out-blend-<id>.
+name: blender
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "shot id (filename without .blend, e.g. gulshan_sway)"
+        required: true
+      frames:
+        description: "total frames"
+        default: "240"
+      chunks:
+        description: "parallel chunks"
+        default: "20"
+      samples:
+        description: "EEVEE TAA render samples"
+        default: "32"
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          n = int("${{ inputs.chunks }}"); t = int("${{ inputs.frames }}")
+          step = -(-t // n)
+          ch = [{"i": i, "a": i * step + 1, "b": min(t, (i + 1) * step)} for i in range(n) if i * step < t]
+          print("matrix=" + json.dumps({"include": ch}))
+          PY
+
+  chunk:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
+    env:
+      LIBGL_ALWAYS_SOFTWARE: "1"
+      MESA_GL_VERSION_OVERRIDE: "4.5"
+      MESA_GLSL_VERSION_OVERRIDE: "450"
+    steps:
+      - name: deps
+        run: |
+          sudo apt-get -qq update
+          sudo apt-get -qq install -y xvfb mesa-utils libgl1-mesa-dri libglx-mesa0 libosmesa6 ffmpeg xz-utils >/dev/null
+      - name: blender
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/bl
+          ok=0
+          for i in 1 2 3 4 5 6; do
+            if gh release download blender-5.0.0 -R "${{ github.repository }}" -p "blender-5.0.0-linux-x64.tar.xz" -D /tmp/bl --clobber; then
+              ok=1; break
+            fi
+            sleep $((i * 3))
+          done
+          test "$ok" = 1
+          tar -C /tmp/bl -xf /tmp/bl/blender-5.0.0-linux-x64.tar.xz
+          echo "BLENDER=/tmp/bl/blender-5.0.0-linux-x64/blender" >> "$GITHUB_ENV"
+          /tmp/bl/blender-5.0.0-linux-x64/blender --version | head -2
+      - name: blend file
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          set -euo pipefail
+          ID="${{ inputs.id }}"
+          mkdir -p /tmp/blend
+          ok=0
+          for i in 1 2 3 4 5 6; do
+            if gh release download "blend-${ID}" -R "${{ github.repository }}" -p "${ID}.blend" -D /tmp/blend --clobber; then
+              ok=1; break
+            fi
+            sleep $((i * 3))
+          done
+          test "$ok" = 1
+          ls -lh /tmp/blend/
+      - name: render frames ${{ matrix.a }}-${{ matrix.b }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$GITHUB_WORKSPACE/frames" "$GITHUB_WORKSPACE/out"
+          cat > /tmp/setup_eevee.py << 'PY'
+          import bpy, os
+          sc = bpy.context.scene
+          sc.render.engine = "BLENDER_EEVEE"
+          sc.render.resolution_x = 2560
+          sc.render.resolution_y = 1440
+          sc.render.resolution_percentage = 100
+          sc.render.fps = 30
+          sc.render.image_settings.file_format = "PNG"
+          sc.render.image_settings.color_mode = "RGB"
+          sc.render.filepath = os.environ["WHATIF_FRAMES"]
+          sc.render.use_compositing = True
+          sc.render.use_motion_blur = True
+          sc.render.motion_blur_shutter = 0.4
+          sc.view_settings.view_transform = "AgX"
+          try:
+              sc.view_settings.look = "AgX - Medium High Contrast"
+          except Exception:
+              pass
+          ee = getattr(sc, "eevee", None)
+          if ee and hasattr(ee, "taa_render_samples"):
+              ee.taa_render_samples = int(os.environ.get("WHATIF_SAMPLES", "32"))
+          if ee and hasattr(ee, "use_gtao"):
+              ee.use_gtao = True
+          print("eevee ready samples", getattr(ee, "taa_render_samples", None), "filepath", sc.render.filepath, flush=True)
+          PY
+          export WHATIF_FRAMES="$GITHUB_WORKSPACE/frames/f"
+          export WHATIF_SAMPLES="${{ inputs.samples }}"
+          # frame-by-frame so a mid-chunk crash still leaves PNGs
+          START=${{ matrix.a }}
+          END=${{ matrix.b }}
+          xvfb-run -a -s "-screen 0 1920x1080x24" \
+            "$BLENDER" -b "/tmp/blend/${{ inputs.id }}.blend" \
+            --log-level 0 -P /tmp/setup_eevee.py \
+            -s "$START" -e "$END" -a
+          n=$(ls "$GITHUB_WORKSPACE/frames"/f*.png 2>/dev/null | wc -l)
+          echo "rendered $n frames"
+          test "$n" -gt 0
+          ffmpeg -y -v error -framerate 30 -start_number "$START" \
+            -i "$GITHUB_WORKSPACE/frames/f%04d.png" \
+            -c:v libx264 -pix_fmt yuv420p -crf 16 -preset medium -movflags +faststart \
+            "$GITHUB_WORKSPACE/out/c${{ matrix.i }}.mp4"
+          ls -lh "$GITHUB_WORKSPACE/out/c${{ matrix.i }}.mp4"
+      - uses: actions/upload-artifact@v4
+        with: { name: "c${{ matrix.i }}", path: "out/c${{ matrix.i }}.mp4", retention-days: 2 }
+
+  merge:
+    needs: [chunk]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: { path: parts, merge-multiple: true }
+      - name: join
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
+          ls parts | grep -E '^c[0-9]+\.mp4$' | sort -t c -k2 -n | sed 's#^#file parts/#' > list.txt
+          cat list.txt
+          ffmpeg -v error -f concat -safe 0 -i list.txt -c copy "${{ inputs.id }}.mp4"
+          # extract review frames
+          ffmpeg -v error -ss 0 -i "${{ inputs.id }}.mp4" -frames:v 1 review_0001.png
+          ffmpeg -v error -ss 2.966 -i "${{ inputs.id }}.mp4" -frames:v 1 review_0090.png
+          ffmpeg -v error -ss 6.633 -i "${{ inputs.id }}.mp4" -frames:v 1 review_0200.png
+          ls -lh "${{ inputs.id }}.mp4" review_*.png
+      - name: publish
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh release delete "out-blend-${{ inputs.id }}" -y --cleanup-tag 2>/dev/null || true
+          gh release create "out-blend-${{ inputs.id }}" \
+            "${{ inputs.id }}.mp4" review_0001.png review_0090.png review_0200.png \
+            -t "blender ${{ inputs.id }}" -n "run ${{ github.run_id }}"
