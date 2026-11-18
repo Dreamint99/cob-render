@@ -1,0 +1,726 @@
+{
+ "total": 116.9,
+ "shots": [
+  {
+   "from": 0,
+   "to": 3.066,
+   "kind": "full",
+   "src": "veo/v1-teknaf.mp4",
+   "rate": 0.8,
+   "zoom": [
+    1.12,
+    1.02
+   ]
+  },
+  {
+   "from": 3.066,
+   "to": 6.906,
+   "kind": "full",
+   "src": "veo/v2-tetulia.mp4",
+   "rate": 0.85,
+   "zoom": [
+    1.0,
+    1.12
+   ]
+  },
+  {
+   "from": 6.906,
+   "to": 8.826,
+   "kind": "phone",
+   "src": "rec/m-learn-ielts.mp4",
+   "src2": "veo/v4-rooftop.mp4",
+   "start": 10
+  },
+  {
+   "from": 8.826,
+   "to": 10.746,
+   "kind": "full",
+   "src": "veo/v7-rickshaw.mp4",
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 10.746,
+   "to": 12.666,
+   "kind": "laptop",
+   "src": "rec/learn-gds.mp4",
+   "src2": "veo/v5-woman.mp4",
+   "start": 4
+  },
+  {
+   "from": 12.666,
+   "to": 15.546,
+   "kind": "logo",
+   "text": "এআই ইউনিভার্সিটি",
+   "sub": "শিখবো সবাই"
+  },
+  {
+   "from": 15.546,
+   "to": 19.386,
+   "kind": "map"
+  },
+  {
+   "from": 19.386,
+   "to": 21.306,
+   "kind": "full",
+   "src": "veo/v2-tetulia.mp4",
+   "start": 2.5,
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "from": 21.306,
+   "to": 23.226,
+   "kind": "full",
+   "src": "veo/v1-teknaf.mp4",
+   "start": 3,
+   "zoom": [
+    1.05,
+    1.18
+   ]
+  },
+  {
+   "from": 23.226,
+   "to": 25.146,
+   "kind": "full",
+   "src": "veo/v6-field.mp4",
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "from": 25.146,
+   "to": 27.066,
+   "kind": "phone",
+   "src": "rec/m-learn-ielts.mp4",
+   "src2": "veo/v6-field.mp4",
+   "start": 3
+  },
+  {
+   "from": 27.066,
+   "to": 30.906,
+   "kind": "full",
+   "src": "veo/v6-field.mp4",
+   "start": 1.5,
+   "rate": 0.6,
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "from": 30.906,
+   "to": 32.826,
+   "kind": "full",
+   "src": "veo/v4-rooftop.mp4",
+   "start": 0.0,
+   "zoom": [
+    1.08,
+    1.2
+   ]
+  },
+  {
+   "from": 32.826,
+   "to": 34.746,
+   "kind": "full",
+   "src": "veo/v5-woman.mp4",
+   "start": 0.0,
+   "zoom": [
+    1.08,
+    1.2
+   ]
+  },
+  {
+   "from": 34.746,
+   "to": 38.586,
+   "kind": "full",
+   "src": "veo/v7-rickshaw.mp4",
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "from": 38.586,
+   "to": 40.506,
+   "kind": "laptop",
+   "src": "rec/learn-gds.mp4",
+   "src2": "veo/v3-auntie.mp4",
+   "start": 12
+  },
+  {
+   "from": 40.506,
+   "to": 42.426,
+   "kind": "full",
+   "src": "veo/v6-field.mp4",
+   "start": 3
+  },
+  {
+   "from": 42.426,
+   "to": 46.266,
+   "kind": "logo",
+   "text": "এআই ইউনিভার্সিটি",
+   "sub": "শিখবো সবাই"
+  },
+  {
+   "from": 46.266,
+   "to": 48.186,
+   "kind": "full",
+   "src": "veo/v3-auntie.mp4",
+   "zoom": [
+    1.05,
+    1.18
+   ]
+  },
+  {
+   "from": 48.186,
+   "to": 50.106,
+   "kind": "split",
+   "src": "veo/v4-rooftop.mp4",
+   "src2": "veo/v5-woman.mp4",
+   "start": 3
+  },
+  {
+   "from": 50.106,
+   "to": 52.026,
+   "kind": "split",
+   "src": "veo/v6-field.mp4",
+   "src2": "rec/dhaka_rickshaw.mp4",
+   "start": 3
+  },
+  {
+   "from": 52.026,
+   "to": 53.946,
+   "kind": "full",
+   "src": "veo/v3-auntie.mp4",
+   "start": 2.5,
+   "zoom": [
+    1.1,
+    1.2
+   ]
+  },
+  {
+   "from": 53.946,
+   "to": 55.866,
+   "kind": "phone",
+   "src": "rec/m-kids.mp4",
+   "src2": "veo/v7-rickshaw.mp4",
+   "start": 3
+  },
+  {
+   "from": 55.866,
+   "to": 57.786,
+   "kind": "laptop",
+   "src": "rec/introduce-yourself.mp4",
+   "src2": "veo/v4-rooftop.mp4",
+   "start": 40
+  },
+  {
+   "from": 57.786,
+   "to": 59.706,
+   "kind": "full",
+   "src": "rec/basics-cockpit.mp4",
+   "start": 4,
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "from": 59.706,
+   "to": 61.626,
+   "kind": "full",
+   "src": "veo/v3-auntie.mp4",
+   "start": 4,
+   "zoom": [
+    1.15,
+    1.25
+   ]
+  },
+  {
+   "from": 61.626,
+   "to": 63.546,
+   "kind": "full",
+   "src": "veo/v4-rooftop.mp4",
+   "start": 2.5,
+   "zoom": [
+    1.08,
+    1.2
+   ]
+  },
+  {
+   "from": 63.546,
+   "to": 65.466,
+   "kind": "full",
+   "src": "veo/v5-woman.mp4",
+   "start": 2.5,
+   "zoom": [
+    1.08,
+    1.2
+   ]
+  },
+  {
+   "from": 65.466,
+   "to": 69.306,
+   "kind": "split",
+   "src": "veo/v7-rickshaw.mp4",
+   "src2": "veo/v2-tetulia.mp4",
+   "start": 2
+  },
+  {
+   "from": 69.306,
+   "to": 71.226,
+   "kind": "laptop",
+   "src": "rec/kids.mp4",
+   "src2": "veo/v3-auntie.mp4",
+   "start": 0
+  },
+  {
+   "from": 71.226,
+   "to": 73.146,
+   "kind": "laptop",
+   "src": "rec/cert.mp4",
+   "src2": "veo/v6-field.mp4"
+  },
+  {
+   "from": 73.146,
+   "to": 76.986,
+   "kind": "full",
+   "src": "veo/v6-field.mp4",
+   "start": 0.5,
+   "rate": 0.55,
+   "zoom": [
+    1.0,
+    1.12
+   ]
+  },
+  {
+   "from": 76.986,
+   "to": 77.946,
+   "kind": "full",
+   "src": "rec/introduce-yourself.mp4",
+   "start": 20,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 77.946,
+   "to": 78.906,
+   "kind": "full",
+   "src": "rec/cfe-inside-parts.mp4",
+   "start": 30,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 78.906,
+   "to": 79.866,
+   "kind": "laptop",
+   "src": "rec/learn-gds.mp4",
+   "start": 20,
+   "src2": "veo/v4-rooftop.mp4"
+  },
+  {
+   "from": 79.866,
+   "to": 80.826,
+   "kind": "full",
+   "src": "rec/takeoff.mp4",
+   "start": 1,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 80.826,
+   "to": 81.786,
+   "kind": "full",
+   "src": "rec/busy-night.mp4",
+   "start": 3,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 81.786,
+   "to": 82.746,
+   "kind": "full",
+   "src": "rec/busy-rain.mp4",
+   "start": 6,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 82.746,
+   "to": 83.706,
+   "kind": "phone",
+   "src": "rec/m-guru-ielts.mp4",
+   "start": 6,
+   "src2": "veo/v4-rooftop.mp4"
+  },
+  {
+   "from": 83.706,
+   "to": 84.666,
+   "kind": "phone",
+   "src": "rec/m-guru-ielts.mp4",
+   "start": 18,
+   "src2": "veo/v4-rooftop.mp4"
+  },
+  {
+   "from": 84.666,
+   "to": 85.626,
+   "kind": "laptop",
+   "src": "rec/kids.mp4",
+   "start": 4,
+   "src2": "veo/v4-rooftop.mp4"
+  },
+  {
+   "from": 85.626,
+   "to": 86.586,
+   "kind": "phone",
+   "src": "rec/m-kids.mp4",
+   "start": 3,
+   "src2": "veo/v4-rooftop.mp4"
+  },
+  {
+   "from": 86.586,
+   "to": 87.546,
+   "kind": "full",
+   "src": "rec/agency.mp4",
+   "start": 1,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 87.546,
+   "to": 88.506,
+   "kind": "laptop",
+   "src": "rec/dash.mp4",
+   "start": 1,
+   "src2": "veo/v4-rooftop.mp4"
+  },
+  {
+   "from": 88.506,
+   "to": 89.466,
+   "kind": "laptop",
+   "src": "rec/cert.mp4",
+   "start": 0.5,
+   "src2": "veo/v4-rooftop.mp4"
+  },
+  {
+   "from": 89.466,
+   "to": 90.426,
+   "kind": "full",
+   "src": "rec/classroom.mp4",
+   "start": 1,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 90.426,
+   "to": 91.386,
+   "kind": "full",
+   "src": "veo/v6-field.mp4",
+   "start": 2,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 91.386,
+   "to": 92.346,
+   "kind": "full",
+   "src": "veo/v1-teknaf.mp4",
+   "start": 1,
+   "zoom": [
+    1.05,
+    1.15
+   ]
+  },
+  {
+   "from": 92.346,
+   "to": 96.186,
+   "kind": "map"
+  },
+  {
+   "from": 96.186,
+   "to": 100.026,
+   "kind": "full",
+   "src": "veo/v1-teknaf.mp4",
+   "start": 1,
+   "rate": 0.6,
+   "zoom": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "from": 100.026,
+   "to": 106.746,
+   "kind": "full",
+   "src": "veo/v6-field.mp4",
+   "start": 0,
+   "rate": 0.5,
+   "zoom": [
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "from": 106.746,
+   "to": 116.9,
+   "kind": "logo",
+   "text": "শিখবো সবাই",
+   "sub": "aiuniversitybd.com · অ্যাপেও"
+  }
+ ],
+ "lyrics": [
+  {
+   "from": 0.6,
+   "to": 2.9659999999999997,
+   "text": "সবার জন্য একটা গান",
+   "style": "small",
+   "pos": "center"
+  },
+  {
+   "from": 15.5,
+   "to": 19.3,
+   "text": "টেকনাফ থেকে *তেঁতুলিয়া*",
+   "pos": "left"
+  },
+  {
+   "from": 19.35,
+   "to": 21.25,
+   "text": "শিখবে তুমি,"
+  },
+  {
+   "from": 21.3,
+   "to": 23.15,
+   "text": "দেখবে *দুনিয়া*"
+  },
+  {
+   "from": 23.2,
+   "to": 25.1,
+   "text": "তোমার হাতেই,"
+  },
+  {
+   "from": 25.12,
+   "to": 27.0,
+   "text": "তোমার হাতেই"
+  },
+  {
+   "from": 27.05,
+   "to": 30.8,
+   "text": "আগামীর *বাংলাদেশ*",
+   "style": "hook"
+  },
+  {
+   "from": 30.956,
+   "to": 32.776,
+   "text": "শিখছে *মাসুম*",
+   "pos": "center",
+   "style": "name"
+  },
+  {
+   "from": 32.876,
+   "to": 34.696000000000005,
+   "text": "শিখছে *তন্দ্রা*",
+   "pos": "center",
+   "style": "name"
+  },
+  {
+   "from": 34.796,
+   "to": 38.486,
+   "text": "শিখছে দেখো ওই যে *নিদ্রা*"
+  },
+  {
+   "from": 38.635999999999996,
+   "to": 40.456,
+   "text": "পিছিয়ে কেন থাকবো"
+  },
+  {
+   "from": 40.556,
+   "to": 42.376000000000005,
+   "text": "তুমি আর *আমি*?"
+  },
+  {
+   "from": 46.28,
+   "to": 48.1,
+   "text": "আন্টি থেকে *তরুণ*,"
+  },
+  {
+   "from": 48.2,
+   "to": 50.05,
+   "text": "যুবক থেকে *নারী*,"
+  },
+  {
+   "from": 50.1,
+   "to": 51.95,
+   "text": "গ্রাম থেকে *শহর*"
+  },
+  {
+   "from": 52.0,
+   "to": 53.9,
+   "text": "শিখছে বাড়ি বাড়ি"
+  },
+  {
+   "from": 53.95,
+   "to": 55.8,
+   "text": "হাতের মোবাইলে"
+  },
+  {
+   "from": 55.85,
+   "to": 57.75,
+   "text": "খুলছে নতুন *দ্বার*"
+  },
+  {
+   "from": 57.8,
+   "to": 59.65,
+   "text": "শেখার কোনো বয়স"
+  },
+  {
+   "from": 59.7,
+   "to": 61.55,
+   "text": "*নেই* আর"
+  },
+  {
+   "from": 61.675999999999995,
+   "to": 63.496,
+   "text": "শিখছে *মাসুম*",
+   "pos": "center",
+   "style": "name"
+  },
+  {
+   "from": 63.596,
+   "to": 65.416,
+   "text": "শিখছে *তন্দ্রা*",
+   "pos": "center",
+   "style": "name"
+  },
+  {
+   "from": 65.51599999999999,
+   "to": 69.206,
+   "text": "শিখছে দেখো ওই যে *নিদ্রা*"
+  },
+  {
+   "from": 69.356,
+   "to": 71.176,
+   "text": "পিছিয়ে কেন থাকবো"
+  },
+  {
+   "from": 71.276,
+   "to": 73.096,
+   "text": "তুমি আর *আমি*?"
+  },
+  {
+   "from": 73.196,
+   "to": 76.88600000000001,
+   "text": "এআই ইউনিভার্সিটি — *শিখবো সবাই*",
+   "style": "hook"
+  },
+  {
+   "from": 77.036,
+   "to": 78.85600000000001,
+   "text": "ভিডিও ক্লাস",
+   "style": "small"
+  },
+  {
+   "from": 78.956,
+   "to": 80.776,
+   "text": "জিডিএস টিকেটিং ল্যাব",
+   "style": "small"
+  },
+  {
+   "from": 80.87599999999999,
+   "to": 82.696,
+   "text": "৩ডি ড্রাইভিং সিমুলেটর",
+   "style": "small"
+  },
+  {
+   "from": 82.79599999999999,
+   "to": 84.616,
+   "text": "এআই সহায়ক",
+   "style": "small"
+  },
+  {
+   "from": 84.716,
+   "to": 86.536,
+   "text": "ছোটদের কিডস সেকশন",
+   "style": "small"
+  },
+  {
+   "from": 87.596,
+   "to": 88.456,
+   "text": "প্রগ্রেস রিপোর্ট",
+   "style": "small"
+  },
+  {
+   "from": 88.556,
+   "to": 90.376,
+   "text": "সার্টিফিকেট",
+   "style": "small"
+  },
+  {
+   "from": 92.38,
+   "to": 96.1,
+   "text": "টেকনাফ থেকে *তেঁতুলিয়া*",
+   "pos": "left"
+  },
+  {
+   "from": 96.2,
+   "to": 100.0,
+   "text": "তোমার হাতেই আগামীর *বাংলাদেশ*",
+   "style": "hook"
+  },
+  {
+   "from": 100.226,
+   "to": 106.646,
+   "text": "শেখার কোনো বয়স নেই",
+   "style": "small",
+   "pos": "center"
+  }
+ ],
+ "flashes": [
+  3.066,
+  6.906,
+  12.666,
+  15.546,
+  27.066,
+  30.906,
+  34.746,
+  42.426,
+  46.266,
+  53.946,
+  61.626,
+  65.466,
+  73.146,
+  76.986,
+  78.906,
+  80.826,
+  82.746,
+  84.666,
+  86.586,
+  88.506,
+  90.426,
+  92.346,
+  96.186,
+  106.746
+ ]
+}

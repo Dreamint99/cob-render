@@ -46,7 +46,7 @@ const Trainer: React.FC<{ spec: KSpec; d: number; small?: boolean }> = ({ spec, 
   );
 };
 const Bug: React.FC<{ spec: KSpec }> = () => (
-  <div style={{ position: "absolute", right: 48, top: 40, padding: "10px 16px", borderRadius: 16, background: "rgba(1,24,53,.72)", backdropFilter: "blur(6px)" }}><Img src={staticFile("brand/mark-dark.png")} style={{ height: 64, display: "block" }} /></div>
+  <div style={{ position: "absolute", right: 44, top: 40, padding: "14px 22px 12px", borderRadius: 999, background: "rgba(20,21,27,.62)", backdropFilter: "blur(8px)", boxShadow: "0 8px 30px rgba(0,0,0,.25)" }}><Img src={staticFile("brand/aiu-logo-dark.svg")} style={{ height: 44, display: "block" }} /></div>
 );
 const Wrap: React.FC<{ len: number; children: React.ReactNode }> = ({ len, children }) => {
   const f = useCurrentFrame();
@@ -114,7 +114,7 @@ const SStep: React.FC<P> = (p) => {
     <AbsoluteFill style={{ background: "#1a0f1f" }}>
       <AbsoluteFill style={{ transform: `translate(${tx}px, ${ty}px) scale(${z})` }}>
         <Img src={staticFile(s.img)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-        <div style={{ position: "absolute", left: s.hx * W, top: s.hy * H, transform: `translate(-50%,-50%) scale(${ring / z})`, width: 300, height: 300, borderRadius: "50%", border: `8px solid ${spec.color[1]}`, boxShadow: `0 0 0 ${10 + Math.sin(f / 5) * 8}px ${spec.color[1]}55, inset 0 0 40px ${spec.color[1]}55`, opacity: ring }} />
+        {s.ring !== false && <div style={{ position: "absolute", left: s.hx * W, top: s.hy * H, transform: `translate(-50%,-50%) scale(${ring / z})`, width: 300, height: 300, borderRadius: "50%", border: `8px solid ${spec.color[1]}`, boxShadow: `0 0 0 ${10 + Math.sin(f / 5) * 8}px ${spec.color[1]}55, inset 0 0 40px ${spec.color[1]}55`, opacity: ring }} />}
       </AbsoluteFill>
       <AbsoluteFill style={{ background: "linear-gradient(0deg, rgba(42,22,48,.85) 0%, transparent 40%), linear-gradient(90deg, rgba(42,22,48,.55), transparent 35%)" }} />
       {/* step number + progress */}
@@ -150,6 +150,12 @@ const SOutro: React.FC<P> = (p) => {
         <div style={{ marginTop: 50, display: "inline-flex", alignItems: "center", gap: 14, padding: "24px 40px", borderRadius: 26, background: GRAD(spec.color), color: "#fff", fontFamily: BN, fontWeight: 800, fontSize: 42, boxShadow: `0 20px 60px ${spec.color[0]}88`, transform: `scale(${cta * (1 + Math.sin(f / 7) * 0.02)})`, opacity: cta }}>কুইজ দিয়ে নিন পকেট সার্টিফিকেট</div>
       </div>
       <div style={{ position: "absolute", left: 110, bottom: 110 }}><Trainer spec={spec} d={at(p, 0.4)} small /></div>
+      {/* brand end card (brand C: ink + white wordmark with the orange caret) */}
+      <div style={{ position: "absolute", right: 110, bottom: 118, display: "flex", alignItems: "center", gap: 26, padding: "26px 38px", borderRadius: 28, background: "rgba(20,21,27,.78)", boxShadow: "0 24px 70px rgba(0,0,0,.35)", opacity: ent(f, fps, at(p, 0.5)), transform: `translateY(${(1 - ent(f, fps, at(p, 0.5))) * 40}px)` }}>
+        <Img src={staticFile("brand/aiu-logo-dark.svg")} style={{ height: 70, display: "block" }} />
+        <div style={{ width: 2, height: 64, background: "rgba(255,255,255,.25)" }} />
+        <div style={{ fontFamily: EN, fontWeight: 700, fontSize: 34, color: "#fff", letterSpacing: 0.5 }}>aiuniversitybd.com</div>
+      </div>
     </AbsoluteFill>
   );
 };
@@ -161,7 +167,7 @@ const Subs: React.FC<{ spec: KSpec; starts: number[] }> = ({ spec, starts }) => 
   const f = useCurrentFrame();
   const cs = spec.scenes.flatMap((sc, i) => {
     const lead = i === 0 ? FIRST : LEAD;
-    const parts = sc.vo.split(/(?<=[।?!,—])\s+/).reduce<string[]>((a, s) => { if (a.length && (a[a.length - 1].length < 22 || s.length < 10)) a[a.length - 1] += " " + s; else a.push(s); return a; }, []);
+    const parts = (sc.sv || sc.vo).split(/(?<=[।?!,—])\s+/).reduce<string[]>((a, s) => { if (a.length && (a[a.length - 1].length < 22 || s.length < 10)) a[a.length - 1] += " " + s; else a.push(s); return a; }, []);
     const total = parts.reduce((n, s) => n + s.length, 0); let acc = 0;
     return parts.map((s) => { const from = starts[i] + lead + (sc.frames * acc) / total; acc += s.length; return { s, from, to: starts[i] + lead + (sc.frames * acc) / total, step: sc.type === "step" }; });
   });

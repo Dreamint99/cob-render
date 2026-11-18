@@ -106,8 +106,20 @@ import pkKala from "./pocket/kala-bhuna.json";
 import pkFraud from "./pocket/mobile-fraud.json";
 import pkGas from "./pocket/gas-safety.json";
 import pkDengue from "./pocket/dengue.json";
+import pkCpr12 from "./pocket/cpr.json";
+import pkAiCv12 from "./pocket/ai-cv.json";
+import pkReels12 from "./pocket/reels.json";
+import pkMobilePhoto12 from "./pocket/mobile-photo.json";
+import pkRooftop12 from "./pocket/rooftop.json";
+import pkStains12 from "./pocket/stains.json";
+import pkBreakfast12 from "./pocket/breakfast.json";
+import pkPitha12 from "./pocket/pitha.json";
+import pkFuchka12 from "./pocket/fuchka.json";
+import pkKacchi12 from "./pocket/kacchi.json";
+import pkTie12 from "./pocket/tie.json";
+import pkHijab12 from "./pocket/hijab.json";
 import { AIU3Comps } from "./aiu3/CloudRoot";
-const POCKETS = [pkSaree, pkKala, pkFraud, pkGas, pkDengue] as unknown as KSpec[];
+const POCKETS = [pkSaree, pkKala, pkFraud, pkGas, pkDengue, pkHijab12, pkTie12, pkKacchi12, pkFuchka12, pkPitha12, pkBreakfast12, pkStains12, pkRooftop12, pkMobilePhoto12, pkReels12, pkAiCv12, pkCpr12] as unknown as KSpec[];
 // Register each new video here.
 export const Root = () => (
   <>

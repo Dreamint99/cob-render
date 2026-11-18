@@ -1,0 +1,191 @@
+{
+ "id": "ofm-main",
+ "brand": {
+  "dir": "coursepromo/office",
+  "lang": "অফিস",
+  "word": "Excel",
+  "wordEn": true,
+  "accent": "#107C41",
+  "cover": "coursepromo/office/img/cover.jpg",
+  "guru": "coursepromo/office/img/guru.jpg",
+  "guruName": "এক্সেল ভাই",
+  "courseD": "coursepromo/office/shots/course-d.jpg",
+  "courseM": "coursepromo/office/shots/course-m.jpg",
+  "url": "aiuniversitybd.com/course/office-masterclass",
+  "cta": "ওয়ার্ড · এক্সেল · পাওয়ারপয়েন্ট · এআই — বাংলায়",
+  "honest": "এআই কণ্ঠে ভিডিও · Microsoft-এর সাথে যুক্ত নয়"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "nocap": true,
+   "heads": [
+    "এক্সেল খুললেই<br>*ভয় লাগে?*",
+    "ফর্মুলা লিখলে<br>*#N/A আসে?*",
+    "রিপোর্ট বানাতে<br>*সারাদিন যায়?*"
+   ],
+   "clips": [
+    "coursepromo/office/clips/autosum.mp4",
+    "coursepromo/office/clips/filter.mp4",
+    "coursepromo/office/clips/dash.mp4"
+   ],
+   "beats": [
+    {
+     "t": "এক্সেল খুললেই ভয় লাগে?"
+    },
+    {
+     "t": "ফর্মুলা লিখলেই এরর আসে?"
+    },
+    {
+     "t": "একটা রিপোর্ট বানাতে সারাদিন চলে যায়?"
+    }
+   ]
+  },
+  {
+   "type": "why",
+   "cards": [
+    {
+     "big": "XLOOKUP",
+     "en": true,
+     "label": "পুরোনো VLOOKUP-এর জায়গায় *নতুন ফাংশন*",
+     "src": "সূত্র: Microsoft Support"
+    },
+    {
+     "big": "Copilot",
+     "en": true,
+     "label": "এক্সেলের ভেতরেই এখন *এআই এজেন্ট*",
+     "src": "সূত্র: Microsoft, ২০২৬"
+    },
+    {
+     "big": "ChatGPT · Claude",
+     "en": true,
+     "label": "দুটোরই এখন *এক্সেল অ্যাড-ইন*",
+     "src": "সূত্র: OpenAI · Anthropic, ২০২৬"
+    }
+   ],
+   "beats": [
+    {
+     "t": "অফিসের কাজ বদলে যাচ্ছে। তিনটা খবর।"
+    },
+    {
+     "t": "এক — এক্সেলে এসেছে নতুন ফাংশন, যেমন এক্সলুকআপ।",
+     "cap": "এক — এক্সেলে এসেছে *নতুন ফাংশন*, যেমন XLOOKUP।"
+    },
+    {
+     "hold": 10
+    },
+    {
+     "t": "দুই — এক্সেলের ভেতরেই এখন কোপাইলট, এআই এজেন্ট।",
+     "cap": "দুই — এক্সেলের ভেতরেই এখন *Copilot এআই এজেন্ট।*"
+    },
+    {
+     "hold": 10
+    },
+    {
+     "t": "তিন — চ্যাটজিপিটি আর ক্লড, দুটোই এখন এক্সেলে কাজ করে।",
+     "cap": "তিন — *ChatGPT আর Claude* দুটোই এখন এক্সেলে কাজ করে।"
+    },
+    {
+     "hold": 10
+    }
+   ]
+  },
+  {
+   "type": "reveal",
+   "beats": [
+    {
+     "t": "তাহলে এই কোর্সটি আপনার জন্য! এআই ইউনিভার্সিটির অফিস মাস্টারক্লাস — ওয়ার্ড, এক্সেল, পাওয়ারপয়েন্ট আর এআই, পুরোটা বাংলায়।",
+     "cap": "তাহলে এই কোর্সটি *আপনার জন্য!* AI University-র *অফিস মাস্টারক্লাস* — ওয়ার্ড, এক্সেল, পাওয়ারপয়েন্ট আর এআই, বাংলায়।"
+    },
+    {
+     "hold": 10
+    }
+   ]
+  },
+  {
+   "type": "montage",
+   "items": [
+    [
+     "coursepromo/office/clips/merge.mp4",
+     "১০০টা চিঠি এক ক্লিকে"
+    ],
+    [
+     "coursepromo/office/clips/morph.mp4",
+     "Morph প্রেজেন্টেশন"
+    ],
+    [
+     "coursepromo/office/clips/filter.mp4",
+     "FILTER ম্যাজিক"
+    ],
+    [
+     "coursepromo/office/clips/dates.mp4",
+     "শুক্র-শনি ছুটি ধরে হিসাব"
+    ],
+    [
+     "coursepromo/office/clips/dash.mp4",
+     "মাসিক ড্যাশবোর্ড"
+    ]
+   ],
+   "beats": [
+    {
+     "t": "স্ক্রিন দেখে দেখে শিখবেন — এক ক্লিকে একশোটা চিঠি, সুন্দর প্রেজেন্টেশন, আর এক্সেলের এমন সিক্রেট যা অনেক অফিসের লোকও জানে না।",
+     "cap": "স্ক্রিন দেখে দেখে শিখবেন — *এক ক্লিকে ১০০টা চিঠি*, সুন্দর প্রেজেন্টেশন, আর এক্সেলের *সিক্রেট।*"
+    },
+    {
+     "hold": 10
+    }
+   ]
+  },
+  {
+   "type": "montage",
+   "head": "এক্সেল + এআই",
+   "items": [
+    [
+     "coursepromo/office/clips/copilot.mp4",
+     "Copilot"
+    ],
+    [
+     "coursepromo/office/clips/claude.mp4",
+     "ChatGPT ও Claude"
+    ]
+   ],
+   "beats": [
+    {
+     "t": "শেষে শিখবেন কোপাইলট, চ্যাটজিপিটি আর ক্লড দিয়ে এক্সেলের কাজ — আর এআই-এর ভুল কীভাবে ধরবেন।",
+     "cap": "শেষে *Copilot, ChatGPT আর Claude* দিয়ে এক্সেলের কাজ — আর *এআই-এর ভুল ধরা।*"
+    },
+    {
+     "hold": 10
+    }
+   ]
+  },
+  {
+   "type": "sensei",
+   "q": "দুই শর্তে যোগফল কীভাবে করব?",
+   "ans": "=SUMIFS(D2:D11, B2:B11, \"Dhaka\", C2:C11, \"Rice\") — প্রথমে কী যোগ হবে, তারপর শর্তগুলো জোড়ায় জোড়ায়।",
+   "beats": [
+    {
+     "t": "আটকে গেলে আছে এআই সহায়ক এক্সেল ভাই, আর নিজে হাতে অনুশীলনের জন্য এক্সেল ল্যাব।"
+    },
+    {
+     "hold": 10
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "beats": [
+    {
+     "t": "বিশ্বাস হচ্ছে না, এতকিছু একসাথে?"
+    },
+    {
+     "t": "তাহলে এখনই প্রথম বিশ শতাংশ ক্লাস ফ্রিতে দেখে নিন — এআই ইউনিভার্সিটি বিডি ডট কম।",
+     "cap": "তাহলে এখনই *প্রথম ২০% ক্লাস ফ্রিতে* দেখে নিন — aiuniversitybd.com"
+    },
+    {
+     "hold": 45
+    }
+   ]
+  }
+ ]
+}

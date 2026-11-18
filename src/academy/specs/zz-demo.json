@@ -1,0 +1,111 @@
+{
+  "id": "zz-demo",
+  "course": "এসএসসি রসায়ন",
+  "chapter": "ডেমো",
+  "lessonNo": "ডেমো",
+  "title": "ডেমো",
+  "next": "",
+  "scenes": [
+    {
+      "type": "cube",
+      "vo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "frames": 330
+    },
+    {
+      "type": "molecule",
+      "f": "H2O",
+      "vo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "frames": 330
+    },
+    {
+      "type": "molemap",
+      "head": "৩৬ গ্রাম পানিতে কতগুলো অণু?",
+      "path": [
+        "mass",
+        "mole",
+        "particles"
+      ],
+      "vals": [
+        "36 g",
+        "2 mol",
+        "12.046 × 10²³"
+      ],
+      "note": "মোলই সব হিসাবের সেতু",
+      "vo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "frames": 330
+    },
+    {
+      "type": "particles",
+      "vo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "frames": 330,
+      "note": "এক মোল বালির কণা দিয়ে পুরো বাংলাদেশ ঢেকে যাবে — অনেক অনেক বড় সংখ্যা"
+    },
+    {
+      "type": "graph",
+      "head": "বল বনাম ত্বরণ (m = 2 kg)",
+      "x": {
+        "label": "বল F (N)",
+        "max": 20
+      },
+      "y": {
+        "label": "ত্বরণ a (m/s²)",
+        "max": 10
+      },
+      "points": [
+        [
+          4,
+          2
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          16,
+          8
+        ]
+      ],
+      "note": "সরলরেখা — a ∝ F",
+      "vo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "frames": 330
+    },
+    {
+      "type": "compare",
+      "head": "ভর বনাম ওজন",
+      "left": {
+        "title": "ভর",
+        "items": [
+          "বস্তুতে পদার্থের পরিমাণ",
+          "একক kg",
+          "সব জায়গায় একই"
+        ],
+        "tone": "plain"
+      },
+      "right": {
+        "title": "ওজন",
+        "items": [
+          "পৃথিবী যে বলে টানে",
+          "একক N",
+          "চাঁদে কম"
+        ],
+        "tone": "plain"
+      },
+      "vo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "frames": 330
+    },
+    {
+      "type": "memory",
+      "big": "F = ma → “ফুল = মালা × আঠা”",
+      "lines": [
+        "বেশি ফুল (বল) লাগলে মালা বড়",
+        "আঠা কম তো ফুল কম"
+      ],
+      "vo": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "frames": 330
+    }
+  ]
+}

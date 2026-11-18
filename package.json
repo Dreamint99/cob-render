@@ -11,6 +11,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@react-three/fiber": "8.17.10",
     "@remotion/captions": "^4.0.534",
     "@remotion/cli": "^4.0.534",
     "@remotion/google-fonts": "^4.0.534",
@@ -21,11 +22,14 @@
     "@remotion/noise": "^4.0.534",
     "@remotion/paths": "^4.0.534",
     "@remotion/shapes": "^4.0.534",
+    "@remotion/three": "4.0.534",
     "@remotion/transitions": "^4.0.534",
+    "@types/three": "0.171.0",
     "lottie-web": "^5.13.0",
     "lucide-react": "^1.57.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "remotion": "^4.0.534"
+    "remotion": "^4.0.534",
+    "three": "0.171.0"
   }
 }

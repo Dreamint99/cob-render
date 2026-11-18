@@ -1,0 +1,91 @@
+import React from "react";
+import { Composition } from "remotion";
+import { CcVideo, ccLen, Spec } from "./CcEngine";
+// SPECS-START (rewritten by scripts/cc_make.py)
+import S_cc_ai_basics from "./specs/cc-ai-basics.json";
+import S_cc_artifacts_slack_sdk from "./specs/cc-artifacts-slack-sdk.json";
+import S_cc_automation from "./specs/cc-automation.json";
+import S_cc_background from "./specs/cc-background.json";
+import S_cc_bash from "./specs/cc-bash.json";
+import S_cc_branch_pr from "./specs/cc-branch-pr.json";
+import S_cc_browser from "./specs/cc-browser.json";
+import S_cc_career from "./specs/cc-career.json";
+import S_cc_case_overnight from "./specs/cc-case-overnight.json";
+import S_cc_case_video from "./specs/cc-case-video.json";
+import S_cc_claude_md from "./specs/cc-claude-md.json";
+import S_cc_code_review from "./specs/cc-code-review.json";
+import S_cc_compact_clear from "./specs/cc-compact-clear.json";
+import S_cc_computer_use from "./specs/cc-computer-use.json";
+import S_cc_context from "./specs/cc-context.json";
+import S_cc_context_files from "./specs/cc-context-files.json";
+import S_cc_cost_reality from "./specs/cc-cost-reality.json";
+import S_cc_course_map from "./specs/cc-course-map.json";
+import S_cc_cowork from "./specs/cc-cowork.json";
+import S_cc_debugging from "./specs/cc-debugging.json";
+import S_cc_desktop_app from "./specs/cc-desktop-app.json";
+import S_cc_diff from "./specs/cc-diff.json";
+import S_cc_everywhere from "./specs/cc-everywhere.json";
+import S_cc_explore_plan_code from "./specs/cc-explore-plan-code.json";
+import S_cc_final_project from "./specs/cc-final-project.json";
+import S_cc_first_10min from "./specs/cc-first-10min.json";
+import S_cc_git from "./specs/cc-git.json";
+import S_cc_github_actions from "./specs/cc-github-actions.json";
+import S_cc_headless from "./specs/cc-headless.json";
+import S_cc_hidden_powers from "./specs/cc-hidden-powers.json";
+import S_cc_hooks from "./specs/cc-hooks.json";
+import S_cc_login_plans from "./specs/cc-login-plans.json";
+import S_cc_mcp_add from "./specs/cc-mcp-add.json";
+import S_cc_mcp_safe from "./specs/cc-mcp-safe.json";
+import S_cc_mcp_what from "./specs/cc-mcp-what.json";
+import S_cc_memory from "./specs/cc-memory.json";
+import S_cc_models from "./specs/cc-models.json";
+import S_cc_parallel from "./specs/cc-parallel.json";
+import S_cc_permission_modes from "./specs/cc-permission-modes.json";
+import S_cc_plan_mode from "./specs/cc-plan-mode.json";
+import S_cc_plugins from "./specs/cc-plugins.json";
+import S_cc_proj_build from "./specs/cc-proj-build.json";
+import S_cc_proj_form from "./specs/cc-proj-form.json";
+import S_cc_proj_live from "./specs/cc-proj-live.json";
+import S_cc_proj_plan from "./specs/cc-proj-plan.json";
+import S_cc_proj_security from "./specs/cc-proj-security.json";
+import S_cc_promo from "./specs/cc-promo.json";
+import S_cc_prompt_basics from "./specs/cc-prompt-basics.json";
+import S_cc_quiz_0 from "./specs/cc-quiz-0.json";
+import S_cc_quiz_1 from "./specs/cc-quiz-1.json";
+import S_cc_quiz_10 from "./specs/cc-quiz-10.json";
+import S_cc_quiz_10a from "./specs/cc-quiz-10a.json";
+import S_cc_quiz_11 from "./specs/cc-quiz-11.json";
+import S_cc_quiz_12 from "./specs/cc-quiz-12.json";
+import S_cc_quiz_12a from "./specs/cc-quiz-12a.json";
+import S_cc_quiz_2 from "./specs/cc-quiz-2.json";
+import S_cc_quiz_3 from "./specs/cc-quiz-3.json";
+import S_cc_quiz_4 from "./specs/cc-quiz-4.json";
+import S_cc_quiz_5 from "./specs/cc-quiz-5.json";
+import S_cc_quiz_6 from "./specs/cc-quiz-6.json";
+import S_cc_quiz_7 from "./specs/cc-quiz-7.json";
+import S_cc_quiz_8 from "./specs/cc-quiz-8.json";
+import S_cc_quiz_9 from "./specs/cc-quiz-9.json";
+import S_cc_remote from "./specs/cc-remote.json";
+import S_cc_rewind from "./specs/cc-rewind.json";
+import S_cc_safety_rules from "./specs/cc-safety-rules.json";
+import S_cc_save_money from "./specs/cc-save-money.json";
+import S_cc_schedule from "./specs/cc-schedule.json";
+import S_cc_secrets from "./specs/cc-secrets.json";
+import S_cc_settings from "./specs/cc-settings.json";
+import S_cc_skills from "./specs/cc-skills.json";
+import S_cc_slash_commands from "./specs/cc-slash-commands.json";
+import S_cc_subagents from "./specs/cc-subagents.json";
+import S_cc_terminal_basics from "./specs/cc-terminal-basics.json";
+import S_cc_tools from "./specs/cc-tools.json";
+import S_cc_vscode from "./specs/cc-vscode.json";
+import S_cc_web_mobile from "./specs/cc-web-mobile.json";
+import S_cc_what_is from "./specs/cc-what-is.json";
+const SPECS: Spec[] = [S_cc_ai_basics, S_cc_artifacts_slack_sdk, S_cc_automation, S_cc_background, S_cc_bash, S_cc_branch_pr, S_cc_browser, S_cc_career, S_cc_case_overnight, S_cc_case_video, S_cc_claude_md, S_cc_code_review, S_cc_compact_clear, S_cc_computer_use, S_cc_context, S_cc_context_files, S_cc_cost_reality, S_cc_course_map, S_cc_cowork, S_cc_debugging, S_cc_desktop_app, S_cc_diff, S_cc_everywhere, S_cc_explore_plan_code, S_cc_final_project, S_cc_first_10min, S_cc_git, S_cc_github_actions, S_cc_headless, S_cc_hidden_powers, S_cc_hooks, S_cc_login_plans, S_cc_mcp_add, S_cc_mcp_safe, S_cc_mcp_what, S_cc_memory, S_cc_models, S_cc_parallel, S_cc_permission_modes, S_cc_plan_mode, S_cc_plugins, S_cc_proj_build, S_cc_proj_form, S_cc_proj_live, S_cc_proj_plan, S_cc_proj_security, S_cc_promo, S_cc_prompt_basics, S_cc_quiz_0, S_cc_quiz_1, S_cc_quiz_10, S_cc_quiz_10a, S_cc_quiz_11, S_cc_quiz_12, S_cc_quiz_12a, S_cc_quiz_2, S_cc_quiz_3, S_cc_quiz_4, S_cc_quiz_5, S_cc_quiz_6, S_cc_quiz_7, S_cc_quiz_8, S_cc_quiz_9, S_cc_remote, S_cc_rewind, S_cc_safety_rules, S_cc_save_money, S_cc_schedule, S_cc_secrets, S_cc_settings, S_cc_skills, S_cc_slash_commands, S_cc_subagents, S_cc_terminal_basics, S_cc_tools, S_cc_vscode, S_cc_web_mobile, S_cc_what_is] as any;
+// SPECS-END
+export const CcRoot: React.FC = () => (
+  <>
+    {SPECS.map((s) => (
+      <Composition key={s.id} id={`CC-${s.id}`} component={CcVideo as any} durationInFrames={Math.max(60, ccLen(s))} fps={30} width={1920} height={1080} defaultProps={{ spec: s }} />
+    ))}
+  </>
+);

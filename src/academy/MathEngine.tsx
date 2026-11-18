@@ -6,7 +6,7 @@ import React from "react";
 import { AbsoluteFill, Audio, Img, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig, Easing, delayRender, continueRender } from "remotion";
 
 const K = { board: "#1F3A2E", board2: "#14261C", chalk: "#F4F1E8", dim: "rgba(244,241,232,.62)", faint: "rgba(244,241,232,.18)", yellow: "#FFE58A", pink: "#FF9EB5", blue: "#9AD0FF", green: "#A8E6A1", red: "#FF6B5B", wood: "#7A5530", wood2: "#5A3D20" };
-const BN = "Anek", SERIF = "Tiro", HAND = "Galada", MATH = "Cambria, 'Cambria Math', Georgia, serif";
+const BN = "Anek", SERIF = "Tiro", HAND = "Galada", MATH = "Cambria, 'Cambria Math', Georgia, Anek, serif";
 if (typeof document !== "undefined") {
   for (const [n, u] of [["Anek", "fonts/AnekBangla.ttf"], ["Tiro", "fonts/TiroBangla-Regular.ttf"], ["Galada", "fonts/Galada-Regular.ttf"]]) {
     const h = delayRender(`font ${n}`);

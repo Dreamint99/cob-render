@@ -1,0 +1,93 @@
+import React from "react";
+import { Composition } from "remotion";
+import { HackVideo, hackLen, Spec } from "./HackEngine";
+// SPECS-START (rewritten by scripts/hack_make.py)
+import S_hak_2fa from "./specs/hak-2fa.json";
+import S_hak_ai_codereview from "./specs/hak-ai-codereview.json";
+import S_hak_ai_defense from "./specs/hak-ai-defense.json";
+import S_hak_ai_payload from "./specs/hak-ai-payload.json";
+import S_hak_ai_recon from "./specs/hak-ai-recon.json";
+import S_hak_api_sec from "./specs/hak-api-sec.json";
+import S_hak_auth_bypass from "./specs/hak-auth-bypass.json";
+import S_hak_bb_first from "./specs/hak-bb-first.json";
+import S_hak_bb_methodology from "./specs/hak-bb-methodology.json";
+import S_hak_bb_platforms from "./specs/hak-bb-platforms.json";
+import S_hak_bb_report from "./specs/hak-bb-report.json";
+import S_hak_bb_scope from "./specs/hak-bb-scope.json";
+import S_hak_build_your_lab from "./specs/hak-build-your-lab.json";
+import S_hak_burp_intro from "./specs/hak-burp-intro.json";
+import S_hak_career from "./specs/hak-career.json";
+import S_hak_cmd_injection from "./specs/hak-cmd-injection.json";
+import S_hak_course_map from "./specs/hak-course-map.json";
+import S_hak_cracking from "./specs/hak-cracking.json";
+import S_hak_csrf from "./specs/hak-csrf.json";
+import S_hak_ctf from "./specs/hak-ctf.json";
+import S_hak_detect_defend from "./specs/hak-detect-defend.json";
+import S_hak_enumeration from "./specs/hak-enumeration.json";
+import S_hak_ethics_and_law from "./specs/hak-ethics-and-law.json";
+import S_hak_file_upload from "./specs/hak-file-upload.json";
+import S_hak_files_and_perms from "./specs/hak-files-and-perms.json";
+import S_hak_final_exam from "./specs/hak-final-exam.json";
+import S_hak_final_project from "./specs/hak-final-project.json";
+import S_hak_google_dorking from "./specs/hak-google-dorking.json";
+import S_hak_hacker_mindset from "./specs/hak-hacker-mindset.json";
+import S_hak_harden_accounts from "./specs/hak-harden-accounts.json";
+import S_hak_harden_site from "./specs/hak-harden-site.json";
+import S_hak_hashes from "./specs/hak-hashes.json";
+import S_hak_how_internet_works from "./specs/hak-how-internet-works.json";
+import S_hak_http_https from "./specs/hak-http-https.json";
+import S_hak_idor from "./specs/hak-idor.json";
+import S_hak_ip_ports_dns from "./specs/hak-ip-ports-dns.json";
+import S_hak_linux_why from "./specs/hak-linux-why.json";
+import S_hak_malware_how from "./specs/hak-malware-how.json";
+import S_hak_metasploit from "./specs/hak-metasploit.json";
+import S_hak_nmap_deep from "./specs/hak-nmap-deep.json";
+import S_hak_path_traversal from "./specs/hak-path-traversal.json";
+import S_hak_phishing_how from "./specs/hak-phishing-how.json";
+import S_hak_phone_security from "./specs/hak-phone-security.json";
+import S_hak_privesc from "./specs/hak-privesc.json";
+import S_hak_promo from "./specs/hak-promo.json";
+import S_hak_prompt_injection from "./specs/hak-prompt-injection.json";
+import S_hak_quiz_0 from "./specs/hak-quiz-0.json";
+import S_hak_quiz_1 from "./specs/hak-quiz-1.json";
+import S_hak_quiz_10 from "./specs/hak-quiz-10.json";
+import S_hak_quiz_2 from "./specs/hak-quiz-2.json";
+import S_hak_quiz_3 from "./specs/hak-quiz-3.json";
+import S_hak_quiz_4 from "./specs/hak-quiz-4.json";
+import S_hak_quiz_5 from "./specs/hak-quiz-5.json";
+import S_hak_quiz_6 from "./specs/hak-quiz-6.json";
+import S_hak_quiz_7 from "./specs/hak-quiz-7.json";
+import S_hak_quiz_8 from "./specs/hak-quiz-8.json";
+import S_hak_quiz_9 from "./specs/hak-quiz-9.json";
+import S_hak_recon_osint from "./specs/hak-recon-osint.json";
+import S_hak_red_blue_purple from "./specs/hak-red-blue-purple.json";
+import S_hak_safe_analysis from "./specs/hak-safe-analysis.json";
+import S_hak_shells from "./specs/hak-shells.json";
+import S_hak_social_eng from "./specs/hak-social-eng.json";
+import S_hak_sqli_1 from "./specs/hak-sqli-1.json";
+import S_hak_sqli_2 from "./specs/hak-sqli-2.json";
+import S_hak_ssrf from "./specs/hak-ssrf.json";
+import S_hak_subdomains from "./specs/hak-subdomains.json";
+import S_hak_terminal_basics from "./specs/hak-terminal-basics.json";
+import S_hak_tool_breachcheck from "./specs/hak-tool-breachcheck.json";
+import S_hak_tool_osint from "./specs/hak-tool-osint.json";
+import S_hak_tool_phishdetect from "./specs/hak-tool-phishdetect.json";
+import S_hak_tool_portscanner from "./specs/hak-tool-portscanner.json";
+import S_hak_tool_wifi from "./specs/hak-tool-wifi.json";
+import S_hak_vpn_privacy from "./specs/hak-vpn-privacy.json";
+import S_hak_vulnerable_targets from "./specs/hak-vulnerable-targets.json";
+import S_hak_web_how from "./specs/hak-web-how.json";
+import S_hak_what_is_hacking from "./specs/hak-what-is-hacking.json";
+import S_hak_wireshark from "./specs/hak-wireshark.json";
+import S_hak_wow_scripts from "./specs/hak-wow-scripts.json";
+import S_hak_xss_1 from "./specs/hak-xss-1.json";
+import S_hak_xss_2 from "./specs/hak-xss-2.json";
+const SPECS: Spec[] = [S_hak_2fa, S_hak_ai_codereview, S_hak_ai_defense, S_hak_ai_payload, S_hak_ai_recon, S_hak_api_sec, S_hak_auth_bypass, S_hak_bb_first, S_hak_bb_methodology, S_hak_bb_platforms, S_hak_bb_report, S_hak_bb_scope, S_hak_build_your_lab, S_hak_burp_intro, S_hak_career, S_hak_cmd_injection, S_hak_course_map, S_hak_cracking, S_hak_csrf, S_hak_ctf, S_hak_detect_defend, S_hak_enumeration, S_hak_ethics_and_law, S_hak_file_upload, S_hak_files_and_perms, S_hak_final_exam, S_hak_final_project, S_hak_google_dorking, S_hak_hacker_mindset, S_hak_harden_accounts, S_hak_harden_site, S_hak_hashes, S_hak_how_internet_works, S_hak_http_https, S_hak_idor, S_hak_ip_ports_dns, S_hak_linux_why, S_hak_malware_how, S_hak_metasploit, S_hak_nmap_deep, S_hak_path_traversal, S_hak_phishing_how, S_hak_phone_security, S_hak_privesc, S_hak_promo, S_hak_prompt_injection, S_hak_quiz_0, S_hak_quiz_1, S_hak_quiz_10, S_hak_quiz_2, S_hak_quiz_3, S_hak_quiz_4, S_hak_quiz_5, S_hak_quiz_6, S_hak_quiz_7, S_hak_quiz_8, S_hak_quiz_9, S_hak_recon_osint, S_hak_red_blue_purple, S_hak_safe_analysis, S_hak_shells, S_hak_social_eng, S_hak_sqli_1, S_hak_sqli_2, S_hak_ssrf, S_hak_subdomains, S_hak_terminal_basics, S_hak_tool_breachcheck, S_hak_tool_osint, S_hak_tool_phishdetect, S_hak_tool_portscanner, S_hak_tool_wifi, S_hak_vpn_privacy, S_hak_vulnerable_targets, S_hak_web_how, S_hak_what_is_hacking, S_hak_wireshark, S_hak_wow_scripts, S_hak_xss_1, S_hak_xss_2] as any;
+// SPECS-END
+export const HackRoot: React.FC = () => (
+  <>
+    {SPECS.map((s) => (
+      <Composition key={s.id} id={`Hack-${s.id}`} component={HackVideo as any} durationInFrames={Math.max(60, hackLen(s))} fps={30} width={1920} height={1080} defaultProps={{ spec: s }} />
+    ))}
+  </>
+);
