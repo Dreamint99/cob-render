@@ -37,7 +37,7 @@ const Clip: React.FC<{ src: string; from?: number; dur: number; kb?: number; fil
 const Credit: React.FC<{ text: string; o?: number }> = ({ text, o = 1 }) => (
   <div style={{ position: "absolute", right: 34, top: 30, opacity: 0.8 * o, fontFamily: BODY, fontWeight: 600, fontSize: 21, color: "#fff", textShadow: "0 1px 6px #000", maxWidth: 820, textAlign: "right" }}>{text}</div>
 );
-const Tag: React.FC<{ text: string; o: number; color?: string; top?: number }> = ({ text, o, color = RED, top = 34 }) => (
+export const Tag: React.FC<{ text: string; o: number; color?: string; top?: number }> = ({ text, o, color = RED, top = 34 }) => (
   <div style={{ position: "absolute", left: 40, top, opacity: o, whiteSpace: "nowrap", display: "flex", alignItems: "center", gap: 12, background: "rgba(5,8,12,.72)", border: `1.5px solid ${color}`, borderRadius: 8, padding: "8px 18px 10px", fontFamily: BODY, fontWeight: 600, fontSize: 26, color: "#fff" }}>
     <div style={{ width: 10, height: 10, borderRadius: 5, background: color, boxShadow: `0 0 10px ${color}` }} />{text}
   </div>
@@ -52,11 +52,11 @@ const Place: React.FC<{ name: string; sub?: string; o: number }> = ({ name, sub,
     {sub ? <div style={{ fontFamily: BODY, fontWeight: 600, fontSize: 30, color: SAND, textShadow: "0 2px 10px #000" }}>{sub}</div> : null}
   </div>
 );
-const Grain: React.FC = () => {
+export const Grain: React.FC = () => {
   const f = useCurrentFrame();
   return <AbsoluteFill style={{ backgroundImage: `url(${staticFile(`cob/grain${f % 4}.png`)})`, backgroundSize: "512px", opacity: 0.07, mixBlendMode: "overlay", pointerEvents: "none" }} />;
 };
-const Vignette: React.FC<{ v?: number }> = ({ v = 0.6 }) => <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 46%, transparent 48%, rgba(0,0,0,${v}) 100%)`, pointerEvents: "none" }} />;
+export const Vignette: React.FC<{ v?: number }> = ({ v = 0.6 }) => <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 46%, transparent 48%, rgba(0,0,0,${v}) 100%)`, pointerEvents: "none" }} />;
 
 // money card: a line item that springs in
 const Money: React.FC<{ label: string; amount: string; note?: string; at: number; color?: string; strike?: string }> = ({ label, amount, note, at, color = GOLD, strike }) => {
@@ -116,7 +116,7 @@ const Captions: React.FC = () => {
 };
 
 // ---------- scenes ----------
-const ColdOpen: React.FC = () => {
+export const ColdOpen: React.FC = () => {
   const t = useT(); const { fps } = useVideoConfig(); const f = useCurrentFrame();
   const bubble = spring({ frame: f - S(0.6), fps, config: { damping: 15 } });
   const prog = interpolate(t, [1.0, 11.3], [0, 1], clamp);
@@ -142,7 +142,7 @@ const ColdOpen: React.FC = () => {
   );
 };
 
-const Title: React.FC = () => {
+export const Title: React.FC = () => {
   const t = useT(); const f = useCurrentFrame(); const { fps } = useVideoConfig();
   const a = spring({ frame: f - 6, fps, config: { damping: 16 } }), b = spring({ frame: f - 20, fps, config: { damping: 16 } });
   return (
@@ -159,27 +159,29 @@ const Title: React.FC = () => {
   );
 };
 
-const Hook: React.FC = () => {
+// Hook timings default to the sample's VO; LibyaEp1 passes its own (local seconds).
+export const Hook: React.FC<{ phoneAt?: number; offAt?: number; q1At?: number; q2At?: number }> = ({ phoneAt = 4.4, offAt = 5.6, q1At = 8.6, q2At = 9.9 }) => {
   const t = useT(); const f = useCurrentFrame(); const { fps } = useVideoConfig();
-  const phone = spring({ frame: f - S(4.4), fps, config: { damping: 15 } });
-  const q1 = spring({ frame: f - S(8.6), fps, config: { damping: 14 } }), q2 = spring({ frame: f - S(9.9), fps, config: { damping: 14 } });
-  const dark = interpolate(t, [4.2, 5.0], [0, 0.55], clamp);
+  const phone = spring({ frame: f - S(phoneAt), fps, config: { damping: 15 } });
+  const q1 = spring({ frame: f - S(q1At), fps, config: { damping: 14 } }), q2 = spring({ frame: f - S(q2At), fps, config: { damping: 14 } });
+  const dark = interpolate(t, [phoneAt - 0.2, phoneAt + 0.6], [0, 0.55], clamp);
+  const qIn = q1At - 0.2;
   return (
     <AbsoluteFill>
-      <Clip src="px/madaripur.mp4" dur={8.6} filter="saturate(.8) brightness(.85)" />
+      <Clip src="px/madaripur.mp4" dur={qIn + 0.2} filter="saturate(.8) brightness(.85)" />
       <AbsoluteFill style={{ background: `rgba(3,5,8,${dark})` }} />
-      <Place name="মাদারীপুর" sub="রিপোর্টে বারবার আসা জেলাগুলোর একটি" o={fadeIO(t, 0.5, 4.3)} />
-      <Credit text="মাদারীপুরে সূর্যাস্ত · ছবি: S.M.M. Musabbir Uddin / Wikimedia Commons (CC BY-SA 4.0)" o={fadeIO(t, 0.3, 8.4)} />
-      {t < 8.7 ? (
-        <div style={{ position: "absolute", left: "50%", top: 250, transform: `translateX(-50%) translateY(${(1 - phone) * 40}px)`, opacity: phone * fadeIO(t, 4.4, 8.6, 0.3), width: 420, background: "rgba(14,18,22,.92)", borderRadius: 34, padding: "40px 30px", textAlign: "center", border: "1px solid rgba(255,255,255,.1)" }}>
+      <Place name="মাদারীপুর" sub="রিপোর্টে বারবার আসা জেলাগুলোর একটি" o={fadeIO(t, 0.5, phoneAt - 0.1)} />
+      <Credit text="মাদারীপুরে সূর্যাস্ত · ছবি: S.M.M. Musabbir Uddin / Wikimedia Commons (CC BY-SA 4.0)" o={fadeIO(t, 0.3, qIn)} />
+      {t < qIn + 0.3 ? (
+        <div style={{ position: "absolute", left: "50%", top: 250, transform: `translateX(-50%) translateY(${(1 - phone) * 40}px)`, opacity: phone * fadeIO(t, phoneAt, qIn + 0.2, 0.3), width: 420, background: "rgba(14,18,22,.92)", borderRadius: 34, padding: "40px 30px", textAlign: "center", border: "1px solid rgba(255,255,255,.1)" }}>
           <div style={{ fontFamily: BODY, fontWeight: 700, fontSize: 40, color: "#fff" }}>খোকা</div>
           <div style={{ fontFamily: BODY, fontWeight: 600, fontSize: 26, color: "#9aa5ab", marginTop: 6 }}>কল করা হচ্ছে…</div>
-          <div style={{ fontFamily: BODY, fontWeight: 600, fontSize: 27, color: "#ff8a80", marginTop: 26, opacity: interpolate(t, [5.6, 6.0], [0, 1], clamp) }}>নম্বরটি এই মুহূর্তে বন্ধ আছে</div>
+          <div style={{ fontFamily: BODY, fontWeight: 600, fontSize: 27, color: "#ff8a80", marginTop: 26, opacity: interpolate(t, [offAt, offAt + 0.4], [0, 1], clamp) }}>নম্বরটি এই মুহূর্তে বন্ধ আছে</div>
           <div style={{ margin: "34px auto 0", width: 78, height: 78, borderRadius: 39, background: RED, opacity: 0.9 }} />
         </div>
       ) : null}
-      {t >= 8.4 ? (
-        <AbsoluteFill style={{ background: INK, opacity: interpolate(t, [8.4, 8.8], [0, 1], clamp) }}>
+      {t >= qIn ? (
+        <AbsoluteFill style={{ background: INK, opacity: interpolate(t, [qIn, qIn + 0.4], [0, 1], clamp) }}>
           <div style={{ position: "absolute", left: 0, right: 0, top: 330, textAlign: "center" }}>
             <div style={{ fontFamily: HEAD, fontWeight: 800, fontSize: 120, color: "#fff", opacity: q1, transform: `translateY(${(1 - q1) * 40}px)` }}>কোন পথ?</div>
             <div style={{ fontFamily: HEAD, fontWeight: 800, fontSize: 120, color: GOLD, opacity: q2, transform: `translateY(${(1 - q2) * 40}px)` }}>কত টাকা?</div>
