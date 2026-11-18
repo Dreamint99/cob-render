@@ -72,19 +72,14 @@ jobs:
           echo "BLENDER=/tmp/bl/blender-5.0.0-linux-x64/blender" >> "$GITHUB_ENV"
           /tmp/bl/blender-5.0.0-linux-x64/blender --version | head -2
       - name: blend file
-        env: { GH_TOKEN: "${{ github.token }}" }
         run: |
           set -euo pipefail
           ID="${{ inputs.id }}"
           mkdir -p /tmp/blend
-          ok=0
-          for i in 1 2 3 4 5 6; do
-            if gh release download "blend-${ID}" -R "${{ github.repository }}" -p "${ID}.blend" -D /tmp/blend --clobber; then
-              ok=1; break
-            fi
-            sleep $((i * 3))
-          done
-          test "$ok" = 1
+          URL="https://github.com/${{ github.repository }}/releases/download/blend-${ID}/${ID}.blend"
+          echo "GET $URL"
+          curl -fL --retry 8 --retry-all-errors --retry-delay 2 -o "/tmp/blend/${ID}.blend" "$URL"
+          test -s "/tmp/blend/${ID}.blend"
           ls -lh /tmp/blend/
       - name: render frames ${{ matrix.a }}-${{ matrix.b }}
         run: |
