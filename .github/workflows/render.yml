@@ -43,15 +43,32 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
       - run: npm ci --no-audit --no-fund
-      - &fonts
-        name: fonts
+      - name: fonts
         run: mkdir -p ~/.local/share/fonts && cp assets/fonts/*.ttf ~/.local/share/fonts/ && fc-cache -f >/dev/null
-      - &assets
-        name: film assets
+      - name: film assets
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
-          gh release download "docs-${{ inputs.id }}" -p "docs-${{ inputs.id }}.tar.gz" -D /tmp
-          mkdir -p "${{ inputs.pubdir }}" && tar xzf "/tmp/docs-${{ inputs.id }}.tar.gz" -C "${{ inputs.pubdir }}"
+          set -euo pipefail
+          ID="${{ inputs.id }}"
+          DEST="/tmp/docs-${ID}.tar.gz"
+          URL="https://github.com/${{ github.repository }}/releases/download/docs-${ID}/docs-${ID}.tar.gz"
+          ok=0
+          for i in 1 2 3 4 5 6 7 8; do
+            echo "asset download attempt $i"
+            if gh release download "docs-${ID}" -p "docs-${ID}.tar.gz" -D /tmp --clobber; then
+              ok=1
+              break
+            fi
+            echo "gh failed, trying curl..."
+            if curl -fL --retry 2 --retry-all-errors --retry-delay 2 -o "$DEST" "$URL"; then
+              ok=1
+              break
+            fi
+            sleep $((i * 4 + (RANDOM % 5)))
+          done
+          test "$ok" = 1
+          test -s "$DEST"
+          mkdir -p "${{ inputs.pubdir }}" && tar xzf "$DEST" -C "${{ inputs.pubdir }}"
       - name: render frames ${{ matrix.a }}-${{ matrix.b }}
         run: npx remotion render "${{ inputs.entry || 'src/index.ts' }}" "${{ inputs.comp || format('Doc-{0}', inputs.id) }}" "out/c${{ matrix.i }}.mp4" --frames=${{ matrix.a }}-${{ matrix.b }} --scale=${{ inputs.scale }} --gl=swangle --concurrency=100% --crf=18 --log=error
       - uses: actions/upload-artifact@v4
