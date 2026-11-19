@@ -12,5 +12,7 @@ export const MysRoot: React.FC = () => (
     <Composition id="MysDelta" component={MysDelta} durationInFrames={DELTA_LEN} fps={30} width={W} height={H} />
     <Composition id="MysEp1" component={Ep1 as any} durationInFrames={300} fps={30} width={W} height={H} defaultProps={{ tl: empty }}
       calculateMetadata={async () => { const tl = await fetch(staticFile("mystery/ep1/timeline.json")).then((r) => r.json()); return { durationInFrames: tl.total, props: { tl } }; }} />
+    <Composition id="MysEp1Full" component={Ep1 as any} durationInFrames={300} fps={30} width={W} height={H} defaultProps={{ tl: empty }}
+      calculateMetadata={async () => { const tl = await fetch(staticFile("mystery/ep1/timeline_full.json")).then((r) => r.json()); return { durationInFrames: tl.total, props: { tl } }; }} />
   </>
 );

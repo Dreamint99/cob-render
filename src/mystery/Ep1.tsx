@@ -141,11 +141,11 @@ const Chapter: React.FC<{ s: Shot }> = ({ s }) => {
     <div style={{ width: 1500, height: 860, background: "linear-gradient(180deg,#cdb68a,#b89c6c)", borderRadius: 10, boxShadow: "0 40px 140px rgba(0,0,0,.9)", transform: `translateY(${(1 - a) * 120}px) rotate(${-1.4 + (1 - a) * 4}deg)`, position: "relative", overflow: "hidden" }}>
       <div style={{ position: "absolute", left: 0, top: -64, width: 520, height: 110, background: "#c4a978", borderRadius: "14px 14px 0 0" }} />
       <Img src={S("doc/map_1876.jpg")} style={{ position: "absolute", right: -60, top: 40, width: 760, opacity: 0.32, mixBlendMode: "multiply", transform: "rotate(4deg)" }} />
-      <div style={{ position: "absolute", left: 90, top: 90, fontFamily: '"STIX", serif', fontSize: 40, color: "#3b2d1a", letterSpacing: 6 }}>CASE FILE · 01</div>
-      <div style={{ position: "absolute", left: 90, top: 170, fontFamily: SERIF, fontWeight: 800, fontSize: 150, color: "#22180c" }}>বরিশাল গানস</div>
-      <div style={{ position: "absolute", left: 96, top: 380, fontFamily: SANS, fontWeight: 600, fontSize: 46, color: "#3b2d1a" }}>বাকেরগঞ্জ জেলা · ১৮৬৫–১৯১৮-এর নথি</div>
-      <div style={{ position: "absolute", left: 96, top: 450, width: 760, fontFamily: SANS, fontWeight: 500, fontSize: 36, color: "#4a3a22", lineHeight: 1.5 }}>দক্ষিণ থেকে আসা কামানের মতো শব্দ। উৎস: অজানা।</div>
-      <div style={{ position: "absolute", left: 980, top: 560, transform: `rotate(-12deg) scale(${interpolate(st, [0, 1], [2.2, 1])})`, opacity: interpolate(f, [16, 19], [0, 0.92], clamp), border: `8px solid ${RED}`, color: RED, fontFamily: SANS, fontWeight: 800, fontSize: 84, padding: "4px 30px", borderRadius: 8, mixBlendMode: "multiply" }}>তদন্ত চলছে</div>
+      <div style={{ position: "absolute", left: 90, top: 90, fontFamily: '"STIX", serif', fontSize: 40, color: "#3b2d1a", letterSpacing: 6 }}>CASE FILE · {s.num ?? "01"}</div>
+      <div style={{ position: "absolute", left: 90, top: 170, fontFamily: SERIF, fontWeight: 800, fontSize: s.tsize ?? 150, color: "#22180c", whiteSpace: "nowrap" }}>{s.title ?? "বরিশাল গানস"}</div>
+      <div style={{ position: "absolute", left: 96, top: 380, fontFamily: SANS, fontWeight: 600, fontSize: 46, color: "#3b2d1a" }}>{s.sub ?? "বাকেরগঞ্জ জেলা · ১৮৬৫–১৯১৮-এর নথি"}</div>
+      <div style={{ position: "absolute", left: 96, top: 450, width: 760, fontFamily: SANS, fontWeight: 500, fontSize: 36, color: "#4a3a22", lineHeight: 1.5 }}>{s.note ?? "দক্ষিণ থেকে আসা কামানের মতো শব্দ। উৎস: অজানা।"}</div>
+      <div style={{ position: "absolute", left: 980, top: 560, transform: `rotate(-12deg) scale(${interpolate(st, [0, 1], [2.2, 1])})`, opacity: interpolate(f, [16, 19], [0, 0.92], clamp), border: `8px solid ${RED}`, color: RED, fontFamily: SANS, fontWeight: 800, fontSize: 84, padding: "4px 30px", borderRadius: 8, mixBlendMode: "multiply", whiteSpace: "nowrap" }}>{s.stamp ?? "তদন্ত চলছে"}</div>
     </div>
   </AbsoluteFill>;
 };
@@ -166,7 +166,7 @@ const Reach: React.FC<{ s: Shot }> = ({ s }) => {
   return <AbsoluteFill style={{ background: "#03060c", overflow: "hidden" }}>
     <div style={{ position: "absolute", left: 0, top: 0, transformOrigin: `${1280}px ${760}px`, transform: `scale(${z})`, width: 2560, height: 1440 }}>
       <Img src={S("geo/bd_tex.jpg")} style={{ position: "absolute", left: ox, top: oy, width: imW * scale, height: imH * scale, filter: "brightness(.62) saturate(.7)" }} />
-      {[0, 1, 2, 3, 4].map((k) => {
+      {(s.rings === false ? [] : [0, 1, 2, 3, 4]).map((k) => {
         const ph = ((f + k * 18) % 90) / 90;
         return <div key={k} style={{ position: "absolute", left: ox + sea.x, top: oy + sea.y, width: 0, height: 0 }}>
           <div style={{ position: "absolute", left: -ph * 1100, top: -ph * 1100, width: ph * 2200, height: ph * 2200, borderRadius: "50%", border: `${3 + 3 * (1 - ph)}px solid rgba(255,120,60,${0.55 * (1 - ph)})` }} />
@@ -275,6 +275,25 @@ const Outro: React.FC<{ s: Shot }> = ({ s }) => {
   </AbsoluteFill>;
 };
 
+// end board: every case file with its verdict
+const Summary: React.FC<{ s: Shot }> = ({ s }) => {
+  const f = useCurrentFrame(); const { fps } = useVideoConfig();
+  const items: { t: string; v: string; at: number; c?: string }[] = s.items;
+  return <AbsoluteFill style={{ background: "radial-gradient(ellipse at 50% 45%, #1d1a16, #050404 75%)" }}>
+    <div style={{ position: "absolute", top: 90, left: 0, right: 0, textAlign: "center", fontFamily: '"STIX", serif', fontSize: 40, color: "rgba(255,255,255,.6)", letterSpacing: 8 }}>CASE FILES · EPISODE 01</div>
+    {items.map((it, i) => {
+      const a = spring({ frame: f - it.at, fps, config: { damping: 15 } });
+      const st = spring({ frame: f - it.at - 12, fps, config: { damping: 9, mass: 0.6 } });
+      const x = 140 + (i % 2) * 1160, y = 220 + Math.floor(i / 2) * 520;
+      return <div key={i} style={{ position: "absolute", left: x, top: y, width: 1100, height: 460, background: "linear-gradient(180deg,#cdb68a,#b89c6c)", borderRadius: 8, boxShadow: "0 30px 90px rgba(0,0,0,.8)", opacity: a, transform: `translateY(${(1 - a) * 80}px) rotate(${(i % 2 ? 1 : -1) * 1.1}deg)` }}>
+        <div style={{ position: "absolute", left: 60, top: 50, fontFamily: '"STIX", serif', fontSize: 30, color: "#3b2d1a", letterSpacing: 5 }}>CASE FILE · 0{i + 1}</div>
+        <div style={{ position: "absolute", left: 60, top: 100, fontFamily: SERIF, fontWeight: 800, fontSize: 92, color: "#22180c", whiteSpace: "nowrap" }}>{it.t}</div>
+        <div style={{ position: "absolute", right: 60, bottom: 50, transform: `rotate(-9deg) scale(${interpolate(st, [0, 1], [2.4, 1])})`, opacity: f >= it.at + 12 ? 0.95 : 0, border: `7px solid ${it.c ?? RED}`, color: it.c ?? RED, fontFamily: SANS, fontWeight: 800, fontSize: 58, padding: "0 30px", borderRadius: 8, mixBlendMode: "multiply", whiteSpace: "nowrap" }}>{it.v}</div>
+      </div>;
+    })}
+  </AbsoluteFill>;
+};
+
 // comment prompt overlay
 const Ask: React.FC<{ s: Shot }> = ({ s }) => {
   const f = useCurrentFrame(); const { fps } = useVideoConfig();
@@ -282,7 +301,7 @@ const Ask: React.FC<{ s: Shot }> = ({ s }) => {
   return <AbsoluteFill>
     <div style={{ position: "absolute", left: 120, top: 200, width: 1250, padding: "38px 46px", background: "rgba(8,10,12,.82)", borderLeft: `8px solid ${AMBER}`, borderRadius: 8, opacity: a, transform: `translateX(${(1 - a) * -60}px)` }}>
       <div style={{ fontFamily: SANS, fontWeight: 700, fontSize: 38, color: AMBER }}>কমেন্টে লিখুন</div>
-      <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 64, color: "#fff", lineHeight: 1.4, marginTop: 8 }}>আপনার এলাকার বয়স্করা কি দক্ষিণ থেকে আসা গুম গুম শব্দের কথা বলেছেন?</div>
+      <div style={{ fontFamily: SERIF, fontWeight: 700, fontSize: 64, color: "#fff", lineHeight: 1.4, marginTop: 8 }}>{s.q ?? "আপনার এলাকার বয়স্করা কি দক্ষিণ থেকে আসা গুম গুম শব্দের কথা বলেছেন?"}</div>
     </div>
   </AbsoluteFill>;
 };
@@ -355,7 +374,7 @@ const Subs: React.FC<{ caps: Cap[] }> = ({ caps }) => {
 const SHOTS: Record<string, React.FC<{ s: Shot; booms: number[] }>> = {
   px: Px, geo: ({ s }) => <Geo s={s} />, doc: ({ s }) => <Doc s={s} />, kin: ({ s }) => <Kin s={s} />, title: ({ s }) => <Title s={s} />,
   chapter: ({ s }) => <Chapter s={s} />, reach: ({ s }) => <Reach s={s} />, triplets: ({ s }) => <Triplets s={s} />, theories: ({ s }) => <Theories s={s} />,
-  cite: ({ s }) => <Cite s={s} />, outro: ({ s }) => <Outro s={s} />, ask: ({ s }) => <Ask s={s} />, chip: ({ s }) => <Chip s={s} />, date: ({ s }) => <DateCard s={s} />,
+  cite: ({ s }) => <Cite s={s} />, summary: ({ s }) => <Summary s={s} />, outro: ({ s }) => <Outro s={s} />, ask: ({ s }) => <Ask s={s} />, chip: ({ s }) => <Chip s={s} />, date: ({ s }) => <DateCard s={s} />,
   flash: ({ s }) => <Flash s={s} />, leak: ({ s }) => <Leak s={s} />, fade: ({ s }) => <Fade s={s} />, black: () => <AbsoluteFill style={{ background: "#000" }} />,
 };
 
